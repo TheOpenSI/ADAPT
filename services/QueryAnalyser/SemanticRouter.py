@@ -1,15 +1,5 @@
-import glob
-import json
-import numpy as np
-import pandas as pd 
-
-import os
-import sys 
-sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
-
-from pathlib import Path
 from sentence_transformers import SentenceTransformer
-from collections import defaultdict
+
 
 
 
