@@ -4,9 +4,9 @@ import time
 import ollama
 
 class QueryAnalyser:
-    def __init__(self,service_desc_path,model):
+    def __init__(self,service_desc_path,model_name):
         self.service_desc_path = service_desc_path
-        self.model = model
+        self.model_name = model_name
         self.services = self._get_service_descriptions() 
 
     def _get_service_descriptions(self):
@@ -16,7 +16,7 @@ class QueryAnalyser:
             raise FileNotFoundError(f"Service description file '{self.service_desc_path}' not found.")
         with open(path, "r") as f:
             data = json.load(f)
-            print(f"[LOADED SERVICES] {data}")
+            # print(f"[LOADED SERVICES] {data}")
             return data
 
     def _get_system_prompt(self):
@@ -40,14 +40,14 @@ class QueryAnalyser:
             f"Query: \"{query}\"\n\n"
             "Which service should handle this query?"
             )
-        print(f"[USER MESSAGE SENT TO MODEL]\n{message}\n")
+        # print(f"[USER MESSAGE SENT TO MODEL]\n{message}\n")
         return message
 
 
     def route(self, query):
         start = time.perf_counter()
         response = ollama.chat(
-            model = self.model,
+            model = self.model_name,
             messages = [
                 {"role": "system", "content": self._get_system_prompt()},
                 {"role": "user", "content": self._build_user_message(query)},])
@@ -59,16 +59,16 @@ class QueryAnalyser:
         return {
             "query": query,
             "predicted_label": predicted_label,
-            "model": self.model, 
+            "model_name": self.model_name, 
             "latency_ms": latency_ms,
             "prompt_tokens": prompt_tokens,
             "completion_tokens": completion_tokens,
             "total_tokens": prompt_tokens + completion_tokens,
         }
 
-if __name__ == "__main__":
-    analyser = QueryAnalyser(service_desc_path="../../data/services_desc.json", model="qwen2.5:7b")
-    result = analyser.route("Find the index of <p> in S_5.")
-    print(result)
+# if __name__ == "__main__":
+#     analyser = QueryAnalyser(service_desc_path="../../data/services_desc.json", model="qwen2.5:7b")
+#     result = analyser.route("Find the index of <p> in S_5.")
+#     print(result)
 
 
