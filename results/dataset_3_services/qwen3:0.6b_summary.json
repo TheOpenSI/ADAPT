@@ -1,0 +1,266 @@
+{
+  "correct_count": 280,
+  "total": 384,
+  "accuracy": 0.7291666666666666,
+  "avg_latency_ms": 2766.0836706145346,
+  "avg_tokens": 919.3333333333334,
+  "classification_report": {
+    "A service $name$  \nA. service abstract_algebra  \nB. service abstract_algebra  \nC. service abstract_algebra  \nD. service abstract_algebra": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "A service $name$ should handle this query. The service $name$ must be the most specific and direct match for the query. The query involves statements about homomorphisms and their properties. The first statement refers to a homomorphism having an empty kernel, which is a concept in abstract algebra. The second statement about nontrivial homomorphisms into an infinite group is a general principle, which is supported by algebraic structures. Therefore, the correct service is $abstract_algebra$. \n\nA. service $name$ is the best suited to handle this query. \n\nAnswer: A. service $name$": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "A service $name$, where $name$ is the exact name given for that service.  \nA. True, True": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "A. True, True": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "B. False, False": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "C": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "C. True, False": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "D": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "D. an equivalence relation": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "None of the provided services directly address the query about impact craters. However, if we must choose based on the given options, the most plausible answer would be:  \n**service A**.": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "None of the provided services handle the query about Earth's magnetic field strength.": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "None of the services provided are suitable for handling the query about weight on the moon.": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "a. They will be unable to breathe without life support.": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "abstract_algebra": {
+      "precision": 0.975609756097561,
+      "recall": 0.40404040404040403,
+      "f1-score": 0.5714285714285714,
+      "support": 99.0
+    },
+    "abstract_algebra service $name": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "anatomy": {
+      "precision": 1.0,
+      "recall": 0.8432835820895522,
+      "f1-score": 0.9149797570850202,
+      "support": 134.0
+    },
+    "astronomy": {
+      "precision": 1.0,
+      "recall": 0.8410596026490066,
+      "f1-score": 0.9136690647482014,
+      "support": 151.0
+    },
+    "astronomy $name": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "astronomy service $name": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "geology": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "saliva": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service $name": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service $name\" service $name\" service $name\" service $name\"": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service $name\"service\" service \"abstract_algebra\"": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service $name$": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service 2": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service A": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service C": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service D": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service D. 105": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service D. Spleen": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service Pernicious anemia": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service abstract_algebra": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service anatomy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service astronomy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "service none_of_the_services_applies": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "synapse": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "accuracy": 0.7291666666666666,
+    "macro avg": {
+      "precision": 0.08042188529993408,
+      "recall": 0.056442799696728725,
+      "f1-score": 0.06486695657464306,
+      "support": 384.0
+    },
+    "weighted avg": {
+      "precision": 0.9937118902439024,
+      "recall": 0.7291666666666666,
+      "f1-score": 0.8258925645776034,
+      "support": 384.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      40,
+      0,
+      0
+    ],
+    [
+      0,
+      113,
+      0
+    ],
+    [
+      1,
+      0,
+      127
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "abstract_algebra",
+    "anatomy",
+    "astronomy"
+  ]
+}

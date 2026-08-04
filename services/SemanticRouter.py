@@ -7,11 +7,19 @@ from sentence_transformers import SentenceTransformer
 
 class SemanticRouter:
     def __init__(self,service_desc_path,model_name):
-        self.service_desc_path = service_desc_path
+        print(f"[SemanticRouter] Loading embedding model '{model_name}'... (this may take a while on first run)")
+     
         self.model = SentenceTransformer(model_name) 
+        print(f"[SemanticRouter] Model loaded.")
+
         self.model_name = model_name
+        self.service_desc_path = service_desc_path
         self.services = self._get_service_descriptions() 
+        print(f"[SemanticRouter] Loaded {len(self.services)} services.")
+
+        print(f"[SemanticRouter] Building service embeddings...")
         self.service_embeddings = self._build_service_embeddings()
+        print(f"[SemanticRouter] Ready to route.")
 
     def _get_service_descriptions(self):
         # change service_desc_path from string to path
@@ -43,7 +51,6 @@ class SemanticRouter:
         for name, vec in self.service_embeddings.items():
             score = self._cosine_similarity(q_vec, vec)
             scores[name] = score
-            print(scores) 
 
         latency_ms = (time.perf_counter() - start) * 1000
         predicted_label = max(scores, key=scores.get)

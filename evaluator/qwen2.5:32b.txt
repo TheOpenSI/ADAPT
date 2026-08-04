@@ -1,0 +1,408 @@
+[QueryAnalyser] Loading service descriptions from ../data/services_desc.json...
+[QueryAnalyser] Loaded 3 services: ['abstract_algebra', 'anatomy', 'astronomy']
+[QueryAnalyser] Ready to route using model: qwen2.5:32b
+
+============================================================
+Starting evaluation: QueryAnalyser on ../data/dataset_3_services.csv
+Total rows to process: 384
+============================================================
+
+[1/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=1009.2ms
+[2/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=609.8ms
+[3/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=544.7ms
+[4/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=528.9ms
+[5/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=657.3ms
+[6/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=538.7ms
+[7/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=522.9ms
+[8/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=493.2ms
+[9/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=514.5ms
+[10/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=536.3ms
+[11/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=486.5ms
+[12/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=423.9ms
+[13/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=682.6ms
+[14/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=496.9ms
+[15/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=517.4ms
+[16/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=364.1ms
+[17/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=521.7ms
+[18/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=503.0ms
+[19/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=554.8ms
+[20/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=613.1ms
+[21/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=631.0ms
+[22/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=458.0ms
+[23/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=658.9ms
+[24/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=520.7ms
+[25/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=510.5ms
+[26/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=533.3ms
+[27/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=500.5ms
+[28/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=549.3ms
+[29/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=504.1ms
+[30/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=447.0ms
+[31/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=624.1ms
+[32/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=514.1ms
+[33/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=513.8ms
+[34/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=411.3ms
+[35/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=513.4ms
+[36/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=509.2ms
+[37/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=388.7ms
+[38/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=460.7ms
+[39/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=516.7ms
+[40/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=516.3ms
+[41/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=394.1ms
+[42/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=578.4ms
+[43/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=499.1ms
+[44/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=531.2ms
+[45/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=462.0ms
+[46/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=656.8ms
+[47/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=501.7ms
+[48/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=581.7ms
+[49/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=499.6ms
+[50/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=398.7ms
+[51/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=507.1ms
+[52/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=503.0ms
+[53/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=559.3ms
+[54/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=513.9ms
+[55/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=400.2ms
+[56/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=580.0ms
+[57/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=435.7ms
+[58/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=526.7ms
+[59/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=532.7ms
+[60/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=557.9ms
+[61/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=545.4ms
+[62/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=537.5ms
+[63/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=415.3ms
+[64/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=608.0ms
+[65/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=539.3ms
+[66/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=527.8ms
+[67/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=525.0ms
+[68/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=388.3ms
+[69/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=604.7ms
+[70/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=517.3ms
+[71/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=511.2ms
+[72/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=455.7ms
+[73/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=504.3ms
+[74/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=535.7ms
+[75/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=532.9ms
+[76/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=406.6ms
+[77/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=544.6ms
+[78/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=562.0ms
+[79/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=544.5ms
+[80/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=471.7ms
+[81/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=647.9ms
+[82/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=536.0ms
+[83/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=563.4ms
+[84/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=512.2ms
+[85/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=586.3ms
+[86/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=555.5ms
+[87/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=463.9ms
+[88/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=635.4ms
+[89/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=516.5ms
+[90/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=488.8ms
+[91/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=583.8ms
+[92/384] predicted=abstract_algebra expected=abstract_algebra ✓ latency=505.7ms
+[93/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=434.8ms
+[94/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=606.5ms
+[95/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=559.7ms
+[96/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=418.2ms
+[97/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=547.7ms
+[98/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=512.6ms
+[99/384] predicted=service abstract_algebra expected=abstract_algebra ✗ latency=400.6ms
+[100/384] predicted=anatomy expected=anatomy ✓ latency=554.6ms
+[101/384] predicted=anatomy expected=anatomy ✓ latency=416.4ms
+[102/384] predicted=service anatomy expected=anatomy ✗ latency=396.0ms
+[103/384] predicted=anatomy expected=anatomy ✓ latency=456.5ms
+[104/384] predicted=anatomy expected=anatomy ✓ latency=462.9ms
+[105/384] predicted=anatomy expected=anatomy ✓ latency=333.9ms
+[106/384] predicted=anatomy expected=anatomy ✓ latency=512.5ms
+[107/384] predicted=service anatomy expected=anatomy ✗ latency=419.9ms
+[108/384] predicted=anatomy expected=anatomy ✓ latency=437.6ms
+[109/384] predicted=anatomy expected=anatomy ✓ latency=455.0ms
+[110/384] predicted=anatomy expected=anatomy ✓ latency=593.6ms
+[111/384] predicted=anatomy expected=anatomy ✓ latency=478.4ms
+[112/384] predicted=anatomy expected=anatomy ✓ latency=551.8ms
+[113/384] predicted=anatomy expected=anatomy ✓ latency=475.6ms
+[114/384] predicted=anatomy expected=anatomy ✓ latency=447.1ms
+[115/384] predicted=service anatomy expected=anatomy ✗ latency=434.8ms
+[116/384] predicted=anatomy expected=anatomy ✓ latency=402.3ms
+[117/384] predicted=anatomy expected=anatomy ✓ latency=452.5ms
+[118/384] predicted=anatomy expected=anatomy ✓ latency=329.4ms
+[119/384] predicted=anatomy expected=anatomy ✓ latency=497.2ms
+[120/384] predicted=anatomy expected=anatomy ✓ latency=420.7ms
+[121/384] predicted=anatomy expected=anatomy ✓ latency=424.0ms
+[122/384] predicted=anatomy expected=anatomy ✓ latency=394.3ms
+[123/384] predicted=anatomy expected=anatomy ✓ latency=447.0ms
+[124/384] predicted=anatomy expected=anatomy ✓ latency=420.3ms
+[125/384] predicted=anatomy expected=anatomy ✓ latency=356.1ms
+[126/384] predicted=anatomy expected=anatomy ✓ latency=525.3ms
+[127/384] predicted=anatomy expected=anatomy ✓ latency=416.9ms
+[128/384] predicted=service anatomy expected=anatomy ✗ latency=566.4ms
+[129/384] predicted=anatomy expected=anatomy ✓ latency=375.8ms
+[130/384] predicted=anatomy expected=anatomy ✓ latency=522.8ms
+[131/384] predicted=anatomy expected=anatomy ✓ latency=430.1ms
+[132/384] predicted=anatomy expected=anatomy ✓ latency=409.1ms
+[133/384] predicted=anatomy expected=anatomy ✓ latency=485.0ms
+[134/384] predicted=anatomy expected=anatomy ✓ latency=466.2ms
+[135/384] predicted=anatomy expected=anatomy ✓ latency=328.3ms
+[136/384] predicted=anatomy expected=anatomy ✓ latency=519.7ms
+[137/384] predicted=service anatomy expected=anatomy ✗ latency=439.2ms
+[138/384] predicted=anatomy expected=anatomy ✓ latency=468.7ms
+[139/384] predicted=anatomy expected=anatomy ✓ latency=409.1ms
+[140/384] predicted=service anatomy expected=anatomy ✗ latency=519.0ms
+[141/384] predicted=anatomy expected=anatomy ✓ latency=440.6ms
+[142/384] predicted=anatomy expected=anatomy ✓ latency=481.6ms
+[143/384] predicted=service anatomy expected=anatomy ✗ latency=451.8ms
+[144/384] predicted=anatomy expected=anatomy ✓ latency=457.0ms
+[145/384] predicted=anatomy expected=anatomy ✓ latency=445.6ms
+[146/384] predicted=anatomy expected=anatomy ✓ latency=402.7ms
+[147/384] predicted=anatomy expected=anatomy ✓ latency=335.2ms
+[148/384] predicted=service anatomy expected=anatomy ✗ latency=639.5ms
+[149/384] predicted=service anatomy expected=anatomy ✗ latency=466.3ms
+[150/384] predicted=anatomy expected=anatomy ✓ latency=417.1ms
+[151/384] predicted=anatomy expected=anatomy ✓ latency=455.9ms
+[152/384] predicted=anatomy expected=anatomy ✓ latency=318.5ms
+[153/384] predicted=service anatomy expected=anatomy ✗ latency=475.1ms
+[154/384] predicted=service anatomy expected=anatomy ✗ latency=402.7ms
+[155/384] predicted=anatomy expected=anatomy ✓ latency=492.5ms
+[156/384] predicted=anatomy expected=anatomy ✓ latency=463.8ms
+[157/384] predicted=anatomy expected=anatomy ✓ latency=324.8ms
+[158/384] predicted=service anatomy expected=anatomy ✗ latency=446.2ms
+[159/384] predicted=anatomy expected=anatomy ✓ latency=422.7ms
+[160/384] predicted=anatomy expected=anatomy ✓ latency=475.2ms
+[161/384] predicted=anatomy expected=anatomy ✓ latency=454.6ms
+[162/384] predicted=anatomy expected=anatomy ✓ latency=414.8ms
+[163/384] predicted=anatomy expected=anatomy ✓ latency=438.5ms
+[164/384] predicted=service anatomy expected=anatomy ✗ latency=472.3ms
+[165/384] predicted=service anatomy expected=anatomy ✗ latency=348.8ms
+[166/384] predicted=service anatomy expected=anatomy ✗ latency=531.1ms
+[167/384] predicted=anatomy expected=anatomy ✓ latency=486.5ms
+[168/384] predicted=anatomy expected=anatomy ✓ latency=470.8ms
+[169/384] predicted=anatomy expected=anatomy ✓ latency=496.8ms
+[170/384] predicted=anatomy expected=anatomy ✓ latency=423.5ms
+[171/384] predicted=anatomy expected=anatomy ✓ latency=473.3ms
+[172/384] predicted=anatomy expected=anatomy ✓ latency=514.5ms
+[173/384] predicted=anatomy expected=anatomy ✓ latency=446.9ms
+[174/384] predicted=anatomy expected=anatomy ✓ latency=455.3ms
+[175/384] predicted=anatomy expected=anatomy ✓ latency=366.5ms
+[176/384] predicted=anatomy expected=anatomy ✓ latency=602.5ms
+[177/384] predicted=anatomy expected=anatomy ✓ latency=425.0ms
+[178/384] predicted=anatomy expected=anatomy ✓ latency=460.9ms
+[179/384] predicted=anatomy expected=anatomy ✓ latency=433.9ms
+[180/384] predicted=anatomy expected=anatomy ✓ latency=516.2ms
+[181/384] predicted=anatomy expected=anatomy ✓ latency=440.5ms
+[182/384] predicted=service anatomy expected=anatomy ✗ latency=420.6ms
+[183/384] predicted=anatomy expected=anatomy ✓ latency=357.2ms
+[184/384] predicted=anatomy expected=anatomy ✓ latency=522.3ms
+[185/384] predicted=anatomy expected=anatomy ✓ latency=533.6ms
+[186/384] predicted=anatomy expected=anatomy ✓ latency=425.0ms
+[187/384] predicted=anatomy expected=anatomy ✓ latency=373.9ms
+[188/384] predicted=anatomy expected=anatomy ✓ latency=404.9ms
+[189/384] predicted=anatomy expected=anatomy ✓ latency=439.0ms
+[190/384] predicted=None of the provided services are appropriate for handling a query about dental plaque accumulation, as none of them cover oral anatomy or hygiene in any form. Therefore, no suitable service can be selected from the given list to accurately answer the question. However, following the instruction strictly without explaining:
+
+None expected=anatomy ✗ latency=2788.1ms
+[191/384] predicted=anatomy expected=anatomy ✓ latency=529.5ms
+[192/384] predicted=service anatomy expected=anatomy ✗ latency=457.4ms
+[193/384] predicted=anatomy expected=anatomy ✓ latency=422.7ms
+[194/384] predicted=service anatomy expected=anatomy ✗ latency=347.9ms
+[195/384] predicted=anatomy expected=anatomy ✓ latency=528.7ms
+[196/384] predicted=anatomy expected=anatomy ✓ latency=593.7ms
+[197/384] predicted=anatomy expected=anatomy ✓ latency=432.3ms
+[198/384] predicted=service anatomy expected=anatomy ✗ latency=460.3ms
+[199/384] predicted=anatomy expected=anatomy ✓ latency=428.0ms
+[200/384] predicted=service anatomy expected=anatomy ✗ latency=420.4ms
+[201/384] predicted=anatomy expected=anatomy ✓ latency=472.9ms
+[202/384] predicted=anatomy expected=anatomy ✓ latency=439.5ms
+[203/384] predicted=service anatomy expected=anatomy ✗ latency=474.5ms
+[204/384] predicted=anatomy expected=anatomy ✓ latency=472.4ms
+[205/384] predicted=anatomy expected=anatomy ✓ latency=326.7ms
+[206/384] predicted=anatomy expected=anatomy ✓ latency=449.0ms
+[207/384] predicted=service anatomy expected=anatomy ✗ latency=420.0ms
+[208/384] predicted=anatomy expected=anatomy ✓ latency=451.7ms
+[209/384] predicted=anatomy expected=anatomy ✓ latency=552.8ms
+[210/384] predicted=service anatomy expected=anatomy ✗ latency=460.3ms
+[211/384] predicted=None of the provided services are suitable to handle this query as none cover disease diagnosis or disorders like narcolepsy. The closest service, 'anatomy', does not extend to specific diseases or clinical conditions but rather focuses on anatomical structures and normal physiological functions. Therefore, based on the available options, no service can be accurately selected for this query. expected=anatomy ✗ latency=3320.9ms
+[212/384] predicted=service anatomy expected=anatomy ✗ latency=434.3ms
+[213/384] predicted=anatomy expected=anatomy ✓ latency=434.2ms
+[214/384] predicted=service anatomy expected=anatomy ✗ latency=419.0ms
+[215/384] predicted=anatomy expected=anatomy ✓ latency=347.5ms
+[216/384] predicted=anatomy expected=anatomy ✓ latency=454.8ms
+[217/384] predicted=anatomy expected=anatomy ✓ latency=439.9ms
+[218/384] predicted=anatomy expected=anatomy ✓ latency=485.3ms
+[219/384] predicted=anatomy expected=anatomy ✓ latency=421.1ms
+[220/384] predicted=anatomy expected=anatomy ✓ latency=436.8ms
+[221/384] predicted=anatomy expected=anatomy ✓ latency=416.7ms
+[222/384] predicted=service anatomy expected=anatomy ✗ latency=417.6ms
+[223/384] predicted=anatomy expected=anatomy ✓ latency=422.8ms
+[224/384] predicted=anatomy expected=anatomy ✓ latency=426.8ms
+[225/384] predicted=service anatomy expected=anatomy ✗ latency=501.7ms
+[226/384] predicted=anatomy expected=anatomy ✓ latency=395.3ms
+[227/384] predicted=anatomy expected=anatomy ✓ latency=400.1ms
+[228/384] predicted=anatomy expected=anatomy ✓ latency=420.9ms
+[229/384] predicted=anatomy expected=anatomy ✓ latency=348.8ms
+[230/384] predicted=anatomy expected=anatomy ✓ latency=347.8ms
+[231/384] predicted=anatomy expected=anatomy ✓ latency=568.6ms
+[232/384] predicted=anatomy expected=anatomy ✓ latency=508.8ms
+[233/384] predicted=anatomy expected=anatomy ✓ latency=555.8ms
+[234/384] predicted=astronomy expected=astronomy ✓ latency=525.8ms
+[235/384] predicted=astronomy expected=astronomy ✓ latency=551.9ms
+[236/384] predicted=astronomy expected=astronomy ✓ latency=583.1ms
+[237/384] predicted=astronomy expected=astronomy ✓ latency=555.3ms
+[238/384] predicted=astronomy expected=astronomy ✓ latency=591.0ms
+[239/384] predicted=astronomy expected=astronomy ✓ latency=693.2ms
+[240/384] predicted=astronomy expected=astronomy ✓ latency=601.9ms
+[241/384] predicted=astronomy expected=astronomy ✓ latency=486.7ms
+[242/384] predicted=astronomy expected=astronomy ✓ latency=765.9ms
+[243/384] predicted=astronomy expected=astronomy ✓ latency=600.4ms
+[244/384] predicted=astronomy expected=astronomy ✓ latency=585.8ms
+[245/384] predicted=astronomy expected=astronomy ✓ latency=539.3ms
+[246/384] predicted=astronomy expected=astronomy ✓ latency=568.0ms
+[247/384] predicted=astronomy expected=astronomy ✓ latency=531.1ms
+[248/384] predicted=astronomy expected=astronomy ✓ latency=503.3ms
+[249/384] predicted=astronomy expected=astronomy ✓ latency=556.5ms
+[250/384] predicted=astronomy expected=astronomy ✓ latency=612.9ms
+[251/384] predicted=astronomy expected=astronomy ✓ latency=518.0ms
+[252/384] predicted=astronomy expected=astronomy ✓ latency=598.6ms
+[253/384] predicted=astronomy expected=astronomy ✓ latency=548.6ms
+[254/384] predicted=astronomy expected=astronomy ✓ latency=594.5ms
+[255/384] predicted=astronomy expected=astronomy ✓ latency=587.9ms
+[256/384] predicted=astronomy expected=astronomy ✓ latency=489.1ms
+[257/384] predicted=astronomy expected=astronomy ✓ latency=445.8ms
+[258/384] predicted=astronomy expected=astronomy ✓ latency=409.8ms
+[259/384] predicted=astronomy expected=astronomy ✓ latency=445.4ms
+[260/384] predicted=astronomy expected=astronomy ✓ latency=467.7ms
+[261/384] predicted=astronomy expected=astronomy ✓ latency=460.4ms
+[262/384] predicted=astronomy expected=astronomy ✓ latency=467.7ms
+[263/384] predicted=astronomy expected=astronomy ✓ latency=584.1ms
+[264/384] predicted=astronomy expected=astronomy ✓ latency=449.4ms
+[265/384] predicted=astronomy expected=astronomy ✓ latency=423.9ms
+[266/384] predicted=astronomy expected=astronomy ✓ latency=427.0ms
+[267/384] predicted=astronomy expected=astronomy ✓ latency=474.1ms
+[268/384] predicted=astronomy expected=astronomy ✓ latency=366.4ms
+[269/384] predicted=astronomy expected=astronomy ✓ latency=336.7ms
+[270/384] predicted=astronomy expected=astronomy ✓ latency=424.1ms
+[271/384] predicted=astronomy expected=astronomy ✓ latency=509.1ms
+[272/384] predicted=astronomy expected=astronomy ✓ latency=452.7ms
+[273/384] predicted=astronomy expected=astronomy ✓ latency=648.4ms
+[274/384] predicted=astronomy expected=astronomy ✓ latency=487.0ms
+[275/384] predicted=astronomy expected=astronomy ✓ latency=426.2ms
+[276/384] predicted=astronomy expected=astronomy ✓ latency=607.6ms
+[277/384] predicted=astronomy expected=astronomy ✓ latency=517.1ms
+[278/384] predicted=astronomy expected=astronomy ✓ latency=477.0ms
+[279/384] predicted=astronomy expected=astronomy ✓ latency=443.3ms
+[280/384] predicted=astronomy expected=astronomy ✓ latency=559.8ms
+[281/384] predicted=astronomy expected=astronomy ✓ latency=514.8ms
+[282/384] predicted=None of the provided services are appropriate for handling a query about the greenhouse effect, as it pertains to Earth's atmospheric physics, which is not covered by abstract_algebra, anatomy, or astronomy. However, based on the rules and given options, none match appropriately. expected=astronomy ✗ latency=2808.7ms
+[283/384] predicted=astronomy expected=astronomy ✓ latency=514.7ms
+[284/384] predicted=astronomy expected=astronomy ✓ latency=510.5ms
+[285/384] predicted=astronomy expected=astronomy ✓ latency=457.6ms
+[286/384] predicted=astronomy expected=astronomy ✓ latency=340.0ms
+[287/384] predicted=astronomy expected=astronomy ✓ latency=531.6ms
+[288/384] predicted=astronomy expected=astronomy ✓ latency=610.4ms
+[289/384] predicted=astronomy expected=astronomy ✓ latency=413.8ms
+[290/384] predicted=astronomy expected=astronomy ✓ latency=522.9ms
+[291/384] predicted=astronomy expected=astronomy ✓ latency=448.1ms
+[292/384] predicted=astronomy expected=astronomy ✓ latency=484.3ms
+[293/384] predicted=astronomy expected=astronomy ✓ latency=372.5ms
+[294/384] predicted=astronomy expected=astronomy ✓ latency=517.7ms
+[295/384] predicted=astronomy expected=astronomy ✓ latency=488.0ms
+[296/384] predicted=astronomy expected=astronomy ✓ latency=442.1ms
+[297/384] predicted=astronomy expected=astronomy ✓ latency=524.1ms
+[298/384] predicted=astronomy expected=astronomy ✓ latency=496.7ms
+[299/384] predicted=astronomy expected=astronomy ✓ latency=463.1ms
+[300/384] predicted=astronomy expected=astronomy ✓ latency=412.2ms
+[301/384] predicted=astronomy expected=astronomy ✓ latency=469.5ms
+[302/384] predicted=abstract_algebra expected=astronomy ✗ latency=519.4ms
+[303/384] predicted=astronomy expected=astronomy ✓ latency=480.7ms
+[304/384] predicted=astronomy expected=astronomy ✓ latency=363.0ms
+[305/384] predicted=astronomy expected=astronomy ✓ latency=453.7ms
+[306/384] predicted=astronomy expected=astronomy ✓ latency=448.2ms
+[307/384] predicted=astronomy expected=astronomy ✓ latency=443.1ms
+[308/384] predicted=anatomy expected=astronomy ✗ latency=397.0ms
+[309/384] predicted=astronomy expected=astronomy ✓ latency=529.3ms
+[310/384] predicted=astronomy expected=astronomy ✓ latency=428.8ms
+[311/384] predicted=astronomy expected=astronomy ✓ latency=466.2ms
+[312/384] predicted=astronomy expected=astronomy ✓ latency=316.8ms
+[313/384] predicted=None of the provided services are suitable for handling a query about the Boltzmann constant, which is more related to thermodynamics and statistical mechanics, typically covered in physics. Since no appropriate service is listed, there's no correct choice among 'service abstract_algebra', 'service anatomy', or 'service astronomy'. expected=astronomy ✗ latency=2983.9ms
+[314/384] predicted=astronomy expected=astronomy ✓ latency=613.3ms
+[315/384] predicted=None of the provided services are suitable for handling this query as it pertains to climate science and environmental issues, which are not covered by abstract algebra, anatomy, or astronomy. expected=astronomy ✗ latency=1924.5ms
+[316/384] predicted=astronomy expected=astronomy ✓ latency=394.6ms
+[317/384] predicted=astronomy expected=astronomy ✓ latency=434.4ms
+[318/384] predicted=astronomy expected=astronomy ✓ latency=531.8ms
+[319/384] predicted=astronomy expected=astronomy ✓ latency=442.9ms
+[320/384] predicted=astronomy expected=astronomy ✓ latency=418.4ms
+[321/384] predicted=astronomy expected=astronomy ✓ latency=470.8ms
+[322/384] predicted=astronomy expected=astronomy ✓ latency=435.3ms
+[323/384] predicted=astronomy expected=astronomy ✓ latency=473.1ms
+[324/384] predicted=astronomy expected=astronomy ✓ latency=498.8ms
+[325/384] predicted=astronomy expected=astronomy ✓ latency=482.2ms
+[326/384] predicted=astronomy expected=astronomy ✓ latency=469.9ms
+[327/384] predicted=astronomy expected=astronomy ✓ latency=483.5ms
+[328/384] predicted=astronomy expected=astronomy ✓ latency=453.5ms
+[329/384] predicted=astronomy expected=astronomy ✓ latency=427.4ms
+[330/384] predicted=astronomy expected=astronomy ✓ latency=444.3ms
+[331/384] predicted=astronomy expected=astronomy ✓ latency=440.0ms
+[332/384] predicted=astronomy expected=astronomy ✓ latency=372.7ms
+[333/384] predicted=astronomy expected=astronomy ✓ latency=535.0ms
+[334/384] predicted=anatomy expected=astronomy ✗ latency=415.4ms
+[335/384] predicted=astronomy expected=astronomy ✓ latency=426.8ms
+[336/384] predicted=astronomy expected=astronomy ✓ latency=427.5ms
+[337/384] predicted=astronomy expected=astronomy ✓ latency=463.5ms
+[338/384] predicted=astronomy expected=astronomy ✓ latency=312.8ms
+[339/384] predicted=astronomy expected=astronomy ✓ latency=488.7ms
+[340/384] predicted=astronomy expected=astronomy ✓ latency=422.8ms
+[341/384] predicted=astronomy expected=astronomy ✓ latency=437.4ms
+[342/384] predicted=astronomy expected=astronomy ✓ latency=501.0ms
+[343/384] predicted=astronomy expected=astronomy ✓ latency=332.1ms
+[344/384] predicted=astronomy expected=astronomy ✓ latency=464.2ms
+[345/384] predicted=astronomy expected=astronomy ✓ latency=464.2ms
+[346/384] predicted=astronomy expected=astronomy ✓ latency=481.6ms
+[347/384] predicted=astronomy expected=astronomy ✓ latency=511.5ms
+[348/384] predicted=astronomy expected=astronomy ✓ latency=411.3ms
+[349/384] predicted=astronomy expected=astronomy ✓ latency=609.9ms
+[350/384] predicted=None of the provided services are suitable for handling this query as none cover topics related to the greenhouse effect or Earth's atmospheric processes. However, since I must choose one and based on proximity to relevant physical phenomena, "astronomy" might be the closest due to its coverage of celestial bodies and their properties, even though it does not specifically address Earth-based atmospheric processes. 
+
+As per instruction to only provide the service name in exact form if applicable or say "None of the above," my response is:
+
+None of the above expected=astronomy ✗ latency=4877.6ms
+[351/384] predicted=astronomy expected=astronomy ✓ latency=592.1ms
+[352/384] predicted=astronomy expected=astronomy ✓ latency=473.9ms
+[353/384] predicted=astronomy expected=astronomy ✓ latency=506.0ms
+[354/384] predicted=astronomy expected=astronomy ✓ latency=354.8ms
+[355/384] predicted=astronomy expected=astronomy ✓ latency=459.4ms
+[356/384] predicted=astronomy expected=astronomy ✓ latency=424.5ms
+[357/384] predicted=astronomy expected=astronomy ✓ latency=423.9ms
+[358/384] predicted=astronomy expected=astronomy ✓ latency=427.7ms
+[359/384] predicted=astronomy expected=astronomy ✓ latency=529.2ms
+[360/384] predicted=astronomy expected=astronomy ✓ latency=437.7ms
+[361/384] predicted=astronomy expected=astronomy ✓ latency=476.7ms
+[362/384] predicted=astronomy expected=astronomy ✓ latency=450.7ms
+[363/384] predicted=astronomy expected=astronomy ✓ latency=581.6ms
+[364/384] predicted=astronomy expected=astronomy ✓ latency=484.1ms
+[365/384] predicted=astronomy expected=astronomy ✓ latency=508.8ms
+[366/384] predicted=astronomy expected=astronomy ✓ latency=427.1ms
+[367/384] predicted=astronomy expected=astronomy ✓ latency=515.3ms
+[368/384] predicted=astronomy expected=astronomy ✓ latency=453.7ms
+[369/384] predicted=astronomy expected=astronomy ✓ latency=426.5ms
+[370/384] predicted=astronomy expected=astronomy ✓ latency=433.1ms
+[371/384] predicted=astronomy expected=astronomy ✓ latency=390.7ms
+[372/384] predicted=astronomy expected=astronomy ✓ latency=366.1ms
+[373/384] predicted=astronomy expected=astronomy ✓ latency=464.8ms
+[374/384] predicted=astronomy expected=astronomy ✓ latency=494.6ms
+[375/384] predicted=astronomy expected=astronomy ✓ latency=435.5ms
+[376/384] predicted=astronomy expected=astronomy ✓ latency=457.2ms
+[377/384] predicted=astronomy expected=astronomy ✓ latency=354.8ms
+[378/384] predicted=astronomy expected=astronomy ✓ latency=436.0ms
+[379/384] predicted=astronomy expected=astronomy ✓ latency=455.3ms
+[380/384] predicted=astronomy expected=astronomy ✓ latency=420.9ms
+[381/384] predicted=astronomy expected=astronomy ✓ latency=438.2ms
+[382/384] predicted=astronomy expected=astronomy ✓ latency=363.0ms
+[383/384] predicted=astronomy expected=astronomy ✓ latency=471.9ms
+[384/384] predicted=astronomy expected=astronomy ✓ latency=464.4ms
+saved: ../results/dataset_3_services/qwen2.5:32b.json
+saved: ../results/dataset_3_services/qwen2.5:32b.csv
+saved summary: ../results/dataset_3_services/qwen2.5:32b_summary.json
+
+============================================================
+DONE — accuracy: 0.688
+============================================================
+
+{'correct_count': 264, 'total': 384, 'accuracy': 0.6875, 'avg_latency_ms': np.float64(521.1281363881426), 'avg_tokens': np.float64(481.734375), 'classification_report': {'None of the provided services are appropriate for handling a query about dental plaque accumulation, as none of them cover oral anatomy or hygiene in any form. Therefore, no suitable service can be selected from the given list to accurately answer the question. However, following the instruction strictly without explaining:\n\nNone': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, "None of the provided services are appropriate for handling a query about the greenhouse effect, as it pertains to Earth's atmospheric physics, which is not covered by abstract_algebra, anatomy, or astronomy. However, based on the rules and given options, none match appropriately.": {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, "None of the provided services are suitable for handling a query about the Boltzmann constant, which is more related to thermodynamics and statistical mechanics, typically covered in physics. Since no appropriate service is listed, there's no correct choice among 'service abstract_algebra', 'service anatomy', or 'service astronomy'.": {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'None of the provided services are suitable for handling this query as it pertains to climate science and environmental issues, which are not covered by abstract algebra, anatomy, or astronomy.': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'None of the provided services are suitable for handling this query as none cover topics related to the greenhouse effect or Earth\'s atmospheric processes. However, since I must choose one and based on proximity to relevant physical phenomena, "astronomy" might be the closest due to its coverage of celestial bodies and their properties, even though it does not specifically address Earth-based atmospheric processes. \n\nAs per instruction to only provide the service name in exact form if applicable or say "None of the above," my response is:\n\nNone of the above': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, "None of the provided services are suitable to handle this query as none cover disease diagnosis or disorders like narcolepsy. The closest service, 'anatomy', does not extend to specific diseases or clinical conditions but rather focuses on anatomical structures and normal physiological functions. Therefore, based on the available options, no service can be accurately selected for this query.": {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'abstract_algebra': {'precision': 0.9375, 'recall': 0.15151515151515152, 'f1-score': 0.2608695652173913, 'support': 99.0}, 'anatomy': {'precision': 0.9813084112149533, 'recall': 0.7835820895522388, 'f1-score': 0.8713692946058091, 'support': 134.0}, 'astronomy': {'precision': 1.0, 'recall': 0.9536423841059603, 'f1-score': 0.976271186440678, 'support': 151.0}, 'service abstract_algebra': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'service anatomy': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 0.0}, 'accuracy': 0.6875, 'macro avg': {'precision': 0.26534621920135937, 'recall': 0.1717036022884864, 'f1-score': 0.1916827314785344, 'support': 384.0}, 'weighted avg': {'precision': 0.9773641330802181, 'recall': 0.6875, 'f1-score': 0.75522531663084, 'support': 384.0}}, 'confusion_matrix': [[15, 0, 0], [0, 105, 0], [1, 2, 144]], 'confusion_matrix_labels': ['abstract_algebra', 'anatomy', 'astronomy']}

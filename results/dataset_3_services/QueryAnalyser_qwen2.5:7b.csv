@@ -1,4 +1,0 @@
-query,predicted_label,model_name,latency_ms,prompt_tokens,completion_tokens,total_tokens,expected_service,is_correct
-"Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5.?    A. 8    B. 2    C. 24    D. 120",abstract_algebra,qwen2.5:7b,248.44700598623604,336,4,340,abstract_algebra,True
-"Find all zeros in the indicated finite field of the given polynomial with coefficients in that field. x^5 + 3x^3 + x^2 + 2x in Z_5?    A. 0    B. 1    C. 0,1    D. 0,4",abstract_algebra,qwen2.5:7b,345.90806998312473,340,4,344,abstract_algebra,True
-"Statement 1 | A factor group of a non-Abelian group is non-Abelian. Statement 2 | If K is a normal subgroup of H and H is a normal subgroup of G, then K is a normal subgroup of G.?    A. True, True    B. False, False    C. True, False    D. False, True",abstract_algebra,qwen2.5:7b,278.2618700293824,350,4,354,abstract_algebra,True

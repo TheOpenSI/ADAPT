@@ -5,9 +5,12 @@ import ollama
 
 class QueryAnalyser:
     def __init__(self,service_desc_path,model_name):
+        print(f"[QueryAnalyser] Loading service descriptions from {service_desc_path}...")
         self.service_desc_path = service_desc_path
         self.model_name = model_name
         self.services = self._get_service_descriptions() 
+        print(f"[QueryAnalyser] Loaded {len(self.services)} services: {list(self.services.keys())}")
+        print(f"[QueryAnalyser] Ready to route using model: {model_name}")
 
     def _get_service_descriptions(self):
         # change service_desc_path from string to path

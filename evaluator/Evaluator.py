@@ -1,11 +1,13 @@
 from pathlib import Path
-
+import json
 import pandas as pd
 import os
 import sys 
 sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 
+from services.SemanticRouter import SemanticRouter
 from services.QueryAnalyser import QueryAnalyser
+from sklearn.metrics import classification_report, confusion_matrix
 
 
 class Evaluator:
@@ -18,17 +20,18 @@ class Evaluator:
         self.results_dir = Path(results_dir) / dataset_name
         self.results_dir.mkdir(parents=True, exist_ok=True)
 
-    def _build_run_name(self):
-        router_type = self.router.__class__.__name__   
+    def _build_run_name(self): 
         model_name = self.router.model_name
+        model_name = self.router.model_name.replace("/", "-") 
     
-        return f"{router_type}_{model_name}"
+        return f"{model_name}"
 
     
     def _get_result(self):
         result = []
+        total = len(self.df)
 
-        for i in range(len(self.df[:3])):
+        for i in range(total):
             prompt = self.df.iloc[i]["prompt"]
             expected_service = self.df.iloc[i]["expected_service"]
             route = self.router.route(prompt)
@@ -36,37 +39,93 @@ class Evaluator:
             route["is_correct"] = (route["predicted_label"] == route["expected_service"])
             result.append(route)
 
+            print(f"[{i+1}/{total}] predicted={route['predicted_label']} expected={expected_service} "
+                  f"{'✓' if route['is_correct'] else '✗'} latency={route['latency_ms']:.1f}ms")
+
         return result
 
 
     def _analyze_result(self,result):
         result_df = pd.DataFrame(result)
-        
-        return(result_df.head())
+        correct_count = len(result_df[result_df["is_correct"] == True])
+        total = len(result_df)
+        accuracy = correct_count / total
+
+        report = classification_report(
+        y_true=result_df["expected_service"],
+        y_pred=result_df["predicted_label"],
+        output_dict=True,
+        zero_division=0,   # avoids warnings/errors if 0/0
+        )
+
+        labels = sorted(result_df["expected_service"].unique())
+        cm = confusion_matrix(
+        result_df["expected_service"],
+        result_df["predicted_label"],
+        labels=labels,
+        )
+
+        summary = {
+            "correct_count": correct_count,
+            "total": total,
+            "accuracy": accuracy,
+            "avg_latency_ms": result_df["latency_ms"].mean(),
+            "avg_tokens": result_df["total_tokens"].mean(),
+            "classification_report": report,
+            "confusion_matrix": cm.tolist(),
+            "confusion_matrix_labels": labels,
+        }
+
+        return(result_df, summary)
 
 
-    def _save(self, result_df, run_name):
+    def _save_result(self, result_df, run_name):
         json_path = self.results_dir / f"{run_name}.json"
         result_df.to_json(json_path, orient="records", indent=2)
 
         csv_path = self.results_dir / f"{run_name}.csv"
         result_df.to_csv(csv_path, index=False)
 
-        print(f"saved: {run_name},{json_path}")
-        print(f"saved: {run_name},{csv_path}")
+        print(f"saved: {json_path}")
+        print(f"saved: {csv_path}")
 
 
+    def _save_summary(self, summary,run_name):
+        json_path = self.results_dir / f"{run_name}_summary.json"
+        with open(json_path, "w") as f:
+            json.dump(summary, f, indent=2)
+
+        print(f"saved summary: {json_path}")
+
+        
     def run_test(self):
+        print(f"\n{'='*60}")
+        print(f"Starting evaluation: {self.router.__class__.__name__} on {self.dataset_path}")
+        print(f"Total rows to process: {len(self.df)}")
+        print(f"{'='*60}\n")
+
         result = self._get_result()
-        summary = self._analyze_result(result)
+        result_df, summary = self._analyze_result(result)
         run_name = self._build_run_name()
-        self._save(summary, run_name)
+
+        self._save_result(result_df, run_name)
+        self._save_summary(summary, run_name) 
+
+        print(f"\n{'='*60}")
+        print(f"DONE — accuracy: {summary['accuracy']:.3f}")
+        print(f"{'='*60}\n")
+
+        return summary
 
 
 if __name__ == "__main__":
-    router = QueryAnalyser(service_desc_path="../data/services_desc.json", model_name="qwen2.5:7b")
+    router = QueryAnalyser(
+        service_desc_path="../data/services_desc.json",
+        model_name="qwen2.5:32b",
+    )
+
+    # router = QueryAnalyser(service_desc_path="../data/services_desc.json", model_name="qwen2.5:7b")
 
     a = Evaluator("../data/dataset_3_services.csv", router)
     summary = a.run_test()
     print(summary)
-     
