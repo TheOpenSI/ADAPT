@@ -5,9 +5,11 @@ import os
 import sys 
 sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 
+from services.CrossEncoderRouter import CrossEncoderRouter
 from services.SemanticRouter import SemanticRouter
 from services.QueryAnalyser import QueryAnalyser
 from sklearn.metrics import classification_report, confusion_matrix
+from codecarbon import EmissionsTracker
 
 
 class Evaluator:
@@ -32,7 +34,7 @@ class Evaluator:
         total = len(self.df)
 
         for i in range(total):
-            prompt = self.df.iloc[i]["prompt"]
+            prompt = self.df.iloc[i]["question"]
             expected_service = self.df.iloc[i]["expected_service"]
             route = self.router.route(prompt)
             route["expected_service"] = expected_service 
@@ -104,9 +106,22 @@ class Evaluator:
         print(f"Total rows to process: {len(self.df)}")
         print(f"{'='*60}\n")
 
-        result = self._get_result()
-        result_df, summary = self._analyze_result(result)
         run_name = self._build_run_name()
+         # start carbon tracking for the WHOLE run
+        tracker = EmissionsTracker(project_name=run_name, output_dir=str(self.results_dir))
+        tracker.start()
+
+        result = self._get_result()
+
+        total_emissions = tracker.stop()
+
+        result_df, summary = self._analyze_result(result)
+
+        print("=== TOTALS ===")
+        print("Total carbon emissions (kg CO2):", total_emissions)
+        print("Total energy consumed (kWh):", tracker.final_emissions_data.energy_consumed)
+        print("\n=== BREAKDOWN ===")
+        print(tracker.final_emissions_data)
 
         self._save_result(result_df, run_name)
         self._save_summary(summary, run_name) 
@@ -119,13 +134,20 @@ class Evaluator:
 
 
 if __name__ == "__main__":
-    router = QueryAnalyser(
-        service_desc_path="../data/services_desc.json",
-        model_name="qwen2.5:32b",
-    )
+    # router = QueryAnalyser(
+    #     service_desc_path="../data/services_desc.json",
+    #     model_name="qwen2.5:32b",
+    # )
 
     # router = QueryAnalyser(service_desc_path="../data/services_desc.json", model_name="qwen2.5:7b")
 
-    a = Evaluator("../data/dataset_3_services.csv", router)
+    # router = CrossEncoderRouter(service_desc_path="../data/services_desc.json", model_name="cross-encoder/ms-marco-MiniLM-L6-v2")
+
+    router = QueryAnalyser(
+        service_desc_path="../data/services_desc.json",  
+        model_name="qwen2.5:32b",
+    )
+
+    a = Evaluator("../data/dataset/service_10.csv", router)
     summary = a.run_test()
     print(summary)
