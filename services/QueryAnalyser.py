@@ -1,26 +1,19 @@
-from pathlib import Path
-import json
+import os
+import sys 
+sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
+
 import time
 import ollama
+import requests
+from services.RouterBase import RouterBase
 
-class QueryAnalyser:
+
+class QueryAnalyser(RouterBase):
     def __init__(self,service_desc_path,model_name):
+        super().__init__(service_desc_path,model_name)
         print(f"[QueryAnalyser] Loading service descriptions from {service_desc_path}...")
-        self.service_desc_path = service_desc_path
-        self.model_name = model_name
-        self.services = self._get_service_descriptions() 
-        print(f"[QueryAnalyser] Loaded {len(self.services)} services: {list(self.services.keys())}")
         print(f"[QueryAnalyser] Ready to route using model: {model_name}")
-
-    def _get_service_descriptions(self):
-        # change service_desc_path from string to path
-        path = Path(self.service_desc_path)
-        if not path.exists():
-            raise FileNotFoundError(f"Service description file '{self.service_desc_path}' not found.")
-        with open(path, "r") as f:
-            data = json.load(f)
-            # print(f"[LOADED SERVICES] {data}")
-            return data
+        print(f"[QueryAnalyser] Loaded {len(self.services)} services: {list(self.services.keys())}")
 
     def _get_system_prompt(self):
         return (
@@ -46,6 +39,26 @@ class QueryAnalyser:
         # print(f"[USER MESSAGE SENT TO MODEL]\n{message}\n")
         return message
 
+    def _get_ollama_gpu_memory_gb(self):
+        try:
+            response = requests.get('http://localhost:11434/api/ps', timeout=5)
+            data = response.json()
+            for model in data.get("models", []):
+                if self.model_name in (model.get("name"), model.get("model")):
+                    return model.get("size_vram", 0) / (1024**3)
+        except Exception as e:
+            print(f"[WARNING] Could not fetch Ollama memory info: {e}")
+        return None
+
+    def _match_service(self, raw_label):
+        cleaned = raw_label.strip().lower()
+        if cleaned.startswith("service "):
+            cleaned = cleaned[len("service "):]
+        for service_name in self.services.keys():
+            if service_name.lower() in cleaned:
+                return service_name
+        print(f"[QueryAnalyser] UNMATCHED — raw model output: {raw_label!r}")
+        return "UNMATCHED"
 
     def route(self, query):
         start = time.perf_counter()
@@ -55,9 +68,12 @@ class QueryAnalyser:
                 {"role": "system", "content": self._get_system_prompt()},
                 {"role": "user", "content": self._build_user_message(query)},])
         latency_ms = (time.perf_counter() - start) * 1000
-        predicted_label = response["message"]["content"]
+        raw_label = response["message"]["content"]
+        predicted_label = self._match_service(raw_label)
         prompt_tokens = response.get("prompt_eval_count", 0)
         completion_tokens = response.get("eval_count", 0)
+
+        gpu_memory_gb = self._get_ollama_gpu_memory_gb()
 
         return {
             "query": query,
@@ -67,11 +83,13 @@ class QueryAnalyser:
             "prompt_tokens": prompt_tokens,
             "completion_tokens": completion_tokens,
             "total_tokens": prompt_tokens + completion_tokens,
+            "gpu_memory_gb": gpu_memory_gb,
+
         }
 
-# if __name__ == "__main__":
-#     analyser = QueryAnalyser(service_desc_path="../../data/services_desc.json", model="qwen2.5:7b")
-#     result = analyser.route("Find the index of <p> in S_5.")
-#     print(result)
+if __name__ == "__main__":
+    analyser = QueryAnalyser(service_desc_path="../data/services_desc.json", model_name="qwen2.5:7b")
+    result = analyser.route("Find the index of <p> in S_5.")
+    print(result)
 
 

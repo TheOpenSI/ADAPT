@@ -1,0 +1,246 @@
+{
+  "correct_count": 1173,
+  "total": 1501,
+  "accuracy": 0.7814790139906729,
+  "avg_latency_ms": 488.704635282832,
+  "avg_tokens": 1000.469020652898,
+  "classification_report": {
+    "abstract_algebra": {
+      "precision": 0.76,
+      "recall": 0.95,
+      "f1-score": 0.8444444444444444,
+      "support": 100.0
+    },
+    "anatomy": {
+      "precision": 0.5945945945945946,
+      "recall": 0.8148148148148148,
+      "f1-score": 0.6875,
+      "support": 135.0
+    },
+    "astronomy": {
+      "precision": 0.9432624113475178,
+      "recall": 0.875,
+      "f1-score": 0.9078498293515358,
+      "support": 152.0
+    },
+    "business_ethics": {
+      "precision": 0.8764044943820225,
+      "recall": 0.78,
+      "f1-score": 0.8253968253968254,
+      "support": 100.0
+    },
+    "clinical_knowledge": {
+      "precision": 0.8466666666666667,
+      "recall": 0.47924528301886793,
+      "f1-score": 0.6120481927710844,
+      "support": 265.0
+    },
+    "college_biology": {
+      "precision": 0.6902173913043478,
+      "recall": 0.8819444444444444,
+      "f1-score": 0.774390243902439,
+      "support": 144.0
+    },
+    "college_computer_science": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1-score": 0.8888888888888888,
+      "support": 100.0
+    },
+    "college_mathematics": {
+      "precision": 0.75,
+      "recall": 0.72,
+      "f1-score": 0.7346938775510204,
+      "support": 100.0
+    },
+    "college_physics": {
+      "precision": 0.7478260869565218,
+      "recall": 0.8431372549019608,
+      "f1-score": 0.7926267281105991,
+      "support": 102.0
+    },
+    "general": {
+      "precision": 0.6349206349206349,
+      "recall": 0.8,
+      "f1-score": 0.7079646017699115,
+      "support": 100.0
+    },
+    "high_school_chemistry": {
+      "precision": 0.8809523809523809,
+      "recall": 0.9113300492610837,
+      "f1-score": 0.8958837772397095,
+      "support": 203.0
+    },
+    "accuracy": 0.7814790139906729,
+    "macro avg": {
+      "precision": 0.7931676964658806,
+      "recall": 0.8050428951310156,
+      "f1-score": 0.7883352190387689,
+      "support": 1501.0
+    },
+    "weighted avg": {
+      "precision": 0.8025637807746502,
+      "recall": 0.7814790139906729,
+      "f1-score": 0.7777227429179034,
+      "support": 1501.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      95,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      110,
+      0,
+      0,
+      19,
+      4,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      133,
+      0,
+      0,
+      5,
+      0,
+      0,
+      9,
+      3,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      78,
+      0,
+      0,
+      0,
+      1,
+      0,
+      21,
+      0
+    ],
+    [
+      0,
+      61,
+      0,
+      0,
+      127,
+      46,
+      0,
+      2,
+      2,
+      14,
+      13
+    ],
+    [
+      0,
+      12,
+      0,
+      0,
+      2,
+      127,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      80,
+      14,
+      0,
+      1,
+      0
+    ],
+    [
+      25,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      72,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      1,
+      86,
+      0,
+      7
+    ],
+    [
+      0,
+      2,
+      0,
+      11,
+      1,
+      2,
+      0,
+      2,
+      2,
+      80,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      14,
+      3,
+      185
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "abstract_algebra",
+    "anatomy",
+    "astronomy",
+    "business_ethics",
+    "clinical_knowledge",
+    "college_biology",
+    "college_computer_science",
+    "college_mathematics",
+    "college_physics",
+    "general",
+    "high_school_chemistry"
+  ]
+}

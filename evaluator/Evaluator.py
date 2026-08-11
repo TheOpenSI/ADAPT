@@ -5,6 +5,7 @@ import os
 import sys 
 sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 
+from services.ColBERTRouter import ColBERTRouter
 from services.CrossEncoderRouter import CrossEncoderRouter
 from services.SemanticRouter import SemanticRouter
 from services.QueryAnalyser import QueryAnalyser
@@ -143,10 +144,16 @@ if __name__ == "__main__":
 
     # router = CrossEncoderRouter(service_desc_path="../data/services_desc.json", model_name="cross-encoder/ms-marco-MiniLM-L6-v2")
 
-    router = QueryAnalyser(
-        service_desc_path="../data/services_desc.json",  
-        model_name="qwen2.5:32b",
-    )
+    # router = QueryAnalyser(
+    #     service_desc_path="../data/services_desc.json",  
+    #     model_name="qwen2.5:32b",
+    # )
+    
+    router = ColBERTRouter(
+        service_desc_path="../data/services_desc.json",
+        model_name="lightonai/GTE-ModernColBERT-v1",
+        )
+
 
     a = Evaluator("../data/dataset/service_10.csv", router)
     summary = a.run_test()

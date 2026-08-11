@@ -1,34 +1,23 @@
-from pathlib import Path
-import json
 import time
+import torch
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
+from services.RouterBase import RouterBase
 
-class SemanticRouter:
+
+class SemanticRouter(RouterBase):
     def __init__(self,service_desc_path,model_name):
+        super().__init__(service_desc_path,model_name)
         print(f"[SemanticRouter] Loading embedding model '{model_name}'... (this may take a while on first run)")
-     
         self.model = SentenceTransformer(model_name) 
+        print(f"[SemanticRouter] Model is running on device: {self.model.device}")
         print(f"[SemanticRouter] Model loaded.")
-
-        self.model_name = model_name
-        self.service_desc_path = service_desc_path
-        self.services = self._get_service_descriptions() 
         print(f"[SemanticRouter] Loaded {len(self.services)} services.")
 
         print(f"[SemanticRouter] Building service embeddings...")
         self.service_embeddings = self._build_service_embeddings()
         print(f"[SemanticRouter] Ready to route.")
-
-    def _get_service_descriptions(self):
-        # change service_desc_path from string to path
-        path = Path(self.service_desc_path)
-        if not path.exists():
-            raise FileNotFoundError(f"Service description file '{self.service_desc_path}' not found.")
-        with open(path, "r") as f:
-            data = json.load(f)
-            return data
 
     def _build_service_embeddings(self):
         names = list(self.services.keys())
@@ -44,6 +33,9 @@ class SemanticRouter:
 
 
     def route(self,query):
+        if torch.cuda.is_available():
+            torch.cuda.reset_peak_memory_stats()
+
         start = time.perf_counter()
         q_vec = self.model.encode(query)
 
@@ -55,6 +47,8 @@ class SemanticRouter:
         latency_ms = (time.perf_counter() - start) * 1000
         predicted_label = max(scores, key=scores.get)
 
+        gpu_memory_gb = torch.cuda.max_memory_allocated() / (1024**3) if torch.cuda.is_available() else None
+
         return {
             "query": query,
             "predicted_label": predicted_label,
@@ -63,6 +57,7 @@ class SemanticRouter:
             "prompt_tokens": 0,
             "completion_tokens": 0,
             "total_tokens": 0,
+            "gpu_memory_gb":gpu_memory_gb
         }
 
 # if __name__ == "__main__":
