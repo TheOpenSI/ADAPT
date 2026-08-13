@@ -149,9 +149,10 @@ if __name__ == "__main__":
     #     model_name="qwen2.5:32b",
     # )
     
-    router = ColBERTRouter(
+    router = SemanticRouter(
         service_desc_path="../data/services_desc.json",
-        model_name="lightonai/GTE-ModernColBERT-v1",
+        model_name="Qwen/Qwen3-Embedding-8B",
+
         )
 
 
