@@ -1,0 +1,327 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[1] Full dataset loaded: (14042, 4)
+[1] Number of subjects: 57
+
+============================================================
+BUILDING TEST DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy']
+[2] General-source subjects:
+['high_school_psychology', 'high_school_us_history', 'sociology', 'prehistory', 'professional_accounting']
+[2] Filtered dataset shape: (1943, 4)
+[2] Original subject counts:
+subject
+high_school_psychology     545
+prehistory                 324
+professional_accounting    282
+high_school_us_history     204
+sociology                  201
+astronomy                  152
+anatomy                    135
+abstract_algebra           100
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+general             1556
+astronomy            152
+anatomy              135
+abstract_algebra     100
+Name: count, dtype: int64
+
+[3] Subjects inside 'general':
+subject
+high_school_psychology     545
+prehistory                 324
+professional_accounting    282
+high_school_us_history     204
+sociology                  201
+Name: count, dtype: int64
+
+[4] Sampling general subjects...
+[4] Sampled general subject counts:
+subject
+high_school_psychology     20
+high_school_us_history     20
+prehistory                 20
+professional_accounting    20
+sociology                  20
+Name: count, dtype: int64
+[4] Expected service counts after sampling:
+expected_service
+astronomy           152
+anatomy             135
+abstract_algebra    100
+general             100
+Name: count, dtype: int64
+[5] Saved: ../dataset/test_service_3.csv
+[5] Saved: ../dataset/test_service_3.json
+[DONE] test_service_3
+[DONE] Total rows: 487
+expected_service
+astronomy           152
+anatomy             135
+abstract_algebra    100
+general             100
+Name: count, dtype: int64
+
+============================================================
+BUILDING TEST DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science']
+[2] General-source subjects:
+['high_school_psychology', 'high_school_us_history', 'sociology', 'prehistory', 'professional_accounting']
+[2] Filtered dataset shape: (2143, 4)
+[2] Original subject counts:
+subject
+high_school_psychology      545
+prehistory                  324
+professional_accounting     282
+high_school_us_history      204
+sociology                   201
+astronomy                   152
+anatomy                     135
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+general                     1556
+astronomy                    152
+anatomy                      135
+abstract_algebra             100
+business_ethics              100
+college_computer_science     100
+Name: count, dtype: int64
+
+[3] Subjects inside 'general':
+subject
+high_school_psychology     545
+prehistory                 324
+professional_accounting    282
+high_school_us_history     204
+sociology                  201
+Name: count, dtype: int64
+
+[4] Sampling general subjects...
+[4] Sampled general subject counts:
+subject
+high_school_psychology     20
+high_school_us_history     20
+prehistory                 20
+professional_accounting    20
+sociology                  20
+Name: count, dtype: int64
+[4] Expected service counts after sampling:
+expected_service
+astronomy                   152
+anatomy                     135
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+general                     100
+Name: count, dtype: int64
+[5] Saved: ../dataset/test_service_5.csv
+[5] Saved: ../dataset/test_service_5.json
+[DONE] test_service_5
+[DONE] Total rows: 687
+expected_service
+astronomy                   152
+anatomy                     135
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+general                     100
+Name: count, dtype: int64
+
+============================================================
+BUILDING TEST DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science', 'high_school_chemistry', 'high_school_geography', 'jurisprudence']
+[2] General-source subjects:
+['high_school_psychology', 'high_school_us_history', 'sociology', 'prehistory', 'professional_accounting']
+[2] Filtered dataset shape: (2652, 4)
+[2] Original subject counts:
+subject
+high_school_psychology      545
+prehistory                  324
+professional_accounting     282
+high_school_us_history      204
+high_school_chemistry       203
+sociology                   201
+high_school_geography       198
+astronomy                   152
+anatomy                     135
+jurisprudence               108
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+general                     1556
+high_school_chemistry        203
+high_school_geography        198
+astronomy                    152
+anatomy                      135
+jurisprudence                108
+abstract_algebra             100
+business_ethics              100
+college_computer_science     100
+Name: count, dtype: int64
+
+[3] Subjects inside 'general':
+subject
+high_school_psychology     545
+prehistory                 324
+professional_accounting    282
+high_school_us_history     204
+sociology                  201
+Name: count, dtype: int64
+
+[4] Sampling general subjects...
+[4] Sampled general subject counts:
+subject
+high_school_psychology     20
+high_school_us_history     20
+prehistory                 20
+professional_accounting    20
+sociology                  20
+Name: count, dtype: int64
+[4] Expected service counts after sampling:
+expected_service
+high_school_chemistry       203
+high_school_geography       198
+astronomy                   152
+anatomy                     135
+jurisprudence               108
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+general                     100
+Name: count, dtype: int64
+[5] Saved: ../dataset/test_service_8.csv
+[5] Saved: ../dataset/test_service_8.json
+[DONE] test_service_8
+[DONE] Total rows: 1196
+expected_service
+high_school_chemistry       203
+high_school_geography       198
+astronomy                   152
+anatomy                     135
+jurisprudence               108
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+general                     100
+Name: count, dtype: int64
+
+============================================================
+BUILDING TEST DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science', 'high_school_chemistry', 'high_school_geography', 'jurisprudence', 'world_religions', 'formal_logic']
+[2] General-source subjects:
+['high_school_psychology', 'high_school_us_history', 'sociology', 'prehistory', 'professional_accounting']
+[2] Filtered dataset shape: (2949, 4)
+[2] Original subject counts:
+subject
+high_school_psychology      545
+prehistory                  324
+professional_accounting     282
+high_school_us_history      204
+high_school_chemistry       203
+sociology                   201
+high_school_geography       198
+world_religions             171
+astronomy                   152
+anatomy                     135
+formal_logic                126
+jurisprudence               108
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+general                     1556
+high_school_chemistry        203
+high_school_geography        198
+world_religions              171
+astronomy                    152
+anatomy                      135
+formal_logic                 126
+jurisprudence                108
+abstract_algebra             100
+business_ethics              100
+college_computer_science     100
+Name: count, dtype: int64
+
+[3] Subjects inside 'general':
+subject
+high_school_psychology     545
+prehistory                 324
+professional_accounting    282
+high_school_us_history     204
+sociology                  201
+Name: count, dtype: int64
+
+[4] Sampling general subjects...
+[4] Sampled general subject counts:
+subject
+high_school_psychology     20
+high_school_us_history     20
+prehistory                 20
+professional_accounting    20
+sociology                  20
+Name: count, dtype: int64
+[4] Expected service counts after sampling:
+expected_service
+high_school_chemistry       203
+high_school_geography       198
+world_religions             171
+astronomy                   152
+anatomy                     135
+formal_logic                126
+jurisprudence               108
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+general                     100
+Name: count, dtype: int64
+[5] Saved: ../dataset/test_service_10.csv
+[5] Saved: ../dataset/test_service_10.json
+[DONE] test_service_10
+[DONE] Total rows: 1493
+expected_service
+high_school_chemistry       203
+high_school_geography       198
+world_religions             171
+astronomy                   152
+anatomy                     135
+formal_logic                126
+jurisprudence               108
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+general                     100
+Name: count, dtype: int64
