@@ -10,7 +10,7 @@ SERVICE_SETS = {
         "anatomy",
         "astronomy",
         "business_ethics",
-        "clinical_knowledge",
+        "college_computer_science",
     ],
 
     8: [
@@ -18,10 +18,10 @@ SERVICE_SETS = {
         "anatomy",
         "astronomy",
         "business_ethics",
-        "clinical_knowledge",
-        "college_biology",
-        "high_school_chemistry",
         "college_computer_science",
+        "high_school_chemistry",
+        "high_school_geography",
+        "jurisprudence",
     ],
 
     10: [
@@ -29,20 +29,20 @@ SERVICE_SETS = {
         "anatomy",
         "astronomy",
         "business_ethics",
-        "clinical_knowledge",
-        "college_biology",
-        "high_school_chemistry",
         "college_computer_science",
-        "college_mathematics",
-        "college_physics",
+        "high_school_chemistry",
+        "high_school_geography",
+        "jurisprudence",
+        "world_religions",
+        "formal_logic",
     ],
 }
 
 
 GENERAL_SUBJECTS = [
-    "high_school_world_history",
-    "philosophy",
-    "marketing",
-    "professional_law",
     "high_school_psychology",
+    "high_school_us_history",
+    "sociology",
+    "prehistory",
+    "professional_accounting",
 ]
