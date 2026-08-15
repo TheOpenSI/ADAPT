@@ -11,7 +11,7 @@ class MMLUTestBuilder(MMLUBenchmarkBuilderBase):
     def __init__(
         self,
         split="test",
-        per_general_subject_cap=20,
+        per_general_subject_cap=50,
         random_state=42
     ):
         super().__init__(split)

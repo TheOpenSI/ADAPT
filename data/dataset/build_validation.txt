@@ -10,17 +10,14 @@ BUILDING VALIDATION PROFILING DATASET
 [2] Specialist subjects:
 ['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science', 'high_school_chemistry', 'high_school_geography', 'jurisprudence', 'world_religions', 'formal_logic']
 [2] General-source subjects:
-['high_school_psychology', 'high_school_us_history', 'sociology', 'prehistory', 'professional_accounting']
-[2] Filtered dataset shape: (321, 4)
+['high_school_us_history', 'prehistory']
+[2] Filtered dataset shape: (208, 4)
 [2] Original subject counts:
 subject
-high_school_psychology      60
 prehistory                  35
-professional_accounting     31
 high_school_chemistry       22
 high_school_geography       22
 high_school_us_history      22
-sociology                   22
 world_religions             19
 astronomy                   16
 anatomy                     14
@@ -34,65 +31,25 @@ Name: count, dtype: int64
 [3] Converting subjects to routing labels...
 [3] Expected service counts:
 expected_service
-general                     170
-high_school_chemistry        22
-high_school_geography        22
-world_religions              19
-astronomy                    16
-anatomy                      14
-formal_logic                 14
-abstract_algebra             11
-business_ethics              11
-college_computer_science     11
-jurisprudence                11
+general                     57
+high_school_chemistry       22
+high_school_geography       22
+world_religions             19
+astronomy                   16
+anatomy                     14
+formal_logic                14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
 Name: count, dtype: int64
 
 [3] Subjects inside 'general':
 subject
-high_school_psychology     60
-prehistory                 35
-professional_accounting    31
-high_school_us_history     22
-sociology                  22
+prehistory                35
+high_school_us_history    22
 Name: count, dtype: int64
-
-[4] Sampling profiling examples...
-[4] Profiling subject counts:
-subject
-abstract_algebra            10
-anatomy                     10
-astronomy                   10
-business_ethics             10
-college_computer_science    10
-formal_logic                10
-high_school_chemistry       10
-high_school_geography       10
-jurisprudence               10
-world_religions             10
-high_school_psychology       2
-high_school_us_history       2
-prehistory                   2
-professional_accounting      2
-sociology                    2
-Name: count, dtype: int64
-
-[4] Expected service counts:
-expected_service
-abstract_algebra            10
-anatomy                     10
-astronomy                   10
-business_ethics             10
-college_computer_science    10
-formal_logic                10
-high_school_chemistry       10
-high_school_geography       10
-jurisprudence               10
-world_religions             10
-general                     10
-Name: count, dtype: int64
-
-[4] Total profiling examples: 110
-[5] Saved: ../dataset/validation_profiling.csv
-[5] Saved: ../dataset/validation_profiling.json
+[5] Saved: ../dataset/validation_service_all.csv
+[5] Saved: ../dataset/validation_service_all.json
 [DONE] Validation profiling dataset for service set 10
-[DONE] Total rows: 110
+[DONE] Total rows: 208

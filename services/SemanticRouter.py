@@ -59,11 +59,3 @@ class SemanticRouter(RouterBase):
             "total_tokens": 0,
             "gpu_memory_gb":gpu_memory_gb
         }
-
-# if __name__ == "__main__":
-#     router = SemanticRouter(
-#         service_desc_path="../data/services_desc.json",  
-#         model_name="all-MiniLM-L6-v2",
-#     )
-#     result = router.route("Find the index of <p> in S_5.")
-#     print(result)

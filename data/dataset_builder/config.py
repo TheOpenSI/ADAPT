@@ -39,10 +39,12 @@ SERVICE_SETS = {
 }
 
 
-GENERAL_SUBJECTS = [
-    "high_school_psychology",
-    "high_school_us_history",
-    "sociology",
-    "prehistory",
-    "professional_accounting",
-]
+# GENERAL_SUBJECTS = [
+#     "high_school_psychology",
+#     "high_school_us_history",
+#     "sociology",
+#     "prehistory",
+#     "professional_accounting",
+# ]
+
+GENERAL_SUBJECTS = ["high_school_us_history", "prehistory"]

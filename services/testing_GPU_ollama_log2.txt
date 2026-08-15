@@ -1,4 +1,0 @@
-[QueryAnalyser] Loading service descriptions from ../data/services_desc.json...
-[QueryAnalyser] Ready to route using model: qwen2.5:7b
-[QueryAnalyser] Loaded 3 services: ['abstract_algebra', 'anatomy', 'astronomy']
-{'query': 'Find the index of <p> in S_5.', 'predicted_label': 'abstract_algebra', 'model_name': 'qwen2.5:7b', 'latency_ms': 25020.631668972783, 'prompt_tokens': 423, 'completion_tokens': 4, 'total_tokens': 427, 'gpu_memory_gb': 3.264707029797137}

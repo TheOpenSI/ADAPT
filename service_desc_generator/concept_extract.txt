@@ -1,0 +1,31 @@
+[LOAD] validation data: (208, 4)
+[LOAD] routing services: 11
+
+[GROUP] grouping validation data by subject...
+[GROUP] 12 subjects to process
+
+[1/12] extracting: abstract_algebra (11 questions)
+
+[2/12] extracting: anatomy (14 questions)
+
+[3/12] extracting: astronomy (16 questions)
+
+[4/12] extracting: business_ethics (11 questions)
+
+[5/12] extracting: college_computer_science (11 questions)
+
+[6/12] extracting: formal_logic (14 questions)
+
+[7/12] extracting: high_school_us_history (22 questions)
+
+[8/12] extracting: prehistory (35 questions)
+
+[9/12] extracting: high_school_chemistry (22 questions)
+
+[10/12] extracting: high_school_geography (22 questions)
+
+[11/12] extracting: jurisprudence (11 questions)
+
+[12/12] extracting: world_religions (19 questions)
+
+[DONE] 12/12 succeeded. Saved to ../service_desc_generator/concept_extraction.json

@@ -1,0 +1,376 @@
+{
+  "abstract_algebra": {
+    "service": "abstract_algebra",
+    "extracted_concepts": [
+      "cyclic_subgroup_order",
+      "factor_group_order",
+      "permutation_classification",
+      "isomorphism_to_permutation_groups",
+      "direct_product_of_groups",
+      "order_of_elements_in_direct_products",
+      "symmetric_group_properties",
+      "homomorphic_image_normality",
+      "maximum_element_order_in_symmetric_group",
+      "field_of_quotients",
+      "polynomial_zeros_over_rings",
+      "element_orders_in_groups"
+    ],
+    "core_concepts": [
+      "cyclic_subgroup_order",
+      "factor_group_order",
+      "permutation_classification",
+      "isomorphism_to_permutation_groups",
+      "direct_product_of_groups",
+      "maximum_element_order_in_symmetric_group"
+    ],
+    "scope": "Questions cover cyclic subgroups, factor groups, permutations, isomorphisms to permutation groups, direct products of groups, and element orders in symmetric groups."
+  },
+  "anatomy": {
+    "service": "anatomy",
+    "extracted_concepts": [
+      "homeostasis",
+      "parotid gland anatomy",
+      "lung lobe localization",
+      "maxillary sinus characteristics",
+      "cartilage function",
+      "tonsillar tissue location",
+      "heart auscultation site",
+      "emissary veins",
+      "smooth muscle cell structure",
+      "hypothalamic functions",
+      "sympathetic nervous system effects",
+      "trachea anatomy",
+      "pharyngeal innervation",
+      "ethmoid sinus infection symptoms"
+    ],
+    "core_concepts": [
+      "homeostasis",
+      "parotid gland anatomy",
+      "lung lobe localization",
+      "maxillary sinus characteristics",
+      "cartilage function",
+      "tonsillar tissue location",
+      "heart auscultation site",
+      "emissary veins",
+      "smooth muscle cell structure"
+    ],
+    "scope": "This service focuses on anatomical knowledge including homeostasis, gland and sinus structures, lung localization, cartilage properties, tonsil placement, heart auscultation points, emissary vein pathways, and smooth muscle composition."
+  },
+  "astronomy": {
+    "service": "astronomy",
+    "extracted_concepts": [
+      "blackbody radiation",
+      "stellar spectra",
+      "planetary differentiation",
+      "lunar maria formation",
+      "seasonal variations on planets",
+      "Saturn's rings mass comparison",
+      "Mercury atmosphere retention",
+      "solar system formation theories",
+      "Mars rover challenges",
+      "heat loss in small vs large bodies",
+      "moon phases",
+      "black body definition",
+      "Coriolis effect",
+      "orbital speed of ISS",
+      "causes of death on Earth",
+      "Venus surface mapping",
+      "comet tail direction"
+    ],
+    "core_concepts": [
+      "blackbody radiation and stellar spectra",
+      "planetary differentiation processes",
+      "lunar maria formation mechanisms",
+      "seasonal variations in planetary atmospheres",
+      "Saturn's rings mass comparison with moons",
+      "Mercury atmosphere retention mechanisms",
+      "solar system formation theories"
+    ],
+    "scope": "Questions cover fundamental concepts of astronomy including stellar and planetary physics, solar system formation, and space exploration challenges."
+  },
+  "business_ethics": {
+    "service": "business_ethics",
+    "extracted_concepts": [
+      "disqualification of directors",
+      "global corporate power",
+      "ethics of duty",
+      "philanthropy and social enterprises",
+      "agency relation",
+      "executive responsibilities",
+      "emotional exploitation",
+      "sustainability goals",
+      "corporate governance problems",
+      "CSR (Corporate Social Responsibility)",
+      "stakeholder communication factors"
+    ],
+    "core_concepts": [
+      "disqualification of directors",
+      "global corporate power",
+      "ethics of duty",
+      "philanthropy and social enterprises",
+      "agency relation",
+      "sustainability goals",
+      "corporate governance problems",
+      "CSR (Corporate Social Responsibility)",
+      "stakeholder communication factors"
+    ],
+    "scope": "This service covers business ethics, including corporate responsibility, governance issues, ethical theories, sustainability initiatives, stakeholder relations, and legal implications."
+  },
+  "college_computer_science": {
+    "service": "college_computer_science",
+    "extracted_concepts": [
+      "symbol table usage in debugging",
+      "hash function distribution",
+      "page-replacement policies",
+      "recursive functions",
+      "Church's thesis",
+      "reference counting limitations",
+      "matrix factorization complexity",
+      "network vs distributed operating systems",
+      "automata theory equivalences",
+      "data structure operations"
+    ],
+    "core_concepts": [
+      "symbol table usage in debugging",
+      "hash function distribution",
+      "page-replacement policies",
+      "recursive functions",
+      "Church's thesis",
+      "matrix factorization complexity",
+      "network vs distributed operating systems",
+      "automata theory equivalences",
+      "data structure operations"
+    ],
+    "scope": "College-level computer science concepts including debugging, data structures, algorithms, and system architectures."
+  },
+  "formal_logic": {
+    "service": "formal_logic",
+    "extracted_concepts": [
+      "conditional_propositions",
+      "symbolization_of_statements",
+      "predicate_logic",
+      "truth_tables",
+      "logical_equivalence",
+      "consistency_in_logic",
+      "indirect_truth_tables"
+    ],
+    "core_concepts": [
+      "conditional_propositions",
+      "symbolization_of_statements",
+      "predicate_logic",
+      "truth_tables",
+      "logical_equivalence",
+      "consistency_in_logic"
+    ],
+    "scope": "This service focuses on formal logic, including conditional propositions, symbolizing statements in propositional and predicate logic, constructing truth tables, assessing logical equivalence and consistency."
+  },
+  "high_school_us_history": {
+    "service": "high_school_us_history",
+    "extracted_concepts": [
+      "Vietnam War protests",
+      "Indian Removal Act",
+      "Civil Rights Movement",
+      "Constitutional debates",
+      "American neutrality in World Wars",
+      "States' rights and federalism",
+      "Women's suffrage movement",
+      "Jacksonian Democracy",
+      "Reconstruction era",
+      "Cold War policies",
+      "Social Darwinism",
+      "Progressive Era reforms"
+    ],
+    "core_concepts": [
+      "Vietnam War protests",
+      "Indian Removal Act",
+      "Civil Rights Movement",
+      "Constitutional debates",
+      "American neutrality in World Wars",
+      "States' rights and federalism",
+      "Women's suffrage movement",
+      "Jacksonian Democracy"
+    ],
+    "scope": "Questions cover major historical events, movements, and political ideologies from U.S. history."
+  },
+  "prehistory": {
+    "service": "prehistory",
+    "extracted_concepts": [
+      "Mogollon migration reasons",
+      "Inca political strategy",
+      "Mesopotamian geography",
+      "Incan royal succession practices",
+      "Paleoindian habitat diversity",
+      "Homo erectus taxonomy",
+      "Southwest maize agriculture timeline",
+      "human-chimp divergence time",
+      "skeletal age determination",
+      "human cultural evolution",
+      "agriculture complexity",
+      "Greater Australia climate 20,000 years ago",
+      "Homo habilis brain size",
+      "archaeological culture definition",
+      "Puebloan religious structures",
+      "Neandertal-modern human tool hybridization",
+      "Australopithecus robustus anatomy",
+      "Aztec history and population",
+      "Egyptian tomb architecture",
+      "Lewis Henry Morgan's cultural stages",
+      "state society characteristics",
+      "Hohokam complex society",
+      "Denisovan-Neandertal-modern human genome analysis",
+      "global sea level changes",
+      "Bering Strait land bridge history",
+      "uniformitarianism geological theory",
+      "Olmec elite class",
+      "Mississippian social complexity",
+      "cranial capacity evolution",
+      "New World genetic evidence",
+      "Incan ritual sacrifice",
+      "Neandertal extinction factors",
+      "archaeological middens"
+    ],
+    "core_concepts": [
+      "Mogollon migration reasons",
+      "Inca political strategy",
+      "Mesopotamian geography",
+      "Southwest maize agriculture timeline",
+      "human-chimp divergence time",
+      "skeletal age determination",
+      "agriculture complexity",
+      "Greater Australia climate 20,000 years ago",
+      "Homo habilis brain size"
+    ],
+    "scope": "Questions cover various aspects of prehistoric human and cultural evolution, including migrations, agriculture, social structures, and environmental changes."
+  },
+  "high_school_chemistry": {
+    "service": "high_school_chemistry",
+    "extracted_concepts": [
+      "Lewis structures and bond angles",
+      "ground state electron configuration",
+      "binary acid strength",
+      "heterogeneous reactions",
+      "elemental ground state properties",
+      "electromagnetic spectrum regions",
+      "buffer solutions",
+      "photosynthesis energy transfer",
+      "mole concept and atomic mass",
+      "acid pH ranking",
+      "solution molality calculation",
+      "ionization energy and atomic radius",
+      "standard Gibbs free energy change interpretation",
+      "alkaline salt solution formation",
+      "experimental error in chemical reactions",
+      "equilibrium constant to Gibbs free energy conversion",
+      "stoichiometry of precipitation reactions",
+      "buffer pH adjustment with basic ions",
+      "catalyst effect on reaction rate",
+      "rate law determination",
+      "silver combustion methods",
+      "miscibility of organic and aqueous solutions"
+    ],
+    "core_concepts": [
+      "Lewis structures and bond angles",
+      "ground state electron configuration",
+      "binary acid strength",
+      "heterogeneous reactions",
+      "elemental ground state properties",
+      "electromagnetic spectrum regions",
+      "buffer solutions",
+      "photosynthesis energy transfer"
+    ],
+    "scope": "High school chemistry focusing on molecular structures, reaction types, solution properties, and fundamental chemical principles."
+  },
+  "high_school_geography": {
+    "service": "high_school_geography",
+    "extracted_concepts": [
+      "federal state governance",
+      "city planning and zoning",
+      "urban shrinkage and deindustrialization",
+      "population distribution patterns",
+      "central place theory",
+      "cultural pluralism",
+      "gentrification",
+      "demographic transition model",
+      "primary economic activities",
+      "migration reasons",
+      "stateless nations",
+      "continentality effects on climate",
+      "language families in the Americas",
+      "universalizing religions",
+      "rectangular land survey system",
+      "acculturation",
+      "gerrymandering",
+      "gravity concept",
+      "possibilism theory"
+    ],
+    "core_concepts": [
+      "federal state governance",
+      "city planning and zoning",
+      "urban shrinkage and deindustrialization",
+      "population distribution patterns",
+      "central place theory",
+      "cultural pluralism",
+      "gentrification",
+      "demographic transition model"
+    ],
+    "scope": "High school geography focusing on federal governance, urban planning, economic activities, population dynamics, cultural diversity, and spatial theories."
+  },
+  "jurisprudence": {
+    "service": "jurisprudence",
+    "extracted_concepts": [
+      "Natural Law thinking",
+      "Olivecrona's psychological explanation of law",
+      "Soft positivism and moral criteria",
+      "Retribution in punishment",
+      "Comparative aspect of law",
+      "Bentham's argument for codification",
+      "Posner's economic analysis of law",
+      "Gender consequences of legal rules",
+      "Sovereignty account comparison (Bentham vs. Austin)",
+      "Delegation of legislative authority"
+    ],
+    "core_concepts": [
+      "Natural Law thinking",
+      "Olivecrona's psychological explanation of law",
+      "Soft positivism and moral criteria",
+      "Retribution in punishment",
+      "Comparative aspect of law",
+      "Bentham's argument for codification",
+      "Posner's economic analysis of law"
+    ],
+    "scope": "Questions cover fundamental theories, critiques, and comparative aspects within jurisprudence."
+  },
+  "world_religions": {
+    "service": "world_religions",
+    "extracted_concepts": [
+      "Shari'ah law categories",
+      "Guru Ram Das",
+      "Bushido",
+      "Deaconess role",
+      "Early Christian divisions",
+      "Pelagius argument",
+      "Predestination doctrine",
+      "Buddhism in North America",
+      "Maitreya prophecy",
+      "Shoah",
+      "Aum Shinrikyo",
+      "Jaina meditation practice",
+      "Hanukkah",
+      "Kokugaku movement",
+      "Wuwei concept",
+      "Guru Angad succession"
+    ],
+    "core_concepts": [
+      "Shari'ah law categories",
+      "Buddhism in North America",
+      "Maitreya prophecy",
+      "Pelagius argument",
+      "Predestination doctrine",
+      "Jaina meditation practice",
+      "Kokugaku movement",
+      "Wuwei concept",
+      "Guru Angad succession"
+    ],
+    "scope": "Questions cover religious laws, historical figures and movements, practices, and doctrines across various world religions."
+  }
+}

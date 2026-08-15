@@ -1,0 +1,78 @@
+{
+  "correct_count": 295,
+  "total": 487,
+  "accuracy": 0.6057494866529775,
+  "avg_latency_ms": 62.24382195279415,
+  "avg_tokens": 0.0,
+  "classification_report": {
+    "abstract_algebra": {
+      "precision": 1.0,
+      "recall": 0.86,
+      "f1-score": 0.9247311827956989,
+      "support": 100.0
+    },
+    "anatomy": {
+      "precision": 0.631578947368421,
+      "recall": 0.35555555555555557,
+      "f1-score": 0.4549763033175355,
+      "support": 135.0
+    },
+    "astronomy": {
+      "precision": 0.989010989010989,
+      "recall": 0.5921052631578947,
+      "f1-score": 0.7407407407407407,
+      "support": 152.0
+    },
+    "general": {
+      "precision": 0.3034188034188034,
+      "recall": 0.71,
+      "f1-score": 0.4251497005988024,
+      "support": 100.0
+    },
+    "accuracy": 0.6057494866529775,
+    "macro avg": {
+      "precision": 0.7310021849495534,
+      "recall": 0.6294152046783625,
+      "f1-score": 0.6363994818631944,
+      "support": 487.0
+    },
+    "weighted avg": {
+      "precision": 0.7514059724153749,
+      "recall": 0.6057494866529775,
+      "f1-score": 0.6345020161805134,
+      "support": 487.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      86,
+      0,
+      0,
+      14
+    ],
+    [
+      0,
+      48,
+      0,
+      87
+    ],
+    [
+      0,
+      0,
+      90,
+      62
+    ],
+    [
+      0,
+      28,
+      1,
+      71
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "abstract_algebra",
+    "anatomy",
+    "astronomy",
+    "general"
+  ]
+}

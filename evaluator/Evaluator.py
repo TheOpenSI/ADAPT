@@ -140,22 +140,25 @@ if __name__ == "__main__":
     #     model_name="qwen2.5:32b",
     # )
 
-    # router = QueryAnalyser(service_desc_path="../data/services_desc.json", model_name="qwen2.5:7b")
+    # router = QueryAnalyser(service_desc_path="../data/dataset/service_descriptions_3.json", model_name="qwen2.5:32b")
 
-    # router = CrossEncoderRouter(service_desc_path="../data/services_desc.json", model_name="cross-encoder/ms-marco-MiniLM-L6-v2")
+    # router = CrossEncoderRouter(service_desc_path="../data/dataset/service_descriptions_3.json", model_name="BAAI/bge-reranker-large")
 
     # router = QueryAnalyser(
-    #     service_desc_path="../data/services_desc.json",  
-    #     model_name="qwen2.5:32b",
+    #     service_desc_path="../data/dataset/service_descriptions.json",  
+    #     model_name="qwen2.5:7b",
     # )
     
-    router = SemanticRouter(
-        service_desc_path="../data/services_desc.json",
-        model_name="Qwen/Qwen3-Embedding-8B",
+    # router = SemanticRouter(
+    #     service_desc_path="../data/dataset/service_descriptions_3.json",
+    #     model_name="sentence-transformers/all-MiniLM-L6-v2",
+    #     )
 
-        )
+    router = ColBERTRouter(
+        service_desc_path="../data/dataset/service_descriptions_3.json",
+        model_name="colbert-ir/colbertv2.0",
+    )
 
-
-    a = Evaluator("../data/dataset/service_10.csv", router)
+    a = Evaluator("../data/dataset/test_service_3.csv", router)
     summary = a.run_test()
     print(summary)
