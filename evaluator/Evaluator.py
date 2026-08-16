@@ -156,7 +156,7 @@ if __name__ == "__main__":
 
     router = ColBERTRouter(
         service_desc_path="../data/dataset/service_descriptions_3.json",
-        model_name="colbert-ir/colbertv2.0",
+        model_name="lightonai/colbertv2.0",
     )
 
     a = Evaluator("../data/dataset/test_service_3.csv", router)
