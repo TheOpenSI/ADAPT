@@ -10,7 +10,7 @@ class SemanticRouter(RouterBase):
     def __init__(self,service_desc_path,model_name):
         super().__init__(service_desc_path,model_name)
         print(f"[SemanticRouter] Loading embedding model '{model_name}'... (this may take a while on first run)")
-        self.model = SentenceTransformer(model_name) 
+        self.model = SentenceTransformer(model_name).cuda() 
         print(f"[SemanticRouter] Model is running on device: {self.model.device}")
         print(f"[SemanticRouter] Model loaded.")
         print(f"[SemanticRouter] Loaded {len(self.services)} services.")

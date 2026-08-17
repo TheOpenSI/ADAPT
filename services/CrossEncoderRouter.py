@@ -12,7 +12,7 @@ class CrossEncoderRouter(RouterBase):
     def __init__(self, service_desc_path, model_name):
         super().__init__(service_desc_path, model_name)
         print(f"[CrossEncoderRouter] Loading cross-encoder model '{model_name}'...")
-        self.model = CrossEncoder(model_name)
+        self.model = CrossEncoder(model_name,device="cuda")
         print(f"[CrossEncoderRouter] Model loaded.")
         print(f"[CrossEncoderRouter] Model is running on device: {self.model.device}")
         print(f"[CrossEncoderRouter] Loaded {len(self.services)} services.")

@@ -1,0 +1,108 @@
+{
+  "correct_count": 443,
+  "total": 487,
+  "accuracy": 0.9096509240246407,
+  "avg_latency_ms": 277.3403859242139,
+  "avg_tokens": 0.0,
+  "classification_report": {
+    "abstract_algebra": {
+      "precision": 0.979381443298969,
+      "recall": 0.95,
+      "f1-score": 0.9644670050761421,
+      "support": 100.0
+    },
+    "anatomy": {
+      "precision": 0.9926470588235294,
+      "recall": 1.0,
+      "f1-score": 0.996309963099631,
+      "support": 135.0
+    },
+    "astronomy": {
+      "precision": 0.9929577464788732,
+      "recall": 0.9276315789473685,
+      "f1-score": 0.9591836734693877,
+      "support": 152.0
+    },
+    "formal_logic": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "general": {
+      "precision": 0.9863013698630136,
+      "recall": 0.72,
+      "f1-score": 0.8323699421965318,
+      "support": 100.0
+    },
+    "high_school_chemistry": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "high_school_geography": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "jurisprudence": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "world_religions": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "accuracy": 0.9096509240246407,
+    "macro avg": {
+      "precision": 0.43903195760715397,
+      "recall": 0.3997368421052631,
+      "f1-score": 0.4169256204268547,
+      "support": 487.0
+    },
+    "weighted avg": {
+      "precision": 0.9887170671913007,
+      "recall": 0.9096509240246407,
+      "f1-score": 0.9445204478707689,
+      "support": 487.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      95,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      135,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      141,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      72
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "abstract_algebra",
+    "anatomy",
+    "astronomy",
+    "general"
+  ]
+}

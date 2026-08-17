@@ -142,7 +142,7 @@ if __name__ == "__main__":
 
     # router = QueryAnalyser(service_desc_path="../data/dataset/service_descriptions_3.json", model_name="qwen2.5:32b")
 
-    # router = CrossEncoderRouter(service_desc_path="../data/dataset/service_descriptions_3.json", model_name="BAAI/bge-reranker-large")
+    router = CrossEncoderRouter(service_desc_path="../data/dataset/service_descriptions_10.json", model_name="Qwen/Qwen3-Reranker-8B")
 
     # router = QueryAnalyser(
     #     service_desc_path="../data/dataset/service_descriptions.json",  
@@ -151,13 +151,13 @@ if __name__ == "__main__":
     
     # router = SemanticRouter(
     #     service_desc_path="../data/dataset/service_descriptions_3.json",
-    #     model_name="sentence-transformers/all-MiniLM-L6-v2",
+    #     model_name= "Qwen/Qwen3-Embedding-8B",
     #     )
 
-    router = ColBERTRouter(
-        service_desc_path="../data/dataset/service_descriptions_3.json",
-        model_name="lightonai/colbertv2.0",
-    )
+    # router = ColBERTRouter(
+    #     service_desc_path="../data/dataset/service_descriptions_3.json",
+    #     model_name="lightonai/colbertv2.0",
+    # )
 
     a = Evaluator("../data/dataset/test_service_3.csv", router)
     summary = a.run_test()
