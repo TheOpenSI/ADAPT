@@ -1,0 +1,88 @@
+{
+  "routing_method": "llm",
+  "model_name": "qwen2.5:14b",
+  "specialist_service_count": 3,
+  "total_routing_labels": 4,
+  "correct_count": 464,
+  "total": 487,
+  "failed_count": 0,
+  "accuracy": 0.9527720739219713,
+  "macro_precision": 0.9532520325203252,
+  "macro_recall": 0.9611086744639377,
+  "macro_f1": 0.9534783604508797,
+  "avg_latency_ms": 497.3731302862769,
+  "avg_tokens": 513.6201232032854,
+  "avg_gpu_memory_gb": 14.236718748696148,
+  "avg_co2_kg": 2.021666453661959e-05,
+  "classification_report": {
+    "abstract_algebra": {
+      "precision": 1.0,
+      "recall": 0.99,
+      "f1-score": 0.9949748743718593,
+      "support": 100.0
+    },
+    "anatomy": {
+      "precision": 1.0,
+      "recall": 0.9925925925925926,
+      "f1-score": 0.9962825278810409,
+      "support": 135.0
+    },
+    "astronomy": {
+      "precision": 1.0,
+      "recall": 0.8618421052631579,
+      "f1-score": 0.9257950530035336,
+      "support": 152.0
+    },
+    "general": {
+      "precision": 0.8130081300813008,
+      "recall": 1.0,
+      "f1-score": 0.8968609865470852,
+      "support": 100.0
+    },
+    "accuracy": 0.9527720739219713,
+    "macro avg": {
+      "precision": 0.9532520325203252,
+      "recall": 0.9611086744639377,
+      "f1-score": 0.9534783604508797,
+      "support": 487.0
+    },
+    "weighted avg": {
+      "precision": 0.9616033121316839,
+      "recall": 0.9527720739219713,
+      "f1-score": 0.9535987174792034,
+      "support": 487.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      99,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      134,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      131,
+      21
+    ],
+    [
+      0,
+      0,
+      0,
+      100
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "abstract_algebra",
+    "anatomy",
+    "astronomy",
+    "general"
+  ]
+}
