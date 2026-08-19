@@ -1,0 +1,88 @@
+{
+  "routing_method": "cross-encoder",
+  "model_name": "Qwen/Qwen3-Reranker-8B",
+  "specialist_service_count": 3,
+  "total_routing_labels": 4,
+  "correct_count": 477,
+  "total": 487,
+  "failed_count": 0,
+  "accuracy": 0.9794661190965093,
+  "macro_precision": 0.9798582852496559,
+  "macro_recall": 0.978421052631579,
+  "macro_f1": 0.9789138770823143,
+  "avg_latency_ms": 116.49476720624483,
+  "avg_tokens": 450.35318275154003,
+  "avg_gpu_memory_gb": 15.509460029171233,
+  "avg_co2_kg": 8.428457825463417e-06,
+  "classification_report": {
+    "abstract_algebra": {
+      "precision": 0.970873786407767,
+      "recall": 1.0,
+      "f1-score": 0.9852216748768473,
+      "support": 100.0
+    },
+    "anatomy": {
+      "precision": 0.9854014598540146,
+      "recall": 1.0,
+      "f1-score": 0.9926470588235294,
+      "support": 135.0
+    },
+    "astronomy": {
+      "precision": 0.9736842105263158,
+      "recall": 0.9736842105263158,
+      "f1-score": 0.9736842105263158,
+      "support": 152.0
+    },
+    "general": {
+      "precision": 0.9894736842105263,
+      "recall": 0.94,
+      "f1-score": 0.9641025641025641,
+      "support": 100.0
+    },
+    "accuracy": 0.9794661190965093,
+    "macro avg": {
+      "precision": 0.9798582852496559,
+      "recall": 0.978421052631579,
+      "f1-score": 0.9789138770823143,
+      "support": 487.0
+    },
+    "weighted avg": {
+      "precision": 0.9795974212363886,
+      "recall": 0.9794661190965093,
+      "f1-score": 0.9793424575751901,
+      "support": 487.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      100,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      135,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      148,
+      1
+    ],
+    [
+      1,
+      1,
+      4,
+      94
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "abstract_algebra",
+    "anatomy",
+    "astronomy",
+    "general"
+  ]
+}

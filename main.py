@@ -4,12 +4,14 @@ import gc
 import time
 import torch
 
+
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)
 
 from evaluator.Evaluator import Evaluator
 from services.SemanticRouter import SemanticRouter
-# from services.CrossEncoderRouter import CrossEncoderRouter
+from services.CrossEncoderRouter import CrossEncoderRouter
 # from services.ColBERTRouter import ColBERTRouter
 from services.QueryAnalyser import QueryAnalyser
 
@@ -40,9 +42,27 @@ RUN_CONFIGS = [
 
     # dict(
     #     cls=CrossEncoderRouter,
-    #     model_name="Qwen/Qwen3-Reranker-8B",
-    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    #     model_name="Qwen/Qwen3-Reranker-4B",
+    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_5.json"),
     # ),
+
+    dict(
+        cls=CrossEncoderRouter,
+        model_name="Qwen/Qwen3-Reranker-8B",
+        service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    ),
+
+    dict(
+        cls=CrossEncoderRouter,
+        model_name="mixedbread-ai/mxbai-rerank-large-v2",
+        service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    ),
+    dict(
+        cls=CrossEncoderRouter,
+        model_name="BAAI/bge-reranker-v2-m3",
+        service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    ),
+
 
 
     # dict(

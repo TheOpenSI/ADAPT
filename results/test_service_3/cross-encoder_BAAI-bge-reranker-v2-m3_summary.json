@@ -1,0 +1,88 @@
+{
+  "routing_method": "cross-encoder",
+  "model_name": "BAAI/bge-reranker-v2-m3",
+  "specialist_service_count": 3,
+  "total_routing_labels": 4,
+  "correct_count": 416,
+  "total": 487,
+  "failed_count": 0,
+  "accuracy": 0.8542094455852156,
+  "macro_precision": 0.8676868079738099,
+  "macro_recall": 0.8597977582846004,
+  "macro_f1": 0.8566324266885984,
+  "avg_latency_ms": 50.84493083141178,
+  "avg_tokens": 555.4784394250513,
+  "avg_gpu_memory_gb": 5.034941596906533,
+  "avg_co2_kg": 3.90051114146432e-06,
+  "classification_report": {
+    "abstract_algebra": {
+      "precision": 0.989010989010989,
+      "recall": 0.9,
+      "f1-score": 0.9424083769633508,
+      "support": 100.0
+    },
+    "anatomy": {
+      "precision": 0.8897058823529411,
+      "recall": 0.8962962962962963,
+      "f1-score": 0.8929889298892989,
+      "support": 135.0
+    },
+    "astronomy": {
+      "precision": 0.9596774193548387,
+      "recall": 0.7828947368421053,
+      "f1-score": 0.8623188405797102,
+      "support": 152.0
+    },
+    "general": {
+      "precision": 0.6323529411764706,
+      "recall": 0.86,
+      "f1-score": 0.7288135593220338,
+      "support": 100.0
+    },
+    "accuracy": 0.8542094455852156,
+    "macro avg": {
+      "precision": 0.8676868079738099,
+      "recall": 0.8597977582846004,
+      "f1-score": 0.8566324266885984,
+      "support": 487.0
+    },
+    "weighted avg": {
+      "precision": 0.8790916937953357,
+      "recall": 0.8542094455852156,
+      "f1-score": 0.8598524906195273,
+      "support": 487.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      90,
+      3,
+      0,
+      7
+    ],
+    [
+      0,
+      121,
+      2,
+      12
+    ],
+    [
+      0,
+      2,
+      119,
+      31
+    ],
+    [
+      1,
+      10,
+      3,
+      86
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "abstract_algebra",
+    "anatomy",
+    "astronomy",
+    "general"
+  ]
+}
