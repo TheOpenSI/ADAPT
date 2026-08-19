@@ -3,17 +3,17 @@
   "model_name": "qwen2.5:14b",
   "specialist_service_count": 3,
   "total_routing_labels": 4,
-  "correct_count": 464,
+  "correct_count": 463,
   "total": 487,
   "failed_count": 0,
-  "accuracy": 0.9527720739219713,
-  "macro_precision": 0.9532520325203252,
-  "macro_recall": 0.9611086744639377,
-  "macro_f1": 0.9534783604508797,
-  "avg_latency_ms": 497.3731302862769,
-  "avg_tokens": 513.6201232032854,
+  "accuracy": 0.9507186858316222,
+  "macro_precision": 0.9516129032258065,
+  "macro_recall": 0.9594639376218324,
+  "macro_f1": 0.95152509017822,
+  "avg_latency_ms": 416.4739836254052,
+  "avg_tokens": 513.6160164271047,
   "avg_gpu_memory_gb": 14.236718748696148,
-  "avg_co2_kg": 2.021666453661959e-05,
+  "avg_co2_kg": 1.743269700922685e-05,
   "classification_report": {
     "abstract_algebra": {
       "precision": 1.0,
@@ -29,27 +29,27 @@
     },
     "astronomy": {
       "precision": 1.0,
-      "recall": 0.8618421052631579,
-      "f1-score": 0.9257950530035336,
+      "recall": 0.8552631578947368,
+      "f1-score": 0.9219858156028369,
       "support": 152.0
     },
     "general": {
-      "precision": 0.8130081300813008,
+      "precision": 0.8064516129032258,
       "recall": 1.0,
-      "f1-score": 0.8968609865470852,
+      "f1-score": 0.8928571428571429,
       "support": 100.0
     },
-    "accuracy": 0.9527720739219713,
+    "accuracy": 0.9507186858316222,
     "macro avg": {
-      "precision": 0.9532520325203252,
-      "recall": 0.9611086744639377,
-      "f1-score": 0.9534783604508797,
+      "precision": 0.9516129032258065,
+      "recall": 0.9594639376218324,
+      "f1-score": 0.95152509017822,
       "support": 487.0
     },
     "weighted avg": {
-      "precision": 0.9616033121316839,
-      "recall": 0.9527720739219713,
-      "f1-score": 0.9535987174792034,
+      "precision": 0.9602570047029211,
+      "recall": 0.9507186858316222,
+      "f1-score": 0.9515876528921395,
       "support": 487.0
     }
   },
@@ -69,8 +69,8 @@
     [
       0,
       0,
-      131,
-      21
+      130,
+      22
     ],
     [
       0,

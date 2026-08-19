@@ -14,6 +14,8 @@ class QueryAnalyser(RouterBase):
     def __init__(self, service_desc_path, model_name, verbose=False):
         super().__init__(service_desc_path, model_name)
         self.verbose = verbose
+        self.client = ollama.Client(host="http://localhost:11435")
+
 
         print(f"[QueryAnalyser] Loading service descriptions from {service_desc_path}...")
         load_start = time.perf_counter()
@@ -55,7 +57,7 @@ class QueryAnalyser(RouterBase):
 
     def _get_ollama_gpu_memory_gb(self):
         try:
-            response = requests.get('http://localhost:11434/api/ps', timeout=5)
+            response = requests.get('http://localhost:11435/api/ps', timeout=5)
             data = response.json()
             for model in data.get("models", []):
                 if self.model_name in (model.get("name"), model.get("model")):
@@ -74,13 +76,21 @@ class QueryAnalyser(RouterBase):
         print(f"[QueryAnalyser] UNMATCHED — raw model output: {raw_label!r}")
         return "UNMATCHED"
 
+    def unload_model(self):
+        self.client.chat(
+            model=self.model_name,
+            messages=[],
+            keep_alive=0,
+    )
+        print(f"[QueryAnalyser] Unloaded {self.model_name}")
+
     def route(self, query):
         if self.verbose:
             preview = query if len(query) <= 80 else query[:77] + "..."
             print(f"  Sending query ({len(query)} chars) to '{self.model_name}': {preview!r}")
 
         start = time.perf_counter()
-        response = ollama.chat(
+        response = self.client.chat(
             model=self.model_name,
             messages=[
                 {"role": "user", "content": self._build_prompt(query)},

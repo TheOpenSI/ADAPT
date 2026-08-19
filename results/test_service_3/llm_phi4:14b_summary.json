@@ -1,0 +1,94 @@
+{
+  "routing_method": "llm",
+  "model_name": "phi4:14b",
+  "specialist_service_count": 3,
+  "total_routing_labels": 4,
+  "correct_count": 457,
+  "total": 487,
+  "failed_count": 0,
+  "accuracy": 0.9383983572895277,
+  "macro_precision": 0.75331181252989,
+  "macro_recall": 0.7566296296296295,
+  "macro_f1": 0.7523850345703788,
+  "avg_latency_ms": 390.95882355528107,
+  "avg_tokens": 491.9281314168378,
+  "avg_gpu_memory_gb": 11.559306639246643,
+  "avg_co2_kg": 1.7127321591330074e-05,
+  "classification_report": {
+    "UNMATCHED": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "abstract_algebra": {
+      "precision": 1.0,
+      "recall": 0.99,
+      "f1-score": 0.9949748743718593,
+      "support": 100.0
+    },
+    "anatomy": {
+      "precision": 1.0,
+      "recall": 0.9481481481481482,
+      "f1-score": 0.973384030418251,
+      "support": 135.0
+    },
+    "astronomy": {
+      "precision": 0.9779411764705882,
+      "recall": 0.875,
+      "f1-score": 0.9236111111111112,
+      "support": 152.0
+    },
+    "general": {
+      "precision": 0.7886178861788617,
+      "recall": 0.97,
+      "f1-score": 0.8699551569506726,
+      "support": 100.0
+    },
+    "accuracy": 0.9383983572895277,
+    "macro avg": {
+      "precision": 0.75331181252989,
+      "recall": 0.7566296296296295,
+      "f1-score": 0.7523850345703788,
+      "support": 487.0
+    },
+    "weighted avg": {
+      "precision": 0.9497101590172805,
+      "recall": 0.9383983572895277,
+      "f1-score": 0.9410446327055563,
+      "support": 487.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      99,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      128,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      133,
+      19
+    ],
+    [
+      0,
+      0,
+      3,
+      97
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "abstract_algebra",
+    "anatomy",
+    "astronomy",
+    "general"
+  ]
+}

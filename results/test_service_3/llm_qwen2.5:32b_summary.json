@@ -3,17 +3,17 @@
   "model_name": "qwen2.5:32b",
   "specialist_service_count": 3,
   "total_routing_labels": 4,
-  "correct_count": 473,
+  "correct_count": 472,
   "total": 487,
   "failed_count": 0,
-  "accuracy": 0.971252566735113,
-  "macro_precision": 0.9693590495829301,
-  "macro_recall": 0.9748489278752437,
-  "macro_f1": 0.9712307370035447,
-  "avg_latency_ms": 623.4974221219318,
-  "avg_tokens": 513.5092402464065,
+  "accuracy": 0.9691991786447639,
+  "macro_precision": 0.9673893788632595,
+  "macro_recall": 0.9723489278752436,
+  "macro_f1": 0.9691538127019437,
+  "avg_latency_ms": 644.8131315544002,
+  "avg_tokens": 513.5154004106777,
   "avg_gpu_memory_gb": 26.51208007708192,
-  "avg_co2_kg": 2.6751282476639215e-05,
+  "avg_co2_kg": 2.830578690502696e-05,
   "classification_report": {
     "abstract_algebra": {
       "precision": 1.0,
@@ -28,28 +28,28 @@
       "support": 135.0
     },
     "astronomy": {
-      "precision": 0.993006993006993,
+      "precision": 0.9861111111111112,
       "recall": 0.9342105263157895,
-      "f1-score": 0.9627118644067797,
+      "f1-score": 0.9594594594594594,
       "support": 152.0
     },
     "general": {
-      "precision": 0.8918918918918919,
-      "recall": 0.99,
-      "f1-score": 0.9383886255924171,
+      "precision": 0.8909090909090909,
+      "recall": 0.98,
+      "f1-score": 0.9333333333333333,
       "support": 100.0
     },
-    "accuracy": 0.971252566735113,
+    "accuracy": 0.9691991786447639,
     "macro avg": {
-      "precision": 0.9693590495829301,
-      "recall": 0.9748489278752437,
-      "f1-score": 0.9712307370035447,
+      "precision": 0.9673893788632595,
+      "recall": 0.9723489278752436,
+      "f1-score": 0.9691538127019437,
       "support": 487.0
     },
     "weighted avg": {
-      "precision": 0.9735498756461703,
-      "recall": 0.971252566735113,
-      "f1-score": 0.9715872221315804,
+      "precision": 0.9711957603557101,
+      "recall": 0.9691991786447639,
+      "f1-score": 0.9695340501030363,
       "support": 487.0
     }
   },
@@ -75,8 +75,8 @@
     [
       0,
       0,
-      1,
-      99
+      2,
+      98
     ]
   ],
   "confusion_matrix_labels": [

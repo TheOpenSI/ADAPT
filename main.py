@@ -43,48 +43,51 @@ RUN_CONFIGS = [
     #     model_name="Qwen/Qwen3-Reranker-8B",
     #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
     # ),
+
+
     # dict(
     #     cls=ColBERTRouter,
     #     model_name="colbert-ir/colbertv2.0",
     #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_3.json"),
     # ),
+
+    # dict(
+    #         cls=QueryAnalyser,
+    #         model_name="qwen3:32b",
+    #         service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
+    # ),
+
     dict(
         cls=QueryAnalyser,
         model_name="qwen2.5:7b",
-        service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
+        service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
     ),
     dict(
         cls=QueryAnalyser,
         model_name="qwen2.5:14b",
-        service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
+        service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
     ),
     dict(
         cls=QueryAnalyser,
         model_name="qwen2.5:32b",
-        service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
-    ),
-
-    dict(
-            cls=QueryAnalyser,
-            model_name="qwen3:32b",
-            service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
+        service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
     ),
 
     dict(
             cls=QueryAnalyser,
             model_name="llama3.1:8b",
-            service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
+            service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
     ),
     dict(
             cls=QueryAnalyser,
             model_name="phi4:14b",
-            service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
+            service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
     ),
 
 ]
 
 DATASET_PATHS = [
-    os.path.join(DATA_DIR, "dataset", "test_service_3.csv"),
+    os.path.join(DATA_DIR, "dataset", "test_service_10.csv"),
 ]
 
 
@@ -136,6 +139,8 @@ def run_all():
 
             finally:
                 cleanup_gpu(router)
+                if hasattr(router, "unload_model"):
+                    router.unload_model()
 
             run_time_s = time.perf_counter() - run_start
             print(f"\n[run_benchmark] {router_name} finished in {run_time_s:.1f}s "
