@@ -1,0 +1,161 @@
+
+######################################################################
+# RUN 1/3: SemanticRouter (Qwen/Qwen3-Embedding-8B) on /home/maniles/manile/manile/data/dataset/test_service_8.csv
+######################################################################
+
+[SemanticRouter] Loading embedding model 'Qwen/Qwen3-Embedding-8B'... (this may take a while on first run)
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 6147.22it/s]
+[codecarbon WARNING @ 04:57:12] Multiple instances of codecarbon are allowed to run at the same time.
+[SemanticRouter] Model loaded in 11.84s — running on device: cuda:0
+[SemanticRouter] Loaded 9 services.
+[SemanticRouter] Building service embeddings...
+  Embedding 9 service descriptions:
+    [abstract_algebra] (241 chars): 'Abstract algebra classifies and categorizes concepts related to cyclic subgro...'
+    [anatomy] (268 chars): 'The anatomy service classifies information related to homeostasis, parotid gl...'
+    [astronomy] (316 chars): 'Astronomy classifies texts related to blackbody radiation and stellar spectra...'
+    [business_ethics] (276 chars): 'Business ethics involves disqualification of directors, global corporate powe...'
+    [college_computer_science] (295 chars): 'College computer science involves symbol table usage in debugging, hash funct...'
+    [high_school_chemistry] (258 chars): 'High school chemistry involves Lewis structures and bond angles, ground state...'
+    [high_school_geography] (257 chars): 'High school geography handles federal state governance, city planning and zon...'
+    [jurisprudence] (260 chars): "Jurisprudence encompasses Natural Law thinking, Olivecrona's psychological ex..."
+    [general] (668 chars): 'The subject matter represented by these source domains encompasses historical...'
+  Service embedding matrix shape: (9, 4096) (9 services x 4096 dims)
+[SemanticRouter] Ready to route.
+
+============================================================
+Starting evaluation: SemanticRouter on /home/maniles/manile/manile/data/dataset/test_service_8.csv
+Total rows to process: 1196
+============================================================
+
+[resume] Found existing run with 1196 completed queries — resuming from row 1196.
+[resume] All 1196 queries already completed — nothing to do.
+=== TOTALS ===
+Total carbon emissions (kg CO2): 3.4737702081792847e-06
+Total energy consumed (kWh): 6.331002107155352e-06
+
+=== BREAKDOWN ===
+EmissionsData(timestamp='2026-08-19T04:57:17', project_name='bi-encoder_Qwen-Qwen3-Embedding-8B', run_id='d8bf8e94-22cc-4af1-aca5-6aee9d57a63e', experiment_id='5b0fa12a-3dd7-45bb-9766-cc326314d9f1', duration=3.2211277028545737, emissions=3.4737702081792847e-06, emissions_rate=1.0784329367323184e-06, cpu_power=40.0, gpu_power=180.46913362176198, ram_power=20.0, cpu_energy=1.1062570433649753e-06, gpu_energy=4.705281540395845e-06, ram_energy=5.194635233945316e-07, energy_consumed=6.331002107155352e-06, water_consumed=0.0, country_name='Australia', country_iso_code='AUS', region='new south wales', cloud_provider='', cloud_region='', os='Linux-5.15.0-186-generic-x86_64-with-glibc2.35', python_version='3.10.12', codecarbon_version='3.3.0', cpu_count=10, cpu_model='QEMU Virtual CPU version 2.5+', gpu_count=2, gpu_model='2 x NVIDIA A100 80GB PCIe', longitude=148.909, latitude=-34.8381, ram_total_size=61.31597137451172, tracking_mode='machine', cpu_utilization_percent=0, gpu_utilization_percent=0, ram_utilization_percent=0, ram_used_gb=0, on_cloud='N', pue=1.0, wue=0.0)
+saved: /home/maniles/manile/manile/results/test_service_8/bi-encoder_Qwen-Qwen3-Embedding-8B.json
+saved: /home/maniles/manile/manile/results/test_service_8/bi-encoder_Qwen-Qwen3-Embedding-8B.csv
+saved summary: /home/maniles/manile/manile/results/test_service_8/bi-encoder_Qwen-Qwen3-Embedding-8B_summary.json
+
+============================================================
+DONE — accuracy: 0.873
+============================================================
+
+
+[run_benchmark] SemanticRouter finished in 17.7s (0.3 min)
+
+######################################################################
+# RUN 2/3: SemanticRouter (BAAI/bge-large-en-v1.5) on /home/maniles/manile/manile/data/dataset/test_service_8.csv
+######################################################################
+
+[SemanticRouter] Loading embedding model 'BAAI/bge-large-en-v1.5'... (this may take a while on first run)
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 5938.36it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+[SemanticRouter] Model loaded in 3.99s — running on device: cuda:0
+[SemanticRouter] Loaded 9 services.
+[SemanticRouter] Building service embeddings...
+  Embedding 9 service descriptions:
+    [abstract_algebra] (241 chars): 'Abstract algebra classifies and categorizes concepts related to cyclic subgro...'
+    [anatomy] (268 chars): 'The anatomy service classifies information related to homeostasis, parotid gl...'
+    [astronomy] (316 chars): 'Astronomy classifies texts related to blackbody radiation and stellar spectra...'
+    [business_ethics] (276 chars): 'Business ethics involves disqualification of directors, global corporate powe...'
+    [college_computer_science] (295 chars): 'College computer science involves symbol table usage in debugging, hash funct...'
+    [high_school_chemistry] (258 chars): 'High school chemistry involves Lewis structures and bond angles, ground state...'
+    [high_school_geography] (257 chars): 'High school geography handles federal state governance, city planning and zon...'
+    [jurisprudence] (260 chars): "Jurisprudence encompasses Natural Law thinking, Olivecrona's psychological ex..."
+    [general] (668 chars): 'The subject matter represented by these source domains encompasses historical...'
+  Service embedding matrix shape: (9, 1024) (9 services x 1024 dims)
+[SemanticRouter] Ready to route.
+
+============================================================
+Starting evaluation: SemanticRouter on /home/maniles/manile/manile/data/dataset/test_service_8.csv
+Total rows to process: 1196
+============================================================
+
+[resume] Found existing run with 1196 completed queries — resuming from row 1196.
+[resume] All 1196 queries already completed — nothing to do.
+=== TOTALS ===
+Total carbon emissions (kg CO2): 6.762574252664082e-08
+Total energy consumed (kWh): 1.2324900404350857e-07
+
+=== BREAKDOWN ===
+EmissionsData(timestamp='2026-08-19T04:57:25', project_name='bi-encoder_BAAI-bge-large-en-v1.5', run_id='4d055d93-de69-4e9c-b4a0-d43058a6ba48', experiment_id='5b0fa12a-3dd7-45bb-9766-cc326314d9f1', duration=3.0901645901612937, emissions=6.762574252664082e-08, emissions_rate=2.1884187897936867e-08, cpu_power=18.8857705, gpu_power=0.0, ram_power=20.0, cpu_energy=7.89355195511073e-08, gpu_energy=0.0, ram_energy=4.431348449240128e-08, energy_consumed=1.2324900404350857e-07, water_consumed=0.0, country_name='Australia', country_iso_code='AUS', region='new south wales', cloud_provider='', cloud_region='', os='Linux-5.15.0-186-generic-x86_64-with-glibc2.35', python_version='3.10.12', codecarbon_version='3.3.0', cpu_count=10, cpu_model='QEMU Virtual CPU version 2.5+', gpu_count=2, gpu_model='2 x NVIDIA A100 80GB PCIe', longitude=148.909, latitude=-34.8381, ram_total_size=61.31597137451172, tracking_mode='machine', cpu_utilization_percent=0, gpu_utilization_percent=0, ram_utilization_percent=0, ram_used_gb=0, on_cloud='N', pue=1.0, wue=0.0)
+saved: /home/maniles/manile/manile/results/test_service_8/bi-encoder_BAAI-bge-large-en-v1.5.json
+saved: /home/maniles/manile/manile/results/test_service_8/bi-encoder_BAAI-bge-large-en-v1.5.csv
+saved summary: /home/maniles/manile/manile/results/test_service_8/bi-encoder_BAAI-bge-large-en-v1.5_summary.json
+
+============================================================
+DONE — accuracy: 0.735
+============================================================
+
+
+[run_benchmark] SemanticRouter finished in 7.6s (0.1 min)
+
+######################################################################
+# RUN 3/3: SemanticRouter (sentence-transformers/all-MiniLM-L6-v2) on /home/maniles/manile/manile/data/dataset/test_service_8.csv
+######################################################################
+
+[SemanticRouter] Loading embedding model 'sentence-transformers/all-MiniLM-L6-v2'... (this may take a while on first run)
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3915.82it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+[SemanticRouter] Model loaded in 3.66s — running on device: cuda:0
+[SemanticRouter] Loaded 9 services.
+[SemanticRouter] Building service embeddings...
+  Embedding 9 service descriptions:
+    [abstract_algebra] (241 chars): 'Abstract algebra classifies and categorizes concepts related to cyclic subgro...'
+    [anatomy] (268 chars): 'The anatomy service classifies information related to homeostasis, parotid gl...'
+    [astronomy] (316 chars): 'Astronomy classifies texts related to blackbody radiation and stellar spectra...'
+    [business_ethics] (276 chars): 'Business ethics involves disqualification of directors, global corporate powe...'
+    [college_computer_science] (295 chars): 'College computer science involves symbol table usage in debugging, hash funct...'
+    [high_school_chemistry] (258 chars): 'High school chemistry involves Lewis structures and bond angles, ground state...'
+    [high_school_geography] (257 chars): 'High school geography handles federal state governance, city planning and zon...'
+    [jurisprudence] (260 chars): "Jurisprudence encompasses Natural Law thinking, Olivecrona's psychological ex..."
+    [general] (668 chars): 'The subject matter represented by these source domains encompasses historical...'
+  Service embedding matrix shape: (9, 384) (9 services x 384 dims)
+[SemanticRouter] Ready to route.
+
+============================================================
+Starting evaluation: SemanticRouter on /home/maniles/manile/manile/data/dataset/test_service_8.csv
+Total rows to process: 1196
+============================================================
+
+[resume] Found existing run with 1196 completed queries — resuming from row 1196.
+[resume] All 1196 queries already completed — nothing to do.
+=== TOTALS ===
+Total carbon emissions (kg CO2): 1.5801787835920916e-06
+Total energy consumed (kWh): 2.879901262624736e-06
+
+=== BREAKDOWN ===
+EmissionsData(timestamp='2026-08-19T04:57:32', project_name='bi-encoder_sentence-transformers-all-MiniLM-L6-v2', run_id='cb5922f6-ab0e-442a-857d-dcb44a5fb16c', experiment_id='5b0fa12a-3dd7-45bb-9766-cc326314d9f1', duration=3.163837779313326, emissions=1.5801787835920916e-06, emissions_rate=4.994500014899787e-07, cpu_power=28.532992, gpu_power=319.8554048701871, ram_power=20.0, cpu_energy=2.6518265700452856e-07, gpu_energy=2.462779761458478e-06, ram_energy=1.5193884416172901e-07, energy_consumed=2.879901262624736e-06, water_consumed=0.0, country_name='Australia', country_iso_code='AUS', region='new south wales', cloud_provider='', cloud_region='', os='Linux-5.15.0-186-generic-x86_64-with-glibc2.35', python_version='3.10.12', codecarbon_version='3.3.0', cpu_count=10, cpu_model='QEMU Virtual CPU version 2.5+', gpu_count=2, gpu_model='2 x NVIDIA A100 80GB PCIe', longitude=148.909, latitude=-34.8381, ram_total_size=61.31597137451172, tracking_mode='machine', cpu_utilization_percent=0, gpu_utilization_percent=0, ram_utilization_percent=0, ram_used_gb=0, on_cloud='N', pue=1.0, wue=0.0)
+saved: /home/maniles/manile/manile/results/test_service_8/bi-encoder_sentence-transformers-all-MiniLM-L6-v2.json
+saved: /home/maniles/manile/manile/results/test_service_8/bi-encoder_sentence-transformers-all-MiniLM-L6-v2.csv
+saved summary: /home/maniles/manile/manile/results/test_service_8/bi-encoder_sentence-transformers-all-MiniLM-L6-v2_summary.json
+
+============================================================
+DONE — accuracy: 0.739
+============================================================
+
+
+[run_benchmark] SemanticRouter finished in 7.3s (0.1 min)
+
+======================================================================
+BENCHMARK COMPLETE — 3/3 runs succeeded
+======================================================================
+
+  bi-encoder      | Qwen/Qwen3-Embedding-8B             | acc=0.873 | macro_f1=0.868 | avg_latency=40.7ms
+  bi-encoder      | BAAI/bge-large-en-v1.5              | acc=0.735 | macro_f1=0.735 | avg_latency=15.1ms
+  bi-encoder      | sentence-transformers/all-MiniLM-L6-v2 | acc=0.739 | macro_f1=0.727 | avg_latency=5.5ms
