@@ -1,0 +1,198 @@
+{
+  "routing_method": "colbert",
+  "model_name": "lightonai/GTE-ModernColBERT-v1",
+  "specialist_service_count": 8,
+  "total_routing_labels": 9,
+  "correct_count": 912,
+  "total": 1196,
+  "failed_count": 0,
+  "accuracy": 0.7625418060200669,
+  "macro_precision": 0.7776712331200737,
+  "macro_recall": 0.7718709007900377,
+  "macro_f1": 0.7491722645622081,
+  "avg_latency_ms": 18.41341857650445,
+  "avg_tokens": 26.736622073578594,
+  "avg_gpu_memory_gb": 1.9009450893338309,
+  "avg_co2_kg": 9.853926412156504e-07,
+  "classification_report": {
+    "abstract_algebra": {
+      "precision": 0.532258064516129,
+      "recall": 0.99,
+      "f1-score": 0.6923076923076923,
+      "support": 100.0
+    },
+    "anatomy": {
+      "precision": 0.9767441860465116,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9545454545454546,
+      "support": 135.0
+    },
+    "astronomy": {
+      "precision": 0.881578947368421,
+      "recall": 0.881578947368421,
+      "f1-score": 0.881578947368421,
+      "support": 152.0
+    },
+    "business_ethics": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1-score": 0.7272727272727273,
+      "support": 100.0
+    },
+    "college_computer_science": {
+      "precision": 0.8666666666666667,
+      "recall": 0.52,
+      "f1-score": 0.65,
+      "support": 100.0
+    },
+    "general": {
+      "precision": 0.5032258064516129,
+      "recall": 0.78,
+      "f1-score": 0.611764705882353,
+      "support": 100.0
+    },
+    "high_school_chemistry": {
+      "precision": 0.9064039408866995,
+      "recall": 0.9064039408866995,
+      "f1-score": 0.9064039408866995,
+      "support": 203.0
+    },
+    "high_school_geography": {
+      "precision": 0.851063829787234,
+      "recall": 0.40404040404040403,
+      "f1-score": 0.547945205479452,
+      "support": 198.0
+    },
+    "jurisprudence": {
+      "precision": 0.8144329896907216,
+      "recall": 0.7314814814814815,
+      "f1-score": 0.7707317073170732,
+      "support": 108.0
+    },
+    "accuracy": 0.7625418060200669,
+    "macro avg": {
+      "precision": 0.7776712331200737,
+      "recall": 0.7718709007900377,
+      "f1-score": 0.7491722645622081,
+      "support": 1196.0
+    },
+    "weighted avg": {
+      "precision": 0.8053608584706161,
+      "recall": 0.7625418060200669,
+      "f1-score": 0.7581357223955594,
+      "support": 1196.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      99,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      126,
+      1,
+      1,
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      134,
+      0,
+      0,
+      7,
+      7,
+      0,
+      0
+    ],
+    [
+      3,
+      1,
+      0,
+      80,
+      2,
+      1,
+      0,
+      6,
+      7
+    ],
+    [
+      42,
+      0,
+      0,
+      3,
+      52,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      2,
+      2,
+      0,
+      78,
+      2,
+      5,
+      8
+    ],
+    [
+      10,
+      0,
+      8,
+      0,
+      1,
+      0,
+      184,
+      0,
+      0
+    ],
+    [
+      16,
+      2,
+      7,
+      24,
+      4,
+      59,
+      4,
+      80,
+      2
+    ],
+    [
+      6,
+      0,
+      0,
+      10,
+      0,
+      9,
+      1,
+      3,
+      79
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "abstract_algebra",
+    "anatomy",
+    "astronomy",
+    "business_ethics",
+    "college_computer_science",
+    "general",
+    "high_school_chemistry",
+    "high_school_geography",
+    "jurisprudence"
+  ]
+}

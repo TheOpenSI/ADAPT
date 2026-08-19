@@ -1,0 +1,126 @@
+{
+  "routing_method": "colbert",
+  "model_name": "lightonai/Reason-ModernColBERT",
+  "specialist_service_count": 5,
+  "total_routing_labels": 6,
+  "correct_count": 611,
+  "total": 687,
+  "failed_count": 0,
+  "accuracy": 0.8893740902474527,
+  "macro_precision": 0.8874251871885409,
+  "macro_recall": 0.8801933073424301,
+  "macro_f1": 0.8761199220225974,
+  "avg_latency_ms": 18.53023030899541,
+  "avg_tokens": 38.80058224163027,
+  "avg_gpu_memory_gb": 0.5840773006367024,
+  "avg_co2_kg": 1.0656006140715844e-06,
+  "classification_report": {
+    "abstract_algebra": {
+      "precision": 0.7111111111111111,
+      "recall": 0.96,
+      "f1-score": 0.8170212765957446,
+      "support": 100.0
+    },
+    "anatomy": {
+      "precision": 0.9703703703703703,
+      "recall": 0.9703703703703703,
+      "f1-score": 0.9703703703703703,
+      "support": 135.0
+    },
+    "astronomy": {
+      "precision": 0.9862068965517241,
+      "recall": 0.9407894736842105,
+      "f1-score": 0.9629629629629629,
+      "support": 152.0
+    },
+    "business_ethics": {
+      "precision": 0.8823529411764706,
+      "recall": 0.9,
+      "f1-score": 0.8910891089108911,
+      "support": 100.0
+    },
+    "college_computer_science": {
+      "precision": 0.8823529411764706,
+      "recall": 0.6,
+      "f1-score": 0.7142857142857143,
+      "support": 100.0
+    },
+    "general": {
+      "precision": 0.8921568627450981,
+      "recall": 0.91,
+      "f1-score": 0.900990099009901,
+      "support": 100.0
+    },
+    "accuracy": 0.8893740902474527,
+    "macro avg": {
+      "precision": 0.8874251871885409,
+      "recall": 0.8801933073424301,
+      "f1-score": 0.8761199220225974,
+      "support": 687.0
+    },
+    "weighted avg": {
+      "precision": 0.8991278513781327,
+      "recall": 0.8893740902474527,
+      "f1-score": 0.887494891194462,
+      "support": 687.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      96,
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      131,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      0,
+      143,
+      1,
+      0,
+      6
+    ],
+    [
+      2,
+      1,
+      0,
+      90,
+      3,
+      4
+    ],
+    [
+      35,
+      2,
+      0,
+      3,
+      60,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      7,
+      0,
+      91
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "abstract_algebra",
+    "anatomy",
+    "astronomy",
+    "business_ethics",
+    "college_computer_science",
+    "general"
+  ]
+}

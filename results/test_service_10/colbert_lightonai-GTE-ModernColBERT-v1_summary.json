@@ -1,0 +1,256 @@
+{
+  "routing_method": "colbert",
+  "model_name": "lightonai/GTE-ModernColBERT-v1",
+  "specialist_service_count": 10,
+  "total_routing_labels": 11,
+  "correct_count": 1093,
+  "total": 1493,
+  "failed_count": 0,
+  "accuracy": 0.7320830542531815,
+  "macro_precision": 0.7643969402313053,
+  "macro_recall": 0.7335723340681267,
+  "macro_f1": 0.71739587044228,
+  "avg_latency_ms": 18.56028291191569,
+  "avg_tokens": 26.92766242464836,
+  "avg_gpu_memory_gb": 1.9013583166680716,
+  "avg_co2_kg": 9.618734176310625e-07,
+  "classification_report": {
+    "abstract_algebra": {
+      "precision": 0.6275862068965518,
+      "recall": 0.91,
+      "f1-score": 0.7428571428571429,
+      "support": 100.0
+    },
+    "anatomy": {
+      "precision": 0.9606299212598425,
+      "recall": 0.9037037037037037,
+      "f1-score": 0.9312977099236641,
+      "support": 135.0
+    },
+    "astronomy": {
+      "precision": 0.8972602739726028,
+      "recall": 0.8618421052631579,
+      "f1-score": 0.8791946308724832,
+      "support": 152.0
+    },
+    "business_ethics": {
+      "precision": 0.7835051546391752,
+      "recall": 0.76,
+      "f1-score": 0.7715736040609137,
+      "support": 100.0
+    },
+    "college_computer_science": {
+      "precision": 0.8837209302325582,
+      "recall": 0.38,
+      "f1-score": 0.5314685314685315,
+      "support": 100.0
+    },
+    "formal_logic": {
+      "precision": 0.44573643410852715,
+      "recall": 0.9126984126984127,
+      "f1-score": 0.5989583333333334,
+      "support": 126.0
+    },
+    "general": {
+      "precision": 0.5099337748344371,
+      "recall": 0.77,
+      "f1-score": 0.6135458167330677,
+      "support": 100.0
+    },
+    "high_school_chemistry": {
+      "precision": 0.9141414141414141,
+      "recall": 0.8916256157635468,
+      "f1-score": 0.9027431421446384,
+      "support": 203.0
+    },
+    "high_school_geography": {
+      "precision": 0.8674698795180723,
+      "recall": 0.36363636363636365,
+      "f1-score": 0.5124555160142349,
+      "support": 198.0
+    },
+    "jurisprudence": {
+      "precision": 0.7058823529411765,
+      "recall": 0.5555555555555556,
+      "f1-score": 0.6217616580310881,
+      "support": 108.0
+    },
+    "world_religions": {
+      "precision": 0.8125,
+      "recall": 0.7602339181286549,
+      "f1-score": 0.7854984894259819,
+      "support": 171.0
+    },
+    "accuracy": 0.7320830542531815,
+    "macro avg": {
+      "precision": 0.7643969402313053,
+      "recall": 0.7335723340681267,
+      "f1-score": 0.71739587044228,
+      "support": 1493.0
+    },
+    "weighted avg": {
+      "precision": 0.7871457037540478,
+      "recall": 0.7320830542531815,
+      "f1-score": 0.7280439283520819,
+      "support": 1493.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      91,
+      0,
+      0,
+      0,
+      1,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      122,
+      1,
+      1,
+      0,
+      6,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      131,
+      0,
+      0,
+      7,
+      7,
+      6,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      76,
+      2,
+      9,
+      1,
+      0,
+      4,
+      7,
+      0
+    ],
+    [
+      28,
+      0,
+      0,
+      2,
+      38,
+      30,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      1,
+      0,
+      0,
+      115,
+      1,
+      0,
+      0,
+      5,
+      0
+    ],
+    [
+      2,
+      0,
+      2,
+      2,
+      0,
+      3,
+      77,
+      1,
+      4,
+      8,
+      1
+    ],
+    [
+      6,
+      0,
+      8,
+      0,
+      0,
+      8,
+      0,
+      181,
+      0,
+      0,
+      0
+    ],
+    [
+      7,
+      2,
+      3,
+      13,
+      2,
+      26,
+      39,
+      4,
+      72,
+      2,
+      28
+    ],
+    [
+      3,
+      0,
+      0,
+      3,
+      0,
+      29,
+      9,
+      1,
+      2,
+      60,
+      1
+    ],
+    [
+      2,
+      2,
+      0,
+      0,
+      0,
+      17,
+      16,
+      0,
+      1,
+      3,
+      130
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "abstract_algebra",
+    "anatomy",
+    "astronomy",
+    "business_ethics",
+    "college_computer_science",
+    "formal_logic",
+    "general",
+    "high_school_chemistry",
+    "high_school_geography",
+    "jurisprudence",
+    "world_religions"
+  ]
+}

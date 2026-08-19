@@ -1,0 +1,88 @@
+{
+  "routing_method": "colbert",
+  "model_name": "mixedbread-ai/mxbai-colbert-large-v1",
+  "specialist_service_count": 3,
+  "total_routing_labels": 4,
+  "correct_count": 446,
+  "total": 487,
+  "failed_count": 0,
+  "accuracy": 0.9158110882956879,
+  "macro_precision": 0.9207765664525084,
+  "macro_recall": 0.9287573099415204,
+  "macro_f1": 0.9185855501769034,
+  "avg_latency_ms": 21.109904300276135,
+  "avg_tokens": 128.0,
+  "avg_gpu_memory_gb": 1.0459779958705393,
+  "avg_co2_kg": 1.244422802085264e-06,
+  "classification_report": {
+    "abstract_algebra": {
+      "precision": 0.99,
+      "recall": 0.99,
+      "f1-score": 0.99,
+      "support": 100.0
+    },
+    "anatomy": {
+      "precision": 0.9772727272727273,
+      "recall": 0.9555555555555556,
+      "f1-score": 0.9662921348314607,
+      "support": 135.0
+    },
+    "astronomy": {
+      "precision": 0.967741935483871,
+      "recall": 0.7894736842105263,
+      "f1-score": 0.8695652173913043,
+      "support": 152.0
+    },
+    "general": {
+      "precision": 0.7480916030534351,
+      "recall": 0.98,
+      "f1-score": 0.8484848484848485,
+      "support": 100.0
+    },
+    "accuracy": 0.9158110882956879,
+    "macro avg": {
+      "precision": 0.9207765664525084,
+      "recall": 0.9287573099415204,
+      "f1-score": 0.9185855501769034,
+      "support": 487.0
+    },
+    "weighted avg": {
+      "precision": 0.9298516482150104,
+      "recall": 0.9158110882956879,
+      "f1-score": 0.9167799509121362,
+      "support": 487.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      99,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      129,
+      3,
+      2
+    ],
+    [
+      0,
+      2,
+      120,
+      30
+    ],
+    [
+      0,
+      1,
+      1,
+      98
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "abstract_algebra",
+    "anatomy",
+    "astronomy",
+    "general"
+  ]
+}
