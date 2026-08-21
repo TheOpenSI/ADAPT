@@ -13,68 +13,8 @@ class MMLUValidationBuilder(MMLUBenchmarkBuilderBase):
     def __init__(
         self,
         split="validation",
-        # per_specialist_sample=10,
-        # per_general_subject_sample=2,
-        # random_state=42
     ):
-
         super().__init__(split)
-
-        # self.per_specialist_sample = per_specialist_sample
-        # self.per_general_subject_sample = per_general_subject_sample
-        # self.random_state = random_state
-
-
-    # def _sample_profiling_data(self, df):
-    #     """
-    #     Sample 10 validation examples from each specialist service
-    #     and 2 examples from each general-source subject.
-    #     """
-    #     print("\n[4] Sampling profiling examples...")
-
-    #     specialist_df = df[
-    #         df["expected_service"] != "general"
-    #     ]
-
-    #     general_df = df[
-    #         df["expected_service"] == "general"
-    #     ]
-
-    #     sampled_specialists = (
-    #         specialist_df
-    #         .groupby("subject", group_keys=False)
-    #         .sample(
-    #             n=self.per_specialist_sample,
-    #             random_state=self.random_state
-    #         )
-    #     )
-
-    #     sampled_general = (
-    #         general_df
-    #         .groupby("subject", group_keys=False)
-    #         .sample(
-    #             n=self.per_general_subject_sample,
-    #             random_state=self.random_state
-    #         )
-    #     )
-
-    #     profiling_data = pd.concat(
-    #         [sampled_specialists, sampled_general],
-    #         ignore_index=True
-    #     )
-
-    #     print("[4] Profiling subject counts:")
-    #     print(profiling_data["subject"].value_counts())
-
-    #     print("\n[4] Expected service counts:")
-    #     print(profiling_data["expected_service"].value_counts())
-
-    #     print(
-    #         f"\n[4] Total profiling examples: "
-    #         f"{len(profiling_data)}"
-    #     )
-
-    #     return profiling_data
 
 
     def _select_columns(self, df):
@@ -124,10 +64,6 @@ class MMLUValidationBuilder(MMLUBenchmarkBuilderBase):
             filtered_data,
             subjects
         )
-
-        # profiling_data = self._sample_profiling_data(
-        #     converted_data
-        # )
 
         profiling_data = self._select_columns(
             converted_data

@@ -1,71 +1,48 @@
-[LOAD] concept profiles: 12
+[LOAD] concept_extraction.json: 15 subjects
+[LOAD] core_concepts.json: 10 subjects
 
-[START] generating 10 specialist descriptions
+[1/10] Generating specialist description: abstract_algebra
+[SPECIALIST] Generating description: abstract_algebra
+[SPECIALIST] abstract_algebra: 42 words
 
-[1/10] generating: abstract_algebra
-[1/10] SERVICE: abstract_algebra
-[1/10] CORE CONCEPTS: ['cyclic_subgroup_order', 'factor_group_order', 'permutation_classification', 'isomorphism_to_permutation_groups', 'direct_product_of_groups', 'maximum_element_order_in_symmetric_group']
-[1/10] [BUILT] abstract_algebra (31 words)
-[1/10] DESCRIPTION: Abstract algebra classifies and categorizes concepts related to cyclic subgroup order, factor group order, permutation classification, isomorphism to permutation groups, direct product of groups, and maximum element order in symmetric group.
+[2/10] Generating specialist description: anatomy
+[SPECIALIST] Generating description: anatomy
+[SPECIALIST] anatomy: 33 words
 
-[2/10] generating: anatomy
-[2/10] SERVICE: anatomy
-[2/10] CORE CONCEPTS: ['homeostasis', 'parotid gland anatomy', 'lung lobe localization', 'maxillary sinus characteristics', 'cartilage function', 'tonsillar tissue location', 'heart auscultation site', 'emissary veins', 'smooth muscle cell structure']
-[2/10] [BUILT] anatomy (32 words)
-[2/10] DESCRIPTION: The anatomy service classifies information related to homeostasis, parotid gland anatomy, lung lobe localization, maxillary sinus characteristics, cartilage function, tonsillar tissue location, heart auscultation site, emissary veins, and smooth muscle cell structure.
+[3/10] Generating specialist description: astronomy
+[SPECIALIST] Generating description: astronomy
+[SPECIALIST] astronomy: 38 words
 
-[3/10] generating: astronomy
-[3/10] SERVICE: astronomy
-[3/10] CORE CONCEPTS: ['blackbody radiation and stellar spectra', 'planetary differentiation processes', 'lunar maria formation mechanisms', 'seasonal variations in planetary atmospheres', "Saturn's rings mass comparison with moons", 'Mercury atmosphere retention mechanisms', 'solar system formation theories']
-[3/10] [BUILT] astronomy (37 words)
-[3/10] DESCRIPTION: Astronomy classifies texts related to blackbody radiation and stellar spectra, planetary differentiation processes, lunar maria formation mechanisms, seasonal variations in planetary atmospheres, Saturn's rings mass comparison with moons, Mercury atmosphere retention mechanisms, and solar system formation theories.
+[4/10] Generating specialist description: business_ethics
+[SPECIALIST] Generating description: business_ethics
+[SPECIALIST] business_ethics: 37 words
 
-[4/10] generating: business_ethics
-[4/10] SERVICE: business_ethics
-[4/10] CORE CONCEPTS: ['disqualification of directors', 'global corporate power', 'ethics of duty', 'philanthropy and social enterprises', 'agency relation', 'sustainability goals', 'corporate governance problems', 'CSR (Corporate Social Responsibility)', 'stakeholder communication factors']
-[4/10] [BUILT] business_ethics (30 words)
-[4/10] DESCRIPTION: Business ethics involves disqualification of directors, global corporate power, ethics of duty, philanthropy and social enterprises, agency relation, sustainability goals, corporate governance problems, CSR (Corporate Social Responsibility), stakeholder communication factors.
+[5/10] Generating specialist description: college_computer_science
+[SPECIALIST] Generating description: college_computer_science
+[SPECIALIST] college_computer_science: 33 words
 
-[5/10] generating: college_computer_science
-[5/10] SERVICE: college_computer_science
-[5/10] CORE CONCEPTS: ['symbol table usage in debugging', 'hash function distribution', 'page-replacement policies', 'recursive functions', "Church's thesis", 'matrix factorization complexity', 'network vs distributed operating systems', 'automata theory equivalences', 'data structure operations']
-[5/10] [BUILT] college_computer_science (33 words)
-[5/10] DESCRIPTION: College computer science involves symbol table usage in debugging, hash function distribution, page-replacement policies, recursive functions, Church's thesis, matrix factorization complexity, network vs distributed operating systems, automata theory equivalences, and data structure operations.
+[6/10] Generating specialist description: high_school_chemistry
+[SPECIALIST] Generating description: high_school_chemistry
+[SPECIALIST] high_school_chemistry: 38 words
 
-[6/10] generating: high_school_chemistry
-[6/10] SERVICE: high_school_chemistry
-[6/10] CORE CONCEPTS: ['Lewis structures and bond angles', 'ground state electron configuration', 'binary acid strength', 'heterogeneous reactions', 'elemental ground state properties', 'electromagnetic spectrum regions', 'buffer solutions', 'photosynthesis energy transfer']
-[6/10] [BUILT] high_school_chemistry (29 words)
-[6/10] DESCRIPTION: High school chemistry involves Lewis structures and bond angles, ground state electron configuration, binary acid strength, heterogeneous reactions, elemental properties, electromagnetic spectrum regions, buffer solutions, and photosynthesis energy transfer.
+[7/10] Generating specialist description: high_school_geography
+[SPECIALIST] Generating description: high_school_geography
+[SPECIALIST] high_school_geography: 50 words
 
-[7/10] generating: high_school_geography
-[7/10] SERVICE: high_school_geography
-[7/10] CORE CONCEPTS: ['federal state governance', 'city planning and zoning', 'urban shrinkage and deindustrialization', 'population distribution patterns', 'central place theory', 'cultural pluralism', 'gentrification', 'demographic transition model']
-[7/10] [BUILT] high_school_geography (29 words)
-[7/10] DESCRIPTION: High school geography handles federal state governance, city planning and zoning, urban shrinkage and deindustrialization, population distribution patterns, central place theory, cultural pluralism, gentrification, and demographic transition model concepts.
+[8/10] Generating specialist description: jurisprudence
+[SPECIALIST] Generating description: jurisprudence
+[SPECIALIST] jurisprudence: 36 words
 
-[8/10] generating: jurisprudence
-[8/10] SERVICE: jurisprudence
-[8/10] CORE CONCEPTS: ['Natural Law thinking', "Olivecrona's psychological explanation of law", 'Soft positivism and moral criteria', 'Retribution in punishment', 'Comparative aspect of law', "Bentham's argument for codification", "Posner's economic analysis of law"]
-[8/10] [BUILT] jurisprudence (32 words)
-[8/10] DESCRIPTION: Jurisprudence encompasses Natural Law thinking, Olivecrona's psychological explanation of law, Soft positivism and moral criteria, Retribution in punishment, Comparative aspect of law, Bentham's argument for codification, and Posner's economic analysis of law.
+[9/10] Generating specialist description: world_religions
+[SPECIALIST] Generating description: world_religions
+[SPECIALIST] world_religions: 45 words
 
-[9/10] generating: world_religions
-[9/10] SERVICE: world_religions
-[9/10] CORE CONCEPTS: ["Shari'ah law categories", 'Buddhism in North America', 'Maitreya prophecy', 'Pelagius argument', 'Predestination doctrine', 'Jaina meditation practice', 'Kokugaku movement', 'Wuwei concept', 'Guru Angad succession']
-[9/10] [BUILT] world_religions (27 words)
-[9/10] DESCRIPTION: World religions encompass Shari'ah law categories, Buddhism in North America, Maitreya prophecy, Pelagius argument, Predestination doctrine, Jaina meditation practice, Kokugaku movement, Wuwei concept, and Guru Angad succession.
+[10/10] Generating specialist description: formal_logic
+[SPECIALIST] Generating description: formal_logic
+[SPECIALIST] formal_logic: 34 words
 
-[10/10] generating: formal_logic
-[10/10] SERVICE: formal_logic
-[10/10] CORE CONCEPTS: ['conditional_propositions', 'symbolization_of_statements', 'predicate_logic', 'truth_tables', 'logical_equivalence', 'consistency_in_logic']
-[10/10] [BUILT] formal_logic (18 words)
-[10/10] DESCRIPTION: Formal logic involves conditional propositions, symbolization of statements, predicate logic, truth tables, logical equivalence, and consistency in logic.
-
-[GENERAL] generating fallback description
-[GENERAL] SERVICE: general
-[GENERAL] CORE CONCEPTS: {'high_school_us_history': ['Vietnam War protests', 'Indian Removal Act', 'Civil Rights Movement', 'Constitutional debates', 'American neutrality in World Wars', "States' rights and federalism", "Women's suffrage movement", 'Jacksonian Democracy'], 'prehistory': ['Mogollon migration reasons', 'Inca political strategy', 'Mesopotamian geography', 'Southwest maize agriculture timeline', 'human-chimp divergence time', 'skeletal age determination', 'agriculture complexity', 'Greater Australia climate 20,000 years ago', 'Homo habilis brain size']}
-[GENERAL] [BUILT] general (84 words)
-[GENERAL] DESCRIPTION: The subject matter represented by these source domains encompasses historical events and social movements in the United States, including Vietnam War protests, Indian Removal Act, Civil Rights Movement, Constitutional debates, American neutrality in World Wars, States' rights and federalism, Women's suffrage movement, and Jacksonian Democracy. It also includes prehistoric human societies, such as Mogollon migration reasons, Inca political strategy, Mesopotamian geography, Southwest maize agriculture timeline, human-chimp divergence time, skeletal age determination, agriculture complexity, Greater Australia climate 20,000 years ago, and Homo habilis brain size.
-
-[DONE] 11 descriptions saved to ./service_descriptions.json
+[DONE] Saved specialist descriptions to specialist_descriptions.json
+[LOAD] specialist_descriptions.json: 10 subjects
+[GENERAL] Generating General description
+[GENERAL] 43 words
+[DONE] Saved 11 services to all_service_descriptions.json

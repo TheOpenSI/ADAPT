@@ -1,0 +1,124 @@
+[LOAD] validation data: (315, 4)
+[LOAD] routing services: 11
+[LOAD] original subjects: 15
+[GROUP] Number of subject groups: 15
+[GROUP] abstract_algebra: 11 questions
+[GROUP] anatomy: 14 questions
+[GROUP] astronomy: 16 questions
+[GROUP] business_ethics: 11 questions
+[GROUP] college_computer_science: 11 questions
+[GROUP] formal_logic: 14 questions
+[GROUP] high_school_chemistry: 22 questions
+[GROUP] high_school_geography: 22 questions
+[GROUP] high_school_psychology: 60 questions
+[GROUP] high_school_us_history: 22 questions
+[GROUP] jurisprudence: 11 questions
+[GROUP] marketing: 25 questions
+[GROUP] prehistory: 35 questions
+[GROUP] sociology: 22 questions
+[GROUP] world_religions: 19 questions
+
+[1/15] Extracting abstract_algebra (11 questions)
+[EXTRACT] Processing abstract_algebra: 11 questions
+[EXTRACT] abstract_algebra: 9 concepts
+
+[2/15] Extracting anatomy (14 questions)
+[EXTRACT] Processing anatomy: 14 questions
+[EXTRACT] anatomy: 14 concepts
+
+[3/15] Extracting astronomy (16 questions)
+[EXTRACT] Processing astronomy: 16 questions
+[EXTRACT] astronomy: 16 concepts
+
+[4/15] Extracting business_ethics (11 questions)
+[EXTRACT] Processing business_ethics: 11 questions
+[EXTRACT] business_ethics: 11 concepts
+
+[5/15] Extracting college_computer_science (11 questions)
+[EXTRACT] Processing college_computer_science: 11 questions
+[EXTRACT] college_computer_science: 11 concepts
+
+[6/15] Extracting formal_logic (14 questions)
+[EXTRACT] Processing formal_logic: 14 questions
+[EXTRACT] formal_logic: 7 concepts
+
+[7/15] Extracting high_school_chemistry (22 questions)
+[EXTRACT] Processing high_school_chemistry: 22 questions
+[EXTRACT] high_school_chemistry: 22 concepts
+
+[8/15] Extracting high_school_geography (22 questions)
+[EXTRACT] Processing high_school_geography: 22 questions
+[EXTRACT] high_school_geography: 21 concepts
+
+[9/15] Extracting high_school_psychology (60 questions)
+[EXTRACT] Processing high_school_psychology: 60 questions
+[EXTRACT] high_school_psychology: 58 concepts
+
+[10/15] Extracting high_school_us_history (22 questions)
+[EXTRACT] Processing high_school_us_history: 22 questions
+[EXTRACT] high_school_us_history: 21 concepts
+
+[11/15] Extracting jurisprudence (11 questions)
+[EXTRACT] Processing jurisprudence: 11 questions
+[EXTRACT] jurisprudence: 11 concepts
+
+[12/15] Extracting marketing (25 questions)
+[EXTRACT] Processing marketing: 25 questions
+[EXTRACT] marketing: 24 concepts
+
+[13/15] Extracting prehistory (35 questions)
+[EXTRACT] Processing prehistory: 35 questions
+[EXTRACT] prehistory: 35 concepts
+
+[14/15] Extracting sociology (22 questions)
+[EXTRACT] Processing sociology: 22 questions
+[EXTRACT] sociology: 20 concepts
+
+[15/15] Extracting world_religions (19 questions)
+[EXTRACT] Processing world_religions: 19 questions
+[EXTRACT] world_religions: 19 concepts
+
+[DONE] Saved results to concept_extraction_1.json
+[LOAD] Extracted concepts for 15 subjects
+
+[1/10] Selecting core concepts: abstract_algebra
+[CORE] Processing abstract_algebra: 9 extracted concepts
+[CORE] abstract_algebra: 6 core concepts
+
+[2/10] Selecting core concepts: anatomy
+[CORE] Processing anatomy: 14 extracted concepts
+[CORE] anatomy: 6 core concepts
+
+[3/10] Selecting core concepts: astronomy
+[CORE] Processing astronomy: 16 extracted concepts
+[CORE] astronomy: 7 core concepts
+
+[4/10] Selecting core concepts: business_ethics
+[CORE] Processing business_ethics: 11 extracted concepts
+[CORE] business_ethics: 6 core concepts
+
+[5/10] Selecting core concepts: college_computer_science
+[CORE] Processing college_computer_science: 11 extracted concepts
+[CORE] college_computer_science: 6 core concepts
+
+[6/10] Selecting core concepts: high_school_chemistry
+[CORE] Processing high_school_chemistry: 22 extracted concepts
+[CORE] high_school_chemistry: 6 core concepts
+
+[7/10] Selecting core concepts: high_school_geography
+[CORE] Processing high_school_geography: 21 extracted concepts
+[CORE] high_school_geography: 6 core concepts
+
+[8/10] Selecting core concepts: jurisprudence
+[CORE] Processing jurisprudence: 11 extracted concepts
+[CORE] jurisprudence: 6 core concepts
+
+[9/10] Selecting core concepts: world_religions
+[CORE] Processing world_religions: 19 extracted concepts
+[CORE] world_religions: 6 core concepts
+
+[10/10] Selecting core concepts: formal_logic
+[CORE] Processing formal_logic: 7 extracted concepts
+[CORE] formal_logic: 6 core concepts
+
+[DONE] Saved core concepts to core_concepts_1.json

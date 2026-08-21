@@ -30,7 +30,7 @@ def build_service_description_sets(
     return description_sets
 
 
-with open("service_descriptions.json", "r") as f:
+with open("all_service_descriptions.json", "r") as f:
     frozen_descriptions = json.load(f)
 
 description_sets = build_service_description_sets(
@@ -59,3 +59,5 @@ for size, descriptions in description_sets.items():
     print(
         f"[SAVED] {out_path}"
     )
+
+

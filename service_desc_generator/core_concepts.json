@@ -1,0 +1,113 @@
+{
+  "abstract_algebra": {
+    "subject": "abstract_algebra",
+    "core_concepts": [
+      "Order of elements and subgroups",
+      "Factor groups (quotient groups)",
+      "Isomorphism theorems",
+      "Lagrange's theorem and its applications",
+      "Homomorphisms and normal subgroups",
+      "Symmetric groups and their orders"
+    ]
+  },
+  "anatomy": {
+    "subject": "anatomy",
+    "core_concepts": [
+      "parotid gland anatomy",
+      "lung lobes and locations",
+      "maxillary sinus anatomy",
+      "cartilage function",
+      "heart auscultation sites",
+      "trachea anatomy"
+    ]
+  },
+  "astronomy": {
+    "subject": "astronomy",
+    "core_concepts": [
+      "blackbody radiation and temperature relationship",
+      "planetary differentiation process",
+      "formation of lunar maria",
+      "Mercury's atmosphere loss mechanisms",
+      "solar system formation theories",
+      "heat dissipation in planets",
+      "orbital speed calculation for satellites"
+    ]
+  },
+  "business_ethics": {
+    "subject": "business_ethics",
+    "core_concepts": [
+      "Corporate governance and director disqualification laws",
+      "Ethical theories in business ethics",
+      "Business-civil society collaboration models",
+      "Emotional exploitation in workplace ethics",
+      "Sustainability goals and initiatives",
+      "Stakeholder communication barriers"
+    ]
+  },
+  "college_computer_science": {
+    "subject": "college_computer_science",
+    "core_concepts": [
+      "Symbol tables and debugging aids",
+      "Hashing and hash table behavior",
+      "Page replacement policies in memory management",
+      "Recursive function evaluation",
+      "Church's thesis on computable functions",
+      "Data structures for efficient element retrieval and removal"
+    ]
+  },
+  "high_school_chemistry": {
+    "subject": "high_school_chemistry",
+    "core_concepts": [
+      "Lewis structures and bond angles",
+      "Ground state electron configuration",
+      "Periodic trends in acid strength",
+      "Thermodynamics of chemical reactions (enthalpy)",
+      "Equilibrium constants and Gibbs free energy relationship",
+      "Buffer solutions"
+    ]
+  },
+  "high_school_geography": {
+    "subject": "high_school_geography",
+    "core_concepts": [
+      "central place theory",
+      "demographic transition model stages",
+      "primary economic activities",
+      "migration reasons",
+      "continentality and temperature extremes",
+      "distance decay principle"
+    ]
+  },
+  "jurisprudence": {
+    "subject": "jurisprudence",
+    "core_concepts": [
+      "Natural Law thinking and its doctrines",
+      "Soft positivism and moral criteria in the rule of recognition",
+      "Retribution as a justification for punishment",
+      "Bentham's argument in support of codification",
+      "'Asking the women question' in jurisprudence",
+      "Critical Race Theory (CRT) and democratic ideals"
+    ]
+  },
+  "world_religions": {
+    "subject": "world_religions",
+    "core_concepts": [
+      "Categories of Shari'ah law",
+      "Guru and the construction of Darbar Sahib",
+      "Role of deaconesses in early Christianity",
+      "Calvin's emphasis on predestination",
+      "Buddhism in North America",
+      "Jaina meditation practices"
+    ]
+  },
+  "formal_logic": {
+    "subject": "formal_logic",
+    "core_concepts": [
+      "conditional propositions and their antecedents",
+      "symbolization of natural language sentences into propositional logic",
+      "translation between English and predicate logic expressions",
+      "truth tables for determining logical equivalence or contradiction",
+      "validity of arguments using truth tables",
+      "interpretation of quantified statements in formal logic"
+    ]
+  }
+}

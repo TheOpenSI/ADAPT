@@ -1,4 +1,3 @@
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
 [1] Full dataset loaded: (1531, 4)
 [1] Number of subjects: 57
 
@@ -10,14 +9,17 @@ BUILDING VALIDATION PROFILING DATASET
 [2] Specialist subjects:
 ['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science', 'high_school_chemistry', 'high_school_geography', 'jurisprudence', 'world_religions', 'formal_logic']
 [2] General-source subjects:
-['high_school_us_history', 'prehistory']
-[2] Filtered dataset shape: (208, 4)
+['high_school_us_history', 'prehistory', 'sociology', 'high_school_psychology', 'marketing']
+[2] Filtered dataset shape: (315, 4)
 [2] Original subject counts:
 subject
+high_school_psychology      60
 prehistory                  35
+marketing                   25
 high_school_chemistry       22
 high_school_geography       22
 high_school_us_history      22
+sociology                   22
 world_religions             19
 astronomy                   16
 anatomy                     14
@@ -31,25 +33,28 @@ Name: count, dtype: int64
 [3] Converting subjects to routing labels...
 [3] Expected service counts:
 expected_service
-general                     57
-high_school_chemistry       22
-high_school_geography       22
-world_religions             19
-astronomy                   16
-anatomy                     14
-formal_logic                14
-abstract_algebra            11
-business_ethics             11
-college_computer_science    11
-jurisprudence               11
+general                     164
+high_school_chemistry        22
+high_school_geography        22
+world_religions              19
+astronomy                    16
+anatomy                      14
+formal_logic                 14
+abstract_algebra             11
+business_ethics              11
+college_computer_science     11
+jurisprudence                11
 Name: count, dtype: int64
 
 [3] Subjects inside 'general':
 subject
+high_school_psychology    60
 prehistory                35
+marketing                 25
 high_school_us_history    22
+sociology                 22
 Name: count, dtype: int64
 [5] Saved: ../dataset/validation_service_all.csv
 [5] Saved: ../dataset/validation_service_all.json
 [DONE] Validation profiling dataset for service set 10
-[DONE] Total rows: 208
+[DONE] Total rows: 315
