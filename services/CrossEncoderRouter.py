@@ -1,9 +1,8 @@
 import os
 import sys
 sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
-
-import time
 import torch
+import time
 from sentence_transformers import CrossEncoder
 
 from services.RouterBase import RouterBase
@@ -31,12 +30,13 @@ class CrossEncoderRouter(RouterBase):
         print(f"[CrossEncoderRouter] Ready to route.")
 
     def route(self, query):
-        if torch.cuda.is_available():
-            torch.cuda.reset_peak_memory_stats()
 
         if self.verbose:
             preview = query if len(query) <= 80 else query[:77] + "..."
             print(f"  Scoring query ({len(query)} chars) against {len(self.services)} pairs: {preview!r}")
+
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
 
         start = time.perf_counter()
 
@@ -44,14 +44,26 @@ class CrossEncoderRouter(RouterBase):
         pairs = [(query, service_desc) for service_desc in self.services.values()]
         scores = self.model.predict(pairs)
 
-        latency_ms = (time.perf_counter() - start) * 1000
-
         best_idx = scores.argmax()
         predicted_label = names[best_idx]
 
-        gpu_memory_gb = torch.cuda.max_memory_allocated() / (1024**3) if torch.cuda.is_available() else None
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
 
-        prompt_tokens = sum(len(self.model.tokenizer.encode(q, d)) for q, d in pairs)
+        latency_ms = (time.perf_counter() - start) * 1000
+
+        prompt_tokens = 0
+
+        for q, d in pairs:
+            encoded = self.model.tokenizer.encode(
+                q,
+                d,
+                truncation=True,
+                max_length=self.model.max_seq_length,
+                add_special_tokens=True,
+            )
+
+            prompt_tokens += len(encoded)
 
         if self.verbose:
             ranked = sorted(zip(names, scores), key=lambda x: x[1], reverse=True)
@@ -59,18 +71,18 @@ class CrossEncoderRouter(RouterBase):
             for name, score in ranked:
                 marker = " <-- predicted" if name == predicted_label else ""
                 print(f"    {name}: {score:.4f}{marker}")
-            print(f"  -> {predicted_label} | {latency_ms:.1f}ms | {prompt_tokens} tok | {gpu_memory_gb:.2f}GB")
+            print(f"  -> {predicted_label} | {latency_ms:.1f}ms | {prompt_tokens} tok")
 
         return {
             "routing_method": self.routing_method,
             "query": query,
+            "raw_response": None,
             "predicted_label": predicted_label,
             "model_name": self.model_name,
             "latency_ms": latency_ms,
             "prompt_tokens": prompt_tokens,
             "completion_tokens": 0,
             "total_tokens": prompt_tokens,
-            "gpu_memory_gb": gpu_memory_gb, 
         }
 
 

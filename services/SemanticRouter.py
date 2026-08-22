@@ -1,9 +1,8 @@
 import os
 import sys 
 sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
-
-import time
 import torch
+import time
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
@@ -58,12 +57,12 @@ class SemanticRouter(RouterBase):
         return float(numerator / denominator)
 
     def route(self, query):
-        if torch.cuda.is_available():
-            torch.cuda.reset_peak_memory_stats()
-
         if self.verbose:
             preview = query if len(query) <= 80 else query[:77] + "..."
             print(f"  Embedding query ({len(query)} chars): {preview!r}")
+
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
 
         start = time.perf_counter()
         q_vec = self.model.encode(query)
@@ -78,12 +77,20 @@ class SemanticRouter(RouterBase):
             score = self._cosine_similarity(q_vec, vec)
             scores[name] = score
 
-        latency_ms = (time.perf_counter() - start) * 1000
         predicted_label = max(scores, key=scores.get)
 
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
+
+        latency_ms = (time.perf_counter() - start) * 1000
         
-        gpu_memory_gb = torch.cuda.max_memory_allocated() / (1024**3) if torch.cuda.is_available() else None
-        prompt_tokens = len(self.model.tokenizer.encode(query))
+        encoded = self.model.tokenizer.encode(
+            query,
+            truncation=True,
+            max_length=self.model.max_seq_length,
+            add_special_tokens=True,
+        )
+        prompt_tokens = len(encoded)
 
         if self.verbose:
             ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
@@ -91,18 +98,18 @@ class SemanticRouter(RouterBase):
             for name, score in ranked:
                 marker = " <-- predicted" if name == predicted_label else ""
                 print(f"    {name}: {score:.4f}{marker}")
-            print(f"  -> {predicted_label} | {latency_ms:.1f}ms | {prompt_tokens} tok | {gpu_memory_gb:.2f}GB")
+            print(f"  -> {predicted_label} | {latency_ms:.1f}ms | {prompt_tokens} tok")
 
         return {
             "routing_method": self.routing_method,
             "query": query,
+            "raw_response": None,
             "predicted_label": predicted_label,
             "model_name": self.model_name,
             "latency_ms": latency_ms,
             "prompt_tokens": prompt_tokens,
             "completion_tokens": 0,
             "total_tokens": prompt_tokens,
-            "gpu_memory_gb": gpu_memory_gb, # peak GPU memory (GB) occupied during this query
         }
 
 

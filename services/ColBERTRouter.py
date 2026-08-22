@@ -1,9 +1,8 @@
 import os
 import sys
 sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
-
-import time
 import torch
+import time
 from sentence_transformers import MultiVectorEncoder
 
 from services.RouterBase import RouterBase
@@ -42,12 +41,14 @@ class ColBERTRouter(RouterBase):
         print(f"[ColBERTRouter] Ready to route.")
 
     def route(self, query):
-        if torch.cuda.is_available():
-            torch.cuda.reset_peak_memory_stats()
 
         if self.verbose:
             preview = query if len(query) <= 80 else query[:77] + "..."
             print(f"  Scoring query ({len(query)} chars) against {len(self.services)} documents: {preview!r}")
+
+        # Make sure previous GPU work is finished
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
 
         start = time.perf_counter()
 
@@ -63,12 +64,14 @@ class ColBERTRouter(RouterBase):
         # result: will be this tensor([[9.0512, 10.1842, 9.1238, 9.3910]]), thats why scores[0]
         scores = scores[0] 
 
-        latency_ms = (time.perf_counter() - start) * 1000
-
         best_idx = scores.argmax()
         predicted_label = self.names[best_idx]
 
-        gpu_memory_gb = torch.cuda.max_memory_allocated() / (1024**3) if torch.cuda.is_available() else None
+        # Wait until all GPU operations are finished
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
+
+        latency_ms = (time.perf_counter() - start) * 1000
 
         prompt_tokens = query_embeddings.shape[0] 
 
@@ -78,35 +81,35 @@ class ColBERTRouter(RouterBase):
             for name, score in ranked:
                 marker = " <-- predicted" if name == predicted_label else ""
                 print(f"    {name}: {score:.4f}{marker}")
-            print(f"  -> {predicted_label} | {latency_ms:.1f}ms | {prompt_tokens} tok | {gpu_memory_gb:.2f}GB")
+            print(f"  -> {predicted_label} | {latency_ms:.1f}ms | {prompt_tokens} tok")
 
         return {
             "routing_method": self.routing_method,
             "query": query,
+            "raw_response": None,
             "predicted_label": predicted_label,
             "model_name": self.model_name,
             "latency_ms": latency_ms,
             "prompt_tokens": prompt_tokens,
             "completion_tokens": 0,
             "total_tokens": prompt_tokens,
-            "gpu_memory_gb": gpu_memory_gb,
         }
 
 
-if __name__ == "__main__":
-    router = ColBERTRouter(
-        service_desc_path="../data/dataset/service_descriptions_3.json",
-        model_name="mixedbread-ai/mxbai-colbert-large-v1",
-        verbose=True
-        )
+# if __name__ == "__main__":
+#     router = ColBERTRouter(
+#         service_desc_path="../data/dataset/service_descriptions_3.json",
+#         model_name="mixedbread-ai/mxbai-colbert-large-v1",
+#         verbose=True
+#         )
 
-    test_queries = [
-        "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
-        "Why is the sky blue?",
-        "Which of the following statements is true?",
-    ]
+#     test_queries = [
+#         "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
+#         "Why is the sky blue?",
+#         "Which of the following statements is true?",
+#     ]
 
-    for query in test_queries:
-        print(f"\n--- query: {query[:60]}... ---")
-        result = router.route(query)
-        print(f"result dict: {result}")
+#     for query in test_queries:
+#         print(f"\n--- query: {query[:60]}... ---")
+#         result = router.route(query)
+#         print(f"result dict: {result}")

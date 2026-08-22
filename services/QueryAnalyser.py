@@ -4,7 +4,6 @@ sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 
 import time
 import ollama
-import requests
 from services.RouterBase import RouterBase
 
 
@@ -15,7 +14,7 @@ class QueryAnalyser(RouterBase):
         super().__init__(service_desc_path, model_name)
         self.verbose = verbose
         self.client = ollama.Client(host="http://localhost:11435")
-
+        self.load_model()
 
         print(f"[QueryAnalyser] Loading service descriptions from {service_desc_path}...")
         load_start = time.perf_counter()
@@ -55,17 +54,6 @@ class QueryAnalyser(RouterBase):
             print(f"  [PROMPT SENT TO MODEL]\n{prompt}\n")
         return prompt
 
-    def _get_ollama_gpu_memory_gb(self):
-        try:
-            response = requests.get('http://localhost:11435/api/ps', timeout=5)
-            data = response.json()
-            for model in data.get("models", []):
-                if self.model_name in (model.get("name"), model.get("model")):
-                    return model.get("size_vram", 0) / (1024**3)
-        except Exception as e:
-            print(f"[WARNING] Could not fetch Ollama memory info: {e}")
-        return None
-
     def _match_service(self, raw_label):
         cleaned = raw_label.strip().lower()
         if cleaned.startswith("service "):
@@ -75,6 +63,25 @@ class QueryAnalyser(RouterBase):
                 return service_name
         print(f"[QueryAnalyser] UNMATCHED — raw model output: {raw_label!r}")
         return "UNMATCHED"
+
+    def load_model(self):
+        print(
+            f"[QueryAnalyser] Loading Ollama model "
+            f"'{self.model_name}'..."
+        )
+
+        load_start = time.perf_counter()
+
+        self.client.generate(
+            model=self.model_name,
+            prompt="",
+            keep_alive=-1,
+        )
+
+        print(
+            f"[QueryAnalyser] Model loaded in "
+            f"{time.perf_counter() - load_start:.2f}s"
+        )
 
     def unload_model(self):
         self.client.chat(
@@ -96,33 +103,33 @@ class QueryAnalyser(RouterBase):
                 {"role": "user", "content": self._build_prompt(query)},
             ],
         )
-        latency_ms = (time.perf_counter() - start) * 1000
+        
 
         raw_label = response["message"]["content"]
         predicted_label = self._match_service(raw_label)
+
+        latency_ms = (time.perf_counter() - start) * 1000
 
         prompt_tokens = response.get("prompt_eval_count", 0)
         completion_tokens = response.get("eval_count", 0)
         total_tokens = prompt_tokens + completion_tokens
 
-        gpu_memory_gb = self._get_ollama_gpu_memory_gb()
 
         if self.verbose:
             print(f"  raw model output: {raw_label!r}")
             print(f"  -> {predicted_label} | {latency_ms:.1f}ms | "
-                  f"{prompt_tokens} prompt tok + {completion_tokens} completion tok = {total_tokens} total tok | "
-                  f"{gpu_memory_gb:.2f}GB" if gpu_memory_gb is not None else f"  -> {predicted_label} | {latency_ms:.1f}ms | gpu_memory unavailable")
+                  f"{prompt_tokens} prompt tok + {completion_tokens} completion tok = {total_tokens} total tok")
 
         return {
             "routing_method": self.routing_method,
             "query": query,
+            "raw_response": raw_label,
             "predicted_label": predicted_label,
             "model_name": self.model_name,
             "latency_ms": latency_ms,
             "prompt_tokens": prompt_tokens,
             "completion_tokens": completion_tokens,
             "total_tokens": total_tokens,
-            "gpu_memory_gb": gpu_memory_gb, 
         }
 
 
