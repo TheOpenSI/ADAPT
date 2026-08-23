@@ -1,0 +1,11 @@
+{
+  "routing_method": "cross-encoder",
+  "model_name": "mixedbread-ai/mxbai-rerank-large-v2",
+  "specialist_service_count": 3,
+  "total_service_count": 4,
+  "total_queries": 400,
+  "total_energy_kwh": 0.0017634813967197128,
+  "energy_per_query_kwh": 4.408703491799282e-06,
+  "total_co2_kg": 0.0009676081345289327,
+  "co2_per_query_kg": 2.4190203363223317e-06
+}

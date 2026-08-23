@@ -1,0 +1,11 @@
+{
+  "routing_method": "llm",
+  "model_name": "llama3.1:8b",
+  "specialist_service_count": 3,
+  "total_service_count": 4,
+  "total_queries": 400,
+  "total_energy_kwh": 0.012077971319067843,
+  "energy_per_query_kwh": 3.019492829766961e-05,
+  "total_co2_kg": 0.0066270862390019735,
+  "co2_per_query_kg": 1.6567715597504934e-05
+}
