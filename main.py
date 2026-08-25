@@ -25,89 +25,104 @@ VERBOSE = True
 RUN_CONFIGS = [
     dict(
         cls=SemanticRouter,
-        model_name="Qwen/Qwen3-Embedding-8B",
+        model_name="Qwen/Qwen3-Embedding-0.6B",
         service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
     ),
     dict(
         cls=SemanticRouter,
-        model_name="BAAI/bge-large-en-v1.5",
+        model_name="Qwen/Qwen3-Embedding-4B",
         service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
     ),
-    dict(
-            cls=SemanticRouter,
-            model_name="sentence-transformers/all-MiniLM-L6-v2",
-            service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    ),
-
+    # dict(
+    #     cls=SemanticRouter,
+    #     model_name="BAAI/bge-large-en-v1.5",
+    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    # ),
+    # dict(
+    #         cls=SemanticRouter,
+    #         model_name="sentence-transformers/all-MiniLM-L6-v2",
+    #         service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    # ),
 
     dict(
         cls=CrossEncoderRouter,
-        model_name="Qwen/Qwen3-Reranker-8B",
+        model_name="Qwen/Qwen3-Reranker-0.6B",
         service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
     ),
+
     dict(
         cls=CrossEncoderRouter,
-        model_name="mixedbread-ai/mxbai-rerank-large-v2",
+        model_name="Qwen/Qwen3-Reranker-4B",
         service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
     ),
-    dict(
-        cls=CrossEncoderRouter,
-        model_name="BAAI/bge-reranker-v2-m3",
-        service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    ),
+    # dict(
+    #     cls=CrossEncoderRouter,
+    #     model_name="Qwen/Qwen3-Reranker-8B",
+    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    # ),
+    # dict(
+    #     cls=CrossEncoderRouter,
+    #     model_name="mixedbread-ai/mxbai-rerank-large-v2",
+    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    # ),
+    # dict(
+    #     cls=CrossEncoderRouter,
+    #     model_name="BAAI/bge-reranker-v2-m3",
+    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    # ),
 
-    dict(
-        cls=ColBERTRouter,
-        model_name="lightonai/Reason-ModernColBERT",
-        service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    ),
-    dict(
-        cls=ColBERTRouter,
-        model_name="colbert-ir/colbertv2.0",
-        service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    ),
-    dict(
-        cls=ColBERTRouter,
-        model_name="mixedbread-ai/mxbai-colbert-large-v1",
-        service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    ),
-    dict(
-        cls=ColBERTRouter,
-        model_name="LiquidAI/LFM2-ColBERT-350M",
-        service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    ),
+    # dict(
+    #     cls=ColBERTRouter,
+    #     model_name="lightonai/Reason-ModernColBERT",
+    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    # ),
+    # dict(
+    #     cls=ColBERTRouter,
+    #     model_name="colbert-ir/colbertv2.0",
+    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    # ),
+    # dict(
+    #     cls=ColBERTRouter,
+    #     model_name="mixedbread-ai/mxbai-colbert-large-v1",
+    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    # ),
+    # dict(
+    #     cls=ColBERTRouter,
+    #     model_name="LiquidAI/LFM2-ColBERT-350M",
+    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    # ),
 
-    dict(
-            cls=QueryAnalyser,
-            model_name="qwen3:32b",
-            service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
-    ),
-    dict(
-        cls=QueryAnalyser,
-        model_name="qwen2.5:7b",
-        service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
-    ),
-    dict(
-        cls=QueryAnalyser,
-        model_name="qwen2.5:14b",
-        service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
-    ),
-    dict(
-        cls=QueryAnalyser,
-        model_name="qwen2.5:32b",
-        service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
-    ),
+    # dict(
+    #         cls=QueryAnalyser,
+    #         model_name="qwen3:32b",
+    #         service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
+    # ),
+    # dict(
+    #     cls=QueryAnalyser,
+    #     model_name="qwen2.5:7b",
+    #     service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
+    # ),
+    # dict(
+    #     cls=QueryAnalyser,
+    #     model_name="qwen2.5:14b",
+    #     service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
+    # ),
+    # dict(
+    #     cls=QueryAnalyser,
+    #     model_name="qwen2.5:32b",
+    #     service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
+    # ),
 
-    dict(
-            cls=QueryAnalyser,
-            model_name="llama3.1:8b",
-            service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
-    ),
-    dict(
-            cls=QueryAnalyser,
-            model_name="phi4:14b",
-            service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
-    ),
+    # dict(
+    #         cls=QueryAnalyser,
+    #         model_name="llama3.1:8b",
+    #         service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
+    # ),
+    # dict(
+    #         cls=QueryAnalyser,
+    #         model_name="phi4:14b",
+    #         service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
+    # ),
 
 ]
 
