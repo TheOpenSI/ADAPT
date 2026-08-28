@@ -86,12 +86,26 @@ class CrossEncoderRouter(RouterBase):
         }
 
 
+
 # if __name__ == "__main__":
 #     router = CrossEncoderRouter(
 #         service_desc_path="../data/dataset/service_descriptions_3.json",
-#         model_name="mixedbread-ai/mxbai-rerank-large-v2",
+#         model_name="Qwen/Qwen3-Reranker-8B",
 #         verbose=True
 #         )
+
+
+#     print("\n===== CUDA CHECK =====")
+#     print("CUDA available:", torch.cuda.is_available())
+#     print("CUDA device count:", torch.cuda.device_count())
+#     print("Current CUDA device:", torch.cuda.current_device())
+#     print("GPU name:", torch.cuda.get_device_name(torch.cuda.current_device()))
+#     print("CrossEncoder device:", router.model.device)
+#     print(
+#         "Actual parameter device:",
+#         next(router.model.model.parameters()).device
+#     )
+#     print("======================\n")
 
 #     test_queries = [
 #         "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
@@ -103,3 +117,6 @@ class CrossEncoderRouter(RouterBase):
 #         print(f"\n--- query: {query[:60]}... ---")
 #         result = router.route(query)
 #         print(f"result dict: {result}")
+
+
+        # CUDA_VISIBLE_DEVICES=0 python CrossEncoderRouter.py

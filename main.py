@@ -18,21 +18,29 @@ from services.QueryAnalyser import QueryAnalyser
 
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
+# RESULTS_DIR = os.path.join(BASE_DIR, "results_vram")
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
 
-VERBOSE = True
+VERBOSE = False
 
 RUN_CONFIGS = [
-    dict(
-        cls=SemanticRouter,
-        model_name="Qwen/Qwen3-Embedding-0.6B",
-        service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    ),
-    dict(
-        cls=SemanticRouter,
-        model_name="Qwen/Qwen3-Embedding-4B",
-        service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    ),
+    # dict(
+    #     cls=SemanticRouter,
+    #     model_name="Qwen/Qwen3-Embedding-0.6B",
+    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    # ),
+    # dict(
+    #     cls=SemanticRouter,
+    #     model_name="Qwen/Qwen3-Embedding-4B",
+    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    # ),
+
+    # dict(
+    #     cls=SemanticRouter,
+    #     model_name="Qwen/Qwen3-Embedding-8B",
+    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    # ),
+
     # dict(
     #     cls=SemanticRouter,
     #     model_name="BAAI/bge-large-en-v1.5",
@@ -44,17 +52,17 @@ RUN_CONFIGS = [
     #         service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
     # ),
 
-    dict(
-        cls=CrossEncoderRouter,
-        model_name="Qwen/Qwen3-Reranker-0.6B",
-        service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    ),
+    # dict(
+    #     cls=CrossEncoderRouter,
+    #     model_name="Qwen/Qwen3-Reranker-0.6B",
+    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    # ),
 
-    dict(
-        cls=CrossEncoderRouter,
-        model_name="Qwen/Qwen3-Reranker-4B",
-        service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    ),
+    # dict(
+    #     cls=CrossEncoderRouter,
+    #     model_name="Qwen/Qwen3-Reranker-4B",
+    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    # ),
     # dict(
     #     cls=CrossEncoderRouter,
     #     model_name="Qwen/Qwen3-Reranker-8B",
@@ -92,11 +100,11 @@ RUN_CONFIGS = [
     #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
     # ),
 
-    # dict(
-    #         cls=QueryAnalyser,
-    #         model_name="qwen3:32b",
-    #         service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
-    # ),
+    dict(
+            cls=QueryAnalyser,
+            model_name="qwen3:32b",
+            service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
+    ),
     # dict(
     #     cls=QueryAnalyser,
     #     model_name="qwen2.5:7b",
@@ -165,11 +173,20 @@ def run_all():
                     verbose=VERBOSE,
                 )
 
+                print("\nMODEL LOADED AND READY")
+                input("Start nvidia-smi logging now, then press Enter to begin benchmark...")
+
                 runner = BenchmarkRunner(dataset_path, 
                                          router, 
                                          results_dir=RESULTS_DIR)
                 
                 runner.run_test()
+                print("\nBENCHMARK FINISHED")
+
+                input(
+                    "Stop the nvidia-smi logger now, "
+                    "then press Enter to unload the model..."
+                )
 
                 succeeded += 1
 
