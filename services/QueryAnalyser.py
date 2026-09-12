@@ -13,6 +13,7 @@ class QueryAnalyser(RouterBase):
     def __init__(self, service_desc_path, model_name, verbose=False):
         super().__init__(service_desc_path, model_name)
         self.verbose = verbose
+
         self.client = ollama.Client(host="http://localhost:11435")
         self.load_model()
 
@@ -33,35 +34,56 @@ class QueryAnalyser(RouterBase):
         active_services_joined = "\n".join(active_services)
 
         prompt = (
-            "You are a query router for a multi-service assistant system. "
-            "You will be given a list of available services with short descriptions, "
-            "followed by a user query. Decide which single service is best suited to "
-            "handle that query, using only the descriptions provided below. "
-            "Never assume a service exists beyond what is listed.\n\n"
-            "Rules:\n"
-            "- Match the query against the core intent of each service description, "
-            "not just surface keywords.\n"
-            "- If more than one service seems plausible, choose the one whose "
-            "description is the more specific and direct match.\n"
-            "- Respond with only the service name in the exact form - 'service $name', "
-            "where 'name' is the exact name given for that service.\n"
-            "- Do not include any explanation or additional text.\n\n"
-            f"Services:\n{active_services_joined}\n\n"
-            f"Query: \"{query}\"\n\n"
-            "Which service should handle this query?"
+        "You are a query router for a multi-service assistant system. "
+        "You will be given a list of available specialist services with short descriptions, "
+        "followed by a user query. Decide which single specialist service is best suited to "
+        "handle that query, using only the descriptions provided below.\n\n"
+
+        "Rules:\n"
+        "- Match the query against the core intent of each specialist service description, "
+        "not just surface keywords.\n"
+        "- If more than one specialist service seems plausible, choose the one whose "
+        "description is the more specific and direct match.\n"
+        "- If the query does not match any of the listed specialist services, "
+        "return general.\n"
+        "- Never assume a specialist service exists beyond those listed below.\n"
+        "- Respond only in the exact form 'service $name'.\n"
+        "- For a specialist query, $name must exactly match one of the listed specialist names.\n"
+        "- For a fallback query, respond exactly 'service general'.\n"
+        "- Do not include any explanation or additional text.\n\n"
+
+        f"Specialist services:\n{active_services_joined}\n\n"
+
+        f'Query: "{query}"\n\n'
+
+        "Which service should handle this query?"
         )
+        
         if self.verbose:
             print(f"  [PROMPT SENT TO MODEL]\n{prompt}\n")
         return prompt
 
     def _match_service(self, raw_label):
+
         cleaned = raw_label.strip().lower()
+
         if cleaned.startswith("service "):
-            cleaned = cleaned[len("service "):]
+            cleaned = cleaned[len("service "):].strip()
+
+        # General is an allowed fallback
+        if cleaned == "general":
+            return "general"
+
+        # Specialist must exactly match a listed service
         for service_name in self.services.keys():
-            if service_name.lower() in cleaned:
+            if cleaned == service_name.lower():
                 return service_name
-        print(f"[QueryAnalyser] UNMATCHED — raw model output: {raw_label!r}")
+
+        print(
+            f"[QueryAnalyser] UNMATCHED — "
+            f"raw model output: {raw_label!r}"
+        )
+
         return "UNMATCHED"
 
     def load_model(self):
