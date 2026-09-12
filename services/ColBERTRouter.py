@@ -113,3 +113,8 @@ class ColBERTRouter(RouterBase):
 #         print(f"\n--- query: {query[:60]}... ---")
 #         result = router.route(query)
 #         print(f"result dict: {result}")
+
+
+
+
+
