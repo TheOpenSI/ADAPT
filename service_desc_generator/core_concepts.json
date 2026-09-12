@@ -3,11 +3,12 @@
     "subject": "abstract_algebra",
     "core_concepts": [
       "Order of elements and subgroups",
-      "Factor groups (quotient groups)",
-      "Isomorphism theorems",
-      "Lagrange's theorem and its applications",
+      "Factor groups and their orders",
+      "Permutations and their properties",
+      "Isomorphism and permutation groups",
       "Homomorphisms and normal subgroups",
-      "Symmetric groups and their orders"
+      "Integral domains and fields of quotients",
+      "Euler's totient function and group elements"
     ]
   },
   "anatomy": {
@@ -18,30 +19,31 @@
       "maxillary sinus anatomy",
       "cartilage function",
       "heart auscultation sites",
-      "trachea anatomy"
+      "trachea anatomy",
+      "pharyngeal arch development"
     ]
   },
   "astronomy": {
     "subject": "astronomy",
     "core_concepts": [
-      "blackbody radiation and temperature relationship",
-      "planetary differentiation process",
+      "formation theories of solar system",
+      "planetary differentiation",
       "formation of lunar maria",
-      "Mercury's atmosphere loss mechanisms",
-      "solar system formation theories",
-      "heat dissipation in planets",
-      "orbital speed calculation for satellites"
+      "planetary seasons and axial tilt",
+      "atmospheric loss mechanisms",
+      "Venus surface mapping using radar"
     ]
   },
   "business_ethics": {
     "subject": "business_ethics",
     "core_concepts": [
-      "Corporate governance and director disqualification laws",
-      "Ethical theories in business ethics",
-      "Business-civil society collaboration models",
-      "Emotional exploitation in workplace ethics",
-      "Sustainability goals and initiatives",
-      "Stakeholder communication barriers"
+      "Corporate governance and director disqualification",
+      "Corporate Social Responsibility (CSR)",
+      "Ethics of duty and Emmanuel Kant",
+      "Business and civil society collaboration",
+      "Executive directors' responsibilities",
+      "Global sustainability goals and organizations",
+      "Stakeholder communication and collaboration barriers"
     ]
   },
   "college_computer_science": {
@@ -49,21 +51,22 @@
     "core_concepts": [
       "Symbol tables and debugging aids",
       "Hashing and hash table behavior",
-      "Page replacement policies in memory management",
       "Recursive function evaluation",
-      "Church's thesis on computable functions",
-      "Data structures for efficient element retrieval and removal"
+      "Church's thesis and computability",
+      "Memory reclamation and reference counting",
+      "Automata theory and language acceptance",
+      "Data structures and operations complexity"
     ]
   },
   "high_school_chemistry": {
     "subject": "high_school_chemistry",
     "core_concepts": [
       "Lewis structures and bond angles",
-      "Ground state electron configuration",
-      "Periodic trends in acid strength",
-      "Thermodynamics of chemical reactions (enthalpy)",
-      "Equilibrium constants and Gibbs free energy relationship",
-      "Buffer solutions"
+      "Periodic trends and acid strength",
+      "Electron configurations and atomic structure",
+      "Thermodynamics and enthalpy changes in reactions",
+      "Buffer solutions and their components",
+      "Catalysts and reaction rates"
     ]
   },
   "high_school_geography": {
@@ -73,41 +76,44 @@
       "demographic transition model stages",
       "primary economic activities",
       "migration reasons",
-      "continentality and temperature extremes",
-      "distance decay principle"
+      "gerrymandering",
+      "distance decay"
     ]
   },
   "jurisprudence": {
     "subject": "jurisprudence",
     "core_concepts": [
-      "Natural Law thinking and its doctrines",
-      "Soft positivism and moral criteria in the rule of recognition",
-      "Retribution as a justification for punishment",
+      "Natural Law",
+      "Soft positivism",
+      "Retribution in punishment",
       "Bentham's argument in support of codification",
-      "'Asking the women question' in jurisprudence",
-      "Critical Race Theory (CRT) and democratic ideals"
+      "Dworkin's critique of Posner's economic analysis of law",
+      "Gender analysis in law",
+      "Critical Race Theory (CRT)"
     ]
   },
   "world_religions": {
     "subject": "world_religions",
     "core_concepts": [
       "Categories of Shari'ah law",
-      "Guru and the construction of Darbar Sahib",
+      "Guru Arjan and the construction of Darbar Sahib",
       "Role of deaconesses in early Christianity",
       "Calvin's emphasis on predestination",
       "Buddhism in North America",
-      "Jaina meditation practices"
+      "Jaina meditation practices",
+      "Sadducees' interpretation of the Torah"
     ]
   },
   "formal_logic": {
     "subject": "formal_logic",
     "core_concepts": [
-      "conditional propositions and their antecedents",
-      "symbolization of natural language sentences into propositional logic",
-      "translation between English and predicate logic expressions",
-      "truth tables for determining logical equivalence or contradiction",
+      "conditional propositions",
+      "symbolization of natural language statements",
+      "truth tables for logical equivalence and consistency",
+      "predicate logic translation",
       "validity of arguments using truth tables",
-      "interpretation of quantified statements in formal logic"
+      "logical equivalence and contradiction",
+      "counterexamples in argument validity"
     ]
   }
 }

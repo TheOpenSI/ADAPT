@@ -1,0 +1,43 @@
+[1] Full dataset loaded: (1531, 4)
+[1] Number of subjects: 57
+
+============================================================
+BUILDING SPECIALIST VALIDATION DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science', 'high_school_chemistry', 'high_school_geography', 'jurisprudence', 'world_religions', 'formal_logic']
+[2] Filtered dataset shape: (151, 4)
+[2] Original subject counts:
+subject
+high_school_chemistry       22
+high_school_geography       22
+world_religions             19
+astronomy                   16
+anatomy                     14
+formal_logic                14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+high_school_chemistry       22
+high_school_geography       22
+world_religions             19
+astronomy                   16
+anatomy                     14
+formal_logic                14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
+Name: count, dtype: int64
+[5] Saved: ../dataset/validation_service_all.csv
+[5] Saved: ../dataset/validation_service_all.json
+[DONE] Validation profiling dataset for service set 10
+[DONE] Total rows: 151

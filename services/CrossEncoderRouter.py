@@ -52,6 +52,11 @@ class CrossEncoderRouter(RouterBase):
 
         latency_ms = (time.perf_counter() - start) * 1000
 
+        # send scores and names 
+        scores = [float(s) for s in scores] 
+        scores_dict = dict(zip(names, scores))
+
+
         prompt_tokens = 0
 
         for q, d in pairs:
@@ -83,6 +88,7 @@ class CrossEncoderRouter(RouterBase):
             "prompt_tokens": prompt_tokens,
             "completion_tokens": 0,
             "total_tokens": prompt_tokens,
+            "scores": scores_dict
         }
 
 

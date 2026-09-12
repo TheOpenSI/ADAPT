@@ -73,6 +73,11 @@ class ColBERTRouter(RouterBase):
 
         latency_ms = (time.perf_counter() - start) * 1000
 
+        # send scores and names 
+        scores = [float(s) for s in scores] 
+        scores_dict = dict(zip(self.names, scores))
+
+
         prompt_tokens = query_embeddings.shape[0] 
 
         if self.verbose:
@@ -93,6 +98,7 @@ class ColBERTRouter(RouterBase):
             "prompt_tokens": prompt_tokens,
             "completion_tokens": 0,
             "total_tokens": prompt_tokens,
+             "scores": scores_dict, 
         }
 
 

@@ -10,11 +10,8 @@ from config import SERVICE_SETS
 
 class MMLUValidationBuilder(MMLUBenchmarkBuilderBase):
 
-    def __init__(
-        self,
-        split="validation",
-    ):
-        super().__init__(split)
+    def __init__(self, split="validation"):
+        super().__init__(split, include_general=False)
 
 
     def _select_columns(self, df):
@@ -49,17 +46,19 @@ class MMLUValidationBuilder(MMLUBenchmarkBuilderBase):
             indent=2
         )
 
-        print(f"[5] Saved: {base_path}.csv")
-        print(f"[5] Saved: {base_path}.json")
+        print(f"[4] Saved: {base_path}.csv")
+        print(f"[4] Saved: {base_path}.json")
 
 
     def _build_dataset(self, subjects):
         print("\n" + "=" * 60)
-        print("BUILDING VALIDATION PROFILING DATASET")
+        print("BUILDING SPECIALIST VALIDATION DATASET")
         print("=" * 60)
 
+        # Specialist subjects only
         filtered_data = self._filter_subjects(subjects)
 
+        # expected_service will remain the specialist subject name
         converted_data = self._convert_subject(
             filtered_data,
             subjects

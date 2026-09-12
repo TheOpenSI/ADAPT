@@ -83,6 +83,11 @@ class SemanticRouter(RouterBase):
             torch.cuda.synchronize()
 
         latency_ms = (time.perf_counter() - start) * 1000
+
+
+        # send scores and names 
+        scores_dict = {name: float(score) for name, score in scores.items()}
+
         
         encoded = self.model.tokenizer.encode(
             query,
@@ -110,6 +115,7 @@ class SemanticRouter(RouterBase):
             "prompt_tokens": prompt_tokens,
             "completion_tokens": 0,
             "total_tokens": prompt_tokens,
+            "scores": scores_dict
         }
 
 

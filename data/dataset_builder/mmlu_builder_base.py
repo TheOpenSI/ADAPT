@@ -10,8 +10,10 @@ from config import GENERAL_SUBJECTS
 
 
 class MMLUBenchmarkBuilderBase (ABC):
-    def __init__(self, split):
+    def __init__(self, split, include_general=False):
         self.split = split
+        self.include_general = include_general
+
         self.df = self._load_official_dataset()
 
 
@@ -31,16 +33,21 @@ class MMLUBenchmarkBuilderBase (ABC):
         """
         print("\n[2] Filtering subjects...")
 
-        allowed_subjects = subjects + GENERAL_SUBJECTS
+        if self.include_general:
+            allowed_subjects = subjects + GENERAL_SUBJECTS
+        else:
+            allowed_subjects = subjects
 
         print("[2] Specialist subjects:")
         print(subjects)
 
-        print("[2] General-source subjects:")
-        print(GENERAL_SUBJECTS)
+        if self.include_general:
+            print("[2] General-source subjects:")
+            print(GENERAL_SUBJECTS)
 
         filtered_data = self.df[self.df["subject"].isin(allowed_subjects)].copy()
         print(f"[2] Filtered dataset shape: {filtered_data.shape}")
+
         print("[2] Original subject counts:")
         print(filtered_data["subject"].value_counts())
   
@@ -62,11 +69,9 @@ class MMLUBenchmarkBuilderBase (ABC):
         print("[3] Expected service counts:")
         print(df["expected_service"].value_counts())
 
-        print("\n[3] Subjects inside 'general':")
-        print(
-            df[df["expected_service"] == "general"]["subject"]
-            .value_counts()
-        )
+        if self.include_general:
+            print("\n[3] Subjects inside 'general':")
+            print(df[df["expected_service"] == "general"]["subject"].value_counts())
         
         return df
 

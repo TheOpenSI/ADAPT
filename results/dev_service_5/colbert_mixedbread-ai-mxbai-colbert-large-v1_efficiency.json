@@ -1,0 +1,11 @@
+{
+  "routing_method": "colbert",
+  "model_name": "mixedbread-ai/mxbai-colbert-large-v1",
+  "specialist_service_count": 5,
+  "total_service_count": 5,
+  "total_queries": 50,
+  "total_energy_kwh": 5.4358342659422045e-06,
+  "energy_per_query_kwh": 1.0871668531884409e-07,
+  "total_co2_kg": 2.9825987750483604e-06,
+  "co2_per_query_kg": 5.96519755009672e-08
+}

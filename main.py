@@ -23,120 +23,57 @@ RESULTS_DIR = os.path.join(BASE_DIR, "results")
 
 VERBOSE = False
 
-RUN_CONFIGS = [
-    # dict(
-    #     cls=SemanticRouter,
-    #     model_name="Qwen/Qwen3-Embedding-0.6B",
-    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    # ),
-    # dict(
-    #     cls=SemanticRouter,
-    #     model_name="Qwen/Qwen3-Embedding-4B",
-    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    # ),
+CONDITIONS = [3, 5, 8, 10]
+
+MODEL_CONFIGS = [
+    dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
+    dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-4B"),
+    dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-8B"),
+    dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5"),
+    dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B"),
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
+    dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2"),
+    dict(cls=CrossEncoderRouter, model_name="BAAI/bge-reranker-v2-m3"),
+    dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT"),
+    dict(cls=ColBERTRouter, model_name="colbert-ir/colbertv2.0"),
+    dict(cls=ColBERTRouter, model_name="mixedbread-ai/mxbai-colbert-large-v1"),
+    dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M"),
+]
 
     # dict(
-    #     cls=SemanticRouter,
-    #     model_name="Qwen/Qwen3-Embedding-8B",
-    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
+    #         cls=QueryAnalyser,
+    #         model_name="qwen3:32b",
+    #         service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
     # ),
-
-    # dict(
-    #     cls=SemanticRouter,
-    #     model_name="BAAI/bge-large-en-v1.5",
-    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    # ),
-    # dict(
-    #         cls=SemanticRouter,
-    #         model_name="sentence-transformers/all-MiniLM-L6-v2",
-    #         service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    # ),
-
-    # dict(
-    #     cls=CrossEncoderRouter,
-    #     model_name="Qwen/Qwen3-Reranker-0.6B",
-    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    # ),
-
-    # dict(
-    #     cls=CrossEncoderRouter,
-    #     model_name="Qwen/Qwen3-Reranker-4B",
-    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    # ),
-    # dict(
-    #     cls=CrossEncoderRouter,
-    #     model_name="Qwen/Qwen3-Reranker-8B",
-    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    # ),
-    # dict(
-    #     cls=CrossEncoderRouter,
-    #     model_name="mixedbread-ai/mxbai-rerank-large-v2",
-    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    # ),
-    # dict(
-    #     cls=CrossEncoderRouter,
-    #     model_name="BAAI/bge-reranker-v2-m3",
-    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    # ),
-
-    # dict(
-    #     cls=ColBERTRouter,
-    #     model_name="lightonai/Reason-ModernColBERT",
-    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    # ),
-    # dict(
-    #     cls=ColBERTRouter,
-    #     model_name="colbert-ir/colbertv2.0",
-    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    # ),
-    # dict(
-    #     cls=ColBERTRouter,
-    #     model_name="mixedbread-ai/mxbai-colbert-large-v1",
-    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    # ),
-    # dict(
-    #     cls=ColBERTRouter,
-    #     model_name="LiquidAI/LFM2-ColBERT-350M",
-    #     service_desc_path=os.path.join(DATA_DIR, "dataset", "service_descriptions_10.json"),
-    # ),
-
-    dict(
-            cls=QueryAnalyser,
-            model_name="qwen3:32b",
-            service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
-    ),
     # dict(
     #     cls=QueryAnalyser,
     #     model_name="qwen2.5:7b",
-    #     service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
+    #     service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
     # ),
     # dict(
     #     cls=QueryAnalyser,
     #     model_name="qwen2.5:14b",
-    #     service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
+    #     service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
     # ),
     # dict(
     #     cls=QueryAnalyser,
     #     model_name="qwen2.5:32b",
-    #     service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
+    #     service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
     # ),
 
     # dict(
     #         cls=QueryAnalyser,
     #         model_name="llama3.1:8b",
-    #         service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
+    #         service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
     # ),
     # dict(
     #         cls=QueryAnalyser,
     #         model_name="phi4:14b",
-    #         service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_10.json"),
+    #         service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
     # ),
 
-]
-
-DATASET_PATHS = [
-    os.path.join(DATA_DIR, "dataset", "test_service_10.csv"),
-]
 
 
 def cleanup_gpu():
@@ -147,13 +84,24 @@ def cleanup_gpu():
 
 def run_all():
 
-    total_runs = len(RUN_CONFIGS) * len(DATASET_PATHS)
+    total_runs = len(MODEL_CONFIGS) * len(CONDITIONS)
 
     run_num = 0
     succeeded = 0
 
-    for dataset_path in DATASET_PATHS:
-        for cfg in RUN_CONFIGS:
+    for k in CONDITIONS:
+        service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
+        # MUST CHANGE DEV to TEST 
+        dataset_path = os.path.join(DATA_DIR, "dataset", f"dev_service_{k}.csv")
+
+        print(f"\n{'*' * 70}")
+        print(f"* CONDITION k={k}")
+        print(f"*   service_desc_path: {service_desc_path}")
+        print(f"*   dataset_path:      {dataset_path}")
+        print(f"{'*' * 70}")
+
+
+        for cfg in MODEL_CONFIGS:
             run_num += 1
             router_name = cfg["cls"].__name__
 
@@ -168,13 +116,13 @@ def run_all():
 
             try:
                 router = cfg["cls"](
-                    service_desc_path=cfg["service_desc_path"],
+                    service_desc_path=service_desc_path,
                     model_name=cfg["model_name"],
                     verbose=VERBOSE,
                 )
 
-                print("\nMODEL LOADED AND READY")
-                input("Start nvidia-smi logging now, then press Enter to begin benchmark...")
+                # print("\nMODEL LOADED AND READY")
+                # input("Start nvidia-smi logging now, then press Enter to begin benchmark...")
 
                 runner = BenchmarkRunner(dataset_path, 
                                          router, 
@@ -183,10 +131,10 @@ def run_all():
                 runner.run_test()
                 print("\nBENCHMARK FINISHED")
 
-                input(
-                    "Stop the nvidia-smi logger now, "
-                    "then press Enter to unload the model..."
-                )
+                # input(
+                #     "Stop the nvidia-smi logger now, "
+                #     "then press Enter to unload the model..."
+                # )
 
                 succeeded += 1
 

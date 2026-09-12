@@ -18,6 +18,8 @@ class ServiceConceptExtractor:
         model="qwen2.5:32b",
         verbose=True,
     ):
+        """Initialize the extractor and load validation data."""
+
         self.data_path = data_path
         self.model = model
         self.verbose = verbose
@@ -28,15 +30,34 @@ class ServiceConceptExtractor:
 
 
     def _log(self, message):
+        """Print messages when verbose mode is enabled."""
+
         if self.verbose:
             print(message)
 
 
     def _load_data(self):
+        """Load and validate the specialist-only validation dataset."""
+
         df = pd.read_json(self.data_path)
         self._log(f"[LOAD] validation data: {df.shape}")
         self._log(f"[LOAD] routing services: {df['expected_service'].nunique()}")
         self._log(f"[LOAD] original subjects: {df['subject'].nunique()}")
+
+
+        assert "general" not in df["expected_service"].values, (
+        "General queries must not be used for description construction."
+        )
+
+        expected_subjects = set(SERVICE_SETS[10])
+        actual_subjects = set(df["subject"].unique())
+
+        assert actual_subjects == expected_subjects, (
+            f"Unexpected validation subjects. "
+            f"Expected: {expected_subjects}, "
+            f"got: {actual_subjects}"
+        )
+
         return df
 
 
@@ -150,6 +171,7 @@ Return ONLY valid JSON in this format:
 
 
     def _call_llm(self, subject, df):
+        """Extract concepts for one specialist subject."""
 
         self._log(f"[EXTRACT] Processing {subject}: {len(df)} questions")
 
@@ -172,9 +194,8 @@ Return ONLY valid JSON in this format:
         return result
 
 
-    def extract_all(self,
-                    output_path="concept_extraction.json"
-                    ):
+    def extract_all(self, output_path="concept_extraction.json"):
+        """Extract and save concepts for all specialists."""
 
         groups = self._group_by_subject()
         results = {}
@@ -206,6 +227,8 @@ Return ONLY valid JSON in this format:
 
 
     def _build_core_concept_prompt(self, subject, extracted_concepts):
+        """Build the prompt for core-concept selection."""
+
         concepts_text = "\n".join(
             f"- {concept}"
             for concept in extracted_concepts
@@ -252,6 +275,8 @@ Return ONLY valid JSON in this format:
         return prompt
 
     def _load_extracted_concepts(self,path="concept_extraction.json"):
+        """Load extracted concepts from Stage 1."""
+
         with open(path, "r") as f:
             data = json.load(f)
 
@@ -261,6 +286,8 @@ Return ONLY valid JSON in this format:
 
 
     def _extract_core_concepts(self, subject, extracted_concepts):
+        """Select core concepts for one specialist subject."""
+
         self._log(
             f"[CORE] Processing {subject}: "
             f"{len(extracted_concepts)} extracted concepts"
@@ -306,11 +333,10 @@ Return ONLY valid JSON in this format:
 
         for i, subject in enumerate(specialists, start=1):
             self._log(f"\n[{i}/{total}] Selecting core concepts: {subject}")
-
-            extracted_concepts = (
-                concept_data[subject]["extracted_concepts"]
-            )
             try:
+
+                extracted_concepts = (concept_data[subject]["extracted_concepts"])
+           
                 result = self._extract_core_concepts(
                     subject,
                     extracted_concepts
