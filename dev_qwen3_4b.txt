@@ -1,0 +1,970 @@
+
+**********************************************************************
+* CONDITION k=3
+*   service_desc_path: /home/maniles/manile/manile/data/dataset/service_descriptions_3.json
+*   dataset_path:      /home/maniles/manile/manile/data/dataset/dev_service_3.csv
+**********************************************************************
+
+######################################################################
+# RUN 1/4: CrossEncoderRouter (Qwen/Qwen3-Reranker-4B) on /home/maniles/manile/manile/data/dataset/dev_service_3.csv
+######################################################################
+
+[CrossEncoderRouter] Loading cross-encoder model 'Qwen/Qwen3-Reranker-4B'...
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4727.44it/s]
+Default prompt name is set to 'query'. This prompt will be applied to all inference calls, except if a `prompt` or `prompt_name` parameter is provided.
+[codecarbon WARNING @ 14:11:07] Multiple instances of codecarbon are allowed to run at the same time.
+[CrossEncoderRouter] Model loaded in 7.86s — running on device: cuda:0
+[CrossEncoderRouter] Loaded 3 services.
+[CrossEncoderRouter] Ready to route.
+
+============================================================
+Starting benchmark: CrossEncoderRouter on /home/maniles/manile/manile/data/dataset/dev_service_3.csv
+Total rows to process: 40
+============================================================
+
+
+[1/40] Question: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 1 | Wrong: 0 | 409.8ms
+
+[2/40] Question: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 2 | Wrong: 0 | 46.8ms
+
+[3/40] Question: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 3 | Wrong: 0 | 45.8ms
+
+[4/40] Question: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 4 | Wrong: 0 | 45.8ms
+
+[5/40] Question: Find the characteristic of the ring 2Z.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 5 | Wrong: 0 | 44.9ms
+
+[6/40] Question: What is the embryological origin of the hyoid bone?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 6 | Wrong: 0 | 44.3ms
+
+[7/40] Question: Which of these branches of the trigeminal nerve contain somatic motor processes?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 7 | Wrong: 0 | 44.6ms
+
+[8/40] Question: The pleura
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 8 | Wrong: 0 | 43.4ms
+
+[9/40] Question: In Angle's Class II Div 2 occlusion there is
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 9 | Wrong: 0 | 44.2ms
+
+[10/40] Question: Which of the following is the body cavity that contains the pituitary gland?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 10 | Wrong: 0 | 44.1ms
+
+[11/40] Question: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 11 | Wrong: 0 | 45.0ms
+
+[12/40] Question: Where do most short-period comets come from and how do we know?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 12 | Wrong: 0 | 44.2ms
+
+[13/40] Question: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 13 | Wrong: 0 | 45.5ms
+
+[14/40] Question: Why isn't there a planet where the asteroid belt is located?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 14 | Wrong: 0 | 44.7ms
+
+[15/40] Question: Why is Mars red?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 15 | Wrong: 0 | 44.4ms
+
+[16/40] Question: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 1 | 44.7ms
+
+[17/40] Question: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 2 | 44.3ms
+
+[18/40] Question: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 3 | 46.0ms
+
+[19/40] Question: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 4 | 45.9ms
+
+[20/40] Question: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 5 | 45.3ms
+
+[21/40] Question: This question refers to the following information.
+"Society in every state is a blessing, but government even in its best state is but a necessary evil; in its worst state an intolerable one; for when we suffer, or are exposed to the same miseries by a government, which we might expect in a country without government, our calamity is heightened by reflecting that we furnish the means by which we suffer. Government, like dress, is the badge of lost innocence; the palaces of kings are built on the ruins of the bowers of paradise. For were the impulses of conscience clear, uniform, and irresistibly obeyed, man would need no other lawgiver; but that not being the case, he finds it necessary to surrender up a part of his property to furnish means for the protection of the rest; and this he is induced to do by the same prudence which in every other case advises him out of two evils to choose the least. Wherefore, security being the true design and end of government, it unanswerably follows that whatever form thereof appears most likely to ensure it to us, with the least expense and greatest benefit, is preferable to all others."
+Thomas Paine, Common Sense, 1776
+Which of the following "miseries" alluded to above were most condemned by Anti-Federalists of the post-Revolutionary era?
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 6 | 83.6ms
+
+[22/40] Question: This question refers to the following information.
+"As our late Conduct at the Conestoga Manor and Lancaster have occasioned much Speculation & a great diversity of Sentiments in this and neighboring Governments; some vindicating & others condemning it; some charitably alleviating the Crime, & others maliciously painting it in the most odious & detestable Colours, we think it our duty to lay before the Publick, the whole Matter as it appeared, & still appears, to us. . . .
+"If these things are not sufficient to prove an unjustifiable Attachment in the Quakers to the Indians Savages, a fixed Resolution to befriend them & an utter insensibility to human Distresses, let us consider a few more recent Facts. When we found the last Summer that we were likely to get no Assistance from the Government, some Volunteers went out at our own Expense, determined to drive our Enemies from our Borders; & when we came near to the great Island, we understood that a Number of their Warriors had gone out against our Frontiers. Upon this we returned and came up with them and fought with them at the Munfey Hill where we lost some of our Men & killed some of their Warriors & thereby saved our Frontiers from this Story in another Expedition. But no sooner had we destroyed their Provisions on the great Island, & ruined their trade with the good People at Bethlehem, but these very Indians, who were justly suspected of having murdered our Friends in Northampton County, were by the Influence of some Quakers taken under the Protection of the Government to screen them from the Resentments of the Friends and Relations of the Murdered, & to support them thro the Winter."
+—"Apology of the Paxton Boys" (pamphlet), 1764 (Note: "apology" in this context should be read as an explanation, not an admission of guilt or regret.)
+The sentiments expressed in the explanation above reflect which of the ongoing tensions during the colonial period of American history?
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 7 | 110.1ms
+
+[23/40] Question: This question refers to the following information.
+"In the new Code of Laws which I suppose it will be necessary for you to make I desire you would Remember the Ladies, and be more generous and favorable to them than your ancestors. Do not put such unlimited power into the hands of the Husbands. Remember all Men would be tyrants if they could. If particular care and attention is not paid to the Ladies we are determined to foment a Rebellion, and will not hold ourselves bound by any Laws in which we have no voice, or Representation."
+Abigail Adams, in a letter to John Adams, 1776
+"Special legislation for woman has placed us in a most anomalous position. Women invested with the rights of citizens in one section—voters, jurors, office-holders—crossing an imaginary line, are subjects in the next. In some States, a married woman may hold property and transact business in her own name; in others, her earnings belong to her husband. In some States, a woman may testify against her husband, sue and be sued in the courts; in others, she has no redress in case of damage to person, property, or character. In case of divorce on account of adultery in the husband, the innocent wife is held to possess no right to children or property, unless by special decree of the court. But in no State of the Union has the wife the right to her own person, or to any part of the joint earnings of the co-partnership during the life of her husband. In some States women may enter the law schools and practice in the courts; in others they are forbidden. In some universities girls enjoy equal educational advantages with boys, while many of the proudest institutions in the land deny them admittance, though the sons of China, Japan and Africa are welcomed there. But the privileges already granted in the several States are by no means secure."
+Susan B. Anthony, "Declaration of Rights for Women," July 4, 1876
+The sentiments expressed in the second excerpt by Susan B. Anthony are most likely in support of
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 8 | 116.4ms
+
+[24/40] Question: This question refers to the following information.
+Our leaders talk about stopping aggression from the north, but this was a struggle among groups of Vietnamese until we intervened. We seem bent upon saving the Vietnamese from Ho Chi Minh even if we have to kill them and demolish their country to do it. As the native people survey bombed-out villages, women and children burned by napalm, rice crops destroyed and cities overrun with our military personnel, they are doubtless saying secretly of the Vietcong guerillas and of the American forces, "A plague on both your houses." … Stop the bombing, north and south, end search and destroy offensive sweeps, and confine our military action to holding operations on the ground. Bombing the north has failed to halt or seriously check the flow of troops to the south and may, in fact, have prompted a much greater war effort by Hanoi.
+—Senator George McGovern, "The Lessons of Vietnam," April 25, 1967
+Which of the following opinions from the 1960s most directly reflects the perspective of George McGovern's speech?
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 9 | 78.9ms
+
+[25/40] Question: This question refers to the following information.
+I come not to urge personal claims, nor to seek individual benefits; I appear as the advocate of those who cannot plead their own cause; I come as the friend of those who are deserted, oppressed, and desolate. In the Providence of God, I am the voice of the maniac whose piercing cries from the dreary dungeons of your jails penetrate not your Halls of Legislation. I am the Hope of the poor crazed beings who pine in the cells, and stalls, and cages, and waste rooms of your poor-houses. I am the Revelation of hundreds of wailing, suffering creatures, hidden in your private dwellings, and in pens and cabins—shut out, cut off from all healing influences, from all mind-restoring cares.… Could their melancholy histories be spread before you as revealed to my grieved spirit during the last three months, how promptly, how earnestly would you search out the most approved means of relief; how trifling, how insignificant, by comparison, would appear the sacrifices you are asked to make; how would a few dimes and dollars, gathered from each citizen, diminish in value as a possession, compared with the certain benefits and vast good to be secured for the suffering insane...by the consecration and application of a sufficient fund to the construction of a suitable hospital.…
+—Dorothea Dix, Memorial Soliciting a State Hospital for the Protection and Cure of the Insane,
+Submitted to the General Assembly of North Carolina, November 1848
+Dorothea Dix can best be compared to whom?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 10 | 96.3ms
+
+[26/40] Question:  _____________ is a natural outcome when combining demographic and geographic variables.
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 15 | Wrong: 11 | 45.4ms
+
+[27/40] Question: In an organization, the group of people tasked with buying decisions is referred to as the _______________.
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 15 | Wrong: 12 | 45.1ms
+
+[28/40] Question:  Which of the following is an assumption in Maslow's hierarchy of needs?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 13 | 44.4ms
+
+[29/40] Question: The single group within society that is most vulnerable to reference group influence is:
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 15 | Wrong: 14 | 44.0ms
+
+[30/40] Question: Although the content and quality can be as controlled as direct mail, response rates of this medium are lower because of the lack of a personal address mechanism. This media format is known as:
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 15 | 45.4ms
+
+[31/40] Question: The great Mayan king Pacal built temples in the city of Palenque in order to:
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 16 | 44.7ms
+
+[32/40] Question: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 17 | 44.9ms
+
+[33/40] Question: Researchers now believe that the decline of the Maya was caused chiefly by:
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 18 | 44.7ms
+
+[34/40] Question: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 19 | 44.7ms
+
+[35/40] Question: What is the approximate mean cranial capacity of Homo erectus?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 20 | 44.0ms
+
+[36/40] Question: Which of the following did the post-war welfare state of 1948 not aim to provide:
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 21 | 44.3ms
+
+[37/40] Question: What does Berger (1963) describe as a metaphor for social reality?
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 15 | Wrong: 22 | 44.4ms
+
+[38/40] Question: The shift from 'civil religion' to 'common religion' means that:
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 23 | 44.6ms
+
+[39/40] Question: The term 'hegemony' refers to:
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 15 | Wrong: 24 | 43.8ms
+
+[40/40] Question: Which of the following is not a problem associated with official statistics on strike action?
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 25 | 44.0ms
+
+=== ROUTING RESULTS ===
+Correct: 15
+Wrong:   25
+Errors:  0
+Total:   40
+saved: /home/maniles/manile/manile/results/dev_service_3/cross-encoder_Qwen-Qwen3-Reranker-4B.json
+saved: /home/maniles/manile/manile/results/dev_service_3/cross-encoder_Qwen-Qwen3-Reranker-4B.csv
+saved: /home/maniles/manile/manile/results/dev_service_3/cross-encoder_Qwen-Qwen3-Reranker-4B_efficiency.json
+
+=== ENERGY / CARBON ===
+Total CO2 (kg): 0.00011983440845551779
+Total energy (kWh): 0.00021840013788339865
+DONE
+============================================================
+
+
+BENCHMARK FINISHED
+
+[run_benchmark] CrossEncoderRouter finished in 15.7s (0.3 min)
+
+**********************************************************************
+* CONDITION k=5
+*   service_desc_path: /home/maniles/manile/manile/data/dataset/service_descriptions_5.json
+*   dataset_path:      /home/maniles/manile/manile/data/dataset/dev_service_5.csv
+**********************************************************************
+
+######################################################################
+# RUN 2/4: CrossEncoderRouter (Qwen/Qwen3-Reranker-4B) on /home/maniles/manile/manile/data/dataset/dev_service_5.csv
+######################################################################
+
+[CrossEncoderRouter] Loading cross-encoder model 'Qwen/Qwen3-Reranker-4B'...
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4442.75it/s]
+[CrossEncoderRouter] Model loaded in 7.22s — running on device: cuda:0
+[CrossEncoderRouter] Loaded 5 services.
+[CrossEncoderRouter] Ready to route.
+
+============================================================
+Starting benchmark: CrossEncoderRouter on /home/maniles/manile/manile/data/dataset/dev_service_5.csv
+Total rows to process: 50
+============================================================
+
+
+[1/50] Question: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 1 | Wrong: 0 | 64.2ms
+
+[2/50] Question: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 2 | Wrong: 0 | 66.9ms
+
+[3/50] Question: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 3 | Wrong: 0 | 64.3ms
+
+[4/50] Question: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 4 | Wrong: 0 | 64.5ms
+
+[5/50] Question: Find the characteristic of the ring 2Z.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 5 | Wrong: 0 | 59.1ms
+
+[6/50] Question: What is the embryological origin of the hyoid bone?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 6 | Wrong: 0 | 58.8ms
+
+[7/50] Question: Which of these branches of the trigeminal nerve contain somatic motor processes?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 7 | Wrong: 0 | 61.5ms
+
+[8/50] Question: The pleura
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 8 | Wrong: 0 | 58.2ms
+
+[9/50] Question: In Angle's Class II Div 2 occlusion there is
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 9 | Wrong: 0 | 59.2ms
+
+[10/50] Question: Which of the following is the body cavity that contains the pituitary gland?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 10 | Wrong: 0 | 61.6ms
+
+[11/50] Question: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 11 | Wrong: 0 | 64.0ms
+
+[12/50] Question: Where do most short-period comets come from and how do we know?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 12 | Wrong: 0 | 61.7ms
+
+[13/50] Question: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 13 | Wrong: 0 | 65.3ms
+
+[14/50] Question: Why isn't there a planet where the asteroid belt is located?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 14 | Wrong: 0 | 60.1ms
+
+[15/50] Question: Why is Mars red?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 15 | Wrong: 0 | 59.3ms
+
+[16/50] Question: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 16 | Wrong: 0 | 65.7ms
+
+[17/50] Question: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 17 | Wrong: 0 | 64.0ms
+
+[18/50] Question: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 18 | Wrong: 0 | 69.1ms
+
+[19/50] Question: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 19 | Wrong: 0 | 67.8ms
+
+[20/50] Question: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 20 | Wrong: 0 | 66.6ms
+
+[21/50] Question: Which of the following regular expressions is equivalent to (describes the same set of strings as) (a* + b)*(c + d)?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 21 | Wrong: 0 | 64.3ms
+
+[22/50] Question: A certain pipelined RISC machine has 8 general-purpose registers R0, R1, . . . , R7 and supports the following operations.
+ADD Rs1, Rs2, Rd Add Rs1 to Rs2 and put the sum in Rd
+MUL Rs1, Rs2, Rd Multiply Rs1 by Rs2 and put the product in Rd
+An operation normally takes one cycle; however, an operation takes two cycles if it produces a result required by the immediately following operation in an operation sequence. Consider the expression AB + ABC + BC, where variables A, B, C are located in registers R0, R1, R2. If the contents of these three registers must not be modified, what is the minimum number of clock cycles required for an operation sequence that computes the value of AB + ABC + BC?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 22 | Wrong: 0 | 103.7ms
+
+[23/50] Question: The Singleton design pattern is used to guarantee that only a single instance of a class may be instantiated. Which of the following is (are) true of this design pattern?
+I. The Singleton class has a static factory method to provide its instance.
+II. The Singleton class can be a subclass of another class.
+III. The Singleton class has a private constructor.
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 23 | Wrong: 0 | 76.9ms
+
+[24/50] Question: A compiler generates code for the following assignment statement.
+G := (A + B) * C - (D + E) * F
+The target machine has a single accumulator and a single-address instruction set consisting of instructions load, store, add, subtract, and multiply. For the arithmetic operations, the left operand is taken from the accumulator and the result appears in the accumulator. The smallest possible number of instructions in the resulting code is
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 24 | Wrong: 0 | 78.1ms
+
+[25/50] Question: Consider a computer design in which multiple processors, each with a private cache memory, share global memory using a single bus. This bus is the critical system resource. Each processor can execute one instruction every 500 nanoseconds as long as memory references are satisfied by its local cache. When a cache miss occurs, the processor is delayed for an additional 2,000 nanoseconds. During half of this additional delay, the bus is dedicated to serving the cache miss. During the other half, the processor cannot continue, but the bus is free to service requests from other processors. On average, each instruction requires 2 memory references. On average, cache misses occur on 1 percent of references. What proportion of the capacity of the bus would a single processor consume, ignoring delays due to competition from other processors?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 25 | Wrong: 0 | 103.2ms
+
+[26/50] Question: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 1 | 63.9ms
+
+[27/50] Question: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 25 | Wrong: 2 | 62.5ms
+
+[28/50] Question: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 3 | 67.3ms
+
+[29/50] Question: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 25 | Wrong: 4 | 64.4ms
+
+[30/50] Question: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 5 | 64.5ms
+
+[31/50] Question: This question refers to the following information.
+"Society in every state is a blessing, but government even in its best state is but a necessary evil; in its worst state an intolerable one; for when we suffer, or are exposed to the same miseries by a government, which we might expect in a country without government, our calamity is heightened by reflecting that we furnish the means by which we suffer. Government, like dress, is the badge of lost innocence; the palaces of kings are built on the ruins of the bowers of paradise. For were the impulses of conscience clear, uniform, and irresistibly obeyed, man would need no other lawgiver; but that not being the case, he finds it necessary to surrender up a part of his property to furnish means for the protection of the rest; and this he is induced to do by the same prudence which in every other case advises him out of two evils to choose the least. Wherefore, security being the true design and end of government, it unanswerably follows that whatever form thereof appears most likely to ensure it to us, with the least expense and greatest benefit, is preferable to all others."
+Thomas Paine, Common Sense, 1776
+Which of the following "miseries" alluded to above were most condemned by Anti-Federalists of the post-Revolutionary era?
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 25 | Wrong: 6 | 134.2ms
+
+[32/50] Question: This question refers to the following information.
+"As our late Conduct at the Conestoga Manor and Lancaster have occasioned much Speculation & a great diversity of Sentiments in this and neighboring Governments; some vindicating & others condemning it; some charitably alleviating the Crime, & others maliciously painting it in the most odious & detestable Colours, we think it our duty to lay before the Publick, the whole Matter as it appeared, & still appears, to us. . . .
+"If these things are not sufficient to prove an unjustifiable Attachment in the Quakers to the Indians Savages, a fixed Resolution to befriend them & an utter insensibility to human Distresses, let us consider a few more recent Facts. When we found the last Summer that we were likely to get no Assistance from the Government, some Volunteers went out at our own Expense, determined to drive our Enemies from our Borders; & when we came near to the great Island, we understood that a Number of their Warriors had gone out against our Frontiers. Upon this we returned and came up with them and fought with them at the Munfey Hill where we lost some of our Men & killed some of their Warriors & thereby saved our Frontiers from this Story in another Expedition. But no sooner had we destroyed their Provisions on the great Island, & ruined their trade with the good People at Bethlehem, but these very Indians, who were justly suspected of having murdered our Friends in Northampton County, were by the Influence of some Quakers taken under the Protection of the Government to screen them from the Resentments of the Friends and Relations of the Murdered, & to support them thro the Winter."
+—"Apology of the Paxton Boys" (pamphlet), 1764 (Note: "apology" in this context should be read as an explanation, not an admission of guilt or regret.)
+The sentiments expressed in the explanation above reflect which of the ongoing tensions during the colonial period of American history?
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 25 | Wrong: 7 | 179.4ms
+
+[33/50] Question: This question refers to the following information.
+"In the new Code of Laws which I suppose it will be necessary for you to make I desire you would Remember the Ladies, and be more generous and favorable to them than your ancestors. Do not put such unlimited power into the hands of the Husbands. Remember all Men would be tyrants if they could. If particular care and attention is not paid to the Ladies we are determined to foment a Rebellion, and will not hold ourselves bound by any Laws in which we have no voice, or Representation."
+Abigail Adams, in a letter to John Adams, 1776
+"Special legislation for woman has placed us in a most anomalous position. Women invested with the rights of citizens in one section—voters, jurors, office-holders—crossing an imaginary line, are subjects in the next. In some States, a married woman may hold property and transact business in her own name; in others, her earnings belong to her husband. In some States, a woman may testify against her husband, sue and be sued in the courts; in others, she has no redress in case of damage to person, property, or character. In case of divorce on account of adultery in the husband, the innocent wife is held to possess no right to children or property, unless by special decree of the court. But in no State of the Union has the wife the right to her own person, or to any part of the joint earnings of the co-partnership during the life of her husband. In some States women may enter the law schools and practice in the courts; in others they are forbidden. In some universities girls enjoy equal educational advantages with boys, while many of the proudest institutions in the land deny them admittance, though the sons of China, Japan and Africa are welcomed there. But the privileges already granted in the several States are by no means secure."
+Susan B. Anthony, "Declaration of Rights for Women," July 4, 1876
+The sentiments expressed in the second excerpt by Susan B. Anthony are most likely in support of
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 25 | Wrong: 8 | 185.0ms
+
+[34/50] Question: This question refers to the following information.
+Our leaders talk about stopping aggression from the north, but this was a struggle among groups of Vietnamese until we intervened. We seem bent upon saving the Vietnamese from Ho Chi Minh even if we have to kill them and demolish their country to do it. As the native people survey bombed-out villages, women and children burned by napalm, rice crops destroyed and cities overrun with our military personnel, they are doubtless saying secretly of the Vietcong guerillas and of the American forces, "A plague on both your houses." … Stop the bombing, north and south, end search and destroy offensive sweeps, and confine our military action to holding operations on the ground. Bombing the north has failed to halt or seriously check the flow of troops to the south and may, in fact, have prompted a much greater war effort by Hanoi.
+—Senator George McGovern, "The Lessons of Vietnam," April 25, 1967
+Which of the following opinions from the 1960s most directly reflects the perspective of George McGovern's speech?
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 9 | 121.8ms
+
+[35/50] Question: This question refers to the following information.
+I come not to urge personal claims, nor to seek individual benefits; I appear as the advocate of those who cannot plead their own cause; I come as the friend of those who are deserted, oppressed, and desolate. In the Providence of God, I am the voice of the maniac whose piercing cries from the dreary dungeons of your jails penetrate not your Halls of Legislation. I am the Hope of the poor crazed beings who pine in the cells, and stalls, and cages, and waste rooms of your poor-houses. I am the Revelation of hundreds of wailing, suffering creatures, hidden in your private dwellings, and in pens and cabins—shut out, cut off from all healing influences, from all mind-restoring cares.… Could their melancholy histories be spread before you as revealed to my grieved spirit during the last three months, how promptly, how earnestly would you search out the most approved means of relief; how trifling, how insignificant, by comparison, would appear the sacrifices you are asked to make; how would a few dimes and dollars, gathered from each citizen, diminish in value as a possession, compared with the certain benefits and vast good to be secured for the suffering insane...by the consecration and application of a sufficient fund to the construction of a suitable hospital.…
+—Dorothea Dix, Memorial Soliciting a State Hospital for the Protection and Cure of the Insane,
+Submitted to the General Assembly of North Carolina, November 1848
+Dorothea Dix can best be compared to whom?
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 25 | Wrong: 10 | 147.8ms
+
+[36/50] Question:  _____________ is a natural outcome when combining demographic and geographic variables.
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 25 | Wrong: 11 | 62.4ms
+
+[37/50] Question: In an organization, the group of people tasked with buying decisions is referred to as the _______________.
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 25 | Wrong: 12 | 62.2ms
+
+[38/50] Question:  Which of the following is an assumption in Maslow's hierarchy of needs?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 13 | 62.2ms
+
+[39/50] Question: The single group within society that is most vulnerable to reference group influence is:
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 25 | Wrong: 14 | 61.8ms
+
+[40/50] Question: Although the content and quality can be as controlled as direct mail, response rates of this medium are lower because of the lack of a personal address mechanism. This media format is known as:
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 25 | Wrong: 15 | 65.2ms
+
+[41/50] Question: The great Mayan king Pacal built temples in the city of Palenque in order to:
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 16 | 61.9ms
+
+[42/50] Question: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 17 | 62.6ms
+
+[43/50] Question: Researchers now believe that the decline of the Maya was caused chiefly by:
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 18 | 61.8ms
+
+[44/50] Question: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 19 | 62.9ms
+
+[45/50] Question: What is the approximate mean cranial capacity of Homo erectus?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 20 | 59.8ms
+
+[46/50] Question: Which of the following did the post-war welfare state of 1948 not aim to provide:
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 21 | 62.8ms
+
+[47/50] Question: What does Berger (1963) describe as a metaphor for social reality?
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 25 | Wrong: 22 | 62.2ms
+
+[48/50] Question: The shift from 'civil religion' to 'common religion' means that:
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 25 | Wrong: 23 | 61.6ms
+
+[49/50] Question: The term 'hegemony' refers to:
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 25 | Wrong: 24 | 59.0ms
+
+[50/50] Question: Which of the following is not a problem associated with official statistics on strike action?
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 25 | Wrong: 25 | 61.7ms
+
+=== ROUTING RESULTS ===
+Correct: 25
+Wrong:   25
+Errors:  0
+Total:   50
+saved: /home/maniles/manile/manile/results/dev_service_5/cross-encoder_Qwen-Qwen3-Reranker-4B.json
+saved: /home/maniles/manile/manile/results/dev_service_5/cross-encoder_Qwen-Qwen3-Reranker-4B.csv
+saved: /home/maniles/manile/manile/results/dev_service_5/cross-encoder_Qwen-Qwen3-Reranker-4B_efficiency.json
+
+=== ENERGY / CARBON ===
+Total CO2 (kg): 0.00020465104290062956
+Total energy (kWh): 0.0003729798190982
+DONE
+============================================================
+
+
+BENCHMARK FINISHED
+
+[run_benchmark] CrossEncoderRouter finished in 14.3s (0.2 min)
+
+**********************************************************************
+* CONDITION k=8
+*   service_desc_path: /home/maniles/manile/manile/data/dataset/service_descriptions_8.json
+*   dataset_path:      /home/maniles/manile/manile/data/dataset/dev_service_8.csv
+**********************************************************************
+
+######################################################################
+# RUN 3/4: CrossEncoderRouter (Qwen/Qwen3-Reranker-4B) on /home/maniles/manile/manile/data/dataset/dev_service_8.csv
+######################################################################
+
+[CrossEncoderRouter] Loading cross-encoder model 'Qwen/Qwen3-Reranker-4B'...
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4621.81it/s]
+[CrossEncoderRouter] Model loaded in 7.17s — running on device: cuda:0
+[CrossEncoderRouter] Loaded 8 services.
+[CrossEncoderRouter] Ready to route.
+
+============================================================
+Starting benchmark: CrossEncoderRouter on /home/maniles/manile/manile/data/dataset/dev_service_8.csv
+Total rows to process: 65
+============================================================
+
+
+[1/65] Question: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 1 | Wrong: 0 | 92.3ms
+
+[2/65] Question: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 2 | Wrong: 0 | 100.0ms
+
+[3/65] Question: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 3 | Wrong: 0 | 92.8ms
+
+[4/65] Question: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 4 | Wrong: 0 | 92.8ms
+
+[5/65] Question: Find the characteristic of the ring 2Z.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 5 | Wrong: 0 | 80.2ms
+
+[6/65] Question: What is the embryological origin of the hyoid bone?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 6 | Wrong: 0 | 80.0ms
+
+[7/65] Question: Which of these branches of the trigeminal nerve contain somatic motor processes?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 7 | Wrong: 0 | 80.9ms
+
+[8/65] Question: The pleura
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 8 | Wrong: 0 | 79.4ms
+
+[9/65] Question: In Angle's Class II Div 2 occlusion there is
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 9 | Wrong: 0 | 80.0ms
+
+[10/65] Question: Which of the following is the body cavity that contains the pituitary gland?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 10 | Wrong: 0 | 80.9ms
+
+[11/65] Question: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 11 | Wrong: 0 | 92.1ms
+
+[12/65] Question: Where do most short-period comets come from and how do we know?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 12 | Wrong: 0 | 80.6ms
+
+[13/65] Question: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 13 | Wrong: 0 | 98.1ms
+
+[14/65] Question: Why isn't there a planet where the asteroid belt is located?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 14 | Wrong: 0 | 80.5ms
+
+[15/65] Question: Why is Mars red?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 15 | Wrong: 0 | 79.2ms
+
+[16/65] Question: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 16 | Wrong: 0 | 93.3ms
+
+[17/65] Question: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 17 | Wrong: 0 | 92.4ms
+
+[18/65] Question: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 18 | Wrong: 0 | 101.8ms
+
+[19/65] Question: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 19 | Wrong: 0 | 100.8ms
+
+[20/65] Question: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 20 | Wrong: 0 | 99.6ms
+
+[21/65] Question: Which of the following regular expressions is equivalent to (describes the same set of strings as) (a* + b)*(c + d)?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 21 | Wrong: 0 | 92.2ms
+
+[22/65] Question: A certain pipelined RISC machine has 8 general-purpose registers R0, R1, . . . , R7 and supports the following operations.
+ADD Rs1, Rs2, Rd Add Rs1 to Rs2 and put the sum in Rd
+MUL Rs1, Rs2, Rd Multiply Rs1 by Rs2 and put the product in Rd
+An operation normally takes one cycle; however, an operation takes two cycles if it produces a result required by the immediately following operation in an operation sequence. Consider the expression AB + ABC + BC, where variables A, B, C are located in registers R0, R1, R2. If the contents of these three registers must not be modified, what is the minimum number of clock cycles required for an operation sequence that computes the value of AB + ABC + BC?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 22 | Wrong: 0 | 153.1ms
+
+[23/65] Question: The Singleton design pattern is used to guarantee that only a single instance of a class may be instantiated. Which of the following is (are) true of this design pattern?
+I. The Singleton class has a static factory method to provide its instance.
+II. The Singleton class can be a subclass of another class.
+III. The Singleton class has a private constructor.
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 23 | Wrong: 0 | 110.2ms
+
+[24/65] Question: A compiler generates code for the following assignment statement.
+G := (A + B) * C - (D + E) * F
+The target machine has a single accumulator and a single-address instruction set consisting of instructions load, store, add, subtract, and multiply. For the arithmetic operations, the left operand is taken from the accumulator and the result appears in the accumulator. The smallest possible number of instructions in the resulting code is
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 24 | Wrong: 0 | 120.5ms
+
+[25/65] Question: Consider a computer design in which multiple processors, each with a private cache memory, share global memory using a single bus. This bus is the critical system resource. Each processor can execute one instruction every 500 nanoseconds as long as memory references are satisfied by its local cache. When a cache miss occurs, the processor is delayed for an additional 2,000 nanoseconds. During half of this additional delay, the bus is dedicated to serving the cache miss. During the other half, the processor cannot continue, but the bus is free to service requests from other processors. On average, each instruction requires 2 memory references. On average, cache misses occur on 1 percent of references. What proportion of the capacity of the bus would a single processor consume, ignoring delays due to competition from other processors?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 25 | Wrong: 0 | 151.1ms
+
+[26/65] Question: Which of the following is considered an acid anhydride?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 26 | Wrong: 0 | 81.1ms
+
+[27/65] Question: Which of the following is expected to be a polar molecule?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 27 | Wrong: 0 | 80.5ms
+
+[28/65] Question: From the solubility rules, which of the following is true?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 28 | Wrong: 0 | 81.3ms
+
+[29/65] Question: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 29 | Wrong: 0 | 111.4ms
+
+[30/65] Question: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 30 | Wrong: 0 | 123.7ms
+
+[31/65] Question: The rate of natural increase of a population is found by subtracting the
+→ predicted=high_school_geography | expected=high_school_geography | ✓ CORRECT | Correct: 31 | Wrong: 0 | 81.4ms
+
+[32/65] Question: During the third stage of the demographic transition model, which of the following is true?
+→ predicted=high_school_geography | expected=high_school_geography | ✓ CORRECT | Correct: 32 | Wrong: 0 | 81.7ms
+
+[33/65] Question: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?
+→ predicted=jurisprudence | expected=high_school_geography | ✗ WRONG | Correct: 32 | Wrong: 1 | 82.1ms
+
+[34/65] Question: The practice of hiring a foreign third-party service provider to run an operation is called
+→ predicted=business_ethics | expected=high_school_geography | ✗ WRONG | Correct: 32 | Wrong: 2 | 81.6ms
+
+[35/65] Question: Which one of the following items is an example of nonmaterial culture?
+→ predicted=high_school_geography | expected=high_school_geography | ✓ CORRECT | Correct: 33 | Wrong: 2 | 80.8ms
+
+[36/65] Question: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 33 | Wrong: 3 | 92.0ms
+
+[37/65] Question: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 33 | Wrong: 4 | 81.4ms
+
+[38/65] Question: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 33 | Wrong: 5 | 100.9ms
+
+[39/65] Question: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 33 | Wrong: 6 | 92.7ms
+
+[40/65] Question: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 33 | Wrong: 7 | 91.4ms
+
+[41/65] Question: This question refers to the following information.
+"Society in every state is a blessing, but government even in its best state is but a necessary evil; in its worst state an intolerable one; for when we suffer, or are exposed to the same miseries by a government, which we might expect in a country without government, our calamity is heightened by reflecting that we furnish the means by which we suffer. Government, like dress, is the badge of lost innocence; the palaces of kings are built on the ruins of the bowers of paradise. For were the impulses of conscience clear, uniform, and irresistibly obeyed, man would need no other lawgiver; but that not being the case, he finds it necessary to surrender up a part of his property to furnish means for the protection of the rest; and this he is induced to do by the same prudence which in every other case advises him out of two evils to choose the least. Wherefore, security being the true design and end of government, it unanswerably follows that whatever form thereof appears most likely to ensure it to us, with the least expense and greatest benefit, is preferable to all others."
+Thomas Paine, Common Sense, 1776
+Which of the following "miseries" alluded to above were most condemned by Anti-Federalists of the post-Revolutionary era?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 33 | Wrong: 8 | 204.2ms
+
+[42/65] Question: This question refers to the following information.
+"As our late Conduct at the Conestoga Manor and Lancaster have occasioned much Speculation & a great diversity of Sentiments in this and neighboring Governments; some vindicating & others condemning it; some charitably alleviating the Crime, & others maliciously painting it in the most odious & detestable Colours, we think it our duty to lay before the Publick, the whole Matter as it appeared, & still appears, to us. . . .
+"If these things are not sufficient to prove an unjustifiable Attachment in the Quakers to the Indians Savages, a fixed Resolution to befriend them & an utter insensibility to human Distresses, let us consider a few more recent Facts. When we found the last Summer that we were likely to get no Assistance from the Government, some Volunteers went out at our own Expense, determined to drive our Enemies from our Borders; & when we came near to the great Island, we understood that a Number of their Warriors had gone out against our Frontiers. Upon this we returned and came up with them and fought with them at the Munfey Hill where we lost some of our Men & killed some of their Warriors & thereby saved our Frontiers from this Story in another Expedition. But no sooner had we destroyed their Provisions on the great Island, & ruined their trade with the good People at Bethlehem, but these very Indians, who were justly suspected of having murdered our Friends in Northampton County, were by the Influence of some Quakers taken under the Protection of the Government to screen them from the Resentments of the Friends and Relations of the Murdered, & to support them thro the Winter."
+—"Apology of the Paxton Boys" (pamphlet), 1764 (Note: "apology" in this context should be read as an explanation, not an admission of guilt or regret.)
+The sentiments expressed in the explanation above reflect which of the ongoing tensions during the colonial period of American history?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 33 | Wrong: 9 | 276.6ms
+
+[43/65] Question: This question refers to the following information.
+"In the new Code of Laws which I suppose it will be necessary for you to make I desire you would Remember the Ladies, and be more generous and favorable to them than your ancestors. Do not put such unlimited power into the hands of the Husbands. Remember all Men would be tyrants if they could. If particular care and attention is not paid to the Ladies we are determined to foment a Rebellion, and will not hold ourselves bound by any Laws in which we have no voice, or Representation."
+Abigail Adams, in a letter to John Adams, 1776
+"Special legislation for woman has placed us in a most anomalous position. Women invested with the rights of citizens in one section—voters, jurors, office-holders—crossing an imaginary line, are subjects in the next. In some States, a married woman may hold property and transact business in her own name; in others, her earnings belong to her husband. In some States, a woman may testify against her husband, sue and be sued in the courts; in others, she has no redress in case of damage to person, property, or character. In case of divorce on account of adultery in the husband, the innocent wife is held to possess no right to children or property, unless by special decree of the court. But in no State of the Union has the wife the right to her own person, or to any part of the joint earnings of the co-partnership during the life of her husband. In some States women may enter the law schools and practice in the courts; in others they are forbidden. In some universities girls enjoy equal educational advantages with boys, while many of the proudest institutions in the land deny them admittance, though the sons of China, Japan and Africa are welcomed there. But the privileges already granted in the several States are by no means secure."
+Susan B. Anthony, "Declaration of Rights for Women," July 4, 1876
+The sentiments expressed in the second excerpt by Susan B. Anthony are most likely in support of
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 33 | Wrong: 10 | 282.6ms
+
+[44/65] Question: This question refers to the following information.
+Our leaders talk about stopping aggression from the north, but this was a struggle among groups of Vietnamese until we intervened. We seem bent upon saving the Vietnamese from Ho Chi Minh even if we have to kill them and demolish their country to do it. As the native people survey bombed-out villages, women and children burned by napalm, rice crops destroyed and cities overrun with our military personnel, they are doubtless saying secretly of the Vietcong guerillas and of the American forces, "A plague on both your houses." … Stop the bombing, north and south, end search and destroy offensive sweeps, and confine our military action to holding operations on the ground. Bombing the north has failed to halt or seriously check the flow of troops to the south and may, in fact, have prompted a much greater war effort by Hanoi.
+—Senator George McGovern, "The Lessons of Vietnam," April 25, 1967
+Which of the following opinions from the 1960s most directly reflects the perspective of George McGovern's speech?
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 33 | Wrong: 11 | 184.4ms
+
+[45/65] Question: This question refers to the following information.
+I come not to urge personal claims, nor to seek individual benefits; I appear as the advocate of those who cannot plead their own cause; I come as the friend of those who are deserted, oppressed, and desolate. In the Providence of God, I am the voice of the maniac whose piercing cries from the dreary dungeons of your jails penetrate not your Halls of Legislation. I am the Hope of the poor crazed beings who pine in the cells, and stalls, and cages, and waste rooms of your poor-houses. I am the Revelation of hundreds of wailing, suffering creatures, hidden in your private dwellings, and in pens and cabins—shut out, cut off from all healing influences, from all mind-restoring cares.… Could their melancholy histories be spread before you as revealed to my grieved spirit during the last three months, how promptly, how earnestly would you search out the most approved means of relief; how trifling, how insignificant, by comparison, would appear the sacrifices you are asked to make; how would a few dimes and dollars, gathered from each citizen, diminish in value as a possession, compared with the certain benefits and vast good to be secured for the suffering insane...by the consecration and application of a sufficient fund to the construction of a suitable hospital.…
+—Dorothea Dix, Memorial Soliciting a State Hospital for the Protection and Cure of the Insane,
+Submitted to the General Assembly of North Carolina, November 1848
+Dorothea Dix can best be compared to whom?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 33 | Wrong: 12 | 231.1ms
+
+[46/65] Question: Which position does Rawls claim is the least likely to be adopted by the POP (people in the original position)?
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 34 | Wrong: 12 | 91.8ms
+
+[47/65] Question: Functions of the law include all but which of the following?
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 35 | Wrong: 12 | 80.3ms
+
+[48/65] Question: Which word best summarizes Weber's explanation of the development of formally rational law?
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 36 | Wrong: 12 | 81.4ms
+
+[49/65] Question: The ________ School of jurisprudence postulates that the law is based on what is "correct."
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 37 | Wrong: 12 | 90.7ms
+
+[50/65] Question: Iverson Jewelers wrote a letter to Miller, 'We have received an exceptionally fine self winding Rolox watch which we will sell to you at a very favorable price.'
+→ predicted=business_ethics | expected=jurisprudence | ✗ WRONG | Correct: 37 | Wrong: 13 | 93.1ms
+
+[51/65] Question:  _____________ is a natural outcome when combining demographic and geographic variables.
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 37 | Wrong: 14 | 81.2ms
+
+[52/65] Question: In an organization, the group of people tasked with buying decisions is referred to as the _______________.
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 37 | Wrong: 15 | 90.7ms
+
+[53/65] Question:  Which of the following is an assumption in Maslow's hierarchy of needs?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 16 | 81.3ms
+
+[54/65] Question: The single group within society that is most vulnerable to reference group influence is:
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 37 | Wrong: 17 | 81.3ms
+
+[55/65] Question: Although the content and quality can be as controlled as direct mail, response rates of this medium are lower because of the lack of a personal address mechanism. This media format is known as:
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 37 | Wrong: 18 | 97.3ms
+
+[56/65] Question: The great Mayan king Pacal built temples in the city of Palenque in order to:
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 19 | 82.2ms
+
+[57/65] Question: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 20 | 91.2ms
+
+[58/65] Question: Researchers now believe that the decline of the Maya was caused chiefly by:
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 21 | 81.6ms
+
+[59/65] Question: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 22 | 92.3ms
+
+[60/65] Question: What is the approximate mean cranial capacity of Homo erectus?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 23 | 81.9ms
+
+[61/65] Question: Which of the following did the post-war welfare state of 1948 not aim to provide:
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 37 | Wrong: 24 | 91.0ms
+
+[62/65] Question: What does Berger (1963) describe as a metaphor for social reality?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 37 | Wrong: 25 | 82.2ms
+
+[63/65] Question: The shift from 'civil religion' to 'common religion' means that:
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 37 | Wrong: 26 | 82.0ms
+
+[64/65] Question: The term 'hegemony' refers to:
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 37 | Wrong: 27 | 80.8ms
+
+[65/65] Question: Which of the following is not a problem associated with official statistics on strike action?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 37 | Wrong: 28 | 81.9ms
+
+=== ROUTING RESULTS ===
+Correct: 37
+Wrong:   28
+Errors:  0
+Total:   65
+saved: /home/maniles/manile/manile/results/dev_service_8/cross-encoder_Qwen-Qwen3-Reranker-4B.json
+saved: /home/maniles/manile/manile/results/dev_service_8/cross-encoder_Qwen-Qwen3-Reranker-4B.csv
+saved: /home/maniles/manile/manile/results/dev_service_8/cross-encoder_Qwen-Qwen3-Reranker-4B_efficiency.json
+
+=== ENERGY / CARBON ===
+Total CO2 (kg): 0.0003820284488715975
+Total energy (kWh): 0.0006962529959824409
+DONE
+============================================================
+
+
+BENCHMARK FINISHED
+
+[run_benchmark] CrossEncoderRouter finished in 17.2s (0.3 min)
+
+**********************************************************************
+* CONDITION k=10
+*   service_desc_path: /home/maniles/manile/manile/data/dataset/service_descriptions_10.json
+*   dataset_path:      /home/maniles/manile/manile/data/dataset/dev_service_10.csv
+**********************************************************************
+
+######################################################################
+# RUN 4/4: CrossEncoderRouter (Qwen/Qwen3-Reranker-4B) on /home/maniles/manile/manile/data/dataset/dev_service_10.csv
+######################################################################
+
+[CrossEncoderRouter] Loading cross-encoder model 'Qwen/Qwen3-Reranker-4B'...
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4409.47it/s]
+[CrossEncoderRouter] Model loaded in 7.18s — running on device: cuda:0
+[CrossEncoderRouter] Loaded 10 services.
+[CrossEncoderRouter] Ready to route.
+
+============================================================
+Starting benchmark: CrossEncoderRouter on /home/maniles/manile/manile/data/dataset/dev_service_10.csv
+Total rows to process: 75
+============================================================
+
+
+[1/75] Question: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 1 | Wrong: 0 | 109.6ms
+
+[2/75] Question: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 2 | Wrong: 0 | 121.0ms
+
+[3/75] Question: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 3 | Wrong: 0 | 112.0ms
+
+[4/75] Question: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 4 | Wrong: 0 | 112.5ms
+
+[5/75] Question: Find the characteristic of the ring 2Z.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 5 | Wrong: 0 | 102.0ms
+
+[6/75] Question: What is the embryological origin of the hyoid bone?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 6 | Wrong: 0 | 102.0ms
+
+[7/75] Question: Which of these branches of the trigeminal nerve contain somatic motor processes?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 7 | Wrong: 0 | 104.5ms
+
+[8/75] Question: The pleura
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 8 | Wrong: 0 | 99.8ms
+
+[9/75] Question: In Angle's Class II Div 2 occlusion there is
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 9 | Wrong: 0 | 101.7ms
+
+[10/75] Question: Which of the following is the body cavity that contains the pituitary gland?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 10 | Wrong: 0 | 103.3ms
+
+[11/75] Question: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 11 | Wrong: 0 | 110.8ms
+
+[12/75] Question: Where do most short-period comets come from and how do we know?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 12 | Wrong: 0 | 102.6ms
+
+[13/75] Question: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 13 | Wrong: 0 | 119.2ms
+
+[14/75] Question: Why isn't there a planet where the asteroid belt is located?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 14 | Wrong: 0 | 102.1ms
+
+[15/75] Question: Why is Mars red?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 15 | Wrong: 0 | 100.2ms
+
+[16/75] Question: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 16 | Wrong: 0 | 112.7ms
+
+[17/75] Question: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 17 | Wrong: 0 | 108.0ms
+
+[18/75] Question: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 18 | Wrong: 0 | 123.8ms
+
+[19/75] Question: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 19 | Wrong: 0 | 120.8ms
+
+[20/75] Question: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 20 | Wrong: 0 | 119.4ms
+
+[21/75] Question: Which of the following regular expressions is equivalent to (describes the same set of strings as) (a* + b)*(c + d)?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 21 | Wrong: 0 | 110.9ms
+
+[22/75] Question: A certain pipelined RISC machine has 8 general-purpose registers R0, R1, . . . , R7 and supports the following operations.
+ADD Rs1, Rs2, Rd Add Rs1 to Rs2 and put the sum in Rd
+MUL Rs1, Rs2, Rd Multiply Rs1 by Rs2 and put the product in Rd
+An operation normally takes one cycle; however, an operation takes two cycles if it produces a result required by the immediately following operation in an operation sequence. Consider the expression AB + ABC + BC, where variables A, B, C are located in registers R0, R1, R2. If the contents of these three registers must not be modified, what is the minimum number of clock cycles required for an operation sequence that computes the value of AB + ABC + BC?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 22 | Wrong: 0 | 187.8ms
+
+[23/75] Question: The Singleton design pattern is used to guarantee that only a single instance of a class may be instantiated. Which of the following is (are) true of this design pattern?
+I. The Singleton class has a static factory method to provide its instance.
+II. The Singleton class can be a subclass of another class.
+III. The Singleton class has a private constructor.
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 23 | Wrong: 0 | 132.3ms
+
+[24/75] Question: A compiler generates code for the following assignment statement.
+G := (A + B) * C - (D + E) * F
+The target machine has a single accumulator and a single-address instruction set consisting of instructions load, store, add, subtract, and multiply. For the arithmetic operations, the left operand is taken from the accumulator and the result appears in the accumulator. The smallest possible number of instructions in the resulting code is
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 24 | Wrong: 0 | 140.9ms
+
+[25/75] Question: Consider a computer design in which multiple processors, each with a private cache memory, share global memory using a single bus. This bus is the critical system resource. Each processor can execute one instruction every 500 nanoseconds as long as memory references are satisfied by its local cache. When a cache miss occurs, the processor is delayed for an additional 2,000 nanoseconds. During half of this additional delay, the bus is dedicated to serving the cache miss. During the other half, the processor cannot continue, but the bus is free to service requests from other processors. On average, each instruction requires 2 memory references. On average, cache misses occur on 1 percent of references. What proportion of the capacity of the bus would a single processor consume, ignoring delays due to competition from other processors?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 25 | Wrong: 0 | 187.2ms
+
+[26/75] Question:  Select the best translation into predicate logic: No people drive on Mars.
+→ predicted=formal_logic | expected=formal_logic | ✓ CORRECT | Correct: 26 | Wrong: 0 | 103.6ms
+
+[27/75] Question: Select the best translation into predicate logic.George borrows Hector's lawnmower. (g: George; h: Hector; l: Hector's lawnmower; Bxyx: x borrows y from z)
+→ predicted=formal_logic | expected=formal_logic | ✓ CORRECT | Correct: 27 | Wrong: 0 | 120.9ms
+
+[28/75] Question:  Select the best English interpretation of the given arguments in predicate logic.
+Dm
+(∀x)(Wx ⊃ ~Dx)
+(∀x)Wx ∨ Ag	/ (∃x)Ax
+→ predicted=formal_logic | expected=formal_logic | ✓ CORRECT | Correct: 28 | Wrong: 0 | 121.0ms
+
+[29/75] Question:  Construct a complete truth table for the following pairs of propositions. Then, using the truth tables, determine whether the statements are logically equivalent or contradictory. If neither, determine whether they are consistent or inconsistent. Justify your answers.
+E ⊃ (F · E) and ~E · F
+→ predicted=formal_logic | expected=formal_logic | ✓ CORRECT | Correct: 29 | Wrong: 0 | 125.6ms
+
+[30/75] Question:  Which of the given formulas of PL is the best symbolization of the following sentence?
+Turtles live long lives and are happy creatures, unless they are injured.
+→ predicted=formal_logic | expected=formal_logic | ✓ CORRECT | Correct: 30 | Wrong: 0 | 112.0ms
+
+[31/75] Question: Which of the following is considered an acid anhydride?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 31 | Wrong: 0 | 102.3ms
+
+[32/75] Question: Which of the following is expected to be a polar molecule?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 32 | Wrong: 0 | 102.1ms
+
+[33/75] Question: From the solubility rules, which of the following is true?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 33 | Wrong: 0 | 102.8ms
+
+[34/75] Question: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 34 | Wrong: 0 | 132.7ms
+
+[35/75] Question: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 35 | Wrong: 0 | 152.1ms
+
+[36/75] Question: The rate of natural increase of a population is found by subtracting the
+→ predicted=high_school_geography | expected=high_school_geography | ✓ CORRECT | Correct: 36 | Wrong: 0 | 103.3ms
+
+[37/75] Question: During the third stage of the demographic transition model, which of the following is true?
+→ predicted=high_school_geography | expected=high_school_geography | ✓ CORRECT | Correct: 37 | Wrong: 0 | 103.5ms
+
+[38/75] Question: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?
+→ predicted=jurisprudence | expected=high_school_geography | ✗ WRONG | Correct: 37 | Wrong: 1 | 104.9ms
+
+[39/75] Question: The practice of hiring a foreign third-party service provider to run an operation is called
+→ predicted=business_ethics | expected=high_school_geography | ✗ WRONG | Correct: 37 | Wrong: 2 | 103.6ms
+
+[40/75] Question: Which one of the following items is an example of nonmaterial culture?
+→ predicted=world_religions | expected=high_school_geography | ✗ WRONG | Correct: 37 | Wrong: 3 | 102.7ms
+
+[41/75] Question: Ani believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with
+→ predicted=world_religions | expected=general | ✗ WRONG | Correct: 37 | Wrong: 4 | 110.8ms
+
+[42/75] Question: According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 37 | Wrong: 5 | 105.0ms
+
+[43/75] Question: While swimming in the ocean, Ivan is frightened by a dark shadow in the water even before he has the chance to identify what the shadow is. The synaptic connections taking place during this incident of fright are best described by which of the following?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 6 | 121.4ms
+
+[44/75] Question: According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 37 | Wrong: 7 | 111.9ms
+
+[45/75] Question: Pascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 8 | 109.2ms
+
+[46/75] Question: This question refers to the following information.
+"Society in every state is a blessing, but government even in its best state is but a necessary evil; in its worst state an intolerable one; for when we suffer, or are exposed to the same miseries by a government, which we might expect in a country without government, our calamity is heightened by reflecting that we furnish the means by which we suffer. Government, like dress, is the badge of lost innocence; the palaces of kings are built on the ruins of the bowers of paradise. For were the impulses of conscience clear, uniform, and irresistibly obeyed, man would need no other lawgiver; but that not being the case, he finds it necessary to surrender up a part of his property to furnish means for the protection of the rest; and this he is induced to do by the same prudence which in every other case advises him out of two evils to choose the least. Wherefore, security being the true design and end of government, it unanswerably follows that whatever form thereof appears most likely to ensure it to us, with the least expense and greatest benefit, is preferable to all others."
+Thomas Paine, Common Sense, 1776
+Which of the following "miseries" alluded to above were most condemned by Anti-Federalists of the post-Revolutionary era?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 37 | Wrong: 9 | 265.7ms
+
+[47/75] Question: This question refers to the following information.
+"As our late Conduct at the Conestoga Manor and Lancaster have occasioned much Speculation & a great diversity of Sentiments in this and neighboring Governments; some vindicating & others condemning it; some charitably alleviating the Crime, & others maliciously painting it in the most odious & detestable Colours, we think it our duty to lay before the Publick, the whole Matter as it appeared, & still appears, to us. . . .
+"If these things are not sufficient to prove an unjustifiable Attachment in the Quakers to the Indians Savages, a fixed Resolution to befriend them & an utter insensibility to human Distresses, let us consider a few more recent Facts. When we found the last Summer that we were likely to get no Assistance from the Government, some Volunteers went out at our own Expense, determined to drive our Enemies from our Borders; & when we came near to the great Island, we understood that a Number of their Warriors had gone out against our Frontiers. Upon this we returned and came up with them and fought with them at the Munfey Hill where we lost some of our Men & killed some of their Warriors & thereby saved our Frontiers from this Story in another Expedition. But no sooner had we destroyed their Provisions on the great Island, & ruined their trade with the good People at Bethlehem, but these very Indians, who were justly suspected of having murdered our Friends in Northampton County, were by the Influence of some Quakers taken under the Protection of the Government to screen them from the Resentments of the Friends and Relations of the Murdered, & to support them thro the Winter."
+—"Apology of the Paxton Boys" (pamphlet), 1764 (Note: "apology" in this context should be read as an explanation, not an admission of guilt or regret.)
+The sentiments expressed in the explanation above reflect which of the ongoing tensions during the colonial period of American history?
+→ predicted=world_religions | expected=general | ✗ WRONG | Correct: 37 | Wrong: 10 | 341.2ms
+
+[48/75] Question: This question refers to the following information.
+"In the new Code of Laws which I suppose it will be necessary for you to make I desire you would Remember the Ladies, and be more generous and favorable to them than your ancestors. Do not put such unlimited power into the hands of the Husbands. Remember all Men would be tyrants if they could. If particular care and attention is not paid to the Ladies we are determined to foment a Rebellion, and will not hold ourselves bound by any Laws in which we have no voice, or Representation."
+Abigail Adams, in a letter to John Adams, 1776
+"Special legislation for woman has placed us in a most anomalous position. Women invested with the rights of citizens in one section—voters, jurors, office-holders—crossing an imaginary line, are subjects in the next. In some States, a married woman may hold property and transact business in her own name; in others, her earnings belong to her husband. In some States, a woman may testify against her husband, sue and be sued in the courts; in others, she has no redress in case of damage to person, property, or character. In case of divorce on account of adultery in the husband, the innocent wife is held to possess no right to children or property, unless by special decree of the court. But in no State of the Union has the wife the right to her own person, or to any part of the joint earnings of the co-partnership during the life of her husband. In some States women may enter the law schools and practice in the courts; in others they are forbidden. In some universities girls enjoy equal educational advantages with boys, while many of the proudest institutions in the land deny them admittance, though the sons of China, Japan and Africa are welcomed there. But the privileges already granted in the several States are by no means secure."
+Susan B. Anthony, "Declaration of Rights for Women," July 4, 1876
+The sentiments expressed in the second excerpt by Susan B. Anthony are most likely in support of
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 37 | Wrong: 11 | 351.4ms
+
+[49/75] Question: This question refers to the following information.
+Our leaders talk about stopping aggression from the north, but this was a struggle among groups of Vietnamese until we intervened. We seem bent upon saving the Vietnamese from Ho Chi Minh even if we have to kill them and demolish their country to do it. As the native people survey bombed-out villages, women and children burned by napalm, rice crops destroyed and cities overrun with our military personnel, they are doubtless saying secretly of the Vietcong guerillas and of the American forces, "A plague on both your houses." … Stop the bombing, north and south, end search and destroy offensive sweeps, and confine our military action to holding operations on the ground. Bombing the north has failed to halt or seriously check the flow of troops to the south and may, in fact, have prompted a much greater war effort by Hanoi.
+—Senator George McGovern, "The Lessons of Vietnam," April 25, 1967
+Which of the following opinions from the 1960s most directly reflects the perspective of George McGovern's speech?
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 12 | 226.7ms
+
+[50/75] Question: This question refers to the following information.
+I come not to urge personal claims, nor to seek individual benefits; I appear as the advocate of those who cannot plead their own cause; I come as the friend of those who are deserted, oppressed, and desolate. In the Providence of God, I am the voice of the maniac whose piercing cries from the dreary dungeons of your jails penetrate not your Halls of Legislation. I am the Hope of the poor crazed beings who pine in the cells, and stalls, and cages, and waste rooms of your poor-houses. I am the Revelation of hundreds of wailing, suffering creatures, hidden in your private dwellings, and in pens and cabins—shut out, cut off from all healing influences, from all mind-restoring cares.… Could their melancholy histories be spread before you as revealed to my grieved spirit during the last three months, how promptly, how earnestly would you search out the most approved means of relief; how trifling, how insignificant, by comparison, would appear the sacrifices you are asked to make; how would a few dimes and dollars, gathered from each citizen, diminish in value as a possession, compared with the certain benefits and vast good to be secured for the suffering insane...by the consecration and application of a sufficient fund to the construction of a suitable hospital.…
+—Dorothea Dix, Memorial Soliciting a State Hospital for the Protection and Cure of the Insane,
+Submitted to the General Assembly of North Carolina, November 1848
+Dorothea Dix can best be compared to whom?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 37 | Wrong: 13 | 289.0ms
+
+[51/75] Question: Which position does Rawls claim is the least likely to be adopted by the POP (people in the original position)?
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 38 | Wrong: 13 | 105.3ms
+
+[52/75] Question: Functions of the law include all but which of the following?
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 39 | Wrong: 13 | 103.5ms
+
+[53/75] Question: Which word best summarizes Weber's explanation of the development of formally rational law?
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 40 | Wrong: 13 | 103.2ms
+
+[54/75] Question: The ________ School of jurisprudence postulates that the law is based on what is "correct."
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 41 | Wrong: 13 | 104.9ms
+
+[55/75] Question: Iverson Jewelers wrote a letter to Miller, 'We have received an exceptionally fine self winding Rolox watch which we will sell to you at a very favorable price.'
+→ predicted=business_ethics | expected=jurisprudence | ✗ WRONG | Correct: 41 | Wrong: 14 | 112.9ms
+
+[56/75] Question:  _____________ is a natural outcome when combining demographic and geographic variables.
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 41 | Wrong: 15 | 103.4ms
+
+[57/75] Question: In an organization, the group of people tasked with buying decisions is referred to as the _______________.
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 41 | Wrong: 16 | 104.7ms
+
+[58/75] Question:  Which of the following is an assumption in Maslow's hierarchy of needs?
+→ predicted=world_religions | expected=general | ✗ WRONG | Correct: 41 | Wrong: 17 | 104.7ms
+
+[59/75] Question: The single group within society that is most vulnerable to reference group influence is:
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 41 | Wrong: 18 | 103.6ms
+
+[60/75] Question: Although the content and quality can be as controlled as direct mail, response rates of this medium are lower because of the lack of a personal address mechanism. This media format is known as:
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 41 | Wrong: 19 | 114.9ms
+
+[61/75] Question: The great Mayan king Pacal built temples in the city of Palenque in order to:
+→ predicted=world_religions | expected=general | ✗ WRONG | Correct: 41 | Wrong: 20 | 104.8ms
+
+[62/75] Question: According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:
+→ predicted=world_religions | expected=general | ✗ WRONG | Correct: 41 | Wrong: 21 | 105.4ms
+
+[63/75] Question: Researchers now believe that the decline of the Maya was caused chiefly by:
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 41 | Wrong: 22 | 103.2ms
+
+[64/75] Question: Recent research on hominid species dating from the Middle Pliocene indicates there was (as of 2020):
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 41 | Wrong: 23 | 109.9ms
+
+[65/75] Question: What is the approximate mean cranial capacity of Homo erectus?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 41 | Wrong: 24 | 103.1ms
+
+[66/75] Question: Which of the following did the post-war welfare state of 1948 not aim to provide:
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 41 | Wrong: 25 | 104.5ms
+
+[67/75] Question: What does Berger (1963) describe as a metaphor for social reality?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 41 | Wrong: 26 | 104.3ms
+
+[68/75] Question: The shift from 'civil religion' to 'common religion' means that:
+→ predicted=world_religions | expected=general | ✗ WRONG | Correct: 41 | Wrong: 27 | 103.5ms
+
+[69/75] Question: The term 'hegemony' refers to:
+→ predicted=world_religions | expected=general | ✗ WRONG | Correct: 41 | Wrong: 28 | 101.8ms
+
+[70/75] Question: Which of the following is not a problem associated with official statistics on strike action?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 41 | Wrong: 29 | 103.7ms
+
+[71/75] Question:  What is the sign of the covenant for Jewish males?
+→ predicted=world_religions | expected=world_religions | ✓ CORRECT | Correct: 42 | Wrong: 29 | 103.0ms
+
+[72/75] Question: What is the Second Gem in Buddhism?
+→ predicted=world_religions | expected=world_religions | ✓ CORRECT | Correct: 43 | Wrong: 29 | 101.9ms
+
+[73/75] Question:  In which dynasty was the "Mandate of Heaven" developed to legitimatize the new rulers?
+→ predicted=world_religions | expected=world_religions | ✓ CORRECT | Correct: 44 | Wrong: 29 | 104.9ms
+
+[74/75] Question:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?
+→ predicted=world_religions | expected=world_religions | ✓ CORRECT | Correct: 45 | Wrong: 29 | 104.5ms
+
+[75/75] Question: How can the Upanishads be characterized?
+→ predicted=world_religions | expected=world_religions | ✓ CORRECT | Correct: 46 | Wrong: 29 | 103.0ms
+
+=== ROUTING RESULTS ===
+Correct: 46
+Wrong:   29
+Errors:  0
+Total:   75
+saved: /home/maniles/manile/manile/results/dev_service_10/cross-encoder_Qwen-Qwen3-Reranker-4B.json
+saved: /home/maniles/manile/manile/results/dev_service_10/cross-encoder_Qwen-Qwen3-Reranker-4B.csv
+saved: /home/maniles/manile/manile/results/dev_service_10/cross-encoder_Qwen-Qwen3-Reranker-4B_efficiency.json
+
+=== ENERGY / CARBON ===
+Total CO2 (kg): 0.0005451976387907198
+Total energy (kWh): 0.000993631470461971
+DONE
+============================================================
+
+
+BENCHMARK FINISHED
+
+[run_benchmark] CrossEncoderRouter finished in 20.0s (0.3 min)
+
+======================================================================
+BENCHMARK COMPLETE — 4/4 runs succeeded
+======================================================================
+

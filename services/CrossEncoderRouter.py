@@ -1,10 +1,12 @@
 import os
 import sys
+
 sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 import torch
 import time
 from sentence_transformers import CrossEncoder
 
+from services.confidence_checker.metrics import ConfidenceMetrics
 from services.RouterBase import RouterBase
 
 
@@ -56,6 +58,9 @@ class CrossEncoderRouter(RouterBase):
         scores = [float(s) for s in scores] 
         scores_dict = dict(zip(names, scores))
 
+        confidence = ConfidenceMetrics(scores_dict)
+        confidence_result = confidence.calculate()
+
 
         prompt_tokens = 0
 
@@ -88,7 +93,8 @@ class CrossEncoderRouter(RouterBase):
             "prompt_tokens": prompt_tokens,
             "completion_tokens": 0,
             "total_tokens": prompt_tokens,
-            "scores": scores_dict
+            "scores": scores_dict,
+            "confidence": confidence_result
         }
 
 

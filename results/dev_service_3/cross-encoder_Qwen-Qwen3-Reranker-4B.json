@@ -5,14 +5,20 @@
     "raw_response":null,
     "predicted_label":"abstract_algebra",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":402.7723530016,
-    "prompt_tokens":264,
+    "latency_ms":409.7947510018,
+    "prompt_tokens":266,
     "completion_tokens":0,
-    "total_tokens":264,
+    "total_tokens":266,
     "scores":{
-      "abstract_algebra":-5.9375,
+      "abstract_algebra":-4.375,
       "anatomy":-12.875,
-      "astronomy":-13.375
+      "astronomy":-12.6875
+    },
+    "confidence":{
+      "k":3,
+      "max":-4.375,
+      "margin":8.3125,
+      "std":3.9635
     },
     "query_id":0,
     "expected_service":"abstract_algebra",
@@ -27,14 +33,20 @@
     "raw_response":null,
     "predicted_label":"abstract_algebra",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":46.6536610002,
-    "prompt_tokens":324,
+    "latency_ms":46.8058469996,
+    "prompt_tokens":326,
     "completion_tokens":0,
-    "total_tokens":324,
+    "total_tokens":326,
     "scores":{
-      "abstract_algebra":3.5625,
-      "anatomy":-11.125,
-      "astronomy":-13.0
+      "abstract_algebra":7.25,
+      "anatomy":-11.5625,
+      "astronomy":-12.1875
+    },
+    "confidence":{
+      "k":3,
+      "max":7.25,
+      "margin":18.8125,
+      "std":9.0192
     },
     "query_id":1,
     "expected_service":"abstract_algebra",
@@ -49,14 +61,20 @@
     "raw_response":null,
     "predicted_label":"abstract_algebra",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":45.5109169998,
-    "prompt_tokens":291,
+    "latency_ms":45.8446789999,
+    "prompt_tokens":293,
     "completion_tokens":0,
-    "total_tokens":291,
+    "total_tokens":293,
     "scores":{
-      "abstract_algebra":3.25,
-      "anatomy":-11.75,
-      "astronomy":-12.375
+      "abstract_algebra":5.9375,
+      "anatomy":-11.125,
+      "astronomy":-11.5
+    },
+    "confidence":{
+      "k":3,
+      "max":5.9375,
+      "margin":17.0625,
+      "std":8.1332
     },
     "query_id":2,
     "expected_service":"abstract_algebra",
@@ -71,14 +89,20 @@
     "raw_response":null,
     "predicted_label":"abstract_algebra",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":46.1659100001,
-    "prompt_tokens":288,
+    "latency_ms":45.7732429932,
+    "prompt_tokens":290,
     "completion_tokens":0,
-    "total_tokens":288,
+    "total_tokens":290,
     "scores":{
-      "abstract_algebra":0.75,
-      "anatomy":-10.25,
-      "astronomy":-12.4375
+      "abstract_algebra":3.6875,
+      "anatomy":-9.5625,
+      "astronomy":-11.25
+    },
+    "confidence":{
+      "k":3,
+      "max":3.6875,
+      "margin":13.25,
+      "std":6.6795
     },
     "query_id":3,
     "expected_service":"abstract_algebra",
@@ -93,14 +117,20 @@
     "raw_response":null,
     "predicted_label":"abstract_algebra",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.8074259984,
-    "prompt_tokens":219,
+    "latency_ms":44.8893479916,
+    "prompt_tokens":221,
     "completion_tokens":0,
-    "total_tokens":219,
+    "total_tokens":221,
     "scores":{
-      "abstract_algebra":-6.5625,
-      "anatomy":-13.0,
-      "astronomy":-13.6875
+      "abstract_algebra":-4.75,
+      "anatomy":-12.6875,
+      "astronomy":-13.3125
+    },
+    "confidence":{
+      "k":3,
+      "max":-4.75,
+      "margin":7.9375,
+      "std":3.8974
     },
     "query_id":4,
     "expected_service":"abstract_algebra",
@@ -115,14 +145,20 @@
     "raw_response":null,
     "predicted_label":"anatomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.7629989976,
-    "prompt_tokens":225,
+    "latency_ms":44.3107070023,
+    "prompt_tokens":227,
     "completion_tokens":0,
-    "total_tokens":225,
+    "total_tokens":227,
     "scores":{
-      "abstract_algebra":-13.25,
-      "anatomy":-5.5625,
-      "astronomy":-12.5625
+      "abstract_algebra":-13.0,
+      "anatomy":-5.5,
+      "astronomy":-11.3125
+    },
+    "confidence":{
+      "k":3,
+      "max":-5.5,
+      "margin":5.8125,
+      "std":3.2125
     },
     "query_id":5,
     "expected_service":"anatomy",
@@ -137,14 +173,20 @@
     "raw_response":null,
     "predicted_label":"anatomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.6056610017,
-    "prompt_tokens":237,
+    "latency_ms":44.5910829876,
+    "prompt_tokens":239,
     "completion_tokens":0,
-    "total_tokens":237,
+    "total_tokens":239,
     "scores":{
-      "abstract_algebra":-13.8125,
-      "anatomy":-7.0,
-      "astronomy":-14.0625
+      "abstract_algebra":-13.875,
+      "anatomy":-6.1875,
+      "astronomy":-13.5
+    },
+    "confidence":{
+      "k":3,
+      "max":-6.1875,
+      "margin":7.3125,
+      "std":3.5388
     },
     "query_id":6,
     "expected_service":"anatomy",
@@ -159,14 +201,20 @@
     "raw_response":null,
     "predicted_label":"anatomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.0686929978,
-    "prompt_tokens":198,
+    "latency_ms":43.4384239925,
+    "prompt_tokens":200,
     "completion_tokens":0,
-    "total_tokens":198,
+    "total_tokens":200,
     "scores":{
-      "abstract_algebra":-12.125,
-      "anatomy":-6.8125,
-      "astronomy":-12.0625
+      "abstract_algebra":-11.3125,
+      "anatomy":-6.15625,
+      "astronomy":-11.375
+    },
+    "confidence":{
+      "k":3,
+      "max":-6.1562,
+      "margin":5.1562,
+      "std":2.4455
     },
     "query_id":7,
     "expected_service":"anatomy",
@@ -181,14 +229,20 @@
     "raw_response":null,
     "predicted_label":"anatomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.1312469993,
-    "prompt_tokens":225,
+    "latency_ms":44.1871689982,
+    "prompt_tokens":227,
     "completion_tokens":0,
-    "total_tokens":225,
+    "total_tokens":227,
     "scores":{
-      "abstract_algebra":-12.75,
-      "anatomy":-8.9375,
-      "astronomy":-13.0625
+      "abstract_algebra":-11.625,
+      "anatomy":-8.125,
+      "astronomy":-12.125
+    },
+    "confidence":{
+      "k":3,
+      "max":-8.125,
+      "margin":3.5,
+      "std":1.7795
     },
     "query_id":8,
     "expected_service":"anatomy",
@@ -203,14 +257,20 @@
     "raw_response":null,
     "predicted_label":"anatomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.2577239992,
-    "prompt_tokens":237,
+    "latency_ms":44.1406959872,
+    "prompt_tokens":239,
     "completion_tokens":0,
-    "total_tokens":237,
+    "total_tokens":239,
     "scores":{
-      "abstract_algebra":-13.625,
-      "anatomy":-6.625,
-      "astronomy":-13.3125
+      "abstract_algebra":-13.5625,
+      "anatomy":-7.09375,
+      "astronomy":-12.5
+    },
+    "confidence":{
+      "k":3,
+      "max":-7.0938,
+      "margin":5.4062,
+      "std":2.8324
     },
     "query_id":9,
     "expected_service":"anatomy",
@@ -225,14 +285,20 @@
     "raw_response":null,
     "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":45.2898870026,
-    "prompt_tokens":279,
+    "latency_ms":44.9703030026,
+    "prompt_tokens":281,
     "completion_tokens":0,
-    "total_tokens":279,
+    "total_tokens":281,
     "scores":{
-      "abstract_algebra":-12.875,
-      "anatomy":-11.375,
-      "astronomy":-7.125
+      "abstract_algebra":-12.375,
+      "anatomy":-11.25,
+      "astronomy":-5.8125
+    },
+    "confidence":{
+      "k":3,
+      "max":-5.8125,
+      "margin":5.4375,
+      "std":2.8655
     },
     "query_id":10,
     "expected_service":"astronomy",
@@ -247,14 +313,20 @@
     "raw_response":null,
     "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.4027749982,
-    "prompt_tokens":234,
+    "latency_ms":44.1850080097,
+    "prompt_tokens":236,
     "completion_tokens":0,
-    "total_tokens":234,
+    "total_tokens":236,
     "scores":{
-      "abstract_algebra":-14.0625,
-      "anatomy":-13.5,
-      "astronomy":-9.25
+      "abstract_algebra":-14.1875,
+      "anatomy":-12.875,
+      "astronomy":-7.53125
+    },
+    "confidence":{
+      "k":3,
+      "max":-7.5312,
+      "margin":5.3438,
+      "std":2.8787
     },
     "query_id":11,
     "expected_service":"astronomy",
@@ -269,14 +341,20 @@
     "raw_response":null,
     "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":45.7622810027,
-    "prompt_tokens":306,
+    "latency_ms":45.5491070024,
+    "prompt_tokens":308,
     "completion_tokens":0,
-    "total_tokens":306,
+    "total_tokens":308,
     "scores":{
-      "abstract_algebra":-13.1875,
-      "anatomy":-12.375,
-      "astronomy":-9.0
+      "abstract_algebra":-12.9375,
+      "anatomy":-12.0625,
+      "astronomy":-8.25
+    },
+    "confidence":{
+      "k":3,
+      "max":-8.25,
+      "margin":3.8125,
+      "std":2.0351
     },
     "query_id":12,
     "expected_service":"astronomy",
@@ -291,14 +369,20 @@
     "raw_response":null,
     "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.2559049989,
-    "prompt_tokens":228,
+    "latency_ms":44.6751630079,
+    "prompt_tokens":230,
     "completion_tokens":0,
-    "total_tokens":228,
+    "total_tokens":230,
     "scores":{
-      "abstract_algebra":-13.125,
-      "anatomy":-12.875,
-      "astronomy":-7.8125
+      "abstract_algebra":-12.5,
+      "anatomy":-12.0,
+      "astronomy":-7.46875
+    },
+    "confidence":{
+      "k":3,
+      "max":-7.4688,
+      "margin":4.5312,
+      "std":2.2631
     },
     "query_id":13,
     "expected_service":"astronomy",
@@ -313,14 +397,20 @@
     "raw_response":null,
     "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":43.8980129984,
-    "prompt_tokens":204,
+    "latency_ms":44.4400159904,
+    "prompt_tokens":206,
     "completion_tokens":0,
-    "total_tokens":204,
+    "total_tokens":206,
     "scores":{
-      "abstract_algebra":-13.625,
-      "anatomy":-12.625,
-      "astronomy":-7.375
+      "abstract_algebra":-13.1875,
+      "anatomy":-12.0625,
+      "astronomy":-7.4375
+    },
+    "confidence":{
+      "k":3,
+      "max":-7.4375,
+      "margin":4.625,
+      "std":2.4882
     },
     "query_id":14,
     "expected_service":"astronomy",
@@ -335,14 +425,20 @@
     "raw_response":null,
     "predicted_label":"anatomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.9938169986,
-    "prompt_tokens":270,
+    "latency_ms":44.7447210026,
+    "prompt_tokens":272,
     "completion_tokens":0,
-    "total_tokens":270,
+    "total_tokens":272,
     "scores":{
-      "abstract_algebra":-12.0625,
-      "anatomy":-10.875,
-      "astronomy":-13.0
+      "abstract_algebra":-12.375,
+      "anatomy":-11.1875,
+      "astronomy":-11.25
+    },
+    "confidence":{
+      "k":3,
+      "max":-11.1875,
+      "margin":0.0625,
+      "std":0.5457
     },
     "query_id":15,
     "expected_service":"general",
@@ -355,16 +451,22 @@
     "routing_method":"cross-encoder",
     "query":"According to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in",
     "raw_response":null,
-    "predicted_label":"abstract_algebra",
+    "predicted_label":"anatomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.6193349999,
-    "prompt_tokens":246,
+    "latency_ms":44.2944509996,
+    "prompt_tokens":248,
     "completion_tokens":0,
-    "total_tokens":246,
+    "total_tokens":248,
     "scores":{
-      "abstract_algebra":-11.25,
-      "anatomy":-11.375,
-      "astronomy":-13.25
+      "abstract_algebra":-11.9375,
+      "anatomy":-11.1875,
+      "astronomy":-12.3125
+    },
+    "confidence":{
+      "k":3,
+      "max":-11.1875,
+      "margin":0.75,
+      "std":0.4677
     },
     "query_id":16,
     "expected_service":"general",
@@ -379,14 +481,20 @@
     "raw_response":null,
     "predicted_label":"anatomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":46.1652009981,
-    "prompt_tokens":333,
+    "latency_ms":45.9917700064,
+    "prompt_tokens":335,
     "completion_tokens":0,
-    "total_tokens":333,
+    "total_tokens":335,
     "scores":{
-      "abstract_algebra":-12.25,
-      "anatomy":-8.75,
-      "astronomy":-12.875
+      "abstract_algebra":-12.3125,
+      "anatomy":-9.0,
+      "astronomy":-11.125
+    },
+    "confidence":{
+      "k":3,
+      "max":-9.0,
+      "margin":2.125,
+      "std":1.3703
     },
     "query_id":17,
     "expected_service":"general",
@@ -399,16 +507,22 @@
     "routing_method":"cross-encoder",
     "query":"According to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?",
     "raw_response":null,
-    "predicted_label":"anatomy",
+    "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":46.0310969975,
-    "prompt_tokens":285,
+    "latency_ms":45.9117470018,
+    "prompt_tokens":287,
     "completion_tokens":0,
-    "total_tokens":285,
+    "total_tokens":287,
     "scores":{
-      "abstract_algebra":-13.5625,
-      "anatomy":-12.8125,
-      "astronomy":-14.625
+      "abstract_algebra":-13.75,
+      "anatomy":-13.125,
+      "astronomy":-12.8125
+    },
+    "confidence":{
+      "k":3,
+      "max":-12.8125,
+      "margin":0.3125,
+      "std":0.3898
     },
     "query_id":18,
     "expected_service":"general",
@@ -423,14 +537,20 @@
     "raw_response":null,
     "predicted_label":"anatomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":45.7130520008,
-    "prompt_tokens":270,
+    "latency_ms":45.3260270006,
+    "prompt_tokens":272,
     "completion_tokens":0,
-    "total_tokens":270,
+    "total_tokens":272,
     "scores":{
       "abstract_algebra":-12.0,
-      "anatomy":-11.375,
-      "astronomy":-12.5
+      "anatomy":-10.5,
+      "astronomy":-11.8125
+    },
+    "confidence":{
+      "k":3,
+      "max":-10.5,
+      "margin":1.3125,
+      "std":0.6673
     },
     "query_id":19,
     "expected_service":"general",
@@ -445,14 +565,20 @@
     "raw_response":null,
     "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":83.7884540015,
-    "prompt_tokens":1032,
+    "latency_ms":83.5973969952,
+    "prompt_tokens":1034,
     "completion_tokens":0,
-    "total_tokens":1032,
+    "total_tokens":1034,
     "scores":{
-      "abstract_algebra":-15.625,
-      "anatomy":-14.5625,
-      "astronomy":-14.5
+      "abstract_algebra":-14.875,
+      "anatomy":-14.125,
+      "astronomy":-14.0
+    },
+    "confidence":{
+      "k":3,
+      "max":-14.0,
+      "margin":0.125,
+      "std":0.3864
     },
     "query_id":20,
     "expected_service":"general",
@@ -467,14 +593,20 @@
     "raw_response":null,
     "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":108.7763860014,
-    "prompt_tokens":1422,
+    "latency_ms":110.0727369922,
+    "prompt_tokens":1424,
     "completion_tokens":0,
-    "total_tokens":1422,
+    "total_tokens":1424,
     "scores":{
-      "abstract_algebra":-16.625,
-      "anatomy":-15.375,
-      "astronomy":-15.1875
+      "abstract_algebra":-15.5,
+      "anatomy":-15.6875,
+      "astronomy":-15.0625
+    },
+    "confidence":{
+      "k":3,
+      "max":-15.0625,
+      "margin":0.4375,
+      "std":0.2619
     },
     "query_id":21,
     "expected_service":"general",
@@ -489,14 +621,20 @@
     "raw_response":null,
     "predicted_label":"anatomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":115.819411003,
-    "prompt_tokens":1482,
+    "latency_ms":116.3702189951,
+    "prompt_tokens":1484,
     "completion_tokens":0,
-    "total_tokens":1482,
+    "total_tokens":1484,
     "scores":{
-      "abstract_algebra":-14.375,
-      "anatomy":-12.6875,
-      "astronomy":-13.625
+      "abstract_algebra":-13.625,
+      "anatomy":-12.875,
+      "astronomy":-12.875
+    },
+    "confidence":{
+      "k":3,
+      "max":-12.875,
+      "margin":0.0,
+      "std":0.3536
     },
     "query_id":22,
     "expected_service":"general",
@@ -511,14 +649,20 @@
     "raw_response":null,
     "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":79.4230259999,
-    "prompt_tokens":867,
+    "latency_ms":78.9213050011,
+    "prompt_tokens":869,
     "completion_tokens":0,
-    "total_tokens":867,
+    "total_tokens":869,
     "scores":{
-      "abstract_algebra":-15.1875,
-      "anatomy":-13.5625,
-      "astronomy":-13.375
+      "abstract_algebra":-14.4375,
+      "anatomy":-13.3125,
+      "astronomy":-12.0
+    },
+    "confidence":{
+      "k":3,
+      "max":-12.0,
+      "margin":1.3125,
+      "std":0.9961
     },
     "query_id":23,
     "expected_service":"general",
@@ -533,14 +677,20 @@
     "raw_response":null,
     "predicted_label":"anatomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":96.4715009977,
-    "prompt_tokens":1170,
+    "latency_ms":96.3343650074,
+    "prompt_tokens":1172,
     "completion_tokens":0,
-    "total_tokens":1170,
+    "total_tokens":1172,
     "scores":{
-      "abstract_algebra":-15.0625,
-      "anatomy":-13.875,
-      "astronomy":-14.5625
+      "abstract_algebra":-14.5625,
+      "anatomy":-12.1875,
+      "astronomy":-13.4375
+    },
+    "confidence":{
+      "k":3,
+      "max":-12.1875,
+      "margin":1.25,
+      "std":0.97
     },
     "query_id":24,
     "expected_service":"general",
@@ -555,14 +705,20 @@
     "raw_response":null,
     "predicted_label":"abstract_algebra",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":45.7310080019,
-    "prompt_tokens":231,
+    "latency_ms":45.3548180085,
+    "prompt_tokens":233,
     "completion_tokens":0,
-    "total_tokens":231,
+    "total_tokens":233,
     "scores":{
-      "abstract_algebra":-8.125,
-      "anatomy":-9.125,
-      "astronomy":-9.3125
+      "abstract_algebra":-8.375,
+      "anatomy":-9.375,
+      "astronomy":-8.5625
+    },
+    "confidence":{
+      "k":3,
+      "max":-8.375,
+      "margin":0.1875,
+      "std":0.434
     },
     "query_id":25,
     "expected_service":"general",
@@ -577,14 +733,20 @@
     "raw_response":null,
     "predicted_label":"abstract_algebra",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":45.2486169997,
-    "prompt_tokens":249,
+    "latency_ms":45.085988997,
+    "prompt_tokens":251,
     "completion_tokens":0,
-    "total_tokens":249,
+    "total_tokens":251,
     "scores":{
-      "abstract_algebra":-9.9375,
-      "anatomy":-12.5,
-      "astronomy":-13.5
+      "abstract_algebra":-9.875,
+      "anatomy":-12.0,
+      "astronomy":-12.6875
+    },
+    "confidence":{
+      "k":3,
+      "max":-9.875,
+      "margin":2.125,
+      "std":1.1971
     },
     "query_id":26,
     "expected_service":"general",
@@ -599,14 +761,20 @@
     "raw_response":null,
     "predicted_label":"anatomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":45.1093629999,
-    "prompt_tokens":234,
+    "latency_ms":44.411031995,
+    "prompt_tokens":236,
     "completion_tokens":0,
-    "total_tokens":234,
+    "total_tokens":236,
     "scores":{
-      "abstract_algebra":-13.125,
-      "anatomy":-12.25,
-      "astronomy":-13.6875
+      "abstract_algebra":-12.625,
+      "anatomy":-12.1875,
+      "astronomy":-12.625
+    },
+    "confidence":{
+      "k":3,
+      "max":-12.1875,
+      "margin":0.4375,
+      "std":0.2062
     },
     "query_id":27,
     "expected_service":"general",
@@ -621,14 +789,20 @@
     "raw_response":null,
     "predicted_label":"abstract_algebra",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.3837570019,
-    "prompt_tokens":234,
+    "latency_ms":43.9991379972,
+    "prompt_tokens":236,
     "completion_tokens":0,
-    "total_tokens":234,
+    "total_tokens":236,
     "scores":{
       "abstract_algebra":-10.8125,
-      "anatomy":-12.625,
-      "astronomy":-13.6875
+      "anatomy":-12.6875,
+      "astronomy":-11.875
+    },
+    "confidence":{
+      "k":3,
+      "max":-10.8125,
+      "margin":1.0625,
+      "std":0.7677
     },
     "query_id":28,
     "expected_service":"general",
@@ -641,16 +815,22 @@
     "routing_method":"cross-encoder",
     "query":"Although the content and quality can be as controlled as direct mail, response rates of this medium are lower because of the lack of a personal address mechanism. This media format is known as:",
     "raw_response":null,
-    "predicted_label":"anatomy",
+    "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":45.3185240003,
-    "prompt_tokens":300,
+    "latency_ms":45.4389990045,
+    "prompt_tokens":302,
     "completion_tokens":0,
-    "total_tokens":300,
+    "total_tokens":302,
     "scores":{
-      "abstract_algebra":-13.125,
+      "abstract_algebra":-13.0625,
       "anatomy":-11.875,
-      "astronomy":-12.125
+      "astronomy":-10.5
+    },
+    "confidence":{
+      "k":3,
+      "max":-10.5,
+      "margin":1.375,
+      "std":1.0471
     },
     "query_id":29,
     "expected_service":"general",
@@ -663,16 +843,22 @@
     "routing_method":"cross-encoder",
     "query":"The great Mayan king Pacal built temples in the city of Palenque in order to:",
     "raw_response":null,
-    "predicted_label":"anatomy",
+    "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":45.1439209974,
-    "prompt_tokens":249,
+    "latency_ms":44.6805319953,
+    "prompt_tokens":251,
     "completion_tokens":0,
-    "total_tokens":249,
+    "total_tokens":251,
     "scores":{
-      "abstract_algebra":-13.875,
-      "anatomy":-12.6875,
-      "astronomy":-12.75
+      "abstract_algebra":-14.0,
+      "anatomy":-12.875,
+      "astronomy":-12.0
+    },
+    "confidence":{
+      "k":3,
+      "max":-12.0,
+      "margin":0.875,
+      "std":0.8186
     },
     "query_id":30,
     "expected_service":"general",
@@ -685,16 +871,22 @@
     "routing_method":"cross-encoder",
     "query":"According to Timothy Pauketat, the evidence for social stratification and political power at Cahokia suggests:",
     "raw_response":null,
-    "predicted_label":"anatomy",
+    "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":45.3306739983,
-    "prompt_tokens":255,
+    "latency_ms":44.9107930035,
+    "prompt_tokens":257,
     "completion_tokens":0,
-    "total_tokens":255,
+    "total_tokens":257,
     "scores":{
-      "abstract_algebra":-13.875,
-      "anatomy":-12.75,
-      "astronomy":-13.5625
+      "abstract_algebra":-13.5,
+      "anatomy":-12.8125,
+      "astronomy":-12.375
+    },
+    "confidence":{
+      "k":3,
+      "max":-12.375,
+      "margin":0.4375,
+      "std":0.463
     },
     "query_id":31,
     "expected_service":"general",
@@ -707,16 +899,22 @@
     "routing_method":"cross-encoder",
     "query":"Researchers now believe that the decline of the Maya was caused chiefly by:",
     "raw_response":null,
-    "predicted_label":"anatomy",
+    "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.5656779993,
-    "prompt_tokens":231,
+    "latency_ms":44.7405289888,
+    "prompt_tokens":233,
     "completion_tokens":0,
-    "total_tokens":231,
+    "total_tokens":233,
     "scores":{
-      "abstract_algebra":-13.5625,
-      "anatomy":-12.375,
-      "astronomy":-12.5
+      "abstract_algebra":-13.375,
+      "anatomy":-12.5,
+      "astronomy":-11.4375
+    },
+    "confidence":{
+      "k":3,
+      "max":-11.4375,
+      "margin":1.0625,
+      "std":0.7922
     },
     "query_id":32,
     "expected_service":"general",
@@ -731,14 +929,20 @@
     "raw_response":null,
     "predicted_label":"anatomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.8854450005,
-    "prompt_tokens":267,
+    "latency_ms":44.6878649964,
+    "prompt_tokens":269,
     "completion_tokens":0,
-    "total_tokens":267,
+    "total_tokens":269,
     "scores":{
-      "abstract_algebra":-12.5625,
-      "anatomy":-10.9375,
-      "astronomy":-12.375
+      "abstract_algebra":-12.625,
+      "anatomy":-10.8125,
+      "astronomy":-11.875
+    },
+    "confidence":{
+      "k":3,
+      "max":-10.8125,
+      "margin":1.0625,
+      "std":0.7436
     },
     "query_id":33,
     "expected_service":"general",
@@ -753,14 +957,20 @@
     "raw_response":null,
     "predicted_label":"anatomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":43.8727769979,
-    "prompt_tokens":228,
+    "latency_ms":43.951486994,
+    "prompt_tokens":230,
     "completion_tokens":0,
-    "total_tokens":228,
+    "total_tokens":230,
     "scores":{
-      "abstract_algebra":-13.4375,
-      "anatomy":-9.625,
-      "astronomy":-13.0625
+      "abstract_algebra":-12.9375,
+      "anatomy":-9.5,
+      "astronomy":-12.125
+    },
+    "confidence":{
+      "k":3,
+      "max":-9.5,
+      "margin":2.625,
+      "std":1.4669
     },
     "query_id":34,
     "expected_service":"general",
@@ -773,16 +983,22 @@
     "routing_method":"cross-encoder",
     "query":"Which of the following did the post-war welfare state of 1948 not aim to provide:",
     "raw_response":null,
-    "predicted_label":"anatomy",
+    "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.0503040008,
-    "prompt_tokens":252,
+    "latency_ms":44.3161370058,
+    "prompt_tokens":254,
     "completion_tokens":0,
-    "total_tokens":252,
+    "total_tokens":254,
     "scores":{
-      "abstract_algebra":-13.5,
-      "anatomy":-13.1875,
-      "astronomy":-13.875
+      "abstract_algebra":-12.8125,
+      "anatomy":-13.0,
+      "astronomy":-12.1875
+    },
+    "confidence":{
+      "k":3,
+      "max":-12.1875,
+      "margin":0.625,
+      "std":0.3474
     },
     "query_id":35,
     "expected_service":"general",
@@ -797,14 +1013,20 @@
     "raw_response":null,
     "predicted_label":"abstract_algebra",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.4534160015,
-    "prompt_tokens":240,
+    "latency_ms":44.3677229923,
+    "prompt_tokens":242,
     "completion_tokens":0,
-    "total_tokens":240,
+    "total_tokens":242,
     "scores":{
-      "abstract_algebra":-11.625,
-      "anatomy":-12.3125,
-      "astronomy":-12.375
+      "abstract_algebra":-11.0,
+      "anatomy":-11.5625,
+      "astronomy":-11.0
+    },
+    "confidence":{
+      "k":3,
+      "max":-11.0,
+      "margin":0.0,
+      "std":0.2652
     },
     "query_id":36,
     "expected_service":"general",
@@ -817,16 +1039,22 @@
     "routing_method":"cross-encoder",
     "query":"The shift from 'civil religion' to 'common religion' means that:",
     "raw_response":null,
-    "predicted_label":"anatomy",
+    "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.1432420012,
-    "prompt_tokens":234,
+    "latency_ms":44.6468580049,
+    "prompt_tokens":236,
     "completion_tokens":0,
-    "total_tokens":234,
+    "total_tokens":236,
     "scores":{
-      "abstract_algebra":-13.125,
-      "anatomy":-12.25,
-      "astronomy":-13.1875
+      "abstract_algebra":-12.4375,
+      "anatomy":-12.4375,
+      "astronomy":-11.8125
+    },
+    "confidence":{
+      "k":3,
+      "max":-11.8125,
+      "margin":0.625,
+      "std":0.2946
     },
     "query_id":37,
     "expected_service":"general",
@@ -841,14 +1069,20 @@
     "raw_response":null,
     "predicted_label":"abstract_algebra",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.04918,
-    "prompt_tokens":219,
+    "latency_ms":43.8104430068,
+    "prompt_tokens":221,
     "completion_tokens":0,
-    "total_tokens":219,
+    "total_tokens":221,
     "scores":{
-      "abstract_algebra":-11.875,
-      "anatomy":-11.875,
-      "astronomy":-12.625
+      "abstract_algebra":-10.875,
+      "anatomy":-11.125,
+      "astronomy":-11.3125
+    },
+    "confidence":{
+      "k":3,
+      "max":-10.875,
+      "margin":0.25,
+      "std":0.1792
     },
     "query_id":38,
     "expected_service":"general",
@@ -861,16 +1095,22 @@
     "routing_method":"cross-encoder",
     "query":"Which of the following is not a problem associated with official statistics on strike action?",
     "raw_response":null,
-    "predicted_label":"anatomy",
+    "predicted_label":"astronomy",
     "model_name":"Qwen\/Qwen3-Reranker-4B",
-    "latency_ms":44.4044889991,
-    "prompt_tokens":237,
+    "latency_ms":44.0429599985,
+    "prompt_tokens":239,
     "completion_tokens":0,
-    "total_tokens":237,
+    "total_tokens":239,
     "scores":{
-      "abstract_algebra":-12.5625,
-      "anatomy":-12.375,
-      "astronomy":-13.375
+      "abstract_algebra":-12.0,
+      "anatomy":-12.25,
+      "astronomy":-11.5625
+    },
+    "confidence":{
+      "k":3,
+      "max":-11.5625,
+      "margin":0.4375,
+      "std":0.2841
     },
     "query_id":39,
     "expected_service":"general",
