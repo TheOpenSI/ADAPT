@@ -23,7 +23,7 @@ RESULTS_DIR = os.path.join(BASE_DIR, "results")
 
 VERBOSE = False
 
-CONDITIONS = [3, 5, 8, 10]
+CONDITIONS = [3,5,8,10]
 
 MODEL_CONFIGS = [
     # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
