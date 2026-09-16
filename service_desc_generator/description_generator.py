@@ -9,7 +9,7 @@ sys.path.append(
 
 from ollama import chat
 
-from data.dataset_builder.config import (
+from data.specialists_dataset.config import (
     GENERAL_SUBJECTS,
     SERVICE_SETS,
 )
