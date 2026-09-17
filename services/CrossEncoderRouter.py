@@ -7,16 +7,28 @@ import time
 from sentence_transformers import CrossEncoder
  
 from services.confidence_checker.metrics import ConfidenceMetrics
+from services.confidence_checker.config import CONFIDENCE_LEVELS
 from services.RouterBase import RouterBase
- 
  
 class CrossEncoderRouter(RouterBase):
     routing_method = "cross-encoder"
  
-    def __init__(self, service_desc_path, model_name, verbose=False, confidence_c=1.5, fallback_label="general"):
+    def __init__(self, 
+                 service_desc_path, 
+                 model_name, 
+                 verbose=False, 
+                 confidence_c=None, 
+                 fallback_label="general"):
+
+
+
         super().__init__(service_desc_path, model_name)
         self.verbose = verbose
+
+        if confidence_c is None:
+            confidence_c = CONFIDENCE_LEVELS["standard"]
         self.confidence_c = confidence_c
+
         self.fallback_label = fallback_label
  
         print(f"[CrossEncoderRouter] Loading cross-encoder model '{model_name}'...")
@@ -38,7 +50,9 @@ class CrossEncoderRouter(RouterBase):
         if self.verbose:
             preview = query if len(query) <= 80 else query[:77] + "..."
             print(f"  Scoring query ({len(query)} chars) against {len(self.services)} pairs: {preview!r}")
- 
+
+
+        # Before starting the timer, wait for any previous GPU work to finish
         if torch.cuda.is_available():
             torch.cuda.synchronize()
  
@@ -46,27 +60,30 @@ class CrossEncoderRouter(RouterBase):
  
         names = list(self.services.keys())
         pairs = [(query, service_desc) for service_desc in self.services.values()]
-        scores = self.model.predict(pairs)
- 
-        best_idx = scores.argmax()
+
+        raw_scores = self.model.predict(pairs)
+
+        # winner 
+        best_idx = raw_scores.argmax()
         top_label = names[best_idx]
- 
-        if torch.cuda.is_available():
-            torch.cuda.synchronize()
- 
-        latency_ms = (time.perf_counter() - start) * 1000
- 
-        # send scores and names
-        scores = [float(s) for s in scores]
+
+        # Get raw scores
+        scores = [float(s) for s in raw_scores]
         scores_dict = dict(zip(names, scores))
- 
+
         confidence = ConfidenceMetrics(scores_dict)
         confidence_result = confidence.calculate(c=self.confidence_c)
- 
+
         if confidence_result["is_confident"]:
             predicted_label = top_label
         else:
             predicted_label = self.fallback_label
+
+        # wait for GPU to stop properly first before stopping timer
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
+ 
+        latency_ms = (time.perf_counter() - start) * 1000
  
         prompt_tokens = 0
  
@@ -87,7 +104,13 @@ class CrossEncoderRouter(RouterBase):
             for name, score in ranked:
                 marker = " <-- top" if name == top_label else ""
                 print(f"    {name}: {score:.4f}{marker}")
-            print(f"  top_zscore={confidence_result['top_zscore']} | confident={confidence_result['is_confident']}")
+                
+            print(
+                f" top_zscore={confidence_result['top_zscore']} "
+                f"| threshold={self.confidence_c} "
+                f"| confident={confidence_result['is_confident']}"
+            )
+
             print(f"  -> routed to: {predicted_label} | {latency_ms:.1f}ms | {prompt_tokens} tok")
  
         return {
@@ -108,35 +131,26 @@ class CrossEncoderRouter(RouterBase):
 
 
 # if __name__ == "__main__":
+
 #     router = CrossEncoderRouter(
 #         service_desc_path="../data/dataset/service_descriptions_3.json",
-#         model_name="Qwen/Qwen3-Reranker-8B",
-#         verbose=True
-#         )
-
-
-#     print("\n===== CUDA CHECK =====")
-#     print("CUDA available:", torch.cuda.is_available())
-#     print("CUDA device count:", torch.cuda.device_count())
-#     print("Current CUDA device:", torch.cuda.current_device())
-#     print("GPU name:", torch.cuda.get_device_name(torch.cuda.current_device()))
-#     print("CrossEncoder device:", router.model.device)
-#     print(
-#         "Actual parameter device:",
-#         next(router.model.model.parameters()).device
+#         model_name="Qwen/Qwen3-Reranker-4B",
+#         verbose=True,
+#         confidence_c=CONFIDENCE_LEVELS["strict"]
 #     )
-#     print("======================\n")
 
-#     test_queries = [
-#         "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
+#     queries = [
+#         "Find the degree for the field extension Q(sqrt(2), sqrt(3)) over Q.",
 #         "Why is the sky blue?",
 #         "Which of the following statements is true?",
+#         "Heart valve replacement surgery",
 #     ]
 
-#     for query in test_queries:
-#         print(f"\n--- query: {query[:60]}... ---")
+#     for query in queries:
+#         print(f"\n--- Query: {query} ---")
+
 #         result = router.route(query)
-#         print(f"result dict: {result}")
 
-
-        # CUDA_VISIBLE_DEVICES=0 python CrossEncoderRouter.py
+#         print(f"Predicted: {result['predicted_label']}")
+#         print(f"Confidence: {result['confidence']['top_zscore']}")
+#         print(f"Confident?: {result['confidence']['is_confident']}")
