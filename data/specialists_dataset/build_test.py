@@ -5,7 +5,7 @@ sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 
 from dataset_builder.mmlu_builder_base import MMLUBenchmarkBuilderBase
 import pandas as pd
-from config import SERVICE_SETS
+from data.dataset.config import SERVICE_SETS
 
 class MMLUTestBuilder(MMLUBenchmarkBuilderBase):
     def __init__(

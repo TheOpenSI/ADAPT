@@ -1,3 +1,8 @@
+import os
+import sys
+sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
+
+
 import pandas as pd
 from datasets import load_dataset
 
@@ -34,7 +39,8 @@ class ExternalGeneralBuilder:
 
         banking = pd.DataFrame()
 
-        banking["query"] = banking_df["text"]
+        banking["question"] = banking_df["text"]
+        banking["subject"] = "banking77"
         banking["expected_service"] = "general"
 
         return banking
@@ -57,7 +63,8 @@ class ExternalGeneralBuilder:
 
         clinc = pd.DataFrame()
 
-        clinc["query"] = clinc_df["text"]
+        clinc["question"] = clinc_df["text"]
+        clinc["subject"] = "clinc_oos"
         clinc["expected_service"] = "general"
 
         return clinc
@@ -70,7 +77,7 @@ class ExternalGeneralBuilder:
 
         external_general = pd.concat([banking, clinc], ignore_index= True)
 
-        # randomize the order
+        # shuffle the order
         external_general = external_general.sample(
             frac=1,
             random_state=self.seed
@@ -81,7 +88,7 @@ class ExternalGeneralBuilder:
 
     def _save_file(self, df, dataset_name):
 
-        file_path = f"../dataset/{dataset_name}.csv"
+        file_path = f"../general_dataset/{dataset_name}.csv"
 
         df.to_csv(
             file_path,
@@ -91,6 +98,7 @@ class ExternalGeneralBuilder:
         print(f"\nSaved: {file_path}")
 
     def build_and_save(self, dataset_name):
+
         external_general = self._combine_data()
 
         self._save_file(
@@ -115,7 +123,6 @@ if __name__ == "__main__":
         seed=42
 )
     
-    print(builder)
 
     builder.build_and_save(
         dataset_name="dev_external_general"

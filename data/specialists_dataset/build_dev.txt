@@ -1,0 +1,226 @@
+[1] Full dataset loaded: (285, 4)
+[1] Number of subjects: 57
+
+============================================================
+BUILDING DEV PROFILING DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy']
+[2] Filtered dataset shape: (15, 4)
+[2] Original subject counts:
+subject
+abstract_algebra    5
+anatomy             5
+astronomy           5
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+abstract_algebra    5
+anatomy             5
+astronomy           5
+Name: count, dtype: int64
+[4] Saved: ../specialists_dataset/dev_service_3.csv
+[4] Saved: ../specialists_dataset/dev_service_3.json
+
+[DONE] dev_service_3
+[DONE] Total rows: 15
+
+Expected service counts:
+expected_service
+abstract_algebra    5
+anatomy             5
+astronomy           5
+Name: count, dtype: int64
+
+Original subject counts:
+subject
+abstract_algebra    5
+anatomy             5
+astronomy           5
+Name: count, dtype: int64
+
+============================================================
+BUILDING DEV PROFILING DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science']
+[2] Filtered dataset shape: (25, 4)
+[2] Original subject counts:
+subject
+abstract_algebra            5
+anatomy                     5
+astronomy                   5
+business_ethics             5
+college_computer_science    5
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+abstract_algebra            5
+anatomy                     5
+astronomy                   5
+business_ethics             5
+college_computer_science    5
+Name: count, dtype: int64
+[4] Saved: ../specialists_dataset/dev_service_5.csv
+[4] Saved: ../specialists_dataset/dev_service_5.json
+
+[DONE] dev_service_5
+[DONE] Total rows: 25
+
+Expected service counts:
+expected_service
+abstract_algebra            5
+anatomy                     5
+astronomy                   5
+business_ethics             5
+college_computer_science    5
+Name: count, dtype: int64
+
+Original subject counts:
+subject
+abstract_algebra            5
+anatomy                     5
+astronomy                   5
+business_ethics             5
+college_computer_science    5
+Name: count, dtype: int64
+
+============================================================
+BUILDING DEV PROFILING DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science', 'high_school_chemistry', 'high_school_geography', 'jurisprudence']
+[2] Filtered dataset shape: (40, 4)
+[2] Original subject counts:
+subject
+abstract_algebra            5
+anatomy                     5
+astronomy                   5
+business_ethics             5
+college_computer_science    5
+high_school_chemistry       5
+high_school_geography       5
+jurisprudence               5
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+abstract_algebra            5
+anatomy                     5
+astronomy                   5
+business_ethics             5
+college_computer_science    5
+high_school_chemistry       5
+high_school_geography       5
+jurisprudence               5
+Name: count, dtype: int64
+[4] Saved: ../specialists_dataset/dev_service_8.csv
+[4] Saved: ../specialists_dataset/dev_service_8.json
+
+[DONE] dev_service_8
+[DONE] Total rows: 40
+
+Expected service counts:
+expected_service
+abstract_algebra            5
+anatomy                     5
+astronomy                   5
+business_ethics             5
+college_computer_science    5
+high_school_chemistry       5
+high_school_geography       5
+jurisprudence               5
+Name: count, dtype: int64
+
+Original subject counts:
+subject
+abstract_algebra            5
+anatomy                     5
+astronomy                   5
+business_ethics             5
+college_computer_science    5
+high_school_chemistry       5
+high_school_geography       5
+jurisprudence               5
+Name: count, dtype: int64
+
+============================================================
+BUILDING DEV PROFILING DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science', 'high_school_chemistry', 'high_school_geography', 'jurisprudence', 'world_religions', 'formal_logic']
+[2] Filtered dataset shape: (50, 4)
+[2] Original subject counts:
+subject
+abstract_algebra            5
+anatomy                     5
+astronomy                   5
+business_ethics             5
+college_computer_science    5
+formal_logic                5
+high_school_chemistry       5
+high_school_geography       5
+jurisprudence               5
+world_religions             5
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+abstract_algebra            5
+anatomy                     5
+astronomy                   5
+business_ethics             5
+college_computer_science    5
+formal_logic                5
+high_school_chemistry       5
+high_school_geography       5
+jurisprudence               5
+world_religions             5
+Name: count, dtype: int64
+[4] Saved: ../specialists_dataset/dev_service_10.csv
+[4] Saved: ../specialists_dataset/dev_service_10.json
+
+[DONE] dev_service_10
+[DONE] Total rows: 50
+
+Expected service counts:
+expected_service
+abstract_algebra            5
+anatomy                     5
+astronomy                   5
+business_ethics             5
+college_computer_science    5
+formal_logic                5
+high_school_chemistry       5
+high_school_geography       5
+jurisprudence               5
+world_religions             5
+Name: count, dtype: int64
+
+Original subject counts:
+subject
+abstract_algebra            5
+anatomy                     5
+astronomy                   5
+business_ethics             5
+college_computer_science    5
+formal_logic                5
+high_school_chemistry       5
+high_school_geography       5
+jurisprudence               5
+world_religions             5
+Name: count, dtype: int64

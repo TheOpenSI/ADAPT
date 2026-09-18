@@ -1,0 +1,16 @@
+question,subject,expected_service
+Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.,abstract_algebra,abstract_algebra
+"Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.",abstract_algebra,abstract_algebra
+Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.,abstract_algebra,abstract_algebra
+Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.,abstract_algebra,abstract_algebra
+Find the characteristic of the ring 2Z.,abstract_algebra,abstract_algebra
+What is the embryological origin of the hyoid bone?,anatomy,anatomy
+Which of these branches of the trigeminal nerve contain somatic motor processes?,anatomy,anatomy
+The pleura,anatomy,anatomy
+In Angle's Class II Div 2 occlusion there is,anatomy,anatomy
+Which of the following is the body cavity that contains the pituitary gland?,anatomy,anatomy
+You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction),astronomy,astronomy
+Where do most short-period comets come from and how do we know?,astronomy,astronomy
+Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?,astronomy,astronomy
+Why isn't there a planet where the asteroid belt is located?,astronomy,astronomy
+Why is Mars red?,astronomy,astronomy

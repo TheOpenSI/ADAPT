@@ -2,14 +2,14 @@ import os
 import sys
 sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 
-from dataset_builder.config import SERVICE_SETS
-from dataset_builder.mmlu_builder_base import MMLUBenchmarkBuilderBase
+from dataset.config import SERVICE_SETS
+from mmlu_builder_base import MMLUBenchmarkBuilderBase
 
 
 class MMLUDevBuilder(MMLUBenchmarkBuilderBase):
 
     def __init__(self, split="dev"):
-        super().__init__(split=split, include_general=True)
+        super().__init__(split=split, include_general=False)
 
 
     def _select_columns(self, df):
@@ -23,11 +23,11 @@ class MMLUDevBuilder(MMLUBenchmarkBuilderBase):
         Save the dev calibration dataset as CSV and JSON.
         """
 
-        base_path = f"../dataset/dev_service_{service_id}"
+        base_path = f"../specialists_dataset/dev_service_{service_id}"
     
         df.to_csv(f"{base_path}.csv",index=False)
     
-        df.to_json(f"{base_path}.json", orient="records", indent=2)
+        # df.to_json(f"{base_path}.json", orient="records", indent=2)
     
         print(f"[4] Saved: {base_path}.csv")
         print(f"[4] Saved: {base_path}.json")
@@ -43,7 +43,6 @@ class MMLUDevBuilder(MMLUBenchmarkBuilderBase):
 
         # Specialists keep their names
         # General-source subjects -> "general"
-        
         converted_data = self._convert_subject(filtered_data, subjects)
     
         dev_data = self._select_columns(converted_data)
