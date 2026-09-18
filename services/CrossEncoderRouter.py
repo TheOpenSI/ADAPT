@@ -119,9 +119,15 @@ class CrossEncoderRouter(RouterBase):
 
             "max_score": confidence_result["max"],
             "margin": confidence_result["margin"],
+            "margin_ratio": confidence_result["margin_ratio"],
+            "normalized_margin": confidence_result["normalized_margin"],
+
             "mean_score": confidence_result["mean"],
             "std_score": confidence_result["std"],
+
             "top_zscore": confidence_result["top_zscore"],
+            "second_top_zscore": confidence_result["second_top_zscore"],
+            "zscore_margin": confidence_result["zscore_margin"],
 
             "scores": scores_dict,
             "zscores": confidence_result["zscores"],
