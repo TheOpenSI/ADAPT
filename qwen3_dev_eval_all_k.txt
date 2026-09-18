@@ -1,0 +1,894 @@
+
+**********************************************************************
+* CONDITION k=3
+*   service_desc_path: /home/maniles/manile/manile/data/dataset/service_descriptions_3.json
+*   dataset_path:      /home/maniles/manile/manile/data/dataset/dev_eval_service_3.csv
+**********************************************************************
+
+######################################################################
+# RUN 1/4: CrossEncoderRouter (Qwen/Qwen3-Reranker-4B) on /home/maniles/manile/manile/data/dataset/dev_eval_service_3.csv
+######################################################################
+
+[CrossEncoderRouter] Loading cross-encoder model 'Qwen/Qwen3-Reranker-4B'...
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   2%|▏         | 8/398 [00:00<00:06, 63.89it/s]Loading weights:   4%|▍         | 15/398 [00:00<00:06, 55.78it/s]Loading weights:   5%|▌         | 21/398 [00:00<00:11, 31.55it/s]Loading weights:   7%|▋         | 27/398 [00:00<00:10, 37.01it/s]Loading weights:   8%|▊         | 32/398 [00:00<00:09, 38.74it/s]Loading weights:  10%|▉         | 39/398 [00:00<00:08, 41.29it/s]Loading weights:  11%|█         | 44/398 [00:01<00:08, 40.04it/s]Loading weights:  13%|█▎        | 50/398 [00:01<00:08, 41.36it/s]Loading weights:  19%|█▉        | 75/398 [00:01<00:04, 71.63it/s]Loading weights:  22%|██▏       | 86/398 [00:01<00:04, 70.52it/s]Loading weights:  23%|██▎       | 93/398 [00:01<00:04, 65.03it/s]Loading weights:  25%|██▌       | 100/398 [00:01<00:05, 54.67it/s]Loading weights:  27%|██▋       | 107/398 [00:02<00:05, 51.23it/s]Loading weights:  29%|██▉       | 115/398 [00:02<00:05, 50.65it/s]Loading weights:  31%|███       | 122/398 [00:02<00:05, 47.63it/s]Loading weights:  32%|███▏      | 127/398 [00:02<00:06, 43.27it/s]Loading weights:  37%|███▋      | 146/398 [00:02<00:03, 72.85it/s]Loading weights:  39%|███▉      | 155/398 [00:02<00:03, 67.75it/s]Loading weights:  41%|████      | 163/398 [00:03<00:03, 61.63it/s]Loading weights:  43%|████▎     | 170/398 [00:03<00:04, 53.77it/s]Loading weights:  44%|████▍     | 176/398 [00:03<00:04, 54.78it/s]Loading weights:  46%|████▋     | 185/398 [00:03<00:03, 58.26it/s]Loading weights:  49%|████▉     | 197/398 [00:03<00:02, 71.91it/s]Loading weights:  52%|█████▏    | 205/398 [00:03<00:03, 61.83it/s]Loading weights:  53%|█████▎    | 212/398 [00:04<00:04, 43.95it/s]Loading weights:  55%|█████▍    | 218/398 [00:04<00:03, 45.33it/s]Loading weights:  58%|█████▊    | 229/398 [00:04<00:03, 51.61it/s]Loading weights:  59%|█████▉    | 235/398 [00:04<00:03, 52.04it/s]Loading weights:  62%|██████▏   | 247/398 [00:04<00:02, 57.67it/s]Loading weights:  64%|██████▍   | 254/398 [00:04<00:02, 49.60it/s]Loading weights:  65%|██████▌   | 260/398 [00:04<00:02, 50.08it/s]Loading weights:  67%|██████▋   | 266/398 [00:05<00:02, 44.59it/s]Loading weights:  69%|██████▊   | 273/398 [00:05<00:02, 44.85it/s]Loading weights:  70%|███████   | 279/398 [00:05<00:02, 46.28it/s]Loading weights:  71%|███████▏  | 284/398 [00:05<00:02, 42.91it/s]Loading weights:  74%|███████▍  | 294/398 [00:05<00:02, 51.16it/s]Loading weights:  75%|███████▌  | 300/398 [00:05<00:01, 51.84it/s]Loading weights:  77%|███████▋  | 308/398 [00:05<00:01, 51.25it/s]Loading weights:  82%|████████▏ | 325/398 [00:06<00:01, 67.49it/s]Loading weights:  83%|████████▎ | 332/398 [00:06<00:00, 67.05it/s]Loading weights:  86%|████████▌ | 341/398 [00:06<00:00, 69.89it/s]Loading weights:  87%|████████▋ | 348/398 [00:06<00:00, 63.06it/s]Loading weights:  89%|████████▉ | 355/398 [00:06<00:00, 55.28it/s]Loading weights: 100%|██████████| 398/398 [00:06<00:00, 59.89it/s]
+Default prompt name is set to 'query'. This prompt will be applied to all inference calls, except if a `prompt` or `prompt_name` parameter is provided.
+[codecarbon WARNING @ 07:24:40] Multiple instances of codecarbon are allowed to run at the same time.
+[CrossEncoderRouter] Model loaded in 35.69s — running on device: cuda:0
+[CrossEncoderRouter] Loaded 3 services.
+[CrossEncoderRouter] Ready to route.
+
+============================================================
+Starting benchmark: CrossEncoderRouter on /home/maniles/manile/manile/data/dataset/dev_eval_service_3.csv
+Total rows to process: 40
+============================================================
+
+
+[1/40] Question: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 1 | Wrong: 0 | 2976.4ms
+
+[2/40] Question: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 2 | Wrong: 0 | 57.2ms
+
+[3/40] Question: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 3 | Wrong: 0 | 48.6ms
+
+[4/40] Question: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 4 | Wrong: 0 | 46.3ms
+
+[5/40] Question: Find the characteristic of the ring 2Z.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 5 | Wrong: 0 | 45.8ms
+
+[6/40] Question: What is the embryological origin of the hyoid bone?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 6 | Wrong: 0 | 45.6ms
+
+[7/40] Question: Which of these branches of the trigeminal nerve contain somatic motor processes?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 7 | Wrong: 0 | 45.6ms
+
+[8/40] Question: The pleura
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 8 | Wrong: 0 | 44.6ms
+
+[9/40] Question: In Angle's Class II Div 2 occlusion there is
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 9 | Wrong: 0 | 45.2ms
+
+[10/40] Question: Which of the following is the body cavity that contains the pituitary gland?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 10 | Wrong: 0 | 45.0ms
+
+[11/40] Question: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 11 | Wrong: 0 | 45.8ms
+
+[12/40] Question: Where do most short-period comets come from and how do we know?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 12 | Wrong: 0 | 51.7ms
+
+[13/40] Question: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 13 | Wrong: 0 | 58.5ms
+
+[14/40] Question: Why isn't there a planet where the asteroid belt is located?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 14 | Wrong: 0 | 49.8ms
+
+[15/40] Question: Why is Mars red?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 15 | Wrong: 0 | 44.3ms
+
+[16/40] Question: Why am I unable to transfer money when I was able to before?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 1 | 44.8ms
+
+[17/40] Question: i need help paying my rent bill
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 2 | 44.5ms
+
+[18/40] Question: Is it possible for me to change my PIN number?
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 15 | Wrong: 3 | 44.7ms
+
+[19/40] Question: can you spell "diatribe" for me
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 4 | 44.5ms
+
+[20/40] Question: How much does top up fees cost?
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 5 | 44.7ms
+
+[21/40] Question: What if there is an error on the exchange rate?
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 15 | Wrong: 6 | 44.3ms
+
+[22/40] Question: what is the remainder of my starbucks rewards balance
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 15 | Wrong: 7 | 44.3ms
+
+[23/40] Question: I'm not sure why my card didn't work
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 8 | 45.1ms
+
+[24/40] Question: help me to understand the conversion between tablespoons and teaspoons
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 15 | Wrong: 9 | 44.2ms
+
+[25/40] Question: Why am I getting declines when trying to make a purchase online?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 10 | 44.5ms
+
+[26/40] Question: I don't think my top up worked
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 11 | 44.6ms
+
+[27/40] Question: limits on top ups
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 15 | Wrong: 12 | 44.1ms
+
+[28/40] Question: tell your hobbies
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 13 | 44.6ms
+
+[29/40] Question: Can you explain why my payment was charged a fee?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 14 | 44.3ms
+
+[30/40] Question: How long does a transfer from a UK account take? I just made one and it doesn't seem to be working, wondering if everything is okay
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 15 | 45.2ms
+
+[31/40] Question: how many day of my vacation are left for the year
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 16 | 44.2ms
+
+[32/40] Question: how many people fall victim to internet scams per year
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 17 | 44.3ms
+
+[33/40] Question: what is the arrival time for my flight
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 18 | 44.3ms
+
+[34/40] Question: can you find a recipe on how to make chow mein
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 19 | 44.5ms
+
+[35/40] Question: i need my pin number
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 20 | 44.4ms
+
+[36/40] Question: It looks like my card payment was sent back.
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 21 | 44.4ms
+
+[37/40] Question: After I transferred money the balance remained the same.
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 15 | Wrong: 22 | 44.3ms
+
+[38/40] Question: how is the traffic typically at noon on the route to hospital
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 23 | 44.4ms
+
+[39/40] Question: are there any holiday's comming up
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 15 | Wrong: 24 | 44.2ms
+
+[40/40] Question: What is the $1 transaction on my account?
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 15 | Wrong: 25 | 44.7ms
+
+=== ROUTING RESULTS ===
+Correct: 15
+Wrong:   25
+Errors:  0
+Total:   40
+saved: /home/maniles/manile/manile/results/dev_eval_service_3/cross-encoder_Qwen-Qwen3-Reranker-4B.json
+saved: /home/maniles/manile/manile/results/dev_eval_service_3/cross-encoder_Qwen-Qwen3-Reranker-4B.csv
+saved: /home/maniles/manile/manile/results/dev_eval_service_3/cross-encoder_Qwen-Qwen3-Reranker-4B_efficiency.json
+
+=== ENERGY / CARBON ===
+Total CO2 (kg): 0.00033663586097643566
+Total energy (kWh): 0.0006135242740488938
+DONE
+============================================================
+
+
+BENCHMARK FINISHED
+
+[run_benchmark] CrossEncoderRouter finished in 46.6s (0.8 min)
+
+**********************************************************************
+* CONDITION k=5
+*   service_desc_path: /home/maniles/manile/manile/data/dataset/service_descriptions_5.json
+*   dataset_path:      /home/maniles/manile/manile/data/dataset/dev_eval_service_5.csv
+**********************************************************************
+
+######################################################################
+# RUN 2/4: CrossEncoderRouter (Qwen/Qwen3-Reranker-4B) on /home/maniles/manile/manile/data/dataset/dev_eval_service_5.csv
+######################################################################
+
+[CrossEncoderRouter] Loading cross-encoder model 'Qwen/Qwen3-Reranker-4B'...
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4311.72it/s]
+[CrossEncoderRouter] Model loaded in 8.71s — running on device: cuda:0
+[CrossEncoderRouter] Loaded 5 services.
+[CrossEncoderRouter] Ready to route.
+
+============================================================
+Starting benchmark: CrossEncoderRouter on /home/maniles/manile/manile/data/dataset/dev_eval_service_5.csv
+Total rows to process: 50
+============================================================
+
+
+[1/50] Question: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 1 | Wrong: 0 | 64.6ms
+
+[2/50] Question: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 2 | Wrong: 0 | 67.0ms
+
+[3/50] Question: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 3 | Wrong: 0 | 65.2ms
+
+[4/50] Question: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 4 | Wrong: 0 | 64.7ms
+
+[5/50] Question: Find the characteristic of the ring 2Z.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 5 | Wrong: 0 | 59.2ms
+
+[6/50] Question: What is the embryological origin of the hyoid bone?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 6 | Wrong: 0 | 59.1ms
+
+[7/50] Question: Which of these branches of the trigeminal nerve contain somatic motor processes?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 7 | Wrong: 0 | 61.9ms
+
+[8/50] Question: The pleura
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 8 | Wrong: 0 | 58.5ms
+
+[9/50] Question: In Angle's Class II Div 2 occlusion there is
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 9 | Wrong: 0 | 59.3ms
+
+[10/50] Question: Which of the following is the body cavity that contains the pituitary gland?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 10 | Wrong: 0 | 61.9ms
+
+[11/50] Question: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 11 | Wrong: 0 | 64.0ms
+
+[12/50] Question: Where do most short-period comets come from and how do we know?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 12 | Wrong: 0 | 62.9ms
+
+[13/50] Question: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 13 | Wrong: 0 | 65.5ms
+
+[14/50] Question: Why isn't there a planet where the asteroid belt is located?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 14 | Wrong: 0 | 59.6ms
+
+[15/50] Question: Why is Mars red?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 15 | Wrong: 0 | 58.8ms
+
+[16/50] Question: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 16 | Wrong: 0 | 65.2ms
+
+[17/50] Question: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 17 | Wrong: 0 | 63.5ms
+
+[18/50] Question: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 18 | Wrong: 0 | 69.7ms
+
+[19/50] Question: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 19 | Wrong: 0 | 68.5ms
+
+[20/50] Question: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 20 | Wrong: 0 | 68.2ms
+
+[21/50] Question: Which of the following regular expressions is equivalent to (describes the same set of strings as) (a* + b)*(c + d)?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 21 | Wrong: 0 | 64.9ms
+
+[22/50] Question: A certain pipelined RISC machine has 8 general-purpose registers R0, R1, . . . , R7 and supports the following operations.
+ADD Rs1, Rs2, Rd Add Rs1 to Rs2 and put the sum in Rd
+MUL Rs1, Rs2, Rd Multiply Rs1 by Rs2 and put the product in Rd
+An operation normally takes one cycle; however, an operation takes two cycles if it produces a result required by the immediately following operation in an operation sequence. Consider the expression AB + ABC + BC, where variables A, B, C are located in registers R0, R1, R2. If the contents of these three registers must not be modified, what is the minimum number of clock cycles required for an operation sequence that computes the value of AB + ABC + BC?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 22 | Wrong: 0 | 103.6ms
+
+[23/50] Question: The Singleton design pattern is used to guarantee that only a single instance of a class may be instantiated. Which of the following is (are) true of this design pattern?
+I. The Singleton class has a static factory method to provide its instance.
+II. The Singleton class can be a subclass of another class.
+III. The Singleton class has a private constructor.
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 23 | Wrong: 0 | 77.4ms
+
+[24/50] Question: A compiler generates code for the following assignment statement.
+G := (A + B) * C - (D + E) * F
+The target machine has a single accumulator and a single-address instruction set consisting of instructions load, store, add, subtract, and multiply. For the arithmetic operations, the left operand is taken from the accumulator and the result appears in the accumulator. The smallest possible number of instructions in the resulting code is
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 24 | Wrong: 0 | 78.1ms
+
+[25/50] Question: Consider a computer design in which multiple processors, each with a private cache memory, share global memory using a single bus. This bus is the critical system resource. Each processor can execute one instruction every 500 nanoseconds as long as memory references are satisfied by its local cache. When a cache miss occurs, the processor is delayed for an additional 2,000 nanoseconds. During half of this additional delay, the bus is dedicated to serving the cache miss. During the other half, the processor cannot continue, but the bus is free to service requests from other processors. On average, each instruction requires 2 memory references. On average, cache misses occur on 1 percent of references. What proportion of the capacity of the bus would a single processor consume, ignoring delays due to competition from other processors?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 25 | Wrong: 0 | 102.8ms
+
+[26/50] Question: Why am I unable to transfer money when I was able to before?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 1 | 62.6ms
+
+[27/50] Question: i need help paying my rent bill
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 2 | 59.6ms
+
+[28/50] Question: Is it possible for me to change my PIN number?
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 25 | Wrong: 3 | 59.6ms
+
+[29/50] Question: can you spell "diatribe" for me
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 25 | Wrong: 4 | 59.3ms
+
+[30/50] Question: How much does top up fees cost?
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 5 | 59.2ms
+
+[31/50] Question: What if there is an error on the exchange rate?
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 25 | Wrong: 6 | 59.7ms
+
+[32/50] Question: what is the remainder of my starbucks rewards balance
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 25 | Wrong: 7 | 59.5ms
+
+[33/50] Question: I'm not sure why my card didn't work
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 25 | Wrong: 8 | 59.6ms
+
+[34/50] Question: help me to understand the conversion between tablespoons and teaspoons
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 25 | Wrong: 9 | 59.5ms
+
+[35/50] Question: Why am I getting declines when trying to make a purchase online?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 10 | 59.7ms
+
+[36/50] Question: I don't think my top up worked
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 25 | Wrong: 11 | 59.6ms
+
+[37/50] Question: limits on top ups
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 25 | Wrong: 12 | 59.8ms
+
+[38/50] Question: tell your hobbies
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 13 | 59.0ms
+
+[39/50] Question: Can you explain why my payment was charged a fee?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 14 | 59.5ms
+
+[40/50] Question: How long does a transfer from a UK account take? I just made one and it doesn't seem to be working, wondering if everything is okay
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 15 | 64.1ms
+
+[41/50] Question: how many day of my vacation are left for the year
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 16 | 59.1ms
+
+[42/50] Question: how many people fall victim to internet scams per year
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 17 | 59.3ms
+
+[43/50] Question: what is the arrival time for my flight
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 18 | 59.0ms
+
+[44/50] Question: can you find a recipe on how to make chow mein
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 19 | 59.6ms
+
+[45/50] Question: i need my pin number
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 20 | 59.3ms
+
+[46/50] Question: It looks like my card payment was sent back.
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 21 | 59.2ms
+
+[47/50] Question: After I transferred money the balance remained the same.
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 25 | Wrong: 22 | 59.3ms
+
+[48/50] Question: how is the traffic typically at noon on the route to hospital
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 23 | 59.6ms
+
+[49/50] Question: are there any holiday's comming up
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 25 | Wrong: 24 | 59.0ms
+
+[50/50] Question: What is the $1 transaction on my account?
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 25 | Wrong: 25 | 59.3ms
+
+=== ROUTING RESULTS ===
+Correct: 25
+Wrong:   25
+Errors:  0
+Total:   50
+saved: /home/maniles/manile/manile/results/dev_eval_service_5/cross-encoder_Qwen-Qwen3-Reranker-4B.json
+saved: /home/maniles/manile/manile/results/dev_eval_service_5/cross-encoder_Qwen-Qwen3-Reranker-4B.csv
+saved: /home/maniles/manile/manile/results/dev_eval_service_5/cross-encoder_Qwen-Qwen3-Reranker-4B_efficiency.json
+
+=== ENERGY / CARBON ===
+Total CO2 (kg): 0.0002977531066154019
+Total energy (kWh): 0.0005426598284928555
+DONE
+============================================================
+
+
+BENCHMARK FINISHED
+
+[run_benchmark] CrossEncoderRouter finished in 15.3s (0.3 min)
+
+**********************************************************************
+* CONDITION k=8
+*   service_desc_path: /home/maniles/manile/manile/data/dataset/service_descriptions_8.json
+*   dataset_path:      /home/maniles/manile/manile/data/dataset/dev_eval_service_8.csv
+**********************************************************************
+
+######################################################################
+# RUN 3/4: CrossEncoderRouter (Qwen/Qwen3-Reranker-4B) on /home/maniles/manile/manile/data/dataset/dev_eval_service_8.csv
+######################################################################
+
+[CrossEncoderRouter] Loading cross-encoder model 'Qwen/Qwen3-Reranker-4B'...
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4011.36it/s]
+[CrossEncoderRouter] Model loaded in 7.53s — running on device: cuda:0
+[CrossEncoderRouter] Loaded 8 services.
+[CrossEncoderRouter] Ready to route.
+
+============================================================
+Starting benchmark: CrossEncoderRouter on /home/maniles/manile/manile/data/dataset/dev_eval_service_8.csv
+Total rows to process: 65
+============================================================
+
+
+[1/65] Question: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 1 | Wrong: 0 | 93.4ms
+
+[2/65] Question: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 2 | Wrong: 0 | 101.0ms
+
+[3/65] Question: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 3 | Wrong: 0 | 93.7ms
+
+[4/65] Question: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 4 | Wrong: 0 | 93.4ms
+
+[5/65] Question: Find the characteristic of the ring 2Z.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 5 | Wrong: 0 | 81.3ms
+
+[6/65] Question: What is the embryological origin of the hyoid bone?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 6 | Wrong: 0 | 81.0ms
+
+[7/65] Question: Which of these branches of the trigeminal nerve contain somatic motor processes?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 7 | Wrong: 0 | 82.0ms
+
+[8/65] Question: The pleura
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 8 | Wrong: 0 | 79.2ms
+
+[9/65] Question: In Angle's Class II Div 2 occlusion there is
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 9 | Wrong: 0 | 81.3ms
+
+[10/65] Question: Which of the following is the body cavity that contains the pituitary gland?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 10 | Wrong: 0 | 81.1ms
+
+[11/65] Question: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 11 | Wrong: 0 | 92.5ms
+
+[12/65] Question: Where do most short-period comets come from and how do we know?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 12 | Wrong: 0 | 81.0ms
+
+[13/65] Question: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 13 | Wrong: 0 | 99.6ms
+
+[14/65] Question: Why isn't there a planet where the asteroid belt is located?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 14 | Wrong: 0 | 80.9ms
+
+[15/65] Question: Why is Mars red?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 15 | Wrong: 0 | 79.6ms
+
+[16/65] Question: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 16 | Wrong: 0 | 93.3ms
+
+[17/65] Question: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 17 | Wrong: 0 | 91.6ms
+
+[18/65] Question: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 18 | Wrong: 0 | 102.5ms
+
+[19/65] Question: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 19 | Wrong: 0 | 100.9ms
+
+[20/65] Question: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 20 | Wrong: 0 | 99.3ms
+
+[21/65] Question: Which of the following regular expressions is equivalent to (describes the same set of strings as) (a* + b)*(c + d)?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 21 | Wrong: 0 | 92.0ms
+
+[22/65] Question: A certain pipelined RISC machine has 8 general-purpose registers R0, R1, . . . , R7 and supports the following operations.
+ADD Rs1, Rs2, Rd Add Rs1 to Rs2 and put the sum in Rd
+MUL Rs1, Rs2, Rd Multiply Rs1 by Rs2 and put the product in Rd
+An operation normally takes one cycle; however, an operation takes two cycles if it produces a result required by the immediately following operation in an operation sequence. Consider the expression AB + ABC + BC, where variables A, B, C are located in registers R0, R1, R2. If the contents of these three registers must not be modified, what is the minimum number of clock cycles required for an operation sequence that computes the value of AB + ABC + BC?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 22 | Wrong: 0 | 152.3ms
+
+[23/65] Question: The Singleton design pattern is used to guarantee that only a single instance of a class may be instantiated. Which of the following is (are) true of this design pattern?
+I. The Singleton class has a static factory method to provide its instance.
+II. The Singleton class can be a subclass of another class.
+III. The Singleton class has a private constructor.
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 23 | Wrong: 0 | 110.5ms
+
+[24/65] Question: A compiler generates code for the following assignment statement.
+G := (A + B) * C - (D + E) * F
+The target machine has a single accumulator and a single-address instruction set consisting of instructions load, store, add, subtract, and multiply. For the arithmetic operations, the left operand is taken from the accumulator and the result appears in the accumulator. The smallest possible number of instructions in the resulting code is
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 24 | Wrong: 0 | 121.4ms
+
+[25/65] Question: Consider a computer design in which multiple processors, each with a private cache memory, share global memory using a single bus. This bus is the critical system resource. Each processor can execute one instruction every 500 nanoseconds as long as memory references are satisfied by its local cache. When a cache miss occurs, the processor is delayed for an additional 2,000 nanoseconds. During half of this additional delay, the bus is dedicated to serving the cache miss. During the other half, the processor cannot continue, but the bus is free to service requests from other processors. On average, each instruction requires 2 memory references. On average, cache misses occur on 1 percent of references. What proportion of the capacity of the bus would a single processor consume, ignoring delays due to competition from other processors?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 25 | Wrong: 0 | 152.0ms
+
+[26/65] Question: Which of the following is considered an acid anhydride?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 26 | Wrong: 0 | 81.7ms
+
+[27/65] Question: Which of the following is expected to be a polar molecule?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 27 | Wrong: 0 | 80.4ms
+
+[28/65] Question: From the solubility rules, which of the following is true?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 28 | Wrong: 0 | 81.1ms
+
+[29/65] Question: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 29 | Wrong: 0 | 111.2ms
+
+[30/65] Question: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 30 | Wrong: 0 | 124.3ms
+
+[31/65] Question: The rate of natural increase of a population is found by subtracting the
+→ predicted=high_school_geography | expected=high_school_geography | ✓ CORRECT | Correct: 31 | Wrong: 0 | 81.7ms
+
+[32/65] Question: During the third stage of the demographic transition model, which of the following is true?
+→ predicted=high_school_geography | expected=high_school_geography | ✓ CORRECT | Correct: 32 | Wrong: 0 | 81.8ms
+
+[33/65] Question: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?
+→ predicted=jurisprudence | expected=high_school_geography | ✗ WRONG | Correct: 32 | Wrong: 1 | 81.9ms
+
+[34/65] Question: The practice of hiring a foreign third-party service provider to run an operation is called
+→ predicted=business_ethics | expected=high_school_geography | ✗ WRONG | Correct: 32 | Wrong: 2 | 82.5ms
+
+[35/65] Question: Which one of the following items is an example of nonmaterial culture?
+→ predicted=high_school_geography | expected=high_school_geography | ✓ CORRECT | Correct: 33 | Wrong: 2 | 81.7ms
+
+[36/65] Question: Which position does Rawls claim is the least likely to be adopted by the POP (people in the original position)?
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 34 | Wrong: 2 | 91.8ms
+
+[37/65] Question: Functions of the law include all but which of the following?
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 35 | Wrong: 2 | 80.2ms
+
+[38/65] Question: Which word best summarizes Weber's explanation of the development of formally rational law?
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 36 | Wrong: 2 | 81.9ms
+
+[39/65] Question: The ________ School of jurisprudence postulates that the law is based on what is "correct."
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 37 | Wrong: 2 | 91.2ms
+
+[40/65] Question: Iverson Jewelers wrote a letter to Miller, 'We have received an exceptionally fine self winding Rolox watch which we will sell to you at a very favorable price.'
+→ predicted=business_ethics | expected=jurisprudence | ✗ WRONG | Correct: 37 | Wrong: 3 | 98.6ms
+
+[41/65] Question: Why am I unable to transfer money when I was able to before?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 4 | 81.7ms
+
+[42/65] Question: i need help paying my rent bill
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 37 | Wrong: 5 | 81.0ms
+
+[43/65] Question: Is it possible for me to change my PIN number?
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 37 | Wrong: 6 | 81.6ms
+
+[44/65] Question: can you spell "diatribe" for me
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 37 | Wrong: 7 | 81.5ms
+
+[45/65] Question: How much does top up fees cost?
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 8 | 80.9ms
+
+[46/65] Question: What if there is an error on the exchange rate?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 37 | Wrong: 9 | 80.7ms
+
+[47/65] Question: what is the remainder of my starbucks rewards balance
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 37 | Wrong: 10 | 81.0ms
+
+[48/65] Question: I'm not sure why my card didn't work
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 37 | Wrong: 11 | 80.7ms
+
+[49/65] Question: help me to understand the conversion between tablespoons and teaspoons
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 37 | Wrong: 12 | 80.6ms
+
+[50/65] Question: Why am I getting declines when trying to make a purchase online?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 13 | 80.9ms
+
+[51/65] Question: I don't think my top up worked
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 37 | Wrong: 14 | 80.7ms
+
+[52/65] Question: limits on top ups
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 37 | Wrong: 15 | 79.9ms
+
+[53/65] Question: tell your hobbies
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 16 | 78.8ms
+
+[54/65] Question: Can you explain why my payment was charged a fee?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 37 | Wrong: 17 | 80.6ms
+
+[55/65] Question: How long does a transfer from a UK account take? I just made one and it doesn't seem to be working, wondering if everything is okay
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 18 | 93.1ms
+
+[56/65] Question: how many day of my vacation are left for the year
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 19 | 80.2ms
+
+[57/65] Question: how many people fall victim to internet scams per year
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 37 | Wrong: 20 | 80.8ms
+
+[58/65] Question: what is the arrival time for my flight
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 21 | 81.5ms
+
+[59/65] Question: can you find a recipe on how to make chow mein
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 22 | 81.8ms
+
+[60/65] Question: i need my pin number
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 23 | 81.2ms
+
+[61/65] Question: It looks like my card payment was sent back.
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 24 | 81.5ms
+
+[62/65] Question: After I transferred money the balance remained the same.
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 37 | Wrong: 25 | 81.5ms
+
+[63/65] Question: how is the traffic typically at noon on the route to hospital
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 26 | 81.6ms
+
+[64/65] Question: are there any holiday's comming up
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 37 | Wrong: 27 | 81.7ms
+
+[65/65] Question: What is the $1 transaction on my account?
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 37 | Wrong: 28 | 80.8ms
+
+=== ROUTING RESULTS ===
+Correct: 37
+Wrong:   28
+Errors:  0
+Total:   65
+saved: /home/maniles/manile/manile/results/dev_eval_service_8/cross-encoder_Qwen-Qwen3-Reranker-4B.json
+saved: /home/maniles/manile/manile/results/dev_eval_service_8/cross-encoder_Qwen-Qwen3-Reranker-4B.csv
+saved: /home/maniles/manile/manile/results/dev_eval_service_8/cross-encoder_Qwen-Qwen3-Reranker-4B_efficiency.json
+
+=== ENERGY / CARBON ===
+Total CO2 (kg): 0.0005395969879661033
+Total energy (kWh): 0.000983424194203858
+DONE
+============================================================
+
+
+BENCHMARK FINISHED
+
+[run_benchmark] CrossEncoderRouter finished in 16.8s (0.3 min)
+
+**********************************************************************
+* CONDITION k=10
+*   service_desc_path: /home/maniles/manile/manile/data/dataset/service_descriptions_10.json
+*   dataset_path:      /home/maniles/manile/manile/data/dataset/dev_eval_service_10.csv
+**********************************************************************
+
+######################################################################
+# RUN 4/4: CrossEncoderRouter (Qwen/Qwen3-Reranker-4B) on /home/maniles/manile/manile/data/dataset/dev_eval_service_10.csv
+######################################################################
+
+[CrossEncoderRouter] Loading cross-encoder model 'Qwen/Qwen3-Reranker-4B'...
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:  99%|█████████▉| 395/398 [00:00<00:00, 3949.32it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 3967.46it/s]
+[CrossEncoderRouter] Model loaded in 7.52s — running on device: cuda:0
+[CrossEncoderRouter] Loaded 10 services.
+[CrossEncoderRouter] Ready to route.
+
+============================================================
+Starting benchmark: CrossEncoderRouter on /home/maniles/manile/manile/data/dataset/dev_eval_service_10.csv
+Total rows to process: 75
+============================================================
+
+
+[1/75] Question: Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 1 | Wrong: 0 | 109.9ms
+
+[2/75] Question: Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 2 | Wrong: 0 | 121.1ms
+
+[3/75] Question: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 3 | Wrong: 0 | 112.7ms
+
+[4/75] Question: Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 4 | Wrong: 0 | 112.8ms
+
+[5/75] Question: Find the characteristic of the ring 2Z.
+→ predicted=abstract_algebra | expected=abstract_algebra | ✓ CORRECT | Correct: 5 | Wrong: 0 | 102.0ms
+
+[6/75] Question: What is the embryological origin of the hyoid bone?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 6 | Wrong: 0 | 101.9ms
+
+[7/75] Question: Which of these branches of the trigeminal nerve contain somatic motor processes?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 7 | Wrong: 0 | 103.5ms
+
+[8/75] Question: The pleura
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 8 | Wrong: 0 | 100.5ms
+
+[9/75] Question: In Angle's Class II Div 2 occlusion there is
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 9 | Wrong: 0 | 102.3ms
+
+[10/75] Question: Which of the following is the body cavity that contains the pituitary gland?
+→ predicted=anatomy | expected=anatomy | ✓ CORRECT | Correct: 10 | Wrong: 0 | 103.8ms
+
+[11/75] Question: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 11 | Wrong: 0 | 111.4ms
+
+[12/75] Question: Where do most short-period comets come from and how do we know?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 12 | Wrong: 0 | 103.0ms
+
+[13/75] Question: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 13 | Wrong: 0 | 120.1ms
+
+[14/75] Question: Why isn't there a planet where the asteroid belt is located?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 14 | Wrong: 0 | 102.6ms
+
+[15/75] Question: Why is Mars red?
+→ predicted=astronomy | expected=astronomy | ✓ CORRECT | Correct: 15 | Wrong: 0 | 101.1ms
+
+[16/75] Question: Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 16 | Wrong: 0 | 113.9ms
+
+[17/75] Question: _______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 17 | Wrong: 0 | 109.5ms
+
+[18/75] Question: To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 18 | Wrong: 0 | 124.9ms
+
+[19/75] Question: Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 19 | Wrong: 0 | 122.0ms
+
+[20/75] Question: In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .
+→ predicted=business_ethics | expected=business_ethics | ✓ CORRECT | Correct: 20 | Wrong: 0 | 119.9ms
+
+[21/75] Question: Which of the following regular expressions is equivalent to (describes the same set of strings as) (a* + b)*(c + d)?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 21 | Wrong: 0 | 110.9ms
+
+[22/75] Question: A certain pipelined RISC machine has 8 general-purpose registers R0, R1, . . . , R7 and supports the following operations.
+ADD Rs1, Rs2, Rd Add Rs1 to Rs2 and put the sum in Rd
+MUL Rs1, Rs2, Rd Multiply Rs1 by Rs2 and put the product in Rd
+An operation normally takes one cycle; however, an operation takes two cycles if it produces a result required by the immediately following operation in an operation sequence. Consider the expression AB + ABC + BC, where variables A, B, C are located in registers R0, R1, R2. If the contents of these three registers must not be modified, what is the minimum number of clock cycles required for an operation sequence that computes the value of AB + ABC + BC?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 22 | Wrong: 0 | 188.2ms
+
+[23/75] Question: The Singleton design pattern is used to guarantee that only a single instance of a class may be instantiated. Which of the following is (are) true of this design pattern?
+I. The Singleton class has a static factory method to provide its instance.
+II. The Singleton class can be a subclass of another class.
+III. The Singleton class has a private constructor.
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 23 | Wrong: 0 | 134.4ms
+
+[24/75] Question: A compiler generates code for the following assignment statement.
+G := (A + B) * C - (D + E) * F
+The target machine has a single accumulator and a single-address instruction set consisting of instructions load, store, add, subtract, and multiply. For the arithmetic operations, the left operand is taken from the accumulator and the result appears in the accumulator. The smallest possible number of instructions in the resulting code is
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 24 | Wrong: 0 | 141.4ms
+
+[25/75] Question: Consider a computer design in which multiple processors, each with a private cache memory, share global memory using a single bus. This bus is the critical system resource. Each processor can execute one instruction every 500 nanoseconds as long as memory references are satisfied by its local cache. When a cache miss occurs, the processor is delayed for an additional 2,000 nanoseconds. During half of this additional delay, the bus is dedicated to serving the cache miss. During the other half, the processor cannot continue, but the bus is free to service requests from other processors. On average, each instruction requires 2 memory references. On average, cache misses occur on 1 percent of references. What proportion of the capacity of the bus would a single processor consume, ignoring delays due to competition from other processors?
+→ predicted=college_computer_science | expected=college_computer_science | ✓ CORRECT | Correct: 25 | Wrong: 0 | 187.2ms
+
+[26/75] Question:  Select the best translation into predicate logic: No people drive on Mars.
+→ predicted=formal_logic | expected=formal_logic | ✓ CORRECT | Correct: 26 | Wrong: 0 | 104.0ms
+
+[27/75] Question: Select the best translation into predicate logic.George borrows Hector's lawnmower. (g: George; h: Hector; l: Hector's lawnmower; Bxyx: x borrows y from z)
+→ predicted=formal_logic | expected=formal_logic | ✓ CORRECT | Correct: 27 | Wrong: 0 | 120.8ms
+
+[28/75] Question:  Select the best English interpretation of the given arguments in predicate logic.
+Dm
+(∀x)(Wx ⊃ ~Dx)
+(∀x)Wx ∨ Ag	/ (∃x)Ax
+→ predicted=formal_logic | expected=formal_logic | ✓ CORRECT | Correct: 28 | Wrong: 0 | 121.0ms
+
+[29/75] Question:  Construct a complete truth table for the following pairs of propositions. Then, using the truth tables, determine whether the statements are logically equivalent or contradictory. If neither, determine whether they are consistent or inconsistent. Justify your answers.
+E ⊃ (F · E) and ~E · F
+→ predicted=formal_logic | expected=formal_logic | ✓ CORRECT | Correct: 29 | Wrong: 0 | 125.5ms
+
+[30/75] Question:  Which of the given formulas of PL is the best symbolization of the following sentence?
+Turtles live long lives and are happy creatures, unless they are injured.
+→ predicted=formal_logic | expected=formal_logic | ✓ CORRECT | Correct: 30 | Wrong: 0 | 112.2ms
+
+[31/75] Question: Which of the following is considered an acid anhydride?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 31 | Wrong: 0 | 102.5ms
+
+[32/75] Question: Which of the following is expected to be a polar molecule?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 32 | Wrong: 0 | 102.4ms
+
+[33/75] Question: From the solubility rules, which of the following is true?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 33 | Wrong: 0 | 103.1ms
+
+[34/75] Question: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 34 | Wrong: 0 | 132.7ms
+
+[35/75] Question: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?
+→ predicted=high_school_chemistry | expected=high_school_chemistry | ✓ CORRECT | Correct: 35 | Wrong: 0 | 151.4ms
+
+[36/75] Question: The rate of natural increase of a population is found by subtracting the
+→ predicted=high_school_geography | expected=high_school_geography | ✓ CORRECT | Correct: 36 | Wrong: 0 | 103.8ms
+
+[37/75] Question: During the third stage of the demographic transition model, which of the following is true?
+→ predicted=high_school_geography | expected=high_school_geography | ✓ CORRECT | Correct: 37 | Wrong: 0 | 104.7ms
+
+[38/75] Question: Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?
+→ predicted=jurisprudence | expected=high_school_geography | ✗ WRONG | Correct: 37 | Wrong: 1 | 106.4ms
+
+[39/75] Question: The practice of hiring a foreign third-party service provider to run an operation is called
+→ predicted=business_ethics | expected=high_school_geography | ✗ WRONG | Correct: 37 | Wrong: 2 | 105.3ms
+
+[40/75] Question: Which one of the following items is an example of nonmaterial culture?
+→ predicted=world_religions | expected=high_school_geography | ✗ WRONG | Correct: 37 | Wrong: 3 | 103.4ms
+
+[41/75] Question: Which position does Rawls claim is the least likely to be adopted by the POP (people in the original position)?
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 38 | Wrong: 3 | 105.5ms
+
+[42/75] Question: Functions of the law include all but which of the following?
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 39 | Wrong: 3 | 103.1ms
+
+[43/75] Question: Which word best summarizes Weber's explanation of the development of formally rational law?
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 40 | Wrong: 3 | 102.9ms
+
+[44/75] Question: The ________ School of jurisprudence postulates that the law is based on what is "correct."
+→ predicted=jurisprudence | expected=jurisprudence | ✓ CORRECT | Correct: 41 | Wrong: 3 | 104.8ms
+
+[45/75] Question: Iverson Jewelers wrote a letter to Miller, 'We have received an exceptionally fine self winding Rolox watch which we will sell to you at a very favorable price.'
+→ predicted=business_ethics | expected=jurisprudence | ✗ WRONG | Correct: 41 | Wrong: 4 | 113.4ms
+
+[46/75] Question:  What is the sign of the covenant for Jewish males?
+→ predicted=world_religions | expected=world_religions | ✓ CORRECT | Correct: 42 | Wrong: 4 | 103.0ms
+
+[47/75] Question: What is the Second Gem in Buddhism?
+→ predicted=world_religions | expected=world_religions | ✓ CORRECT | Correct: 43 | Wrong: 4 | 101.5ms
+
+[48/75] Question:  In which dynasty was the "Mandate of Heaven" developed to legitimatize the new rulers?
+→ predicted=world_religions | expected=world_religions | ✓ CORRECT | Correct: 44 | Wrong: 4 | 104.9ms
+
+[49/75] Question:  Which Japanese government promoted a kind of national cult based on the emperor and his associations with kami?
+→ predicted=world_religions | expected=world_religions | ✓ CORRECT | Correct: 45 | Wrong: 4 | 105.1ms
+
+[50/75] Question: How can the Upanishads be characterized?
+→ predicted=world_religions | expected=world_religions | ✓ CORRECT | Correct: 46 | Wrong: 4 | 102.0ms
+
+[51/75] Question: Why am I unable to transfer money when I was able to before?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 46 | Wrong: 5 | 102.1ms
+
+[52/75] Question: i need help paying my rent bill
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 46 | Wrong: 6 | 101.4ms
+
+[53/75] Question: Is it possible for me to change my PIN number?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 46 | Wrong: 7 | 102.2ms
+
+[54/75] Question: can you spell "diatribe" for me
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 46 | Wrong: 8 | 102.0ms
+
+[55/75] Question: How much does top up fees cost?
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 46 | Wrong: 9 | 101.3ms
+
+[56/75] Question: What if there is an error on the exchange rate?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 46 | Wrong: 10 | 103.2ms
+
+[57/75] Question: what is the remainder of my starbucks rewards balance
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 46 | Wrong: 11 | 103.1ms
+
+[58/75] Question: I'm not sure why my card didn't work
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 46 | Wrong: 12 | 103.4ms
+
+[59/75] Question: help me to understand the conversion between tablespoons and teaspoons
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 46 | Wrong: 13 | 103.4ms
+
+[60/75] Question: Why am I getting declines when trying to make a purchase online?
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 46 | Wrong: 14 | 103.4ms
+
+[61/75] Question: I don't think my top up worked
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 46 | Wrong: 15 | 102.5ms
+
+[62/75] Question: limits on top ups
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 46 | Wrong: 16 | 100.5ms
+
+[63/75] Question: tell your hobbies
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 46 | Wrong: 17 | 99.9ms
+
+[64/75] Question: Can you explain why my payment was charged a fee?
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 46 | Wrong: 18 | 102.2ms
+
+[65/75] Question: How long does a transfer from a UK account take? I just made one and it doesn't seem to be working, wondering if everything is okay
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 46 | Wrong: 19 | 111.7ms
+
+[66/75] Question: how many day of my vacation are left for the year
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 46 | Wrong: 20 | 103.0ms
+
+[67/75] Question: how many people fall victim to internet scams per year
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 46 | Wrong: 21 | 102.6ms
+
+[68/75] Question: what is the arrival time for my flight
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 46 | Wrong: 22 | 101.6ms
+
+[69/75] Question: can you find a recipe on how to make chow mein
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 46 | Wrong: 23 | 102.8ms
+
+[70/75] Question: i need my pin number
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 46 | Wrong: 24 | 101.1ms
+
+[71/75] Question: It looks like my card payment was sent back.
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 46 | Wrong: 25 | 101.8ms
+
+[72/75] Question: After I transferred money the balance remained the same.
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 46 | Wrong: 26 | 101.6ms
+
+[73/75] Question: how is the traffic typically at noon on the route to hospital
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 46 | Wrong: 27 | 103.6ms
+
+[74/75] Question: are there any holiday's comming up
+→ predicted=world_religions | expected=general | ✗ WRONG | Correct: 46 | Wrong: 28 | 102.7ms
+
+[75/75] Question: What is the $1 transaction on my account?
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 46 | Wrong: 29 | 102.2ms
+
+=== ROUTING RESULTS ===
+Correct: 46
+Wrong:   29
+Errors:  0
+Total:   75
+saved: /home/maniles/manile/manile/results/dev_eval_service_10/cross-encoder_Qwen-Qwen3-Reranker-4B.json
+saved: /home/maniles/manile/manile/results/dev_eval_service_10/cross-encoder_Qwen-Qwen3-Reranker-4B.csv
+saved: /home/maniles/manile/manile/results/dev_eval_service_10/cross-encoder_Qwen-Qwen3-Reranker-4B_efficiency.json
+
+=== ENERGY / CARBON ===
+Total CO2 (kg): 0.0007801003581315764
+Total energy (kWh): 0.0014217454567071806
+DONE
+============================================================
+
+
+BENCHMARK FINISHED
+
+[run_benchmark] CrossEncoderRouter finished in 19.3s (0.3 min)
+
+======================================================================
+BENCHMARK COMPLETE — 4/4 runs succeeded
+======================================================================
+

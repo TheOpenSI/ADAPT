@@ -92,7 +92,7 @@ def run_all():
     for k in CONDITIONS:
         service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
         # MUST CHANGE DEV to TEST 
-        dataset_path = os.path.join(DATA_DIR, "dataset", f"dev_service_{k}.csv")
+        dataset_path = os.path.join(DATA_DIR, "dataset", f"dev_eval_service_{k}.csv")
 
         print(f"\n{'*' * 70}")
         print(f"* CONDITION k={k}")
