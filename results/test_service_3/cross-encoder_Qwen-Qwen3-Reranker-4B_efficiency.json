@@ -1,0 +1,11 @@
+{
+  "routing_method": "cross-encoder",
+  "model_name": "Qwen/Qwen3-Reranker-4B",
+  "specialist_service_count": 3,
+  "total_service_count": 3,
+  "total_queries": 400,
+  "total_energy_kwh": 0.004369903093845671,
+  "energy_per_query_kwh": 1.0924757734614179e-05,
+  "total_co2_kg": 0.0023977308683683692,
+  "co2_per_query_kg": 5.9943271709209235e-06
+}

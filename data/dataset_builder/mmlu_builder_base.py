@@ -6,8 +6,7 @@ sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 import pandas as pd
 from datasets import load_dataset
 from abc import ABC, abstractmethod
-from config import GENERAL_SUBJECTS
-
+from data.dataset_builder.config import GENERAL_SUBJECTS
 
 class MMLUBenchmarkBuilderBase (ABC):
     def __init__(self, split, include_general=False):

@@ -1,0 +1,54 @@
+
+=== ROC THRESHOLD ANALYSIS ===
+Rows: 227
+Best threshold: 1.8576
+Best TPR: 0.8889
+Best FPR: 0.1890
+Best Youden J: 0.6999
+
+Top Z-score Distribution
+count    227.000000
+mean       1.652402
+std        0.325937
+min        0.555900
+25%        1.391800
+50%        1.759400
+75%        1.938850
+max        1.999600
+Name: top_zscore, dtype: float64
+
+=== ROC THRESHOLD ANALYSIS ===
+Rows: 282
+Best threshold: 2.3433
+Best TPR: 0.7542
+Best FPR: 0.1524
+Best Youden J: 0.6018
+
+Top Z-score Distribution
+count    282.000000
+mean       2.093442
+std        0.425446
+min        0.899200
+25%        1.788050
+50%        2.197500
+75%        2.465775
+max        2.639100
+Name: top_zscore, dtype: float64
+
+=== ROC THRESHOLD ANALYSIS ===
+Rows: 315
+Best threshold: 2.4460
+Best TPR: 0.8411
+Best FPR: 0.1768
+Best Youden J: 0.6642
+
+Top Z-score Distribution
+count    315.000000
+mean       2.327323
+std        0.492786
+min        1.098700
+25%        1.903900
+50%        2.441300
+75%        2.757050
+max        2.982700
+Name: top_zscore, dtype: float64

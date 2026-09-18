@@ -1,0 +1,252 @@
+[1] Full dataset loaded: (1531, 4)
+[1] Number of subjects: 57
+
+============================================================
+BUILDING VALIDATION DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy']
+[2] General-source subjects:
+['high_school_us_history', 'prehistory', 'sociology', 'high_school_psychology', 'marketing']
+[2] Filtered dataset shape: (205, 4)
+[2] Original subject counts:
+subject
+high_school_psychology    60
+prehistory                35
+marketing                 25
+high_school_us_history    22
+sociology                 22
+astronomy                 16
+anatomy                   14
+abstract_algebra          11
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+general             164
+astronomy            16
+anatomy              14
+abstract_algebra     11
+Name: count, dtype: int64
+
+[3] Subjects inside 'general':
+subject
+high_school_psychology    60
+prehistory                35
+marketing                 25
+high_school_us_history    22
+sociology                 22
+Name: count, dtype: int64
+
+[4] Saved: /home/maniles/manile/manile/calibration_threshold/dataset/validation_service_3.csv
+[4] Saved: /home/maniles/manile/manile/calibration_threshold/dataset/validation_service_3.json
+
+[DONE] validation_service_3
+[DONE] Total rows: 205
+expected_service
+general             164
+astronomy            16
+anatomy              14
+abstract_algebra     11
+Name: count, dtype: int64
+
+============================================================
+BUILDING VALIDATION DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science']
+[2] General-source subjects:
+['high_school_us_history', 'prehistory', 'sociology', 'high_school_psychology', 'marketing']
+[2] Filtered dataset shape: (227, 4)
+[2] Original subject counts:
+subject
+high_school_psychology      60
+prehistory                  35
+marketing                   25
+high_school_us_history      22
+sociology                   22
+astronomy                   16
+anatomy                     14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+general                     164
+astronomy                    16
+anatomy                      14
+abstract_algebra             11
+business_ethics              11
+college_computer_science     11
+Name: count, dtype: int64
+
+[3] Subjects inside 'general':
+subject
+high_school_psychology    60
+prehistory                35
+marketing                 25
+high_school_us_history    22
+sociology                 22
+Name: count, dtype: int64
+
+[4] Saved: /home/maniles/manile/manile/calibration_threshold/dataset/validation_service_5.csv
+[4] Saved: /home/maniles/manile/manile/calibration_threshold/dataset/validation_service_5.json
+
+[DONE] validation_service_5
+[DONE] Total rows: 227
+expected_service
+general                     164
+astronomy                    16
+anatomy                      14
+abstract_algebra             11
+business_ethics              11
+college_computer_science     11
+Name: count, dtype: int64
+
+============================================================
+BUILDING VALIDATION DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science', 'high_school_chemistry', 'high_school_geography', 'jurisprudence']
+[2] General-source subjects:
+['high_school_us_history', 'prehistory', 'sociology', 'high_school_psychology', 'marketing']
+[2] Filtered dataset shape: (282, 4)
+[2] Original subject counts:
+subject
+high_school_psychology      60
+prehistory                  35
+marketing                   25
+high_school_chemistry       22
+high_school_geography       22
+high_school_us_history      22
+sociology                   22
+astronomy                   16
+anatomy                     14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+general                     164
+high_school_chemistry        22
+high_school_geography        22
+astronomy                    16
+anatomy                      14
+abstract_algebra             11
+business_ethics              11
+college_computer_science     11
+jurisprudence                11
+Name: count, dtype: int64
+
+[3] Subjects inside 'general':
+subject
+high_school_psychology    60
+prehistory                35
+marketing                 25
+high_school_us_history    22
+sociology                 22
+Name: count, dtype: int64
+
+[4] Saved: /home/maniles/manile/manile/calibration_threshold/dataset/validation_service_8.csv
+[4] Saved: /home/maniles/manile/manile/calibration_threshold/dataset/validation_service_8.json
+
+[DONE] validation_service_8
+[DONE] Total rows: 282
+expected_service
+general                     164
+high_school_chemistry        22
+high_school_geography        22
+astronomy                    16
+anatomy                      14
+abstract_algebra             11
+business_ethics              11
+college_computer_science     11
+jurisprudence                11
+Name: count, dtype: int64
+
+============================================================
+BUILDING VALIDATION DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science', 'high_school_chemistry', 'high_school_geography', 'jurisprudence', 'world_religions', 'formal_logic']
+[2] General-source subjects:
+['high_school_us_history', 'prehistory', 'sociology', 'high_school_psychology', 'marketing']
+[2] Filtered dataset shape: (315, 4)
+[2] Original subject counts:
+subject
+high_school_psychology      60
+prehistory                  35
+marketing                   25
+high_school_chemistry       22
+high_school_geography       22
+high_school_us_history      22
+sociology                   22
+world_religions             19
+astronomy                   16
+anatomy                     14
+formal_logic                14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+general                     164
+high_school_chemistry        22
+high_school_geography        22
+world_religions              19
+astronomy                    16
+anatomy                      14
+formal_logic                 14
+abstract_algebra             11
+business_ethics              11
+college_computer_science     11
+jurisprudence                11
+Name: count, dtype: int64
+
+[3] Subjects inside 'general':
+subject
+high_school_psychology    60
+prehistory                35
+marketing                 25
+high_school_us_history    22
+sociology                 22
+Name: count, dtype: int64
+
+[4] Saved: /home/maniles/manile/manile/calibration_threshold/dataset/validation_service_10.csv
+[4] Saved: /home/maniles/manile/manile/calibration_threshold/dataset/validation_service_10.json
+
+[DONE] validation_service_10
+[DONE] Total rows: 315
+expected_service
+general                     164
+high_school_chemistry        22
+high_school_geography        22
+world_religions              19
+astronomy                    16
+anatomy                      14
+formal_logic                 14
+abstract_algebra             11
+business_ethics              11
+college_computer_science     11
+jurisprudence                11
+Name: count, dtype: int64

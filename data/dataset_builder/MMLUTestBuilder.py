@@ -1,9 +1,18 @@
 import os
 import sys
-sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
+
+PROJECT_ROOT = os.path.abspath(
+    os.path.join(
+        os.path.dirname(__file__),
+        "..",
+        ".."
+    )
+)
+
+sys.path.append(PROJECT_ROOT)
 
 
-from dataset_builder.mmlu_builder_base import MMLUBenchmarkBuilderBase
+from data.dataset_builder.mmlu_builder_base import MMLUBenchmarkBuilderBase
 import pandas as pd
 from config import SERVICE_SETS
 

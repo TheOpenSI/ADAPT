@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/Users/manilesrun/Desktop/Queryanalyser/QA/main.py", line 13, in <module>
-    from data_collector.BenchmarkRunner import BenchmarkRunner
-  File "/Users/manilesrun/Desktop/Queryanalyser/QA/data_collector/BenchmarkRunner.py", line 8, in <module>
-    from codecarbon import EmissionsTracker
-ModuleNotFoundError: No module named 'codecarbon'

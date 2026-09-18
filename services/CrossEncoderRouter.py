@@ -125,7 +125,9 @@ class CrossEncoderRouter(RouterBase):
             "completion_tokens": 0,
             "total_tokens": prompt_tokens,
             "scores": scores_dict,
-            "confidence": confidence_result
+            "confidence": confidence_result,
+            "top_zscore": confidence_result["top_zscore"],
+            "is_confident": confidence_result["is_confident"],
         }
 
 

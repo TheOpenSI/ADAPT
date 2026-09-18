@@ -5,7 +5,6 @@ import time
 import torch
 
 
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)
 
@@ -15,6 +14,7 @@ from services.SemanticRouter import SemanticRouter
 from services.CrossEncoderRouter import CrossEncoderRouter
 from services.ColBERTRouter import ColBERTRouter
 from services.QueryAnalyser import QueryAnalyser
+from services.confidence_checker.config import CONFIDENCE_LEVELS
 
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -32,7 +32,7 @@ MODEL_CONFIGS = [
     # dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5"),
     # dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
-    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B"),
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",confidence_c=2.3433),
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
     # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2"),
     # dict(cls=CrossEncoderRouter, model_name="BAAI/bge-reranker-v2-m3"),
@@ -119,6 +119,8 @@ def run_all():
                     service_desc_path=service_desc_path,
                     model_name=cfg["model_name"],
                     verbose=VERBOSE,
+                    confidence_c=cfg["confidence_c"]
+
                 )
 
                 # print("\nMODEL LOADED AND READY")
