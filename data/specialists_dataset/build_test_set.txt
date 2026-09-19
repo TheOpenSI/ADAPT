@@ -1,0 +1,226 @@
+[1] Full dataset loaded: (14042, 4)
+[1] Number of subjects: 57
+
+============================================================
+BUILDING TEST DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy']
+[2] Filtered dataset shape: (387, 4)
+[2] Original subject counts:
+subject
+astronomy           152
+anatomy             135
+abstract_algebra    100
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+astronomy           152
+anatomy             135
+abstract_algebra    100
+Name: count, dtype: int64
+
+[4] Sampling specialist services...
+[4] Sampled specialist subject counts:
+subject
+abstract_algebra    100
+anatomy             100
+astronomy           100
+Name: count, dtype: int64
+
+[7] Saved: ../specialists_dataset/test_service_3.csv
+[7] Saved: ../specialists_dataset/test_service_3.json
+
+[DONE] test_service_3
+[DONE] Total rows: 300
+expected_service
+abstract_algebra    100
+anatomy             100
+astronomy           100
+Name: count, dtype: int64
+
+============================================================
+BUILDING TEST DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science']
+[2] Filtered dataset shape: (587, 4)
+[2] Original subject counts:
+subject
+astronomy                   152
+anatomy                     135
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+astronomy                   152
+anatomy                     135
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+Name: count, dtype: int64
+
+[4] Sampling specialist services...
+[4] Sampled specialist subject counts:
+subject
+abstract_algebra            100
+anatomy                     100
+astronomy                   100
+business_ethics             100
+college_computer_science    100
+Name: count, dtype: int64
+
+[7] Saved: ../specialists_dataset/test_service_5.csv
+[7] Saved: ../specialists_dataset/test_service_5.json
+
+[DONE] test_service_5
+[DONE] Total rows: 500
+expected_service
+abstract_algebra            100
+anatomy                     100
+astronomy                   100
+business_ethics             100
+college_computer_science    100
+Name: count, dtype: int64
+
+============================================================
+BUILDING TEST DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science', 'high_school_chemistry', 'high_school_geography', 'jurisprudence']
+[2] Filtered dataset shape: (1096, 4)
+[2] Original subject counts:
+subject
+high_school_chemistry       203
+high_school_geography       198
+astronomy                   152
+anatomy                     135
+jurisprudence               108
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+high_school_chemistry       203
+high_school_geography       198
+astronomy                   152
+anatomy                     135
+jurisprudence               108
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+Name: count, dtype: int64
+
+[4] Sampling specialist services...
+[4] Sampled specialist subject counts:
+subject
+abstract_algebra            100
+anatomy                     100
+astronomy                   100
+business_ethics             100
+college_computer_science    100
+high_school_chemistry       100
+high_school_geography       100
+jurisprudence               100
+Name: count, dtype: int64
+
+[7] Saved: ../specialists_dataset/test_service_8.csv
+[7] Saved: ../specialists_dataset/test_service_8.json
+
+[DONE] test_service_8
+[DONE] Total rows: 800
+expected_service
+abstract_algebra            100
+anatomy                     100
+astronomy                   100
+business_ethics             100
+college_computer_science    100
+high_school_chemistry       100
+high_school_geography       100
+jurisprudence               100
+Name: count, dtype: int64
+
+============================================================
+BUILDING TEST DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science', 'high_school_chemistry', 'high_school_geography', 'jurisprudence', 'world_religions', 'formal_logic']
+[2] Filtered dataset shape: (1393, 4)
+[2] Original subject counts:
+subject
+high_school_chemistry       203
+high_school_geography       198
+world_religions             171
+astronomy                   152
+anatomy                     135
+formal_logic                126
+jurisprudence               108
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+high_school_chemistry       203
+high_school_geography       198
+world_religions             171
+astronomy                   152
+anatomy                     135
+formal_logic                126
+jurisprudence               108
+abstract_algebra            100
+business_ethics             100
+college_computer_science    100
+Name: count, dtype: int64
+
+[4] Sampling specialist services...
+[4] Sampled specialist subject counts:
+subject
+abstract_algebra            100
+anatomy                     100
+astronomy                   100
+business_ethics             100
+college_computer_science    100
+formal_logic                100
+high_school_chemistry       100
+high_school_geography       100
+jurisprudence               100
+world_religions             100
+Name: count, dtype: int64
+
+[7] Saved: ../specialists_dataset/test_service_10.csv
+[7] Saved: ../specialists_dataset/test_service_10.json
+
+[DONE] test_service_10
+[DONE] Total rows: 1000
+expected_service
+abstract_algebra            100
+anatomy                     100
+astronomy                   100
+business_ethics             100
+college_computer_science    100
+formal_logic                100
+high_school_chemistry       100
+high_school_geography       100
+jurisprudence               100
+world_religions             100
+Name: count, dtype: int64

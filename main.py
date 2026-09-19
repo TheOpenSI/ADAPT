@@ -32,7 +32,7 @@ MODEL_CONFIGS = [
     # dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5"),
     # dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
-    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B"),
+    # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B"),
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
     # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2"),
     # dict(cls=CrossEncoderRouter, model_name="BAAI/bge-reranker-v2-m3"),
@@ -40,6 +40,12 @@ MODEL_CONFIGS = [
     # dict(cls=ColBERTRouter, model_name="colbert-ir/colbertv2.0"),
     # dict(cls=ColBERTRouter, model_name="mixedbread-ai/mxbai-colbert-large-v1"),
     # dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M"),
+
+
+    # dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
+    # dict(cls=QueryAnalyser, model_name="phi4:14b"),
+    dict(cls=QueryAnalyser, model_name="qwen2.5:7b"),
+    dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
 ]
 
     # dict(
@@ -92,7 +98,7 @@ def run_all():
     for k in CONDITIONS:
         service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
         # MUST CHANGE DEV to TEST 
-        dataset_path = os.path.join(DATA_DIR, "dataset", f"dev_eval_service_{k}.csv")
+        dataset_path = os.path.join(DATA_DIR, "dataset", f"test_eval_service_{k}.csv")
 
         print(f"\n{'*' * 70}")
         print(f"* CONDITION k={k}")

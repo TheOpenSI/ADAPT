@@ -15,11 +15,18 @@ class CrossEncoderRouter(RouterBase):
     def __init__(self, 
                  service_desc_path, 
                  model_name, 
-                 verbose=False
-                 ):
+                 verbose=False,
+                 
+                 confidence_threshold=1.5,
+                 fallback_label="general"
+    ):
 
         super().__init__(service_desc_path, model_name)
         self.verbose = verbose
+
+
+        self.confidence_threshold = confidence_threshold
+        self.fallback_label = fallback_label
 
  
         print(f"[CrossEncoderRouter] Loading cross-encoder model '{model_name}'...")
@@ -57,8 +64,9 @@ class CrossEncoderRouter(RouterBase):
         best_idx = raw_scores.argmax()
         top_label = names[best_idx]
 
-        # winner 
-        predicted_label = top_label
+        # # for analysis only: winner 
+        # predicted_label = top_label
+
 
         # Get raw scores
         scores = [float(s) for s in raw_scores]
@@ -67,6 +75,11 @@ class CrossEncoderRouter(RouterBase):
         confidence = ConfidenceMetrics(scores_dict)
         confidence_result = confidence.calculate()
 
+        zscore_margin = confidence_result["zscore_margin"]
+        if zscore_margin >= self.confidence_threshold:
+            predicted_label = top_label
+        else:
+            predicted_label = self.fallback_label
 
         # wait for GPU to stop properly first before stopping timer
         if torch.cuda.is_available():
@@ -98,6 +111,9 @@ class CrossEncoderRouter(RouterBase):
                 f" max={confidence_result['max']}"
                 f" | margin={confidence_result['margin']}"
                 f" | top_zscore={confidence_result['top_zscore']}"
+                f" | zscore_margin={confidence_result['zscore_margin']}"
+                f" | threshold={self.confidence_threshold}"
+
             )
 
             print(f"  -> routed to: {predicted_label} | {latency_ms:.1f}ms | {prompt_tokens} tok")
@@ -131,6 +147,8 @@ class CrossEncoderRouter(RouterBase):
 
             "scores": scores_dict,
             "zscores": confidence_result["zscores"],
+
+            "confidence_threshold": self.confidence_threshold,
         }
 
 

@@ -1,0 +1,11 @@
+{
+  "routing_method": "llm",
+  "model_name": "phi4:14b",
+  "specialist_service_count": 8,
+  "total_service_count": 8,
+  "total_queries": 900,
+  "total_energy_kwh": 0.010462279349876468,
+  "energy_per_query_kwh": 1.1624754833196075e-05,
+  "total_co2_kg": 0.00574056898104242,
+  "co2_per_query_kg": 6.3784099789360216e-06
+}

@@ -9,8 +9,8 @@ from datasets import load_dataset
 
 class ExternalGeneralBuilder:
     def __init__(self, 
-                 banking_samples=12,
-                 clinc_samples=13,
+                 banking_samples=25,
+                 clinc_samples=25,
                  banking_split="train",
                  clinc_split="train",
                  seed=42):
@@ -116,16 +116,16 @@ class ExternalGeneralBuilder:
 
 if __name__ == "__main__":
     builder = ExternalGeneralBuilder(
-        banking_samples=13,
-        clinc_samples=12,
-        banking_split="train",
-        clinc_split="train",
+        banking_samples=50,
+        clinc_samples=50,
+        banking_split="test",
+        clinc_split="test",
         seed=42
 )
     
 
     builder.build_and_save(
-        dataset_name="dev_external_general"
+        dataset_name="test_external_general"
 )
 
 

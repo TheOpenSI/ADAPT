@@ -3,22 +3,22 @@ import sys
 sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 
 
-from dataset_builder.mmlu_builder_base import MMLUBenchmarkBuilderBase
+from specialists_dataset.mmlu_builder_base import MMLUBenchmarkBuilderBase
 import pandas as pd
-from data.dataset.config import SERVICE_SETS
+from dataset.config import SERVICE_SETS
 
 class MMLUTestBuilder(MMLUBenchmarkBuilderBase):
     def __init__(
         self,
         split="test",
         per_specialist_subject_cap=100,
-        per_general_subject_cap=20,
+        # per_general_subject_cap=20,
         random_state=42
     ):
-        super().__init__(split,include_general=True)
+        super().__init__(split,include_general=False)
 
         self.per_specialist_subject_cap = per_specialist_subject_cap
-        self.per_general_subject_cap = per_general_subject_cap
+        # self.per_general_subject_cap = per_general_subject_cap
         self.random_state = random_state
 
 
@@ -41,45 +41,45 @@ class MMLUTestBuilder(MMLUBenchmarkBuilderBase):
         return sampled_specialist
 
 
-    def _cap_general(self, df):
-        """
-        Sample a fixed number of questions from each general-source subject
-        while keeping all specialist-service questions.
-        """
-        print("\n[5] Sampling general subjects...")
+    # def _cap_general(self, df):
+    #     """
+    #     Sample a fixed number of questions from each general-source subject
+    #     while keeping all specialist-service questions.
+    #     """
+    #     print("\n[5] Sampling general subjects...")
 
-        general_df = df[df["expected_service"] == "general"]
+    #     general_df = df[df["expected_service"] == "general"]
 
-        sampled_general = (
-            general_df
-            .groupby("subject", group_keys=False)
-            .sample(
-                n=self.per_general_subject_cap,
-                random_state=self.random_state
-            )
-        )
+    #     sampled_general = (
+    #         general_df
+    #         .groupby("subject", group_keys=False)
+    #         .sample(
+    #             n=self.per_general_subject_cap,
+    #             random_state=self.random_state
+    #         )
+    #     )
 
-        print("[5] Sampled general subject counts:")
-        print(sampled_general["subject"].value_counts())
+    #     print("[5] Sampled general subject counts:")
+    #     print(sampled_general["subject"].value_counts())
 
-        return sampled_general
+    #     return sampled_general
 
 
-    def _combine_data(self, df):
+    # def _combine_data(self, df):
 
-        sampled_specialist = self._cap_specialist(df)
-        sampled_general = self._cap_general(df)
+    #     sampled_specialist = self._cap_specialist(df)
+    #     sampled_general = self._cap_general(df)
 
-        print("\n[6] Combining specialist and general samples...")
-        final_data = pd.concat(
-            [sampled_specialist, sampled_general],
-            ignore_index=True
-        )
+    #     print("\n[6] Combining specialist and general samples...")
+    #     final_data = pd.concat(
+    #         [sampled_specialist, sampled_general],
+    #         ignore_index=True
+    #     )
 
-        print("[6] Expected service counts after sampling:")
-        print(final_data["expected_service"].value_counts())
+    #     print("[6] Expected service counts after sampling:")
+    #     print(final_data["expected_service"].value_counts())
 
-        return final_data
+    #     return final_data
 
 
     def _select_columns(self, df):
@@ -87,7 +87,7 @@ class MMLUTestBuilder(MMLUBenchmarkBuilderBase):
         Keep only the columns required for final routing evaluation.
         """
         return df[
-            ["question", "expected_service"]
+            ["question", "subject", "expected_service"]
         ].copy()
 
     def _save_files(self, df, service_id):
@@ -95,7 +95,7 @@ class MMLUTestBuilder(MMLUBenchmarkBuilderBase):
         Save the final test dataset as CSV and JSON.
         """
 
-        base_path = f"../dataset/test_service_{service_id}"
+        base_path = f"../specialists_dataset/test_service_{service_id}"
 
         df.to_csv(
             f"{base_path}.csv",
@@ -124,13 +124,13 @@ class MMLUTestBuilder(MMLUBenchmarkBuilderBase):
             subjects
         )
 
-        sampled_data = self._combine_data(
-            converted_data
-        )
+        # sampled_data = self._combine_data(
+        #     converted_data
+        # )
 
-        routing_data = self._select_columns(
-            sampled_data
-        )
+        sampled_specialist = self._cap_specialist(converted_data)
+
+        routing_data = self._select_columns(sampled_specialist)
 
         return routing_data
 

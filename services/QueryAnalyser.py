@@ -45,11 +45,11 @@ class QueryAnalyser(RouterBase):
         "- If more than one specialist service seems plausible, choose the one whose "
         "description is the more specific and direct match.\n"
         "- If the query does not match any of the listed specialist services, "
-        "return general.\n"
+        "return -1.\n"
+        "- For a fallback query, respond exactly 'service -1'.\n"
         "- Never assume a specialist service exists beyond those listed below.\n"
         "- Respond only in the exact form 'service $name'.\n"
         "- For a specialist query, $name must exactly match one of the listed specialist names.\n"
-        "- For a fallback query, respond exactly 'service general'.\n"
         "- Do not include any explanation or additional text.\n\n"
 
         f"Specialist services:\n{active_services_joined}\n\n"
@@ -71,7 +71,7 @@ class QueryAnalyser(RouterBase):
             cleaned = cleaned[len("service "):].strip()
 
         # General is an allowed fallback
-        if cleaned == "general":
+        if cleaned in ["general", "-1"]:
             return "general"
 
         # Specialist must exactly match a listed service
@@ -146,29 +146,50 @@ class QueryAnalyser(RouterBase):
             "routing_method": self.routing_method,
             "query": query,
             "raw_response": raw_label,
+
             "predicted_label": predicted_label,
+            "top_candidate": predicted_label,
+
             "model_name": self.model_name,
+
             "latency_ms": latency_ms,
             "prompt_tokens": prompt_tokens,
             "completion_tokens": completion_tokens,
             "total_tokens": total_tokens,
+
+            "max_score": None,
+            "margin": None,
+            "margin_ratio": None,
+            "normalized_margin": None,
+
+            "mean_score": None,
+            "std_score": None,
+
+            "top_zscore": None,
+            "second_top_zscore": None,
+            "zscore_margin": None,
+
+            "scores": None,
+            "zscores": None,
+
+            "confidence_threshold": None,
         }
 
 
-# if __name__ == "__main__":
-#     analyser = QueryAnalyser(
-#         service_desc_path="../data/dataset/service_descriptions_3.json",
-#         model_name="qwen2.5:7b",
-#         verbose=True,
-#     )
+if __name__ == "__main__":
+    analyser = QueryAnalyser(
+        service_desc_path="../data/dataset/service_descriptions_3.json",
+        model_name="qwen2.5:14b",
+        verbose=True,
+    )
 
-#     test_queries = [
-#         "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
-#         "Why is the sky blue?",
-#         "Which of the following statements is true?",
-#     ]
+    test_queries = [
+        "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
+        "Why is the sky blue?",
+        "Which of the following statements is true?",
+    ]
 
-#     for query in test_queries:
-#         print(f"\n--- query: {query[:60]}... ---")
-#         result = analyser.route(query)
-#         print(f"result dict: {result}")
+    for query in test_queries:
+        print(f"\n--- query: {query[:60]}... ---")
+        result = analyser.route(query)
+        print(f"result dict: {result}")

@@ -1,0 +1,42 @@
+Saved: ../evaluation_dataset/validation_eval_service_3.csv
+expected_service
+general             50
+astronomy           16
+anatomy             14
+abstract_algebra    11
+Name: count, dtype: int64
+Saved: ../evaluation_dataset/validation_eval_service_5.csv
+expected_service
+general                     50
+astronomy                   16
+anatomy                     14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+Name: count, dtype: int64
+Saved: ../evaluation_dataset/validation_eval_service_8.csv
+expected_service
+general                     50
+high_school_chemistry       22
+high_school_geography       22
+astronomy                   16
+anatomy                     14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
+Name: count, dtype: int64
+Saved: ../evaluation_dataset/validation_eval_service_10.csv
+expected_service
+general                     50
+high_school_chemistry       22
+high_school_geography       22
+world_religions             19
+astronomy                   16
+anatomy                     14
+formal_logic                14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
+Name: count, dtype: int64

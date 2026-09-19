@@ -1,0 +1,226 @@
+[1] Full dataset loaded: (1531, 4)
+[1] Number of subjects: 57
+
+============================================================
+BUILDING VALIDATION SPECIALIST DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy']
+[2] Filtered dataset shape: (41, 4)
+[2] Original subject counts:
+subject
+astronomy           16
+anatomy             14
+abstract_algebra    11
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+astronomy           16
+anatomy             14
+abstract_algebra    11
+Name: count, dtype: int64
+[4] Saved: ../specialists_dataset/validation_service_3.csv
+[4] Saved: ../specialists_dataset/validation_service_3.json
+
+[DONE] validation_service_3
+[DONE] Total rows: 41
+
+Expected service counts:
+expected_service
+astronomy           16
+anatomy             14
+abstract_algebra    11
+Name: count, dtype: int64
+
+Original subject counts:
+subject
+astronomy           16
+anatomy             14
+abstract_algebra    11
+Name: count, dtype: int64
+
+============================================================
+BUILDING VALIDATION SPECIALIST DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science']
+[2] Filtered dataset shape: (63, 4)
+[2] Original subject counts:
+subject
+astronomy                   16
+anatomy                     14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+astronomy                   16
+anatomy                     14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+Name: count, dtype: int64
+[4] Saved: ../specialists_dataset/validation_service_5.csv
+[4] Saved: ../specialists_dataset/validation_service_5.json
+
+[DONE] validation_service_5
+[DONE] Total rows: 63
+
+Expected service counts:
+expected_service
+astronomy                   16
+anatomy                     14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+Name: count, dtype: int64
+
+Original subject counts:
+subject
+astronomy                   16
+anatomy                     14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+Name: count, dtype: int64
+
+============================================================
+BUILDING VALIDATION SPECIALIST DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science', 'high_school_chemistry', 'high_school_geography', 'jurisprudence']
+[2] Filtered dataset shape: (118, 4)
+[2] Original subject counts:
+subject
+high_school_chemistry       22
+high_school_geography       22
+astronomy                   16
+anatomy                     14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+high_school_chemistry       22
+high_school_geography       22
+astronomy                   16
+anatomy                     14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
+Name: count, dtype: int64
+[4] Saved: ../specialists_dataset/validation_service_8.csv
+[4] Saved: ../specialists_dataset/validation_service_8.json
+
+[DONE] validation_service_8
+[DONE] Total rows: 118
+
+Expected service counts:
+expected_service
+high_school_chemistry       22
+high_school_geography       22
+astronomy                   16
+anatomy                     14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
+Name: count, dtype: int64
+
+Original subject counts:
+subject
+high_school_chemistry       22
+high_school_geography       22
+astronomy                   16
+anatomy                     14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
+Name: count, dtype: int64
+
+============================================================
+BUILDING VALIDATION SPECIALIST DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science', 'high_school_chemistry', 'high_school_geography', 'jurisprudence', 'world_religions', 'formal_logic']
+[2] Filtered dataset shape: (151, 4)
+[2] Original subject counts:
+subject
+high_school_chemistry       22
+high_school_geography       22
+world_religions             19
+astronomy                   16
+anatomy                     14
+formal_logic                14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+high_school_chemistry       22
+high_school_geography       22
+world_religions             19
+astronomy                   16
+anatomy                     14
+formal_logic                14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
+Name: count, dtype: int64
+[4] Saved: ../specialists_dataset/validation_service_10.csv
+[4] Saved: ../specialists_dataset/validation_service_10.json
+
+[DONE] validation_service_10
+[DONE] Total rows: 151
+
+Expected service counts:
+expected_service
+high_school_chemistry       22
+high_school_geography       22
+world_religions             19
+astronomy                   16
+anatomy                     14
+formal_logic                14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
+Name: count, dtype: int64
+
+Original subject counts:
+subject
+high_school_chemistry       22
+high_school_geography       22
+world_religions             19
+astronomy                   16
+anatomy                     14
+formal_logic                14
+abstract_algebra            11
+business_ethics             11
+college_computer_science    11
+jurisprudence               11
+Name: count, dtype: int64
