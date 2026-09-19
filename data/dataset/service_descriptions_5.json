@@ -1,7 +1,92 @@
 {
-  "abstract_algebra": "Abstract algebra focusing on group theory structures, including orders of elements and subgroups, Lagrange's theorem, homomorphisms, normal subgroups, factor groups, and isomorphism theorems. Encompasses symmetric groups, permutation properties, integral domains, fields of quotients, and applications of Euler's phi function in structural analyses.",
-  "anatomy": "Anatomy specializing in head and neck structures (parotid gland, maxillary sinus, tonsillar tissue), respiratory system (lung lobes, trachea), cardiovascular auscultation, cartilage function, emissary veins, sinus pain referral, and pharyngeal development with innervation correlates.",
-  "astronomy": "Astronomy covering planetary differentiation, heat dissipation, and atmospheric loss mechanisms (e.g., Mercury). Integrates solar system formation theories, lunar maria origins, orbital mechanics, blackbody radiation principles, and celestial dynamics, including surface mapping techniques, Coriolis effects, and comet tail behavior.",
-  "business_ethics": "Business ethics integrates corporate governance frameworks\u2014encompassing director disqualification laws, agency relationships, and OECD-identified challenges\u2014with ethical theories, workplace ethics addressing emotional exploitation, sustainability initiatives, and business-civil society collaboration models, alongside stakeholder communication barriers and corporate social responsibility dynamics.",
-  "college_computer_science": "College computer science covering symbol tables, hashing, page replacement policies, recursive computation, and efficient data structures. Includes Church's thesis, reference counting, automata theory, logic programming evaluation, distributed operating systems, and matrix complexity analysis."
+  "abstract_algebra": {
+    "function": "Specializes in abstract algebra with expertise in group theory, ring theory, and permutation structures, focusing on cyclic groups, factor groups, homomorphisms, and symmetric groups.",
+    "tags": [
+      "cyclic-groups",
+      "factor-groups",
+      "permutation-groups",
+      "symmetric-groups",
+      "abelian-groups",
+      "normal-subgroups",
+      "group-homomorphisms",
+      "direct-products",
+      "lagrange-theorem",
+      "cayley-theorem",
+      "euler-phi-function",
+      "integral-domains",
+      "field-of-quotients"
+    ]
+  },
+  "anatomy": {
+    "function": "Expert in human anatomical structures, physiological regulation, and systemic interactions with specialization in head/neck, cardiovascular, and neuroanatomical systems.",
+    "tags": [
+      "homeostasis-regulation",
+      "parotid-gland-vasculature",
+      "heart-auscultation-anatomy",
+      "maxillary-sinus-innervation",
+      "flexible-connective-tissue",
+      "tonsillar-lymphoid-architecture",
+      "emissary-vein-connections",
+      "smooth-muscle-morphology",
+      "hypothalamic-functions",
+      "sympathetic-nervous-system",
+      "tracheoesophageal-relations",
+      "pharyngeal-arch-development",
+      "ethmoidal-sinus-pathology"
+    ]
+  },
+  "astronomy": {
+    "function": "Expertise in planetary science, astrophysical processes, and celestial mechanics, including blackbody radiation, planetary differentiation, and orbital dynamics.",
+    "tags": [
+      "blackbody-radiation",
+      "planetary-differentiation",
+      "lunar-maria-formation",
+      "venus-seasons",
+      "stefan-boltzmann-law",
+      "wien-s-law",
+      "coriolis-effect",
+      "orbital-mechanics",
+      "planetary-atmospheres",
+      "solar-system-formation",
+      "comet-tails",
+      "iss-orbital-speed",
+      "planetary-heat-retention",
+      "venus-radar-mapping"
+    ]
+  },
+  "business_ethics": {
+    "function": "Expert in corporate governance, business ethics, and sustainability, specializing in stakeholder theory, agency relationships, and global CSR frameworks.",
+    "tags": [
+      "corporate-governance",
+      "business-ethics",
+      "stakeholder-theory",
+      "agency-theory",
+      "corporate-social-responsibility",
+      "kantian-ethics",
+      "principal-agent-relationship",
+      "transnational-corporate-power",
+      "un-sustainable-development-goals",
+      "oecd-corporate-governance",
+      "emotional-exploitation",
+      "resource-intensity",
+      "culture-clash",
+      "social-enterprises"
+    ]
+  },
+  "college_computer_science": {
+    "function": "Analyzes theoretical and applied computer science concepts including algorithms, systems design, computability, and programming language theory.",
+    "tags": [
+      "compiler-symbol-tables",
+      "hash-tables",
+      "page-replacement-policies",
+      "recursive-functions",
+      "churchs-thesis",
+      "reference-counting",
+      "matrix-factorization-complexity",
+      "distributed-vs-network-os",
+      "automata-theory",
+      "data-structure-efficiency",
+      "logic-programming-evaluation"
+    ]
+  }
 }

@@ -5,7 +5,7 @@ import sys
 sys.path.append(
     f"{os.path.dirname(os.path.abspath(__file__))}/.."
 )
-from data.dataset_builder.config import SERVICE_SETS
+from data.dataset.config import SERVICE_SETS
 
 
 def build_service_description_sets(
@@ -21,24 +21,13 @@ def build_service_description_sets(
             for service in specialists
         }
 
-        descriptions["general"] = (
-            frozen_descriptions["general"]
-        )
-
         description_sets[size] = descriptions
 
     return description_sets
 
 
-with open("all_service_descriptions.json", "r") as f:
+with open("../service_desc_generator/dataset/service_profiles.json", "r") as f:
     frozen_descriptions = json.load(f)
-
-description_sets = build_service_description_sets(
-    frozen_descriptions,
-    SERVICE_SETS
-)
-
-import json
 
 description_sets = build_service_description_sets(
     frozen_descriptions,

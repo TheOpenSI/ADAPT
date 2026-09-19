@@ -4,8 +4,8 @@
   "specialist_service_count": 3,
   "total_service_count": 3,
   "total_queries": 400,
-  "total_energy_kwh": 0.0009054854397165361,
-  "energy_per_query_kwh": 2.2637135992913403e-06,
-  "total_co2_kg": 0.0004968326168889457,
-  "co2_per_query_kg": 1.2420815422223645e-06
+  "total_energy_kwh": 0.0022441470276556704,
+  "energy_per_query_kwh": 5.610367569139176e-06,
+  "total_co2_kg": 0.0012313455208984453,
+  "co2_per_query_kg": 3.0783638022461133e-06
 }

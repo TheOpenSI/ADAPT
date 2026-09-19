@@ -8,6 +8,18 @@ class RouterBase(ABC):
         self.model_name = model_name
         self.services = self._get_service_descriptions()
 
+    def _profile_to_text(self, service_name, profile):
+
+        function = profile["function"]
+        tags = profile.get("tags", [])
+        tag_text = ", ".join(tags)
+
+        return (
+            f"Service: {service_name}\n\n"
+            f"Function:\n{function}\n\n"
+            f"Tags:\n{tag_text}"
+        )
+
     def _get_service_descriptions(self):
     # change service_desc_path from string to path
         path = Path(self.service_desc_path)
@@ -15,7 +27,22 @@ class RouterBase(ABC):
             raise FileNotFoundError(f"Service description file '{self.service_desc_path}' not found.")
         with open(path, "r") as f:
             data = json.load(f)
-            return data
+
+        descriptions = {}
+
+        for service_name, profile in data.items():
+            descriptions[service_name] = self._profile_to_text(service_name,profile)
+
+
+        print(f"[RouterBase] Loaded {len(descriptions)} services")
+
+        for service_name, description in descriptions.items():
+            print("\n" + "=" * 80)
+            print(service_name)
+            print("=" * 80)
+            print(description)
+
+        return descriptions
 
     @abstractmethod
     def route(self, query):

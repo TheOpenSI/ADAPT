@@ -1,0 +1,56 @@
+[LOAD] validation data: (151, 4)
+[LOAD] routing services: 10
+[LOAD] subjects: ['abstract_algebra', 'anatomy', 'astronomy', 'business_ethics', 'college_computer_science', 'formal_logic', 'high_school_chemistry', 'high_school_geography', 'jurisprudence', 'world_religions']
+[GROUP] Number of subject groups: 10
+[GROUP] abstract_algebra: 11 questions
+[GROUP] anatomy: 14 questions
+[GROUP] astronomy: 16 questions
+[GROUP] business_ethics: 11 questions
+[GROUP] college_computer_science: 11 questions
+[GROUP] formal_logic: 14 questions
+[GROUP] high_school_chemistry: 22 questions
+[GROUP] high_school_geography: 22 questions
+[GROUP] jurisprudence: 11 questions
+[GROUP] world_religions: 19 questions
+
+[1/10] abstract_algebra
+[EXTRACT] Processing abstract_algebra: 11 questions
+[PROFILE] abstract_algebra: 13 tags
+
+[2/10] anatomy
+[EXTRACT] Processing anatomy: 14 questions
+[PROFILE] anatomy: 13 tags
+
+[3/10] astronomy
+[EXTRACT] Processing astronomy: 16 questions
+[PROFILE] astronomy: 14 tags
+
+[4/10] business_ethics
+[EXTRACT] Processing business_ethics: 11 questions
+[PROFILE] business_ethics: 14 tags
+
+[5/10] college_computer_science
+[EXTRACT] Processing college_computer_science: 11 questions
+[PROFILE] college_computer_science: 11 tags
+
+[6/10] formal_logic
+[EXTRACT] Processing formal_logic: 14 questions
+[PROFILE] formal_logic: 11 tags
+
+[7/10] high_school_chemistry
+[EXTRACT] Processing high_school_chemistry: 22 questions
+[PROFILE] high_school_chemistry: 20 tags
+
+[8/10] high_school_geography
+[EXTRACT] Processing high_school_geography: 22 questions
+[PROFILE] high_school_geography: 20 tags
+
+[9/10] jurisprudence
+[EXTRACT] Processing jurisprudence: 11 questions
+[PROFILE] jurisprudence: 15 tags
+
+[10/10] world_religions
+[EXTRACT] Processing world_religions: 19 questions
+[PROFILE] world_religions: 18 tags
+
+[DONE] Saved results to ../service_desc_generator/dataset/service_profiles.json

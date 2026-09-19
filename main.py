@@ -45,7 +45,7 @@ MODEL_CONFIGS = [
     # dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
     # dict(cls=QueryAnalyser, model_name="phi4:14b"),
     dict(cls=QueryAnalyser, model_name="qwen2.5:7b"),
-    dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
+    # dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
 ]
 
     # dict(

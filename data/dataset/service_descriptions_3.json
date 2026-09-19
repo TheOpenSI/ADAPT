@@ -1,5 +1,57 @@
 {
-  "abstract_algebra": "Abstract algebra focusing on group theory structures, including orders of elements and subgroups, Lagrange's theorem, homomorphisms, normal subgroups, factor groups, and isomorphism theorems. Encompasses symmetric groups, permutation properties, integral domains, fields of quotients, and applications of Euler's phi function in structural analyses.",
-  "anatomy": "Anatomy specializing in head and neck structures (parotid gland, maxillary sinus, tonsillar tissue), respiratory system (lung lobes, trachea), cardiovascular auscultation, cartilage function, emissary veins, sinus pain referral, and pharyngeal development with innervation correlates.",
-  "astronomy": "Astronomy covering planetary differentiation, heat dissipation, and atmospheric loss mechanisms (e.g., Mercury). Integrates solar system formation theories, lunar maria origins, orbital mechanics, blackbody radiation principles, and celestial dynamics, including surface mapping techniques, Coriolis effects, and comet tail behavior."
+  "abstract_algebra": {
+    "function": "Specializes in abstract algebra with expertise in group theory, ring theory, and permutation structures, focusing on cyclic groups, factor groups, homomorphisms, and symmetric groups.",
+    "tags": [
+      "cyclic-groups",
+      "factor-groups",
+      "permutation-groups",
+      "symmetric-groups",
+      "abelian-groups",
+      "normal-subgroups",
+      "group-homomorphisms",
+      "direct-products",
+      "lagrange-theorem",
+      "cayley-theorem",
+      "euler-phi-function",
+      "integral-domains",
+      "field-of-quotients"
+    ]
+  },
+  "anatomy": {
+    "function": "Expert in human anatomical structures, physiological regulation, and systemic interactions with specialization in head/neck, cardiovascular, and neuroanatomical systems.",
+    "tags": [
+      "homeostasis-regulation",
+      "parotid-gland-vasculature",
+      "heart-auscultation-anatomy",
+      "maxillary-sinus-innervation",
+      "flexible-connective-tissue",
+      "tonsillar-lymphoid-architecture",
+      "emissary-vein-connections",
+      "smooth-muscle-morphology",
+      "hypothalamic-functions",
+      "sympathetic-nervous-system",
+      "tracheoesophageal-relations",
+      "pharyngeal-arch-development",
+      "ethmoidal-sinus-pathology"
+    ]
+  },
+  "astronomy": {
+    "function": "Expertise in planetary science, astrophysical processes, and celestial mechanics, including blackbody radiation, planetary differentiation, and orbital dynamics.",
+    "tags": [
+      "blackbody-radiation",
+      "planetary-differentiation",
+      "lunar-maria-formation",
+      "venus-seasons",
+      "stefan-boltzmann-law",
+      "wien-s-law",
+      "coriolis-effect",
+      "orbital-mechanics",
+      "planetary-atmospheres",
+      "solar-system-formation",
+      "comet-tails",
+      "iss-orbital-speed",
+      "planetary-heat-retention",
+      "venus-radar-mapping"
+    ]
+  }
 }

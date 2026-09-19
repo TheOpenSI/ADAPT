@@ -4,11 +4,11 @@ sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 
 import pandas as pd
 
-from dataset_builder.mmlu_builder_base import MMLUBenchmarkBuilderBase
+from data.specialists_dataset.mmlu_builder_base import MMLUBenchmarkBuilderBase
 from data.dataset.config import SERVICE_SETS
 
 
-class MMLUValidationBuilder(MMLUBenchmarkBuilderBase):
+class ValidationQuestionBuilder(MMLUBenchmarkBuilderBase):
 
     def __init__(self, split="validation"):
         super().__init__(split, include_general=False)
@@ -33,7 +33,7 @@ class MMLUValidationBuilder(MMLUBenchmarkBuilderBase):
         """
         Save the validation profiling dataset as CSV and JSON.
         """
-        base_path = "../dataset/validation_service_all"
+        base_path = "../service_desc_generator/dataset/validation_service_all"
 
         df.to_csv(
             f"{base_path}.csv",
@@ -94,7 +94,7 @@ class MMLUValidationBuilder(MMLUBenchmarkBuilderBase):
 
 if __name__ == "__main__":
 
-    builder = MMLUValidationBuilder()
+    builder = ValidationQuestionBuilder()
 
     subjects = SERVICE_SETS[10]
 

@@ -1,0 +1,32 @@
+{
+  "abstract_algebra": {
+    "valid": true
+  },
+  "anatomy": {
+    "valid": true
+  },
+  "astronomy": {
+    "valid": true
+  },
+  "business_ethics": {
+    "valid": true
+  },
+  "college_computer_science": {
+    "valid": true
+  },
+  "formal_logic": {
+    "valid": true
+  },
+  "high_school_chemistry": {
+    "valid": true
+  },
+  "high_school_geography": {
+    "valid": true
+  },
+  "jurisprudence": {
+    "valid": true
+  },
+  "world_religions": {
+    "valid": true
+  }
+}
