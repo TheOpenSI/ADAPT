@@ -17,7 +17,7 @@ class CrossEncoderRouter(RouterBase):
                  model_name, 
                  verbose=False,
                  
-                 confidence_threshold=1.5,
+                 confidence_threshold=1.2,
                  fallback_label="general"
     ):
 
@@ -75,11 +75,19 @@ class CrossEncoderRouter(RouterBase):
         confidence = ConfidenceMetrics(scores_dict)
         confidence_result = confidence.calculate()
 
+        print("\nDEBUG SCORES")
+        print(scores_dict)
+
+
         zscore_margin = confidence_result["zscore_margin"]
         if zscore_margin >= self.confidence_threshold:
             predicted_label = top_label
         else:
             predicted_label = self.fallback_label
+
+
+        print("DEBUG ZSCORES")
+        print(confidence_result["zscores"])
 
         # wait for GPU to stop properly first before stopping timer
         if torch.cuda.is_available():
@@ -135,8 +143,6 @@ class CrossEncoderRouter(RouterBase):
 
             "max_score": confidence_result["max"],
             "margin": confidence_result["margin"],
-            "margin_ratio": confidence_result["margin_ratio"],
-            "normalized_margin": confidence_result["normalized_margin"],
 
             "mean_score": confidence_result["mean"],
             "std_score": confidence_result["std"],

@@ -39,35 +39,6 @@ class ConfidenceMetrics:
         return float(max(self.values) - min(self.values))
 
 
-    def _margin_ratio(self):
-        """
-        margin ratio = top1 - top2 / abs(top1)
-        """
-        scores = self._sorted_scores()
-        top1 = scores[0]
-        top2 = scores[1]
-
-        denom = abs(top1)
-
-        if denom < 1e-8:
-            return 0.0
-
-        return float((top1 - top2) / denom)
-
-
-    def _normalized_margin(self):
-        """
-        normalized_margin = (top1 - top2) / (max_score - min_score)
-        """
-
-        score_range = self._score_range()
-
-        if score_range < 1e-8:
-            return 0.0
-
-        return float(self._margin() / score_range)
-
-
     # Convert all service scores into z-scores
     def _zscores(self):
 
@@ -123,8 +94,6 @@ class ConfidenceMetrics:
 
             "max": round(self._max_score(), 4),
             "margin": round(self._margin(), 4),
-            "margin_ratio": round(self._margin_ratio(),4),
-            "normalized_margin": round(self._normalized_margin(),4),
 
             "mean": round(self._mean(), 4),
             "std": round(self._std(), 4),
