@@ -18,7 +18,7 @@ BASE_DIR = os.path.dirname(
 runner = CalibrationRunner(
     router_cls=CrossEncoderRouter,
 
-    model_name="mixedbread-ai/mxbai-rerank-large-v2",
+    model_name="",
 
     thresholds = [
         0.25,

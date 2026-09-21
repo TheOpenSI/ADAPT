@@ -23,7 +23,7 @@ RESULTS_DIR = os.path.join(BASE_DIR, "results")
 
 VERBOSE = False
 
-CONDITIONS = [8]
+CONDITIONS = [3,5,8,10]
 
 MODEL_CONFIGS = [
     # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
@@ -33,8 +33,8 @@ MODEL_CONFIGS = [
     # dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
     dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B"),
-    # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
-    # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2"),
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
+    dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2"),
     # dict(cls=CrossEncoderRouter, model_name="BAAI/bge-reranker-v2-m3"),
     # dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT"),
     # dict(cls=ColBERTRouter, model_name="colbert-ir/colbertv2.0"),

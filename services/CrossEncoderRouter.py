@@ -18,7 +18,8 @@ class CrossEncoderRouter(RouterBase):
                  verbose=False,
                  
                  confidence_threshold=1.1,
-                 fallback_label="general"
+                 fallback_label="general",
+                 apply_threshold=False,
     ):
 
         super().__init__(service_desc_path, model_name)
@@ -27,6 +28,8 @@ class CrossEncoderRouter(RouterBase):
 
         self.confidence_threshold = confidence_threshold
         self.fallback_label = fallback_label
+
+        self.apply_threshold = apply_threshold
 
  
         print(f"[CrossEncoderRouter] Loading cross-encoder model '{model_name}'...")
@@ -64,9 +67,6 @@ class CrossEncoderRouter(RouterBase):
         best_idx = raw_scores.argmax()
         top_label = names[best_idx]
 
-        # # for analysis only: winner 
-        # predicted_label = top_label
-
 
         # Get raw scores
         scores = [float(s) for s in raw_scores]
@@ -80,10 +80,15 @@ class CrossEncoderRouter(RouterBase):
 
 
         zscore_margin = confidence_result["zscore_margin"]
-        if zscore_margin >= self.confidence_threshold:
-            predicted_label = top_label
+
+
+        if self.apply_threshold:
+            if zscore_margin >= self.confidence_threshold:
+                predicted_label = top_label
+            else:
+                predicted_label = self.fallback_label
         else:
-            predicted_label = self.fallback_label
+            predicted_label = top_label
 
 
         print("DEBUG ZSCORES")
@@ -155,6 +160,7 @@ class CrossEncoderRouter(RouterBase):
             "zscores": confidence_result["zscores"],
 
             "confidence_threshold": self.confidence_threshold,
+            "apply_threshold": self.apply_threshold,
         }
 
 

@@ -86,29 +86,29 @@ class CalibrationRunner:
                 f"service_descriptions_{k}.json"
             )
 
-            # validation_path = os.path.join(
-            #     self.data_dir,
-            #     "..",
-            #     "calibration_threshold",
-            #     "dataset",
-            #     f"validation_eval_service_{k}.csv"
-            # )
-            
-            dev_path = os.path.join(
+            validation_path = os.path.join(
                 self.data_dir,
                 "..",
                 "calibration_threshold",
                 "dataset",
-                f"dev_eval_service_{k}.csv"
+                f"validation_eval_service_{k}.csv"
             )
-
-            # validation_path = os.path.abspath(
-            #     validation_path
+            
+            # dev_path = os.path.join(
+            #     self.data_dir,
+            #     "..",
+            #     "calibration_threshold",
+            #     "dataset",
+            #     f"dev_eval_service_{k}.csv"
             # )
 
-            dev_path = os.path.abspath(
-                dev_path
+            validation_path = os.path.abspath(
+                validation_path
             )
+
+            # dev_path = os.path.abspath(
+            #     dev_path
+            # )
 
             print("\n" + "=" * 80)
             print(f"CONDITION k={k}")
