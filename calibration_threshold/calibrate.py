@@ -1,6 +1,7 @@
 import os
 import sys
 
+
 sys.path.append(
     f"{os.path.dirname(os.path.abspath(__file__))}/.."
 )
@@ -10,15 +11,17 @@ from CalibrationRunner import CalibrationRunner
 from services.CrossEncoderRouter import (
     CrossEncoderRouter
 )
+from services.SemanticRouter import SemanticRouter
+
 
 BASE_DIR = os.path.dirname(
     os.path.abspath(__file__)
 )
 
 runner = CalibrationRunner(
-    router_cls=CrossEncoderRouter,
+    router_cls=SemanticRouter,
 
-    model_name="mixedbread-ai/mxbai-rerank-large-v1",
+    model_name="BAAI/bge-large-en-v1.5",
 
     thresholds = [
         0.25,
