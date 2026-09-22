@@ -10,7 +10,9 @@
 ######################################################################
 
 [CrossEncoderRouter] Loading cross-encoder model 'Qwen/Qwen3-Reranker-4B'...
-Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4506.95it/s]
+
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4506.95it/s]
 Default prompt name is set to 'query'. This prompt will be applied to all inference calls, except if a `prompt` or `prompt_name` parameter is provided.
 [codecarbon WARNING @ 01:35:28] Multiple instances of codecarbon are allowed to run at the same time.
 [CrossEncoderRouter] Model loaded in 8.07s — running on device: cuda:0
@@ -1973,7 +1975,9 @@ BENCHMARK FINISHED
 ######################################################################
 
 [CrossEncoderRouter] Loading cross-encoder model 'Qwen/Qwen3-Reranker-4B'...
-Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4376.58it/s]
+
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4376.58it/s]
 [CrossEncoderRouter] Model loaded in 7.66s — running on device: cuda:0
 [CrossEncoderRouter] Loaded 8 services.
 [CrossEncoderRouter] Ready to route.
@@ -4834,7 +4838,9 @@ BENCHMARK FINISHED
 ######################################################################
 
 [CrossEncoderRouter] Loading cross-encoder model 'Qwen/Qwen3-Reranker-4B'...
-Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4359.60it/s]
+
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4359.60it/s]
 [CrossEncoderRouter] Model loaded in 7.65s — running on device: cuda:0
 [CrossEncoderRouter] Loaded 10 services.
 [CrossEncoderRouter] Ready to route.

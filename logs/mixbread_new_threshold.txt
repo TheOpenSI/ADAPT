@@ -10,7 +10,12 @@
 ######################################################################
 
 [CrossEncoderRouter] Loading cross-encoder model 'mixedbread-ai/mxbai-rerank-large-v2'...
-Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  22%|██▏       | 75/338 [00:00<00:00, 730.73it/s]Loading weights:  51%|█████     | 172/338 [00:00<00:00, 823.69it/s]Loading weights:  82%|████████▏ | 276/338 [00:00<00:00, 916.94it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 891.34it/s]
+
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+Loading weights:  22%|██▏       | 75/338 [00:00<00:00, 730.73it/s]
+Loading weights:  51%|█████     | 172/338 [00:00<00:00, 823.69it/s]
+Loading weights:  82%|████████▏ | 276/338 [00:00<00:00, 916.94it/s]
+Loading weights: 100%|██████████| 338/338 [00:00<00:00, 891.34it/s]
 [codecarbon WARNING @ 04:59:35] Multiple instances of codecarbon are allowed to run at the same time.
 [CrossEncoderRouter] Model loaded in 7.37s — running on device: cuda:0
 [CrossEncoderRouter] Loaded 3 services.
@@ -1253,7 +1258,12 @@ BENCHMARK FINISHED
 ######################################################################
 
 [CrossEncoderRouter] Loading cross-encoder model 'mixedbread-ai/mxbai-rerank-large-v2'...
-Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<00:37,  8.92it/s]Loading weights:  43%|████▎     | 147/338 [00:00<00:00, 814.22it/s]Loading weights:  75%|███████▌  | 255/338 [00:00<00:00, 896.99it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 850.19it/s]
+
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/338 [00:00<00:37,  8.92it/s]
+Loading weights:  43%|████▎     | 147/338 [00:00<00:00, 814.22it/s]
+Loading weights:  75%|███████▌  | 255/338 [00:00<00:00, 896.99it/s]
+Loading weights: 100%|██████████| 338/338 [00:00<00:00, 850.19it/s]
 [CrossEncoderRouter] Model loaded in 6.82s — running on device: cuda:0
 [CrossEncoderRouter] Loaded 5 services.
 [CrossEncoderRouter] Ready to route.
@@ -3214,7 +3224,12 @@ BENCHMARK FINISHED
 ######################################################################
 
 [CrossEncoderRouter] Loading cross-encoder model 'mixedbread-ai/mxbai-rerank-large-v2'...
-Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   3%|▎         | 10/338 [00:00<00:03, 99.95it/s]Loading weights:  46%|████▌     | 155/338 [00:00<00:00, 857.81it/s]Loading weights:  75%|███████▌  | 255/338 [00:00<00:00, 917.75it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 863.56it/s]
+
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+Loading weights:   3%|▎         | 10/338 [00:00<00:03, 99.95it/s]
+Loading weights:  46%|████▌     | 155/338 [00:00<00:00, 857.81it/s]
+Loading weights:  75%|███████▌  | 255/338 [00:00<00:00, 917.75it/s]
+Loading weights: 100%|██████████| 338/338 [00:00<00:00, 863.56it/s]
 [CrossEncoderRouter] Model loaded in 6.87s — running on device: cuda:0
 [CrossEncoderRouter] Loaded 8 services.
 [CrossEncoderRouter] Ready to route.
@@ -6075,7 +6090,11 @@ BENCHMARK FINISHED
 ######################################################################
 
 [CrossEncoderRouter] Loading cross-encoder model 'mixedbread-ai/mxbai-rerank-large-v2'...
-Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<00:43,  7.79it/s]Loading weights:  65%|██████▍   | 219/338 [00:00<00:00, 1130.62it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 1046.64it/s]
+
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/338 [00:00<00:43,  7.79it/s]
+Loading weights:  65%|██████▍   | 219/338 [00:00<00:00, 1130.62it/s]
+Loading weights: 100%|██████████| 338/338 [00:00<00:00, 1046.64it/s]
 [CrossEncoderRouter] Model loaded in 6.84s — running on device: cuda:0
 [CrossEncoderRouter] Loaded 10 services.
 [CrossEncoderRouter] Ready to route.

@@ -17,7 +17,7 @@ class CrossEncoderRouter(RouterBase):
                  model_name, 
                  verbose=False,
                  
-                 confidence_threshold=1.5,
+                 confidence_threshold=1.4,
                  fallback_label="general",
                  apply_threshold=True,
     ):
