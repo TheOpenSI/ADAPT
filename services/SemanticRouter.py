@@ -18,7 +18,7 @@ class SemanticRouter(RouterBase):
                  model_name,
                  verbose=False,
 
-                 confidence_threshold=1.4,
+                 confidence_threshold=0.5,
                  fallback_label="general",
                  apply_threshold=True,
 
@@ -100,8 +100,8 @@ class SemanticRouter(RouterBase):
         # send scores and names in float not containing np.float32
         scores_dict = {name: float(score) for name, score in scores.items()}
 
-        print("\nDEBUG SCORES")
-        print(scores_dict)
+        # print("\nDEBUG SCORES")
+        # print(scores_dict)
 
         confidence = ConfidenceMetrics(scores_dict)
         confidence_result = confidence.calculate()
@@ -116,8 +116,8 @@ class SemanticRouter(RouterBase):
         else:
             predicted_label = top_label
 
-        print("DEBUG ZSCORES")
-        print(confidence_result["zscores"])
+        # print("DEBUG ZSCORES")
+        # print(confidence_result["zscores"])
 
         if torch.cuda.is_available():
             torch.cuda.synchronize()
