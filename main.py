@@ -19,8 +19,8 @@ from services.QueryAnalyser import QueryAnalyser
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_vram")
-# RESULTS_DIR = os.path.join(BASE_DIR, "results_per_K_threshold")
-RESULTS_DIR = os.path.join(BASE_DIR, "results_global_threshold")
+RESULTS_DIR = os.path.join(BASE_DIR, "results_per_K_threshold")
+# RESULTS_DIR = os.path.join(BASE_DIR, "results_global_threshold")
 
 VERBOSE = False
 
