@@ -7,14 +7,31 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 from services.RouterBase import RouterBase
+from services.confidence_checker.metrics import ConfidenceMetrics
 
 
 class SemanticRouter(RouterBase):
     routing_method = "bi-encoder"
 
-    def __init__(self, service_desc_path, model_name, verbose=False):
+    def __init__(self, 
+                 service_desc_path,
+                 model_name,
+                 verbose=False,
+
+                 confidence_threshold=1.4,
+                 fallback_label="general",
+                 apply_threshold=True,
+
+    ):
+        
         super().__init__(service_desc_path, model_name)
         self.verbose = verbose
+
+
+        self.confidence_threshold = confidence_threshold
+        self.fallback_label = fallback_label
+
+        self.apply_threshold = apply_threshold
 
         print(f"[SemanticRouter] Loading embedding model '{model_name}'... (this may take a while on first run)")
         load_start = time.perf_counter()
@@ -77,16 +94,35 @@ class SemanticRouter(RouterBase):
             score = self._cosine_similarity(q_vec, vec)
             scores[name] = score
 
-        predicted_label = max(scores, key=scores.get)
+        top_label = max(scores, key=scores.get)
+
+
+        # send scores and names in float not containing np.float32
+        scores_dict = {name: float(score) for name, score in scores.items()}
+
+        print("\nDEBUG SCORES")
+        print(scores_dict)
+
+        confidence = ConfidenceMetrics(scores_dict)
+        confidence_result = confidence.calculate()
+
+        zscore_margin = confidence_result["zscore_margin"]
+
+        if self.apply_threshold:
+            if zscore_margin >= self.confidence_threshold:
+                predicted_label = top_label
+            else:
+                predicted_label = self.fallback_label
+        else:
+            predicted_label = top_label
+
+        print("DEBUG ZSCORES")
+        print(confidence_result["zscores"])
 
         if torch.cuda.is_available():
             torch.cuda.synchronize()
 
         latency_ms = (time.perf_counter() - start) * 1000
-
-
-        # send scores and names 
-        scores_dict = {name: float(score) for name, score in scores.items()}
 
         
         encoded = self.model.tokenizer.encode(
@@ -105,23 +141,43 @@ class SemanticRouter(RouterBase):
                 print(f"    {name}: {score:.4f}{marker}")
             print(f"  -> {predicted_label} | {latency_ms:.1f}ms | {prompt_tokens} tok")
 
-        return {
-            "routing_method": self.routing_method,
-            "query": query,
-            "raw_response": None,
-            "predicted_label": predicted_label,
-            "model_name": self.model_name,
-            "latency_ms": latency_ms,
-            "prompt_tokens": prompt_tokens,
-            "completion_tokens": 0,
-            "total_tokens": prompt_tokens,
-            "scores": scores_dict
-        }
 
+        return {
+                "routing_method": self.routing_method,
+                "query": query,
+    
+                "raw_response": None,
+                "predicted_label": predicted_label,
+                "top_candidate": top_label,
+    
+                "model_name": self.model_name,
+    
+                "latency_ms": latency_ms,
+                "prompt_tokens": prompt_tokens,
+                "completion_tokens": 0,
+                "total_tokens": prompt_tokens,
+    
+                "max_score": confidence_result["max"],
+                "margin": confidence_result["margin"],
+    
+                "mean_score": confidence_result["mean"],
+                "std_score": confidence_result["std"],
+    
+                "top_zscore": confidence_result["top_zscore"],
+                "second_top_zscore": confidence_result["second_top_zscore"],
+                "zscore_margin": confidence_result["zscore_margin"],
+    
+                "scores": scores_dict,
+                "zscores": confidence_result["zscores"],
+    
+                "confidence_threshold": self.confidence_threshold,
+                "apply_threshold": self.apply_threshold,
+            }
+    
 
 # if __name__ == "__main__":
 #     router = SemanticRouter(
-#         service_desc_path="../data/dataset/service_descriptions_3.json",
+#         service_desc_path="../data/dataset/service_descriptions_5.json",
 #         model_name= "BAAI/bge-large-en-v1.5",
 #         verbose=True
 #         )
