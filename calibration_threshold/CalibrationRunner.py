@@ -63,7 +63,7 @@ class CalibrationRunner:
 
         return {
             "accuracy": round(float(accuracy), 4),
-            "fallback_rate": round(float(fallback_rate), 4), # Measure: how often the router gives up on choosing a specialist and routes to general instead.
+            "fallback_rate": round(float(fallback_rate), 4), # How often the router chooses General
             "specialist_recall": round(
                 float(specialist_recall),
                 4
@@ -112,7 +112,7 @@ class CalibrationRunner:
 
             print("\n" + "=" * 80)
             print(f"CONDITION k={k}")
-            print(f"Dev Dataset: {dev_path}")
+            print(f"Validation Dataset: {validation_path}")
             print("=" * 80)
 
             for threshold in self.thresholds:
@@ -128,11 +128,12 @@ class CalibrationRunner:
                     service_desc_path=service_desc_path,
                     model_name=self.model_name,
                     confidence_threshold=threshold,
+                    
                     verbose=self.verbose,
                 )
 
                 benchmark = BenchmarkRunner(
-                    dataset_path=dev_path,
+                    dataset_path=validation_path,
                     router=router,
                     results_dir=self.results_dir,
                 )

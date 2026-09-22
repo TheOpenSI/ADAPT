@@ -18,7 +18,7 @@ BASE_DIR = os.path.dirname(
 runner = CalibrationRunner(
     router_cls=CrossEncoderRouter,
 
-    model_name="",
+    model_name="Qwen/Qwen3-Reranker-4B",
 
     thresholds = [
         0.25,
