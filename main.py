@@ -26,7 +26,7 @@ RESULTS_DIR = os.path.join(BASE_DIR, "results_analysing")
 
 VERBOSE = False
 
-CONDITIONS = [5,8,10]
+CONDITIONS = [3,5,8,10]
 
 MODEL_CONFIGS = [
     # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
@@ -101,7 +101,7 @@ def run_all():
     for k in CONDITIONS:
         service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
         # MUST CHANGE DEV to TEST 
-        dataset_path = os.path.join(DATA_DIR, "dataset", f"dev_eval_service_{k}.csv")
+        dataset_path = os.path.join(DATA_DIR, "dataset", f"validation_eval_service_{k}.csv")
 
         print(f"\n{'*' * 70}")
         print(f"* CONDITION k={k}")
