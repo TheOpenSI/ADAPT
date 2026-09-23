@@ -4,6 +4,8 @@ import sys
 sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 import torch
 import time
+import math
+
 from sentence_transformers import CrossEncoder
  
 from services.confidence_checker.metrics import ConfidenceMetrics
@@ -17,7 +19,7 @@ class CrossEncoderRouter(RouterBase):
                  model_name, 
                  verbose=False,
                  
-                 confidence_threshold=1.4,
+                 confidence_threshold=1.0,
                  fallback_label="general",
                  apply_threshold=True,
     ):
@@ -25,7 +27,7 @@ class CrossEncoderRouter(RouterBase):
         super().__init__(service_desc_path, model_name)
         self.verbose = verbose
 
-
+        
         self.confidence_threshold = confidence_threshold
         self.fallback_label = fallback_label
 
@@ -75,6 +77,9 @@ class CrossEncoderRouter(RouterBase):
         confidence = ConfidenceMetrics(scores_dict)
         confidence_result = confidence.calculate()
 
+        k = len(self.services)
+        normalized_z = (confidence_result["top_zscore"]/ math.log(k))
+        
         # print("\nDEBUG SCORES")
         # print(scores_dict)
 
@@ -82,7 +87,7 @@ class CrossEncoderRouter(RouterBase):
 
 
         if self.apply_threshold:
-            if zscore_margin >= self.confidence_threshold:
+            if normalized_z >= self.confidence_threshold:
                 predicted_label = top_label
             else:
                 predicted_label = self.fallback_label
@@ -125,6 +130,7 @@ class CrossEncoderRouter(RouterBase):
                 f" | top_zscore={confidence_result['top_zscore']}"
                 f" | zscore_margin={confidence_result['zscore_margin']}"
                 f" | threshold={self.confidence_threshold}"
+                f" | normalized_z={normalized_z:.4f}"
 
             )
 
@@ -160,6 +166,9 @@ class CrossEncoderRouter(RouterBase):
 
             "confidence_threshold": self.confidence_threshold,
             "apply_threshold": self.apply_threshold,
+
+            "normalized_z" : normalized_z
+
         }
 
 

@@ -4,6 +4,7 @@ sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 import torch
 import time
 import numpy as np
+import math
 from sentence_transformers import SentenceTransformer
 
 from services.RouterBase import RouterBase
@@ -18,7 +19,7 @@ class SemanticRouter(RouterBase):
                  model_name,
                  verbose=False,
 
-                 confidence_threshold=0.5,
+                 confidence_threshold=1.1,
                  fallback_label="general",
                  apply_threshold=True,
 
@@ -107,14 +108,17 @@ class SemanticRouter(RouterBase):
         confidence_result = confidence.calculate()
 
         zscore_margin = confidence_result["zscore_margin"]
+        k = len(self.services)
+        normalized_z = (confidence_result["top_zscore"]/ math.log(k))
 
         if self.apply_threshold:
-            if zscore_margin >= self.confidence_threshold:
+            if normalized_z >= self.confidence_threshold:
                 predicted_label = top_label
             else:
                 predicted_label = self.fallback_label
         else:
             predicted_label = top_label
+
 
         # print("DEBUG ZSCORES")
         # print(confidence_result["zscores"])
@@ -140,6 +144,13 @@ class SemanticRouter(RouterBase):
                 marker = " <-- predicted" if name == predicted_label else ""
                 print(f"    {name}: {score:.4f}{marker}")
             print(f"  -> {predicted_label} | {latency_ms:.1f}ms | {prompt_tokens} tok")
+            print(
+f" max={confidence_result['max']}"
+f" | margin={confidence_result['margin']}"
+f" | top_zscore={confidence_result['top_zscore']}"
+f" | normalized_z={normalized_z:.4f}"
+f" | threshold={self.confidence_threshold}"
+)
 
 
         return {
@@ -172,6 +183,7 @@ class SemanticRouter(RouterBase):
     
                 "confidence_threshold": self.confidence_threshold,
                 "apply_threshold": self.apply_threshold,
+                "normalized_z":normalized_z
             }
     
 
