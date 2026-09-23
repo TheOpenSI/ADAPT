@@ -20,7 +20,9 @@ from services.QueryAnalyser import QueryAnalyser
 DATA_DIR = os.path.join(BASE_DIR, "data")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_vram")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_per_K_threshold")
-RESULTS_DIR = os.path.join(BASE_DIR, "results_global_threshold")
+# RESULTS_DIR = os.path.join(BASE_DIR, "results_global_threshold")
+RESULTS_DIR = os.path.join(BASE_DIR, "results_analysing")
+
 
 VERBOSE = False
 
@@ -30,10 +32,10 @@ MODEL_CONFIGS = [
     # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
     # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-4B"),
     # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-8B"),
-    dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5"),
+    # dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5"),
     # dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
-    # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B"),
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B"),
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
     # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2"),
     # dict(cls=CrossEncoderRouter, model_name="BAAI/bge-reranker-v2-m3"),
@@ -99,7 +101,7 @@ def run_all():
     for k in CONDITIONS:
         service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
         # MUST CHANGE DEV to TEST 
-        dataset_path = os.path.join(DATA_DIR, "dataset", f"test_eval_service_{k}.csv")
+        dataset_path = os.path.join(DATA_DIR, "dataset", f"dev_eval_service_{k}.csv")
 
         print(f"\n{'*' * 70}")
         print(f"* CONDITION k={k}")

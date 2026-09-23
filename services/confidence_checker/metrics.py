@@ -1,4 +1,6 @@
 import numpy as np
+import math
+
 
 class ConfidenceMetrics:
 
@@ -87,6 +89,15 @@ class ConfidenceMetrics:
         return float(zscores[0] - zscores[1])
 
 
+    def _normalized_top_z(self):
+        k = len(self.values)
+
+        if k <= 1:
+            return 0.0
+
+        return float(self._top_zscore() / math.log(k))
+
+
     def calculate(self):
 
         return {
@@ -103,7 +114,8 @@ class ConfidenceMetrics:
             "second_top_zscore": self._second_top_zscore(),
 
             "zscore_margin": round(self._zscore_margin(),4),
-
+            "normalized_z": round(self._normalized_top_z(),4),
+            
         }
 
 

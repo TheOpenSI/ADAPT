@@ -19,7 +19,7 @@ class CrossEncoderRouter(RouterBase):
                  
                  confidence_threshold=1.4,
                  fallback_label="general",
-                 apply_threshold=True,
+                 apply_threshold=False,
     ):
 
         super().__init__(service_desc_path, model_name)
