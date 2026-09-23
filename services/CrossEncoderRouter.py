@@ -154,7 +154,8 @@ class CrossEncoderRouter(RouterBase):
             "top_zscore": confidence_result["top_zscore"],
             "second_top_zscore": confidence_result["second_top_zscore"],
             "zscore_margin": confidence_result["zscore_margin"],
-
+            "normalized_top_z": confidence_result["normalized_top_z"],
+            
             "scores": scores_dict,
             "zscores": confidence_result["zscores"],
 

@@ -114,7 +114,7 @@ class ConfidenceMetrics:
             "second_top_zscore": self._second_top_zscore(),
 
             "zscore_margin": round(self._zscore_margin(),4),
-            "normalized_z": round(self._normalized_top_z(),4),
+            "normalized_top_z": round(self._normalized_top_z(),4),
             
         }
 
