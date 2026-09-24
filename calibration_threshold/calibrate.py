@@ -23,24 +23,7 @@ runner = CalibrationRunner(
 
     model_name="BAAI/bge-large-en-v1.5",
 
-    thresholds = [
-        0.25,
-        0.50,
-        0.75,
-        1.00,
-        1.10,
-        1.20,
-        1.30,
-        1.40,
-        1.50,
-        1.60,
-        1.70,
-        1.80,
-        1.90,
-        2.00,
-        2.25,
-        2.50,
-    ],
+    thresholds = list(range(0, 101, 5)),
 
     conditions=[
         3,
@@ -57,7 +40,7 @@ runner = CalibrationRunner(
 
     results_dir=os.path.join(
         BASE_DIR,
-        "results"
+        "results_auto_threshold"
     ),
 
     verbose=False,

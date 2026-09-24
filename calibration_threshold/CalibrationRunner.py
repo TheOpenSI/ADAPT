@@ -127,7 +127,7 @@ class CalibrationRunner:
                 router = self.router_cls(
                     service_desc_path=service_desc_path,
                     model_name=self.model_name,
-                    confidence_threshold=threshold,
+                    required_strength_percentage=threshold,
                     apply_threshold=True,
                     
                     verbose=self.verbose,
