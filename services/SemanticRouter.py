@@ -18,7 +18,7 @@ class SemanticRouter(RouterBase):
                  model_name,
                  verbose=False,
 
-                 required_strength_percentage = 80,
+                 required_strength_percentage = 75,
                  fallback_label="general",
                  apply_threshold=True,
 
@@ -56,7 +56,7 @@ class SemanticRouter(RouterBase):
 
         winner_strength_ratio = (float(top_zscore)/ maximum_top_zscore)
 
-        automatic_top_z_threshold = (required_ratio* maximum_top_zscore)
+        automatic_top_z_threshold = (required_ratio * maximum_top_zscore)
 
         strength_passed = (float(top_zscore) >= automatic_top_z_threshold)
 

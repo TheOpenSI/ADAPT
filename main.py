@@ -21,12 +21,12 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_vram")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_per_K_threshold")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_global_threshold")
-RESULTS_DIR = os.path.join(BASE_DIR, "results_analysing")
+RESULTS_DIR = os.path.join(BASE_DIR, "results_test")
 
 
 VERBOSE = False
 
-CONDITIONS = [3]
+CONDITIONS = [5]
 
 MODEL_CONFIGS = [
     # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
