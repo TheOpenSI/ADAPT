@@ -8,13 +8,13 @@ sys.path.append(
 import ollama
 import pandas as pd
 
-from data.dataset_builder.config import SERVICE_SETS
+from data.dataset.config import SERVICE_SETS
 
 class ServiceConceptExtractor:
 
     def __init__(
         self,
-        data_path="../data/dataset/validation_service_all.json",
+        data_path="../service_desc_generator/validation_questions/all_validation_questions.json",
         model="qwen2.5:32b",
         verbose=True,
     ):
@@ -49,7 +49,7 @@ class ServiceConceptExtractor:
         "General queries must not be used for description construction."
         )
 
-        expected_subjects = set(SERVICE_SETS[10])
+        expected_subjects = set(SERVICE_SETS[14])
         actual_subjects = set(df["subject"].unique())
 
         assert actual_subjects == expected_subjects, (
@@ -326,7 +326,7 @@ Return ONLY valid JSON in this format:
 
         concept_data = self._load_extracted_concepts(concept_path)
 
-        specialists = SERVICE_SETS[10]
+        specialists = SERVICE_SETS[14]
 
         results = {}
         total = len(specialists)

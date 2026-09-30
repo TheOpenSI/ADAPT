@@ -26,13 +26,13 @@ RESULTS_DIR = os.path.join(BASE_DIR, "results_test")
 
 VERBOSE = False
 
-CONDITIONS = [5]
+CONDITIONS = [3,5,8,10,12,14]
 
 MODEL_CONFIGS = [
     # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
     # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-4B"),
     # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-8B"),
-    dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5"),
+    # dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5"),
     # dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B"),
@@ -46,7 +46,7 @@ MODEL_CONFIGS = [
 
 
     # dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
-    # dict(cls=QueryAnalyser, model_name="phi4:14b"),
+    dict(cls=QueryAnalyser, model_name="phi4:14b"),
     # dict(cls=QueryAnalyser, model_name="qwen2.5:7b"),
     # dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
 ]

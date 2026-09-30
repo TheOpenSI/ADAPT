@@ -8,7 +8,7 @@
       "Isomorphism and permutation groups",
       "Homomorphisms and normal subgroups",
       "Integral domains and fields of quotients",
-      "Euler's totient function and group elements"
+      "Euler's totient function and its properties"
     ]
   },
   "anatomy": {
@@ -20,30 +20,29 @@
       "cartilage function",
       "heart auscultation sites",
       "trachea anatomy",
-      "pharyngeal arch development"
+      "pharyngeal development and innervation"
     ]
   },
   "astronomy": {
     "subject": "astronomy",
     "core_concepts": [
-      "formation theories of solar system",
-      "planetary differentiation",
       "formation of lunar maria",
       "planetary seasons and axial tilt",
-      "atmospheric loss mechanisms",
-      "Venus surface mapping using radar"
+      "formation theories of solar system",
+      "Mars Exploration Rovers operational challenges",
+      "heat loss in planets",
+      "mapping planetary surfaces using radar"
     ]
   },
   "business_ethics": {
     "subject": "business_ethics",
     "core_concepts": [
-      "Corporate governance and director disqualification",
+      "Corporate governance",
       "Corporate Social Responsibility (CSR)",
-      "Ethics of duty and Emmanuel Kant",
-      "Business and civil society collaboration",
+      "Ethics of duty",
       "Executive directors' responsibilities",
-      "Global sustainability goals and organizations",
-      "Stakeholder communication and collaboration barriers"
+      "Stakeholder communication and collaboration",
+      "Global sustainability goals"
     ]
   },
   "college_computer_science": {
@@ -62,9 +61,9 @@
     "subject": "high_school_chemistry",
     "core_concepts": [
       "Lewis structures and bond angles",
+      "Ground state electron configuration",
       "Periodic trends and acid strength",
-      "Electron configurations and atomic structure",
-      "Thermodynamics and enthalpy changes in reactions",
+      "Thermodynamics and enthalpy changes in chemical reactions",
       "Buffer solutions and their components",
       "Catalysts and reaction rates"
     ]
@@ -86,8 +85,7 @@
       "Natural Law",
       "Soft positivism",
       "Retribution in punishment",
-      "Bentham's argument in support of codification",
-      "Dworkin's critique of Posner's economic analysis of law",
+      "Dworkin's critique of economic analysis of law",
       "Gender analysis in law",
       "Critical Race Theory (CRT)"
     ]
@@ -96,12 +94,14 @@
     "subject": "world_religions",
     "core_concepts": [
       "Categories of Shari'ah law",
-      "Guru Arjan and the construction of Darbar Sahib",
-      "Role of deaconesses in early Christianity",
-      "Calvin's emphasis on predestination",
+      "Guru and the construction of Darbar Sahib",
+      "Role of a deaconess in early Christianity",
+      "Calvinism and predestination",
       "Buddhism in North America",
       "Jaina meditation practices",
-      "Sadducees' interpretation of the Torah"
+      "Kokugaku movement",
+      "Daoist concept of wuwei",
+      "Jewish groups and Torah interpretation"
     ]
   },
   "formal_logic": {
@@ -114,6 +114,52 @@
       "validity of arguments using truth tables",
       "logical equivalence and contradiction",
       "counterexamples in argument validity"
+    ]
+  },
+  "marketing": {
+    "subject": "marketing",
+    "core_concepts": [
+      "digital marketing",
+      "market segmentation methods",
+      "brand positioning",
+      "marketing communications strategy",
+      "big data in marketing",
+      "consumer segmentation"
+    ]
+  },
+  "sociology": {
+    "subject": "sociology",
+    "core_concepts": [
+      "urban sociology",
+      "functionalist theory of inequality",
+      "sociological research methods",
+      "social stratification",
+      "gender disparities in education",
+      "disciplinary power"
+    ]
+  },
+  "high_school_psychology": {
+    "subject": "high_school_psychology",
+    "core_concepts": [
+      "reinforcement schedules",
+      "brain plasticity",
+      "longitudinal studies",
+      "naturalistic observation",
+      "behaviorism",
+      "DSM-5",
+      "stimulants for ADHD"
+    ]
+  },
+  "prehistory": {
+    "subject": "prehistory",
+    "core_concepts": [
+      "causes of prehistoric migration",
+      "Paleoindian habitation and adaptation",
+      "maize agriculture in prehistory",
+      "human-chimpanzee evolutionary divergence",
+      "prehistoric monumental structures",
+      "prehistoric complex societies",
+      "genetic evidence of early human migration"
     ]
   }
 }

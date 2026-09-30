@@ -34,7 +34,8 @@ class ConfidenceMetrics:
         return float(np.mean(self.values))
 
     def _std(self):
-        return float(np.std(self.values))
+        # Population standard deviation.
+        return float(np.std(self.values, ddof=0))
 
 
     def _score_range(self):
@@ -47,7 +48,7 @@ class ConfidenceMetrics:
         std = self._std()
         mean = self._mean()
 
-        # Handle the case where all scores are identical
+        # All raw scores are identical.
         if std == 0:
             return {
                 name: 0.0
@@ -58,11 +59,9 @@ class ConfidenceMetrics:
 
         for name, score in self.scores_dict.items():
             z = (score - mean) / std
-            zscore_dict[name] = round(
-                float(z),
-                4
-            )
-
+            zscore_dict[name] = float(z)
+                
+    
         return zscore_dict
 
     def _top_zscore(self):
@@ -89,15 +88,6 @@ class ConfidenceMetrics:
         return float(zscores[0] - zscores[1])
 
 
-    def _normalized_top_z(self):
-        k = len(self.values)
-
-        if k <= 1:
-            return 0.0
-
-        return float(self._top_zscore() / math.log(k))
-
-
     def calculate(self):
 
         return {
@@ -114,7 +104,6 @@ class ConfidenceMetrics:
             "second_top_zscore": self._second_top_zscore(),
 
             "zscore_margin": round(self._zscore_margin(),4),
-            "normalized_top_z": round(self._normalized_top_z(),4),
             
         }
 
@@ -128,5 +117,36 @@ class ConfidenceMetrics:
 #     }
 
 #     confidence = ConfidenceMetrics(scores)
+#     result = confidence.calculate()
 
-#     print(confidence.calculate(c=CONFIDENCE_LEVELS["standard"]))
+#     print("Complete result:")
+#     print(result)
+
+#     # Get full-precision z-scores.
+#     zscores = confidence._zscores()
+
+#     # Test the zero-sum property.
+#     zscore_sum = sum(zscores.values())
+
+#     # Test the squared-sum property.
+#     zscore_squared_sum = sum(
+#         z ** 2 for z in zscores.values()
+#     )
+
+#     k = len(scores)
+
+#     print("\nMathematical checks:")
+#     print("K:", k)
+#     print("Z-scores:", zscores)
+#     print("Sum of z-scores:", zscore_sum)
+#     print("Sum of squared z-scores:", zscore_squared_sum)
+
+#     print(
+#         "Sum is approximately zero:",
+#         np.isclose(zscore_sum, 0.0)
+#     )
+
+#     print(
+#         "Squared sum is approximately K:",
+#         np.isclose(zscore_squared_sum, k)
+#     )
