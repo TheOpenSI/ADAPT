@@ -37,7 +37,7 @@ MODEL_CONFIGS = [
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B"),
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
-    # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2"),
+    dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2"),
     # dict(cls=CrossEncoderRouter, model_name="BAAI/bge-reranker-v2-m3"),
     # dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT"),
     # dict(cls=ColBERTRouter, model_name="colbert-ir/colbertv2.0"),
@@ -46,7 +46,7 @@ MODEL_CONFIGS = [
 
 
     # dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
-    dict(cls=QueryAnalyser, model_name="phi4:14b"),
+    # dict(cls=QueryAnalyser, model_name="phi4:14b"),
     # dict(cls=QueryAnalyser, model_name="qwen2.5:7b"),
     # dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
 ]

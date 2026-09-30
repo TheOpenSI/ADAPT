@@ -17,18 +17,14 @@ class CrossEncoderRouter(RouterBase):
                  model_name, 
                  verbose=False,
                  
-                 confidence_threshold=1.4,
                  fallback_label="general",
-                 apply_threshold=False,
+                 apply_threshold=True,
     ):
 
         super().__init__(service_desc_path, model_name)
         self.verbose = verbose
 
-
-        self.confidence_threshold = confidence_threshold
         self.fallback_label = fallback_label
-
         self.apply_threshold = apply_threshold
 
  
@@ -78,16 +74,26 @@ class CrossEncoderRouter(RouterBase):
         # print("\nDEBUG SCORES")
         # print(scores_dict)
 
-        zscore_margin = confidence_result["zscore_margin"]
+        top_zscore = float(confidence_result["top_zscore"])
+        second_top_zscore = float(confidence_result["second_top_zscore"])
+        zscore_margin = float(confidence_result["zscore_margin"])
+        
+        service_count = len(scores_dict)
+
+        strength_result = self._calculate_winner_strength(top_zscore=top_zscore,
+                                                          service_count=service_count
+        )
 
 
         if self.apply_threshold:
-            if zscore_margin >= self.confidence_threshold:
-                predicted_label = top_label
-            else:
-                predicted_label = self.fallback_label
+            predicted_label = (
+                top_label
+                if strength_result["strength_passed"]
+                else self.fallback_label
+            )
         else:
             predicted_label = top_label
+
 
 
         # print("DEBUG ZSCORES")
@@ -118,49 +124,109 @@ class CrossEncoderRouter(RouterBase):
             for name, score in ranked:
                 marker = " <-- top" if name == top_label else ""
                 print(f"    {name}: {score:.4f}{marker}")
-                
-            print(
-                f" max={confidence_result['max']}"
-                f" | margin={confidence_result['margin']}"
-                f" | top_zscore={confidence_result['top_zscore']}"
-                f" | zscore_margin={confidence_result['zscore_margin']}"
-                f" | threshold={self.confidence_threshold}"
+            print(f"  -> routed to: {predicted_label} | {latency_ms:.1f}ms | {prompt_tokens} tok")
 
+            print(
+                 f" max={confidence_result['max']}"
+                 f" | margin={confidence_result['margin']}"
+                 f" | top_zscore={top_zscore}"
+                 f" | zscore_margin={zscore_margin}"
+            )
+            
+            print("\n => Automatic threshold calculation")
+            print(f" K: {service_count}")
+            print(f" z_max: {strength_result['z_max']:.4f}")
+            print(
+                 f" required percentage: "
+                 f"{strength_result['required_strength_percentage']:.2f}%"
+            )
+            
+            print(
+                 f" calculation: "
+                 f"({strength_result['required_strength_percentage']:.2f}/100)"
+                 f" * {strength_result['z_max']:.4f}"
+            )
+            print(
+                 f" T*(K): "
+                 f"{strength_result['automatic_threshold']:.4f}"
+            )
+            print(f" observed top z-score: {top_zscore:.4f}")
+            
+            print(
+                f" passed threshold: "
+                f"{strength_result['strength_passed']}"
             )
 
-            print(f"  -> routed to: {predicted_label} | {latency_ms:.1f}ms | {prompt_tokens} tok")
  
         return {
-            "routing_method": self.routing_method,
-            "query": query,
-
-            "raw_response": None,
-            "predicted_label": predicted_label,
-            "top_candidate": top_label,
-
-            "model_name": self.model_name,
-
-            "latency_ms": latency_ms,
-            "prompt_tokens": prompt_tokens,
-            "completion_tokens": 0,
-            "total_tokens": prompt_tokens,
-
-            "max_score": confidence_result["max"],
-            "margin": confidence_result["margin"],
-
-            "mean_score": confidence_result["mean"],
-            "std_score": confidence_result["std"],
-
-            "top_zscore": confidence_result["top_zscore"],
-            "second_top_zscore": confidence_result["second_top_zscore"],
-            "zscore_margin": confidence_result["zscore_margin"],
-            "normalized_top_z": confidence_result["normalized_top_z"],
+                        "routing_method": self.routing_method,
+                        "query": query,
             
-            "scores": scores_dict,
-            "zscores": confidence_result["zscores"],
+                        "raw_response": None,
+                        "predicted_label": predicted_label,
+                        "top_candidate": top_label,
+            
+                        "model_name": self.model_name,
+            
+                        "latency_ms": latency_ms,
+                        "prompt_tokens": prompt_tokens,
+                        "completion_tokens": 0,
+                        "total_tokens": prompt_tokens,
+        
+        
+                        # Raw score metrics
+                        "max_score": confidence_result["max"],
+                        "margin": confidence_result["margin"],
+            
+                        "mean_score": confidence_result["mean"],
+                        "std_score": confidence_result["std"],
+        
+                        # Z-score metrics
+                        "top_zscore": confidence_result["top_zscore"],
+                        "second_top_zscore": confidence_result["second_top_zscore"],
+                        "zscore_margin": confidence_result["zscore_margin"],
+        
+                        # Per-service details
+                        "scores": scores_dict,
+                        "zscores": confidence_result["zscores"],
+        
+                        # Automatically fitted winner-strength gate
+                        "service_count": service_count,
+                        "z_max": strength_result["z_max"],
+                        
+                        "winner_strength_ratio": (strength_result["winner_strength_ratio"]),
+                        "winner_strength_percentage": (strength_result["winner_strength_percentage"]),
+        
+                        "required_strength_percentage": (strength_result["required_strength_percentage"]),
+                        
+                        "automatic_threshold": (strength_result["automatic_threshold"]),
+                        "strength_passed": (strength_result["strength_passed"]),
+        
+                        "apply_threshold": self.apply_threshold,
+                    }
 
-            "confidence_threshold": self.confidence_threshold,
-            "apply_threshold": self.apply_threshold,
-        }
 
+# if __name__ == "__main__":
+#     router = CrossEncoderRouter(
+#         service_desc_path="../data/dataset/service_descriptions_5.json",
+#         model_name="cross-encoder/ms-marco-MiniLM-L-6-v2",
+#         verbose=True,
+#         apply_threshold=True,
+#     )
 
+#     test_queries = [
+#         "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
+#         "Why is the sky blue?",
+#         "Which of the following statements is true?",
+#     ]
+
+#     for query in test_queries:
+#         result = router.route(query)
+
+#         print("\nRESULT")
+#         print(f"predicted_label = {result['predicted_label']}")
+#         print(f"top_candidate = {result['top_candidate']}")
+#         print(f"top_zscore = {result['top_zscore']:.4f}")
+#         print(f"z_max = {result['z_max']:.4f}")
+#         print(f"automatic_threshold = {result['automatic_threshold']:.4f}")
+#         print(f"strength_passed = {result['strength_passed']}")
