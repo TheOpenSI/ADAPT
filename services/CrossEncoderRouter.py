@@ -82,7 +82,7 @@ class CrossEncoderRouter(RouterBase):
 
         strength_result = self._calculate_winner_strength(top_zscore=top_zscore,
                                                           service_count=service_count
-        )
+                                                          )
 
 
         if self.apply_threshold:

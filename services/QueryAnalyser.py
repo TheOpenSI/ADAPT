@@ -176,20 +176,20 @@ class QueryAnalyser(RouterBase):
         }
 
 
-if __name__ == "__main__":
-    analyser = QueryAnalyser(
-        service_desc_path="../data/dataset/service_descriptions_3.json",
-        model_name="qwen2.5:14b",
-        verbose=True,
-    )
+# if __name__ == "__main__":
+#     analyser = QueryAnalyser(
+#         service_desc_path="../data/dataset/service_descriptions_3.json",
+#         model_name="qwen2.5:14b",
+#         verbose=True,
+#     )
 
-    test_queries = [
-        "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
-        "Why is the sky blue?",
-        "Which of the following statements is true?",
-    ]
+#     test_queries = [
+#         "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
+#         "Why is the sky blue?",
+#         "Which of the following statements is true?",
+#     ]
 
-    for query in test_queries:
-        print(f"\n--- query: {query[:60]}... ---")
-        result = analyser.route(query)
-        print(f"result dict: {result}")
+#     for query in test_queries:
+#         print(f"\n--- query: {query[:60]}... ---")
+#         result = analyser.route(query)
+#         print(f"result dict: {result}")

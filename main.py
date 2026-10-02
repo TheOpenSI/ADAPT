@@ -29,26 +29,28 @@ VERBOSE = False
 CONDITIONS = [3,5,8,10,12,14]
 
 MODEL_CONFIGS = [
-    # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
-    # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-4B"),
-    # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-8B"),
-    # dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5"),
-    # dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
-    # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
+#     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
+#     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-4B"),
+#     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-8B"),
+#     # dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5"),
+#     dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
+#     dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B"),
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
-    dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2"),
+    # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2"),
     # dict(cls=CrossEncoderRouter, model_name="BAAI/bge-reranker-v2-m3"),
+    
     # dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT"),
     # dict(cls=ColBERTRouter, model_name="colbert-ir/colbertv2.0"),
     # dict(cls=ColBERTRouter, model_name="mixedbread-ai/mxbai-colbert-large-v1"),
     # dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M"),
 
 
-    # dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
-    # dict(cls=QueryAnalyser, model_name="phi4:14b"),
+    dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
+    dict(cls=QueryAnalyser, model_name="qwen2.5:32b"),
+    dict(cls=QueryAnalyser, model_name="phi4:14b"),
     # dict(cls=QueryAnalyser, model_name="qwen2.5:7b"),
-    # dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
+    dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
 ]
 
     # dict(
@@ -83,7 +85,7 @@ MODEL_CONFIGS = [
     #         service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
     # ),
 
-
+# ]
 
 def cleanup_gpu():
     gc.collect()
