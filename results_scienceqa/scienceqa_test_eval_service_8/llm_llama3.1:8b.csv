@@ -1,0 +1,1311 @@
+routing_method,query,raw_response,predicted_label,top_candidate,model_name,latency_ms,prompt_tokens,completion_tokens,total_tokens,max_score,margin,margin_ratio,normalized_margin,mean_score,std_score,top_zscore,second_top_zscore,zscore_margin,scores,zscores,confidence_threshold,query_id,expected_service,is_correct,error,specialist_service_count,total_service_count
+llm,"Based on this information, what is Queenie's phenotype for the cheek color trait?",service biology,biology,biology,llama3.1:8b,243.59270581044257,720,3,723,,,,,,,,,,,,,0,biology,True,,8,8
+llm,Which animal's skin is better adapted as a warning sign to ward off predators?,service biology,biology,biology,llama3.1:8b,42.87711391225457,719,3,722,,,,,,,,,,,,,1,biology,True,,8,8
+llm,Select the reptile.,service biology,biology,biology,llama3.1:8b,41.863521095365286,708,3,711,,,,,,,,,,,,,2,biology,True,,8,8
+llm,Select the organism in the same genus as the Japanese honeysuckle.,service biology,biology,biology,llama3.1:8b,44.287970988079906,717,3,720,,,,,,,,,,,,,3,biology,True,,8,8
+llm,Which organ takes in oxygen from the air?,service biology,biology,biology,llama3.1:8b,40.304902009665966,712,3,715,,,,,,,,,,,,,4,biology,True,,8,8
+llm,"Based on this information, what is Nutmeg's phenotype for the fur color trait?",service biology,biology,biology,llama3.1:8b,42.58144088089466,720,3,723,,,,,,,,,,,,,5,biology,True,,8,8
+llm,Which animal's skin is better adapted as a warning sign to ward off predators?,service biology,biology,biology,llama3.1:8b,41.25602706335485,719,3,722,,,,,,,,,,,,,6,biology,True,,8,8
+llm,"Based on this information, what is Sugar's genotype for the body size gene?",service biology,biology,biology,llama3.1:8b,40.3146801982075,719,3,722,,,,,,,,,,,,,7,biology,True,,8,8
+llm,Which of these organisms contains matter that was once part of the bilberry?,service biology,biology,biology,llama3.1:8b,42.757066898047924,718,3,721,,,,,,,,,,,,,8,biology,True,,8,8
+llm,Select the mammal below.,service biology,biology,biology,llama3.1:8b,45.06575409322977,709,3,712,,,,,,,,,,,,,9,biology,True,,8,8
+llm,What information supports the conclusion that John inherited this trait?,service biology,biology,biology,llama3.1:8b,43.17753296345472,714,3,717,,,,,,,,,,,,,10,biology,True,,8,8
+llm,"Based on this information, what is this scarlet rosemallow plant's phenotype for the flower color trait?",service biology,biology,biology,llama3.1:8b,44.73663796670735,725,3,728,,,,,,,,,,,,,11,biology,True,,8,8
+llm,"Based on this information, what is Elijah's phenotype for the Thomsen disease trait?",service biology,biology,biology,llama3.1:8b,43.665012111887336,721,3,724,,,,,,,,,,,,,12,biology,True,,8,8
+llm,"In this food web, which organism contains matter that eventually moves to the bat star?",service biology,biology,biology,llama3.1:8b,42.92537388391793,720,3,723,,,,,,,,,,,,,13,biology,True,,8,8
+llm,Which statement describes the Yasuni National Park ecosystem?,service biology,biology,biology,llama3.1:8b,44.14474684745073,713,3,716,,,,,,,,,,,,,14,biology,True,,8,8
+llm,What information supports the conclusion that Judy inherited this trait?,service biology,biology,biology,llama3.1:8b,44.348084134981036,714,3,717,,,,,,,,,,,,,15,biology,True,,8,8
+llm,Which of the following organisms is the producer in this food web?,service biology,biology,biology,llama3.1:8b,41.16048594005406,716,3,719,,,,,,,,,,,,,16,biology,True,,8,8
+llm,"Is the following trait inherited or acquired?
+Dave can fly an airplane.",service biology,biology,biology,llama3.1:8b,40.17107095569372,717,3,720,,,,,,,,,,,,,17,biology,True,,8,8
+llm,"Is the following trait inherited or acquired?
+Jayce can play the viola.",biology,biology,biology,llama3.1:8b,30.999512877315283,719,2,721,,,,,,,,,,,,,18,biology,True,,8,8
+llm,What is this huntsman spider's scientific name?,service biology,biology,biology,llama3.1:8b,46.93369404412806,713,3,716,,,,,,,,,,,,,19,biology,True,,8,8
+llm,Select the bird below.,service biology,biology,biology,llama3.1:8b,39.099086076021194,708,3,711,,,,,,,,,,,,,20,biology,True,,8,8
+llm,"Based on this information, what is Chip's genotype for the fur texture gene?",service biology,biology,biology,llama3.1:8b,41.47106013260782,719,3,722,,,,,,,,,,,,,21,biology,True,,8,8
+llm,"Is the following trait inherited or acquired?
+Sandra is good at knitting hats.",service biology,biology,biology,llama3.1:8b,41.12463514320552,719,3,722,,,,,,,,,,,,,22,biology,True,,8,8
+llm,Select the fish below.,biology,biology,biology,llama3.1:8b,33.32323394715786,708,2,710,,,,,,,,,,,,,23,biology,True,,8,8
+llm,"Is the following trait inherited or acquired?
+Pamela knows how to type.",service biology,biology,biology,llama3.1:8b,47.019304940477014,719,3,722,,,,,,,,,,,,,24,biology,True,,8,8
+llm,Which statement describes the Cape Breton Highlands National Park ecosystem?,service biology,biology,biology,llama3.1:8b,39.04622793197632,715,3,718,,,,,,,,,,,,,25,biology,True,,8,8
+llm,Which animal's feet are also adapted for swimming?,service biology,biology,biology,llama3.1:8b,38.98029890842736,713,3,716,,,,,,,,,,,,,26,biology,True,,8,8
+llm,What is the probability that a koi fish produced by this cross will have Bekko patterning?,service biology,biology,biology,llama3.1:8b,40.203808108344674,723,3,726,,,,,,,,,,,,,27,biology,True,,8,8
+llm,"Is the following trait inherited or acquired?
+Brenda has five toes on each foot.",service biology,biology,biology,llama3.1:8b,41.08945489861071,721,3,724,,,,,,,,,,,,,28,biology,True,,8,8
+llm,Which animal's body is better adapted for protection against a predator with sharp teeth?,biology,biology,biology,llama3.1:8b,31.750024063512683,719,2,721,,,,,,,,,,,,,29,biology,True,,8,8
+llm,What is the probability that a horse produced by this cross will have a reddish-brown coat?,service biology,biology,biology,llama3.1:8b,39.79416098445654,723,3,726,,,,,,,,,,,,,30,biology,True,,8,8
+llm,"Which bird's beak is also adapted to crack large, hard nuts?",service biology,biology,biology,llama3.1:8b,41.36842000298202,718,3,721,,,,,,,,,,,,,31,biology,True,,8,8
+llm,What information supports the conclusion that Caleb inherited this trait?,service biology,biology,biology,llama3.1:8b,38.81874890066683,714,3,717,,,,,,,,,,,,,32,biology,True,,8,8
+llm,Select the fish below.,service biology,biology,biology,llama3.1:8b,40.0547340977937,708,3,711,,,,,,,,,,,,,33,biology,True,,8,8
+llm,"In this food chain, the yucca moth is a consumer. Why?",service biology,biology,biology,llama3.1:8b,40.05573713220656,719,3,722,,,,,,,,,,,,,34,biology,True,,8,8
+llm,What is the probability that an American curl cat produced by this cross will be homozygous dominant for the ear type gene?,service biology,biology,biology,llama3.1:8b,41.69022501446307,729,3,732,,,,,,,,,,,,,35,biology,True,,8,8
+llm,Which better describes the tide pool ecosystems in Montaña De Oro State Park?,service biology,biology,biology,llama3.1:8b,39.375320076942444,718,3,721,,,,,,,,,,,,,36,biology,True,,8,8
+llm,What is the expected ratio of offspring with mutated antennae to offspring with normal antennae? Choose the most likely ratio.,biology,biology,biology,llama3.1:8b,33.296260982751846,727,2,729,,,,,,,,,,,,,37,biology,True,,8,8
+llm,"Complete the sentence.
+The mutation in the () affected the structure and function of the ().",service biology,biology,biology,llama3.1:8b,39.99756113626063,721,3,724,,,,,,,,,,,,,38,biology,True,,8,8
+llm,"In this food chain, the brown trout is a secondary consumer. Why?",service biology,biology,biology,llama3.1:8b,38.779901107773185,718,3,721,,,,,,,,,,,,,39,biology,True,,8,8
+llm,Select the mammal below.,service biology,biology,biology,llama3.1:8b,38.03033893927932,709,3,712,,,,,,,,,,,,,40,biology,True,,8,8
+llm,"Based on this information, what is Angel's genotype for the leg color gene?",service biology,biology,biology,llama3.1:8b,39.961735950782895,719,3,722,,,,,,,,,,,,,41,biology,True,,8,8
+llm,Which is this organism's common name?,biology,biology,biology,llama3.1:8b,29.883180977776647,711,2,713,,,,,,,,,,,,,42,biology,True,,8,8
+llm,"Based on this information, what is Jupiter's phenotype for the coat pattern trait?",service biology,biology,biology,llama3.1:8b,40.36316997371614,719,3,722,,,,,,,,,,,,,43,biology,True,,8,8
+llm,"Based on this information, what is this pea plant's phenotype for the pea color trait?",service biology,biology,biology,llama3.1:8b,39.04735995456576,721,3,724,,,,,,,,,,,,,44,biology,True,,8,8
+llm,Which is this organism's common name?,service biology,biology,biology,llama3.1:8b,39.11224799230695,711,3,714,,,,,,,,,,,,,45,biology,True,,8,8
+llm,What information supports the conclusion that Danny inherited this trait?,service biology,biology,biology,llama3.1:8b,37.74040401913226,714,3,717,,,,,,,,,,,,,46,biology,True,,8,8
+llm,"Based on this information, what is Blaze's phenotype for the horns trait?",service biology,biology,biology,llama3.1:8b,40.75685515999794,718,3,721,,,,,,,,,,,,,47,biology,True,,8,8
+llm,Is Rhizophora mangle made up of many cells?,service biology,biology,biology,llama3.1:8b,38.92217995598912,715,3,718,,,,,,,,,,,,,48,biology,True,,8,8
+llm,Which animal's feet are also adapted to walk on snow and ice?,service biology,biology,biology,llama3.1:8b,40.83116399124265,717,3,720,,,,,,,,,,,,,49,biology,True,,8,8
+llm,"Based on this information, what is Cleo's phenotype for the fur color trait?",service biology,biology,biology,llama3.1:8b,38.1852809805423,720,3,723,,,,,,,,,,,,,50,biology,True,,8,8
+llm,Select the amphibian below.,service biology,biology,biology,llama3.1:8b,60.058516915887594,709,3,712,,,,,,,,,,,,,51,biology,True,,8,8
+llm,What information supports the conclusion that Betty acquired this trait?,service biology,biology,biology,llama3.1:8b,38.21606910787523,714,3,717,,,,,,,,,,,,,52,biology,True,,8,8
+llm,Select the organism in the same genus as the spot-billed pelican.,biology,biology,biology,llama3.1:8b,31.16252599284053,718,2,720,,,,,,,,,,,,,53,biology,True,,8,8
+llm,Select the bird below.,service biology,biology,biology,llama3.1:8b,37.7911520190537,708,3,711,,,,,,,,,,,,,54,biology,True,,8,8
+llm,Which is this organism's scientific name?,service biology,biology,biology,llama3.1:8b,38.296878105029464,711,3,714,,,,,,,,,,,,,55,biology,True,,8,8
+llm,Which type of relationship is formed when a hawk moth visits a petunia flower?,service biology,biology,biology,llama3.1:8b,40.70373484864831,720,3,723,,,,,,,,,,,,,56,biology,True,,8,8
+llm,Select the organism in the same species as the Chinese mitten crab.,service biology,biology,biology,llama3.1:8b,40.51591595634818,717,3,720,,,,,,,,,,,,,57,biology,True,,8,8
+llm,Which of these organisms contains matter that was once part of the bear sedge?,service biology,biology,biology,llama3.1:8b,40.08530406281352,719,3,722,,,,,,,,,,,,,58,biology,True,,8,8
+llm,Use the evidence in the text to select the photosynthetic organism.,service biology,biology,biology,llama3.1:8b,40.97124212421477,717,3,720,,,,,,,,,,,,,59,biology,True,,8,8
+llm,Select the vertebrate.,service biology,biology,biology,llama3.1:8b,40.294239996001124,708,3,711,,,,,,,,,,,,,60,biology,True,,8,8
+llm,Select the animal that does not have a backbone.,service biology,biology,biology,llama3.1:8b,38.74459094367921,713,3,716,,,,,,,,,,,,,61,biology,True,,8,8
+llm,"Based on this information, what is this fruit fly's phenotype for the eye color trait?",service biology,biology,biology,llama3.1:8b,39.39501312561333,721,3,724,,,,,,,,,,,,,62,biology,True,,8,8
+llm,"Based on this information, what is this plant's phenotype for the leaf texture trait?",service biology,biology,biology,llama3.1:8b,37.724425084888935,720,3,723,,,,,,,,,,,,,63,biology,True,,8,8
+llm,"Based on this information, what is Lady's phenotype for the wool color trait?",biology,biology,biology,llama3.1:8b,28.940518852323294,719,2,721,,,,,,,,,,,,,64,biology,True,,8,8
+llm,What information supports the conclusion that Martha acquired this trait?,service biology,biology,biology,llama3.1:8b,38.79980300553143,714,3,717,,,,,,,,,,,,,65,biology,True,,8,8
+llm,Select the vertebrate.,service biology,biology,biology,llama3.1:8b,37.87489281967282,708,3,711,,,,,,,,,,,,,66,biology,True,,8,8
+llm,Select the one true statement.,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,50.85230804979801,709,5,714,,,,,,,,,,,,,67,biology,False,,8,8
+llm,What is the expected ratio of offspring that have horns to offspring that do not have horns? Choose the most likely ratio.,service biology,biology,biology,llama3.1:8b,42.24986117333174,727,3,730,,,,,,,,,,,,,68,biology,True,,8,8
+llm,What is the probability that a Syrian hamster produced by this cross will have long fur?,service biology,biology,biology,llama3.1:8b,41.732021840289235,721,3,724,,,,,,,,,,,,,69,biology,True,,8,8
+llm,Select the organism in the same species as the cocoi heron.,service biology,biology,biology,llama3.1:8b,39.83397292904556,717,3,720,,,,,,,,,,,,,70,biology,True,,8,8
+llm,Select the mammal below.,service biology,biology,biology,llama3.1:8b,36.506670992821455,709,3,712,,,,,,,,,,,,,71,biology,True,,8,8
+llm,Select the vertebrate.,service biology,biology,biology,llama3.1:8b,38.945839973166585,708,3,711,,,,,,,,,,,,,72,biology,True,,8,8
+llm,Which bird's beak is also adapted to catch insects?,service biology,biology,biology,llama3.1:8b,38.349061040207744,715,3,718,,,,,,,,,,,,,73,biology,True,,8,8
+llm,What information supports the conclusion that Katy inherited this trait?,service biology,biology,biology,llama3.1:8b,39.00916804559529,714,3,717,,,,,,,,,,,,,74,biology,True,,8,8
+llm,What information supports the conclusion that Dominic inherited this trait?,service biology,biology,biology,llama3.1:8b,38.57720596715808,714,3,717,,,,,,,,,,,,,75,biology,True,,8,8
+llm,What information supports the conclusion that Gabby acquired this trait?,service biology,biology,biology,llama3.1:8b,38.15219295211136,715,3,718,,,,,,,,,,,,,76,biology,True,,8,8
+llm,Select the one animal that has all of the placental mammal traits listed above.,service biology,biology,biology,llama3.1:8b,39.844383019953966,720,3,723,,,,,,,,,,,,,77,biology,True,,8,8
+llm,"Based on this information, what is Daffodil's phenotype for the horns trait?",service biology,biology,biology,llama3.1:8b,53.997901966795325,721,3,724,,,,,,,,,,,,,78,biology,True,,8,8
+llm,"Based on this information, what is Remy's phenotype for the body hair trait?",service biology,biology,biology,llama3.1:8b,37.738935090601444,720,3,723,,,,,,,,,,,,,79,biology,True,,8,8
+llm,Which animal is also adapted for climbing trees?,biology,biology,biology,llama3.1:8b,29.482931131497025,712,2,714,,,,,,,,,,,,,80,biology,True,,8,8
+llm,Which animal is also adapted for climbing trees?,service biology,biology,biology,llama3.1:8b,26.927507016807795,712,3,715,,,,,,,,,,,,,81,biology,True,,8,8
+llm,"Is the following trait inherited or acquired?
+Emmy is good at knitting hats.",service biology,biology,biology,llama3.1:8b,39.99761398881674,719,3,722,,,,,,,,,,,,,82,biology,True,,8,8
+llm,Select the mammal below.,service biology,biology,biology,llama3.1:8b,37.879270035773516,709,3,712,,,,,,,,,,,,,83,biology,True,,8,8
+llm,Select the organism in the same species as the marbled salamander.,service biology,biology,biology,llama3.1:8b,38.63289882428944,718,3,721,,,,,,,,,,,,,84,biology,True,,8,8
+llm,What is the expected ratio of offspring with vestigial wings to offspring with normal wings? Choose the most likely ratio.,service biology,biology,biology,llama3.1:8b,41.0505598410964,727,3,730,,,,,,,,,,,,,85,biology,True,,8,8
+llm,Select the one animal that has all of the mammal traits listed above.,service biology,biology,biology,llama3.1:8b,39.571586064994335,718,3,721,,,,,,,,,,,,,86,biology,True,,8,8
+llm,Select the organism in the same species as the comet moth.,biology,biology,biology,llama3.1:8b,29.923421097919345,715,2,717,,,,,,,,,,,,,87,biology,True,,8,8
+llm,What is the expected ratio of offspring with a reddish-brown coat to offspring with a black coat? Choose the most likely ratio.,biology,biology,biology,llama3.1:8b,33.6008130107075,730,2,732,,,,,,,,,,,,,88,biology,True,,8,8
+llm,Can Asimina triloba cells make their own food?,service biology,biology,biology,llama3.1:8b,40.122958132997155,716,3,719,,,,,,,,,,,,,89,biology,True,,8,8
+llm,"Is the following trait inherited or acquired?
+Megan has a scar on her right leg.",service biology,biology,biology,llama3.1:8b,39.96740886941552,721,3,724,,,,,,,,,,,,,90,biology,True,,8,8
+llm,"Based on this information, what is Poseidon's phenotype for the iridescent scales trait?",service biology,biology,biology,llama3.1:8b,39.57056300714612,722,3,725,,,,,,,,,,,,,91,biology,True,,8,8
+llm,What can a fern spore grow into?,service biology,biology,biology,llama3.1:8b,39.55507604405284,712,3,715,,,,,,,,,,,,,92,biology,True,,8,8
+llm,Select the organism in the same species as the slender-spined porcupinefish.,service biology,biology,biology,llama3.1:8b,40.21155694499612,720,3,723,,,,,,,,,,,,,93,biology,True,,8,8
+llm,Sperm cells are found inside pollen. What kind of cells are sperm?,biology,biology,biology,llama3.1:8b,30.84529796615243,718,2,720,,,,,,,,,,,,,94,biology,True,,8,8
+llm,Select the organism in the same species as the reticulated python.,service biology,biology,biology,llama3.1:8b,39.75362703204155,717,3,720,,,,,,,,,,,,,95,biology,True,,8,8
+llm,Select the bird below.,biology,biology,biology,llama3.1:8b,29.428869020193815,708,2,710,,,,,,,,,,,,,96,biology,True,,8,8
+llm,Which statement describes the Catoctin Mountain Park ecosystem?,service biology,biology,biology,llama3.1:8b,40.16975709237158,715,3,718,,,,,,,,,,,,,97,biology,True,,8,8
+llm,Select the one animal that has all of the reptile traits listed above.,service biology,biology,biology,llama3.1:8b,40.49422102980316,718,3,721,,,,,,,,,,,,,98,biology,True,,8,8
+llm,What is the expected ratio of offspring with a gray body to offspring with a golden body? Choose the most likely ratio.,biology,biology,biology,llama3.1:8b,33.388362964615226,727,2,729,,,,,,,,,,,,,99,biology,True,,8,8
+llm,Which solution has a higher concentration of green particles?,chemistry,chemistry,chemistry,llama3.1:8b,29.99471197836101,713,2,715,,,,,,,,,,,,,100,chemistry,True,,8,8
+llm,"Complete the sentence.
+In this chemical reaction, nitrous oxide is a ().",service chemistry,chemistry,chemistry,llama3.1:8b,38.64780208095908,719,3,722,,,,,,,,,,,,,101,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+rust forming on a metal gate
+saliva breaking down a piece of bread",service biology,biology,biology,llama3.1:8b,39.18912587687373,728,3,731,,,,,,,,,,,,,102,chemistry,False,,8,8
+llm,"What do these two changes have in common?
+carving a piece of wood
+sewing an apron",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,44.13472395390272,725,4,729,,,,,,,,,,,,,103,chemistry,False,,8,8
+llm,Which solution has a higher concentration of yellow particles?,service chemistry,chemistry,chemistry,llama3.1:8b,36.36936587281525,713,3,716,,,,,,,,,,,,,104,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+cooking an egg
+a penny tarnishing",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,51.32637289352715,722,5,727,,,,,,,,,,,,,105,chemistry,False,,8,8
+llm,"Complete the sentence.
+Bees making honey from nectar is a ().",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,44.326047180220485,718,4,722,,,,,,,,,,,,,106,chemistry,False,,8,8
+llm,"Complete the statement.
+Silver is ().",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.43417012691498,711,5,716,,,,,,,,,,,,,107,chemistry,False,,8,8
+llm,"What do these two changes have in common?
+breaking a ceramic plate
+water vapor condensing on a bathroom mirror",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,46.03465390391648,726,4,730,,,,,,,,,,,,,108,chemistry,False,,8,8
+llm,"What do these two changes have in common?
+plants making food from sunlight, air, and water
+a penny tarnishing",service chemistry,chemistry,chemistry,llama3.1:8b,37.510350812226534,728,3,731,,,,,,,,,,,,,109,chemistry,True,,8,8
+llm,"Complete the statement.
+Gallium arsenide is ().",chemistry,chemistry,chemistry,llama3.1:8b,28.34870619699359,715,2,717,,,,,,,,,,,,,110,chemistry,True,,8,8
+llm,Which solution has a higher concentration of green particles?,service chemistry,chemistry,chemistry,llama3.1:8b,35.88804486207664,713,3,716,,,,,,,,,,,,,111,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+water evaporating from a puddle
+melting glass",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,52.53134993836284,724,5,729,,,,,,,,,,,,,112,chemistry,False,,8,8
+llm,"Complete the statement.
+Cyclooctasulfur is ().",service chemistry,chemistry,chemistry,llama3.1:8b,38.047275971621275,717,3,720,,,,,,,,,,,,,113,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+butter melting on a hot day
+cooking an egg",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,51.59747088328004,725,5,730,,,,,,,,,,,,,114,chemistry,False,,8,8
+llm,"Complete the text to describe the diagram.
+Solute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.",service chemistry,chemistry,chemistry,llama3.1:8b,45.01605802215636,749,3,752,,,,,,,,,,,,,115,chemistry,True,,8,8
+llm,Which solution has a higher concentration of purple particles?,service chemistry,chemistry,chemistry,llama3.1:8b,36.216875072568655,713,3,716,,,,,,,,,,,,,116,chemistry,True,,8,8
+llm,"Complete the sentence.
+Grilling a hamburger is a ().",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,48.67570218630135,715,5,720,,,,,,,,,,,,,117,chemistry,False,,8,8
+llm,"Complete the sentence.
+Leaves changing color in the fall is a ().",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,48.67823189124465,718,5,723,,,,,,,,,,,,,118,chemistry,False,,8,8
+llm,"Complete the text to describe the diagram.
+Solute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.",service chemistry,chemistry,chemistry,llama3.1:8b,44.85574597492814,749,3,752,,,,,,,,,,,,,119,chemistry,True,,8,8
+llm,Select the chemical formula for this molecule.,service chemistry,chemistry,chemistry,llama3.1:8b,36.6228970233351,711,3,714,,,,,,,,,,,,,120,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+water evaporating from a lake
+stretching a rubber band",service -1,general,general,llama3.1:8b,47.25408391095698,725,4,729,,,,,,,,,,,,,121,chemistry,False,,8,8
+llm,"What do these two changes have in common?
+a piece of avocado turning brown
+boiling sugar to make caramel",service chemistry,chemistry,chemistry,llama3.1:8b,37.37687086686492,726,3,729,,,,,,,,,,,,,122,chemistry,True,,8,8
+llm,Which solution has a higher concentration of purple particles?,service chemistry,chemistry,chemistry,llama3.1:8b,36.42474487423897,713,3,716,,,,,,,,,,,,,123,chemistry,True,,8,8
+llm,"Complete the text to describe the diagram.
+Solute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.",service chemistry,chemistry,chemistry,llama3.1:8b,44.27817999385297,749,3,752,,,,,,,,,,,,,124,chemistry,True,,8,8
+llm,Which solution has a higher concentration of blue particles?,service chemistry,chemistry,chemistry,llama3.1:8b,35.87014996446669,713,3,716,,,,,,,,,,,,,125,chemistry,True,,8,8
+llm,Which solution has a higher concentration of yellow particles?,service chemistry,chemistry,chemistry,llama3.1:8b,34.32598593644798,713,3,716,,,,,,,,,,,,,126,chemistry,True,,8,8
+llm,"Complete the sentence.
+Water freezing into ice is a ().",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.17252787202597,715,4,719,,,,,,,,,,,,,127,chemistry,False,,8,8
+llm,Which solution has a higher concentration of pink particles?,chemistry,chemistry,chemistry,llama3.1:8b,28.35079818032682,713,2,715,,,,,,,,,,,,,128,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+baking an apple pie
+using polish to remove tarnish from a silver spoon",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,51.97958811186254,729,5,734,,,,,,,,,,,,,129,chemistry,False,,8,8
+llm,"Complete the statement.
+Propane is ().",service chemistry,chemistry,chemistry,llama3.1:8b,36.435354966670275,712,3,715,,,,,,,,,,,,,130,chemistry,True,,8,8
+llm,"Complete the sentence.
+Snowflakes forming in a cloud is a ().",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.476392049342394,718,4,722,,,,,,,,,,,,,131,chemistry,False,,8,8
+llm,"Complete the sentence.
+Breaking a plate is a ().",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,48.60320803709328,714,5,719,,,,,,,,,,,,,132,chemistry,False,,8,8
+llm,"What do these two changes have in common?
+photosynthesis
+a penny tarnishing",biology,biology,biology,llama3.1:8b,29.813352040946484,720,2,722,,,,,,,,,,,,,133,chemistry,False,,8,8
+llm,"Complete the statement.
+Sodium iodide is ().",service chemistry,chemistry,chemistry,llama3.1:8b,36.479719914495945,714,3,717,,,,,,,,,,,,,134,chemistry,True,,8,8
+llm,Which solution has a higher concentration of pink particles?,service chemistry,chemistry,chemistry,llama3.1:8b,36.102971993386745,713,3,716,,,,,,,,,,,,,135,chemistry,True,,8,8
+llm,"Complete the statement.
+Potassium chloride is ().",chemistry,chemistry,chemistry,llama3.1:8b,28.514670906588435,713,2,715,,,,,,,,,,,,,136,chemistry,True,,8,8
+llm,"Complete the sentence.
+Cellular respiration is a ().",service biology,biology,biology,llama3.1:8b,36.30713396705687,715,3,718,,,,,,,,,,,,,137,chemistry,False,,8,8
+llm,"Complete the sentence.
+A dinosaur bone turning into rock over millions of years is a ().",service biology,biology,biology,llama3.1:8b,37.925370037555695,721,3,724,,,,,,,,,,,,,138,chemistry,False,,8,8
+llm,"Complete the statement.
+Phosphine is ().",service chemistry,chemistry,chemistry,llama3.1:8b,37.27515903301537,713,3,716,,,,,,,,,,,,,139,chemistry,True,,8,8
+llm,Look at the models of molecules below. Select the elementary substance.,service chemistry,chemistry,chemistry,llama3.1:8b,37.72994689643383,716,3,719,,,,,,,,,,,,,140,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+a puddle freezing into ice on a cold night
+beating an egg",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,52.25004511885345,728,5,733,,,,,,,,,,,,,141,chemistry,False,,8,8
+llm,"What do these two changes have in common?
+water freezing into ice
+bending a paper clip",service -1,general,general,llama3.1:8b,42.286771116778255,723,4,727,,,,,,,,,,,,,142,chemistry,False,,8,8
+llm,"Complete the statement.
+Magnesium is ().",chemistry,chemistry,chemistry,llama3.1:8b,28.436585096642375,712,2,714,,,,,,,,,,,,,143,chemistry,True,,8,8
+llm,Which solution has a higher concentration of blue particles?,chemistry,chemistry,chemistry,llama3.1:8b,28.109919046983123,713,2,715,,,,,,,,,,,,,144,chemistry,True,,8,8
+llm,"Complete the statement.
+Silicon carbide is ().",service chemistry,chemistry,chemistry,llama3.1:8b,36.104443948715925,714,3,717,,,,,,,,,,,,,145,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+snails growing shells
+photosynthesis",service biology,biology,biology,llama3.1:8b,37.471798015758395,720,3,723,,,,,,,,,,,,,146,chemistry,False,,8,8
+llm,"Complete the sentence.
+Dry ice sublimating and becoming a gas is a ().",service chemistry,chemistry,chemistry,llama3.1:8b,38.45640504732728,720,3,723,,,,,,,,,,,,,147,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+butter melting on a hot day
+mixing sand and water",service figurative-language,figurative-language,figurative-language,llama3.1:8b,52.21713590435684,726,5,731,,,,,,,,,,,,,148,chemistry,False,,8,8
+llm,Which solution has a higher concentration of blue particles?,service chemistry,chemistry,chemistry,llama3.1:8b,37.48830710537732,713,3,716,,,,,,,,,,,,,149,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+bleaching clothes
+a piece of apple turning brown",service chemistry,chemistry,chemistry,llama3.1:8b,37.7298048697412,723,3,726,,,,,,,,,,,,,150,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+ice melting in a cup
+dew appearing on grass in the morning",service earth-science,earth-science,earth-science,llama3.1:8b,50.33029103651643,727,5,732,,,,,,,,,,,,,151,chemistry,False,,8,8
+llm,"What do these two changes have in common?
+a copper statue turning green
+firing a clay pot in a hot kiln",service chemistry,chemistry,chemistry,llama3.1:8b,37.89669298566878,729,3,732,,,,,,,,,,,,,152,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+a slice of banana turning brown
+chicken cooking in an oven",service chemistry,chemistry,chemistry,llama3.1:8b,37.04794403165579,726,3,729,,,,,,,,,,,,,153,chemistry,True,,8,8
+llm,Select the elementary substance.,service chemistry,chemistry,chemistry,llama3.1:8b,35.670479061082006,708,3,711,,,,,,,,,,,,,154,chemistry,True,,8,8
+llm,"Complete the statement.
+Potassium hydroxide is ().",service chemistry,chemistry,chemistry,llama3.1:8b,36.95188905112445,715,3,718,,,,,,,,,,,,,155,chemistry,True,,8,8
+llm,"Complete the statement.
+Hydrazine is ().",service chemistry,chemistry,chemistry,llama3.1:8b,35.8947841450572,714,3,717,,,,,,,,,,,,,156,chemistry,True,,8,8
+llm,"Complete the sentence.
+Baking cookies is a ().",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.69721498712897,714,4,718,,,,,,,,,,,,,157,chemistry,False,,8,8
+llm,"Complete the statement.
+Hydrogen peroxide is ().",service chemistry,chemistry,chemistry,llama3.1:8b,36.15696216002107,715,3,718,,,,,,,,,,,,,158,chemistry,True,,8,8
+llm,Which solution has a higher concentration of pink particles?,chemistry,chemistry,chemistry,llama3.1:8b,28.155077015981078,713,2,715,,,,,,,,,,,,,159,chemistry,True,,8,8
+llm,Which solution has a higher concentration of green particles?,chemistry,chemistry,chemistry,llama3.1:8b,26.865403167903423,713,2,715,,,,,,,,,,,,,160,chemistry,True,,8,8
+llm,"Complete the statement.
+Beryllium is ().",service chemistry,chemistry,chemistry,llama3.1:8b,36.200218833982944,714,3,717,,,,,,,,,,,,,161,chemistry,True,,8,8
+llm,"Complete the statement.
+Platinum is ().",service chemistry,chemistry,chemistry,llama3.1:8b,35.627496195957065,712,3,715,,,,,,,,,,,,,162,chemistry,True,,8,8
+llm,"Complete the sentence.
+Cutting your fingernails is a ().",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.423533042892814,717,4,721,,,,,,,,,,,,,163,chemistry,False,,8,8
+llm,"What do these two changes have in common?
+sediment settling to the bottom of a muddy puddle
+shaking up salad dressing",service figurative-language,figurative-language,figurative-language,llama3.1:8b,52.96201282180846,730,5,735,,,,,,,,,,,,,164,chemistry,False,,8,8
+llm,"Complete the statement.
+Nitrogen is ().",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.48552583158016,712,4,716,,,,,,,,,,,,,165,chemistry,False,,8,8
+llm,"Complete the statement.
+Iodine is ().",service chemistry,chemistry,chemistry,llama3.1:8b,36.32797207683325,713,3,716,,,,,,,,,,,,,166,chemistry,True,,8,8
+llm,"Complete the sentence.
+A can of soda fizzing over is a ().",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,50.39998982101679,718,5,723,,,,,,,,,,,,,167,chemistry,False,,8,8
+llm,"What do these two changes have in common?
+deep-frying chicken
+burning a marshmallow over a campfire",service figurative-language,figurative-language,figurative-language,llama3.1:8b,52.379761124029756,727,5,732,,,,,,,,,,,,,168,chemistry,False,,8,8
+llm,Which solution has a higher concentration of blue particles?,service chemistry,chemistry,chemistry,llama3.1:8b,35.901363007724285,713,3,716,,,,,,,,,,,,,169,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+making paper from wood
+roasting a marshmallow over a campfire",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,45.48315005376935,727,4,731,,,,,,,,,,,,,170,chemistry,False,,8,8
+llm,"What do these two changes have in common?
+rust forming on a bike frame
+a penny tarnishing",service chemistry,chemistry,chemistry,llama3.1:8b,36.088558146730065,724,3,727,,,,,,,,,,,,,171,chemistry,True,,8,8
+llm,Which solution has a higher concentration of green particles?,chemistry,chemistry,chemistry,llama3.1:8b,28.340306831523776,713,2,715,,,,,,,,,,,,,172,chemistry,True,,8,8
+llm,"Complete the statement.
+Silicon dioxide is ().",service chemistry,chemistry,chemistry,llama3.1:8b,36.967745050787926,713,3,716,,,,,,,,,,,,,173,chemistry,True,,8,8
+llm,Which solution has a higher concentration of purple particles?,service chemistry,chemistry,chemistry,llama3.1:8b,35.890601109713316,713,3,716,,,,,,,,,,,,,174,chemistry,True,,8,8
+llm,"Complete the sentence.
+Knitting yarn into a scarf is a ().",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.6860139016062,717,4,721,,,,,,,,,,,,,175,chemistry,False,,8,8
+llm,Select the chemical formula for this molecule.,service chemistry,chemistry,chemistry,llama3.1:8b,35.629514837637544,711,3,714,,,,,,,,,,,,,176,chemistry,True,,8,8
+llm,Which solution has a higher concentration of blue particles?,service chemistry,chemistry,chemistry,llama3.1:8b,35.86437297053635,713,3,716,,,,,,,,,,,,,177,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+a puddle freezing into ice on a cold night
+mixing sand and water",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,52.21511307172477,729,5,734,,,,,,,,,,,,,178,chemistry,False,,8,8
+llm,"What do these two changes have in common?
+erosion caused by wind
+beating an egg",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.183038994669914,723,5,728,,,,,,,,,,,,,179,chemistry,False,,8,8
+llm,Select the elementary substance.,service chemistry,chemistry,chemistry,llama3.1:8b,36.74570797011256,708,3,711,,,,,,,,,,,,,180,chemistry,True,,8,8
+llm,"Complete the statement.
+Hydrogen is ().",service chemistry,chemistry,chemistry,llama3.1:8b,36.334465024992824,713,3,716,,,,,,,,,,,,,181,chemistry,True,,8,8
+llm,"Complete the text to describe the diagram.
+Solute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.",service chemistry,chemistry,chemistry,llama3.1:8b,44.14030606858432,749,3,752,,,,,,,,,,,,,182,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+baking cookies
+rust forming on a metal gate",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,50.6239989772439,723,5,728,,,,,,,,,,,,,183,chemistry,False,,8,8
+llm,"What do these two changes have in common?
+a piece of pizza rotting in a trashcan
+cooking an egg",service biology,biology,biology,llama3.1:8b,37.24708408117294,728,3,731,,,,,,,,,,,,,184,chemistry,False,,8,8
+llm,Look at the models of molecules below. Select the elementary substance.,service chemistry,chemistry,chemistry,llama3.1:8b,37.138039944693446,716,3,719,,,,,,,,,,,,,185,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+sawing a log in half
+stretching a rubber band",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,45.24254705756903,726,4,730,,,,,,,,,,,,,186,chemistry,False,,8,8
+llm,"Complete the sentence.
+Chicken cooking in an oven is a ().",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.895511008799076,716,5,721,,,,,,,,,,,,,187,chemistry,False,,8,8
+llm,"Complete the statement.
+Nickel is ().",service chemistry,chemistry,chemistry,llama3.1:8b,37.44350909255445,712,3,715,,,,,,,,,,,,,188,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+water evaporating from a puddle
+rain forming in a cloud",service earth-science,earth-science,earth-science,llama3.1:8b,53.307170048356056,726,5,731,,,,,,,,,,,,,189,chemistry,False,,8,8
+llm,Which solution has a higher concentration of green particles?,chemistry,chemistry,chemistry,llama3.1:8b,29.031443875283003,713,2,715,,,,,,,,,,,,,190,chemistry,True,,8,8
+llm,"Complete the sentence.
+In this chemical reaction, water is a ().",service chemistry,chemistry,chemistry,llama3.1:8b,37.50537196174264,717,3,720,,,,,,,,,,,,,191,chemistry,True,,8,8
+llm,"Complete the statement.
+Ethanol is ().",service chemistry,chemistry,chemistry,llama3.1:8b,35.80009797587991,712,3,715,,,,,,,,,,,,,192,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+breaking a ceramic plate
+mixing chocolate syrup into milk",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,45.84159003570676,724,4,728,,,,,,,,,,,,,193,chemistry,False,,8,8
+llm,"What do these two changes have in common?
+using polish to remove tarnish from a silver spoon
+a piece of avocado turning brown",service chemistry,chemistry,chemistry,llama3.1:8b,37.96519688330591,730,3,733,,,,,,,,,,,,,194,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+using polish to remove tarnish from a silver spoon
+a dinosaur bone turning into rock over millions of years",service earth-science,earth-science,earth-science,llama3.1:8b,48.84905996732414,734,5,739,,,,,,,,,,,,,195,chemistry,False,,8,8
+llm,Which solution has a higher concentration of blue particles?,service chemistry,chemistry,chemistry,llama3.1:8b,36.00822016596794,713,3,716,,,,,,,,,,,,,196,chemistry,True,,8,8
+llm,"What do these two changes have in common?
+water evaporating from a puddle
+dust settling out of the air",service earth-science,earth-science,earth-science,llama3.1:8b,53.73933003284037,727,5,732,,,,,,,,,,,,,197,chemistry,False,,8,8
+llm,Which solution has a higher concentration of purple particles?,service chemistry,chemistry,chemistry,llama3.1:8b,36.193921230733395,713,3,716,,,,,,,,,,,,,198,chemistry,True,,8,8
+llm,Which solution has a higher concentration of green particles?,service chemistry,chemistry,chemistry,llama3.1:8b,34.40761403180659,713,3,716,,,,,,,,,,,,,199,chemistry,True,,8,8
+llm,Select the one substance that is not a rock.,service earth-science,earth-science,earth-science,llama3.1:8b,48.91239898279309,713,5,718,,,,,,,,,,,,,200,earth-science,True,,8,8
+llm,"Does this passage describe the weather or the climate?
+Lee lives in a town with hot summers and freezing cold winters.",earth-science,earth-science,earth-science,llama3.1:8b,45.57092487812042,726,4,730,,,,,,,,,,,,,201,earth-science,True,,8,8
+llm,Is shampoo a mineral?,service chemistry,chemistry,chemistry,llama3.1:8b,35.87777307257056,708,3,711,,,,,,,,,,,,,202,earth-science,False,,8,8
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,llama3.1:8b,48.77092083916068,713,5,718,,,,,,,,,,,,,203,earth-science,True,,8,8
+llm,Select the one substance that is not a rock.,service earth-science,earth-science,earth-science,llama3.1:8b,49.497219966724515,713,5,718,,,,,,,,,,,,,204,earth-science,True,,8,8
+llm,"Which change best matches the sentence?
+The floor of a valley is covered by water after a heavy rainfall.",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,53.547889925539494,724,5,729,,,,,,,,,,,,,205,earth-science,False,,8,8
+llm,Which specific humidity level was measured within the outlined area shown?,earth-science,earth-science,earth-science,llama3.1:8b,42.66124404966831,715,4,719,,,,,,,,,,,,,206,earth-science,True,,8,8
+llm,"Does this passage describe the weather or the climate?
+Where Rick lives, winter is the rainiest season of the year.",earth-science,earth-science,earth-science,llama3.1:8b,45.67047511227429,727,4,731,,,,,,,,,,,,,207,earth-science,True,,8,8
+llm,Which trait did Meiolania have? Select the trait you can observe on the fossil.,service earth-science,earth-science,earth-science,llama3.1:8b,50.21287314593792,721,5,726,,,,,,,,,,,,,208,earth-science,True,,8,8
+llm,Which trait did Holophagus have? Select the trait you can observe on the fossil.,service earth-science,earth-science,earth-science,llama3.1:8b,50.5801229737699,721,5,726,,,,,,,,,,,,,209,earth-science,True,,8,8
+llm,Which of the following is on the map?,earth-science,earth-science,earth-science,llama3.1:8b,42.37604700028896,712,4,716,,,,,,,,,,,,,210,earth-science,True,,8,8
+llm,"Complete the sentence.
+The Thingvellir Rift Valley formed at a () boundary.",service earth-science,earth-science,earth-science,llama3.1:8b,50.742981024086475,719,5,724,,,,,,,,,,,,,211,earth-science,True,,8,8
+llm,Which month is the wettest on average in Christchurch?,earth-science,earth-science,earth-science,llama3.1:8b,44.04046107083559,715,4,719,,,,,,,,,,,,,212,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+Saturn's volume is more than 50% of Jupiter's volume.",service earth-science,earth-science,earth-science,llama3.1:8b,52.58597107604146,730,5,735,,,,,,,,,,,,,213,earth-science,True,,8,8
+llm,Which month is the hottest on average in Adelaide?,service earth-science,earth-science,earth-science,llama3.1:8b,49.59342093206942,713,5,718,,,,,,,,,,,,,214,earth-science,True,,8,8
+llm,Which statement best describes the average monthly precipitation in New Orleans?,earth-science,earth-science,earth-science,llama3.1:8b,42.83242882229388,715,4,719,,,,,,,,,,,,,215,earth-science,True,,8,8
+llm,Does this passage describe the weather or the climate?,earth-science,earth-science,earth-science,llama3.1:8b,42.38881194032729,713,4,717,,,,,,,,,,,,,216,earth-science,True,,8,8
+llm,"Does this passage describe the weather or the climate?
+Voss is a city in Norway. One winter, the snow there was two meters deep!",earth-science,earth-science,earth-science,llama3.1:8b,43.96512592211366,732,4,736,,,,,,,,,,,,,217,earth-science,True,,8,8
+llm,"Does this passage describe the weather or the climate?
+There are usually more days with low air pressure than high air pressure where Martha lives.",earth-science,earth-science,earth-science,llama3.1:8b,44.03481702320278,730,4,734,,,,,,,,,,,,,218,earth-science,True,,8,8
+llm,"Does this passage describe the weather or the climate?
+There are usually more days with low air pressure than high air pressure where Diane lives.",service earth-science,earth-science,earth-science,llama3.1:8b,46.82162799872458,730,5,735,,,,,,,,,,,,,219,earth-science,True,,8,8
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,llama3.1:8b,48.5011909622699,713,5,718,,,,,,,,,,,,,220,earth-science,True,,8,8
+llm,Which trait did Galeocerdo have? Select the trait you can observe on the fossil.,service biology,biology,biology,llama3.1:8b,38.29034208320081,722,3,725,,,,,,,,,,,,,221,earth-science,False,,8,8
+llm,Which rock is more likely to form from sediment deposited in a desert?,earth-science,earth-science,earth-science,llama3.1:8b,44.03234599158168,717,4,721,,,,,,,,,,,,,222,earth-science,True,,8,8
+llm,"Does this passage describe the weather or the climate?
+It was windy last night at the Northern Kentucky Airport. The wind was blowing in from the southeast.",service earth-science,earth-science,earth-science,llama3.1:8b,54.75816014222801,733,5,738,,,,,,,,,,,,,223,earth-science,True,,8,8
+llm,Is dolerite a mineral or a rock?,service earth-science,earth-science,earth-science,llama3.1:8b,49.57820102572441,713,5,718,,,,,,,,,,,,,224,earth-science,True,,8,8
+llm,Which trait did Coelodonta have? Select the trait you can observe on the fossil.,service earth-science,earth-science,earth-science,llama3.1:8b,51.08864209614694,722,5,727,,,,,,,,,,,,,225,earth-science,True,,8,8
+llm,"Does this passage describe the weather or the climate?
+It has not rained in over a week at Ian's house.",service earth-science,earth-science,earth-science,llama3.1:8b,51.98970693163574,727,5,732,,,,,,,,,,,,,226,earth-science,True,,8,8
+llm,Which of the following fossils is younger? Select the more likely answer.,service earth-science,earth-science,earth-science,llama3.1:8b,50.82295509055257,717,5,722,,,,,,,,,,,,,227,earth-science,True,,8,8
+llm,Which statement best describes the average monthly precipitation in Boston?,service earth-science,earth-science,earth-science,llama3.1:8b,48.945074900984764,714,5,719,,,,,,,,,,,,,228,earth-science,True,,8,8
+llm,Select the one substance that is not a rock.,service earth-science,earth-science,earth-science,llama3.1:8b,49.024052917957306,713,5,718,,,,,,,,,,,,,229,earth-science,True,,8,8
+llm,"Does this passage describe the weather or the climate?
+Kevin lives in a city that is often covered by thick stratus clouds.",earth-science,earth-science,earth-science,llama3.1:8b,46.74029815942049,728,4,732,,,,,,,,,,,,,230,earth-science,True,,8,8
+llm,Does this passage describe the weather or the climate?,earth-science,earth-science,earth-science,llama3.1:8b,41.841428028419614,713,4,717,,,,,,,,,,,,,231,earth-science,True,,8,8
+llm,Select the one substance that is not a rock.,service earth-science,earth-science,earth-science,llama3.1:8b,49.76629209704697,713,5,718,,,,,,,,,,,,,232,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+The smallest planet is made mainly of rock.",service earth-science,earth-science,earth-science,llama3.1:8b,52.08892305381596,724,5,729,,,,,,,,,,,,,233,earth-science,True,,8,8
+llm,"Which change best matches the sentence?
+Melted rock comes out from below Earth's surface.",service geology,UNMATCHED,UNMATCHED,llama3.1:8b,44.77781197056174,722,4,726,,,,,,,,,,,,,234,earth-science,False,,8,8
+llm,Is quartzite a mineral?,earth-science,earth-science,earth-science,llama3.1:8b,43.44351892359555,709,4,713,,,,,,,,,,,,,235,earth-science,True,,8,8
+llm,Is sphalerite a mineral?,service earth-science,earth-science,earth-science,llama3.1:8b,48.66655683144927,710,5,715,,,,,,,,,,,,,236,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+The volume of Uranus is less than ten times the volume of Neptune.",service earth-science,earth-science,earth-science,llama3.1:8b,52.69872094504535,730,5,735,,,,,,,,,,,,,237,earth-science,True,,8,8
+llm,"Which change best matches the sentence?
+A rock from outer space crashes into Earth's surface.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,44.13395305164158,721,4,725,,,,,,,,,,,,,238,earth-science,False,,8,8
+llm,Does this passage describe the weather or the climate?,earth-science,earth-science,earth-science,llama3.1:8b,42.59071289561689,713,4,717,,,,,,,,,,,,,239,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+The smallest planet is made mainly of rock.",service earth-science,earth-science,earth-science,llama3.1:8b,52.485842956230044,724,5,729,,,,,,,,,,,,,240,earth-science,True,,8,8
+llm,Which of the following fossils is younger? Select the more likely answer.,service earth-science,earth-science,earth-science,llama3.1:8b,50.65712193027139,717,5,722,,,,,,,,,,,,,241,earth-science,True,,8,8
+llm,"Does this passage describe the weather or the climate?
+The windiest months on Mount Everest are November, December, and January.",service earth-science,earth-science,earth-science,llama3.1:8b,68.78277380019426,728,5,733,,,,,,,,,,,,,242,earth-science,True,,8,8
+llm,Does this passage describe the weather or the climate?,earth-science,earth-science,earth-science,llama3.1:8b,68.31258116289973,713,4,717,,,,,,,,,,,,,243,earth-science,True,,8,8
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,llama3.1:8b,37.797046825289726,713,5,718,,,,,,,,,,,,,244,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+Of the four smallest planets, two are made mainly of gas.",service earth-science,earth-science,earth-science,llama3.1:8b,53.25997294858098,728,5,733,,,,,,,,,,,,,245,earth-science,True,,8,8
+llm,Select the one substance that is not a mineral.,service earth-science,earth-science,earth-science,llama3.1:8b,49.33456005528569,713,5,718,,,,,,,,,,,,,246,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+The volume of Earth is more than ten times the volume of Mercury.",service earth-science,earth-science,earth-science,llama3.1:8b,52.215067902579904,729,5,734,,,,,,,,,,,,,247,earth-science,True,,8,8
+llm,Which of the following fossils is older? Select the more likely answer.,earth-science,earth-science,earth-science,llama3.1:8b,43.40840387158096,717,4,721,,,,,,,,,,,,,248,earth-science,True,,8,8
+llm,Select the one substance that is not a mineral.,service earth-science,earth-science,earth-science,llama3.1:8b,48.71524893678725,713,5,718,,,,,,,,,,,,,249,earth-science,True,,8,8
+llm,Is fluorite a mineral or a rock?,service earth-science,earth-science,earth-science,llama3.1:8b,49.42909092642367,712,5,717,,,,,,,,,,,,,250,earth-science,True,,8,8
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,llama3.1:8b,48.954549012705684,713,5,718,,,,,,,,,,,,,251,earth-science,True,,8,8
+llm,Which trait did Ichthyornis have? Select the trait you can observe in the drawing.,service biology,biology,biology,llama3.1:8b,38.03823399357498,722,3,725,,,,,,,,,,,,,252,earth-science,False,,8,8
+llm,Select the one substance that is not a rock.,service earth-science,earth-science,earth-science,llama3.1:8b,50.228124018758535,713,5,718,,,,,,,,,,,,,253,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+Half of the planets are made mainly of gas or ice.",service earth-science,earth-science,earth-science,llama3.1:8b,69.20885085128248,727,5,732,,,,,,,,,,,,,254,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+Of the four largest planets, three are made mainly of gas.",service earth-science,earth-science,earth-science,llama3.1:8b,51.34844686836004,728,5,733,,,,,,,,,,,,,255,earth-science,True,,8,8
+llm,"Does this passage describe the weather or the climate?
+Where Nicole lives, winter is the rainiest season of the year.",service earth-science,earth-science,earth-science,llama3.1:8b,52.895464934408665,727,5,732,,,,,,,,,,,,,256,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+Three-quarters of the planets are larger than Earth.",service earth-science,earth-science,earth-science,llama3.1:8b,53.57443680986762,725,5,730,,,,,,,,,,,,,257,earth-science,True,,8,8
+llm,"Does this passage describe the weather or the climate?
+Lisbon, Portugal, has cloudy skies today. So, the air pressure is low.",service earth-science,earth-science,earth-science,llama3.1:8b,54.03573205694556,732,5,737,,,,,,,,,,,,,258,earth-science,True,,8,8
+llm,Which trait did Diplomystus have? Select the trait you can observe on the fossil.,service earth-science,earth-science,earth-science,llama3.1:8b,50.60266982764006,722,5,727,,,,,,,,,,,,,259,earth-science,True,,8,8
+llm,Which trait did Megaloceros have? Select the trait you can observe on the fossil.,service earth-science,earth-science,earth-science,llama3.1:8b,51.900488091632724,722,5,727,,,,,,,,,,,,,260,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+Of the four largest planets, three are made mainly of gas.",service earth-science,earth-science,earth-science,llama3.1:8b,55.65148498862982,728,5,733,,,,,,,,,,,,,261,earth-science,True,,8,8
+llm,Which month has the lowest average precipitation in London?,service earth-science,earth-science,earth-science,llama3.1:8b,50.40010088123381,713,5,718,,,,,,,,,,,,,262,earth-science,True,,8,8
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,llama3.1:8b,49.72144402563572,713,5,718,,,,,,,,,,,,,263,earth-science,True,,8,8
+llm,Does this passage describe the weather or the climate?,earth-science,earth-science,earth-science,llama3.1:8b,31.371862860396504,713,4,717,,,,,,,,,,,,,264,earth-science,True,,8,8
+llm,Is scoria a mineral or a rock?,service earth-science,earth-science,earth-science,llama3.1:8b,49.331788904964924,712,5,717,,,,,,,,,,,,,265,earth-science,True,,8,8
+llm,Which statement best describes the average monthly precipitation in New Orleans?,earth-science,earth-science,earth-science,llama3.1:8b,43.031883891671896,715,4,719,,,,,,,,,,,,,266,earth-science,True,,8,8
+llm,Select the one substance that is not a mineral.,service earth-science,earth-science,earth-science,llama3.1:8b,49.23719400539994,713,5,718,,,,,,,,,,,,,267,earth-science,True,,8,8
+llm,Is andesite a mineral or a rock?,service earth-science,earth-science,earth-science,llama3.1:8b,51.34247103706002,713,5,718,,,,,,,,,,,,,268,earth-science,True,,8,8
+llm,Select the one substance that is not a rock.,service earth-science,earth-science,earth-science,llama3.1:8b,49.37946214340627,713,5,718,,,,,,,,,,,,,269,earth-science,True,,8,8
+llm,What type of rock is sandstone?,earth-science,earth-science,earth-science,llama3.1:8b,42.76260384358466,711,4,715,,,,,,,,,,,,,270,earth-science,True,,8,8
+llm,Which month has the highest average precipitation in Santiago?,earth-science,earth-science,earth-science,llama3.1:8b,43.301490833982825,713,4,717,,,,,,,,,,,,,271,earth-science,True,,8,8
+llm,Is pyrite a mineral?,earth-science,earth-science,earth-science,llama3.1:8b,42.39009413868189,709,4,713,,,,,,,,,,,,,272,earth-science,True,,8,8
+llm,Is hornblende a mineral or a rock?,earth-science,earth-science,earth-science,llama3.1:8b,42.49390494078398,713,4,717,,,,,,,,,,,,,273,earth-science,True,,8,8
+llm,What evidence of an earthquake does this picture show?,earth-science,earth-science,earth-science,llama3.1:8b,42.34315897338092,713,4,717,,,,,,,,,,,,,274,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+Neptune's volume is more than 100 times as large as Earth's.",earth-science,earth-science,earth-science,llama3.1:8b,45.475180028006434,731,4,735,,,,,,,,,,,,,275,earth-science,True,,8,8
+llm,Which statement is true about the average monthly precipitation in Charlotte?,earth-science,earth-science,earth-science,llama3.1:8b,43.090131133794785,715,4,719,,,,,,,,,,,,,276,earth-science,True,,8,8
+llm,Which month has the lowest average precipitation in London?,service earth-science,earth-science,earth-science,llama3.1:8b,48.55733597651124,713,5,718,,,,,,,,,,,,,277,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+Earth is the largest planet that is made mainly of rock.",service earth-science,earth-science,earth-science,llama3.1:8b,52.11652908474207,727,5,732,,,,,,,,,,,,,278,earth-science,True,,8,8
+llm,"Which change best matches the sentence?
+A part of Earth's surface moves and shakes.",service earth-science,earth-science,earth-science,llama3.1:8b,50.36090197972953,720,5,725,,,,,,,,,,,,,279,earth-science,True,,8,8
+llm,Which trait did this aurochs have? Select the trait you can observe on the fossil.,service biology,biology,biology,llama3.1:8b,37.36989991739392,722,3,725,,,,,,,,,,,,,280,earth-science,False,,8,8
+llm,What evidence of a wildfire does this picture show?,service earth-science,earth-science,earth-science,llama3.1:8b,49.03389699757099,713,5,718,,,,,,,,,,,,,281,earth-science,True,,8,8
+llm,Does this passage describe the weather or the climate?,earth-science,earth-science,earth-science,llama3.1:8b,42.1312830876559,713,4,717,,,,,,,,,,,,,282,earth-science,True,,8,8
+llm,Which month is the wettest on average in Cairo?,earth-science,earth-science,earth-science,llama3.1:8b,42.024527909234166,714,4,718,,,,,,,,,,,,,283,earth-science,True,,8,8
+llm,Which trait did Pentasteria have? Select the trait you can observe on the fossil.,service earth-science,earth-science,earth-science,llama3.1:8b,51.25428317114711,721,5,726,,,,,,,,,,,,,284,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+Three-quarters of the planets are larger than Venus.",service earth-science,earth-science,earth-science,llama3.1:8b,53.19886305369437,725,5,730,,,,,,,,,,,,,285,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+The volume of Saturn is more than ten times the volume of Uranus.",service earth-science,earth-science,earth-science,llama3.1:8b,51.264038076624274,730,5,735,,,,,,,,,,,,,286,earth-science,True,,8,8
+llm,What type of rock is scoria?,earth-science,earth-science,earth-science,llama3.1:8b,43.86535985395312,711,4,715,,,,,,,,,,,,,287,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+The volume of Neptune is less than 75% of the volume of Uranus.",service earth-science,earth-science,earth-science,llama3.1:8b,53.92295401543379,732,5,737,,,,,,,,,,,,,288,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+Of the four largest planets, three are made mainly of gas.",service earth-science,earth-science,earth-science,llama3.1:8b,50.051138969138265,728,5,733,,,,,,,,,,,,,289,earth-science,True,,8,8
+llm,"Which change best matches the sentence?
+Small pieces of rock are carried away by water.",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,50.66998698748648,720,5,725,,,,,,,,,,,,,290,earth-science,False,,8,8
+llm,Is peridotite a mineral?,service earth-science,earth-science,earth-science,llama3.1:8b,49.093475099653006,710,5,715,,,,,,,,,,,,,291,earth-science,True,,8,8
+llm,Does this passage describe the weather or the climate?,earth-science,earth-science,earth-science,llama3.1:8b,59.36611793003976,713,4,717,,,,,,,,,,,,,292,earth-science,True,,8,8
+llm,"Does this passage describe the weather or the climate?
+Bridgeport, Connecticut, had cool temperatures over the weekend.",service earth-science,earth-science,earth-science,llama3.1:8b,50.5463860463351,725,5,730,,,,,,,,,,,,,293,earth-science,True,,8,8
+llm,"Is the following statement about our solar system true or false?
+The smallest planet is made mainly of rock.",service earth-science,earth-science,earth-science,llama3.1:8b,54.34827017597854,724,5,729,,,,,,,,,,,,,294,earth-science,True,,8,8
+llm,Earth's organisms rely on the atmosphere for which of the following?,service earth-science,earth-science,earth-science,llama3.1:8b,51.74857587553561,716,5,721,,,,,,,,,,,,,295,earth-science,True,,8,8
+llm,"Which change best matches the sentence?
+A glacier scrapes pieces of rock off a mountain and carries them downhill.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,45.80328310839832,725,4,729,,,,,,,,,,,,,296,earth-science,False,,8,8
+llm,"Does this passage describe the weather or the climate?
+Jackie lives in a town with hot summers and freezing cold winters.",earth-science,earth-science,earth-science,llama3.1:8b,47.32942907139659,727,4,731,,,,,,,,,,,,,297,earth-science,True,,8,8
+llm,Is eclogite a mineral?,service earth-science,earth-science,earth-science,llama3.1:8b,50.3947539255023,710,5,715,,,,,,,,,,,,,298,earth-science,True,,8,8
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,llama3.1:8b,49.86481578089297,713,5,718,,,,,,,,,,,,,299,earth-science,True,,8,8
+llm,What can Brandon and Derek trade to each get what they want?,service economics,economics,economics,llama3.1:8b,39.76230998523533,716,3,719,,,,,,,,,,,,,300,economics,True,,8,8
+llm,What can Rosa and Isabella trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.11153496988118,717,3,720,,,,,,,,,,,,,301,economics,True,,8,8
+llm,What can Sally and Chloe trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.661227164790034,716,3,719,,,,,,,,,,,,,302,economics,True,,8,8
+llm,What can Janet and Kari trade to each get what they want?,service economics,economics,economics,llama3.1:8b,38.25962799601257,717,3,720,,,,,,,,,,,,,303,economics,True,,8,8
+llm,"Last year, 50,000 people lived in the city of Richmond. But since then, 8,000 people have moved away. What probably happened to the overall supply of houses for sale in Richmond?",service economics,economics,economics,llama3.1:8b,45.70483881980181,745,3,748,,,,,,,,,,,,,304,economics,True,,8,8
+llm,What can Tristan and Lorenzo trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.82224701717496,716,3,719,,,,,,,,,,,,,305,economics,True,,8,8
+llm,What can Ling and Maria trade to each get what they want?,service economics,economics,economics,llama3.1:8b,36.745371064171195,716,3,719,,,,,,,,,,,,,306,economics,True,,8,8
+llm,Is picking apples a good or a service?,service economics,economics,economics,llama3.1:8b,36.436564987525344,712,3,715,,,,,,,,,,,,,307,economics,True,,8,8
+llm,Is fixing a computer a good or a service?,service economics,economics,economics,llama3.1:8b,36.58467694185674,713,3,716,,,,,,,,,,,,,308,economics,True,,8,8
+llm,Suppose Jennifer decides to join the Photography Club. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,38.51439105346799,720,3,723,,,,,,,,,,,,,309,economics,True,,8,8
+llm,Is a clock a good or a service?,service economics,economics,economics,llama3.1:8b,37.1886738575995,712,3,715,,,,,,,,,,,,,310,economics,True,,8,8
+llm,Is there a surplus or a shortage of new cars?,service economics,economics,economics,llama3.1:8b,36.71947191469371,714,3,717,,,,,,,,,,,,,311,economics,True,,8,8
+llm,"Last year, there were seven men's clothing stores on Main Street in Norwood. This year, there are only three. What probably happened to the overall supply of men's shirts in Norwood?",service economics,economics,economics,llama3.1:8b,44.09074177965522,743,3,746,,,,,,,,,,,,,312,economics,True,,8,8
+llm,Suppose Bruce decides to bake banana muffins. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.23631892353296,720,3,723,,,,,,,,,,,,,313,economics,True,,8,8
+llm,Is walking a dog a good or a service?,service economics,economics,economics,llama3.1:8b,36.13201109692454,713,3,716,,,,,,,,,,,,,314,economics,True,,8,8
+llm,What can Jasmine and Bryan trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.703697104007006,716,3,719,,,,,,,,,,,,,315,economics,True,,8,8
+llm,"Last year, there were seven men's clothing stores on Main Street in Princeton. This year, there are only three. What probably happened to the overall supply of men's shirts in Princeton?",service economics,economics,economics,llama3.1:8b,44.85790617763996,741,3,744,,,,,,,,,,,,,316,economics,True,,8,8
+llm,"Last year, 50,000 people lived in the city of Millersburg. But since then, 8,000 people have moved away. What probably happened to the overall supply of houses for sale in Millersburg?",service economics,economics,economics,llama3.1:8b,44.246145989745855,749,3,752,,,,,,,,,,,,,317,economics,True,,8,8
+llm,Suppose Destiny decides to take a trip to Virginia. Which result would be a cost?,economics,economics,economics,llama3.1:8b,37.771356059238315,721,3,724,,,,,,,,,,,,,318,economics,True,,8,8
+llm,What can Rosa and Alexandra trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.52076718956232,716,3,719,,,,,,,,,,,,,319,economics,True,,8,8
+llm,"The city of Milford has been one of the world's biggest makers of cough drops for many years. But last month, Milford's cough drop factories were destroyed by floods. What will probably happen to the overall supply of cough drops?",economics,economics,economics,llama3.1:8b,44.478821102529764,751,3,754,,,,,,,,,,,,,320,economics,True,,8,8
+llm,What can Vivian and Jamal trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.28169691748917,717,3,720,,,,,,,,,,,,,321,economics,True,,8,8
+llm,What can Jennifer and Melissa trade to each get what they want?,service economics,economics,economics,llama3.1:8b,35.884710028767586,716,3,719,,,,,,,,,,,,,322,economics,True,,8,8
+llm,What can Terrell and Allie trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.622253177687526,718,3,721,,,,,,,,,,,,,323,economics,True,,8,8
+llm,What can Justine and Caleb trade to each get what they want?,service economics,economics,economics,llama3.1:8b,36.280023865401745,717,3,720,,,,,,,,,,,,,324,economics,True,,8,8
+llm,Suppose Cole decides to watch the action movie. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.68484015017748,720,3,723,,,,,,,,,,,,,325,economics,True,,8,8
+llm,Suppose Chandler decides to get the caramel swirl ice cream. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.37016418017447,722,3,725,,,,,,,,,,,,,326,economics,True,,8,8
+llm,What can Nina and Ivan trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.35700389370322,716,3,719,,,,,,,,,,,,,327,economics,True,,8,8
+llm,What can Sadie and Kira trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.20296104438603,718,3,721,,,,,,,,,,,,,328,economics,True,,8,8
+llm,Suppose Paula decides to go on the scorpion. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,38.27249491587281,721,3,724,,,,,,,,,,,,,329,economics,True,,8,8
+llm,Suppose Rose decides to join the Theater Club. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.582949036732316,720,3,723,,,,,,,,,,,,,330,economics,True,,8,8
+llm,Suppose Darnel decides to take a trip to Connecticut. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.830870132893324,723,3,726,,,,,,,,,,,,,331,economics,True,,8,8
+llm,What can Lamar and Jackson trade to each get what they want?,service economics,economics,economics,llama3.1:8b,38.1246970500797,716,3,719,,,,,,,,,,,,,332,economics,True,,8,8
+llm,Is there a surplus or shortage of peanut butter?,service economics,economics,economics,llama3.1:8b,36.741551011800766,713,3,716,,,,,,,,,,,,,333,economics,True,,8,8
+llm,"Last year, 50,000 people lived in the city of Fairview. But since then, 8,000 people have moved away. What probably happened to the overall supply of houses for sale in Fairview?",service economics,economics,economics,llama3.1:8b,44.17374590411782,747,3,750,,,,,,,,,,,,,334,economics,True,,8,8
+llm,What can Krysta and Malik trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.5239250715822,718,3,721,,,,,,,,,,,,,335,economics,True,,8,8
+llm,Is there a surplus or a shortage of picture frames?,service economics,economics,economics,llama3.1:8b,36.2328770570457,714,3,717,,,,,,,,,,,,,336,economics,True,,8,8
+llm,Suppose Cara decides to get the sweet cream ice cream. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.26282902061939,722,3,725,,,,,,,,,,,,,337,economics,True,,8,8
+llm,What can Barry and Mona trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.13190997950733,716,3,719,,,,,,,,,,,,,338,economics,True,,8,8
+llm,Suppose Beth decides to go on the drop tower. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,36.932810908183455,721,3,724,,,,,,,,,,,,,339,economics,True,,8,8
+llm,What can Clara and Hazel trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.430382100865245,716,3,719,,,,,,,,,,,,,340,economics,True,,8,8
+llm,Suppose Brittany decides to plant the maple tree. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,38.84404990822077,720,3,723,,,,,,,,,,,,,341,economics,True,,8,8
+llm,Suppose Harper decides to see the grizzly bears. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.569496082141995,721,3,724,,,,,,,,,,,,,342,economics,True,,8,8
+llm,Is a banana a good or a service?,service economics,economics,economics,llama3.1:8b,35.965751158073545,712,3,715,,,,,,,,,,,,,343,economics,True,,8,8
+llm,Select a reason you might choose to keep your money in a bank account.,service economics,economics,economics,llama3.1:8b,37.43020002730191,718,3,721,,,,,,,,,,,,,344,economics,True,,8,8
+llm,What can Tara and Jeremiah trade to each get what they want?,service economics,economics,economics,llama3.1:8b,36.6827598772943,716,3,719,,,,,,,,,,,,,345,economics,True,,8,8
+llm,"The city of Georgetown has been one of the world's biggest makers of cough drops for many years. But last month, Georgetown's cough drop factories were destroyed by floods. What will probably happen to the overall supply of cough drops?",service economics,economics,economics,llama3.1:8b,44.03491993434727,749,3,752,,,,,,,,,,,,,346,economics,True,,8,8
+llm,"Last year, 50,000 people lived in the city of Milford. But since then, 8,000 people have moved away. What probably happened to the overall supply of houses for sale in Milford?",service economics,economics,economics,llama3.1:8b,46.11702682450414,747,3,750,,,,,,,,,,,,,347,economics,True,,8,8
+llm,Suppose Jason decides to go as a superhero. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,38.51029183715582,720,3,723,,,,,,,,,,,,,348,economics,True,,8,8
+llm,Suppose Eli decides to see the polar bears. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.74025407619774,720,3,723,,,,,,,,,,,,,349,economics,True,,8,8
+llm,What can Mark and Valeria trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.584447069093585,717,3,720,,,,,,,,,,,,,350,economics,True,,8,8
+llm,Suppose Richard decides to plant the palm tree. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.69900184124708,720,3,723,,,,,,,,,,,,,351,economics,True,,8,8
+llm,Suppose Kurt decides to plant the magnolia tree. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.88953321054578,721,3,724,,,,,,,,,,,,,352,economics,True,,8,8
+llm,Suppose Vijay decides to make vegetable soup. Which result would be a cost?,economics,economics,economics,llama3.1:8b,37.71436889655888,720,3,723,,,,,,,,,,,,,353,economics,True,,8,8
+llm,Suppose Sidney decides to eat the string cheese. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.57804399356246,720,3,723,,,,,,,,,,,,,354,economics,True,,8,8
+llm,What can Greta and Allie trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.3862620908767,718,3,721,,,,,,,,,,,,,355,economics,True,,8,8
+llm,"Long ago, all books were copied by hand. Making new copies was a lot of work and took a long time. But the invention of the printing press made copying books faster and easier. What happened to the overall supply of books after the printing press was invented?",service economics,economics,economics,llama3.1:8b,47.445297008380294,756,3,759,,,,,,,,,,,,,356,economics,True,,8,8
+llm,"The city of Silvergrove has been one of the world's biggest makers of cough drops for many years. But last month, Silvergrove's cough drop factories were destroyed by floods. What will probably happen to the overall supply of cough drops?",service economics,economics,economics,llama3.1:8b,44.8524528183043,753,3,756,,,,,,,,,,,,,357,economics,True,,8,8
+llm,What can Rick and Felix trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.272709887474775,716,3,719,,,,,,,,,,,,,358,economics,True,,8,8
+llm,"The city of Norwood has been one of the world's biggest makers of cough drops for many years. But last month, Norwood's cough drop factories were destroyed by floods. What will probably happen to the overall supply of cough drops?",service economics,economics,economics,llama3.1:8b,46.18006106466055,751,3,754,,,,,,,,,,,,,359,economics,True,,8,8
+llm,Is a motorcycle a good or a service?,service economics,economics,economics,llama3.1:8b,36.133372923359275,712,3,715,,,,,,,,,,,,,360,economics,True,,8,8
+llm,What can Edwin and Brenda trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.35280712135136,716,3,719,,,,,,,,,,,,,361,economics,True,,8,8
+llm,What can Bill and Anita trade to each get what they want?,service economics,economics,economics,llama3.1:8b,35.799354780465364,716,3,719,,,,,,,,,,,,,362,economics,True,,8,8
+llm,Suppose Dwayne decides to go on the spinning teacups. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,39.91897706873715,724,3,727,,,,,,,,,,,,,363,economics,True,,8,8
+llm,Suppose Mona decides to go on the super starship. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.421165965497494,722,3,725,,,,,,,,,,,,,364,economics,True,,8,8
+llm,What can Brendan and Isaac trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.90780412964523,716,3,719,,,,,,,,,,,,,365,economics,True,,8,8
+llm,What can Naomi and Emilia trade to each get what they want?,service economics,economics,economics,llama3.1:8b,36.34539386257529,717,3,720,,,,,,,,,,,,,366,economics,True,,8,8
+llm,"In the 1970s, several countries in the Middle East decided to pump less oil from their oil wells. Oil is often made into gasoline. What happened to the world's overall supply of gasoline?",service economics,economics,economics,llama3.1:8b,45.11913494206965,744,3,747,,,,,,,,,,,,,367,economics,True,,8,8
+llm,What can Mandy and Troy trade to each get what they want?,service economics,economics,economics,llama3.1:8b,36.98824183084071,717,3,720,,,,,,,,,,,,,368,economics,True,,8,8
+llm,What can Bella and Darnell trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.48535085469484,718,3,721,,,,,,,,,,,,,369,economics,True,,8,8
+llm,What can Dustin and Irma trade to each get what they want?,service economics,economics,economics,llama3.1:8b,36.10862116329372,716,3,719,,,,,,,,,,,,,370,economics,True,,8,8
+llm,What can Austen and Naomi trade to each get what they want?,service economics,economics,economics,llama3.1:8b,35.98036407493055,717,3,720,,,,,,,,,,,,,371,economics,True,,8,8
+llm,What can Austin and Colin trade to each get what they want?,service economics,economics,economics,llama3.1:8b,35.510203102603555,716,3,719,,,,,,,,,,,,,372,economics,True,,8,8
+llm,Is sweeping the floor a good or a service?,service economics,economics,economics,llama3.1:8b,35.767513094469905,713,3,716,,,,,,,,,,,,,373,economics,True,,8,8
+llm,Suppose Lauren decides to go as a superhero. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.014127941802144,720,3,723,,,,,,,,,,,,,374,economics,True,,8,8
+llm,Suppose Riley decides to plant the roses. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.834822898730636,719,3,722,,,,,,,,,,,,,375,economics,True,,8,8
+llm,Suppose Isabelle decides to join the Theater Club. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.218146957457066,721,3,724,,,,,,,,,,,,,376,economics,True,,8,8
+llm,What can Connor and Maura trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.526297150179744,717,3,720,,,,,,,,,,,,,377,economics,True,,8,8
+llm,What can Jaylen and Porter trade to each get what they want?,service economics,economics,economics,llama3.1:8b,36.23488801531494,717,3,720,,,,,,,,,,,,,378,economics,True,,8,8
+llm,Is fixing a sink a good or a service?,service economics,economics,economics,llama3.1:8b,36.20107797905803,713,3,716,,,,,,,,,,,,,379,economics,True,,8,8
+llm,What can Monica and Diana trade to each get what they want?,service economics,economics,economics,llama3.1:8b,38.41039212420583,716,3,719,,,,,,,,,,,,,380,economics,True,,8,8
+llm,What can Diana and Gabby trade to each get what they want?,service economics,economics,economics,llama3.1:8b,36.93855903111398,717,3,720,,,,,,,,,,,,,381,economics,True,,8,8
+llm,"Last year, 50,000 people lived in the city of Oak Grove. But since then, 8,000 people have moved away. What probably happened to the overall supply of houses for sale in Oak Grove?",service economics,economics,economics,llama3.1:8b,44.8249860201031,747,3,750,,,,,,,,,,,,,382,economics,True,,8,8
+llm,What can Duncan and Sam trade to each get what they want?,service economics,economics,economics,llama3.1:8b,38.549221120774746,716,3,719,,,,,,,,,,,,,383,economics,True,,8,8
+llm,Is carrying groceries a good or a service?,service economics,economics,economics,llama3.1:8b,36.15452698431909,712,3,715,,,,,,,,,,,,,384,economics,True,,8,8
+llm,What can Ernesto and Lucia trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.62699896469712,717,3,720,,,,,,,,,,,,,385,economics,True,,8,8
+llm,What can Elise and Nolan trade to each get what they want?,service economics,economics,economics,llama3.1:8b,36.12562781199813,717,3,720,,,,,,,,,,,,,386,economics,True,,8,8
+llm,"The city of Newport has been one of the world's biggest makers of cough drops for many years. But last month, Newport's cough drop factories were destroyed by floods. What will probably happen to the overall supply of cough drops?",economics,economics,economics,llama3.1:8b,44.4883240852505,749,3,752,,,,,,,,,,,,,387,economics,True,,8,8
+llm,What can Bryce and Victor trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.471120012924075,716,3,719,,,,,,,,,,,,,388,economics,True,,8,8
+llm,"The city of Ashland has been one of the world's biggest makers of cough drops for many years. But last month, Ashland's cough drop factories were destroyed by floods. What will probably happen to the overall supply of cough drops?",service economics,economics,economics,llama3.1:8b,45.21771101281047,751,3,754,,,,,,,,,,,,,389,economics,True,,8,8
+llm,Suppose Bryant decides to take a trip to Connecticut. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.87062503397465,721,3,724,,,,,,,,,,,,,390,economics,True,,8,8
+llm,"Last year, there were seven men's clothing stores on Main Street in Fairview. This year, there are only three. What probably happened to the overall supply of men's shirts in Fairview?",service economics,economics,economics,llama3.1:8b,44.207479106262326,743,3,746,,,,,,,,,,,,,391,economics,True,,8,8
+llm,Suppose Tristan decides to eat the oatmeal cookies. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,38.079312071204185,721,3,724,,,,,,,,,,,,,392,economics,True,,8,8
+llm,What can Janice and Abdul trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.669491954147816,717,3,720,,,,,,,,,,,,,393,economics,True,,8,8
+llm,"Last year, there were seven men's clothing stores on Main Street in Arlington. This year, there are only three. What probably happened to the overall supply of men's shirts in Arlington?",service economics,economics,economics,llama3.1:8b,43.70675515383482,741,3,744,,,,,,,,,,,,,394,economics,True,,8,8
+llm,Suppose Duncan decides to join the Photography Club. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.760453997179866,720,3,723,,,,,,,,,,,,,395,economics,True,,8,8
+llm,What can Sandeep and Tracy trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.38388302735984,718,3,721,,,,,,,,,,,,,396,economics,True,,8,8
+llm,Suppose Ivan decides to join the Photography Club. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,38.09015196748078,720,3,723,,,,,,,,,,,,,397,economics,True,,8,8
+llm,What can Arianna and Sidney trade to each get what they want?,service economics,economics,economics,llama3.1:8b,37.3687488026917,717,3,720,,,,,,,,,,,,,398,economics,True,,8,8
+llm,Suppose Tyler decides to take a trip to Arkansas. Which result would be a cost?,service economics,economics,economics,llama3.1:8b,37.482270039618015,721,3,724,,,,,,,,,,,,,399,economics,True,,8,8
+llm,"Which figure of speech is used in this text?
+Sing, O goddess, the anger of Achilles son of Peleus, that brought countless ills upon the Achaeans.
+—Homer, The Iliad",service figurative-language,figurative-language,figurative-language,llama3.1:8b,57.334663812071085,748,5,753,,,,,,,,,,,,,400,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Yesterday's tennis match was a classic David and Goliath story, with Hanson playing against his former team captain, Ernesto.",figurative-language,figurative-language,figurative-language,llama3.1:8b,51.99965485371649,742,4,746,,,,,,,,,,,,,401,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+""The reporter on the news said we may have to evaporate the island if the storm gets any worse,"" my younger sister explained, unaware of her malapropism.",figurative-language,figurative-language,figurative-language,llama3.1:8b,47.62029298581183,750,4,754,,,,,,,,,,,,,402,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+Various technologies have been developed to help militaries easily identify their own forces, and thus to reduce incidents of friendly fire.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,53.854692028835416,737,5,742,,,,,,,,,,,,,403,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+Daniel is a real Benedict Arnold. After promising to work on my campaign for class president, he decided to support my opponent.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,52.90782800875604,738,5,743,,,,,,,,,,,,,404,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+I must have eaten too much of Sean's homemade chili, because now I'm so full I could explode!",figurative-language,figurative-language,figurative-language,llama3.1:8b,46.51515698060393,735,4,739,,,,,,,,,,,,,405,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+""There's nothing I love more than skipping lunch,"" Mr. Fowler told the flight attendant when he learned that no food would be available on his cross-country flight.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,53.93980210646987,745,5,750,,,,,,,,,,,,,406,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+I've heard that Kiara & Co. is downsizing, so I'm happy to see that their store in downtown Greenville will remain open for now.",figurative-language,figurative-language,figurative-language,llama3.1:8b,47.714567044749856,744,4,748,,,,,,,,,,,,,407,figurative-language,True,,8,8
+llm,Which sentence uses a metaphor?,figurative-language,figurative-language,figurative-language,llama3.1:8b,42.42809186689556,709,4,713,,,,,,,,,,,,,408,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+Chandler's room is as tidy as an overgrown garden.",figurative-language,figurative-language,figurative-language,llama3.1:8b,45.65360909327865,726,4,730,,,,,,,,,,,,,409,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+The makeup artist's devotion to his work has at times turned into a personal obsession with certain clients, leading some to call him a modern-day Pygmalion.",figurative-language,figurative-language,figurative-language,llama3.1:8b,51.510510966181755,749,4,753,,,,,,,,,,,,,410,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+The salesperson tried hard to convince Duncan that the jacket was a good buy; after all, it was made of genuine imitation leather.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,56.728233117610216,740,5,745,,,,,,,,,,,,,411,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Sidney told her friends that Desmond was a typical Peter Pan type.",figurative-language,figurative-language,figurative-language,llama3.1:8b,46.624860959127545,730,4,734,,,,,,,,,,,,,412,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+It's an open secret that Hunter is writing a book based on his experiences living in Singapore. He never talks about it, but almost all his friends know.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,57.37903597764671,745,5,750,,,,,,,,,,,,,413,figurative-language,True,,8,8
+llm,"What does the idiom in this text suggest?
+For many runners who prefer running barefoot but still want some support and protection, minimalist shoes are the best thing since sliced bread.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,54.16012788191438,739,5,744,,,,,,,,,,,,,414,figurative-language,True,,8,8
+llm,"What does the personification in this text suggest?
+The trawler plunged into the angry swells of the dark, furious sea.
+—Robert Ludlum, The Bourne Identity",figurative-language,figurative-language,figurative-language,llama3.1:8b,48.77986200153828,740,4,744,,,,,,,,,,,,,415,figurative-language,True,,8,8
+llm,"What does the hyperbole in this text suggest?
+The last time Lorenzo cleaned his room, dinosaurs were still roaming the Earth.",figurative-language,figurative-language,figurative-language,llama3.1:8b,46.24647204764187,728,4,732,,,,,,,,,,,,,416,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+I want to shake off the dust of this one-horse town. I want to explore the world. I want to watch TV in a different time zone. I want to visit strange, exotic malls. I'm sick of eating hoagies! I want a grinder, a sub, a foot-long hero!
+—Homer Simpson, The Simpsons",figurative-language,figurative-language,figurative-language,llama3.1:8b,58.31772414967418,784,4,788,,,,,,,,,,,,,417,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+Anita and Finn had met before through mutual friends, but they had never been alone together until their first date.",figurative-language,figurative-language,figurative-language,llama3.1:8b,45.85923790000379,736,4,740,,,,,,,,,,,,,418,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Red velvet cupcakes were Mabel's Achilles's heel when she was trying to eat more healthily.",figurative-language,figurative-language,figurative-language,llama3.1:8b,48.69940993376076,736,4,740,,,,,,,,,,,,,419,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+The Dodson family is going to spend two weeks in Ocean City, but for Mateo it will be a working vacation, since he'll be checking in with the office every day.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,58.58750198967755,750,5,755,,,,,,,,,,,,,420,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+Jayce's leaving his job? That's old news. He's been planning that for months.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,51.95173295214772,733,5,738,,,,,,,,,,,,,421,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Forced to choose between Scylla and Charybdis, Ezra threw up his hands in dismay.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,54.39658905379474,738,5,743,,,,,,,,,,,,,422,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Red velvet cupcakes were Deb's Achilles's heel when she was trying to eat more healthily.",figurative-language,figurative-language,figurative-language,llama3.1:8b,44.37954304739833,735,4,739,,,,,,,,,,,,,423,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+When Sally first joined the track team, she was afraid of jumping, but she got over that hurdle.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,53.70486993342638,734,5,739,,,,,,,,,,,,,424,figurative-language,True,,8,8
+llm,"What does the personification in this text suggest?
+Daniel tried to ignore his unfinished essay, but it glared at him from across the room.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,54.254228016361594,732,5,737,,,,,,,,,,,,,425,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+I must have eaten too much of Toby's homemade chili, because now I'm so full I could explode!",figurative-language,figurative-language,figurative-language,llama3.1:8b,64.10455983132124,735,4,739,,,,,,,,,,,,,426,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+""Frank's personality is very Jekyll and Hyde,"" Kristen told her brother.",figurative-language,figurative-language,figurative-language,llama3.1:8b,48.05227089673281,732,4,736,,,,,,,,,,,,,427,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+Hear the sledges with the bells,
+Silver bells!
+. . . . . . . . .
+How they tinkle, tinkle, tinkle,
+In the icy air of night!
+—Edgar Allan Poe, ""The Bells""",figurative-language,figurative-language,figurative-language,llama3.1:8b,54.082934046164155,764,4,768,,,,,,,,,,,,,428,figurative-language,True,,8,8
+llm,"Does the sentence use a simile or a metaphor?
+On that winter morning, Luna's hands were as cold as ice.",figurative-language,figurative-language,figurative-language,llama3.1:8b,45.54829094558954,728,4,732,,,,,,,,,,,,,429,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+The salesperson tried hard to convince Franklin that the jacket was a good buy; after all, it was made of genuine imitation leather.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,56.669163051992655,740,5,745,,,,,,,,,,,,,430,figurative-language,True,,8,8
+llm,Which sentence uses a simile?,service figurative-language,figurative-language,figurative-language,llama3.1:8b,49.436521949246526,710,5,715,,,,,,,,,,,,,431,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Josie entered the bustling, aromatic spice market in Istanbul and said to her travel companion, ""We're not in Kansas anymore.""",figurative-language,figurative-language,figurative-language,llama3.1:8b,51.3240909203887,743,4,747,,,,,,,,,,,,,432,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Last night's play-off in the semifinals proved to be the team's Waterloo.",figurative-language,figurative-language,figurative-language,llama3.1:8b,44.22503709793091,733,4,737,,,,,,,,,,,,,433,figurative-language,True,,8,8
+llm,"What does the idiom in this text suggest?
+In such an unfamiliar environment, Luca was a fish out of water.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,52.31990199536085,727,5,732,,,,,,,,,,,,,434,figurative-language,True,,8,8
+llm,"Does the sentence use a simile or a metaphor?
+The new blanket was as soft as a kitten's fur.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,52.81347199343145,726,5,731,,,,,,,,,,,,,435,figurative-language,True,,8,8
+llm,Which sentence uses a metaphor?,service figurative-language,figurative-language,figurative-language,llama3.1:8b,48.792843939736485,709,5,714,,,,,,,,,,,,,436,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+At twenty-one, Ernesto felt overwhelmed with adult responsibilities and wished he could fly off to Neverland.",figurative-language,figurative-language,figurative-language,llama3.1:8b,48.4313580673188,734,4,738,,,,,,,,,,,,,437,figurative-language,True,,8,8
+llm,"What does the idiom in this text suggest?
+Barbara has a lot on her plate: she is attending college, has a full-time job as a waitress, and volunteers at the animal shelter.",figurative-language,figurative-language,figurative-language,llama3.1:8b,52.43522208184004,743,4,747,,,,,,,,,,,,,438,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+O wind, rend open the heat,
+Cut apart the heat,
+Rend it to tatters.
+—H. D., ""Garden""",figurative-language,figurative-language,figurative-language,llama3.1:8b,51.78303085267544,743,4,747,,,,,,,,,,,,,439,figurative-language,True,,8,8
+llm,"What does the idiom in this text suggest?
+In such an unfamiliar environment, Brody was a fish out of water.",figurative-language,figurative-language,figurative-language,llama3.1:8b,46.40715406276286,728,4,732,,,,,,,,,,,,,440,figurative-language,True,,8,8
+llm,"What does the euphemism in this text suggest?
+Dwayne is big-boned, so despite being in middle school, he often shops in the men's department.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,54.25632908008993,737,5,742,,,,,,,,,,,,,441,figurative-language,True,,8,8
+llm,"What does the simile in this text suggest?
+Emma rubbed coconut oil on her hands, which were like the parched earth during a drought.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,52.90455091744661,732,5,737,,,,,,,,,,,,,442,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+Jeremiah and Kari have trouble working on projects together. Although Kari is very sociable and friendly, she's not exactly a team player.",figurative-language,figurative-language,figurative-language,llama3.1:8b,52.13398486375809,743,4,747,,,,,,,,,,,,,443,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+On the sand banks the rabbits sat as quietly as little gray, sculptured stones.
+—John Steinbeck, Of Mice and Men",service figurative-language,figurative-language,figurative-language,llama3.1:8b,53.36655396968126,741,5,746,,,,,,,,,,,,,444,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+The soul is born old but grows young. That is the comedy of life. And the body is born young and grows old. That is life's tragedy.
+—Oscar Wilde, A Woman of No Importance",service figurative-language,figurative-language,figurative-language,llama3.1:8b,57.764219120144844,756,5,761,,,,,,,,,,,,,445,figurative-language,True,,8,8
+llm,"What does the allusion in this text suggest?
+With the gutters clogged and water rising in the streets, Christine, who was watching the storm from her window, commented, ""We're going to need an ark to get out of here.""",service figurative-language,figurative-language,figurative-language,llama3.1:8b,57.661307975649834,754,5,759,,,,,,,,,,,,,446,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Pamela warned her youngest son not to cry wolf while wrestling with his older brother.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,54.89696701988578,734,5,739,,,,,,,,,,,,,447,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+You've reached Billy Soto's voice mail. Please leave a detailed message at the beep, and I will return your call at my earliest convenience.",figurative-language,figurative-language,figurative-language,llama3.1:8b,50.901273963972926,743,4,747,,,,,,,,,,,,,448,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+When I learned the details of Rachel's Faustian bargain, I was in disbelief.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,53.47067606635392,734,5,739,,,,,,,,,,,,,449,figurative-language,True,,8,8
+llm,"What does the allusion in this text suggest?
+With the gutters clogged and water rising in the streets, Marcy, who was watching the storm from her window, commented, ""We're going to need an ark to get out of here.""",figurative-language,figurative-language,figurative-language,llama3.1:8b,51.06124794110656,755,4,759,,,,,,,,,,,,,450,figurative-language,True,,8,8
+llm,"What does the simile in this text suggest?
+Nora rubbed coconut oil on her hands, which were like the parched earth during a drought.",figurative-language,figurative-language,figurative-language,llama3.1:8b,46.42128595151007,733,4,737,,,,,,,,,,,,,451,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+Chloe's Bistro used to be a great place to go for a delicious and carefully prepared dinner, but nobody goes there anymore: it's too crowded.",figurative-language,figurative-language,figurative-language,llama3.1:8b,51.01037793792784,745,4,749,,,,,,,,,,,,,452,figurative-language,True,,8,8
+llm,"Does the sentence use a simile or a metaphor?
+Mrs. Leonard is kind, and her heart is gold.",figurative-language,figurative-language,figurative-language,llama3.1:8b,45.35432392731309,726,4,730,,,,,,,,,,,,,453,figurative-language,True,,8,8
+llm,"What does the euphemism in this text suggest?
+Sam is big-boned, so despite being in middle school, he often shops in the men's department.",figurative-language,figurative-language,figurative-language,llama3.1:8b,47.01961693353951,736,4,740,,,,,,,,,,,,,454,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+He clasps the crag with crooked hands;
+Close to the sun in lonely lands . . .
+—Alfred, Lord Tennyson, ""The Eagle""",service figurative-language,figurative-language,figurative-language,llama3.1:8b,58.49325703456998,748,5,753,,,,,,,,,,,,,455,figurative-language,True,,8,8
+llm,"What does the verbal irony in this text suggest?
+""That fits you well,"" Tamir remarked after Kinsley's cap fell over her eyes for the tenth time.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,54.23374590463936,736,5,741,,,,,,,,,,,,,456,figurative-language,True,,8,8
+llm,"What does the hyperbole in this text suggest?
+After he finished the marathon, Dean collapsed into a chair and declared that he could no longer move a single muscle.",figurative-language,figurative-language,figurative-language,llama3.1:8b,47.57603001780808,736,4,740,,,,,,,,,,,,,457,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+Valeria's phone slipped out of her pocket, landing in the toilet with a plop.",figurative-language,figurative-language,figurative-language,llama3.1:8b,47.516786959022284,732,4,736,,,,,,,,,,,,,458,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+When Shivani first joined the track team, she was afraid of jumping, but she got over that hurdle.",figurative-language,figurative-language,figurative-language,llama3.1:8b,45.47110782004893,735,4,739,,,,,,,,,,,,,459,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Shannon warned her youngest son not to cry wolf while wrestling with his older brother.",figurative-language,figurative-language,figurative-language,llama3.1:8b,47.133888117969036,733,4,737,,,,,,,,,,,,,460,figurative-language,True,,8,8
+llm,"What does the idiom in this text suggest?
+Scarlett has a lot on her plate: she is attending college, has a full-time job as a waitress, and volunteers at the animal shelter.",figurative-language,figurative-language,figurative-language,llama3.1:8b,50.50455406308174,743,4,747,,,,,,,,,,,,,461,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Ben got off the mountain by the skin of his teeth.",figurative-language,figurative-language,figurative-language,llama3.1:8b,45.572966104373336,728,4,732,,,,,,,,,,,,,462,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Gary spoke at the city council meeting, claiming the new recycling regulations were draconian.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,50.81468401476741,733,5,738,,,,,,,,,,,,,463,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Kendra was known among her coworkers for her spartan ways.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,51.626421976834536,730,5,735,,,,,,,,,,,,,464,figurative-language,True,,8,8
+llm,"What does the verbal irony in this text suggest?
+According to Mr. Burton's kids, his snoring is as quiet as a jackhammer.",figurative-language,figurative-language,figurative-language,llama3.1:8b,46.319246059283614,732,4,736,,,,,,,,,,,,,465,figurative-language,True,,8,8
+llm,"What does the personification in this text suggest?
+Emmet tried to ignore his unfinished essay, but it glared at him from across the room.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,53.25241107493639,733,5,738,,,,,,,,,,,,,466,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+By the time Anita had finished explaining to Mr. Dodson what had happened, her friends were laughingly referring to her as Scheherazade.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,57.9933098051697,746,5,751,,,,,,,,,,,,,467,figurative-language,True,,8,8
+llm,"What does the euphemism in this text suggest?
+""Thank you for your work over the years,"" Mrs. Becker said to her gardener. ""As of next week, however, your services will no longer be required.""",figurative-language,figurative-language,figurative-language,llama3.1:8b,51.55809107236564,750,4,754,,,,,,,,,,,,,468,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+The hum of the computer concerned Jacob. Was the problem with the power supply or the hard drive?",figurative-language,figurative-language,figurative-language,llama3.1:8b,47.24501399323344,733,4,737,,,,,,,,,,,,,469,figurative-language,True,,8,8
+llm,"What does the verbal irony in this text suggest?
+""It was my good luck to have to study for a test while all my friends went to the water park,"" Alec remarked.",figurative-language,figurative-language,figurative-language,llama3.1:8b,47.53166390582919,738,4,742,,,,,,,,,,,,,470,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+Martha's Boutique claims to have ""something for everyone,"" but it is generally understood that their target market is women of a certain age.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,56.916686007753015,741,5,746,,,,,,,,,,,,,471,figurative-language,True,,8,8
+llm,"What does the metaphor in this text suggest?
+When Alvin lost his job, he was devastated. The only light in the sea of darkness was the prospect of pursuing a new career.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,57.935185031965375,740,5,745,,,,,,,,,,,,,472,figurative-language,True,,8,8
+llm,"Does the sentence use a simile or a metaphor?
+On that winter morning, Brittany's hands were as cold as ice.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,52.90439794771373,728,5,733,,,,,,,,,,,,,473,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Grayson's recent behavior made his parents begin to see his friend Hanson as some sort of Svengali.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,54.663695860654116,738,5,743,,,,,,,,,,,,,474,figurative-language,True,,8,8
+llm,"What does the allusion in this text suggest?
+When Lauren claimed she had loaded the dishwasher before turning on Dancing with the Stars, her mother replied, ""Your nose is growing!""",figurative-language,figurative-language,figurative-language,llama3.1:8b,47.57543606683612,740,4,744,,,,,,,,,,,,,475,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+During much of the twentieth century, artistic types were a dime a dozen in Greenwich Village.",figurative-language,figurative-language,figurative-language,llama3.1:8b,45.650482177734375,731,4,735,,,,,,,,,,,,,476,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+Mona, I've told you a million times: you need to dry the dishes before you put them away.",figurative-language,figurative-language,figurative-language,llama3.1:8b,46.08721099793911,736,4,740,,,,,,,,,,,,,477,figurative-language,True,,8,8
+llm,"What does the allusion in this text suggest?
+The swordsman achieved a pyrrhic victory, defeating his opponent while incurring mortal wounds of his own.",figurative-language,figurative-language,figurative-language,llama3.1:8b,47.47112886980176,735,4,739,,,,,,,,,,,,,478,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+""Mateo's personality is very Jekyll and Hyde,"" Julia told her brother.",figurative-language,figurative-language,figurative-language,llama3.1:8b,47.674907837063074,733,4,737,,,,,,,,,,,,,479,figurative-language,True,,8,8
+llm,"What does the verbal irony in this text suggest?
+While waiting for her search results, Cara exclaimed, ""My Internet connection is as speedy as a snail!""",figurative-language,figurative-language,figurative-language,llama3.1:8b,47.146044904366136,736,4,740,,,,,,,,,,,,,480,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+Colleen asked her mother if she could adopt a cat, and her mother replied, ""It's a definite maybe,"" so Colleen didn't want to get her hopes up.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,57.6937620062381,749,5,754,,,,,,,,,,,,,481,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+Love is an ideal thing, marriage a real thing.
+—Johann Wolfgang von Goethe",service figurative-language,figurative-language,figurative-language,llama3.1:8b,50.484531093388796,733,5,738,,,,,,,,,,,,,482,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+Mary's Boutique claims to have ""something for everyone,"" but it is generally understood that their target market is women of a certain age.",figurative-language,figurative-language,figurative-language,llama3.1:8b,46.95792985148728,740,4,744,,,,,,,,,,,,,483,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Despite Abigail's insistence that she would raise Cain if we ever got lost, we decided to try taking a shortcut.",figurative-language,figurative-language,figurative-language,llama3.1:8b,51.96677497588098,740,4,744,,,,,,,,,,,,,484,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+The Thompson family is going to spend two weeks in Ocean City, but for Darell it will be a working vacation, since he'll be checking in with the office every day.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,58.66638896986842,749,5,754,,,,,,,,,,,,,485,figurative-language,True,,8,8
+llm,"What does the personification in this text suggest?
+While the plumber was under the sink fiddling with the pipes, the drain burped up a spray of brown water.",figurative-language,figurative-language,figurative-language,llama3.1:8b,48.12730406410992,738,4,742,,,,,,,,,,,,,486,figurative-language,True,,8,8
+llm,"What does the hyperbole in this text suggest?
+The last time Caleb cleaned his room, dinosaurs were still roaming the Earth.",figurative-language,figurative-language,figurative-language,llama3.1:8b,45.973600121214986,728,4,732,,,,,,,,,,,,,487,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+So, in a nutshell, that's the story of my monthlong trip to Iceland.",figurative-language,figurative-language,figurative-language,llama3.1:8b,47.69083089195192,734,4,738,,,,,,,,,,,,,488,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Despite Sally's insistence that she would raise Cain if we ever got lost, we decided to try taking a shortcut.",figurative-language,figurative-language,figurative-language,llama3.1:8b,46.44206212833524,739,4,743,,,,,,,,,,,,,489,figurative-language,True,,8,8
+llm,"What does the idiom in this text suggest?
+Victoria submitted her suggestions to Richard; now the ball is in his court.",figurative-language,figurative-language,figurative-language,llama3.1:8b,46.27052880823612,728,4,732,,,,,,,,,,,,,490,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+As a result of the recent merger, twenty people in the regional sales division were let go. Most of the work will now be done by the marketing team.",figurative-language,figurative-language,figurative-language,llama3.1:8b,51.082830876111984,745,4,749,,,,,,,,,,,,,491,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+After spending weeks in New York City, Helen was a bit unnerved by the deafening silence of her small hometown.",figurative-language,figurative-language,figurative-language,llama3.1:8b,46.62566096521914,737,4,741,,,,,,,,,,,,,492,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+I don't feel like going into it, if you want to know the truth. My parents would have about two hemorrhages apiece if I told anything pretty personal about them.
+—J. D. Salinger, The Catcher in the Rye",service figurative-language,figurative-language,figurative-language,llama3.1:8b,59.00168581865728,765,5,770,,,,,,,,,,,,,493,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Mike says that he would not be the person he is today were it not for his childhood, which he describes as Dickensian.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,57.6945380307734,742,5,747,,,,,,,,,,,,,494,figurative-language,True,,8,8
+llm,"What does the allusion in this text suggest?
+Cody seems to have the Midas touch. Without any special experience or training, he launched a thriving business and then established a well-respected charity.",figurative-language,figurative-language,figurative-language,llama3.1:8b,51.52278300374746,744,4,748,,,,,,,,,,,,,495,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+An auction house representative described Bob Dylan's handwritten lyrics, worth over a million dollars, as ""the holy grail of lyrics.""",service figurative-language,figurative-language,figurative-language,llama3.1:8b,57.552525075152516,743,5,748,,,,,,,,,,,,,496,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+After having lived near the airport for ten years, I've finally gotten accustomed to the dull roar of the planes taking off above my house.",figurative-language,figurative-language,figurative-language,llama3.1:8b,50.677705090492964,741,4,745,,,,,,,,,,,,,497,figurative-language,True,,8,8
+llm,"What is the source of the allusion in the sentence below?
+Christina told her friends that Devin was a typical Peter Pan type.",figurative-language,figurative-language,figurative-language,llama3.1:8b,47.07947000861168,730,4,734,,,,,,,,,,,,,498,figurative-language,True,,8,8
+llm,"Which figure of speech is used in this text?
+What we need in the United States is not division; what we need in the United States is not hatred; what we need in the United States is not violence and lawlessness . . .
+—Senator Robert Kennedy, speaking on the death of Martin Luther King, Jr.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,62.84261797554791,767,5,772,,,,,,,,,,,,,499,figurative-language,True,,8,8
+llm,Which property do these four objects have in common?,service physics,physics,physics,llama3.1:8b,36.49592911824584,713,3,716,,,,,,,,,,,,,500,physics,True,,8,8
+llm,"Complete the statement. Assume that Sanjay's mass did not change.
+The gravitational potential energy stored between Sanjay and Earth () as he hiked toward the summit.",service physics,physics,physics,llama3.1:8b,40.97603796981275,736,3,739,,,,,,,,,,,,,501,physics,True,,8,8
+llm,Assume all other forces on Gabe are balanced. Which statement describes the forces on Gabe?,service physics,physics,physics,llama3.1:8b,37.84091304987669,723,3,726,,,,,,,,,,,,,502,physics,True,,8,8
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,llama3.1:8b,37.435096921399236,723,3,726,,,,,,,,,,,,,503,physics,True,,8,8
+llm,Which property do these four objects have in common?,service economics,economics,economics,llama3.1:8b,36.203928058966994,713,3,716,,,,,,,,,,,,,504,physics,False,,8,8
+llm,"Is a ballet shoe a solid, a liquid, or a gas?",service physics,physics,physics,llama3.1:8b,37.42081392556429,717,3,720,,,,,,,,,,,,,505,physics,True,,8,8
+llm,Which pot of spaghetti sauce has a higher temperature?,service physics,physics,physics,llama3.1:8b,36.14068101160228,713,3,716,,,,,,,,,,,,,506,physics,True,,8,8
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,llama3.1:8b,37.904266035184264,723,3,726,,,,,,,,,,,,,507,physics,True,,8,8
+llm,Select the mixture.,service chemistry,chemistry,chemistry,llama3.1:8b,34.632915863767266,707,3,710,,,,,,,,,,,,,508,physics,False,,8,8
+llm,Which property do these four objects have in common?,service economics,economics,economics,llama3.1:8b,36.153619876131415,713,3,716,,,,,,,,,,,,,509,physics,False,,8,8
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,llama3.1:8b,36.192790139466524,713,3,716,,,,,,,,,,,,,510,physics,True,,8,8
+llm,Which property do these four objects have in common?,service chemistry,chemistry,chemistry,llama3.1:8b,35.902752075344324,713,3,716,,,,,,,,,,,,,511,physics,False,,8,8
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,llama3.1:8b,37.55700006149709,723,3,726,,,,,,,,,,,,,512,physics,True,,8,8
+llm,Select the solid.,service physics,physics,physics,llama3.1:8b,34.312305971980095,707,3,710,,,,,,,,,,,,,513,physics,True,,8,8
+llm,Which property do these three objects have in common?,service chemistry,chemistry,chemistry,llama3.1:8b,35.958060063421726,713,3,716,,,,,,,,,,,,,514,physics,False,,8,8
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,llama3.1:8b,36.051059141755104,713,3,716,,,,,,,,,,,,,515,physics,True,,8,8
+llm,"Is chocolate syrup a solid, a liquid, or a gas?",chemistry,chemistry,chemistry,llama3.1:8b,29.842574149370193,716,2,718,,,,,,,,,,,,,516,physics,False,,8,8
+llm,Compare the motion of three bicycles. Which bicycle was moving at the highest speed?,service physics,physics,physics,llama3.1:8b,38.52708893828094,719,3,722,,,,,,,,,,,,,517,physics,True,,8,8
+llm,Which brick has less thermal energy?,service physics,physics,physics,llama3.1:8b,35.94574495218694,710,3,713,,,,,,,,,,,,,518,physics,True,,8,8
+llm,"According to Newton's third law, what other force must be happening?",service physics,physics,physics,llama3.1:8b,37.74568787775934,717,3,720,,,,,,,,,,,,,519,physics,True,,8,8
+llm,Which property do these four objects have in common?,service chemistry,chemistry,chemistry,llama3.1:8b,35.82897689193487,713,3,716,,,,,,,,,,,,,520,physics,False,,8,8
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,llama3.1:8b,38.25521795079112,722,3,725,,,,,,,,,,,,,521,physics,True,,8,8
+llm,Which property matches this object?,service chemistry,chemistry,chemistry,llama3.1:8b,35.8104039914906,709,3,712,,,,,,,,,,,,,522,physics,False,,8,8
+llm,Which material is this jacket made of?,chemistry,chemistry,chemistry,llama3.1:8b,28.07768899947405,711,2,713,,,,,,,,,,,,,523,physics,False,,8,8
+llm,Which property do these three objects have in common?,service physics,physics,physics,llama3.1:8b,35.77186795882881,713,3,716,,,,,,,,,,,,,524,physics,True,,8,8
+llm,Which type of force from the woman's finger will knock over the domino?,service physics,physics,physics,llama3.1:8b,38.40354597195983,719,3,722,,,,,,,,,,,,,525,physics,True,,8,8
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,llama3.1:8b,38.503075018525124,722,3,725,,,,,,,,,,,,,526,physics,True,,8,8
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,llama3.1:8b,37.66368399374187,713,3,716,,,,,,,,,,,,,527,physics,True,,8,8
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,llama3.1:8b,39.00547884404659,722,3,725,,,,,,,,,,,,,528,physics,True,,8,8
+llm,Which is softer?,service physics,physics,physics,llama3.1:8b,34.57247302867472,707,3,710,,,,,,,,,,,,,529,physics,True,,8,8
+llm,Select the liquid.,service chemistry,chemistry,chemistry,llama3.1:8b,34.33927707374096,707,3,710,,,,,,,,,,,,,530,physics,False,,8,8
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,llama3.1:8b,37.21385286189616,723,3,726,,,,,,,,,,,,,531,physics,True,,8,8
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,llama3.1:8b,36.02161607705057,713,3,716,,,,,,,,,,,,,532,physics,True,,8,8
+llm,Which property do these four objects have in common?,service physics,physics,physics,llama3.1:8b,37.171340081840754,713,3,716,,,,,,,,,,,,,533,physics,True,,8,8
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,llama3.1:8b,38.34850201383233,723,3,726,,,,,,,,,,,,,534,physics,True,,8,8
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,llama3.1:8b,26.037188014015555,723,3,726,,,,,,,,,,,,,535,physics,True,,8,8
+llm,Compare the motion of two geese. Which goose was moving at a lower speed?,service physics,physics,physics,llama3.1:8b,38.47881709225476,720,3,723,,,,,,,,,,,,,536,physics,True,,8,8
+llm,Which material is this bucket made of?,service chemistry,chemistry,chemistry,llama3.1:8b,36.541361128911376,711,3,714,,,,,,,,,,,,,537,physics,False,,8,8
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,llama3.1:8b,38.247439078986645,722,3,725,,,,,,,,,,,,,538,physics,True,,8,8
+llm,Which property matches this object?,service chemistry,chemistry,chemistry,llama3.1:8b,36.90224094316363,709,3,712,,,,,,,,,,,,,539,physics,False,,8,8
+llm,Which property do these three objects have in common?,service chemistry,chemistry,chemistry,llama3.1:8b,36.90475900657475,713,3,716,,,,,,,,,,,,,540,physics,False,,8,8
+llm,Compare the motion of two motorboats. Which motorboat was moving at a higher speed?,service physics,physics,physics,llama3.1:8b,37.84448094666004,721,3,724,,,,,,,,,,,,,541,physics,True,,8,8
+llm,Which material is this box made of?,service chemistry,chemistry,chemistry,llama3.1:8b,36.121685057878494,711,3,714,,,,,,,,,,,,,542,physics,False,,8,8
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,llama3.1:8b,37.57193521596491,723,3,726,,,,,,,,,,,,,543,physics,True,,8,8
+llm,Which property do these three objects have in common?,service chemistry,chemistry,chemistry,llama3.1:8b,36.07993689365685,713,3,716,,,,,,,,,,,,,544,physics,False,,8,8
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,llama3.1:8b,39.594483794644475,723,3,726,,,,,,,,,,,,,545,physics,True,,8,8
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,llama3.1:8b,38.24589401483536,722,3,725,,,,,,,,,,,,,546,physics,True,,8,8
+llm,Select the solid.,service physics,physics,physics,llama3.1:8b,34.741361858323216,707,3,710,,,,,,,,,,,,,547,physics,True,,8,8
+llm,"During this time, thermal energy was transferred from () to ().",service physics,physics,physics,llama3.1:8b,37.44769096374512,716,3,719,,,,,,,,,,,,,548,physics,True,,8,8
+llm,Select the solid.,service earth-science,earth-science,earth-science,llama3.1:8b,47.70345380529761,707,5,712,,,,,,,,,,,,,549,physics,False,,8,8
+llm,Which object has less thermal energy?,service physics,physics,physics,llama3.1:8b,36.21251997537911,710,3,713,,,,,,,,,,,,,550,physics,True,,8,8
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,llama3.1:8b,36.19945305399597,713,3,716,,,,,,,,,,,,,551,physics,True,,8,8
+llm,Is chalk a solid or a liquid?,service chemistry,chemistry,chemistry,llama3.1:8b,36.11307102255523,711,3,714,,,,,,,,,,,,,552,physics,False,,8,8
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,llama3.1:8b,38.114204071462154,722,3,725,,,,,,,,,,,,,553,physics,True,,8,8
+llm,Which property do these three objects have in common?,service chemistry,chemistry,chemistry,llama3.1:8b,36.38136200606823,713,3,716,,,,,,,,,,,,,554,physics,False,,8,8
+llm,Which property do these two objects have in common?,service physics,physics,physics,llama3.1:8b,36.09700105153024,713,3,716,,,,,,,,,,,,,555,physics,True,,8,8
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,llama3.1:8b,36.234338069334626,713,3,716,,,,,,,,,,,,,556,physics,True,,8,8
+llm,Which material is these swim goggles made of?,service chemistry,chemistry,chemistry,llama3.1:8b,36.10393311828375,712,3,715,,,,,,,,,,,,,557,physics,False,,8,8
+llm,The mom and dad push the strollers at the same speed. Which stroller is pushed with a larger force?,service physics,physics,physics,llama3.1:8b,39.295123191550374,726,3,729,,,,,,,,,,,,,558,physics,True,,8,8
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,llama3.1:8b,36.42566408962011,713,3,716,,,,,,,,,,,,,559,physics,True,,8,8
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,llama3.1:8b,24.613957852125168,713,3,716,,,,,,,,,,,,,560,physics,True,,8,8
+llm,Select the liquid.,service chemistry,chemistry,chemistry,llama3.1:8b,34.66532193124294,707,3,710,,,,,,,,,,,,,561,physics,False,,8,8
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,llama3.1:8b,35.838697804138064,713,3,716,,,,,,,,,,,,,562,physics,True,,8,8
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,llama3.1:8b,37.7059830352664,723,3,726,,,,,,,,,,,,,563,physics,True,,8,8
+llm,Which object has less thermal energy?,service physics,physics,physics,llama3.1:8b,36.157297901809216,710,3,713,,,,,,,,,,,,,564,physics,True,,8,8
+llm,Which is the softest?,service biology,biology,biology,llama3.1:8b,36.00806510075927,709,3,712,,,,,,,,,,,,,565,physics,False,,8,8
+llm,Which property do these three objects have in common?,service physics,physics,physics,llama3.1:8b,35.9332081861794,713,3,716,,,,,,,,,,,,,566,physics,True,,8,8
+llm,"During this time, thermal energy was transferred from () to ().",service physics,physics,physics,llama3.1:8b,37.2280681040138,716,3,719,,,,,,,,,,,,,567,physics,True,,8,8
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,llama3.1:8b,37.70943381823599,723,3,726,,,,,,,,,,,,,568,physics,True,,8,8
+llm,Select the mixture.,service chemistry,chemistry,chemistry,llama3.1:8b,34.52625684440136,707,3,710,,,,,,,,,,,,,569,physics,False,,8,8
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,llama3.1:8b,37.89316304028034,722,3,725,,,,,,,,,,,,,570,physics,True,,8,8
+llm,"Is a bowling ball a solid, a liquid, or a gas?",service physics,physics,physics,llama3.1:8b,36.9733979459852,717,3,720,,,,,,,,,,,,,571,physics,True,,8,8
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,llama3.1:8b,38.35029504261911,723,3,726,,,,,,,,,,,,,572,physics,True,,8,8
+llm,Which material is this door made of?,service chemistry,chemistry,chemistry,llama3.1:8b,36.05209896340966,711,3,714,,,,,,,,,,,,,573,physics,False,,8,8
+llm,Which object has the least thermal energy?,service physics,physics,physics,llama3.1:8b,35.92775319702923,711,3,714,,,,,,,,,,,,,574,physics,True,,8,8
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,llama3.1:8b,35.71395785547793,713,3,716,,,,,,,,,,,,,575,physics,True,,8,8
+llm,"Is a coffee mug a solid, a liquid, or a gas?",service physics,physics,physics,llama3.1:8b,36.92197916097939,717,3,720,,,,,,,,,,,,,576,physics,True,,8,8
+llm,"Is the air inside a bubble a solid, a liquid, or a gas?",service physics,physics,physics,llama3.1:8b,36.948137916624546,719,3,722,,,,,,,,,,,,,577,physics,True,,8,8
+llm,Which material is this flower vase made of?,service chemistry,chemistry,chemistry,llama3.1:8b,35.46324884518981,712,3,715,,,,,,,,,,,,,578,physics,False,,8,8
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,llama3.1:8b,37.26336406543851,723,3,726,,,,,,,,,,,,,579,physics,True,,8,8
+llm,The donkeys move the carts at the same speed. Which cart is pulled with a larger force?,service physics,physics,physics,llama3.1:8b,38.50833396427333,723,3,726,,,,,,,,,,,,,580,physics,True,,8,8
+llm,Which object has the most thermal energy?,service physics,physics,physics,llama3.1:8b,37.20364114269614,711,3,714,,,,,,,,,,,,,581,physics,True,,8,8
+llm,Which of the following is better evidence that the train's kinetic energy changed?,service physics,physics,physics,llama3.1:8b,37.37679892219603,718,3,721,,,,,,,,,,,,,582,physics,True,,8,8
+llm,"Complete the statement. Assume that the sled's mass did not change.
+The gravitational potential energy stored between the sled and Earth () as Tammy rode down the hill.",service physics,physics,physics,llama3.1:8b,40.689198998734355,736,3,739,,,,,,,,,,,,,583,physics,True,,8,8
+llm,"Complete the statement. Assume that Caleb's mass did not change.
+The gravitational potential energy stored between Caleb and Earth () as he rode the escalator.",service physics,physics,physics,llama3.1:8b,38.654075004160404,733,3,736,,,,,,,,,,,,,584,physics,True,,8,8
+llm,Which property matches this object?,service -1,general,general,llama3.1:8b,42.206941870972514,709,4,713,,,,,,,,,,,,,585,physics,False,,8,8
+llm,Which cookie has less thermal energy?,service physics,physics,physics,llama3.1:8b,35.5425919406116,710,3,713,,,,,,,,,,,,,586,physics,True,,8,8
+llm,Which property do these three objects have in common?,service physics,physics,physics,llama3.1:8b,35.77166795730591,713,3,716,,,,,,,,,,,,,587,physics,True,,8,8
+llm,"According to Newton's third law, what other force must be happening?",service physics,physics,physics,llama3.1:8b,39.102251874282956,717,3,720,,,,,,,,,,,,,588,physics,True,,8,8
+llm,Which property do these three objects have in common?,service chemistry,chemistry,chemistry,llama3.1:8b,36.46246180869639,713,3,716,,,,,,,,,,,,,589,physics,False,,8,8
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,llama3.1:8b,37.744815926998854,722,3,725,,,,,,,,,,,,,590,physics,True,,8,8
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,llama3.1:8b,24.78149114176631,722,3,725,,,,,,,,,,,,,591,physics,True,,8,8
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,llama3.1:8b,37.298236042261124,723,3,726,,,,,,,,,,,,,592,physics,True,,8,8
+llm,Which object has the least thermal energy?,service physics,physics,physics,llama3.1:8b,35.72498308494687,711,3,714,,,,,,,,,,,,,593,physics,True,,8,8
+llm,"Complete the statement. Assume that the hockey puck's mass did not change.
+The gravitational potential energy stored between the hockey puck and Earth () as the puck slid toward the goal.",service physics,physics,physics,llama3.1:8b,40.87315313518047,738,3,741,,,,,,,,,,,,,594,physics,True,,8,8
+llm,Which property matches this object?,service physics,physics,physics,llama3.1:8b,35.498003009706736,709,3,712,,,,,,,,,,,,,595,physics,True,,8,8
+llm,"Complete the statement. Assume that the motorcycle's mass did not change.
+The gravitational potential energy stored between the motorcycle and Earth () as Stefan rode up the hill.",physics,physics,physics,llama3.1:8b,32.85010298714042,735,2,737,,,,,,,,,,,,,596,physics,True,,8,8
+llm,Which statement describes the bowl's motion?,service physics,physics,physics,llama3.1:8b,36.89230582676828,711,3,714,,,,,,,,,,,,,597,physics,True,,8,8
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,llama3.1:8b,37.71282499656081,722,3,725,,,,,,,,,,,,,598,physics,True,,8,8
+llm,"Is the air from a hair dryer a solid, a liquid, or a gas?",service physics,physics,physics,llama3.1:8b,37.05812897533178,720,3,723,,,,,,,,,,,,,599,physics,True,,8,8
+llm,"Would you find the word blessing on a dictionary page with the following guide words?
+billow - brown",reference-skills,reference-skills,reference-skills,llama3.1:8b,45.53414788097143,724,4,728,,,,,,,,,,,,,600,reference-skills,True,,8,8
+llm,"Would you find the word roam on a dictionary page with the following guide words?
+reality - rudder",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.655595026910305,725,5,730,,,,,,,,,,,,,601,reference-skills,True,,8,8
+llm,"Would you find the word dove on a dictionary page with the following guide words?
+deck - drawer",service reference-skills,reference-skills,reference-skills,llama3.1:8b,49.990017898380756,723,5,728,,,,,,,,,,,,,602,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+helping - hunter",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.78078294172883,723,5,728,,,,,,,,,,,,,603,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+dangle - differ",service reference-skills,reference-skills,reference-skills,llama3.1:8b,49.980792915448546,723,5,728,,,,,,,,,,,,,604,reference-skills,True,,8,8
+llm,"Would you find the word middle on a dictionary page with the following guide words?
+meadow - mole",reference-skills,reference-skills,reference-skills,llama3.1:8b,45.87606014683843,724,4,728,,,,,,,,,,,,,605,reference-skills,True,,8,8
+llm,"Would you find the word dad on a dictionary page with the following guide words?
+degree - doll",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.74513191357255,723,5,728,,,,,,,,,,,,,606,reference-skills,True,,8,8
+llm,"Would you find the word human on a dictionary page with the following guide words?
+hate - here",service reference-skills,reference-skills,reference-skills,llama3.1:8b,51.28631601110101,724,5,729,,,,,,,,,,,,,607,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+dine - drown",service reference-skills,reference-skills,reference-skills,llama3.1:8b,51.3303738553077,723,5,728,,,,,,,,,,,,,608,reference-skills,True,,8,8
+llm,"Would you find the word identify on a dictionary page with the following guide words?
+image - indicate",service reference-skills,reference-skills,reference-skills,llama3.1:8b,51.28561402671039,723,5,728,,,,,,,,,,,,,609,reference-skills,True,,8,8
+llm,"Would you find the word pink on a dictionary page with the following guide words?
+parrot - property",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.81363418139517,724,5,729,,,,,,,,,,,,,610,reference-skills,True,,8,8
+llm,"Would you find the word boulder on a dictionary page with the following guide words?
+bike - bridge",reference-skills,reference-skills,reference-skills,llama3.1:8b,44.051602948457,724,4,728,,,,,,,,,,,,,611,reference-skills,True,,8,8
+llm,"What does this Works Cited entry indicate about the cited work?
+Brenner, Wendy. ""Strange Beads."" The Best American Essays 2014. Ed. John Jeremiah Sullivan. Boston: Houghton Mifflin, 2014. 5–17. Print.",reference-skills,reference-skills,reference-skills,llama3.1:8b,55.31561002135277,762,4,766,,,,,,,,,,,,,612,reference-skills,True,,8,8
+llm,"Would you find the word wealthy on a dictionary page with the following guide words?
+wand - what",service reference-skills,reference-skills,reference-skills,llama3.1:8b,51.847996190190315,723,5,728,,,,,,,,,,,,,613,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+jerk - junk",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.91763101518154,723,5,728,,,,,,,,,,,,,614,reference-skills,True,,8,8
+llm,"Would you find the word lucky on a dictionary page with the following guide words?
+laid - lizard",reference-skills,reference-skills,reference-skills,llama3.1:8b,46.43852193839848,724,4,728,,,,,,,,,,,,,615,reference-skills,True,,8,8
+llm,"Would you find the word pour on a dictionary page with the following guide words?
+patience - pulley",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.75586400926113,725,5,730,,,,,,,,,,,,,616,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+pen - popular",service reference-skills,reference-skills,reference-skills,llama3.1:8b,51.30077712237835,722,5,727,,,,,,,,,,,,,617,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+book - bulletin",reference-skills,reference-skills,reference-skills,llama3.1:8b,40.88566196151078,722,4,726,,,,,,,,,,,,,618,reference-skills,True,,8,8
+llm,"Would you find the word hind on a dictionary page with the following guide words?
+heart - hood",reference-skills,reference-skills,reference-skills,llama3.1:8b,44.60948007181287,723,4,727,,,,,,,,,,,,,619,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+electric - ever",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.031919963657856,722,5,727,,,,,,,,,,,,,620,reference-skills,True,,8,8
+llm,"Would you find the word even on a dictionary page with the following guide words?
+engineer - except",service reference-skills,reference-skills,reference-skills,llama3.1:8b,52.26114089600742,724,5,729,,,,,,,,,,,,,621,reference-skills,True,,8,8
+llm,"Would you find the word bright on a dictionary page with the following guide words?
+believe - burrow",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.68429186940193,725,5,730,,,,,,,,,,,,,622,reference-skills,True,,8,8
+llm,"Would you find the word doctor on a dictionary page with the following guide words?
+dessert - dust",reference-skills,reference-skills,reference-skills,llama3.1:8b,44.068832881748676,724,4,728,,,,,,,,,,,,,623,reference-skills,True,,8,8
+llm,"Would you find the word doze on a dictionary page with the following guide words?
+depth - drink",reference-skills,reference-skills,reference-skills,llama3.1:8b,43.8532680273056,724,4,728,,,,,,,,,,,,,624,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+clover - cry",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.83591095171869,723,5,728,,,,,,,,,,,,,625,reference-skills,True,,8,8
+llm,"Would you find the word since on a dictionary page with the following guide words?
+serape - spice",service reference-skills,reference-skills,reference-skills,llama3.1:8b,52.46045487001538,724,5,729,,,,,,,,,,,,,626,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+common - current",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.910620018839836,722,5,727,,,,,,,,,,,,,627,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+whoop - wren",service reference-skills,reference-skills,reference-skills,llama3.1:8b,49.049328779801726,724,5,729,,,,,,,,,,,,,628,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+beginner - bottom",service reference-skills,reference-skills,reference-skills,llama3.1:8b,48.71759610250592,723,5,728,,,,,,,,,,,,,629,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+cafe - consent",reference-skills,reference-skills,reference-skills,llama3.1:8b,42.77290706522763,723,4,727,,,,,,,,,,,,,630,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+flee - frontier",reference-skills,reference-skills,reference-skills,llama3.1:8b,42.37349098548293,723,4,727,,,,,,,,,,,,,631,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+save - softly",service reference-skills,reference-skills,reference-skills,llama3.1:8b,47.14956902898848,722,5,727,,,,,,,,,,,,,632,reference-skills,True,,8,8
+llm,"Would you find the word mint on a dictionary page with the following guide words?
+marriage - modest",reference-skills,reference-skills,reference-skills,llama3.1:8b,45.48557801172137,724,4,728,,,,,,,,,,,,,633,reference-skills,True,,8,8
+llm,"Would you find the word they on a dictionary page with the following guide words?
+territory - trek",reference-skills,reference-skills,reference-skills,llama3.1:8b,43.70826110243797,724,4,728,,,,,,,,,,,,,634,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+pasture - polish",service reference-skills,reference-skills,reference-skills,llama3.1:8b,51.41982599161565,723,5,728,,,,,,,,,,,,,635,reference-skills,True,,8,8
+llm,"Would you find the word old on a dictionary page with the following guide words?
+object - orchard",reference-skills,reference-skills,reference-skills,llama3.1:8b,46.647828072309494,724,4,728,,,,,,,,,,,,,636,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+tease - tomb",reference-skills,reference-skills,reference-skills,llama3.1:8b,44.35147414915264,723,4,727,,,,,,,,,,,,,637,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+lever - loan",reference-skills,reference-skills,reference-skills,llama3.1:8b,40.38337292149663,722,4,726,,,,,,,,,,,,,638,reference-skills,True,,8,8
+llm,"Would you find the word scooter on a dictionary page with the following guide words?
+shop - swept",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.41478993371129,723,5,728,,,,,,,,,,,,,639,reference-skills,True,,8,8
+llm,"Would you find the word streak on a dictionary page with the following guide words?
+serpent - skirt",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.90452986769378,724,5,729,,,,,,,,,,,,,640,reference-skills,True,,8,8
+llm,"What does this Works Cited entry indicate about the cited work?
+Encyclopedia of Indiana. New York: Somerset Publishers, 1993. Print.",service reference-skills,reference-skills,reference-skills,llama3.1:8b,53.74507303349674,733,5,738,,,,,,,,,,,,,641,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+land - lilac",reference-skills,reference-skills,reference-skills,llama3.1:8b,44.28414814174175,723,4,727,,,,,,,,,,,,,642,reference-skills,True,,8,8
+llm,"Would you find the word radio on a dictionary page with the following guide words?
+rescue - road",reference-skills,reference-skills,reference-skills,llama3.1:8b,45.85175006650388,724,4,728,,,,,,,,,,,,,643,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+illustrate - interrupt",reference-skills,reference-skills,reference-skills,llama3.1:8b,44.14961487054825,723,4,727,,,,,,,,,,,,,644,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+bookcase - burden",reference-skills,reference-skills,reference-skills,llama3.1:8b,42.549417819827795,723,4,727,,,,,,,,,,,,,645,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+academy - apparent",service reference-skills,reference-skills,reference-skills,llama3.1:8b,49.70911401323974,723,5,728,,,,,,,,,,,,,646,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+scream - slide",reference-skills,reference-skills,reference-skills,llama3.1:8b,43.04269212298095,723,4,727,,,,,,,,,,,,,647,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+riddle - rye",reference-skills,reference-skills,reference-skills,llama3.1:8b,42.591100092977285,724,4,728,,,,,,,,,,,,,648,reference-skills,True,,8,8
+llm,"Would you find the word jeep on a dictionary page with the following guide words?
+jar - jut",service reference-skills,reference-skills,reference-skills,llama3.1:8b,51.639790181070566,724,5,729,,,,,,,,,,,,,649,reference-skills,True,,8,8
+llm,"Would you find the word nimble on a dictionary page with the following guide words?
+nation - next",service reference-skills,reference-skills,reference-skills,llama3.1:8b,51.92966409958899,724,5,729,,,,,,,,,,,,,650,reference-skills,True,,8,8
+llm,"Would you find the word children on a dictionary page with the following guide words?
+carriage - cloak",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.96404696814716,724,5,729,,,,,,,,,,,,,651,reference-skills,True,,8,8
+llm,"Would you find the word strife on a dictionary page with the following guide words?
+sold - swell",reference-skills,reference-skills,reference-skills,llama3.1:8b,44.60661904886365,723,4,727,,,,,,,,,,,,,652,reference-skills,True,,8,8
+llm,"Would you find the word shower on a dictionary page with the following guide words?
+seven - strange",service reference-skills,reference-skills,reference-skills,llama3.1:8b,51.76920420490205,723,5,728,,,,,,,,,,,,,653,reference-skills,True,,8,8
+llm,"Would you find the word dozen on a dictionary page with the following guide words?
+daddy - definition",service reference-skills,reference-skills,reference-skills,llama3.1:8b,52.22984286956489,724,5,729,,,,,,,,,,,,,654,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+feather - fling",reference-skills,reference-skills,reference-skills,llama3.1:8b,46.814448200166225,724,4,728,,,,,,,,,,,,,655,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+seize - spank",reference-skills,reference-skills,reference-skills,llama3.1:8b,43.29375294037163,724,4,728,,,,,,,,,,,,,656,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+shack - spade",service reference-skills,reference-skills,reference-skills,llama3.1:8b,49.101359909400344,724,5,729,,,,,,,,,,,,,657,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+melt - myself",reference-skills,reference-skills,reference-skills,llama3.1:8b,42.201092932373285,723,4,727,,,,,,,,,,,,,658,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+bolt - buckled",service reference-skills,reference-skills,reference-skills,llama3.1:8b,48.8228069152683,723,5,728,,,,,,,,,,,,,659,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+mite - mud",reference-skills,reference-skills,reference-skills,llama3.1:8b,41.4476019795984,722,4,726,,,,,,,,,,,,,660,reference-skills,True,,8,8
+llm,"Would you find the word side on a dictionary page with the following guide words?
+skirt - stories",service reference-skills,reference-skills,reference-skills,llama3.1:8b,52.332549123093486,724,5,729,,,,,,,,,,,,,661,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+chief - corral",service reference-skills,reference-skills,reference-skills,llama3.1:8b,51.48998694494367,723,5,728,,,,,,,,,,,,,662,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+dare - disturb",reference-skills,reference-skills,reference-skills,llama3.1:8b,42.75857307948172,723,4,727,,,,,,,,,,,,,663,reference-skills,True,,8,8
+llm,"Would you find the word nor on a dictionary page with the following guide words?
+nap - neither",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.80179893411696,723,5,728,,,,,,,,,,,,,664,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+tarpaulin - transport",service reference-skills,reference-skills,reference-skills,llama3.1:8b,52.70073818974197,725,5,730,,,,,,,,,,,,,665,reference-skills,True,,8,8
+llm,"Would you find the word bit on a dictionary page with the following guide words?
+bark - belief",reference-skills,reference-skills,reference-skills,llama3.1:8b,45.73474801145494,724,4,728,,,,,,,,,,,,,666,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+calves - cow",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.98709603771567,723,5,728,,,,,,,,,,,,,667,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+walnut - who",reference-skills,reference-skills,reference-skills,llama3.1:8b,43.90383395366371,723,4,727,,,,,,,,,,,,,668,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+nibble - nugget",reference-skills,reference-skills,reference-skills,llama3.1:8b,42.76123596355319,724,4,728,,,,,,,,,,,,,669,reference-skills,True,,8,8
+llm,"Would you find the word volley on a dictionary page with the following guide words?
+vain - violet",reference-skills,reference-skills,reference-skills,llama3.1:8b,47.1396769862622,724,4,728,,,,,,,,,,,,,670,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+dad - distant",service reference-skills,reference-skills,reference-skills,llama3.1:8b,51.355218049138784,722,5,727,,,,,,,,,,,,,671,reference-skills,True,,8,8
+llm,"Would you find the word load on a dictionary page with the following guide words?
+lent - livestock",service reference-skills,reference-skills,reference-skills,llama3.1:8b,52.41750995628536,724,5,729,,,,,,,,,,,,,672,reference-skills,True,,8,8
+llm,"Would you find the word buck on a dictionary page with the following guide words?
+being - blind",reference-skills,reference-skills,reference-skills,llama3.1:8b,44.44711282849312,723,4,727,,,,,,,,,,,,,673,reference-skills,True,,8,8
+llm,"Would you find the word nature on a dictionary page with the following guide words?
+neither - nuisance",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.70563987828791,724,5,729,,,,,,,,,,,,,674,reference-skills,True,,8,8
+llm,"Would you find the word wrath on a dictionary page with the following guide words?
+weary - wiggle",reference-skills,reference-skills,reference-skills,llama3.1:8b,45.27854803018272,725,4,729,,,,,,,,,,,,,675,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+like - lumber",reference-skills,reference-skills,reference-skills,llama3.1:8b,44.497030088678,722,4,726,,,,,,,,,,,,,676,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+ravenous - rise",reference-skills,reference-skills,reference-skills,llama3.1:8b,43.18275302648544,723,4,727,,,,,,,,,,,,,677,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+cash - crayon",reference-skills,reference-skills,reference-skills,llama3.1:8b,42.41152107715607,723,4,727,,,,,,,,,,,,,678,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+easel - enamel",service reference-skills,reference-skills,reference-skills,llama3.1:8b,48.796862130984664,723,5,728,,,,,,,,,,,,,679,reference-skills,True,,8,8
+llm,"Would you find the word accuse on a dictionary page with the following guide words?
+another - away",reference-skills,reference-skills,reference-skills,llama3.1:8b,44.306022115051746,723,4,727,,,,,,,,,,,,,680,reference-skills,True,,8,8
+llm,"Would you find the word hole on a dictionary page with the following guide words?
+hello - hire",service reference-skills,reference-skills,reference-skills,llama3.1:8b,51.21601792052388,723,5,728,,,,,,,,,,,,,681,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+mechanic - monk",service reference-skills,reference-skills,reference-skills,llama3.1:8b,52.5905869435519,724,5,729,,,,,,,,,,,,,682,reference-skills,True,,8,8
+llm,"Would you find the word persuade on a dictionary page with the following guide words?
+prey - punch",reference-skills,reference-skills,reference-skills,llama3.1:8b,45.75068596750498,724,4,728,,,,,,,,,,,,,683,reference-skills,True,,8,8
+llm,"Would you find the word bit on a dictionary page with the following guide words?
+base - bury",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.60086795128882,723,5,728,,,,,,,,,,,,,684,reference-skills,True,,8,8
+llm,"Would you find the word indignant on a dictionary page with the following guide words?
+ignore - ivy",reference-skills,reference-skills,reference-skills,llama3.1:8b,44.15217903442681,725,4,729,,,,,,,,,,,,,685,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+passage - pigeon",reference-skills,reference-skills,reference-skills,llama3.1:8b,45.585633954033256,723,4,727,,,,,,,,,,,,,686,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+slate - strong",reference-skills,reference-skills,reference-skills,llama3.1:8b,42.971275979653,723,4,727,,,,,,,,,,,,,687,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+oar - orphan",service reference-skills,reference-skills,reference-skills,llama3.1:8b,49.48007804341614,723,5,728,,,,,,,,,,,,,688,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+casual - coffee",reference-skills,reference-skills,reference-skills,llama3.1:8b,42.94111020863056,723,4,727,,,,,,,,,,,,,689,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+album - avoid",service reference-skills,reference-skills,reference-skills,llama3.1:8b,47.6721259765327,722,5,727,,,,,,,,,,,,,690,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+garage - goose",service reference-skills,reference-skills,reference-skills,llama3.1:8b,49.20855816453695,723,5,728,,,,,,,,,,,,,691,reference-skills,True,,8,8
+llm,"Would you find the word parent on a dictionary page with the following guide words?
+president - public",service reference-skills,reference-skills,reference-skills,llama3.1:8b,52.33687488362193,724,5,729,,,,,,,,,,,,,692,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+herring - hue",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.53338292054832,723,5,728,,,,,,,,,,,,,693,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+desk - drop",reference-skills,reference-skills,reference-skills,llama3.1:8b,40.96250794827938,722,4,726,,,,,,,,,,,,,694,reference-skills,True,,8,8
+llm,"Would you find the word linen on a dictionary page with the following guide words?
+leather - lying",service reference-skills,reference-skills,reference-skills,llama3.1:8b,51.835729042068124,724,5,729,,,,,,,,,,,,,695,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+cove - cylinder",reference-skills,reference-skills,reference-skills,llama3.1:8b,45.62534485012293,723,4,727,,,,,,,,,,,,,696,reference-skills,True,,8,8
+llm,"Would you find the word dump on a dictionary page with the following guide words?
+decay - disaster",service reference-skills,reference-skills,reference-skills,llama3.1:8b,51.28297512419522,723,5,728,,,,,,,,,,,,,697,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+bathtub - blend",service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.98683899268508,723,5,728,,,,,,,,,,,,,698,reference-skills,True,,8,8
+llm,"Which word would you find on a dictionary page with the following guide words?
+bare - bite",reference-skills,reference-skills,reference-skills,llama3.1:8b,41.42811498604715,722,4,726,,,,,,,,,,,,,699,reference-skills,True,,8,8
+llm,Which organizational structure does this text primarily use?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.17871602810919,712,5,717,,,,,,,,,,,,,700,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.56074596196413,714,4,718,,,,,,,,,,,,,701,writing-strategies,True,,8,8
+llm,Which is a run-on sentence?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.44809497706592,710,4,714,,,,,,,,,,,,,702,writing-strategies,True,,8,8
+llm,Which sentence states a fact?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.12225203588605,709,5,714,,,,,,,,,,,,,703,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.70224319770932,714,4,718,,,,,,,,,,,,,704,writing-strategies,True,,8,8
+llm,Which sentence states a fact?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,50.127720925956964,709,5,714,,,,,,,,,,,,,705,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Mabel never lies. She told me herself, so it must be true.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,46.684043016284704,729,4,733,,,,,,,,,,,,,706,writing-strategies,True,,8,8
+llm,"Complete the sentence so that it uses personification.
+The gardener struggled to tame the () vines.",service figurative-language,figurative-language,figurative-language,llama3.1:8b,51.22816399671137,723,5,728,,,,,,,,,,,,,707,writing-strategies,False,,8,8
+llm,"Which logical fallacy is used in the text?
+I don't give tests to my students because good students will study the material regardless, and bad students won't study the material even for a test.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,51.14354286342859,743,4,747,,,,,,,,,,,,,708,writing-strategies,True,,8,8
+llm,Which is a complete sentence?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.709534987807274,709,4,713,,,,,,,,,,,,,709,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Mr. Kemp argues that we need to do more to prevent workplace injuries and fatalities. I doubt that someone so socially awkward would know a thing about office safety.",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,57.17399995774031,745,5,750,,,,,,,,,,,,,710,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.41400910541415,714,4,718,,,,,,,,,,,,,711,writing-strategies,True,,8,8
+llm,Which sentence states a fact?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.249743128195405,709,4,713,,,,,,,,,,,,,712,writing-strategies,True,,8,8
+llm,"Is this a run-on sentence?
+Dust particles around nine nearby stars may have been caused by long-ago collisions between melting comets and asteroids.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,48.08544414117932,733,4,737,,,,,,,,,,,,,713,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,48.872438026592135,714,5,719,,,,,,,,,,,,,714,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,31.927684089168906,714,4,718,,,,,,,,,,,,,715,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+If I let you miss this deadline, everyone else will start asking for the same treatment. Deadlines will be meaningless.",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,56.43642693758011,737,5,742,,,,,,,,,,,,,716,writing-strategies,True,,8,8
+llm,Which announcement is more formal?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,44.2836070433259,709,4,713,,,,,,,,,,,,,717,writing-strategies,True,,8,8
+llm,Which is a complete sentence?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.34159195423126,709,4,713,,,,,,,,,,,,,718,writing-strategies,True,,8,8
+llm,Which rhetorical appeal is primarily used in this ad?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.149991013109684,713,5,718,,,,,,,,,,,,,719,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,44.08467188477516,714,4,718,,,,,,,,,,,,,720,writing-strategies,True,,8,8
+llm,"Based on the bubble map, which statement is true?",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.94698196463287,714,4,718,,,,,,,,,,,,,721,writing-strategies,True,,8,8
+llm,Which text uses the word nauseous in its traditional sense?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.05311804637313,715,4,719,,,,,,,,,,,,,722,writing-strategies,True,,8,8
+llm,Which sentence states a fact?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.483531853184104,709,5,714,,,,,,,,,,,,,723,writing-strategies,True,,8,8
+llm,Which text uses the word disinterested in its traditional sense?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.17413596436381,715,4,719,,,,,,,,,,,,,724,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Mayor Stanley wants to create more bicycle lanes in Fairview. However, many citizens of Fairview live far from work. It would not be realistic to force us to give up our cars and bike everywhere.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,51.443225936964154,754,4,758,,,,,,,,,,,,,725,writing-strategies,True,,8,8
+llm,Which sentence is more formal?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.071112897247076,709,4,713,,,,,,,,,,,,,726,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+People with larger houses live longer. I guess bigger homes are better for your health!",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,45.52895110100508,730,4,734,,,,,,,,,,,,,727,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+In this election, we've seen the highest voter turnout ever recorded. If you have any doubts about Bobby Monroe's qualifications, just look at how many people have come out to vote for him.",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,58.05343296378851,752,5,757,,,,,,,,,,,,,728,writing-strategies,True,,8,8
+llm,Which sentence states a fact?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.81473718583584,709,4,713,,,,,,,,,,,,,729,writing-strategies,True,,8,8
+llm,Which is a run-on sentence?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.39982599392533,710,4,714,,,,,,,,,,,,,730,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+I read that people with higher-paying jobs wear more expensive clothing. So, if I wear fancier clothes, I'll finally get that raise I've been wanting.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,51.59326898865402,746,4,750,,,,,,,,,,,,,731,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+I believe everyone has his or her own idea of what's beautiful in the world. After all, it's the individual who determines what's attractive according to his or her own opinion.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,48.27163089066744,750,4,754,,,,,,,,,,,,,732,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Bernard once fell asleep with the window open and woke up with a horrible migraine. Since then, he's always made sure to close his window before going to sleep.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,47.48339089564979,747,4,751,,,,,,,,,,,,,733,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Last year, the city of Hillsdale allocated more money to public parks. This year, however, littering increased, so the increase in park funding must have been responsible.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,47.374283196404576,748,4,752,,,,,,,,,,,,,734,writing-strategies,True,,8,8
+llm,Which sentence is more formal?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.77979792095721,709,4,713,,,,,,,,,,,,,735,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+The thing that makes Santiago stand out as a remarkable cellist is that he's a marvelous musician who plays the cello splendidly.",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,54.79231406934559,740,5,745,,,,,,,,,,,,,736,writing-strategies,True,,8,8
+llm,"Is there a sentence fragment?
+Which U.S. cities are doing the most to reduce greenhouse gas emissions? Tonight's news report has the details.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,47.33618698082864,732,4,736,,,,,,,,,,,,,737,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+You may be impressed by Senator Larsen's work with low-income communities, but the fact remains that he graduated from an elite university. He couldn't possibly empathize with low-income constituents.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,50.81915808841586,751,4,755,,,,,,,,,,,,,738,writing-strategies,True,,8,8
+llm,Which sentence is more formal?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.10952785797417,709,4,713,,,,,,,,,,,,,739,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Don't try to tell me that you only watch educational programming, Rebecca! I know for a fact that your sister only watches reality television.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,50.52767810411751,741,4,745,,,,,,,,,,,,,740,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.016920099034905,714,4,718,,,,,,,,,,,,,741,writing-strategies,True,,8,8
+llm,Which is a run-on sentence?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.2319951467216,710,4,714,,,,,,,,,,,,,742,writing-strategies,True,,8,8
+llm,Look at the picture. Which word best describes the sound this thunderstorm makes?,service figurative-language,figurative-language,figurative-language,llama3.1:8b,50.31360196880996,719,5,724,,,,,,,,,,,,,743,writing-strategies,False,,8,8
+llm,Which text uses the word nauseous in its traditional sense?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.89290402084589,715,4,719,,,,,,,,,,,,,744,writing-strategies,True,,8,8
+llm,Which sentence is more formal?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.1077778339386,709,4,713,,,,,,,,,,,,,745,writing-strategies,True,,8,8
+llm,Which is the main persuasive appeal used in this ad?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.23121905326843,714,4,718,,,,,,,,,,,,,746,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+The Alexanders argue we should eat our pizza with a fork and knife because it's less messy, but what do they know? Have you seen their house? It's a disaster!",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,57.8111729118973,750,5,755,,,,,,,,,,,,,747,writing-strategies,True,,8,8
+llm,Which sentence states a fact?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.90280304849148,709,4,713,,,,,,,,,,,,,748,writing-strategies,True,,8,8
+llm,Which text uses the word terribly in its traditional sense?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.08182303793728,714,4,718,,,,,,,,,,,,,749,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+You think Todd should be class president? I just can't see it. He reads romance novels for fun.",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,54.028447018936276,735,5,740,,,,,,,,,,,,,750,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.51450619287789,714,4,718,,,,,,,,,,,,,751,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,37.97952807508409,714,5,719,,,,,,,,,,,,,752,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,31.955355079844594,714,4,718,,,,,,,,,,,,,753,writing-strategies,True,,8,8
+llm,Which sentence states a fact?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.74207719229162,709,4,713,,,,,,,,,,,,,754,writing-strategies,True,,8,8
+llm,Which sentence is more formal?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.738857911899686,709,4,713,,,,,,,,,,,,,755,writing-strategies,True,,8,8
+llm,Which is the main persuasive appeal used in this ad?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.15229784697294,714,4,718,,,,,,,,,,,,,756,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.31208695657551,714,4,718,,,,,,,,,,,,,757,writing-strategies,True,,8,8
+llm,Which sentence is more formal?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.240038031712174,709,5,714,,,,,,,,,,,,,758,writing-strategies,True,,8,8
+llm,Which text uses the word nauseous in its traditional sense?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.62178298085928,715,4,719,,,,,,,,,,,,,759,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Senator Serrano isn't lying when she says she cares about her constituents—she wouldn't lie to people she cares about.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,48.01373393274844,739,4,743,,,,,,,,,,,,,760,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Senator Fischer announced today that she plans to cut funding to early childhood education programs. The last thing we need is a government official who hates children!",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,52.43681208230555,742,5,747,,,,,,,,,,,,,761,writing-strategies,True,,8,8
+llm,Which text uses the word unique in its traditional sense?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.1597019135952,714,5,719,,,,,,,,,,,,,762,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+How do I know that Samantha is the most intelligent person in our geometry class? I know because she's so smart.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,48.759736120700836,737,4,741,,,,,,,,,,,,,763,writing-strategies,True,,8,8
+llm,Which is a sentence fragment?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.016862124204636,709,4,713,,,,,,,,,,,,,764,writing-strategies,True,,8,8
+llm,"Complete the sentence so that it uses personification.
+Despite centuries of decay, the ancient structure still stands tall and ().",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,52.81653185375035,727,5,732,,,,,,,,,,,,,765,writing-strategies,True,,8,8
+llm,Which text uses the word peruse in its traditional sense?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.3387840166688,715,4,719,,,,,,,,,,,,,766,writing-strategies,True,,8,8
+llm,"Based on the time line, what does Romeo do after he fights with Tybalt?",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,44.957756996154785,721,4,725,,,,,,,,,,,,,767,writing-strategies,True,,8,8
+llm,Which text message is more formal?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.025350948795676,710,5,715,,,,,,,,,,,,,768,writing-strategies,True,,8,8
+llm,Which is a run-on sentence?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.96687005646527,710,4,714,,,,,,,,,,,,,769,writing-strategies,True,,8,8
+llm,Which is a run-on sentence?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,32.59556693956256,710,4,714,,,,,,,,,,,,,770,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+We need to raise taxes to improve our public schools. If we don't raise taxes, we are condemning our schools to failure.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.547637812793255,739,4,743,,,,,,,,,,,,,771,writing-strategies,True,,8,8
+llm,Which sentence is more formal?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.01566001959145,709,4,713,,,,,,,,,,,,,772,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Mr. Wells argues that we need to do more to prevent workplace injuries and fatalities. I doubt that someone so socially awkward would know a thing about office safety.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,50.9590208530426,745,4,749,,,,,,,,,,,,,773,writing-strategies,True,,8,8
+llm,Which is a run-on sentence?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.92411613278091,710,4,714,,,,,,,,,,,,,774,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Did you really vote for Jaden as class treasurer? Didn't you hear that his uncle was imprisoned for embezzling $1.5 million?",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,51.36519600637257,744,4,748,,,,,,,,,,,,,775,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+You should never let someone borrow something from you. If you do, then everyone will just start taking your things without asking!",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,51.97906796820462,738,5,743,,,,,,,,,,,,,776,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Kinsley has no school spirit—she never comes to any of our football games.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,44.256977969780564,731,4,735,,,,,,,,,,,,,777,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.55091189406812,714,4,718,,,,,,,,,,,,,778,writing-strategies,True,,8,8
+llm,Look at the picture. Which word best describes the sound this lion makes?,service figurative-language,figurative-language,figurative-language,llama3.1:8b,50.095688086003065,718,5,723,,,,,,,,,,,,,779,writing-strategies,False,,8,8
+llm,Which of the following contains a vague pronoun reference?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.194290017709136,714,4,718,,,,,,,,,,,,,780,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+How do I know that Lacey is the most intelligent person in our geometry class? I know because she's so smart.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,47.35899204388261,738,4,742,,,,,,,,,,,,,781,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.01183396577835,714,5,719,,,,,,,,,,,,,782,writing-strategies,True,,8,8
+llm,Which is a run-on sentence?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.33315004967153,710,4,714,,,,,,,,,,,,,783,writing-strategies,True,,8,8
+llm,Which sentence is more formal?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,48.92667196691036,709,5,714,,,,,,,,,,,,,784,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+This lunch meat has absolutely no additives, so it must be nutritious.",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,52.18424997292459,727,5,732,,,,,,,,,,,,,785,writing-strategies,True,,8,8
+llm,"Complete the sentence so that it uses personification.
+I tried to ignore the fresh blueberry pie, but it was ().",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,52.62554297223687,728,5,733,,,,,,,,,,,,,786,writing-strategies,True,,8,8
+llm,"Is there a sentence fragment?
+I enjoyed the risotto and the poached pears. Although I didn't care for the seared trout.",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,53.601613035425544,732,5,737,,,,,,,,,,,,,787,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+If the government is allowed to start blocking websites, then soon they'll start banning books, and all we'll have to read is propaganda.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,50.39034690707922,741,4,745,,,,,,,,,,,,,788,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Krysta has no school spirit—she never comes to any of our football games.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,44.29305903613567,731,4,735,,,,,,,,,,,,,789,writing-strategies,True,,8,8
+llm,"Based on the Venn diagram, which statement is true of Leonardo da Vinci?",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,50.86536309681833,719,5,724,,,,,,,,,,,,,790,writing-strategies,True,,8,8
+llm,Which text uses the word nauseous in its traditional sense?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.9295920599252,715,5,720,,,,,,,,,,,,,791,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Don't try to tell me that you only watch educational programming, Gina! I know for a fact that your sister only watches reality television.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,51.42592708580196,741,4,745,,,,,,,,,,,,,792,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+My father asked me to help around the house more. I can't believe he doesn't want me to spend time with my friends.",service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,52.61502997018397,740,5,745,,,,,,,,,,,,,793,writing-strategies,True,,8,8
+llm,Which is a run-on sentence?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.68976300954819,710,4,714,,,,,,,,,,,,,794,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Don't ever get a ride from Mia. Her brother has been driving for only six months, and he's already gotten three speeding tickets.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,51.129361847415566,741,4,745,,,,,,,,,,,,,795,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.620245134457946,714,4,718,,,,,,,,,,,,,796,writing-strategies,True,,8,8
+llm,"Which logical fallacy is used in the text?
+Joe must not have enjoyed the casserole, or he would have asked for a second serving.",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,47.3456890322268,733,4,737,,,,,,,,,,,,,797,writing-strategies,True,,8,8
+llm,"Complete the sentence so that it uses personification.
+""You might think you'll always be young,"" Mrs. Sheppard counseled, ""but time ()"".",writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,47.31192602775991,736,4,740,,,,,,,,,,,,,798,writing-strategies,True,,8,8
+llm,Which of the following contains a vague pronoun reference?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,43.3168790768832,714,4,718,,,,,,,,,,,,,799,writing-strategies,True,,8,8
+llm,don't call me bill anymore - call me bob,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.40188514813781,714,4,718,,,,,,,,,,,,,800,general,False,,8,8
+llm,how much has microsoft's stock changed over the last year,service economics,economics,economics,llama3.1:8b,36.03126388043165,715,3,718,,,,,,,,,,,,,801,general,False,,8,8
+llm,what is my card's apr rate,service economics,economics,economics,llama3.1:8b,35.90693115256727,711,3,714,,,,,,,,,,,,,802,general,False,,8,8
+llm,My top-up has been cancelled.,service economics,economics,economics,llama3.1:8b,35.7782079372555,710,3,713,,,,,,,,,,,,,803,general,False,,8,8
+llm,Can I change the amount I made on a payment that I made to the payment is correct.,service economics,economics,economics,llama3.1:8b,37.585028912872076,722,3,725,,,,,,,,,,,,,804,general,False,,8,8
+llm,Where are cards delivered to?,service economics,economics,economics,llama3.1:8b,35.90289899148047,709,3,712,,,,,,,,,,,,,805,general,False,,8,8
+llm,Can I change my information?,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,41.78771888837218,709,4,713,,,,,,,,,,,,,806,general,False,,8,8
+llm,my capital one visa was taken without permission,service economics,economics,economics,llama3.1:8b,35.584208788350224,712,3,715,,,,,,,,,,,,,807,general,False,,8,8
+llm,Can I add money with Apple Pay?,service economics,economics,economics,llama3.1:8b,35.742565989494324,711,3,714,,,,,,,,,,,,,808,general,False,,8,8
+llm,How do I link this new card?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,48.85554197244346,711,5,716,,,,,,,,,,,,,809,general,False,,8,8
+llm,"I am traveling to Germany, Will I be able to use my card there?",service economics,economics,economics,llama3.1:8b,37.78029186651111,719,3,722,,,,,,,,,,,,,810,general,False,,8,8
+llm,"If I feel someone has my card information, can I get a new card?",service economics,economics,economics,llama3.1:8b,37.43209200911224,719,3,722,,,,,,,,,,,,,811,general,False,,8,8
+llm,where were you thought of,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.36756102181971,709,4,713,,,,,,,,,,,,,812,general,False,,8,8
+llm,Are there any fees for adding money with an international card?,service economics,economics,economics,llama3.1:8b,36.31448303349316,715,3,718,,,,,,,,,,,,,813,general,False,,8,8
+llm,what is the weather,earth-science,earth-science,earth-science,llama3.1:8b,42.7118600346148,708,4,712,,,,,,,,,,,,,814,general,False,,8,8
+llm,Why did I have to pay extra because I paid with card?,service economics,economics,economics,llama3.1:8b,37.35118196345866,716,3,719,,,,,,,,,,,,,815,general,False,,8,8
+llm,create emergency phone numbers list,service -1,general,general,llama3.1:8b,42.551673017442226,709,4,713,,,,,,,,,,,,,816,general,True,,8,8
+llm,switch over to low power mode to preserve battery life,service physics,physics,physics,llama3.1:8b,36.487920908257365,714,3,717,,,,,,,,,,,,,817,general,False,,8,8
+llm,How do I get my top-up verification code?,service -1,general,general,llama3.1:8b,42.777850991114974,713,4,717,,,,,,,,,,,,,818,general,True,,8,8
+llm,How long will it take to arrive?,service economics,economics,economics,llama3.1:8b,36.02310293354094,711,3,714,,,,,,,,,,,,,819,general,False,,8,8
+llm,find my current location,service earth-science,earth-science,earth-science,llama3.1:8b,49.23463216982782,708,5,713,,,,,,,,,,,,,820,general,False,,8,8
+llm,can i call you arnold instead,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.45297003723681,712,5,717,,,,,,,,,,,,,821,general,False,,8,8
+llm,What type of ATMs accept this card?,service economics,economics,economics,llama3.1:8b,36.06304107233882,712,3,715,,,,,,,,,,,,,822,general,False,,8,8
+llm,The balance on my account wasn't updated after I made a depost.,service economics,economics,economics,llama3.1:8b,37.21020510420203,718,3,721,,,,,,,,,,,,,823,general,False,,8,8
+llm,where do i report that my card was lost,service economics,economics,economics,llama3.1:8b,35.91281897388399,713,3,716,,,,,,,,,,,,,824,general,False,,8,8
+llm,"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",service economics,economics,economics,llama3.1:8b,37.36367798410356,723,3,726,,,,,,,,,,,,,825,general,False,,8,8
+llm,What will I be charged for a physical card?,service economics,economics,economics,llama3.1:8b,36.83028812520206,713,3,716,,,,,,,,,,,,,826,general,False,,8,8
+llm,tell me what this song is called,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.90938703343272,711,4,715,,,,,,,,,,,,,827,general,False,,8,8
+llm,I lost my phone!,service -1,general,general,llama3.1:8b,42.6280340179801,708,4,712,,,,,,,,,,,,,828,general,True,,8,8
+llm,what is the weather doing now,earth-science,earth-science,earth-science,llama3.1:8b,43.0778949521482,710,4,714,,,,,,,,,,,,,829,general,False,,8,8
+llm,"$1 extra has been charged on my statement, why is that?",service economics,economics,economics,llama3.1:8b,38.03382790647447,716,3,719,,,,,,,,,,,,,830,general,False,,8,8
+llm,The exchange rates are?,service economics,economics,economics,llama3.1:8b,35.938672022894025,708,3,711,,,,,,,,,,,,,831,general,False,,8,8
+llm,play the next song please,service -1,general,general,llama3.1:8b,42.13036596775055,709,4,713,,,,,,,,,,,,,832,general,True,,8,8
+llm,"Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but ""Pending"", and that status has never changed during the last two days.",service economics,economics,economics,llama3.1:8b,47.61603707447648,756,3,759,,,,,,,,,,,,,833,general,False,,8,8
+llm,what shows are on tonight,service -1,general,general,llama3.1:8b,42.46105090714991,709,4,713,,,,,,,,,,,,,834,general,True,,8,8
+llm,How can I fix a problem where contactless isn't working?,service physics,physics,physics,llama3.1:8b,37.64641215093434,716,3,719,,,,,,,,,,,,,835,general,False,,8,8
+llm,what's the number of vacation days i have left,service -1,general,general,llama3.1:8b,42.47239092364907,714,4,718,,,,,,,,,,,,,836,general,True,,8,8
+llm,what's on my list of things to remember,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.301787994802,713,4,717,,,,,,,,,,,,,837,general,False,,8,8
+llm,"I want to add money but don't know what currencies you accept, can you tell me?",economics,economics,economics,llama3.1:8b,37.358618108555675,722,3,725,,,,,,,,,,,,,838,general,False,,8,8
+llm,What fiat currencies are supported for holding and exchange?,service economics,economics,economics,llama3.1:8b,36.943902960047126,713,3,716,,,,,,,,,,,,,839,general,False,,8,8
+llm,I'm unable to use contactless payments for purchases.,service -1,general,general,llama3.1:8b,42.636439902707934,714,4,718,,,,,,,,,,,,,840,general,True,,8,8
+llm,I couldn't get cash at the atm,service economics,economics,economics,llama3.1:8b,35.70602205581963,712,3,715,,,,,,,,,,,,,841,general,False,,8,8
+llm,Will it automatically top-up money if there isn't a lot left?,service economics,economics,economics,llama3.1:8b,37.06149198114872,717,3,720,,,,,,,,,,,,,842,general,False,,8,8
+llm,i would like to change the name on my first bankcard account,service economics,economics,economics,llama3.1:8b,36.99473291635513,717,3,720,,,,,,,,,,,,,843,general,False,,8,8
+llm,places i can use the card,service economics,economics,economics,llama3.1:8b,35.920733818784356,710,3,713,,,,,,,,,,,,,844,general,False,,8,8
+llm,I would like to know why I was charged twice for my purchase.,service economics,economics,economics,llama3.1:8b,37.48455108143389,717,3,720,,,,,,,,,,,,,845,general,False,,8,8
+llm,what is the expiration month of my card,service economics,economics,economics,llama3.1:8b,35.739575047045946,712,3,715,,,,,,,,,,,,,846,general,False,,8,8
+llm,"I sent out money, but was charged extra for transferring. Why?",service economics,economics,economics,llama3.1:8b,37.06339909695089,717,3,720,,,,,,,,,,,,,847,general,False,,8,8
+llm,when do i get my next paycheck,economics,economics,economics,llama3.1:8b,36.185747012495995,711,3,714,,,,,,,,,,,,,848,general,False,,8,8
+llm,Where do my funds come from?,service economics,economics,economics,llama3.1:8b,35.88851494714618,710,3,713,,,,,,,,,,,,,849,general,False,,8,8
+llm,How would I use my money in a different country?,service economics,economics,economics,llama3.1:8b,36.942869890481234,714,3,717,,,,,,,,,,,,,850,general,False,,8,8
+llm,"I just activated auto top-up, but it is not letting me enable it. Why not?",service economics,economics,economics,llama3.1:8b,37.56376099772751,722,3,725,,,,,,,,,,,,,851,general,False,,8,8
+llm,Is there an age minimum?,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,48.71651390567422,709,5,714,,,,,,,,,,,,,852,general,False,,8,8
+llm,"My top up hasn't worked, it's been stuck in pending for the last couple hours",service -1,general,general,llama3.1:8b,44.00695604272187,722,4,726,,,,,,,,,,,,,853,general,True,,8,8
+llm,"I see my top-up was canceled, but why?",service economics,economics,economics,llama3.1:8b,36.29324212670326,714,3,717,,,,,,,,,,,,,854,general,False,,8,8
+llm,help me to transfer my 401k,service economics,economics,economics,llama3.1:8b,36.313619930297136,712,3,715,,,,,,,,,,,,,855,general,False,,8,8
+llm,I took out a foreign currency and the exchange rate is wrong.,service economics,economics,economics,llama3.1:8b,37.36072895117104,716,3,719,,,,,,,,,,,,,856,general,False,,8,8
+llm,can i redeem my points by transferring them to someone as a gift,service economics,economics,economics,llama3.1:8b,37.460576044395566,717,3,720,,,,,,,,,,,,,857,general,False,,8,8
+llm,I understand that this is extremely late. After going over my transactions for the last couple of months I noticed a large charge that I'm sure I did not make. Is there anyway I can still dispute this?,service economics,economics,economics,llama3.1:8b,44.150425819680095,745,3,748,,,,,,,,,,,,,858,general,False,,8,8
+llm,what is the amount of blood needed to stay alive,biology,biology,biology,llama3.1:8b,28.100494062528014,714,2,716,,,,,,,,,,,,,859,general,False,,8,8
+llm,find travel alerts for haiti,service -1,general,general,llama3.1:8b,42.36363689415157,711,4,715,,,,,,,,,,,,,860,general,True,,8,8
+llm,whats the exchange rate for us dollars to british pounds,service economics,economics,economics,llama3.1:8b,36.28064994700253,715,3,718,,,,,,,,,,,,,861,general,False,,8,8
+llm,can you let me know the next open slot for me to get my oil changed,service earth-science,earth-science,earth-science,llama3.1:8b,50.59066996909678,720,5,725,,,,,,,,,,,,,862,general,False,,8,8
+llm,Has someone accessed my card there are payments I did not make that are showing up on the app.,service economics,economics,economics,llama3.1:8b,37.57445397786796,723,3,726,,,,,,,,,,,,,863,general,False,,8,8
+llm,disconnect from wifi immediately please,service -1,general,general,llama3.1:8b,42.30678686872125,709,4,713,,,,,,,,,,,,,864,general,True,,8,8
+llm,is the movie avatar culturally insensitive,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,49.17493206448853,710,5,715,,,,,,,,,,,,,865,general,False,,8,8
+llm,How do I use the app if I don't have my phone with me?,service -1,general,general,llama3.1:8b,43.86980086565018,719,4,723,,,,,,,,,,,,,866,general,True,,8,8
+llm,what's the french word you use for potato,service reference-skills,reference-skills,reference-skills,llama3.1:8b,49.709922866895795,713,5,718,,,,,,,,,,,,,867,general,False,,8,8
+llm,say again please,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,41.07953398488462,707,4,711,,,,,,,,,,,,,868,general,False,,8,8
+llm,i want to start talking to you in swedish,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.85473586060107,714,4,718,,,,,,,,,,,,,869,general,False,,8,8
+llm,what is the cheapest new car for this year,service economics,economics,economics,llama3.1:8b,36.41351708211005,713,3,716,,,,,,,,,,,,,870,general,False,,8,8
+llm,Which fiat currencies do you support?,service economics,economics,economics,llama3.1:8b,35.8618579339236,710,3,713,,,,,,,,,,,,,871,general,False,,8,8
+llm,how much vacation time do i have,service economics,economics,economics,llama3.1:8b,35.71533411741257,711,3,714,,,,,,,,,,,,,872,general,False,,8,8
+llm,HOw do I get my card back after the ATM has pulled it in?,service -1,general,general,llama3.1:8b,44.019530061632395,719,4,723,,,,,,,,,,,,,873,general,True,,8,8
+llm,i would like to make a phone call,service -1,general,general,llama3.1:8b,42.70632588304579,712,4,716,,,,,,,,,,,,,874,general,True,,8,8
+llm,i would like help moving money from one account to another,service economics,economics,economics,llama3.1:8b,35.78157816082239,715,3,718,,,,,,,,,,,,,875,general,False,,8,8
+llm,what's your home country,service -1,general,general,llama3.1:8b,42.15935803949833,709,4,713,,,,,,,,,,,,,876,general,True,,8,8
+llm,I wasn't applied the correct exchange rate for an item I bought,service economics,economics,economics,llama3.1:8b,37.276830058544874,717,3,720,,,,,,,,,,,,,877,general,False,,8,8
+llm,restart my newspaper delivery for monday,service -1,general,general,llama3.1:8b,42.27204201743007,710,4,714,,,,,,,,,,,,,878,general,True,,8,8
+llm,what are some of your hobbies,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.67198499292135,710,4,714,,,,,,,,,,,,,879,general,False,,8,8
+llm,what do i go by,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.63097187504172,709,4,713,,,,,,,,,,,,,880,general,False,,8,8
+llm,i appeciate it,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,41.85664979740977,709,4,713,,,,,,,,,,,,,881,general,False,,8,8
+llm,I am awaiting my refund,service economics,economics,economics,llama3.1:8b,35.47831880860031,709,3,712,,,,,,,,,,,,,882,general,False,,8,8
+llm,I am experiencing difficulty providing my identity.,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,48.25241304934025,711,5,716,,,,,,,,,,,,,883,general,False,,8,8
+llm,How do I retrieve my card from the machine?,service -1,general,general,llama3.1:8b,42.5260451156646,713,4,717,,,,,,,,,,,,,884,general,True,,8,8
+llm,please read me the last text message i received,service reference-skills,reference-skills,reference-skills,llama3.1:8b,49.011790892109275,713,5,718,,,,,,,,,,,,,885,general,False,,8,8
+llm,What do you charge for physical cards?,service economics,economics,economics,llama3.1:8b,36.396489944308996,711,3,714,,,,,,,,,,,,,886,general,False,,8,8
+llm,I want to know where the funds come from.,service economics,economics,economics,llama3.1:8b,37.75383299216628,713,3,716,,,,,,,,,,,,,887,general,False,,8,8
+llm,Help!  I can't find my card.,service reference-skills,reference-skills,reference-skills,llama3.1:8b,50.05470407195389,713,5,718,,,,,,,,,,,,,888,general,False,,8,8
+llm,what are the reviews like for l'auberge aubergine,service writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,50.64052692614496,718,5,723,,,,,,,,,,,,,889,general,False,,8,8
+llm,i would like for my phone to be synced with you,service -1,general,general,llama3.1:8b,43.61436399631202,715,4,719,,,,,,,,,,,,,890,general,True,,8,8
+llm,what's the minimum payment,service economics,economics,economics,llama3.1:8b,36.08473390340805,709,3,712,,,,,,,,,,,,,891,general,False,,8,8
+llm,what time is it in california,service -1,general,general,llama3.1:8b,42.77899977751076,710,4,714,,,,,,,,,,,,,892,general,True,,8,8
+llm,is socket converter required in france,service -1,general,general,llama3.1:8b,42.5641608890146,710,4,714,,,,,,,,,,,,,893,general,True,,8,8
+llm,"Hi, I have been overcharged for my payment last Saturday. I guess exchange rate was wrong.",service economics,economics,economics,llama3.1:8b,37.9486340098083,723,3,726,,,,,,,,,,,,,894,general,False,,8,8
+llm,what name do you have for me,writing-strategies,writing-strategies,writing-strategies,llama3.1:8b,42.71902912296355,711,4,715,,,,,,,,,,,,,895,general,False,,8,8
+llm,is it okay to use butter instead of margarine,service chemistry,chemistry,chemistry,llama3.1:8b,37.23905282095075,714,3,717,,,,,,,,,,,,,896,general,False,,8,8
+llm,How can I fix a problem where my virtual card is rejected?,service -1,general,general,llama3.1:8b,43.85384195484221,716,4,720,,,,,,,,,,,,,897,general,True,,8,8
+llm,can you help me understand why my card got declined,service -1,general,general,llama3.1:8b,42.883205926045775,714,4,718,,,,,,,,,,,,,898,general,True,,8,8
+llm,please let me know the status of my vacation request,service -1,general,general,llama3.1:8b,43.07553102262318,714,4,718,,,,,,,,,,,,,899,general,True,,8,8
