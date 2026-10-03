@@ -3,7 +3,7 @@ import sys
 sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 
 from dataset.config import SERVICE_SETS
-from mmlu_builder_base import MMLUBenchmarkBuilderBase
+from data.MMLU.specialists_dataset.mmlu_builder_base import MMLUBenchmarkBuilderBase
 
 
 class MMLUDevBuilder(MMLUBenchmarkBuilderBase):

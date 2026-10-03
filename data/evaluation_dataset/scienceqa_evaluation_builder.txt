@@ -1,0 +1,28 @@
+Saved: ../evaluation_dataset/scienceqa_test_eval_service_3.csv
+expected_service
+biology      100
+chemistry    100
+physics      100
+general      100
+Name: count, dtype: int64
+Saved: ../evaluation_dataset/scienceqa_test_eval_service_5.csv
+expected_service
+biology          100
+chemistry        100
+earth-science    100
+economics        100
+physics          100
+general          100
+Name: count, dtype: int64
+Saved: ../evaluation_dataset/scienceqa_test_eval_service_8.csv
+expected_service
+biology                100
+chemistry              100
+earth-science          100
+economics              100
+figurative-language    100
+physics                100
+reference-skills       100
+writing-strategies     100
+general                100
+Name: count, dtype: int64

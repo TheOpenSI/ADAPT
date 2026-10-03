@@ -8,7 +8,7 @@ sys.path.insert(
 
 import pandas as pd
 
-from data.specialists_dataset.mmlu_builder_base import MMLUBenchmarkBuilderBase
+from data.MMLU.specialists_dataset.mmlu_builder_base import MMLUBenchmarkBuilderBase
 from data.dataset.config import SERVICE_SETS
 
 class GetMMLUValidationQuestions(MMLUBenchmarkBuilderBase):

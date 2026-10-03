@@ -11,7 +11,7 @@ PROJECT_ROOT = os.path.abspath(
 
 sys.path.append(PROJECT_ROOT)
 
-from data.specialists_dataset.mmlu_builder_base import MMLUBenchmarkBuilderBase
+from data.MMLU.specialists_dataset.mmlu_builder_base import MMLUBenchmarkBuilderBase
 from data.dataset.config import SERVICE_SETS
 
 class MMLUValidationBuilder(

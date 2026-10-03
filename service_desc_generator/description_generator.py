@@ -2,12 +2,18 @@ import json
 import os
 import sys
 
-sys.path.append(
-    f"{os.path.dirname(os.path.abspath(__file__))}/.."
-)
+project_root = os.path.abspath(
+        os.path.join(
+            os.path.dirname(__file__),
+            ".."
+        )
+    )
+
+sys.path.insert(0, project_root)
+
 import ollama
 
-from data.dataset.config import SERVICE_SETS
+from data.ScienceQA.specialists_dataset.scienceqa_config import SCIENCEQA_SERVICE_SETS
 
 
 class ServiceDescriptionGenerator:
@@ -15,14 +21,14 @@ class ServiceDescriptionGenerator:
     def __init__(
         self,
         service_count,
-        concept_path,
+        general_concept_path,
         core_concept_path,
         output_path,
         model,
         verbose=True,
     ):
         self.service_count = service_count
-        self.concept_path = concept_path
+        self.general_concept_path = general_concept_path
         self.core_concept_path = core_concept_path
         self.output_path = output_path
 
@@ -34,7 +40,7 @@ class ServiceDescriptionGenerator:
         )
 
         self.extracted_data = self._load_json(
-            self.concept_path
+            self.general_concept_path
         )
 
         self.core_data = self._load_json(
@@ -167,7 +173,7 @@ Return ONLY valid JSON in this format:
 
     def generate_all_specialist_descriptions(self):
 
-        specialists = SERVICE_SETS[self.service_count]
+        specialists = SCIENCEQA_SERVICE_SETS[self.service_count]
 
         results = {}
         total = len(specialists)
@@ -218,13 +224,22 @@ Return ONLY valid JSON in this format:
 
 if __name__ == "__main__":
     generator = ServiceDescriptionGenerator(
-        service_count=14,
+        service_count=8,
         model="qwen3:32b",
 
-        concept_path="concept_extraction.json",
-        core_concept_path="core_concepts.json",
-        output_path="service_descriptions_14.json",
-)
+        general_concept_path=(
+            "data/ScienceQA/descriptions/"
+            "general_concepts_extraction.json"
+        ),
+        core_concept_path=(
+            "data/ScienceQA/descriptions/"
+            "core_concepts.json"
+        ),
+        output_path=(
+            "data/ScienceQA/descriptions/"
+            "service_descriptions_8.json"
+        ),
+    )
     # generator.generate_all_specialist_descriptions()
 
 

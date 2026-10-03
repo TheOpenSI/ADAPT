@@ -1,0 +1,755 @@
+routing_method,query,raw_response,predicted_label,top_candidate,model_name,latency_ms,prompt_tokens,completion_tokens,total_tokens,max_score,margin,margin_ratio,normalized_margin,mean_score,std_score,top_zscore,second_top_zscore,zscore_margin,scores,zscores,confidence_threshold,query_id,expected_service,is_correct,error,specialist_service_count,total_service_count
+llm,"Based on this information, what is Queenie's phenotype for the cheek color trait?",service biology,biology,biology,qwen2.5:14b,316.9375970028341,534,3,537,,,,,,,,,,,,,0,biology,True,,5,5
+llm,Which animal's skin is better adapted as a warning sign to ward off predators?,service biology,biology,biology,qwen2.5:14b,64.50530095025897,533,3,536,,,,,,,,,,,,,1,biology,True,,5,5
+llm,Select the reptile.,service biology,biology,biology,qwen2.5:14b,60.248533030971885,522,3,525,,,,,,,,,,,,,2,biology,True,,5,5
+llm,Select the organism in the same genus as the Japanese honeysuckle.,service biology,biology,biology,qwen2.5:14b,59.9141139537096,531,3,534,,,,,,,,,,,,,3,biology,True,,5,5
+llm,Which organ takes in oxygen from the air?,service biology,biology,biology,qwen2.5:14b,59.44178905338049,526,3,529,,,,,,,,,,,,,4,biology,True,,5,5
+llm,"Based on this information, what is Nutmeg's phenotype for the fur color trait?",service biology,biology,biology,qwen2.5:14b,62.23145802505314,534,3,537,,,,,,,,,,,,,5,biology,True,,5,5
+llm,Which animal's skin is better adapted as a warning sign to ward off predators?,service biology,biology,biology,qwen2.5:14b,62.72795703262091,533,3,536,,,,,,,,,,,,,6,biology,True,,5,5
+llm,"Based on this information, what is Sugar's genotype for the body size gene?",service biology,biology,biology,qwen2.5:14b,63.75984684564173,533,3,536,,,,,,,,,,,,,7,biology,True,,5,5
+llm,Which of these organisms contains matter that was once part of the bilberry?,service biology,biology,biology,qwen2.5:14b,63.1862198933959,532,3,535,,,,,,,,,,,,,8,biology,True,,5,5
+llm,Select the mammal below.,service biology,biology,biology,qwen2.5:14b,59.580847853794694,523,3,526,,,,,,,,,,,,,9,biology,True,,5,5
+llm,What information supports the conclusion that John inherited this trait?,service biology,biology,biology,qwen2.5:14b,60.523904860019684,528,3,531,,,,,,,,,,,,,10,biology,True,,5,5
+llm,"Based on this information, what is this scarlet rosemallow plant's phenotype for the flower color trait?",service biology,biology,biology,qwen2.5:14b,65.85779995657504,539,3,542,,,,,,,,,,,,,11,biology,True,,5,5
+llm,"Based on this information, what is Elijah's phenotype for the Thomsen disease trait?",service biology,biology,biology,qwen2.5:14b,59.710382018238306,535,3,538,,,,,,,,,,,,,12,biology,True,,5,5
+llm,"In this food web, which organism contains matter that eventually moves to the bat star?",service biology,biology,biology,qwen2.5:14b,62.48288392089307,534,3,537,,,,,,,,,,,,,13,biology,True,,5,5
+llm,Which statement describes the Yasuni National Park ecosystem?,service biology,biology,biology,qwen2.5:14b,60.02473598346114,527,3,530,,,,,,,,,,,,,14,biology,True,,5,5
+llm,What information supports the conclusion that Judy inherited this trait?,service biology,biology,biology,qwen2.5:14b,59.50012104585767,528,3,531,,,,,,,,,,,,,15,biology,True,,5,5
+llm,Which of the following organisms is the producer in this food web?,service biology,biology,biology,qwen2.5:14b,62.97453586012125,530,3,533,,,,,,,,,,,,,16,biology,True,,5,5
+llm,"Is the following trait inherited or acquired?
+Dave can fly an airplane.",service biology,biology,biology,qwen2.5:14b,62.419879948720336,531,3,534,,,,,,,,,,,,,17,biology,True,,5,5
+llm,"Is the following trait inherited or acquired?
+Jayce can play the viola.",service biology,biology,biology,qwen2.5:14b,59.466150123625994,533,3,536,,,,,,,,,,,,,18,biology,True,,5,5
+llm,What is this huntsman spider's scientific name?,service biology,biology,biology,qwen2.5:14b,71.0452850908041,527,3,530,,,,,,,,,,,,,19,biology,True,,5,5
+llm,Select the bird below.,service biology,biology,biology,qwen2.5:14b,59.273476945236325,522,3,525,,,,,,,,,,,,,20,biology,True,,5,5
+llm,"Based on this information, what is Chip's genotype for the fur texture gene?",service biology,biology,biology,qwen2.5:14b,63.50071891210973,533,3,536,,,,,,,,,,,,,21,biology,True,,5,5
+llm,"Is the following trait inherited or acquired?
+Sandra is good at knitting hats.",service biology,biology,biology,qwen2.5:14b,62.92706914246082,533,3,536,,,,,,,,,,,,,22,biology,True,,5,5
+llm,Select the fish below.,service biology,biology,biology,qwen2.5:14b,59.24902088008821,522,3,525,,,,,,,,,,,,,23,biology,True,,5,5
+llm,"Is the following trait inherited or acquired?
+Pamela knows how to type.",service biology,biology,biology,qwen2.5:14b,62.76006205007434,533,3,536,,,,,,,,,,,,,24,biology,True,,5,5
+llm,Which statement describes the Cape Breton Highlands National Park ecosystem?,service biology,biology,biology,qwen2.5:14b,60.324129881337285,529,3,532,,,,,,,,,,,,,25,biology,True,,5,5
+llm,Which animal's feet are also adapted for swimming?,service biology,biology,biology,qwen2.5:14b,59.89920417778194,527,3,530,,,,,,,,,,,,,26,biology,True,,5,5
+llm,What is the probability that a koi fish produced by this cross will have Bekko patterning?,service biology,biology,biology,qwen2.5:14b,63.4731980971992,537,3,540,,,,,,,,,,,,,27,biology,True,,5,5
+llm,"Is the following trait inherited or acquired?
+Brenda has five toes on each foot.",service biology,biology,biology,qwen2.5:14b,62.19038390554488,535,3,538,,,,,,,,,,,,,28,biology,True,,5,5
+llm,Which animal's body is better adapted for protection against a predator with sharp teeth?,service biology,biology,biology,qwen2.5:14b,62.34403094276786,533,3,536,,,,,,,,,,,,,29,biology,True,,5,5
+llm,What is the probability that a horse produced by this cross will have a reddish-brown coat?,service biology,biology,biology,qwen2.5:14b,65.39858411997557,537,3,540,,,,,,,,,,,,,30,biology,True,,5,5
+llm,"Which bird's beak is also adapted to crack large, hard nuts?",service biology,biology,biology,qwen2.5:14b,62.315777875483036,532,3,535,,,,,,,,,,,,,31,biology,True,,5,5
+llm,What information supports the conclusion that Caleb inherited this trait?,service biology,biology,biology,qwen2.5:14b,59.35531319119036,528,3,531,,,,,,,,,,,,,32,biology,True,,5,5
+llm,Select the fish below.,service biology,biology,biology,qwen2.5:14b,58.930238941684365,522,3,525,,,,,,,,,,,,,33,biology,True,,5,5
+llm,"In this food chain, the yucca moth is a consumer. Why?",service biology,biology,biology,qwen2.5:14b,62.197551131248474,533,3,536,,,,,,,,,,,,,34,biology,True,,5,5
+llm,What is the probability that an American curl cat produced by this cross will be homozygous dominant for the ear type gene?,service biology,biology,biology,qwen2.5:14b,65.56810298934579,543,3,546,,,,,,,,,,,,,35,biology,True,,5,5
+llm,Which better describes the tide pool ecosystems in Montaña De Oro State Park?,service earth-science,earth-science,earth-science,qwen2.5:14b,86.09171095304191,532,5,537,,,,,,,,,,,,,36,biology,False,,5,5
+llm,What is the expected ratio of offspring with mutated antennae to offspring with normal antennae? Choose the most likely ratio.,service biology,biology,biology,qwen2.5:14b,66.1875291261822,541,3,544,,,,,,,,,,,,,37,biology,True,,5,5
+llm,"Complete the sentence.
+The mutation in the () affected the structure and function of the ().",service biology,biology,biology,qwen2.5:14b,79.07874789088964,535,3,538,,,,,,,,,,,,,38,biology,True,,5,5
+llm,"In this food chain, the brown trout is a secondary consumer. Why?",service biology,biology,biology,qwen2.5:14b,63.452224945649505,532,3,535,,,,,,,,,,,,,39,biology,True,,5,5
+llm,Select the mammal below.,service biology,biology,biology,qwen2.5:14b,60.63132896088064,523,3,526,,,,,,,,,,,,,40,biology,True,,5,5
+llm,"Based on this information, what is Angel's genotype for the leg color gene?",service biology,biology,biology,qwen2.5:14b,63.23727406561375,533,3,536,,,,,,,,,,,,,41,biology,True,,5,5
+llm,Which is this organism's common name?,service biology,biology,biology,qwen2.5:14b,59.56614203751087,525,3,528,,,,,,,,,,,,,42,biology,True,,5,5
+llm,"Based on this information, what is Jupiter's phenotype for the coat pattern trait?",service -1,general,general,qwen2.5:14b,74.34597611427307,533,4,537,,,,,,,,,,,,,43,biology,False,,5,5
+llm,"Based on this information, what is this pea plant's phenotype for the pea color trait?",service biology,biology,biology,qwen2.5:14b,60.55440893396735,535,3,538,,,,,,,,,,,,,44,biology,True,,5,5
+llm,Which is this organism's common name?,service biology,biology,biology,qwen2.5:14b,60.21271413192153,525,3,528,,,,,,,,,,,,,45,biology,True,,5,5
+llm,What information supports the conclusion that Danny inherited this trait?,service biology,biology,biology,qwen2.5:14b,59.94199286215007,528,3,531,,,,,,,,,,,,,46,biology,True,,5,5
+llm,"Based on this information, what is Blaze's phenotype for the horns trait?",service biology,biology,biology,qwen2.5:14b,65.03659300506115,532,3,535,,,,,,,,,,,,,47,biology,True,,5,5
+llm,Is Rhizophora mangle made up of many cells?,service biology,biology,biology,qwen2.5:14b,59.73270395770669,529,3,532,,,,,,,,,,,,,48,biology,True,,5,5
+llm,Which animal's feet are also adapted to walk on snow and ice?,service biology,biology,biology,qwen2.5:14b,63.12152720056474,531,3,534,,,,,,,,,,,,,49,biology,True,,5,5
+llm,"Based on this information, what is Cleo's phenotype for the fur color trait?",service biology,biology,biology,qwen2.5:14b,62.26371414959431,534,3,537,,,,,,,,,,,,,50,biology,True,,5,5
+llm,Select the amphibian below.,service biology,biology,biology,qwen2.5:14b,59.5590528100729,523,3,526,,,,,,,,,,,,,51,biology,True,,5,5
+llm,What information supports the conclusion that Betty acquired this trait?,service biology,biology,biology,qwen2.5:14b,59.43913199007511,528,3,531,,,,,,,,,,,,,52,biology,True,,5,5
+llm,Select the organism in the same genus as the spot-billed pelican.,service biology,biology,biology,qwen2.5:14b,62.75448389351368,532,3,535,,,,,,,,,,,,,53,biology,True,,5,5
+llm,Select the bird below.,service biology,biology,biology,qwen2.5:14b,57.421216974034905,522,3,525,,,,,,,,,,,,,54,biology,True,,5,5
+llm,Which is this organism's scientific name?,service biology,biology,biology,qwen2.5:14b,60.0866349413991,525,3,528,,,,,,,,,,,,,55,biology,True,,5,5
+llm,Which type of relationship is formed when a hawk moth visits a petunia flower?,service biology,biology,biology,qwen2.5:14b,62.5650689471513,534,3,537,,,,,,,,,,,,,56,biology,True,,5,5
+llm,Select the organism in the same species as the Chinese mitten crab.,service biology,biology,biology,qwen2.5:14b,62.68969411030412,531,3,534,,,,,,,,,,,,,57,biology,True,,5,5
+llm,Which of these organisms contains matter that was once part of the bear sedge?,service biology,biology,biology,qwen2.5:14b,62.08472605794668,533,3,536,,,,,,,,,,,,,58,biology,True,,5,5
+llm,Use the evidence in the text to select the photosynthetic organism.,service biology,biology,biology,qwen2.5:14b,64.82292292639613,531,3,534,,,,,,,,,,,,,59,biology,True,,5,5
+llm,Select the vertebrate.,service biology,biology,biology,qwen2.5:14b,60.280903009697795,522,3,525,,,,,,,,,,,,,60,biology,True,,5,5
+llm,Select the animal that does not have a backbone.,service biology,biology,biology,qwen2.5:14b,60.02346007153392,527,3,530,,,,,,,,,,,,,61,biology,True,,5,5
+llm,"Based on this information, what is this fruit fly's phenotype for the eye color trait?",service biology,biology,biology,qwen2.5:14b,62.94768420048058,535,3,538,,,,,,,,,,,,,62,biology,True,,5,5
+llm,"Based on this information, what is this plant's phenotype for the leaf texture trait?",service biology,biology,biology,qwen2.5:14b,61.27414898946881,534,3,537,,,,,,,,,,,,,63,biology,True,,5,5
+llm,"Based on this information, what is Lady's phenotype for the wool color trait?",service biology,biology,biology,qwen2.5:14b,61.38352816924453,533,3,536,,,,,,,,,,,,,64,biology,True,,5,5
+llm,What information supports the conclusion that Martha acquired this trait?,service biology,biology,biology,qwen2.5:14b,60.95942901447415,528,3,531,,,,,,,,,,,,,65,biology,True,,5,5
+llm,Select the vertebrate.,service biology,biology,biology,qwen2.5:14b,60.12650509364903,522,3,525,,,,,,,,,,,,,66,biology,True,,5,5
+llm,Select the one true statement.,service -1,general,general,qwen2.5:14b,68.70632292702794,523,4,527,,,,,,,,,,,,,67,biology,False,,5,5
+llm,What is the expected ratio of offspring that have horns to offspring that do not have horns? Choose the most likely ratio.,service biology,biology,biology,qwen2.5:14b,65.86992600932717,541,3,544,,,,,,,,,,,,,68,biology,True,,5,5
+llm,What is the probability that a Syrian hamster produced by this cross will have long fur?,service biology,biology,biology,qwen2.5:14b,61.9155450258404,535,3,538,,,,,,,,,,,,,69,biology,True,,5,5
+llm,Select the organism in the same species as the cocoi heron.,service biology,biology,biology,qwen2.5:14b,63.85114905424416,531,3,534,,,,,,,,,,,,,70,biology,True,,5,5
+llm,Select the mammal below.,service biology,biology,biology,qwen2.5:14b,57.51239391975105,523,3,526,,,,,,,,,,,,,71,biology,True,,5,5
+llm,Select the vertebrate.,service biology,biology,biology,qwen2.5:14b,56.734971003606915,522,3,525,,,,,,,,,,,,,72,biology,True,,5,5
+llm,Which bird's beak is also adapted to catch insects?,service biology,biology,biology,qwen2.5:14b,59.6073588822037,529,3,532,,,,,,,,,,,,,73,biology,True,,5,5
+llm,What information supports the conclusion that Katy inherited this trait?,service biology,biology,biology,qwen2.5:14b,59.76395797915757,528,3,531,,,,,,,,,,,,,74,biology,True,,5,5
+llm,What information supports the conclusion that Dominic inherited this trait?,service biology,biology,biology,qwen2.5:14b,59.05920313671231,528,3,531,,,,,,,,,,,,,75,biology,True,,5,5
+llm,What information supports the conclusion that Gabby acquired this trait?,service biology,biology,biology,qwen2.5:14b,59.368118876591325,529,3,532,,,,,,,,,,,,,76,biology,True,,5,5
+llm,Select the one animal that has all of the placental mammal traits listed above.,service biology,biology,biology,qwen2.5:14b,63.254324020817876,534,3,537,,,,,,,,,,,,,77,biology,True,,5,5
+llm,"Based on this information, what is Daffodil's phenotype for the horns trait?",service biology,biology,biology,qwen2.5:14b,62.6454830635339,535,3,538,,,,,,,,,,,,,78,biology,True,,5,5
+llm,"Based on this information, what is Remy's phenotype for the body hair trait?",service biology,biology,biology,qwen2.5:14b,58.85055800899863,534,3,537,,,,,,,,,,,,,79,biology,True,,5,5
+llm,Which animal is also adapted for climbing trees?,service biology,biology,biology,qwen2.5:14b,59.04893786646426,526,3,529,,,,,,,,,,,,,80,biology,True,,5,5
+llm,Which animal is also adapted for climbing trees?,service biology,biology,biology,qwen2.5:14b,42.080209124833345,526,3,529,,,,,,,,,,,,,81,biology,True,,5,5
+llm,"Is the following trait inherited or acquired?
+Emmy is good at knitting hats.",service biology,biology,biology,qwen2.5:14b,62.390947015956044,533,3,536,,,,,,,,,,,,,82,biology,True,,5,5
+llm,Select the mammal below.,service biology,biology,biology,qwen2.5:14b,59.247517958283424,523,3,526,,,,,,,,,,,,,83,biology,True,,5,5
+llm,Select the organism in the same species as the marbled salamander.,service biology,biology,biology,qwen2.5:14b,63.84973903186619,532,3,535,,,,,,,,,,,,,84,biology,True,,5,5
+llm,What is the expected ratio of offspring with vestigial wings to offspring with normal wings? Choose the most likely ratio.,service biology,biology,biology,qwen2.5:14b,66.31177011877298,541,3,544,,,,,,,,,,,,,85,biology,True,,5,5
+llm,Select the one animal that has all of the mammal traits listed above.,service biology,biology,biology,qwen2.5:14b,63.84251685813069,532,3,535,,,,,,,,,,,,,86,biology,True,,5,5
+llm,Select the organism in the same species as the comet moth.,service biology,biology,biology,qwen2.5:14b,59.55581506714225,529,3,532,,,,,,,,,,,,,87,biology,True,,5,5
+llm,What is the expected ratio of offspring with a reddish-brown coat to offspring with a black coat? Choose the most likely ratio.,service biology,biology,biology,qwen2.5:14b,66.2869221996516,544,3,547,,,,,,,,,,,,,88,biology,True,,5,5
+llm,Can Asimina triloba cells make their own food?,service biology,biology,biology,qwen2.5:14b,63.52357682771981,530,3,533,,,,,,,,,,,,,89,biology,True,,5,5
+llm,"Is the following trait inherited or acquired?
+Megan has a scar on her right leg.",service biology,biology,biology,qwen2.5:14b,65.01184799708426,535,3,538,,,,,,,,,,,,,90,biology,True,,5,5
+llm,"Based on this information, what is Poseidon's phenotype for the iridescent scales trait?",service biology,biology,biology,qwen2.5:14b,63.41198901645839,536,3,539,,,,,,,,,,,,,91,biology,True,,5,5
+llm,What can a fern spore grow into?,service biology,biology,biology,qwen2.5:14b,60.47716201283038,526,3,529,,,,,,,,,,,,,92,biology,True,,5,5
+llm,Select the organism in the same species as the slender-spined porcupinefish.,service biology,biology,biology,qwen2.5:14b,62.354329973459244,534,3,537,,,,,,,,,,,,,93,biology,True,,5,5
+llm,Sperm cells are found inside pollen. What kind of cells are sperm?,service biology,biology,biology,qwen2.5:14b,65.31171291135252,532,3,535,,,,,,,,,,,,,94,biology,True,,5,5
+llm,Select the organism in the same species as the reticulated python.,service biology,biology,biology,qwen2.5:14b,63.505674013867974,531,3,534,,,,,,,,,,,,,95,biology,True,,5,5
+llm,Select the bird below.,service biology,biology,biology,qwen2.5:14b,58.23924206197262,522,3,525,,,,,,,,,,,,,96,biology,True,,5,5
+llm,Which statement describes the Catoctin Mountain Park ecosystem?,service biology,biology,biology,qwen2.5:14b,59.6578698605299,529,3,532,,,,,,,,,,,,,97,biology,True,,5,5
+llm,Select the one animal that has all of the reptile traits listed above.,service biology,biology,biology,qwen2.5:14b,62.268523033708334,532,3,535,,,,,,,,,,,,,98,biology,True,,5,5
+llm,What is the expected ratio of offspring with a gray body to offspring with a golden body? Choose the most likely ratio.,service biology,biology,biology,qwen2.5:14b,65.97516709007323,541,3,544,,,,,,,,,,,,,99,biology,True,,5,5
+llm,Which solution has a higher concentration of green particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,60.716639971360564,527,3,530,,,,,,,,,,,,,100,chemistry,True,,5,5
+llm,"Complete the sentence.
+In this chemical reaction, nitrous oxide is a ().",service chemistry,chemistry,chemistry,qwen2.5:14b,62.739351065829396,533,3,536,,,,,,,,,,,,,101,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+rust forming on a metal gate
+saliva breaking down a piece of bread",service chemistry,chemistry,chemistry,qwen2.5:14b,67.08865892142057,542,3,545,,,,,,,,,,,,,102,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+carving a piece of wood
+sewing an apron",service chemistry,chemistry,chemistry,qwen2.5:14b,62.15310702100396,539,3,542,,,,,,,,,,,,,103,chemistry,True,,5,5
+llm,Which solution has a higher concentration of yellow particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,59.669826878234744,527,3,530,,,,,,,,,,,,,104,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+cooking an egg
+a penny tarnishing",service chemistry,chemistry,chemistry,qwen2.5:14b,62.45262105949223,536,3,539,,,,,,,,,,,,,105,chemistry,True,,5,5
+llm,"Complete the sentence.
+Bees making honey from nectar is a ().",service biology,biology,biology,qwen2.5:14b,63.11184004880488,532,3,535,,,,,,,,,,,,,106,chemistry,False,,5,5
+llm,"Complete the statement.
+Silver is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,59.01565495878458,525,3,528,,,,,,,,,,,,,107,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+breaking a ceramic plate
+water vapor condensing on a bathroom mirror",service physics,physics,physics,qwen2.5:14b,66.93619000725448,540,3,543,,,,,,,,,,,,,108,chemistry,False,,5,5
+llm,"What do these two changes have in common?
+plants making food from sunlight, air, and water
+a penny tarnishing",service chemistry,chemistry,chemistry,qwen2.5:14b,63.362961169332266,542,3,545,,,,,,,,,,,,,109,chemistry,True,,5,5
+llm,"Complete the statement.
+Gallium arsenide is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,60.115803964436054,529,3,532,,,,,,,,,,,,,110,chemistry,True,,5,5
+llm,Which solution has a higher concentration of green particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,60.922169126570225,527,3,530,,,,,,,,,,,,,111,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+water evaporating from a puddle
+melting glass",service chemistry,chemistry,chemistry,qwen2.5:14b,66.6006279643625,538,3,541,,,,,,,,,,,,,112,chemistry,True,,5,5
+llm,"Complete the statement.
+Cyclooctasulfur is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,63.099171966314316,531,3,534,,,,,,,,,,,,,113,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+butter melting on a hot day
+cooking an egg",service chemistry,chemistry,chemistry,qwen2.5:14b,65.91746816411614,539,3,542,,,,,,,,,,,,,114,chemistry,True,,5,5
+llm,"Complete the text to describe the diagram.
+Solute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.",service chemistry,chemistry,chemistry,qwen2.5:14b,75.63122897408903,563,3,566,,,,,,,,,,,,,115,chemistry,True,,5,5
+llm,Which solution has a higher concentration of purple particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,60.94445288181305,527,3,530,,,,,,,,,,,,,116,chemistry,True,,5,5
+llm,"Complete the sentence.
+Grilling a hamburger is a ().",service economics,economics,economics,qwen2.5:14b,59.60564990527928,529,3,532,,,,,,,,,,,,,117,chemistry,False,,5,5
+llm,"Complete the sentence.
+Leaves changing color in the fall is a ().",service biology,biology,biology,qwen2.5:14b,60.00463804230094,532,3,535,,,,,,,,,,,,,118,chemistry,False,,5,5
+llm,"Complete the text to describe the diagram.
+Solute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.",service chemistry,chemistry,chemistry,qwen2.5:14b,74.59027995355427,563,3,566,,,,,,,,,,,,,119,chemistry,True,,5,5
+llm,Select the chemical formula for this molecule.,service chemistry,chemistry,chemistry,qwen2.5:14b,59.18208695948124,525,3,528,,,,,,,,,,,,,120,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+water evaporating from a lake
+stretching a rubber band",service physics,physics,physics,qwen2.5:14b,66.23927806504071,539,3,542,,,,,,,,,,,,,121,chemistry,False,,5,5
+llm,"What do these two changes have in common?
+a piece of avocado turning brown
+boiling sugar to make caramel",service chemistry,chemistry,chemistry,qwen2.5:14b,63.169597182422876,540,3,543,,,,,,,,,,,,,122,chemistry,True,,5,5
+llm,Which solution has a higher concentration of purple particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,59.412030037492514,527,3,530,,,,,,,,,,,,,123,chemistry,True,,5,5
+llm,"Complete the text to describe the diagram.
+Solute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.",service chemistry,chemistry,chemistry,qwen2.5:14b,74.83217096887529,563,3,566,,,,,,,,,,,,,124,chemistry,True,,5,5
+llm,Which solution has a higher concentration of blue particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,59.232495026662946,527,3,530,,,,,,,,,,,,,125,chemistry,True,,5,5
+llm,Which solution has a higher concentration of yellow particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,57.25515214726329,527,3,530,,,,,,,,,,,,,126,chemistry,True,,5,5
+llm,"Complete the sentence.
+Water freezing into ice is a ().",service physics,physics,physics,qwen2.5:14b,60.246023116633296,529,3,532,,,,,,,,,,,,,127,chemistry,False,,5,5
+llm,Which solution has a higher concentration of pink particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,61.29217799752951,527,3,530,,,,,,,,,,,,,128,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+baking an apple pie
+using polish to remove tarnish from a silver spoon",service chemistry,chemistry,chemistry,qwen2.5:14b,65.1798308826983,543,3,546,,,,,,,,,,,,,129,chemistry,True,,5,5
+llm,"Complete the statement.
+Propane is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,59.22922398895025,526,3,529,,,,,,,,,,,,,130,chemistry,True,,5,5
+llm,"Complete the sentence.
+Snowflakes forming in a cloud is a ().",service earth-science,earth-science,earth-science,qwen2.5:14b,85.10218420997262,532,5,537,,,,,,,,,,,,,131,chemistry,False,,5,5
+llm,"Complete the sentence.
+Breaking a plate is a ().",service physics,physics,physics,qwen2.5:14b,60.852348105981946,528,3,531,,,,,,,,,,,,,132,chemistry,False,,5,5
+llm,"What do these two changes have in common?
+photosynthesis
+a penny tarnishing",service chemistry,chemistry,chemistry,qwen2.5:14b,63.17998981103301,534,3,537,,,,,,,,,,,,,133,chemistry,True,,5,5
+llm,"Complete the statement.
+Sodium iodide is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,60.594348004087806,528,3,531,,,,,,,,,,,,,134,chemistry,True,,5,5
+llm,Which solution has a higher concentration of pink particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,59.23376698046923,527,3,530,,,,,,,,,,,,,135,chemistry,True,,5,5
+llm,"Complete the statement.
+Potassium chloride is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,60.20820583216846,527,3,530,,,,,,,,,,,,,136,chemistry,True,,5,5
+llm,"Complete the sentence.
+Cellular respiration is a ().",service biology,biology,biology,qwen2.5:14b,60.326508013531566,529,3,532,,,,,,,,,,,,,137,chemistry,False,,5,5
+llm,"Complete the sentence.
+A dinosaur bone turning into rock over millions of years is a ().",service earth-science,earth-science,earth-science,qwen2.5:14b,86.36440709233284,535,5,540,,,,,,,,,,,,,138,chemistry,False,,5,5
+llm,"Complete the statement.
+Phosphine is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,61.068539042025805,527,3,530,,,,,,,,,,,,,139,chemistry,True,,5,5
+llm,Look at the models of molecules below. Select the elementary substance.,service chemistry,chemistry,chemistry,qwen2.5:14b,64.54276386648417,530,3,533,,,,,,,,,,,,,140,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+a puddle freezing into ice on a cold night
+beating an egg",service physics,physics,physics,qwen2.5:14b,66.2284439895302,542,3,545,,,,,,,,,,,,,141,chemistry,False,,5,5
+llm,"What do these two changes have in common?
+water freezing into ice
+bending a paper clip",service physics,physics,physics,qwen2.5:14b,59.72932279109955,537,3,540,,,,,,,,,,,,,142,chemistry,False,,5,5
+llm,"Complete the statement.
+Magnesium is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,59.44298906251788,526,3,529,,,,,,,,,,,,,143,chemistry,True,,5,5
+llm,Which solution has a higher concentration of blue particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,60.58471486903727,527,3,530,,,,,,,,,,,,,144,chemistry,True,,5,5
+llm,"Complete the statement.
+Silicon carbide is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,59.05030597932637,528,3,531,,,,,,,,,,,,,145,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+snails growing shells
+photosynthesis",service biology,biology,biology,qwen2.5:14b,62.46224604547024,534,3,537,,,,,,,,,,,,,146,chemistry,False,,5,5
+llm,"Complete the sentence.
+Dry ice sublimating and becoming a gas is a ().",service chemistry,chemistry,chemistry,qwen2.5:14b,62.08350998349488,534,3,537,,,,,,,,,,,,,147,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+butter melting on a hot day
+mixing sand and water",service chemistry,chemistry,chemistry,qwen2.5:14b,65.31571503728628,540,3,543,,,,,,,,,,,,,148,chemistry,True,,5,5
+llm,Which solution has a higher concentration of blue particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,59.20931580476463,527,3,530,,,,,,,,,,,,,149,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+bleaching clothes
+a piece of apple turning brown",service chemistry,chemistry,chemistry,qwen2.5:14b,62.89107189513743,537,3,540,,,,,,,,,,,,,150,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+ice melting in a cup
+dew appearing on grass in the morning",service physics,physics,physics,qwen2.5:14b,62.44962685741484,541,3,544,,,,,,,,,,,,,151,chemistry,False,,5,5
+llm,"What do these two changes have in common?
+a copper statue turning green
+firing a clay pot in a hot kiln",service chemistry,chemistry,chemistry,qwen2.5:14b,65.02875406295061,543,3,546,,,,,,,,,,,,,152,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+a slice of banana turning brown
+chicken cooking in an oven",service chemistry,chemistry,chemistry,qwen2.5:14b,64.31988789699972,540,3,543,,,,,,,,,,,,,153,chemistry,True,,5,5
+llm,Select the elementary substance.,service chemistry,chemistry,chemistry,qwen2.5:14b,59.71657601185143,522,3,525,,,,,,,,,,,,,154,chemistry,True,,5,5
+llm,"Complete the statement.
+Potassium hydroxide is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,58.88176499865949,529,3,532,,,,,,,,,,,,,155,chemistry,True,,5,5
+llm,"Complete the statement.
+Hydrazine is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,59.12465788424015,528,3,531,,,,,,,,,,,,,156,chemistry,True,,5,5
+llm,"Complete the sentence.
+Baking cookies is a ().",service chemistry,chemistry,chemistry,qwen2.5:14b,59.25856321118772,528,3,531,,,,,,,,,,,,,157,chemistry,True,,5,5
+llm,"Complete the statement.
+Hydrogen peroxide is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,60.25776406750083,529,3,532,,,,,,,,,,,,,158,chemistry,True,,5,5
+llm,Which solution has a higher concentration of pink particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,59.39282104372978,527,3,530,,,,,,,,,,,,,159,chemistry,True,,5,5
+llm,Which solution has a higher concentration of green particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,57.537916116416454,527,3,530,,,,,,,,,,,,,160,chemistry,True,,5,5
+llm,"Complete the statement.
+Beryllium is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,60.36764592863619,528,3,531,,,,,,,,,,,,,161,chemistry,True,,5,5
+llm,"Complete the statement.
+Platinum is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,59.963376028463244,526,3,529,,,,,,,,,,,,,162,chemistry,True,,5,5
+llm,"Complete the sentence.
+Cutting your fingernails is a ().",service biology,biology,biology,qwen2.5:14b,60.38603186607361,531,3,534,,,,,,,,,,,,,163,chemistry,False,,5,5
+llm,"What do these two changes have in common?
+sediment settling to the bottom of a muddy puddle
+shaking up salad dressing",service chemistry,chemistry,chemistry,qwen2.5:14b,66.18203106336296,544,3,547,,,,,,,,,,,,,164,chemistry,True,,5,5
+llm,"Complete the statement.
+Nitrogen is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,59.620155952870846,526,3,529,,,,,,,,,,,,,165,chemistry,True,,5,5
+llm,"Complete the statement.
+Iodine is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,60.98853191360831,527,3,530,,,,,,,,,,,,,166,chemistry,True,,5,5
+llm,"Complete the sentence.
+A can of soda fizzing over is a ().",service chemistry,chemistry,chemistry,qwen2.5:14b,64.00245381519198,532,3,535,,,,,,,,,,,,,167,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+deep-frying chicken
+burning a marshmallow over a campfire",service chemistry,chemistry,chemistry,qwen2.5:14b,68.30554199405015,541,3,544,,,,,,,,,,,,,168,chemistry,True,,5,5
+llm,Which solution has a higher concentration of blue particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,60.520075960084796,527,3,530,,,,,,,,,,,,,169,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+making paper from wood
+roasting a marshmallow over a campfire",service chemistry,chemistry,chemistry,qwen2.5:14b,66.52324786409736,541,3,544,,,,,,,,,,,,,170,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+rust forming on a bike frame
+a penny tarnishing",service chemistry,chemistry,chemistry,qwen2.5:14b,61.100180028006434,538,3,541,,,,,,,,,,,,,171,chemistry,True,,5,5
+llm,Which solution has a higher concentration of green particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,60.55458006449044,527,3,530,,,,,,,,,,,,,172,chemistry,True,,5,5
+llm,"Complete the statement.
+Silicon dioxide is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,59.74855204112828,527,3,530,,,,,,,,,,,,,173,chemistry,True,,5,5
+llm,Which solution has a higher concentration of purple particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,60.19827886484563,527,3,530,,,,,,,,,,,,,174,chemistry,True,,5,5
+llm,"Complete the sentence.
+Knitting yarn into a scarf is a ().",service -1,general,general,qwen2.5:14b,74.91023000329733,531,4,535,,,,,,,,,,,,,175,chemistry,False,,5,5
+llm,Select the chemical formula for this molecule.,service chemistry,chemistry,chemistry,qwen2.5:14b,60.25531888008118,525,3,528,,,,,,,,,,,,,176,chemistry,True,,5,5
+llm,Which solution has a higher concentration of blue particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,60.426349053159356,527,3,530,,,,,,,,,,,,,177,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+a puddle freezing into ice on a cold night
+mixing sand and water",service physics,physics,physics,qwen2.5:14b,66.84152106754482,543,3,546,,,,,,,,,,,,,178,chemistry,False,,5,5
+llm,"What do these two changes have in common?
+erosion caused by wind
+beating an egg",service earth-science,earth-science,earth-science,qwen2.5:14b,83.24469509534538,537,5,542,,,,,,,,,,,,,179,chemistry,False,,5,5
+llm,Select the elementary substance.,service chemistry,chemistry,chemistry,qwen2.5:14b,60.198782943189144,522,3,525,,,,,,,,,,,,,180,chemistry,True,,5,5
+llm,"Complete the statement.
+Hydrogen is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,59.67876804061234,527,3,530,,,,,,,,,,,,,181,chemistry,True,,5,5
+llm,"Complete the text to describe the diagram.
+Solute particles moved in both directions across the permeable membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, the particles reached equilibrium.",service chemistry,chemistry,chemistry,qwen2.5:14b,74.25731094554067,563,3,566,,,,,,,,,,,,,182,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+baking cookies
+rust forming on a metal gate",service chemistry,chemistry,chemistry,qwen2.5:14b,66.27460708841681,537,3,540,,,,,,,,,,,,,183,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+a piece of pizza rotting in a trashcan
+cooking an egg",service chemistry,chemistry,chemistry,qwen2.5:14b,63.14465496689081,542,3,545,,,,,,,,,,,,,184,chemistry,True,,5,5
+llm,Look at the models of molecules below. Select the elementary substance.,service chemistry,chemistry,chemistry,qwen2.5:14b,62.4536438845098,530,3,533,,,,,,,,,,,,,185,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+sawing a log in half
+stretching a rubber band",service physics,physics,physics,qwen2.5:14b,65.17793890088797,540,3,543,,,,,,,,,,,,,186,chemistry,False,,5,5
+llm,"Complete the sentence.
+Chicken cooking in an oven is a ().",service chemistry,chemistry,chemistry,qwen2.5:14b,62.39467300474644,530,3,533,,,,,,,,,,,,,187,chemistry,True,,5,5
+llm,"Complete the statement.
+Nickel is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,59.263055911287665,526,3,529,,,,,,,,,,,,,188,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+water evaporating from a puddle
+rain forming in a cloud",service chemistry,chemistry,chemistry,qwen2.5:14b,65.01683406531811,540,3,543,,,,,,,,,,,,,189,chemistry,True,,5,5
+llm,Which solution has a higher concentration of green particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,59.935142984613776,527,3,530,,,,,,,,,,,,,190,chemistry,True,,5,5
+llm,"Complete the sentence.
+In this chemical reaction, water is a ().",service chemistry,chemistry,chemistry,qwen2.5:14b,63.25894198380411,531,3,534,,,,,,,,,,,,,191,chemistry,True,,5,5
+llm,"Complete the statement.
+Ethanol is ().",service chemistry,chemistry,chemistry,qwen2.5:14b,59.52670308761299,526,3,529,,,,,,,,,,,,,192,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+breaking a ceramic plate
+mixing chocolate syrup into milk",service chemistry,chemistry,chemistry,qwen2.5:14b,65.56153111159801,538,3,541,,,,,,,,,,,,,193,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+using polish to remove tarnish from a silver spoon
+a piece of avocado turning brown",service chemistry,chemistry,chemistry,qwen2.5:14b,62.38061608746648,544,3,547,,,,,,,,,,,,,194,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+using polish to remove tarnish from a silver spoon
+a dinosaur bone turning into rock over millions of years",service chemistry,chemistry,chemistry,qwen2.5:14b,59.782973024994135,548,3,551,,,,,,,,,,,,,195,chemistry,True,,5,5
+llm,Which solution has a higher concentration of blue particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,59.041551081463695,527,3,530,,,,,,,,,,,,,196,chemistry,True,,5,5
+llm,"What do these two changes have in common?
+water evaporating from a puddle
+dust settling out of the air",service chemistry,chemistry,chemistry,qwen2.5:14b,65.86108496412635,542,3,545,,,,,,,,,,,,,197,chemistry,True,,5,5
+llm,Which solution has a higher concentration of purple particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,59.68191009014845,527,3,530,,,,,,,,,,,,,198,chemistry,True,,5,5
+llm,Which solution has a higher concentration of green particles?,service chemistry,chemistry,chemistry,qwen2.5:14b,58.44343197531998,527,3,530,,,,,,,,,,,,,199,chemistry,True,,5,5
+llm,Select the one substance that is not a rock.,service earth-science,earth-science,earth-science,qwen2.5:14b,83.27946485951543,527,5,532,,,,,,,,,,,,,200,earth-science,True,,5,5
+llm,"Does this passage describe the weather or the climate?
+Lee lives in a town with hot summers and freezing cold winters.",service earth-science,earth-science,earth-science,qwen2.5:14b,89.69394699670374,540,5,545,,,,,,,,,,,,,201,earth-science,True,,5,5
+llm,Is shampoo a mineral?,service chemistry,chemistry,chemistry,qwen2.5:14b,60.31973101198673,522,3,525,,,,,,,,,,,,,202,earth-science,False,,5,5
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,qwen2.5:14b,82.83841889351606,527,5,532,,,,,,,,,,,,,203,earth-science,True,,5,5
+llm,Select the one substance that is not a rock.,service earth-science,earth-science,earth-science,qwen2.5:14b,83.74182693660259,527,5,532,,,,,,,,,,,,,204,earth-science,True,,5,5
+llm,"Which change best matches the sentence?
+The floor of a valley is covered by water after a heavy rainfall.",service earth-science,earth-science,earth-science,qwen2.5:14b,90.55669605731964,538,5,543,,,,,,,,,,,,,205,earth-science,True,,5,5
+llm,Which specific humidity level was measured within the outlined area shown?,service earth-science,earth-science,earth-science,qwen2.5:14b,83.83210701867938,529,5,534,,,,,,,,,,,,,206,earth-science,True,,5,5
+llm,"Does this passage describe the weather or the climate?
+Where Rick lives, winter is the rainiest season of the year.",service earth-science,earth-science,earth-science,qwen2.5:14b,92.02883206307888,541,5,546,,,,,,,,,,,,,207,earth-science,True,,5,5
+llm,Which trait did Meiolania have? Select the trait you can observe on the fossil.,service earth-science,earth-science,earth-science,qwen2.5:14b,88.68199796415865,535,5,540,,,,,,,,,,,,,208,earth-science,True,,5,5
+llm,Which trait did Holophagus have? Select the trait you can observe on the fossil.,service earth-science,earth-science,earth-science,qwen2.5:14b,88.09147519059479,535,5,540,,,,,,,,,,,,,209,earth-science,True,,5,5
+llm,Which of the following is on the map?,service -1,general,general,qwen2.5:14b,72.34430010430515,526,4,530,,,,,,,,,,,,,210,earth-science,False,,5,5
+llm,"Complete the sentence.
+The Thingvellir Rift Valley formed at a () boundary.",service earth-science,earth-science,earth-science,qwen2.5:14b,87.45898213237524,533,5,538,,,,,,,,,,,,,211,earth-science,True,,5,5
+llm,Which month is the wettest on average in Christchurch?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.04294610954821,529,5,534,,,,,,,,,,,,,212,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+Saturn's volume is more than 50% of Jupiter's volume.",service earth-science,earth-science,earth-science,qwen2.5:14b,90.40187206119299,545,5,550,,,,,,,,,,,,,213,earth-science,True,,5,5
+llm,Which month is the hottest on average in Adelaide?,service earth-science,earth-science,earth-science,qwen2.5:14b,85.59907507151365,527,5,532,,,,,,,,,,,,,214,earth-science,True,,5,5
+llm,Which statement best describes the average monthly precipitation in New Orleans?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.6033738926053,529,5,534,,,,,,,,,,,,,215,earth-science,True,,5,5
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,qwen2.5:14b,83.93577998504043,527,5,532,,,,,,,,,,,,,216,earth-science,True,,5,5
+llm,"Does this passage describe the weather or the climate?
+Voss is a city in Norway. One winter, the snow there was two meters deep!",service earth-science,earth-science,earth-science,qwen2.5:14b,88.09084608219564,546,5,551,,,,,,,,,,,,,217,earth-science,True,,5,5
+llm,"Does this passage describe the weather or the climate?
+There are usually more days with low air pressure than high air pressure where Martha lives.",service earth-science,earth-science,earth-science,qwen2.5:14b,86.99290687218308,544,5,549,,,,,,,,,,,,,218,earth-science,True,,5,5
+llm,"Does this passage describe the weather or the climate?
+There are usually more days with low air pressure than high air pressure where Diane lives.",service earth-science,earth-science,earth-science,qwen2.5:14b,81.09127590432763,544,5,549,,,,,,,,,,,,,219,earth-science,True,,5,5
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,qwen2.5:14b,80.81578090786934,527,5,532,,,,,,,,,,,,,220,earth-science,True,,5,5
+llm,Which trait did Galeocerdo have? Select the trait you can observe on the fossil.,service earth-science,earth-science,earth-science,qwen2.5:14b,87.16408000327647,536,5,541,,,,,,,,,,,,,221,earth-science,True,,5,5
+llm,Which rock is more likely to form from sediment deposited in a desert?,service earth-science,earth-science,earth-science,qwen2.5:14b,86.65407798253,531,5,536,,,,,,,,,,,,,222,earth-science,True,,5,5
+llm,"Does this passage describe the weather or the climate?
+It was windy last night at the Northern Kentucky Airport. The wind was blowing in from the southeast.",service earth-science,earth-science,earth-science,qwen2.5:14b,93.8082009088248,547,5,552,,,,,,,,,,,,,223,earth-science,True,,5,5
+llm,Is dolerite a mineral or a rock?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.1225478798151,527,5,532,,,,,,,,,,,,,224,earth-science,True,,5,5
+llm,Which trait did Coelodonta have? Select the trait you can observe on the fossil.,service earth-science,earth-science,earth-science,qwen2.5:14b,88.01164291799068,536,5,541,,,,,,,,,,,,,225,earth-science,True,,5,5
+llm,"Does this passage describe the weather or the climate?
+It has not rained in over a week at Ian's house.",service earth-science,earth-science,earth-science,qwen2.5:14b,90.50813713110983,541,5,546,,,,,,,,,,,,,226,earth-science,True,,5,5
+llm,Which of the following fossils is younger? Select the more likely answer.,service earth-science,earth-science,earth-science,qwen2.5:14b,86.82542806491256,531,5,536,,,,,,,,,,,,,227,earth-science,True,,5,5
+llm,Which statement best describes the average monthly precipitation in Boston?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.39807500690222,528,5,533,,,,,,,,,,,,,228,earth-science,True,,5,5
+llm,Select the one substance that is not a rock.,service earth-science,earth-science,earth-science,qwen2.5:14b,83.87367916293442,527,5,532,,,,,,,,,,,,,229,earth-science,True,,5,5
+llm,"Does this passage describe the weather or the climate?
+Kevin lives in a city that is often covered by thick stratus clouds.",service earth-science,earth-science,earth-science,qwen2.5:14b,90.2039899956435,542,5,547,,,,,,,,,,,,,230,earth-science,True,,5,5
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,qwen2.5:14b,80.1547619048506,527,5,532,,,,,,,,,,,,,231,earth-science,True,,5,5
+llm,Select the one substance that is not a rock.,service earth-science,earth-science,earth-science,qwen2.5:14b,83.57160701416433,527,5,532,,,,,,,,,,,,,232,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+The smallest planet is made mainly of rock.",service earth-science,earth-science,earth-science,qwen2.5:14b,89.35794094577432,538,5,543,,,,,,,,,,,,,233,earth-science,True,,5,5
+llm,"Which change best matches the sentence?
+Melted rock comes out from below Earth's surface.",service earth-science,earth-science,earth-science,qwen2.5:14b,87.48329593800008,536,5,541,,,,,,,,,,,,,234,earth-science,True,,5,5
+llm,Is quartzite a mineral?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.10603599622846,523,5,528,,,,,,,,,,,,,235,earth-science,True,,5,5
+llm,Is sphalerite a mineral?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.42825195379555,524,5,529,,,,,,,,,,,,,236,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+The volume of Uranus is less than ten times the volume of Neptune.",service earth-science,earth-science,earth-science,qwen2.5:14b,90.40284901857376,544,5,549,,,,,,,,,,,,,237,earth-science,True,,5,5
+llm,"Which change best matches the sentence?
+A rock from outer space crashes into Earth's surface.",service earth-science,earth-science,earth-science,qwen2.5:14b,87.54075691103935,535,5,540,,,,,,,,,,,,,238,earth-science,True,,5,5
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,qwen2.5:14b,83.84705777280033,527,5,532,,,,,,,,,,,,,239,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+The smallest planet is made mainly of rock.",service earth-science,earth-science,earth-science,qwen2.5:14b,90.71485488675535,538,5,543,,,,,,,,,,,,,240,earth-science,True,,5,5
+llm,Which of the following fossils is younger? Select the more likely answer.,service earth-science,earth-science,earth-science,qwen2.5:14b,87.08677883259952,531,5,536,,,,,,,,,,,,,241,earth-science,True,,5,5
+llm,"Does this passage describe the weather or the climate?
+The windiest months on Mount Everest are November, December, and January.",service earth-science,earth-science,earth-science,qwen2.5:14b,89.64888891205192,542,5,547,,,,,,,,,,,,,242,earth-science,True,,5,5
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,qwen2.5:14b,80.97022003494203,527,5,532,,,,,,,,,,,,,243,earth-science,True,,5,5
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,qwen2.5:14b,66.80608191527426,527,5,532,,,,,,,,,,,,,244,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+Of the four smallest planets, two are made mainly of gas.",service earth-science,earth-science,earth-science,qwen2.5:14b,90.12096095830202,542,5,547,,,,,,,,,,,,,245,earth-science,True,,5,5
+llm,Select the one substance that is not a mineral.,service chemistry,chemistry,chemistry,qwen2.5:14b,60.91131502762437,527,3,530,,,,,,,,,,,,,246,earth-science,False,,5,5
+llm,"Is the following statement about our solar system true or false?
+The volume of Earth is more than ten times the volume of Mercury.",service earth-science,earth-science,earth-science,qwen2.5:14b,89.70506000332534,543,5,548,,,,,,,,,,,,,247,earth-science,True,,5,5
+llm,Which of the following fossils is older? Select the more likely answer.,service earth-science,earth-science,earth-science,qwen2.5:14b,87.32934109866619,531,5,536,,,,,,,,,,,,,248,earth-science,True,,5,5
+llm,Select the one substance that is not a mineral.,service chemistry,chemistry,chemistry,qwen2.5:14b,60.633539920672774,527,3,530,,,,,,,,,,,,,249,earth-science,False,,5,5
+llm,Is fluorite a mineral or a rock?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.47493799030781,526,5,531,,,,,,,,,,,,,250,earth-science,True,,5,5
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,qwen2.5:14b,93.60178816132247,527,5,532,,,,,,,,,,,,,251,earth-science,True,,5,5
+llm,Which trait did Ichthyornis have? Select the trait you can observe in the drawing.,service biology,biology,biology,qwen2.5:14b,64.57487703301013,536,3,539,,,,,,,,,,,,,252,earth-science,False,,5,5
+llm,Select the one substance that is not a rock.,service earth-science,earth-science,earth-science,qwen2.5:14b,83.07323092594743,527,5,532,,,,,,,,,,,,,253,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+Half of the planets are made mainly of gas or ice.",service earth-science,earth-science,earth-science,qwen2.5:14b,91.27830597572029,541,5,546,,,,,,,,,,,,,254,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+Of the four largest planets, three are made mainly of gas.",service earth-science,earth-science,earth-science,qwen2.5:14b,88.11647887341678,542,5,547,,,,,,,,,,,,,255,earth-science,True,,5,5
+llm,"Does this passage describe the weather or the climate?
+Where Nicole lives, winter is the rainiest season of the year.",service earth-science,earth-science,earth-science,qwen2.5:14b,91.85157786123455,541,5,546,,,,,,,,,,,,,256,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+Three-quarters of the planets are larger than Earth.",service earth-science,earth-science,earth-science,qwen2.5:14b,94.30586802773178,539,5,544,,,,,,,,,,,,,257,earth-science,True,,5,5
+llm,"Does this passage describe the weather or the climate?
+Lisbon, Portugal, has cloudy skies today. So, the air pressure is low.",service earth-science,earth-science,earth-science,qwen2.5:14b,95.3719720710069,546,5,551,,,,,,,,,,,,,258,earth-science,True,,5,5
+llm,Which trait did Diplomystus have? Select the trait you can observe on the fossil.,service earth-science,earth-science,earth-science,qwen2.5:14b,88.22289993986487,536,5,541,,,,,,,,,,,,,259,earth-science,True,,5,5
+llm,Which trait did Megaloceros have? Select the trait you can observe on the fossil.,service earth-science,earth-science,earth-science,qwen2.5:14b,88.22544291615486,536,5,541,,,,,,,,,,,,,260,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+Of the four largest planets, three are made mainly of gas.",service earth-science,earth-science,earth-science,qwen2.5:14b,89.63275607675314,542,5,547,,,,,,,,,,,,,261,earth-science,True,,5,5
+llm,Which month has the lowest average precipitation in London?,service earth-science,earth-science,earth-science,qwen2.5:14b,85.04120097495615,527,5,532,,,,,,,,,,,,,262,earth-science,True,,5,5
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,qwen2.5:14b,83.6455759126693,527,5,532,,,,,,,,,,,,,263,earth-science,True,,5,5
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,qwen2.5:14b,66.69541518203914,527,5,532,,,,,,,,,,,,,264,earth-science,True,,5,5
+llm,Is scoria a mineral or a rock?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.35103483498096,526,5,531,,,,,,,,,,,,,265,earth-science,True,,5,5
+llm,Which statement best describes the average monthly precipitation in New Orleans?,service earth-science,earth-science,earth-science,qwen2.5:14b,83.91398307867348,529,5,534,,,,,,,,,,,,,266,earth-science,True,,5,5
+llm,Select the one substance that is not a mineral.,service chemistry,chemistry,chemistry,qwen2.5:14b,61.66630098596215,527,3,530,,,,,,,,,,,,,267,earth-science,False,,5,5
+llm,Is andesite a mineral or a rock?,service earth-science,earth-science,earth-science,qwen2.5:14b,83.66214903071523,527,5,532,,,,,,,,,,,,,268,earth-science,True,,5,5
+llm,Select the one substance that is not a rock.,service earth-science,earth-science,earth-science,qwen2.5:14b,84.1035118792206,527,5,532,,,,,,,,,,,,,269,earth-science,True,,5,5
+llm,What type of rock is sandstone?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.58548411726952,525,5,530,,,,,,,,,,,,,270,earth-science,True,,5,5
+llm,Which month has the highest average precipitation in Santiago?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.30161792784929,527,5,532,,,,,,,,,,,,,271,earth-science,True,,5,5
+llm,Is pyrite a mineral?,service earth-science,earth-science,earth-science,qwen2.5:14b,83.32172897644341,523,5,528,,,,,,,,,,,,,272,earth-science,True,,5,5
+llm,Is hornblende a mineral or a rock?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.23991617746651,527,5,532,,,,,,,,,,,,,273,earth-science,True,,5,5
+llm,What evidence of an earthquake does this picture show?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.90032097324729,527,5,532,,,,,,,,,,,,,274,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+Neptune's volume is more than 100 times as large as Earth's.",service earth-science,earth-science,earth-science,qwen2.5:14b,94.18896702118218,547,5,552,,,,,,,,,,,,,275,earth-science,True,,5,5
+llm,Which statement is true about the average monthly precipitation in Charlotte?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.75184300914407,529,5,534,,,,,,,,,,,,,276,earth-science,True,,5,5
+llm,Which month has the lowest average precipitation in London?,service earth-science,earth-science,earth-science,qwen2.5:14b,83.69846595451236,527,5,532,,,,,,,,,,,,,277,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+Earth is the largest planet that is made mainly of rock.",service earth-science,earth-science,earth-science,qwen2.5:14b,90.02763405442238,541,5,546,,,,,,,,,,,,,278,earth-science,True,,5,5
+llm,"Which change best matches the sentence?
+A part of Earth's surface moves and shakes.",service earth-science,earth-science,earth-science,qwen2.5:14b,86.82578499428928,534,5,539,,,,,,,,,,,,,279,earth-science,True,,5,5
+llm,Which trait did this aurochs have? Select the trait you can observe on the fossil.,service earth-science,earth-science,earth-science,qwen2.5:14b,86.7291409522295,536,5,541,,,,,,,,,,,,,280,earth-science,True,,5,5
+llm,What evidence of a wildfire does this picture show?,service earth-science,earth-science,earth-science,qwen2.5:14b,83.41212291270494,527,5,532,,,,,,,,,,,,,281,earth-science,True,,5,5
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,qwen2.5:14b,83.82075908593833,527,5,532,,,,,,,,,,,,,282,earth-science,True,,5,5
+llm,Which month is the wettest on average in Cairo?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.38947005197406,528,5,533,,,,,,,,,,,,,283,earth-science,True,,5,5
+llm,Which trait did Pentasteria have? Select the trait you can observe on the fossil.,service earth-science,earth-science,earth-science,qwen2.5:14b,86.963095003739,535,5,540,,,,,,,,,,,,,284,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+Three-quarters of the planets are larger than Venus.",service earth-science,earth-science,earth-science,qwen2.5:14b,89.90338398143649,539,5,544,,,,,,,,,,,,,285,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+The volume of Saturn is more than ten times the volume of Uranus.",service earth-science,earth-science,earth-science,qwen2.5:14b,86.80990594439209,544,5,549,,,,,,,,,,,,,286,earth-science,True,,5,5
+llm,What type of rock is scoria?,service earth-science,earth-science,earth-science,qwen2.5:14b,83.7282589636743,525,5,530,,,,,,,,,,,,,287,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+The volume of Neptune is less than 75% of the volume of Uranus.",service earth-science,earth-science,earth-science,qwen2.5:14b,93.4799921233207,547,5,552,,,,,,,,,,,,,288,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+Of the four largest planets, three are made mainly of gas.",service earth-science,earth-science,earth-science,qwen2.5:14b,86.57895098440349,542,5,547,,,,,,,,,,,,,289,earth-science,True,,5,5
+llm,"Which change best matches the sentence?
+Small pieces of rock are carried away by water.",service earth-science,earth-science,earth-science,qwen2.5:14b,89.58318899385631,534,5,539,,,,,,,,,,,,,290,earth-science,True,,5,5
+llm,Is peridotite a mineral?,service earth-science,earth-science,earth-science,qwen2.5:14b,83.49122782237828,524,5,529,,,,,,,,,,,,,291,earth-science,True,,5,5
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.47795803658664,527,5,532,,,,,,,,,,,,,292,earth-science,True,,5,5
+llm,"Does this passage describe the weather or the climate?
+Bridgeport, Connecticut, had cool temperatures over the weekend.",service earth-science,earth-science,earth-science,qwen2.5:14b,85.8621490187943,539,5,544,,,,,,,,,,,,,293,earth-science,True,,5,5
+llm,"Is the following statement about our solar system true or false?
+The smallest planet is made mainly of rock.",service earth-science,earth-science,earth-science,qwen2.5:14b,90.45782801695168,538,5,543,,,,,,,,,,,,,294,earth-science,True,,5,5
+llm,Earth's organisms rely on the atmosphere for which of the following?,service biology,biology,biology,qwen2.5:14b,62.92594410479069,530,3,533,,,,,,,,,,,,,295,earth-science,False,,5,5
+llm,"Which change best matches the sentence?
+A glacier scrapes pieces of rock off a mountain and carries them downhill.",service earth-science,earth-science,earth-science,qwen2.5:14b,88.65986717864871,539,5,544,,,,,,,,,,,,,296,earth-science,True,,5,5
+llm,"Does this passage describe the weather or the climate?
+Jackie lives in a town with hot summers and freezing cold winters.",service earth-science,earth-science,earth-science,qwen2.5:14b,90.73725505732,541,5,546,,,,,,,,,,,,,297,earth-science,True,,5,5
+llm,Is eclogite a mineral?,service earth-science,earth-science,earth-science,qwen2.5:14b,84.83169111423194,524,5,529,,,,,,,,,,,,,298,earth-science,True,,5,5
+llm,Does this passage describe the weather or the climate?,service earth-science,earth-science,earth-science,qwen2.5:14b,83.70624808594584,527,5,532,,,,,,,,,,,,,299,earth-science,True,,5,5
+llm,What can Brandon and Derek trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.55207001231611,530,3,533,,,,,,,,,,,,,300,economics,True,,5,5
+llm,What can Rosa and Isabella trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,59.61782904341817,531,3,534,,,,,,,,,,,,,301,economics,True,,5,5
+llm,What can Sally and Chloe trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,59.72422007471323,530,3,533,,,,,,,,,,,,,302,economics,True,,5,5
+llm,What can Janet and Kari trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,59.474848909303546,531,3,534,,,,,,,,,,,,,303,economics,True,,5,5
+llm,"Last year, 50,000 people lived in the city of Richmond. But since then, 8,000 people have moved away. What probably happened to the overall supply of houses for sale in Richmond?",service economics,economics,economics,qwen2.5:14b,73.47549498081207,564,3,567,,,,,,,,,,,,,304,economics,True,,5,5
+llm,What can Tristan and Lorenzo trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.161776004359126,530,3,533,,,,,,,,,,,,,305,economics,True,,5,5
+llm,What can Ling and Maria trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,59.31220413185656,530,3,533,,,,,,,,,,,,,306,economics,True,,5,5
+llm,Is picking apples a good or a service?,service economics,economics,economics,qwen2.5:14b,61.44786695949733,526,3,529,,,,,,,,,,,,,307,economics,True,,5,5
+llm,Is fixing a computer a good or a service?,service economics,economics,economics,qwen2.5:14b,61.39937206171453,527,3,530,,,,,,,,,,,,,308,economics,True,,5,5
+llm,Suppose Jennifer decides to join the Photography Club. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,63.097701873630285,534,3,537,,,,,,,,,,,,,309,economics,True,,5,5
+llm,Is a clock a good or a service?,service economics,economics,economics,qwen2.5:14b,59.74659207277,526,3,529,,,,,,,,,,,,,310,economics,True,,5,5
+llm,Is there a surplus or a shortage of new cars?,service economics,economics,economics,qwen2.5:14b,59.83675201423466,528,3,531,,,,,,,,,,,,,311,economics,True,,5,5
+llm,"Last year, there were seven men's clothing stores on Main Street in Norwood. This year, there are only three. What probably happened to the overall supply of men's shirts in Norwood?",service economics,economics,economics,qwen2.5:14b,73.05639586411417,557,3,560,,,,,,,,,,,,,312,economics,True,,5,5
+llm,Suppose Bruce decides to bake banana muffins. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,62.77448101900518,534,3,537,,,,,,,,,,,,,313,economics,True,,5,5
+llm,Is walking a dog a good or a service?,service economics,economics,economics,qwen2.5:14b,59.2575001064688,527,3,530,,,,,,,,,,,,,314,economics,True,,5,5
+llm,What can Jasmine and Bryan trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,61.864882009103894,530,3,533,,,,,,,,,,,,,315,economics,True,,5,5
+llm,"Last year, there were seven men's clothing stores on Main Street in Princeton. This year, there are only three. What probably happened to the overall supply of men's shirts in Princeton?",service economics,economics,economics,qwen2.5:14b,73.5639298800379,555,3,558,,,,,,,,,,,,,316,economics,True,,5,5
+llm,"Last year, 50,000 people lived in the city of Millersburg. But since then, 8,000 people have moved away. What probably happened to the overall supply of houses for sale in Millersburg?",service economics,economics,economics,qwen2.5:14b,74.36199905350804,568,3,571,,,,,,,,,,,,,317,economics,True,,5,5
+llm,Suppose Destiny decides to take a trip to Virginia. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,62.73852987214923,535,3,538,,,,,,,,,,,,,318,economics,True,,5,5
+llm,What can Rosa and Alexandra trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.55231215618551,530,3,533,,,,,,,,,,,,,319,economics,True,,5,5
+llm,"The city of Milford has been one of the world's biggest makers of cough drops for many years. But last month, Milford's cough drop factories were destroyed by floods. What will probably happen to the overall supply of cough drops?",service economics,economics,economics,qwen2.5:14b,74.36873810365796,565,3,568,,,,,,,,,,,,,320,economics,True,,5,5
+llm,What can Vivian and Jamal trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.23343592137098,531,3,534,,,,,,,,,,,,,321,economics,True,,5,5
+llm,What can Jennifer and Melissa trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,60.43349183164537,530,3,533,,,,,,,,,,,,,322,economics,True,,5,5
+llm,What can Terrell and Allie trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.91102711111307,532,3,535,,,,,,,,,,,,,323,economics,True,,5,5
+llm,What can Justine and Caleb trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,60.30807294882834,531,3,534,,,,,,,,,,,,,324,economics,True,,5,5
+llm,Suppose Cole decides to watch the action movie. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,64.22703107818961,534,3,537,,,,,,,,,,,,,325,economics,True,,5,5
+llm,Suppose Chandler decides to get the caramel swirl ice cream. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,63.802429009228945,536,3,539,,,,,,,,,,,,,326,economics,True,,5,5
+llm,What can Nina and Ivan trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.87261610850692,530,3,533,,,,,,,,,,,,,327,economics,True,,5,5
+llm,What can Sadie and Kira trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,61.92085496149957,532,3,535,,,,,,,,,,,,,328,economics,True,,5,5
+llm,Suppose Paula decides to go on the scorpion. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,62.349498039111495,535,3,538,,,,,,,,,,,,,329,economics,True,,5,5
+llm,Suppose Rose decides to join the Theater Club. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,61.778985895216465,534,3,537,,,,,,,,,,,,,330,economics,True,,5,5
+llm,Suppose Darnel decides to take a trip to Connecticut. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,62.372618820518255,537,3,540,,,,,,,,,,,,,331,economics,True,,5,5
+llm,What can Lamar and Jackson trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,61.55975186266005,530,3,533,,,,,,,,,,,,,332,economics,True,,5,5
+llm,Is there a surplus or shortage of peanut butter?,service economics,economics,economics,qwen2.5:14b,59.688622830435634,527,3,530,,,,,,,,,,,,,333,economics,True,,5,5
+llm,"Last year, 50,000 people lived in the city of Fairview. But since then, 8,000 people have moved away. What probably happened to the overall supply of houses for sale in Fairview?",service economics,economics,economics,qwen2.5:14b,75.56587713770568,566,3,569,,,,,,,,,,,,,334,economics,True,,5,5
+llm,What can Krysta and Malik trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,63.198050018399954,532,3,535,,,,,,,,,,,,,335,economics,True,,5,5
+llm,Is there a surplus or a shortage of picture frames?,service economics,economics,economics,qwen2.5:14b,60.01559807918966,528,3,531,,,,,,,,,,,,,336,economics,True,,5,5
+llm,Suppose Cara decides to get the sweet cream ice cream. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,63.15407785587013,536,3,539,,,,,,,,,,,,,337,economics,True,,5,5
+llm,What can Barry and Mona trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,63.06613702327013,530,3,533,,,,,,,,,,,,,338,economics,True,,5,5
+llm,Suppose Beth decides to go on the drop tower. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,63.44905588775873,535,3,538,,,,,,,,,,,,,339,economics,True,,5,5
+llm,What can Clara and Hazel trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.72144988179207,530,3,533,,,,,,,,,,,,,340,economics,True,,5,5
+llm,Suppose Brittany decides to plant the maple tree. Which result would be a cost?,service biology,biology,biology,qwen2.5:14b,62.51136097125709,534,3,537,,,,,,,,,,,,,341,economics,False,,5,5
+llm,Suppose Harper decides to see the grizzly bears. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,61.9245779234916,535,3,538,,,,,,,,,,,,,342,economics,True,,5,5
+llm,Is a banana a good or a service?,service economics,economics,economics,qwen2.5:14b,59.104386949911714,526,3,529,,,,,,,,,,,,,343,economics,True,,5,5
+llm,Select a reason you might choose to keep your money in a bank account.,service economics,economics,economics,qwen2.5:14b,64.25782013684511,532,3,535,,,,,,,,,,,,,344,economics,True,,5,5
+llm,What can Tara and Jeremiah trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.74717813357711,530,3,533,,,,,,,,,,,,,345,economics,True,,5,5
+llm,"The city of Georgetown has been one of the world's biggest makers of cough drops for many years. But last month, Georgetown's cough drop factories were destroyed by floods. What will probably happen to the overall supply of cough drops?",service economics,economics,economics,qwen2.5:14b,74.7411500196904,563,3,566,,,,,,,,,,,,,346,economics,True,,5,5
+llm,"Last year, 50,000 people lived in the city of Milford. But since then, 8,000 people have moved away. What probably happened to the overall supply of houses for sale in Milford?",service economics,economics,economics,qwen2.5:14b,75.15318202786148,566,3,569,,,,,,,,,,,,,347,economics,True,,5,5
+llm,Suppose Jason decides to go as a superhero. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,63.66762798279524,534,3,537,,,,,,,,,,,,,348,economics,True,,5,5
+llm,Suppose Eli decides to see the polar bears. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,63.30810906365514,534,3,537,,,,,,,,,,,,,349,economics,True,,5,5
+llm,What can Mark and Valeria trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.04354600049555,531,3,534,,,,,,,,,,,,,350,economics,True,,5,5
+llm,Suppose Richard decides to plant the palm tree. Which result would be a cost?,service biology,biology,biology,qwen2.5:14b,62.65993579290807,534,3,537,,,,,,,,,,,,,351,economics,False,,5,5
+llm,Suppose Kurt decides to plant the magnolia tree. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,62.26574396714568,535,3,538,,,,,,,,,,,,,352,economics,True,,5,5
+llm,Suppose Vijay decides to make vegetable soup. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,63.94856586121023,534,3,537,,,,,,,,,,,,,353,economics,True,,5,5
+llm,Suppose Sidney decides to eat the string cheese. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,63.161647878587246,534,3,537,,,,,,,,,,,,,354,economics,True,,5,5
+llm,What can Greta and Allie trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,63.008947065100074,532,3,535,,,,,,,,,,,,,355,economics,True,,5,5
+llm,"Long ago, all books were copied by hand. Making new copies was a lot of work and took a long time. But the invention of the printing press made copying books faster and easier. What happened to the overall supply of books after the printing press was invented?",service economics,economics,economics,qwen2.5:14b,78.57549097388983,570,3,573,,,,,,,,,,,,,356,economics,True,,5,5
+llm,"The city of Silvergrove has been one of the world's biggest makers of cough drops for many years. But last month, Silvergrove's cough drop factories were destroyed by floods. What will probably happen to the overall supply of cough drops?",service economics,economics,economics,qwen2.5:14b,74.56375402398407,567,3,570,,,,,,,,,,,,,357,economics,True,,5,5
+llm,What can Rick and Felix trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.5473300460726,530,3,533,,,,,,,,,,,,,358,economics,True,,5,5
+llm,"The city of Norwood has been one of the world's biggest makers of cough drops for many years. But last month, Norwood's cough drop factories were destroyed by floods. What will probably happen to the overall supply of cough drops?",service economics,economics,economics,qwen2.5:14b,74.42507799714804,565,3,568,,,,,,,,,,,,,359,economics,True,,5,5
+llm,Is a motorcycle a good or a service?,service economics,economics,economics,qwen2.5:14b,59.68296783976257,526,3,529,,,,,,,,,,,,,360,economics,True,,5,5
+llm,What can Edwin and Brenda trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.557005090638995,530,3,533,,,,,,,,,,,,,361,economics,True,,5,5
+llm,What can Bill and Anita trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,61.5582000464201,530,3,533,,,,,,,,,,,,,362,economics,True,,5,5
+llm,Suppose Dwayne decides to go on the spinning teacups. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,65.21806307137012,538,3,541,,,,,,,,,,,,,363,economics,True,,5,5
+llm,Suppose Mona decides to go on the super starship. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,62.96091596595943,536,3,539,,,,,,,,,,,,,364,economics,True,,5,5
+llm,What can Brendan and Isaac trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.48292000964284,530,3,533,,,,,,,,,,,,,365,economics,True,,5,5
+llm,What can Naomi and Emilia trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,60.845253989100456,531,3,534,,,,,,,,,,,,,366,economics,True,,5,5
+llm,"In the 1970s, several countries in the Middle East decided to pump less oil from their oil wells. Oil is often made into gasoline. What happened to the world's overall supply of gasoline?",service economics,economics,economics,qwen2.5:14b,73.72372201643884,560,3,563,,,,,,,,,,,,,367,economics,True,,5,5
+llm,What can Mandy and Troy trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,63.31503693945706,531,3,534,,,,,,,,,,,,,368,economics,True,,5,5
+llm,What can Bella and Darnell trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.835208140313625,532,3,535,,,,,,,,,,,,,369,economics,True,,5,5
+llm,What can Dustin and Irma trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,60.60536508448422,530,3,533,,,,,,,,,,,,,370,economics,True,,5,5
+llm,What can Austen and Naomi trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,61.87235307879746,531,3,534,,,,,,,,,,,,,371,economics,True,,5,5
+llm,What can Austin and Colin trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,60.252313036471605,530,3,533,,,,,,,,,,,,,372,economics,True,,5,5
+llm,Is sweeping the floor a good or a service?,service economics,economics,economics,qwen2.5:14b,59.90993301384151,527,3,530,,,,,,,,,,,,,373,economics,True,,5,5
+llm,Suppose Lauren decides to go as a superhero. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,62.533291056752205,534,3,537,,,,,,,,,,,,,374,economics,True,,5,5
+llm,Suppose Riley decides to plant the roses. Which result would be a cost?,service biology,biology,biology,qwen2.5:14b,62.34562210738659,533,3,536,,,,,,,,,,,,,375,economics,False,,5,5
+llm,Suppose Isabelle decides to join the Theater Club. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,64.25419403240085,535,3,538,,,,,,,,,,,,,376,economics,True,,5,5
+llm,What can Connor and Maura trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,63.01356782205403,531,3,534,,,,,,,,,,,,,377,economics,True,,5,5
+llm,What can Jaylen and Porter trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,60.158333042636514,531,3,534,,,,,,,,,,,,,378,economics,True,,5,5
+llm,Is fixing a sink a good or a service?,service economics,economics,economics,qwen2.5:14b,59.18747489340603,527,3,530,,,,,,,,,,,,,379,economics,True,,5,5
+llm,What can Monica and Diana trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.508077127858996,530,3,533,,,,,,,,,,,,,380,economics,True,,5,5
+llm,What can Diana and Gabby trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,59.22787496820092,531,3,534,,,,,,,,,,,,,381,economics,True,,5,5
+llm,"Last year, 50,000 people lived in the city of Oak Grove. But since then, 8,000 people have moved away. What probably happened to the overall supply of houses for sale in Oak Grove?",service economics,economics,economics,qwen2.5:14b,73.35809199139476,566,3,569,,,,,,,,,,,,,382,economics,True,,5,5
+llm,What can Duncan and Sam trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,61.76345003768802,530,3,533,,,,,,,,,,,,,383,economics,True,,5,5
+llm,Is carrying groceries a good or a service?,service economics,economics,economics,qwen2.5:14b,58.95277392119169,526,3,529,,,,,,,,,,,,,384,economics,True,,5,5
+llm,What can Ernesto and Lucia trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.36847210675478,531,3,534,,,,,,,,,,,,,385,economics,True,,5,5
+llm,What can Elise and Nolan trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,59.37836901284754,531,3,534,,,,,,,,,,,,,386,economics,True,,5,5
+llm,"The city of Newport has been one of the world's biggest makers of cough drops for many years. But last month, Newport's cough drop factories were destroyed by floods. What will probably happen to the overall supply of cough drops?",service economics,economics,economics,qwen2.5:14b,73.3332869131118,563,3,566,,,,,,,,,,,,,387,economics,True,,5,5
+llm,What can Bryce and Victor trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.24716920405626,530,3,533,,,,,,,,,,,,,388,economics,True,,5,5
+llm,"The city of Ashland has been one of the world's biggest makers of cough drops for many years. But last month, Ashland's cough drop factories were destroyed by floods. What will probably happen to the overall supply of cough drops?",service economics,economics,economics,qwen2.5:14b,74.40640404820442,565,3,568,,,,,,,,,,,,,389,economics,True,,5,5
+llm,Suppose Bryant decides to take a trip to Connecticut. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,65.16362610273063,535,3,538,,,,,,,,,,,,,390,economics,True,,5,5
+llm,"Last year, there were seven men's clothing stores on Main Street in Fairview. This year, there are only three. What probably happened to the overall supply of men's shirts in Fairview?",service economics,economics,economics,qwen2.5:14b,73.61052394844592,557,3,560,,,,,,,,,,,,,391,economics,True,,5,5
+llm,Suppose Tristan decides to eat the oatmeal cookies. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,62.27792310528457,535,3,538,,,,,,,,,,,,,392,economics,True,,5,5
+llm,What can Janice and Abdul trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.88828607648611,531,3,534,,,,,,,,,,,,,393,economics,True,,5,5
+llm,"Last year, there were seven men's clothing stores on Main Street in Arlington. This year, there are only three. What probably happened to the overall supply of men's shirts in Arlington?",service economics,economics,economics,qwen2.5:14b,73.7437519710511,555,3,558,,,,,,,,,,,,,394,economics,True,,5,5
+llm,Suppose Duncan decides to join the Photography Club. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,62.67740880139172,534,3,537,,,,,,,,,,,,,395,economics,True,,5,5
+llm,What can Sandeep and Tracy trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,61.65001215413213,532,3,535,,,,,,,,,,,,,396,economics,True,,5,5
+llm,Suppose Ivan decides to join the Photography Club. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,62.56142980419099,534,3,537,,,,,,,,,,,,,397,economics,True,,5,5
+llm,What can Arianna and Sidney trade to each get what they want?,service economics,economics,economics,qwen2.5:14b,62.711589969694614,531,3,534,,,,,,,,,,,,,398,economics,True,,5,5
+llm,Suppose Tyler decides to take a trip to Arkansas. Which result would be a cost?,service economics,economics,economics,qwen2.5:14b,63.65563999861479,535,3,538,,,,,,,,,,,,,399,economics,True,,5,5
+llm,Which orange has more thermal energy?,service physics,physics,physics,qwen2.5:14b,60.462175868451595,524,3,527,,,,,,,,,,,,,400,physics,True,,5,5
+llm,Which material are these steps made of?,service physics,physics,physics,qwen2.5:14b,60.08155201561749,525,3,528,,,,,,,,,,,,,401,physics,True,,5,5
+llm,Compare the motion of three bicycles. Which bicycle was moving at the highest speed?,service physics,physics,physics,qwen2.5:14b,62.916120048612356,533,3,536,,,,,,,,,,,,,402,physics,True,,5,5
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,qwen2.5:14b,63.02738911472261,536,3,539,,,,,,,,,,,,,403,physics,True,,5,5
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,qwen2.5:14b,59.211793122813106,527,3,530,,,,,,,,,,,,,404,physics,True,,5,5
+llm,Assume all other forces on Ken are balanced. Which statement describes the forces on Ken?,service physics,physics,physics,qwen2.5:14b,62.8560078330338,535,3,538,,,,,,,,,,,,,405,physics,True,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,62.853781040757895,537,3,540,,,,,,,,,,,,,406,physics,True,,5,5
+llm,Which property do these three objects have in common?,service physics,physics,physics,qwen2.5:14b,61.52039300650358,527,3,530,,,,,,,,,,,,,407,physics,True,,5,5
+llm,Is chalk a solid or a liquid?,service chemistry,chemistry,chemistry,qwen2.5:14b,59.022627072408795,525,3,528,,,,,,,,,,,,,408,physics,False,,5,5
+llm,Which property matches this object?,service physics,physics,physics,qwen2.5:14b,58.99327411316335,523,3,526,,,,,,,,,,,,,409,physics,True,,5,5
+llm,Select the liquid.,service chemistry,chemistry,chemistry,qwen2.5:14b,56.5693189855665,521,3,524,,,,,,,,,,,,,410,physics,False,,5,5
+llm,"Complete the statement. Assume that the water balloon's mass did not change.
+The gravitational potential energy stored between the water balloon and Earth () as the water balloon fell toward Alec.",service physics,physics,physics,qwen2.5:14b,68.51300690323114,552,3,555,,,,,,,,,,,,,411,physics,True,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,63.37840901687741,537,3,540,,,,,,,,,,,,,412,physics,True,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,42.58857201784849,537,3,540,,,,,,,,,,,,,413,physics,True,,5,5
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,qwen2.5:14b,63.99906612932682,536,3,539,,,,,,,,,,,,,414,physics,True,,5,5
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,qwen2.5:14b,59.8839579615742,527,3,530,,,,,,,,,,,,,415,physics,True,,5,5
+llm,Which property do these three objects have in common?,service physics,physics,physics,qwen2.5:14b,60.46740408055484,527,3,530,,,,,,,,,,,,,416,physics,True,,5,5
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,qwen2.5:14b,64.15003584697843,536,3,539,,,,,,,,,,,,,417,physics,True,,5,5
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,qwen2.5:14b,59.98212704434991,527,3,530,,,,,,,,,,,,,418,physics,True,,5,5
+llm,Which property matches this object?,service physics,physics,physics,qwen2.5:14b,59.39907114952803,523,3,526,,,,,,,,,,,,,419,physics,True,,5,5
+llm,Which object has the most thermal energy?,service physics,physics,physics,qwen2.5:14b,60.98601408302784,525,3,528,,,,,,,,,,,,,420,physics,True,,5,5
+llm,Which property do these three objects have in common?,service -1,general,general,qwen2.5:14b,71.27536297775805,527,4,531,,,,,,,,,,,,,421,physics,False,,5,5
+llm,Which is scratchier?,service -1,general,general,qwen2.5:14b,69.20391996391118,522,4,526,,,,,,,,,,,,,422,physics,False,,5,5
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,qwen2.5:14b,59.64595498517156,527,3,530,,,,,,,,,,,,,423,physics,True,,5,5
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,qwen2.5:14b,42.18450002372265,527,3,530,,,,,,,,,,,,,424,physics,True,,5,5
+llm,Which property do these three objects have in common?,service physics,physics,physics,qwen2.5:14b,61.05984887108207,527,3,530,,,,,,,,,,,,,425,physics,True,,5,5
+llm,"Complete the statement. Assume that Edgar's mass did not change.
+The gravitational potential energy stored between Edgar and Earth () as he hiked toward the summit.",service physics,physics,physics,qwen2.5:14b,68.40914417989552,548,3,551,,,,,,,,,,,,,426,physics,True,,5,5
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,qwen2.5:14b,59.4618609175086,527,3,530,,,,,,,,,,,,,427,physics,True,,5,5
+llm,Which object has less thermal energy?,service physics,physics,physics,qwen2.5:14b,59.5930558629334,524,3,527,,,,,,,,,,,,,428,physics,True,,5,5
+llm,Which property do these three objects have in common?,service physics,physics,physics,qwen2.5:14b,58.789276983588934,527,3,530,,,,,,,,,,,,,429,physics,True,,5,5
+llm,"Is the air moving through a trombone a solid, a liquid, or a gas?",service physics,physics,physics,qwen2.5:14b,62.84411298111081,535,3,538,,,,,,,,,,,,,430,physics,True,,5,5
+llm,Which property do these three objects have in common?,service physics,physics,physics,qwen2.5:14b,59.58293890580535,527,3,530,,,,,,,,,,,,,431,physics,True,,5,5
+llm,"Is a crown a solid, a liquid, or a gas?",service chemistry,chemistry,chemistry,qwen2.5:14b,61.453261179849505,530,3,533,,,,,,,,,,,,,432,physics,False,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,62.45432305149734,537,3,540,,,,,,,,,,,,,433,physics,True,,5,5
+llm,Select the solid.,service physics,physics,physics,qwen2.5:14b,59.18687186203897,521,3,524,,,,,,,,,,,,,434,physics,True,,5,5
+llm,Which property do these three objects have in common?,service -1,general,general,qwen2.5:14b,71.94076711311936,527,4,531,,,,,,,,,,,,,435,physics,False,,5,5
+llm,Which property matches this object?,service -1,general,general,qwen2.5:14b,68.36449494585395,523,4,527,,,,,,,,,,,,,436,physics,False,,5,5
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,qwen2.5:14b,60.64067198894918,527,3,530,,,,,,,,,,,,,437,physics,True,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,63.08413506485522,537,3,540,,,,,,,,,,,,,438,physics,True,,5,5
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,qwen2.5:14b,59.806637931615114,527,3,530,,,,,,,,,,,,,439,physics,True,,5,5
+llm,Which object has less thermal energy?,service physics,physics,physics,qwen2.5:14b,59.84185799024999,524,3,527,,,,,,,,,,,,,440,physics,True,,5,5
+llm,"During this time, thermal energy was transferred from () to ().",service physics,physics,physics,qwen2.5:14b,62.54438799805939,530,3,533,,,,,,,,,,,,,441,physics,True,,5,5
+llm,"Is fruit punch a solid, a liquid, or a gas?",service chemistry,chemistry,chemistry,qwen2.5:14b,62.64440203085542,530,3,533,,,,,,,,,,,,,442,physics,False,,5,5
+llm,"Is the water in a glass a solid, a liquid, or a gas?",service physics,physics,physics,qwen2.5:14b,63.678347039967775,533,3,536,,,,,,,,,,,,,443,physics,True,,5,5
+llm,Which water balloon has more thermal energy?,service physics,physics,physics,qwen2.5:14b,59.63103286921978,525,3,528,,,,,,,,,,,,,444,physics,True,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,63.86583601124585,537,3,540,,,,,,,,,,,,,445,physics,True,,5,5
+llm,Which object has less thermal energy?,service physics,physics,physics,qwen2.5:14b,59.61848911829293,524,3,527,,,,,,,,,,,,,446,physics,True,,5,5
+llm,"Is a T-shirt a solid, a liquid, or a gas?",service chemistry,chemistry,chemistry,qwen2.5:14b,62.07289104349911,531,3,534,,,,,,,,,,,,,447,physics,False,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,62.547262059524655,537,3,540,,,,,,,,,,,,,448,physics,True,,5,5
+llm,Which property do these three objects have in common?,service physics,physics,physics,qwen2.5:14b,59.62977302260697,527,3,530,,,,,,,,,,,,,449,physics,True,,5,5
+llm,Which property matches this object?,service physics,physics,physics,qwen2.5:14b,56.775408098474145,523,3,526,,,,,,,,,,,,,450,physics,True,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,62.37467401660979,537,3,540,,,,,,,,,,,,,451,physics,True,,5,5
+llm,Which property do these two objects have in common?,service physics,physics,physics,qwen2.5:14b,60.44046697206795,527,3,530,,,,,,,,,,,,,452,physics,True,,5,5
+llm,"Is a ballet shoe a solid, a liquid, or a gas?",service chemistry,chemistry,chemistry,qwen2.5:14b,61.77518214099109,531,3,534,,,,,,,,,,,,,453,physics,False,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,62.62450199574232,537,3,540,,,,,,,,,,,,,454,physics,True,,5,5
+llm,Compare the motion of three geese. Which goose was moving at the lowest speed?,service physics,physics,physics,qwen2.5:14b,62.73229303769767,534,3,537,,,,,,,,,,,,,455,physics,True,,5,5
+llm,Which property do these four objects have in common?,service physics,physics,physics,qwen2.5:14b,59.44544286467135,527,3,530,,,,,,,,,,,,,456,physics,True,,5,5
+llm,Which property matches this object?,service physics,physics,physics,qwen2.5:14b,56.37303693220019,523,3,526,,,,,,,,,,,,,457,physics,True,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,62.22499720752239,537,3,540,,,,,,,,,,,,,458,physics,True,,5,5
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,qwen2.5:14b,63.859465066343546,536,3,539,,,,,,,,,,,,,459,physics,True,,5,5
+llm,Which would smell more?,service -1,general,general,qwen2.5:14b,71.48148003034294,522,4,526,,,,,,,,,,,,,460,physics,False,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,65.47593604773283,537,3,540,,,,,,,,,,,,,461,physics,True,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,41.807092959061265,537,3,540,,,,,,,,,,,,,462,physics,True,,5,5
+llm,Which property matches this object?,service physics,physics,physics,qwen2.5:14b,60.147355077788234,523,3,526,,,,,,,,,,,,,463,physics,True,,5,5
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,qwen2.5:14b,59.46300504729152,527,3,530,,,,,,,,,,,,,464,physics,True,,5,5
+llm,Which material is this hat made of?,service chemistry,chemistry,chemistry,qwen2.5:14b,59.13595901802182,525,3,528,,,,,,,,,,,,,465,physics,False,,5,5
+llm,Which object has less thermal energy?,service physics,physics,physics,qwen2.5:14b,59.47086284868419,524,3,527,,,,,,,,,,,,,466,physics,True,,5,5
+llm,What is the direction of this push?,service physics,physics,physics,qwen2.5:14b,59.79868397116661,525,3,528,,,,,,,,,,,,,467,physics,True,,5,5
+llm,Which property matches this object?,service physics,physics,physics,qwen2.5:14b,58.896620059385896,523,3,526,,,,,,,,,,,,,468,physics,True,,5,5
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,qwen2.5:14b,58.64461092278361,527,3,530,,,,,,,,,,,,,469,physics,True,,5,5
+llm,Which object has the least thermal energy?,service physics,physics,physics,qwen2.5:14b,60.33461820334196,525,3,528,,,,,,,,,,,,,470,physics,True,,5,5
+llm,Which type of force from the people moves the car forward?,service physics,physics,physics,qwen2.5:14b,59.03472611680627,529,3,532,,,,,,,,,,,,,471,physics,True,,5,5
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,qwen2.5:14b,58.95499000325799,527,3,530,,,,,,,,,,,,,472,physics,True,,5,5
+llm,Which property do these four objects have in common?,service physics,physics,physics,qwen2.5:14b,59.52650704421103,527,3,530,,,,,,,,,,,,,473,physics,True,,5,5
+llm,Which property matches this object?,service -1,general,general,qwen2.5:14b,68.49529594182968,523,4,527,,,,,,,,,,,,,474,physics,False,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,62.98924097791314,537,3,540,,,,,,,,,,,,,475,physics,True,,5,5
+llm,Which property do these three objects have in common?,service physics,physics,physics,qwen2.5:14b,59.36066317372024,527,3,530,,,,,,,,,,,,,476,physics,True,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,63.293776009231806,537,3,540,,,,,,,,,,,,,477,physics,True,,5,5
+llm,"Complete the statement. Assume that the water balloon's mass did not change.
+The gravitational potential energy stored between the water balloon and Earth () as the water balloon fell toward Dale.",service physics,physics,physics,qwen2.5:14b,68.61130590550601,552,3,555,,,,,,,,,,,,,478,physics,True,,5,5
+llm,Select the solid.,service physics,physics,physics,qwen2.5:14b,56.5354588907212,521,3,524,,,,,,,,,,,,,479,physics,True,,5,5
+llm,Which would stretch more?,service physics,physics,physics,qwen2.5:14b,59.38940099440515,522,3,525,,,,,,,,,,,,,480,physics,True,,5,5
+llm,Select the liquid.,service chemistry,chemistry,chemistry,qwen2.5:14b,56.90836999565363,521,3,524,,,,,,,,,,,,,481,physics,False,,5,5
+llm,"During this time, thermal energy was transferred from () to ().",service physics,physics,physics,qwen2.5:14b,62.41165800020099,530,3,533,,,,,,,,,,,,,482,physics,True,,5,5
+llm,Which object has more thermal energy?,service physics,physics,physics,qwen2.5:14b,60.02494785934687,524,3,527,,,,,,,,,,,,,483,physics,True,,5,5
+llm,Which property do these four objects have in common?,service physics,physics,physics,qwen2.5:14b,60.11106516234577,527,3,530,,,,,,,,,,,,,484,physics,True,,5,5
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,qwen2.5:14b,63.62889311276376,536,3,539,,,,,,,,,,,,,485,physics,True,,5,5
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,qwen2.5:14b,42.384125059470534,536,3,539,,,,,,,,,,,,,486,physics,True,,5,5
+llm,Which of the following statements is true?,service -1,general,general,qwen2.5:14b,71.81064691394567,525,4,529,,,,,,,,,,,,,487,physics,False,,5,5
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,qwen2.5:14b,62.79790308326483,536,3,539,,,,,,,,,,,,,488,physics,True,,5,5
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,qwen2.5:14b,42.096112156286836,536,3,539,,,,,,,,,,,,,489,physics,True,,5,5
+llm,Which material is these shoes made of?,service physics,physics,physics,qwen2.5:14b,60.75992505066097,525,3,528,,,,,,,,,,,,,490,physics,True,,5,5
+llm,The mom and dad push the strollers at the same speed. Which stroller is pushed with a larger force?,service physics,physics,physics,qwen2.5:14b,65.83389895968139,540,3,543,,,,,,,,,,,,,491,physics,True,,5,5
+llm,Select the mixture.,service chemistry,chemistry,chemistry,qwen2.5:14b,56.611299980431795,521,3,524,,,,,,,,,,,,,492,physics,False,,5,5
+llm,Think about the magnetic force between the magnets in each pair. Which of the following statements is true?,service physics,physics,physics,qwen2.5:14b,63.11952602118254,537,3,540,,,,,,,,,,,,,493,physics,True,,5,5
+llm,Assume all other forces on Dylan are balanced. Which statement describes the forces on Dylan?,service physics,physics,physics,qwen2.5:14b,62.64776992611587,535,3,538,,,,,,,,,,,,,494,physics,True,,5,5
+llm,Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?,service physics,physics,physics,qwen2.5:14b,63.958048122003675,536,3,539,,,,,,,,,,,,,495,physics,True,,5,5
+llm,Which type of force from the boy moves the cart forward?,service physics,physics,physics,qwen2.5:14b,59.36545506119728,529,3,532,,,,,,,,,,,,,496,physics,True,,5,5
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,qwen2.5:14b,59.35708014294505,527,3,530,,,,,,,,,,,,,497,physics,True,,5,5
+llm,Will these magnets attract or repel each other?,service physics,physics,physics,qwen2.5:14b,41.957544861361384,527,3,530,,,,,,,,,,,,,498,physics,True,,5,5
+llm,Which of the following is better evidence that the train's kinetic energy changed?,service physics,physics,physics,qwen2.5:14b,62.95964913442731,532,3,535,,,,,,,,,,,,,499,physics,True,,5,5
+llm,don't call me bill anymore - call me bob,service -1,general,general,qwen2.5:14b,71.04495004750788,528,4,532,,,,,,,,,,,,,500,general,True,,5,5
+llm,how much has microsoft's stock changed over the last year,service economics,economics,economics,qwen2.5:14b,61.15283421240747,529,3,532,,,,,,,,,,,,,501,general,False,,5,5
+llm,what is my card's apr rate,service -1,general,general,qwen2.5:14b,72.54184107296169,525,4,529,,,,,,,,,,,,,502,general,True,,5,5
+llm,My top-up has been cancelled.,service economics,economics,economics,qwen2.5:14b,61.36240600608289,524,3,527,,,,,,,,,,,,,503,general,False,,5,5
+llm,Can I change the amount I made on a payment that I made to the payment is correct.,service -1,general,general,qwen2.5:14b,75.11328300461173,536,4,540,,,,,,,,,,,,,504,general,True,,5,5
+llm,Where are cards delivered to?,service -1,general,general,qwen2.5:14b,72.08343804813921,523,4,527,,,,,,,,,,,,,505,general,True,,5,5
+llm,Can I change my information?,service -1,general,general,qwen2.5:14b,72.79545511119068,523,4,527,,,,,,,,,,,,,506,general,True,,5,5
+llm,my capital one visa was taken without permission,service economics,economics,economics,qwen2.5:14b,59.92492404766381,526,3,529,,,,,,,,,,,,,507,general,False,,5,5
+llm,Can I add money with Apple Pay?,service -1,general,general,qwen2.5:14b,71.5051640290767,525,4,529,,,,,,,,,,,,,508,general,True,,5,5
+llm,How do I link this new card?,service -1,general,general,qwen2.5:14b,71.68596494011581,525,4,529,,,,,,,,,,,,,509,general,True,,5,5
+llm,"I am traveling to Germany, Will I be able to use my card there?",service -1,general,general,qwen2.5:14b,74.90902300924063,533,4,537,,,,,,,,,,,,,510,general,True,,5,5
+llm,"If I feel someone has my card information, can I get a new card?",service -1,general,general,qwen2.5:14b,74.3290800601244,533,4,537,,,,,,,,,,,,,511,general,True,,5,5
+llm,where were you thought of,service -1,general,general,qwen2.5:14b,72.3570070695132,523,4,527,,,,,,,,,,,,,512,general,True,,5,5
+llm,Are there any fees for adding money with an international card?,service -1,general,general,qwen2.5:14b,71.23641320504248,529,4,533,,,,,,,,,,,,,513,general,True,,5,5
+llm,what is the weather,service earth-science,earth-science,earth-science,qwen2.5:14b,83.21801014244556,522,5,527,,,,,,,,,,,,,514,general,False,,5,5
+llm,Why did I have to pay extra because I paid with card?,service economics,economics,economics,qwen2.5:14b,62.83433805219829,530,3,533,,,,,,,,,,,,,515,general,False,,5,5
+llm,create emergency phone numbers list,service -1,general,general,qwen2.5:14b,71.03291782550514,523,4,527,,,,,,,,,,,,,516,general,True,,5,5
+llm,switch over to low power mode to preserve battery life,service -1,general,general,qwen2.5:14b,72.25310290232301,528,4,532,,,,,,,,,,,,,517,general,True,,5,5
+llm,How do I get my top-up verification code?,service -1,general,general,qwen2.5:14b,70.88351505808532,527,4,531,,,,,,,,,,,,,518,general,True,,5,5
+llm,How long will it take to arrive?,service -1,general,general,qwen2.5:14b,71.62298611365259,525,4,529,,,,,,,,,,,,,519,general,True,,5,5
+llm,find my current location,service -1,general,general,qwen2.5:14b,71.08441204763949,522,4,526,,,,,,,,,,,,,520,general,True,,5,5
+llm,can i call you arnold instead,service -1,general,general,qwen2.5:14b,70.90309588238597,526,4,530,,,,,,,,,,,,,521,general,True,,5,5
+llm,What type of ATMs accept this card?,service economics,economics,economics,qwen2.5:14b,59.332989854738116,526,3,529,,,,,,,,,,,,,522,general,False,,5,5
+llm,The balance on my account wasn't updated after I made a depost.,service -1,general,general,qwen2.5:14b,73.71569913811982,532,4,536,,,,,,,,,,,,,523,general,True,,5,5
+llm,where do i report that my card was lost,service -1,general,general,qwen2.5:14b,70.90976811014116,527,4,531,,,,,,,,,,,,,524,general,True,,5,5
+llm,"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",service economics,economics,economics,qwen2.5:14b,64.06422494910657,537,3,540,,,,,,,,,,,,,525,general,False,,5,5
+llm,What will I be charged for a physical card?,service economics,economics,economics,qwen2.5:14b,59.61456103250384,527,3,530,,,,,,,,,,,,,526,general,False,,5,5
+llm,tell me what this song is called,service -1,general,general,qwen2.5:14b,71.04363688267767,525,4,529,,,,,,,,,,,,,527,general,True,,5,5
+llm,I lost my phone!,service -1,general,general,qwen2.5:14b,71.40914304181933,522,4,526,,,,,,,,,,,,,528,general,True,,5,5
+llm,what is the weather doing now,service earth-science,earth-science,earth-science,qwen2.5:14b,83.21780897676945,524,5,529,,,,,,,,,,,,,529,general,False,,5,5
+llm,"$1 extra has been charged on my statement, why is that?",service economics,economics,economics,qwen2.5:14b,63.42479493469,530,3,533,,,,,,,,,,,,,530,general,False,,5,5
+llm,The exchange rates are?,service economics,economics,economics,qwen2.5:14b,59.64786186814308,522,3,525,,,,,,,,,,,,,531,general,False,,5,5
+llm,play the next song please,service -1,general,general,qwen2.5:14b,70.2898078598082,523,4,527,,,,,,,,,,,,,532,general,True,,5,5
+llm,"Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but ""Pending"", and that status has never changed during the last two days.",service -1,general,general,qwen2.5:14b,91.12154389731586,570,4,574,,,,,,,,,,,,,533,general,True,,5,5
+llm,what shows are on tonight,service -1,general,general,qwen2.5:14b,71.65350392460823,523,4,527,,,,,,,,,,,,,534,general,True,,5,5
+llm,How can I fix a problem where contactless isn't working?,service -1,general,general,qwen2.5:14b,75.24819090031087,530,4,534,,,,,,,,,,,,,535,general,True,,5,5
+llm,what's the number of vacation days i have left,service -1,general,general,qwen2.5:14b,71.23791379854083,528,4,532,,,,,,,,,,,,,536,general,True,,5,5
+llm,what's on my list of things to remember,service -1,general,general,qwen2.5:14b,71.48525305092335,527,4,531,,,,,,,,,,,,,537,general,True,,5,5
+llm,"I want to add money but don't know what currencies you accept, can you tell me?",service economics,economics,economics,qwen2.5:14b,64.65612282045186,536,3,539,,,,,,,,,,,,,538,general,False,,5,5
+llm,What fiat currencies are supported for holding and exchange?,service economics,economics,economics,qwen2.5:14b,60.18746504560113,527,3,530,,,,,,,,,,,,,539,general,False,,5,5
+llm,I'm unable to use contactless payments for purchases.,service economics,economics,economics,qwen2.5:14b,60.14511198736727,528,3,531,,,,,,,,,,,,,540,general,False,,5,5
+llm,I couldn't get cash at the atm,service economics,economics,economics,qwen2.5:14b,59.93032502010465,526,3,529,,,,,,,,,,,,,541,general,False,,5,5
+llm,Will it automatically top-up money if there isn't a lot left?,service -1,general,general,qwen2.5:14b,74.3068449664861,531,4,535,,,,,,,,,,,,,542,general,True,,5,5
+llm,i would like to change the name on my first bankcard account,service -1,general,general,qwen2.5:14b,74.46029898710549,531,4,535,,,,,,,,,,,,,543,general,True,,5,5
+llm,places i can use the card,service -1,general,general,qwen2.5:14b,71.53670093975961,524,4,528,,,,,,,,,,,,,544,general,True,,5,5
+llm,I would like to know why I was charged twice for my purchase.,service economics,economics,economics,qwen2.5:14b,62.356334179639816,531,3,534,,,,,,,,,,,,,545,general,False,,5,5
+llm,what is the expiration month of my card,service -1,general,general,qwen2.5:14b,71.99013791978359,526,4,530,,,,,,,,,,,,,546,general,True,,5,5
+llm,"I sent out money, but was charged extra for transferring. Why?",service economics,economics,economics,qwen2.5:14b,63.46358102746308,531,3,534,,,,,,,,,,,,,547,general,False,,5,5
+llm,when do i get my next paycheck,service -1,general,general,qwen2.5:14b,70.92525414191186,525,4,529,,,,,,,,,,,,,548,general,True,,5,5
+llm,Where do my funds come from?,service economics,economics,economics,qwen2.5:14b,60.072341933846474,524,3,527,,,,,,,,,,,,,549,general,False,,5,5
+llm,How would I use my money in a different country?,service economics,economics,economics,qwen2.5:14b,59.327085968106985,528,3,531,,,,,,,,,,,,,550,general,False,,5,5
+llm,"I just activated auto top-up, but it is not letting me enable it. Why not?",service -1,general,general,qwen2.5:14b,74.18427499942482,536,4,540,,,,,,,,,,,,,551,general,True,,5,5
+llm,Is there an age minimum?,service -1,general,general,qwen2.5:14b,71.4092010166496,523,4,527,,,,,,,,,,,,,552,general,True,,5,5
+llm,"My top up hasn't worked, it's been stuck in pending for the last couple hours",service -1,general,general,qwen2.5:14b,74.64313809759915,536,4,540,,,,,,,,,,,,,553,general,True,,5,5
+llm,"I see my top-up was canceled, but why?",service economics,economics,economics,qwen2.5:14b,61.41645601019263,528,3,531,,,,,,,,,,,,,554,general,False,,5,5
+llm,help me to transfer my 401k,service economics,economics,economics,qwen2.5:14b,60.36366289481521,528,3,531,,,,,,,,,,,,,555,general,False,,5,5
+llm,I took out a foreign currency and the exchange rate is wrong.,service economics,economics,economics,qwen2.5:14b,63.80810891278088,530,3,533,,,,,,,,,,,,,556,general,False,,5,5
+llm,can i redeem my points by transferring them to someone as a gift,service economics,economics,economics,qwen2.5:14b,62.98344791866839,531,3,534,,,,,,,,,,,,,557,general,False,,5,5
+llm,I understand that this is extremely late. After going over my transactions for the last couple of months I noticed a large charge that I'm sure I did not make. Is there anyway I can still dispute this?,service economics,economics,economics,qwen2.5:14b,73.23578395880759,559,3,562,,,,,,,,,,,,,558,general,False,,5,5
+llm,what is the amount of blood needed to stay alive,service biology,biology,biology,qwen2.5:14b,60.29029889032245,528,3,531,,,,,,,,,,,,,559,general,False,,5,5
+llm,find travel alerts for haiti,service -1,general,general,qwen2.5:14b,72.22081394866109,525,4,529,,,,,,,,,,,,,560,general,True,,5,5
+llm,whats the exchange rate for us dollars to british pounds,service -1,general,general,qwen2.5:14b,71.7490951064974,529,4,533,,,,,,,,,,,,,561,general,True,,5,5
+llm,can you let me know the next open slot for me to get my oil changed,service -1,general,general,qwen2.5:14b,75.69329999387264,534,4,538,,,,,,,,,,,,,562,general,True,,5,5
+llm,Has someone accessed my card there are payments I did not make that are showing up on the app.,service economics,economics,economics,qwen2.5:14b,66.59612501971424,537,3,540,,,,,,,,,,,,,563,general,False,,5,5
+llm,disconnect from wifi immediately please,service -1,general,general,qwen2.5:14b,74.7056829277426,523,4,527,,,,,,,,,,,,,564,general,True,,5,5
+llm,is the movie avatar culturally insensitive,service -1,general,general,qwen2.5:14b,73.80572590045631,524,4,528,,,,,,,,,,,,,565,general,True,,5,5
+llm,How do I use the app if I don't have my phone with me?,service -1,general,general,qwen2.5:14b,74.41150094382465,533,4,537,,,,,,,,,,,,,566,general,True,,5,5
+llm,what's the french word you use for potato,service -1,general,general,qwen2.5:14b,71.37652300298214,527,4,531,,,,,,,,,,,,,567,general,True,,5,5
+llm,say again please,service -1,general,general,qwen2.5:14b,68.25398397631943,521,4,525,,,,,,,,,,,,,568,general,True,,5,5
+llm,i want to start talking to you in swedish,service -1,general,general,qwen2.5:14b,71.4999649208039,528,4,532,,,,,,,,,,,,,569,general,True,,5,5
+llm,what is the cheapest new car for this year,service economics,economics,economics,qwen2.5:14b,60.2042400278151,527,3,530,,,,,,,,,,,,,570,general,False,,5,5
+llm,Which fiat currencies do you support?,service -1,general,general,qwen2.5:14b,70.87665400467813,524,4,528,,,,,,,,,,,,,571,general,True,,5,5
+llm,how much vacation time do i have,service -1,general,general,qwen2.5:14b,71.35160407051444,525,4,529,,,,,,,,,,,,,572,general,True,,5,5
+llm,HOw do I get my card back after the ATM has pulled it in?,service -1,general,general,qwen2.5:14b,77.50813290476799,533,4,537,,,,,,,,,,,,,573,general,True,,5,5
+llm,i would like to make a phone call,service -1,general,general,qwen2.5:14b,71.64641004055738,526,4,530,,,,,,,,,,,,,574,general,True,,5,5
+llm,i would like help moving money from one account to another,service -1,general,general,qwen2.5:14b,71.65759103372693,529,4,533,,,,,,,,,,,,,575,general,True,,5,5
+llm,what's your home country,service -1,general,general,qwen2.5:14b,71.1964089423418,523,4,527,,,,,,,,,,,,,576,general,True,,5,5
+llm,I wasn't applied the correct exchange rate for an item I bought,service economics,economics,economics,qwen2.5:14b,62.62595811858773,531,3,534,,,,,,,,,,,,,577,general,False,,5,5
+llm,restart my newspaper delivery for monday,service -1,general,general,qwen2.5:14b,70.83017099648714,524,4,528,,,,,,,,,,,,,578,general,True,,5,5
+llm,what are some of your hobbies,service -1,general,general,qwen2.5:14b,71.7857968993485,524,4,528,,,,,,,,,,,,,579,general,True,,5,5
+llm,what do i go by,service -1,general,general,qwen2.5:14b,70.80711191520095,523,4,527,,,,,,,,,,,,,580,general,True,,5,5
+llm,i appeciate it,service -1,general,general,qwen2.5:14b,71.69300899840891,523,4,527,,,,,,,,,,,,,581,general,True,,5,5
+llm,I am awaiting my refund,service -1,general,general,qwen2.5:14b,71.05572381988168,523,4,527,,,,,,,,,,,,,582,general,True,,5,5
+llm,I am experiencing difficulty providing my identity.,service -1,general,general,qwen2.5:14b,72.87899614311755,525,4,529,,,,,,,,,,,,,583,general,True,,5,5
+llm,How do I retrieve my card from the machine?,service -1,general,general,qwen2.5:14b,71.1094569414854,527,4,531,,,,,,,,,,,,,584,general,True,,5,5
+llm,please read me the last text message i received,service -1,general,general,qwen2.5:14b,71.36770500801504,527,4,531,,,,,,,,,,,,,585,general,True,,5,5
+llm,What do you charge for physical cards?,service -1,general,general,qwen2.5:14b,70.86110697127879,525,4,529,,,,,,,,,,,,,586,general,True,,5,5
+llm,I want to know where the funds come from.,service economics,economics,economics,qwen2.5:14b,60.00372511334717,527,3,530,,,,,,,,,,,,,587,general,False,,5,5
+llm,Help!  I can't find my card.,service -1,general,general,qwen2.5:14b,72.44393206201494,527,4,531,,,,,,,,,,,,,588,general,True,,5,5
+llm,what are the reviews like for l'auberge aubergine,service -1,general,general,qwen2.5:14b,75.4888141527772,532,4,536,,,,,,,,,,,,,589,general,True,,5,5
+llm,i would like for my phone to be synced with you,service -1,general,general,qwen2.5:14b,74.972775997594,529,4,533,,,,,,,,,,,,,590,general,True,,5,5
+llm,what's the minimum payment,service economics,economics,economics,qwen2.5:14b,60.66008401103318,523,3,526,,,,,,,,,,,,,591,general,False,,5,5
+llm,what time is it in california,service -1,general,general,qwen2.5:14b,70.99834689870477,524,4,528,,,,,,,,,,,,,592,general,True,,5,5
+llm,is socket converter required in france,service economics,economics,economics,qwen2.5:14b,60.903916135430336,524,3,527,,,,,,,,,,,,,593,general,False,,5,5
+llm,"Hi, I have been overcharged for my payment last Saturday. I guess exchange rate was wrong.",service economics,economics,economics,qwen2.5:14b,65.6889860983938,537,3,540,,,,,,,,,,,,,594,general,False,,5,5
+llm,what name do you have for me,service -1,general,general,qwen2.5:14b,72.13560189120471,525,4,529,,,,,,,,,,,,,595,general,True,,5,5
+llm,is it okay to use butter instead of margarine,service chemistry,chemistry,chemistry,qwen2.5:14b,60.725025134161115,528,3,531,,,,,,,,,,,,,596,general,False,,5,5
+llm,How can I fix a problem where my virtual card is rejected?,service -1,general,general,qwen2.5:14b,74.10485087893903,530,4,534,,,,,,,,,,,,,597,general,True,,5,5
+llm,can you help me understand why my card got declined,service -1,general,general,qwen2.5:14b,71.733342949301,528,4,532,,,,,,,,,,,,,598,general,True,,5,5
+llm,please let me know the status of my vacation request,service -1,general,general,qwen2.5:14b,73.81825894117355,528,4,532,,,,,,,,,,,,,599,general,True,,5,5

@@ -1,0 +1,124 @@
+[1] Full dataset loaded: (4241, 13)
+[1] Number of topics: 25
+[1] Topics:
+['biology', 'capitalization', 'chemistry', 'civics', 'culture', 'earth-science', 'economics', 'figurative-language', 'geography', 'grammar', 'literacy-in-science', 'phonological-awareness', 'physics', 'pronouns', 'punctuation', 'reading-comprehension', 'reference-skills', 'science-and-engineering-practices', 'units-and-measurement', 'us-history', 'verbs', 'vocabulary', 'word-study', 'world-history', 'writing-strategies']
+
+============================================================
+BUILDING SCIENCEQA TEST DATASET
+============================================================
+[2] Selected topics:
+['biology', 'physics', 'chemistry']
+[2] Filtered dataset shape: (1630, 13)
+[2] Topic counts:
+topic
+biology      800
+physics      617
+chemistry    213
+Name: count, dtype: int64
+[3] Expected service counts:
+expected_service
+biology      800
+physics      617
+chemistry    213
+Name: count, dtype: int64
+
+[4] Sampling specialist topics...
+[4] Sampled specialist topic counts:
+topic
+biology      100
+chemistry    100
+physics      100
+Name: count, dtype: int64
+
+[5] Saved: ../specialists_dataset/test_service_3.csv
+[5] Saved: ../specialists_dataset/test_service_3.json
+
+[DONE] test_service_3
+[DONE] Total rows: 300
+
+============================================================
+BUILDING SCIENCEQA TEST DATASET
+============================================================
+[2] Selected topics:
+['biology', 'physics', 'chemistry', 'earth-science', 'economics']
+[2] Filtered dataset shape: (2006, 13)
+[2] Topic counts:
+topic
+biology          800
+physics          617
+earth-science    221
+chemistry        213
+economics        155
+Name: count, dtype: int64
+[3] Expected service counts:
+expected_service
+biology          800
+physics          617
+earth-science    221
+chemistry        213
+economics        155
+Name: count, dtype: int64
+
+[4] Sampling specialist topics...
+[4] Sampled specialist topic counts:
+topic
+biology          100
+chemistry        100
+earth-science    100
+economics        100
+physics          100
+Name: count, dtype: int64
+
+[5] Saved: ../specialists_dataset/test_service_5.csv
+[5] Saved: ../specialists_dataset/test_service_5.json
+
+[DONE] test_service_5
+[DONE] Total rows: 500
+
+============================================================
+BUILDING SCIENCEQA TEST DATASET
+============================================================
+[2] Selected topics:
+['biology', 'physics', 'chemistry', 'earth-science', 'economics', 'writing-strategies', 'figurative-language', 'reference-skills']
+[2] Filtered dataset shape: (2772, 13)
+[2] Topic counts:
+topic
+biology                800
+physics                617
+writing-strategies     355
+figurative-language    267
+earth-science          221
+chemistry              213
+economics              155
+reference-skills       144
+Name: count, dtype: int64
+[3] Expected service counts:
+expected_service
+biology                800
+physics                617
+writing-strategies     355
+figurative-language    267
+earth-science          221
+chemistry              213
+economics              155
+reference-skills       144
+Name: count, dtype: int64
+
+[4] Sampling specialist topics...
+[4] Sampled specialist topic counts:
+topic
+biology                100
+chemistry              100
+earth-science          100
+economics              100
+figurative-language    100
+physics                100
+reference-skills       100
+writing-strategies     100
+Name: count, dtype: int64
+
+[5] Saved: ../specialists_dataset/test_service_8.csv
+[5] Saved: ../specialists_dataset/test_service_8.json
+
+[DONE] test_service_8
+[DONE] Total rows: 800

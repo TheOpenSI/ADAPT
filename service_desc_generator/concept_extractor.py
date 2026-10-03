@@ -2,23 +2,33 @@ import json
 import os
 import sys
 
-sys.path.append(
-    f"{os.path.dirname(os.path.abspath(__file__))}/.."
-)
+project_root = os.path.abspath(
+        os.path.join(
+            os.path.dirname(__file__),
+            ".."
+        )
+    )
+
+sys.path.insert(0, project_root)
+
 import ollama
 import pandas as pd
 
-from data.dataset.config import SERVICE_SETS
+from data.ScienceQA.specialists_dataset.scienceqa_config import SCIENCEQA_SERVICE_SETS
+
 
 class ServiceConceptExtractor:
 
     def __init__(
         self,
-        data_path="../service_desc_generator/validation_questions/all_validation_questions.json",
+        data_path,
+        service_set,
         model="qwen2.5:32b",
         verbose=True,
     ):
         """Initialize the extractor and load validation data."""
+
+        self.service_set = service_set
 
         self.data_path = data_path
         self.model = model
@@ -37,24 +47,20 @@ class ServiceConceptExtractor:
 
 
     def _load_data(self):
-        """Load and validate the specialist-only validation dataset."""
+        """Load the specialist-only validation dataset."""
 
         df = pd.read_json(self.data_path)
         self._log(f"[LOAD] validation data: {df.shape}")
         self._log(f"[LOAD] routing services: {df['expected_service'].nunique()}")
-        self._log(f"[LOAD] original subjects: {df['subject'].nunique()}")
-
-
-        assert "general" not in df["expected_service"].values, (
-        "General queries must not be used for description construction."
+        self._log(
+            f"[LOAD] specialist subjects: "
+            f"{df['subject'].nunique()}"
         )
-
-        expected_subjects = set(SERVICE_SETS[14])
         actual_subjects = set(df["subject"].unique())
-
+        expected_subjects = set(self.service_set)
+        
         assert actual_subjects == expected_subjects, (
-            f"Unexpected validation subjects. "
-            f"Expected: {expected_subjects}, "
+            f"Expected subjects: {expected_subjects}, "
             f"got: {actual_subjects}"
         )
 
@@ -63,7 +69,7 @@ class ServiceConceptExtractor:
 
     def _group_by_subject(self):
         """
-        Group validation examples by original MMLU subject.
+        Group validation examples by specialist subject.
         """
         groups = {
             subject: group.copy()
@@ -112,11 +118,11 @@ class ServiceConceptExtractor:
 
     def _build_concept_extraction_prompt(self,subject,formatted_questions):
         """
-        Build the prompt used to extract concepts from one subject's validation questions.
+        Build the prompt used to extract concepts from one validation subject.
         """
 
         prompt = f"""
-You are analyzing validation questions from an academic subject.
+You are analyzing validation questions from a specialist academic domain.
 
 SUBJECT:
 {subject}
@@ -319,14 +325,14 @@ Return ONLY valid JSON in this format:
         return result
 
 
-    def extract_all_core_concepts(self, concept_path="concept_extraction.json", output_path="core_concepts.json"):
+    def extract_all_core_concepts(self, general_concept_path, output_path):
         """
         Select core concepts for all specialist subjects.
         """
 
-        concept_data = self._load_extracted_concepts(concept_path)
+        concept_data = self._load_extracted_concepts(general_concept_path)
 
-        specialists = SERVICE_SETS[14]
+        specialists = self.service_set
 
         results = {}
         total = len(specialists)
@@ -361,15 +367,32 @@ Return ONLY valid JSON in this format:
 
 if __name__ == "__main__":
 
-    extractor = ServiceConceptExtractor()
+
+    output_dir = "data/ScienceQA/descriptions"
+    os.makedirs(output_dir, exist_ok=True)
+    
+
+    validation_path = os.path.join(
+        project_root,
+        "data",
+        "ScienceQA",
+        "validation_questions",
+        "scienceqa_validation_questions.json"
+    )
+
+    extractor = ServiceConceptExtractor(
+        data_path=validation_path,
+        service_set=SCIENCEQA_SERVICE_SETS[10]
+
+    )
 
     # Stage 1: validation questions -> extracted concepts
-    extracted_concepts_results = extractor.extract_all(
-        output_path="concept_extraction.json"
+    extractor.extract_all(
+        output_path=f"{output_dir}/general_concepts_extraction.json"
     )
 
     # Stage 2: extracted concepts -> specialist core concepts
-    core_concepts_results = extractor.extract_all_core_concepts(
-        concept_path="concept_extraction.json",
-        output_path="core_concepts.json"
+    extractor.extract_all_core_concepts(
+        general_concept_path=f"{output_dir}/general_concepts_extraction.json",
+        output_path=f"{output_dir}/core_concepts.json"
     )

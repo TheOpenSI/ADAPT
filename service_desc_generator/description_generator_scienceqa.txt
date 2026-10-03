@@ -1,0 +1,36 @@
+[LOAD] data/ScienceQA/descriptions/general_concepts_extraction.json: 8 subjects
+[LOAD] data/ScienceQA/descriptions/core_concepts.json: 8 subjects
+
+[1/8] Generating specialist description: biology
+[SPECIALIST] Generating description: biology
+[SPECIALIST] biology: 42 words
+
+[2/8] Generating specialist description: physics
+[SPECIALIST] Generating description: physics
+[SPECIALIST] physics: 34 words
+
+[3/8] Generating specialist description: chemistry
+[SPECIALIST] Generating description: chemistry
+[SPECIALIST] chemistry: 46 words
+
+[4/8] Generating specialist description: earth-science
+[SPECIALIST] Generating description: earth-science
+[SPECIALIST] earth-science: 35 words
+
+[5/8] Generating specialist description: economics
+[SPECIALIST] Generating description: economics
+[SPECIALIST] economics: 37 words
+
+[6/8] Generating specialist description: writing-strategies
+[SPECIALIST] Generating description: writing-strategies
+[SPECIALIST] writing-strategies: 49 words
+
+[7/8] Generating specialist description: figurative-language
+[SPECIALIST] Generating description: figurative-language
+[SPECIALIST] figurative-language: 41 words
+
+[8/8] Generating specialist description: reference-skills
+[SPECIALIST] Generating description: reference-skills
+[SPECIALIST] reference-skills: 27 words
+
+[DONE] Saved specialist descriptions to data/ScienceQA/descriptions/service_descriptions_8.json
