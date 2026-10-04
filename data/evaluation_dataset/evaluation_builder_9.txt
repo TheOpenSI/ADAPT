@@ -1,0 +1,40 @@
+Saved: ../evaluation_dataset/medmcqa_test_eval_service_3.csv
+expected_service
+Forensic Medicine               60
+Radiology                       60
+Social & Preventive Medicine    60
+general                         60
+Name: count, dtype: int64
+Saved: ../evaluation_dataset/medmcqa_test_eval_service_5.csv
+expected_service
+Forensic Medicine               60
+Microbiology                    60
+Ophthalmology                   60
+Radiology                       60
+Social & Preventive Medicine    60
+general                         60
+Name: count, dtype: int64
+Saved: ../evaluation_dataset/medmcqa_test_eval_service_7.csv
+expected_service
+ENT                             60
+Forensic Medicine               60
+Gynaecology & Obstetrics        60
+Microbiology                    60
+Ophthalmology                   60
+Radiology                       60
+Social & Preventive Medicine    60
+general                         60
+Name: count, dtype: int64
+Saved: ../evaluation_dataset/medmcqa_test_eval_service_9.csv
+expected_service
+Dental                          60
+ENT                             60
+Forensic Medicine               60
+Gynaecology & Obstetrics        60
+Microbiology                    60
+Ophthalmology                   60
+Radiology                       60
+Skin                            60
+Social & Preventive Medicine    60
+general                         60
+Name: count, dtype: int64

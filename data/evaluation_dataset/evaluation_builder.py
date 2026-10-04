@@ -5,7 +5,7 @@ sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 
 import pandas as pd
 # from dataset.config import SERVICE_SETS
-from ScienceQA.specialists_dataset.scienceqa_config import SCIENCEQA_SERVICE_SETS
+from MedMCQA.specialists_dataset.medmcqa_config import MEDMCQA_SERVICE_SETS
 
 class EvaluationBuilder:
 
@@ -15,7 +15,7 @@ class EvaluationBuilder:
     def _load_specialists(self, service_id):
 
         file_path = (
-            f"../ScienceQA/specialists_dataset/"
+            f"../MedMCQA/specialists_dataset/"
             f"{self.split}_service_{service_id}.csv"
         )
 
@@ -49,7 +49,7 @@ class EvaluationBuilder:
 
         file_path = (
             f"../evaluation_dataset/"
-            f"scienceqa_{self.split}_eval_service_{service_id}.csv"
+            f"medmcqa_{self.split}_eval_service_{service_id}.csv"
         )
 
         df.to_csv(
@@ -84,7 +84,7 @@ if __name__ == "__main__":
         split="test"
     )
 
-    for service_id in SCIENCEQA_SERVICE_SETS.keys():
+    for service_id in MEDMCQA_SERVICE_SETS.keys():
 
         builder.build_and_save(
             service_id
