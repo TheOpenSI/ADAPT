@@ -1,0 +1,481 @@
+routing_method,query,raw_response,predicted_label,top_candidate,model_name,latency_ms,prompt_tokens,completion_tokens,total_tokens,max_score,margin,margin_ratio,normalized_margin,mean_score,std_score,top_zscore,second_top_zscore,zscore_margin,scores,zscores,confidence_threshold,query_id,expected_service,is_correct,error,specialist_service_count,total_service_count
+llm,All of the following are features of a nasal foreign body except?,service ENT,ENT,ENT,qwen3:32b,6913.009113864973,797,249,1046,,,,,,,,,,,,,0,ENT,True,,7,7
+llm,All of the following are features of enlarged adenoids except?,service ENT,ENT,ENT,qwen3:32b,5409.612510818988,796,220,1016,,,,,,,,,,,,,1,ENT,True,,7,7
+llm,Epistaxis after ligating external carotid aery is due to which vessel?,service ENT,ENT,ENT,qwen3:32b,7202.257581986487,802,293,1095,,,,,,,,,,,,,2,ENT,True,,7,7
+llm,Earliest age for doing BERA is?,service ENT,ENT,ENT,qwen3:32b,5930.320936022326,793,241,1034,,,,,,,,,,,,,3,ENT,True,,7,7
+llm,widening of the cailaginous pa of the extra auditory canal called.,service ENT,ENT,ENT,qwen3:32b,7068.574675824493,800,287,1087,,,,,,,,,,,,,4,ENT,True,,7,7
+llm,Killian's polyp is a/an,service ENT,ENT,ENT,qwen3:32b,8001.977632055059,793,325,1118,,,,,,,,,,,,,5,ENT,True,,7,7
+llm,The main muscle affected in congenital muscular toicollis is?,service -1,general,general,qwen3:32b,7054.0609520394355,798,286,1084,,,,,,,,,,,,,6,ENT,False,,7,7
+llm,Occipitomental view of PNS X-ray called as,service ENT,ENT,ENT,qwen3:32b,7007.462200010195,798,284,1082,,,,,,,,,,,,,7,ENT,True,,7,7
+llm,Investigation of choice for diagnosing submandibular gland duct stones is,service Radiology,Radiology,Radiology,qwen3:32b,23086.05287480168,800,937,1737,,,,,,,,,,,,,8,ENT,False,,7,7
+llm,"A 10 year old child presents with non foul purulent smelling discharge, which is painless. Patient repos that he is able to hear better in the presence of discharge than when the ear is dry. The most probable diagnosis is",service ENT,ENT,ENT,qwen3:32b,9239.83439989388,832,364,1196,,,,,,,,,,,,,9,ENT,True,,7,7
+llm,Singapore ear is,service ENT,ENT,ENT,qwen3:32b,5569.4429280702025,788,226,1014,,,,,,,,,,,,,10,ENT,True,,7,7
+llm,All of the following are causes of perforation of cailaginous pa of nasal septum except?,service ENT,ENT,ENT,qwen3:32b,4407.010567840189,805,178,983,,,,,,,,,,,,,11,ENT,True,,7,7
+llm,All of the following are true about vasomotor rhinitis except ?,service ENT,ENT,ENT,qwen3:32b,7807.848073076457,800,317,1117,,,,,,,,,,,,,12,ENT,True,,7,7
+llm,Miracle fruit is used to change the taste from?,service ENT,ENT,ENT,qwen3:32b,6191.839007893577,795,251,1046,,,,,,,,,,,,,13,ENT,True,,7,7
+llm,Histelberger's sign is seen in?,service ENT,ENT,ENT,qwen3:32b,32098.131788196042,793,1303,2096,,,,,,,,,,,,,14,ENT,True,,7,7
+llm,Food paicles mostly get obstructed in which pa of esophagus -,service -1,general,general,qwen3:32b,8208.598572062328,800,321,1121,,,,,,,,,,,,,15,ENT,False,,7,7
+llm,Which of the following terms is used to describe the most prominent point of nasal tip?,service ENT,ENT,ENT,qwen3:32b,3005.338981980458,801,121,922,,,,,,,,,,,,,16,ENT,True,,7,7
+llm,All of the following are are a pa of medial wall of the middle ear except?,service ENT,ENT,ENT,qwen3:32b,3839.6334489807487,801,155,956,,,,,,,,,,,,,17,ENT,True,,7,7
+llm,Which is the narrowest poion of the esophagus?,service -1,general,general,qwen3:32b,7658.3201920147985,797,311,1108,,,,,,,,,,,,,18,ENT,False,,7,7
+llm,Lining epithelium of vocal cord is,service ENT,ENT,ENT,qwen3:32b,9117.526502115652,794,371,1165,,,,,,,,,,,,,19,ENT,True,,7,7
+llm,Treatment of central safe perforation of tympanic membrane includes all except,service ENT,ENT,ENT,qwen3:32b,4593.835382023826,798,186,984,,,,,,,,,,,,,20,ENT,True,,7,7
+llm,The aery which leads to bleeding in Woodruff's area is?,service ENT,ENT,ENT,qwen3:32b,9874.00509789586,799,401,1200,,,,,,,,,,,,,21,ENT,True,,7,7
+llm,Paial and full closure done in,service ENT,ENT,ENT,qwen3:32b,13192.411978030577,792,537,1329,,,,,,,,,,,,,22,ENT,True,,7,7
+llm,What is the intensity in decibel of normal conversation in humans?,service ENT,ENT,ENT,qwen3:32b,5130.074900807813,797,208,1005,,,,,,,,,,,,,23,ENT,True,,7,7
+llm,First line treatment for mild retraction pocket in the ear is,service ENT,ENT,ENT,qwen3:32b,8221.028650877997,797,334,1131,,,,,,,,,,,,,24,ENT,True,,7,7
+llm,Cristae are seen in?,service -1,general,general,qwen3:32b,9042.824549833313,791,368,1159,,,,,,,,,,,,,25,ENT,False,,7,7
+llm,Stimulation of the external auditory canal leads to cough due to which nerve,service ENT,ENT,ENT,qwen3:32b,6529.599976027384,799,265,1064,,,,,,,,,,,,,26,ENT,True,,7,7
+llm,Ossicle M/C involved in CSOM:,service ENT,ENT,ENT,qwen3:32b,8624.528928892687,795,348,1143,,,,,,,,,,,,,27,ENT,True,,7,7
+llm,What is the type of epithelium of the adenoid?,service ENT,ENT,ENT,qwen3:32b,6923.531695036218,797,281,1078,,,,,,,,,,,,,28,ENT,True,,7,7
+llm,In electrocochleography:,service ENT,ENT,ENT,qwen3:32b,8997.616182081401,792,366,1158,,,,,,,,,,,,,29,ENT,True,,7,7
+llm,The narrowest pa of the nasal cavity is ?,service ENT,ENT,ENT,qwen3:32b,4276.687493082136,795,173,968,,,,,,,,,,,,,30,ENT,True,,7,7
+llm,Which fracture of the petrous bone will cause facial nerve palsy:,service ENT,ENT,ENT,qwen3:32b,9370.61840086244,799,381,1180,,,,,,,,,,,,,31,ENT,True,,7,7
+llm,Diplacusis is,service ENT,ENT,ENT,qwen3:32b,8238.567931111902,790,335,1125,,,,,,,,,,,,,32,ENT,True,,7,7
+llm,All of the following are removed in veical hemilaryngectomy except?,service ENT,ENT,ENT,qwen3:32b,6973.055716836825,800,283,1083,,,,,,,,,,,,,33,ENT,True,,7,7
+llm,Deafness in a case of Paget's disease is due to,service ENT,ENT,ENT,qwen3:32b,5375.368705950677,799,218,1017,,,,,,,,,,,,,34,ENT,True,,7,7
+llm,All of the following are true about nasal myiasis except?,service ENT,ENT,ENT,qwen3:32b,6823.000738862902,797,277,1074,,,,,,,,,,,,,35,ENT,True,,7,7
+llm,What lies between the middle and inferior turbinate?,service ENT,ENT,ENT,qwen3:32b,4903.188465861604,794,199,993,,,,,,,,,,,,,36,ENT,True,,7,7
+llm,All of the following are extrinsic laryngeal membranes except?,service ENT,ENT,ENT,qwen3:32b,8071.499651996419,798,328,1126,,,,,,,,,,,,,37,ENT,True,,7,7
+llm,ETHMOIDAL BULLAE are seen in?,service ENT,ENT,ENT,qwen3:32b,6698.166684946045,795,272,1067,,,,,,,,,,,,,38,ENT,True,,7,7
+llm,All of the following are features of Tubotympanic CSOM except ?,service ENT,ENT,ENT,qwen3:32b,4764.598238049075,800,193,993,,,,,,,,,,,,,39,ENT,True,,7,7
+llm,Water's view is used to obtain diagnostic information of:,service ENT,ENT,ENT,qwen3:32b,16437.44438700378,796,669,1465,,,,,,,,,,,,,40,ENT,True,,7,7
+llm,The most common site of the branchial cyst is:,service ENT,ENT,ENT,qwen3:32b,5722.240326926112,796,232,1028,,,,,,,,,,,,,41,ENT,True,,7,7
+llm,All of the following are true about Spasmoidic Dysphonia except ?,service ENT,ENT,ENT,qwen3:32b,7435.8873991295695,801,302,1103,,,,,,,,,,,,,42,ENT,True,,7,7
+llm,Where is the auditory coex located inside the brain?,service ENT,ENT,ENT,qwen3:32b,13858.772492036223,795,564,1359,,,,,,,,,,,,,43,ENT,True,,7,7
+llm,Which of the following sites of Ca larynx has the best prognosis?,service ENT,ENT,ENT,qwen3:32b,6285.2456739638,799,255,1054,,,,,,,,,,,,,44,ENT,True,,7,7
+llm,Vesicles on external ear are seen in,service ENT,ENT,ENT,qwen3:32b,10025.595934130251,794,408,1202,,,,,,,,,,,,,45,ENT,True,,7,7
+llm,Which of the following is the predisposing factor for ethmoidal carcinoma,service ENT,ENT,ENT,qwen3:32b,5234.087622957304,799,212,1011,,,,,,,,,,,,,46,ENT,True,,7,7
+llm,"A diabetic patient presents with foul smelling ear discharge, fever and severe pain in the ear. On examination there is thick yellow coloured discharge from the ear and granulation tissue in the canal. Which of the following is the appropriate management for this patient?",service ENT,ENT,ENT,qwen3:32b,3887.7568698953837,833,156,989,,,,,,,,,,,,,47,ENT,True,,7,7
+llm,Treatment of nasal bone fracture includes all except,service ENT,ENT,ENT,qwen3:32b,5565.938476938754,793,226,1019,,,,,,,,,,,,,48,ENT,True,,7,7
+llm,Most common benign tumor of ear canal is,service ENT,ENT,ENT,qwen3:32b,7749.208644963801,793,315,1108,,,,,,,,,,,,,49,ENT,True,,7,7
+llm,Nasal vestibule is,service ENT,ENT,ENT,qwen3:32b,6819.729445036501,791,277,1068,,,,,,,,,,,,,50,ENT,True,,7,7
+llm,Callaural fistula is an abnormality of ?,service ENT,ENT,ENT,qwen3:32b,8345.098859164864,796,339,1135,,,,,,,,,,,,,51,ENT,True,,7,7
+llm,Sluder's neuralgia is also called as,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,8066.572017036378,794,328,1122,,,,,,,,,,,,,52,ENT,False,,7,7
+llm,65 year old person with hearing loss with normal speech discrimination is suffering from?,service ENT,ENT,ENT,qwen3:32b,5868.575550848618,800,238,1038,,,,,,,,,,,,,53,ENT,True,,7,7
+llm,Ethmoidal infundibulum lies between ?,service ENT,ENT,ENT,qwen3:32b,5973.571177106351,795,242,1037,,,,,,,,,,,,,54,ENT,True,,7,7
+llm,True regarding traction diveiculi of esophagus is all except,service -1,general,general,qwen3:32b,7701.772588072345,798,313,1111,,,,,,,,,,,,,55,ENT,False,,7,7
+llm,Mac Ewan's triangle is the landmark for:,service Radiology,Radiology,Radiology,qwen3:32b,9762.539571151137,795,397,1192,,,,,,,,,,,,,56,ENT,False,,7,7
+llm,Most common ossicle affected due to trauma -,service ENT,ENT,ENT,qwen3:32b,4804.932051803917,794,195,989,,,,,,,,,,,,,57,ENT,True,,7,7
+llm,All of the following are features of ethmoidal polyp except ?,service ENT,ENT,ENT,qwen3:32b,4105.284415883943,799,166,965,,,,,,,,,,,,,58,ENT,True,,7,7
+llm,Saddle nose deformity is seen in?,service ENT,ENT,ENT,qwen3:32b,6204.848490888253,793,252,1045,,,,,,,,,,,,,59,ENT,True,,7,7
+llm,Bullet fixed from a gun is not released. It is ejected out with subsequent shot. Such a bullet is called as,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7957.967208931223,808,323,1131,,,,,,,,,,,,,60,Forensic Medicine,True,,7,7
+llm,Papaver semniferum milk exudes from ?,service -1,general,general,qwen3:32b,9855.679865926504,797,401,1198,,,,,,,,,,,,,61,Forensic Medicine,False,,7,7
+llm,Ricochet bullet is,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7279.0585230104625,790,296,1086,,,,,,,,,,,,,62,Forensic Medicine,True,,7,7
+llm,Mickey Finn is ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7744.207564974204,790,315,1105,,,,,,,,,,,,,63,Forensic Medicine,True,,7,7
+llm,Which of the following is not seen in finger prints ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8320.419766940176,796,338,1134,,,,,,,,,,,,,64,Forensic Medicine,True,,7,7
+llm,"All sections of IPC are related to grievous hu, except",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6288.59238512814,797,255,1052,,,,,,,,,,,,,65,Forensic Medicine,True,,7,7
+llm,"In medicolegal autopsy, cavity to be opened first is ?",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,2759.46739804931,798,111,909,,,,,,,,,,,,,66,Forensic Medicine,True,,7,7
+llm,Bishop's tripod of life includes all except -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8650.31528682448,795,351,1146,,,,,,,,,,,,,67,Forensic Medicine,True,,7,7
+llm,Which of the following causes maximum damage?,service -1,general,general,qwen3:32b,6068.795697996393,792,246,1038,,,,,,,,,,,,,68,Forensic Medicine,False,,7,7
+llm,Marsch test is done for poisoning with ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7518.839746946469,795,305,1100,,,,,,,,,,,,,69,Forensic Medicine,True,,7,7
+llm,Test to know the species from blood stain is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5482.21567296423,795,222,1017,,,,,,,,,,,,,70,Forensic Medicine,True,,7,7
+llm,"Muscle pain, nephropathy caused by which metal poisoning",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6441.85683503747,797,261,1058,,,,,,,,,,,,,71,Forensic Medicine,True,,7,7
+llm,False about declaration of brain stem death in hospital -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5853.549666004255,795,237,1032,,,,,,,,,,,,,72,Forensic Medicine,True,,7,7
+llm,True about finger printing is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8053.936218842864,791,327,1118,,,,,,,,,,,,,73,Forensic Medicine,True,,7,7
+llm,Enzyme responsible for postmoem hemolysis is,service Microbiology,Microbiology,Microbiology,qwen3:32b,9060.750515200198,797,368,1165,,,,,,,,,,,,,74,Forensic Medicine,False,,7,7
+llm,Degloving skin involves removal of?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8559.43939089775,792,348,1140,,,,,,,,,,,,,75,Forensic Medicine,True,,7,7
+llm,Acid injury can be differentiated from alkali injury by ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5899.932944914326,797,239,1036,,,,,,,,,,,,,76,Forensic Medicine,True,,7,7
+llm,DNA finger printing cannot be taken from ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7385.411145165563,793,300,1093,,,,,,,,,,,,,77,Forensic Medicine,True,,7,7
+llm,Which is the first organ to putrefy :,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7879.839282017201,795,320,1115,,,,,,,,,,,,,78,Forensic Medicine,True,,7,7
+llm,Toxin responsible for epidemic dropsy:AIIMS 07; UP 09; PGI 11,service Microbiology,Microbiology,Microbiology,qwen3:32b,8182.038829894736,809,332,1141,,,,,,,,,,,,,79,Forensic Medicine,False,,7,7
+llm,Ethylene Glycol antidote is ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,4586.016830056906,793,186,979,,,,,,,,,,,,,80,Forensic Medicine,True,,7,7
+llm,Contributory negligence is negligence due to:NEET 13,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,12216.35170117952,798,497,1295,,,,,,,,,,,,,81,Forensic Medicine,True,,7,7
+llm,"All are true of opioid withdrawal, except:NIMHANS 10; PGI 14",service -1,general,general,qwen3:32b,10557.865974958986,806,429,1235,,,,,,,,,,,,,82,Forensic Medicine,False,,7,7
+llm,"In Adipocere, color change seen is -",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7977.0878630224615,796,324,1120,,,,,,,,,,,,,83,Forensic Medicine,True,,7,7
+llm,Acid used for forging signature is ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7920.573010807857,793,322,1115,,,,,,,,,,,,,84,Forensic Medicine,True,,7,7
+llm,Punishment of perjury comes under IPC section?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5066.303231054917,795,205,1000,,,,,,,,,,,,,85,Forensic Medicine,True,,7,7
+llm,A couple was locked up in a room with fire around. All of the following are the probable immediate causes of death in such circumstance except:-,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8579.422343987972,813,348,1161,,,,,,,,,,,,,86,Forensic Medicine,True,,7,7
+llm,When does basiocciput fuses with basisphenoid?,service ENT,ENT,ENT,qwen3:32b,7343.841963913292,798,298,1096,,,,,,,,,,,,,87,Forensic Medicine,False,,7,7
+llm,1st affected in rigor mois,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7210.6127550359815,791,293,1084,,,,,,,,,,,,,88,Forensic Medicine,True,,7,7
+llm,Black papper adultrant is ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,9641.636183019727,793,392,1185,,,,,,,,,,,,,89,Forensic Medicine,False,,7,7
+llm,First sign of maceration is,service ENT,ENT,ENT,qwen3:32b,26390.770687023178,791,1072,1863,,,,,,,,,,,,,90,Forensic Medicine,False,,7,7
+llm,Patient presented with proximal tubule proteinuria. Which metal is likely to be associated with it?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8951.535221887752,804,353,1157,,,,,,,,,,,,,91,Forensic Medicine,True,,7,7
+llm,"For autopsy, stomach is open through -",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5122.57214798592,793,208,1001,,,,,,,,,,,,,92,Forensic Medicine,True,,7,7
+llm,Highest content of cannabis is found in which pa of the plant?,service -1,general,general,qwen3:32b,7385.326479095966,797,300,1097,,,,,,,,,,,,,93,Forensic Medicine,False,,7,7
+llm,Sexual gratification obtained by enema is called -,service -1,general,general,qwen3:32b,8067.320134025067,796,328,1124,,,,,,,,,,,,,94,Forensic Medicine,False,,7,7
+llm,Sec 191 IPC is for -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7278.658869909123,794,296,1090,,,,,,,,,,,,,95,Forensic Medicine,True,,7,7
+llm,Gunshot residue on hands can be detected by:DNB 10; NEET 13,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,4353.779284050688,806,176,982,,,,,,,,,,,,,96,Forensic Medicine,True,,7,7
+llm,"Chronic arsenic poisoning does not cause:NEET 13,15",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5130.080369999632,802,208,1010,,,,,,,,,,,,,97,Forensic Medicine,True,,7,7
+llm,Locard is famous for:,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5245.4188039992005,791,213,1004,,,,,,,,,,,,,98,Forensic Medicine,True,,7,7
+llm,Which snake bite causes hematologic abnormalities ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,4755.009297048673,793,193,986,,,,,,,,,,,,,99,Forensic Medicine,True,,7,7
+llm,Lendrum stain is done for ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,8700.424336828291,793,354,1147,,,,,,,,,,,,,100,Forensic Medicine,False,,7,7
+llm,UV rays examination is done for -,service Microbiology,Microbiology,Microbiology,qwen3:32b,13363.868032116443,792,544,1336,,,,,,,,,,,,,101,Forensic Medicine,False,,7,7
+llm,"When civil negligence is brought up against a doctor, the onus of proof lies upon -",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7659.233991056681,803,311,1114,,,,,,,,,,,,,102,Forensic Medicine,True,,7,7
+llm,Following is most suggestive of antemoem hanging:DNB 09,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7998.343268875033,800,325,1125,,,,,,,,,,,,,103,Forensic Medicine,True,,7,7
+llm,Which of the following constitutional aicle is not related to children:,service -1,general,general,qwen3:32b,16265.602646861225,798,662,1460,,,,,,,,,,,,,104,Forensic Medicine,False,,7,7
+llm,Absorption elution technique is used for -,service Microbiology,Microbiology,Microbiology,qwen3:32b,7846.842924132943,794,319,1113,,,,,,,,,,,,,105,Forensic Medicine,False,,7,7
+llm,"Parents of the Child complains of assaulted by one of their relatives and anal pain in a child, On investigation test shows yellow iodine crystals with picric acid - what is the name of the test?",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7705.628188094124,824,312,1136,,,,,,,,,,,,,106,Forensic Medicine,True,,7,7
+llm,Gastric lavage is not contraindicated after ingestion of which acid.,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8050.128376111388,801,327,1128,,,,,,,,,,,,,107,Forensic Medicine,True,,7,7
+llm,Frotteruism is ?,service -1,general,general,qwen3:32b,8754.080320941284,792,356,1148,,,,,,,,,,,,,108,Forensic Medicine,False,,7,7
+llm,To examine the vaginal cells in of the rape victim test used is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5796.558147063479,799,235,1034,,,,,,,,,,,,,109,Forensic Medicine,True,,7,7
+llm,Which section belongs to marital rape ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7061.5606780629605,792,287,1079,,,,,,,,,,,,,110,Forensic Medicine,True,,7,7
+llm,Not a feature of postmoem staining -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5937.52013402991,794,241,1035,,,,,,,,,,,,,111,Forensic Medicine,True,,7,7
+llm,Best method for methanol poisoning treatment:March 2007,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5842.885059071705,799,237,1036,,,,,,,,,,,,,112,Forensic Medicine,True,,7,7
+llm,Arrow poison is ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6840.378694003448,789,278,1067,,,,,,,,,,,,,113,Forensic Medicine,True,,7,7
+llm,True about Stab Wounds ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,9343.071178998798,792,380,1172,,,,,,,,,,,,,114,Forensic Medicine,True,,7,7
+llm,Plantiff is a person who ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6921.8519071582705,792,281,1073,,,,,,,,,,,,,115,Forensic Medicine,True,,7,7
+llm,Miscarriage is punishable under which IPC:AIIMS 13; NEET 14,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7052.649723133072,805,286,1091,,,,,,,,,,,,,116,Forensic Medicine,True,,7,7
+llm,Victim was choked with mouth & nose covered with elbow around neck. It is called as ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8496.11328006722,804,345,1149,,,,,,,,,,,,,117,Forensic Medicine,True,,7,7
+llm,Adulteration of drug is under which section of IPC,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6041.909137973562,797,245,1042,,,,,,,,,,,,,118,Forensic Medicine,True,,7,7
+llm,Ophitoxemia is ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7921.7308319639415,792,322,1114,,,,,,,,,,,,,119,Forensic Medicine,True,,7,7
+llm,In early pregnancy clinical signs of feeling the cervix and the body of bulky uterus separated because of softened isthmus at 6 - 8 weeks of gestation :,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,5308.939269045368,819,214,1033,,,,,,,,,,,,,120,Gynaecology & Obstetrics,True,,7,7
+llm,"Female with 41 wk gestation confirmed by radiological investigation, very sure of her LMP, no uterine contractions, no effacement and no dilatation. What should not be done?",service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,8790.221129078418,827,356,1183,,,,,,,,,,,,,121,Gynaecology & Obstetrics,True,,7,7
+llm,Drugs used in endometriosis is,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,7112.705825828016,794,289,1083,,,,,,,,,,,,,122,Gynaecology & Obstetrics,True,,7,7
+llm,Endometriosis is ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,8903.495193924755,791,362,1153,,,,,,,,,,,,,123,Gynaecology & Obstetrics,True,,7,7
+llm,Following are the causes of oligohydramnios except?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,7709.809225052595,797,313,1110,,,,,,,,,,,,,124,Gynaecology & Obstetrics,True,,7,7
+llm,Which of the following is present in normal vagina?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,7574.282102985308,794,308,1102,,,,,,,,,,,,,125,Gynaecology & Obstetrics,True,,7,7
+llm,What should not be done during delivery of Rh negative?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,9174.952331930399,795,373,1168,,,,,,,,,,,,,126,Gynaecology & Obstetrics,True,,7,7
+llm,CRL when cardiac activity can be detected earliest by TVS -,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,7734.098170883954,798,314,1112,,,,,,,,,,,,,127,Gynaecology & Obstetrics,True,,7,7
+llm,Definitive treatment for preeclampsia?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,5448.392797959968,795,221,1016,,,,,,,,,,,,,128,Gynaecology & Obstetrics,True,,7,7
+llm,Chances of uterine rupture are least in -,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,3739.5773669704795,796,151,947,,,,,,,,,,,,,129,Gynaecology & Obstetrics,True,,7,7
+llm,Most common cause of early aboion -,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,6723.060813965276,794,273,1067,,,,,,,,,,,,,130,Gynaecology & Obstetrics,True,,7,7
+llm,USG of 28 weeks gestation showing oligohydramnios is likely to be due to ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,7246.495116036385,808,294,1102,,,,,,,,,,,,,131,Gynaecology & Obstetrics,True,,7,7
+llm,"A 28-year-old primigravida with 33 weeks of pregnancy suddenly complains of headache, oliguria, and blurred vision. Her BP is 180/110 and urine albumin is +3. The line of fuher management is ?",service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,7129.238539841026,841,288,1129,,,,,,,,,,,,,132,Gynaecology & Obstetrics,True,,7,7
+llm,What is not used in PCOS ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,5098.8215210381895,793,207,1000,,,,,,,,,,,,,133,Gynaecology & Obstetrics,True,,7,7
+llm,Hegar sign?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,7157.877449179068,789,291,1080,,,,,,,,,,,,,134,Gynaecology & Obstetrics,True,,7,7
+llm,SERMs are ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,8310.752840014175,789,338,1127,,,,,,,,,,,,,135,Gynaecology & Obstetrics,True,,7,7
+llm,Dysgerminoma spreads mainly ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,9313.969091046602,793,379,1172,,,,,,,,,,,,,136,Gynaecology & Obstetrics,True,,7,7
+llm,Powder burnt lesion seen in ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7255.606236169115,792,295,1087,,,,,,,,,,,,,137,Gynaecology & Obstetrics,False,,7,7
+llm,Chlamydia trachomatis infection commonly causes:March 2004,service Microbiology,Microbiology,Microbiology,qwen3:32b,6341.193103929982,803,257,1060,,,,,,,,,,,,,138,Gynaecology & Obstetrics,False,,7,7
+llm,"G2P1L1 female with 1 : 4 anti D titres at 28 weeks gestation, management is",service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,8377.67576915212,812,340,1152,,,,,,,,,,,,,139,Gynaecology & Obstetrics,True,,7,7
+llm,All are causes of anovulatory amenorrhoea except?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,5841.664484934881,797,237,1034,,,,,,,,,,,,,140,Gynaecology & Obstetrics,True,,7,7
+llm,Which of the following is not a probable sign of pregnancy,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,7284.71771790646,796,296,1092,,,,,,,,,,,,,141,Gynaecology & Obstetrics,True,,7,7
+llm,Most common presenting symptom of TB endometritis is -,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,6671.425114152953,796,271,1067,,,,,,,,,,,,,142,Gynaecology & Obstetrics,True,,7,7
+llm,Ashermans syndrome is characterized by ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,5734.363493043929,793,233,1026,,,,,,,,,,,,,143,Gynaecology & Obstetrics,True,,7,7
+llm,"A primigravida with 36 weeks of pregnancy is in labor with 3 cm dilatation and minimal uterine contraction. On rupture of membranes, fresh bleeding is noted with late fetal deceleration up to 50 beats/min. The patient was taken for LSCS but fetus could no be saved. No abruptio or placenta pre was seen. The likely diagnosis is ?",service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,10265.90881519951,867,415,1282,,,,,,,,,,,,,144,Gynaecology & Obstetrics,True,,7,7
+llm,Ovarian cycle can be correlated with all except ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,5203.556211199611,796,211,1007,,,,,,,,,,,,,145,Gynaecology & Obstetrics,True,,7,7
+llm,Cryptomenorrhea occurs in ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,7821.5084539260715,792,318,1110,,,,,,,,,,,,,146,Gynaecology & Obstetrics,True,,7,7
+llm,MC presenting symptom of fibroid is ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,4194.2100948654115,793,170,963,,,,,,,,,,,,,147,Gynaecology & Obstetrics,True,,7,7
+llm,Prophylactic methergin given for ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,6040.897088125348,795,245,1040,,,,,,,,,,,,,148,Gynaecology & Obstetrics,True,,7,7
+llm,"18 weeks pregnancy of a lady, last two times history of midtrimester aboion, which was painless. What is the diagnosis ?",service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,9135.345375165343,816,371,1187,,,,,,,,,,,,,149,Gynaecology & Obstetrics,True,,7,7
+llm,"For uterine prolapse in pregnancy, Ring pessary can be inseed upto ?",service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,4329.248516121879,804,175,979,,,,,,,,,,,,,150,Gynaecology & Obstetrics,True,,7,7
+llm,"If the rectal mucosa is injured, it is which degree of Perineal Tear ?",service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,5235.872427932918,804,212,1016,,,,,,,,,,,,,151,Gynaecology & Obstetrics,True,,7,7
+llm,Best test for ovulation ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,4777.538855094463,791,194,985,,,,,,,,,,,,,152,Gynaecology & Obstetrics,True,,7,7
+llm,A pregnant lady presents with genital was. The best management for her is ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,8730.79832806252,800,355,1155,,,,,,,,,,,,,153,Gynaecology & Obstetrics,True,,7,7
+llm,Prague manuever is used for ?,service ENT,ENT,ENT,qwen3:32b,6643.2844151277095,794,270,1064,,,,,,,,,,,,,154,Gynaecology & Obstetrics,False,,7,7
+llm,The most common Mullerian anomaly is?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,9165.223845047876,793,373,1166,,,,,,,,,,,,,155,Gynaecology & Obstetrics,True,,7,7
+llm,The pelvic inlet usually is considered to be contracted if its shoest anteroposterior diameter is less than -,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,6857.317456975579,808,278,1086,,,,,,,,,,,,,156,Gynaecology & Obstetrics,True,,7,7
+llm,Prevalence of breech presentation at full term is ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,5867.930801818147,797,238,1035,,,,,,,,,,,,,157,Gynaecology & Obstetrics,True,,7,7
+llm,Cephalic index is,service ENT,ENT,ENT,qwen3:32b,22144.416542025283,791,901,1692,,,,,,,,,,,,,158,Gynaecology & Obstetrics,False,,7,7
+llm,Azoospermia with normal FSH would indicate ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,7943.518195999786,797,313,1110,,,,,,,,,,,,,159,Gynaecology & Obstetrics,True,,7,7
+llm,A pregnant woman in first trimester has four fold rise in IgG against toxoplasmosis. it indicates ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,9914.214312797412,809,403,1212,,,,,,,,,,,,,160,Gynaecology & Obstetrics,False,,7,7
+llm,Initial drug for ovarian cancer ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,6328.889501048252,791,257,1048,,,,,,,,,,,,,161,Gynaecology & Obstetrics,True,,7,7
+llm,Meigs syndrome is associated with which tumor ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,9705.787552054971,794,395,1189,,,,,,,,,,,,,162,Gynaecology & Obstetrics,True,,7,7
+llm,After ejaculation semen liquefies in ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,9288.951082155108,793,378,1171,,,,,,,,,,,,,163,Gynaecology & Obstetrics,True,,7,7
+llm,A sexually active female with the profuse frothy foul-smelling discharge with intense itching. Strawberry cervix revealed on examination. What will be the diagnosis?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,10240.581224905327,815,416,1231,,,,,,,,,,,,,164,Gynaecology & Obstetrics,True,,7,7
+llm,Carcinoma endometrium with involvement of the vaginal wall is included in which stage ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,7859.521651174873,804,319,1123,,,,,,,,,,,,,165,Gynaecology & Obstetrics,True,,7,7
+llm,"A 32-year-old female with mild hypeension. Two days after normal delivery, she develop seizures, headache. No proteinuria was there. On imaging she was found to have parasagittal infarction and hematoma 3x2cm.The most probable cause is?",service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,15946.92456186749,841,647,1488,,,,,,,,,,,,,166,Gynaecology & Obstetrics,True,,7,7
+llm,A patient delivered at home with a complete perineal tear came to the hospital after 2 weeks. What management will you prefer?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,9631.937016965821,811,391,1202,,,,,,,,,,,,,167,Gynaecology & Obstetrics,True,,7,7
+llm,Continence & incontinence of urine is seen in ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,9428.146384190768,797,383,1180,,,,,,,,,,,,,168,Gynaecology & Obstetrics,True,,7,7
+llm,% of ectopic pregnancy seen in fallopian tube is?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,4032.9594800714403,796,163,959,,,,,,,,,,,,,169,Gynaecology & Obstetrics,True,,7,7
+llm,Exclusively Fetal blood loss occurs in ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,9080.586285097525,795,369,1164,,,,,,,,,,,,,170,Gynaecology & Obstetrics,True,,7,7
+llm,Ideal time to do Glucose challenge test in pregnancy is ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,3812.593183014542,797,154,951,,,,,,,,,,,,,171,Gynaecology & Obstetrics,True,,7,7
+llm,How much time after reduced movement fetal hea stops?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,8692.425260087475,795,353,1148,,,,,,,,,,,,,172,Gynaecology & Obstetrics,True,,7,7
+llm,Acute fatty liver commonly seen in pregnancy at-,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,6610.869498923421,795,268,1063,,,,,,,,,,,,,173,Gynaecology & Obstetrics,True,,7,7
+llm,True about gestational diabetes is ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,6874.430096009746,792,279,1071,,,,,,,,,,,,,174,Gynaecology & Obstetrics,True,,7,7
+llm,Presenting diameter of full flexed head:,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,4760.977477999404,794,193,987,,,,,,,,,,,,,175,Gynaecology & Obstetrics,True,,7,7
+llm,Vasa pre is seen in which type of placenta ?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,7981.0494291596115,797,324,1121,,,,,,,,,,,,,176,Gynaecology & Obstetrics,True,,7,7
+llm,Best treatment option for septate uterus-,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,6409.470492042601,793,260,1053,,,,,,,,,,,,,177,Gynaecology & Obstetrics,True,,7,7
+llm,Crowning is,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,5241.671660216525,788,210,998,,,,,,,,,,,,,178,Gynaecology & Obstetrics,True,,7,7
+llm,Least failure rate ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7683.0478918273,789,312,1101,,,,,,,,,,,,,179,Gynaecology & Obstetrics,False,,7,7
+llm,Australian antigen for hepatitis b is?,service Microbiology,Microbiology,Microbiology,qwen3:32b,6877.3115440271795,791,279,1070,,,,,,,,,,,,,180,Microbiology,True,,7,7
+llm,Coxsackievirus A16 causes,service Microbiology,Microbiology,Microbiology,qwen3:32b,6865.257821045816,795,278,1073,,,,,,,,,,,,,181,Microbiology,True,,7,7
+llm,Which of these is true about antibodies:,service Microbiology,Microbiology,Microbiology,qwen3:32b,4698.031781008467,793,190,983,,,,,,,,,,,,,182,Microbiology,True,,7,7
+llm,Generation time for M tuberculosis,service Microbiology,Microbiology,Microbiology,qwen3:32b,7975.3689270000905,790,323,1113,,,,,,,,,,,,,183,Microbiology,True,,7,7
+llm,Non-parasitic eosinophilia is caused by infection with -,service Microbiology,Microbiology,Microbiology,qwen3:32b,6877.73706112057,798,278,1076,,,,,,,,,,,,,184,Microbiology,True,,7,7
+llm,Haptens are immunogenic when they covalently bind to -,service Microbiology,Microbiology,Microbiology,qwen3:32b,8228.0569949653,799,333,1132,,,,,,,,,,,,,185,Microbiology,True,,7,7
+llm,Core antigen [HBO in HBV is encloded by which gene ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,5462.62941416353,801,221,1022,,,,,,,,,,,,,186,Microbiology,True,,7,7
+llm,Bloody diarrhea in HIV infected patient is mostly due to ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,4475.2240378875285,797,180,977,,,,,,,,,,,,,187,Microbiology,True,,7,7
+llm,Fungal Infection which is acquired by traumatic inoculation is?,service Microbiology,Microbiology,Microbiology,qwen3:32b,3487.5683737918735,797,139,936,,,,,,,,,,,,,188,Microbiology,True,,7,7
+llm,Ectothrix is caused by ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,7556.657098000869,793,301,1094,,,,,,,,,,,,,189,Microbiology,True,,7,7
+llm,"A child with fever with ABCs & pus in stools, causative organism is ?",service Microbiology,Microbiology,Microbiology,qwen3:32b,8309.363699052483,802,329,1131,,,,,,,,,,,,,190,Microbiology,True,,7,7
+llm,Cyst with scolex and hooks is seen in,service Microbiology,Microbiology,Microbiology,qwen3:32b,5980.64387915656,795,238,1033,,,,,,,,,,,,,191,Microbiology,True,,7,7
+llm,Organism Causing LGV,service Microbiology,Microbiology,Microbiology,qwen3:32b,5832.214946858585,791,233,1024,,,,,,,,,,,,,192,Microbiology,True,,7,7
+llm,Which Passive immunity is also provided through colostrum and breast milk?,service Microbiology,Microbiology,Microbiology,qwen3:32b,4028.4694051370025,799,160,959,,,,,,,,,,,,,193,Microbiology,True,,7,7
+llm,Which of the following is not true regarding amoebic liver abscess,service Microbiology,Microbiology,Microbiology,qwen3:32b,6456.783432979137,799,255,1054,,,,,,,,,,,,,194,Microbiology,True,,7,7
+llm,Thumb print appearance in culture film smear is seen -,service Microbiology,Microbiology,Microbiology,qwen3:32b,8323.543150210753,795,332,1127,,,,,,,,,,,,,195,Microbiology,True,,7,7
+llm,"A patient is having gastrointestinal problems including abdominal pain and distension, bloody or mucus-filled diarrhea, and tenesmus,with rectal prolapse, A stool, ova and parasites exam reveals the presence of typical Barrel-shaped eggs, possible causative agent is?",service Microbiology,Microbiology,Microbiology,qwen3:32b,4940.264949807897,838,196,1034,,,,,,,,,,,,,196,Microbiology,True,,7,7
+llm,Who is the father of microbiology?,service Microbiology,Microbiology,Microbiology,qwen3:32b,7339.931757189333,792,298,1090,,,,,,,,,,,,,197,Microbiology,True,,7,7
+llm,Morula form is seen in which infection ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,6928.377153119072,794,281,1075,,,,,,,,,,,,,198,Microbiology,True,,7,7
+llm,Method of sterilization for fiberoptic laryngoscope:,service Microbiology,Microbiology,Microbiology,qwen3:32b,5261.701209004968,798,213,1011,,,,,,,,,,,,,199,Microbiology,True,,7,7
+llm,Draughtsman (Concentric Rings) on culture are produced by ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,4864.521685056388,802,197,999,,,,,,,,,,,,,200,Microbiology,True,,7,7
+llm,Primory T-cell deficiency is -,service Microbiology,Microbiology,Microbiology,qwen3:32b,7986.4368450362235,792,321,1113,,,,,,,,,,,,,201,Microbiology,True,,7,7
+llm,D.O.C for isospora,service Microbiology,Microbiology,Microbiology,qwen3:32b,5877.54574092105,792,238,1030,,,,,,,,,,,,,202,Microbiology,True,,7,7
+llm,All culture media are used for antibiotic susceptibility except -,service Microbiology,Microbiology,Microbiology,qwen3:32b,5297.0157822128385,795,214,1009,,,,,,,,,,,,,203,Microbiology,True,,7,7
+llm,Which of the following is not an in vivo test ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,7486.283033154905,796,303,1099,,,,,,,,,,,,,204,Microbiology,True,,7,7
+llm,Adherence of E. histolytica to colonic mucosa is mediated by ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,5467.272545909509,802,221,1023,,,,,,,,,,,,,205,Microbiology,True,,7,7
+llm,Fresh water swimming leads to infection by -,service Microbiology,Microbiology,Microbiology,qwen3:32b,7575.17085201107,793,307,1100,,,,,,,,,,,,,206,Microbiology,True,,7,7
+llm,Not true about paramyxoviruses -,service Microbiology,Microbiology,Microbiology,qwen3:32b,5549.576716963202,794,225,1019,,,,,,,,,,,,,207,Microbiology,True,,7,7
+llm,Fungus affecting reticulo-endothelial system,service Microbiology,Microbiology,Microbiology,qwen3:32b,4747.458285884932,796,192,988,,,,,,,,,,,,,208,Microbiology,True,,7,7
+llm,A 60 years old farmer has developed swelling on the sole of foot with discharging yellow granules. The diagnosis is -,service Microbiology,Microbiology,Microbiology,qwen3:32b,7797.87400807254,811,316,1127,,,,,,,,,,,,,209,Microbiology,True,,7,7
+llm,A 30 years old male is having prpductive cough with dysnea. Blood gas analysis shows low pa02. Chest x-ray is showing reticulonodular pattern. The causative agent is?,service Microbiology,Microbiology,Microbiology,qwen3:32b,11056.844401173294,829,448,1277,,,,,,,,,,,,,210,Microbiology,True,,7,7
+llm,ELISA test for virulence antigen is used for which type of E coli,service Microbiology,Microbiology,Microbiology,qwen3:32b,4157.003613188863,800,168,968,,,,,,,,,,,,,211,Microbiology,True,,7,7
+llm,To create anaerobiosis which organism is used,service Microbiology,Microbiology,Microbiology,qwen3:32b,7516.113050049171,795,305,1100,,,,,,,,,,,,,212,Microbiology,True,,7,7
+llm,What is p24 ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,5373.047158820555,791,218,1009,,,,,,,,,,,,,213,Microbiology,True,,7,7
+llm,Prevention of catheter induced urinary tract infection is by ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,6778.937580063939,797,275,1072,,,,,,,,,,,,,214,Microbiology,True,,7,7
+llm,Which of the following is true about streptococcus pneumoniae:,service Microbiology,Microbiology,Microbiology,qwen3:32b,4790.360251208767,799,194,993,,,,,,,,,,,,,215,Microbiology,True,,7,7
+llm,All are true about congenital Toxoplasmosis EXCEPT,service Microbiology,Microbiology,Microbiology,qwen3:32b,6142.466211924329,799,249,1048,,,,,,,,,,,,,216,Microbiology,True,,7,7
+llm,Most serious complication of measles is:September 2008,service Microbiology,Microbiology,Microbiology,qwen3:32b,5503.909180872142,798,223,1021,,,,,,,,,,,,,217,Microbiology,True,,7,7
+llm,Borrelia causes which of the following,service Microbiology,Microbiology,Microbiology,qwen3:32b,6506.283624097705,794,264,1058,,,,,,,,,,,,,218,Microbiology,True,,7,7
+llm,The statements regarding falciparum malaria are all except,service Microbiology,Microbiology,Microbiology,qwen3:32b,5854.275109944865,797,237,1034,,,,,,,,,,,,,219,Microbiology,True,,7,7
+llm,"All viruses are associated with specific inclusion body, except ?",service Microbiology,Microbiology,Microbiology,qwen3:32b,4136.704514967278,796,167,963,,,,,,,,,,,,,220,Microbiology,True,,7,7
+llm,All are true about anaerobic infection except -,service Microbiology,Microbiology,Microbiology,qwen3:32b,5770.2167488168925,795,234,1029,,,,,,,,,,,,,221,Microbiology,True,,7,7
+llm,Microbiological test for diagnosing leptospira infection?,service Microbiology,Microbiology,Microbiology,qwen3:32b,6517.587339039892,796,264,1060,,,,,,,,,,,,,222,Microbiology,True,,7,7
+llm,Candidias of penis is ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,6973.154658917338,792,283,1075,,,,,,,,,,,,,223,Microbiology,True,,7,7
+llm,"In Rideal walker method, plates are incubated for ?",service Microbiology,Microbiology,Microbiology,qwen3:32b,6685.50443300046,797,271,1068,,,,,,,,,,,,,224,Microbiology,True,,7,7
+llm,Urea breath test is used for diagnosis of:,service Microbiology,Microbiology,Microbiology,qwen3:32b,6536.658685887232,795,265,1060,,,,,,,,,,,,,225,Microbiology,True,,7,7
+llm,Acute Hemorrhagic Conjunctivitis is caused by which of enterovirus type ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,5461.612186860293,804,221,1025,,,,,,,,,,,,,226,Microbiology,True,,7,7
+llm,Culture media used for E.coli 0157:H7 is,service Microbiology,Microbiology,Microbiology,qwen3:32b,5900.35282401368,800,239,1039,,,,,,,,,,,,,227,Microbiology,True,,7,7
+llm,True about Campylobacter jejuni ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,7099.596824031323,794,288,1082,,,,,,,,,,,,,228,Microbiology,True,,7,7
+llm,Cellulitis surrounding diabetic ulcer is mostly caused by ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,6982.02525312081,796,283,1079,,,,,,,,,,,,,229,Microbiology,True,,7,7
+llm,IgM appears in fetus at what gestational age -,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,12624.385819071904,797,513,1310,,,,,,,,,,,,,230,Microbiology,False,,7,7
+llm,Pulmonary eosinophilia is found in infection with ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,7274.5581769850105,797,295,1092,,,,,,,,,,,,,231,Microbiology,True,,7,7
+llm,Most common route of infection in pasteurella cellulitis -,service Microbiology,Microbiology,Microbiology,qwen3:32b,5805.392677895725,797,235,1032,,,,,,,,,,,,,232,Microbiology,True,,7,7
+llm,A paitent operated for transurethral resection of prostate develops UTI. The organism most commonly grown on culture will be -,service Microbiology,Microbiology,Microbiology,qwen3:32b,6552.041817922145,813,265,1078,,,,,,,,,,,,,233,Microbiology,True,,7,7
+llm,Gene responsible for mutation of HBV is ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,5057.879765983671,794,205,999,,,,,,,,,,,,,234,Microbiology,True,,7,7
+llm,Which of the following is not used on skin due to its  irritation potential?,service Microbiology,Microbiology,Microbiology,qwen3:32b,11685.214329976588,800,475,1275,,,,,,,,,,,,,235,Microbiology,True,,7,7
+llm,"A patient complains about nausea, vomiting and stomach cramps after attending a social gathering pay, which causative organism is likely responsible for Food Poisoning within 3 hours.",service Microbiology,Microbiology,Microbiology,qwen3:32b,6844.519740901887,818,277,1095,,,,,,,,,,,,,236,Microbiology,True,,7,7
+llm,Monoclonal antibody binds to ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,8146.0573468357325,793,331,1124,,,,,,,,,,,,,237,Microbiology,True,,7,7
+llm,Involutional form are seen in which phase of bacterial growth,service Microbiology,Microbiology,Microbiology,qwen3:32b,5112.312078010291,797,207,1004,,,,,,,,,,,,,238,Microbiology,True,,7,7
+llm,Similarity between chlamydia and virus is,service Microbiology,Microbiology,Microbiology,qwen3:32b,6315.5603730119765,795,256,1051,,,,,,,,,,,,,239,Microbiology,True,,7,7
+llm,Extra retinal fibrovascular proliferation at ridge is?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,5088.55335903354,795,206,1001,,,,,,,,,,,,,240,Ophthalmology,True,,7,7
+llm,Scleritis is most commonly associated with:March 2005,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,9261.7016909644,801,376,1177,,,,,,,,,,,,,241,Ophthalmology,True,,7,7
+llm,Massaging of nasolacrimal duct is done in ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,17515.981302130967,797,712,1509,,,,,,,,,,,,,242,Ophthalmology,True,,7,7
+llm,Diabetic cataract is due to accumulation of:March 2009,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,5774.871829198673,802,234,1036,,,,,,,,,,,,,243,Ophthalmology,True,,7,7
+llm,Cell bodies of Muller's Cells are present in which layer of retina?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,7273.263803916052,799,295,1094,,,,,,,,,,,,,244,Ophthalmology,True,,7,7
+llm,1mm change axial length of the eyeball would change the refracting power of the eye by ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,6126.060135196894,805,248,1053,,,,,,,,,,,,,245,Ophthalmology,True,,7,7
+llm,"Coloboma, most common site ?",service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,6874.724936904386,793,279,1072,,,,,,,,,,,,,246,Ophthalmology,True,,7,7
+llm,What is the treatment of meibomianitis ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,5577.516440069303,796,226,1022,,,,,,,,,,,,,247,Ophthalmology,True,,7,7
+llm,Amblyopia is caused by ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,7512.6738380640745,792,305,1097,,,,,,,,,,,,,248,Ophthalmology,True,,7,7
+llm,Pain is out of propoion to signs in which corneal ulcer?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,7224.726268090308,801,293,1094,,,,,,,,,,,,,249,Ophthalmology,True,,7,7
+llm,"A drug used in a patient with increased IOP and optic disc changes, ciliary congestion for decrease IOP acts by increasing uveoscleral outflow is",service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,5202.562063001096,818,210,1028,,,,,,,,,,,,,250,Ophthalmology,True,,7,7
+llm,Chemotherapy agents for retinoblastoma:,service -1,general,general,qwen3:32b,7493.659434840083,795,304,1099,,,,,,,,,,,,,251,Ophthalmology,False,,7,7
+llm,MC orbital tumor ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,7731.280850013718,789,314,1103,,,,,,,,,,,,,252,Ophthalmology,True,,7,7
+llm,1st sign of iridocyclitis ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,7212.091559078544,795,291,1086,,,,,,,,,,,,,253,Ophthalmology,True,,7,7
+llm,Immediate treatment of acute dacryocystitis is?,service ENT,ENT,ENT,qwen3:32b,28061.13933888264,795,1139,1934,,,,,,,,,,,,,254,Ophthalmology,False,,7,7
+llm,Vitamin B12 deficiency causes ?,service -1,general,general,qwen3:32b,11206.982437055558,793,445,1238,,,,,,,,,,,,,255,Ophthalmology,False,,7,7
+llm,Shaffer's sign is seen in ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,7782.441439805552,793,316,1109,,,,,,,,,,,,,256,Ophthalmology,True,,7,7
+llm,Prutchners retinopathy in associated with -,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,4255.4116998799145,796,172,968,,,,,,,,,,,,,257,Ophthalmology,True,,7,7
+llm,Alkali causes ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7837.455269182101,790,318,1108,,,,,,,,,,,,,258,Ophthalmology,False,,7,7
+llm,Muscae volitantes is seen in ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,6435.823414940387,794,261,1055,,,,,,,,,,,,,259,Ophthalmology,True,,7,7
+llm,Anteroposterior change in length of eye is called ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,13300.304722040892,798,540,1338,,,,,,,,,,,,,260,Ophthalmology,True,,7,7
+llm,Ocular findings in diabetes are all except -,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,8182.068787980825,794,332,1126,,,,,,,,,,,,,261,Ophthalmology,True,,7,7
+llm,Salt & pepper fundus ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,8180.428207851946,791,332,1123,,,,,,,,,,,,,262,Ophthalmology,True,,7,7
+llm,Ankyloblepheron is defined as,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,6343.115700175986,794,257,1051,,,,,,,,,,,,,263,Ophthalmology,True,,7,7
+llm,Which of the following Glycosaminoglycans are not present in cornea,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,4994.537964928895,802,202,1004,,,,,,,,,,,,,264,Ophthalmology,True,,7,7
+llm,Retinoblastomas show all of the following except,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,6198.119431966916,796,251,1047,,,,,,,,,,,,,265,Ophthalmology,True,,7,7
+llm,Metamorphopsia is seen in ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,5899.208210175857,794,239,1033,,,,,,,,,,,,,266,Ophthalmology,True,,7,7
+llm,Phacodonesis is seen in all except,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,4991.864175070077,795,202,997,,,,,,,,,,,,,267,Ophthalmology,True,,7,7
+llm,Phacoemulsification uses,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,5972.883168840781,791,242,1033,,,,,,,,,,,,,268,Ophthalmology,True,,7,7
+llm,Parasitosis of extraocular eye muscles is seen in?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,6855.436841957271,797,278,1075,,,,,,,,,,,,,269,Ophthalmology,True,,7,7
+llm,Most common cause of ophthalmoplegia ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,5968.008377123624,794,242,1036,,,,,,,,,,,,,270,Ophthalmology,True,,7,7
+llm,Snowball appearance is seen in ?,service Radiology,Radiology,Radiology,qwen3:32b,11582.264767959714,792,471,1263,,,,,,,,,,,,,271,Ophthalmology,False,,7,7
+llm,Esotropiais usually associated with:,service ENT,ENT,ENT,qwen3:32b,11308.547982946038,793,460,1253,,,,,,,,,,,,,272,Ophthalmology,False,,7,7
+llm,Listers perimeter is used for,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,9454.42046993412,791,384,1175,,,,,,,,,,,,,273,Ophthalmology,True,,7,7
+llm,Downward and outward moment of eye is effected in injury of?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,7857.775086071342,797,319,1116,,,,,,,,,,,,,274,Ophthalmology,True,,7,7
+llm,Features of Usher's Syndrome include all except ?,service ENT,ENT,ENT,qwen3:32b,61081.481469096616,795,2467,3262,,,,,,,,,,,,,275,Ophthalmology,False,,7,7
+llm,Non foldable lens is made of -,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,6288.765954086557,793,237,1030,,,,,,,,,,,,,276,Ophthalmology,True,,7,7
+llm,Lens attached to ciliary body ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,7576.099219964817,792,308,1100,,,,,,,,,,,,,277,Ophthalmology,True,,7,7
+llm,Conjunctival staining is done by all except,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,5475.467276992276,795,222,1017,,,,,,,,,,,,,278,Ophthalmology,True,,7,7
+llm,In Retinitis pigmentosa decreased level of?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,4026.272695045918,794,163,957,,,,,,,,,,,,,279,Ophthalmology,True,,7,7
+llm,Pilocarpine is used in all of the following except:September 2006,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,13239.82226406224,804,538,1342,,,,,,,,,,,,,280,Ophthalmology,True,,7,7
+llm,False about phacolytic glaucoma ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,6534.799730870873,795,265,1060,,,,,,,,,,,,,281,Ophthalmology,True,,7,7
+llm,Prerequisite for sympathetic ophthalmitis,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,5300.779985962436,794,215,1009,,,,,,,,,,,,,282,Ophthalmology,True,,7,7
+llm,100 day glaucoma is caused by,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,4962.237261934206,795,201,996,,,,,,,,,,,,,283,Ophthalmology,True,,7,7
+llm,Most common cause of intermittent proptosis ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,10522.732184035704,794,428,1222,,,,,,,,,,,,,284,Ophthalmology,True,,7,7
+llm,Glaucoma drainage devices ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,4939.214321086183,791,200,991,,,,,,,,,,,,,285,Ophthalmology,True,,7,7
+llm,"A patient diagnosed with Rheumatoid ahritis was on medications. After 2 years, he developed a blurring vision and was found to have corneal opacity. Which drug is most likely to cause this?",service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,7938.272743020207,827,321,1148,,,,,,,,,,,,,286,Ophthalmology,True,,7,7
+llm,Which of the following is a long term side effect of phakic 10Ls,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,8145.309627987444,804,330,1134,,,,,,,,,,,,,287,Ophthalmology,True,,7,7
+llm,"Which eye muscle has radial, longitudinal and circular fibres?",service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,13395.43495606631,796,544,1340,,,,,,,,,,,,,288,Ophthalmology,True,,7,7
+llm,An extra row of cilia posterior to the grey line,service ENT,ENT,ENT,qwen3:32b,8203.215475892648,796,333,1129,,,,,,,,,,,,,289,Ophthalmology,False,,7,7
+llm,A child has ptosis and poor levator function. What surgery will you do?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,7623.952249996364,801,309,1110,,,,,,,,,,,,,290,Ophthalmology,True,,7,7
+llm,Iritis in young patient with joint pain -,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,18416.90551699139,794,748,1542,,,,,,,,,,,,,291,Ophthalmology,True,,7,7
+llm,Cattle track appearence ?,service -1,general,general,qwen3:32b,15218.563251197338,791,610,1401,,,,,,,,,,,,,292,Ophthalmology,False,,7,7
+llm,Which layer of cornea helps in the hydration of stroma of cornea,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,4869.851459981874,800,197,997,,,,,,,,,,,,,293,Ophthalmology,True,,7,7
+llm,Ansiokonia is ?,service -1,general,general,qwen3:32b,7607.05820703879,791,309,1100,,,,,,,,,,,,,294,Ophthalmology,False,,7,7
+llm,Which of the following is not a pa of uveal,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,6216.494427993894,796,252,1048,,,,,,,,,,,,,295,Ophthalmology,True,,7,7
+llm,Vitreous hemorrhage in diabetic retinopathy ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,7608.774435007945,796,309,1105,,,,,,,,,,,,,296,Ophthalmology,True,,7,7
+llm,Pupillary reflex pathway- All of the following are a pa except ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,6020.469818962738,800,244,1044,,,,,,,,,,,,,297,Ophthalmology,True,,7,7
+llm,Refractory error measured by all except ?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,7414.730763994157,794,301,1095,,,,,,,,,,,,,298,Ophthalmology,True,,7,7
+llm,A 44 year old woman presents Sudden painless loss of vision with history of previous similar episode fundoscopy shows no glow. What could be the possible diagnosis?,service Ophthalmology,Ophthalmology,Ophthalmology,qwen3:32b,12123.038433957845,819,492,1311,,,,,,,,,,,,,299,Ophthalmology,True,,7,7
+llm,Depth of gastric carcinomas is assessed by -,service Radiology,Radiology,Radiology,qwen3:32b,7529.421743005514,794,306,1100,,,,,,,,,,,,,300,Radiology,True,,7,7
+llm,"When the X-ray tube is shifted to the right, the object shifts to the adjacent teeth. The object is positioned:",service Radiology,Radiology,Radiology,qwen3:32b,5948.405260918662,809,241,1050,,,,,,,,,,,,,301,Radiology,True,,7,7
+llm,Which view is taken for aoic window -,service Radiology,Radiology,Radiology,qwen3:32b,5325.529068009928,794,216,1010,,,,,,,,,,,,,302,Radiology,True,,7,7
+llm,Half life of Ra-226 -,service Radiology,Radiology,Radiology,qwen3:32b,7168.132138205692,794,291,1085,,,,,,,,,,,,,303,Radiology,True,,7,7
+llm,Which of the following is not a fibrotic effect,service -1,general,general,qwen3:32b,19464.431294007227,796,791,1587,,,,,,,,,,,,,304,Radiology,False,,7,7
+llm,Which of the following is not particulate radiation?,service Radiology,Radiology,Radiology,qwen3:32b,7584.721453022212,794,299,1093,,,,,,,,,,,,,305,Radiology,True,,7,7
+llm,Radiation used most commonly for pain management due to bone metastasis is -,service Radiology,Radiology,Radiology,qwen3:32b,9425.559913972393,800,383,1183,,,,,,,,,,,,,306,Radiology,True,,7,7
+llm,Anamoly scan done at how many weeks of gestation -,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,5504.091466078535,798,223,1021,,,,,,,,,,,,,307,Radiology,False,,7,7
+llm,Sonographic appearance of hydatid cyst is -,service Radiology,Radiology,Radiology,qwen3:32b,12054.919637972489,795,490,1285,,,,,,,,,,,,,308,Radiology,True,,7,7
+llm,Confusion assessment scale used for which of the following?,service -1,general,general,qwen3:32b,5946.344245923683,795,241,1036,,,,,,,,,,,,,309,Radiology,False,,7,7
+llm,Precisely directed high dose radiation is used in,service -1,general,general,qwen3:32b,20320.99856599234,795,826,1621,,,,,,,,,,,,,310,Radiology,False,,7,7
+llm,"""Tree in bud appearance"" on CT is seen in",service Radiology,Radiology,Radiology,qwen3:32b,7169.026607880369,795,282,1077,,,,,,,,,,,,,311,Radiology,True,,7,7
+llm,Beaded lumen with fimbrial fluid is seen in -,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,9647.131781093776,799,392,1191,,,,,,,,,,,,,312,Radiology,False,,7,7
+llm,Ultrasonographic finding of autosomal recessive polycystic kidney disease are all except,service Radiology,Radiology,Radiology,qwen3:32b,7784.914004150778,804,315,1119,,,,,,,,,,,,,313,Radiology,True,,7,7
+llm,Dye used in diagnosis of esophageal perforation:,service Radiology,Radiology,Radiology,qwen3:32b,10272.99044211395,797,416,1213,,,,,,,,,,,,,314,Radiology,True,,7,7
+llm,Minimum radiation dose which may lead to oligospermia is -,service Radiology,Radiology,Radiology,qwen3:32b,9117.514151148498,798,370,1168,,,,,,,,,,,,,315,Radiology,True,,7,7
+llm,Differential diagnosis of solitary pulmonary nodule are all except -,service Radiology,Radiology,Radiology,qwen3:32b,11762.147573987022,797,477,1274,,,,,,,,,,,,,316,Radiology,True,,7,7
+llm,Investigation of choice for multiple sclerosis,service Radiology,Radiology,Radiology,qwen3:32b,6753.410313045606,792,273,1065,,,,,,,,,,,,,317,Radiology,True,,7,7
+llm,Substance used for PET scan is,service Radiology,Radiology,Radiology,qwen3:32b,6845.388044137508,792,277,1069,,,,,,,,,,,,,318,Radiology,True,,7,7
+llm,Following are the causes of cavity in lungs except -,service Microbiology,Microbiology,Microbiology,qwen3:32b,10913.314807927236,795,442,1237,,,,,,,,,,,,,319,Radiology,False,,7,7
+llm,Which of the following is not a contraindication of MRI,service Radiology,Radiology,Radiology,qwen3:32b,7404.911327175796,798,298,1096,,,,,,,,,,,,,320,Radiology,True,,7,7
+llm,"To take bitewing radiograph in adults, which ISO film is used?",service Radiology,Radiology,Radiology,qwen3:32b,6820.447975071147,799,271,1070,,,,,,,,,,,,,321,Radiology,True,,7,7
+llm,Safe light in radiographic dark room is ideally should be of following color -,service Radiology,Radiology,Radiology,qwen3:32b,7069.080585846677,800,279,1079,,,,,,,,,,,,,322,Radiology,True,,7,7
+llm,Which of the following is water soluble contrast?,service Radiology,Radiology,Radiology,qwen3:32b,9087.495485087857,793,362,1155,,,,,,,,,,,,,323,Radiology,True,,7,7
+llm,Hyperanslucent chest X-ray is seen in all except,service Radiology,Radiology,Radiology,qwen3:32b,5845.656351186335,796,234,1030,,,,,,,,,,,,,324,Radiology,True,,7,7
+llm,Most sensitive investigation for minimum gas in abdomen is -,service Radiology,Radiology,Radiology,qwen3:32b,5985.985642066225,795,239,1034,,,,,,,,,,,,,325,Radiology,True,,7,7
+llm,First line investigation for deep venous thrombosis is -,service Radiology,Radiology,Radiology,qwen3:32b,8576.267783064395,797,347,1144,,,,,,,,,,,,,326,Radiology,True,,7,7
+llm,Investigation of choice for acute intracerebral hemorrhage is -,service Radiology,Radiology,Radiology,qwen3:32b,7473.411906976253,799,303,1102,,,,,,,,,,,,,327,Radiology,True,,7,7
+llm,"22-year-old women presents to the emergency depament with a chief complaint of severe left upper quadrant pain after being punched by her husband. Her blood pressure is 110/76, her pulse is 80 bpm, and her respiration rate is 24 breaths per minute. The best means to establish a diagnosis is which of the following ?",service Radiology,Radiology,Radiology,qwen3:32b,12595.611524069682,860,510,1370,,,,,,,,,,,,,328,Radiology,True,,7,7
+llm,Which delivers highest dose of radiation -,service Radiology,Radiology,Radiology,qwen3:32b,4735.263244947419,792,192,984,,,,,,,,,,,,,329,Radiology,True,,7,7
+llm,Following X-ray finding is associated with Chilaiditi syndrome -,service Radiology,Radiology,Radiology,qwen3:32b,5942.471059039235,798,241,1039,,,,,,,,,,,,,330,Radiology,True,,7,7
+llm,Skin erythema dose is:,service Radiology,Radiology,Radiology,qwen3:32b,6433.384284144267,792,260,1052,,,,,,,,,,,,,331,Radiology,True,,7,7
+llm,Radiological signs of acute pancreatitis on plain radiography are -,service Radiology,Radiology,Radiology,qwen3:32b,4300.105200847611,798,174,972,,,,,,,,,,,,,332,Radiology,True,,7,7
+llm,CT Scan finding in carotid cavernous sinus fistula is -,service Radiology,Radiology,Radiology,qwen3:32b,5179.381510009989,799,210,1009,,,,,,,,,,,,,333,Radiology,True,,7,7
+llm,Calcified pulmonary metastasis is seen in which carcinoma -,service Radiology,Radiology,Radiology,qwen3:32b,5033.321105875075,796,204,1000,,,,,,,,,,,,,334,Radiology,True,,7,7
+llm,Radiographic sign characteristic of pulmonary edema is -,service Radiology,Radiology,Radiology,qwen3:32b,3518.248175038025,795,142,937,,,,,,,,,,,,,335,Radiology,True,,7,7
+llm,Acute myocarditis schintigraphy is done with -,service Radiology,Radiology,Radiology,qwen3:32b,10129.319723928347,796,412,1208,,,,,,,,,,,,,336,Radiology,True,,7,7
+llm,"""Droop lily sign"" is seen in -",service Radiology,Radiology,Radiology,qwen3:32b,8588.003854034469,796,349,1145,,,,,,,,,,,,,337,Radiology,True,,7,7
+llm,Which new generation sialagogue has additional M3 action?,service ENT,ENT,ENT,qwen3:32b,7608.293249970302,796,309,1105,,,,,,,,,,,,,338,Radiology,False,,7,7
+llm,Investigation of choice in congenital uterine anamoly is -,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,8931.26029195264,800,363,1163,,,,,,,,,,,,,339,Radiology,False,,7,7
+llm,Piezoelectric crystal most widely used in ultrasonography probes is -,service Radiology,Radiology,Radiology,qwen3:32b,5546.595663996413,800,225,1025,,,,,,,,,,,,,340,Radiology,True,,7,7
+llm,Ring enhancing lesion on CT is a feature of,service Radiology,Radiology,Radiology,qwen3:32b,9195.886185858399,794,374,1168,,,,,,,,,,,,,341,Radiology,True,,7,7
+llm,Best view for sphenoid sinus is -,service ENT,ENT,ENT,qwen3:32b,4490.7812918536365,794,182,976,,,,,,,,,,,,,342,Radiology,False,,7,7
+llm,"A 50 year-old chronic alcoholic male patient, after a large binge of alcohol, presented to the emergency depament in subconscious state. He vomited several times, few of them mixed with blood. He had a history of hea burn and dyspeptic symptoms for past few tears. On physical exam, he had a temperature of 102degF, a pulse of 110, respiratory rate of 20 per minute and a blood pressure of 90/60. On physical examination there was abdominal guarding and tenderness. A plane erect chest X-ray reveals air under diaphragm. Probable diagnosis is",service Radiology,Radiology,Radiology,qwen3:32b,12127.195488195866,916,488,1404,,,,,,,,,,,,,343,Radiology,True,,7,7
+llm,Investigation of choice for acute subarachnoid hemorrhage is -,service Radiology,Radiology,Radiology,qwen3:32b,8298.622094094753,800,337,1137,,,,,,,,,,,,,344,Radiology,True,,7,7
+llm,Radiographic appearance of Hypophosphatasia:,service Radiology,Radiology,Radiology,qwen3:32b,4520.204522879794,795,183,978,,,,,,,,,,,,,345,Radiology,True,,7,7
+llm,MIBG dose is -,service Radiology,Radiology,Radiology,qwen3:32b,10417.909774929285,791,424,1215,,,,,,,,,,,,,346,Radiology,True,,7,7
+llm,Which of these structures hinders in imaging the roots of maxillary molars:,service Radiology,Radiology,Radiology,qwen3:32b,4936.3621168304235,801,200,1001,,,,,,,,,,,,,347,Radiology,True,,7,7
+llm,MRI sequence used to assess soft tissue pathology in:,service Radiology,Radiology,Radiology,qwen3:32b,6187.749207019806,795,251,1046,,,,,,,,,,,,,348,Radiology,True,,7,7
+llm,Von Rosen's view is for,service Radiology,Radiology,Radiology,qwen3:32b,5244.880007114261,792,213,1005,,,,,,,,,,,,,349,Radiology,True,,7,7
+llm,Following are the indications of barium meal X-ray except -,service Radiology,Radiology,Radiology,qwen3:32b,7628.5212631337345,797,310,1107,,,,,,,,,,,,,350,Radiology,True,,7,7
+llm,Most sensitive test to detect early renal TB is -,service Microbiology,Microbiology,Microbiology,qwen3:32b,5620.1223640237,795,228,1023,,,,,,,,,,,,,351,Radiology,False,,7,7
+llm,What is the effect on radiograph if there are scratches on intensifying screen?,service Radiology,Radiology,Radiology,qwen3:32b,4936.585725052282,800,200,1000,,,,,,,,,,,,,352,Radiology,True,,7,7
+llm,Nonionic dye is,service Radiology,Radiology,Radiology,qwen3:32b,6893.099566921592,789,280,1069,,,,,,,,,,,,,353,Radiology,True,,7,7
+llm,Colon is identified on X-ray,service Radiology,Radiology,Radiology,qwen3:32b,7720.064444933087,791,314,1105,,,,,,,,,,,,,354,Radiology,True,,7,7
+llm,Radioactive iodine is administered through which route,service Radiology,Radiology,Radiology,qwen3:32b,12238.921958953142,794,498,1292,,,,,,,,,,,,,355,Radiology,True,,7,7
+llm,Mechanism of heat loss in modern X-ray tube is,service Radiology,Radiology,Radiology,qwen3:32b,7830.098889069632,796,318,1114,,,,,,,,,,,,,356,Radiology,True,,7,7
+llm,The sign with patch of dullness beneath the angle of left scapula in a patient with pericardial effusion is named as -,service Radiology,Radiology,Radiology,qwen3:32b,7696.994005003944,814,312,1126,,,,,,,,,,,,,357,Radiology,True,,7,7
+llm,Gamma knife utilizes -,service Radiology,Radiology,Radiology,qwen3:32b,8140.355928102508,789,331,1120,,,,,,,,,,,,,358,Radiology,True,,7,7
+llm,Frequency of ultrasound waves in USG -,service Radiology,Radiology,Radiology,qwen3:32b,7282.976428046823,793,296,1089,,,,,,,,,,,,,359,Radiology,True,,7,7
+llm,"Human, animal, fomite or objects from which infective organism enters the host is called ?",service Microbiology,Microbiology,Microbiology,qwen3:32b,7787.598172901198,804,316,1120,,,,,,,,,,,,,360,Social & Preventive Medicine,False,,7,7
+llm,Which of the following larvicide is used under urban Malaria Scheme ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,9004.881705157459,800,366,1166,,,,,,,,,,,,,361,Social & Preventive Medicine,True,,7,7
+llm,Not a personal protective equipment,service -1,general,general,qwen3:32b,29352.375918999314,790,1192,1982,,,,,,,,,,,,,362,Social & Preventive Medicine,False,,7,7
+llm,Live influenza vaccine is given by which route ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,5774.60548793897,794,223,1017,,,,,,,,,,,,,363,Social & Preventive Medicine,False,,7,7
+llm,For post exposure prophylaxis for HIV the regimen is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,4762.407082831487,797,193,990,,,,,,,,,,,,,364,Social & Preventive Medicine,True,,7,7
+llm,Dental fluorosis occurs if fluoride level is more than,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,10007.620330899954,796,407,1203,,,,,,,,,,,,,365,Social & Preventive Medicine,True,,7,7
+llm,Vital statistics in a population are ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,5539.619357092306,793,225,1018,,,,,,,,,,,,,366,Social & Preventive Medicine,True,,7,7
+llm,Source of environmental radiation are all except?,service Radiology,Radiology,Radiology,qwen3:32b,7868.925804970786,792,320,1112,,,,,,,,,,,,,367,Social & Preventive Medicine,False,,7,7
+llm,Which is best to represent the data of following table -Year1991199219931994Number of LBW bodies751255025,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,17038.597367936745,827,692,1519,,,,,,,,,,,,,368,Social & Preventive Medicine,True,,7,7
+llm,"According to MDG child moality has to be reduced by how, much by 2015 ?",service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7222.367885056883,807,293,1100,,,,,,,,,,,,,369,Social & Preventive Medicine,True,,7,7
+llm,Which is true of pathogenic mosquitoes ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,7816.994576947764,793,318,1111,,,,,,,,,,,,,370,Social & Preventive Medicine,False,,7,7
+llm,Regular insectisidal spray is done when API is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,8320.614472031593,796,338,1134,,,,,,,,,,,,,371,Social & Preventive Medicine,True,,7,7
+llm,95% carrier and 5% cases are seen in ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,11392.41387997754,798,463,1261,,,,,,,,,,,,,372,Social & Preventive Medicine,True,,7,7
+llm,"Under RNTCP, DOTS provider gets how much honorarium after completion of treatment ?",service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,4231.079446151853,803,171,974,,,,,,,,,,,,,373,Social & Preventive Medicine,True,,7,7
+llm,Maximum work hours for a person including oveime under the factories act:,service -1,general,general,qwen3:32b,4422.126439167187,800,179,979,,,,,,,,,,,,,374,Social & Preventive Medicine,False,,7,7
+llm,Not true about diphtheria vaccine?,service Microbiology,Microbiology,Microbiology,qwen3:32b,5638.152266852558,793,229,1022,,,,,,,,,,,,,375,Social & Preventive Medicine,False,,7,7
+llm,Maximum linolenic acid is present in ?,service -1,general,general,qwen3:32b,12403.282369021326,794,505,1299,,,,,,,,,,,,,376,Social & Preventive Medicine,False,,7,7
+llm,Not included in Bradford Hill's criteria ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7629.4210471678525,793,310,1103,,,,,,,,,,,,,377,Social & Preventive Medicine,True,,7,7
+llm,Strength of association of outcome and risk factor is measured by?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,8645.378008950502,796,351,1147,,,,,,,,,,,,,378,Social & Preventive Medicine,True,,7,7
+llm,What is the MONICA project?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,4885.470082983375,791,198,989,,,,,,,,,,,,,379,Social & Preventive Medicine,True,,7,7
+llm,M/C Heavy Metal poisoning in The World?,service Microbiology,Microbiology,Microbiology,qwen3:32b,7186.198424082249,793,292,1085,,,,,,,,,,,,,380,Social & Preventive Medicine,False,,7,7
+llm,Highest funding for reproductive health is by -,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,9982.406515162438,793,406,1199,,,,,,,,,,,,,381,Social & Preventive Medicine,True,,7,7
+llm,Jai Vigyan National Mission is for?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,9214.583580149338,793,374,1167,,,,,,,,,,,,,382,Social & Preventive Medicine,True,,7,7
+llm,"Most widely used vaccine, beside OPV ?",service Microbiology,Microbiology,Microbiology,qwen3:32b,6839.135332964361,794,278,1072,,,,,,,,,,,,,383,Social & Preventive Medicine,False,,7,7
+llm,Benefit of RCT ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,5982.923372881487,791,243,1034,,,,,,,,,,,,,384,Social & Preventive Medicine,True,,7,7
+llm,Range of flight of Aedes mosquito is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7083.820631029084,794,288,1082,,,,,,,,,,,,,385,Social & Preventive Medicine,True,,7,7
+llm,"As per ICDS scheme, there should be one Anganwadi centre for a population of ?",service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,4454.097758978605,805,180,985,,,,,,,,,,,,,386,Social & Preventive Medicine,True,,7,7
+llm,Last point where reproductive and child health programme are include :,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,19414.33841199614,796,790,1586,,,,,,,,,,,,,387,Social & Preventive Medicine,False,,7,7
+llm,BEINGS Model of disease causation does not include,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6718.846180010587,795,264,1059,,,,,,,,,,,,,388,Social & Preventive Medicine,True,,7,7
+llm,Absolute contraindication for IUD (Intra Uterine Contraceptive Device) are all except -,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,6904.987246030942,808,280,1088,,,,,,,,,,,,,389,Social & Preventive Medicine,False,,7,7
+llm,Most common cause of pollution of drinking water,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,10905.433601001278,793,444,1237,,,,,,,,,,,,,390,Social & Preventive Medicine,True,,7,7
+llm,Virus not sensitive to disinfection by chlorination,service Microbiology,Microbiology,Microbiology,qwen3:32b,6335.97727608867,795,257,1052,,,,,,,,,,,,,391,Social & Preventive Medicine,False,,7,7
+llm,1955 Hepatitis outbreak in Delhi ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,4494.057812029496,795,182,977,,,,,,,,,,,,,392,Social & Preventive Medicine,True,,7,7
+llm,Results of any study are better defined in ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,8976.209040964022,794,364,1158,,,,,,,,,,,,,393,Social & Preventive Medicine,True,,7,7
+llm,True for epidemiological triad,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,3984.2795769218355,791,161,952,,,,,,,,,,,,,394,Social & Preventive Medicine,True,,7,7
+llm,PE is which type of management technique?,service Gynaecology & Obstetrics,Gynaecology & Obstetrics,Gynaecology & Obstetrics,qwen3:32b,10062.922223005444,792,409,1201,,,,,,,,,,,,,395,Social & Preventive Medicine,False,,7,7
+llm,Propagative cycle is seen in ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,6574.370638933033,793,267,1060,,,,,,,,,,,,,396,Social & Preventive Medicine,False,,7,7
+llm,Isolation period of TB ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,5735.684829065576,791,233,1024,,,,,,,,,,,,,397,Social & Preventive Medicine,True,,7,7
+llm,Green colour of triage is for which patient ?,service -1,general,general,qwen3:32b,7343.32849807106,795,298,1093,,,,,,,,,,,,,398,Social & Preventive Medicine,False,,7,7
+llm,Standardization is most impoant for?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,9290.29298806563,793,378,1171,,,,,,,,,,,,,399,Social & Preventive Medicine,True,,7,7
+llm,Best indicator for spread of TB in a community?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7970.126521075144,794,324,1118,,,,,,,,,,,,,400,Social & Preventive Medicine,True,,7,7
+llm,Diagnosis of filariasis is confirmed most commonly?,service Microbiology,Microbiology,Microbiology,qwen3:32b,8352.562932064757,795,339,1134,,,,,,,,,,,,,401,Social & Preventive Medicine,False,,7,7
+llm,Benefit of screening is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7732.006791047752,791,314,1105,,,,,,,,,,,,,402,Social & Preventive Medicine,True,,7,7
+llm,In a normal curve what is the area that comes under 1 standard detion-,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6197.057679062709,802,251,1053,,,,,,,,,,,,,403,Social & Preventive Medicine,True,,7,7
+llm,"Chandlers index for Hookworm, when it is health problem ?",service Microbiology,Microbiology,Microbiology,qwen3:32b,6482.327634934336,799,263,1062,,,,,,,,,,,,,404,Social & Preventive Medicine,False,,7,7
+llm,Disinfection of urine is which type of disinfection ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,8030.840071849525,797,326,1123,,,,,,,,,,,,,405,Social & Preventive Medicine,False,,7,7
+llm,Dose of diphtheria antitoxin is-,service Microbiology,Microbiology,Microbiology,qwen3:32b,6065.84178796038,798,246,1044,,,,,,,,,,,,,406,Social & Preventive Medicine,False,,7,7
+llm,PQLI is,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6594.003797043115,789,268,1057,,,,,,,,,,,,,407,Social & Preventive Medicine,True,,7,7
+llm,What is the BMI for an obese person:,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,8442.912943894044,794,343,1137,,,,,,,,,,,,,408,Social & Preventive Medicine,True,,7,7
+llm,Where will you put chemical liquid biomedical waste,service -1,general,general,qwen3:32b,6116.6534221265465,793,248,1041,,,,,,,,,,,,,409,Social & Preventive Medicine,False,,7,7
+llm,Not true about strategic plan for malaria control 20122017 ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,4903.6441838834435,803,198,1001,,,,,,,,,,,,,410,Social & Preventive Medicine,True,,7,7
+llm,Veical transmission of HIV is highest with-,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6996.540957130492,794,284,1078,,,,,,,,,,,,,411,Social & Preventive Medicine,True,,7,7
+llm,Which virus is used to produce rabies vaccine ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,7855.117139173672,795,319,1114,,,,,,,,,,,,,412,Social & Preventive Medicine,False,,7,7
+llm,Social psychology is ?,service -1,general,general,qwen3:32b,10002.0484959241,789,407,1196,,,,,,,,,,,,,413,Social & Preventive Medicine,False,,7,7
+llm,Human living standards can be compared in different countries by -,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7141.7280088644475,796,290,1086,,,,,,,,,,,,,414,Social & Preventive Medicine,True,,7,7
+llm,Study of person to person inter-relationship in a society -Economics,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,8388.11848196201,799,341,1140,,,,,,,,,,,,,415,Social & Preventive Medicine,True,,7,7
+llm,Second most common STD after gonococcus ?,service Microbiology,Microbiology,Microbiology,qwen3:32b,5497.158484067768,794,223,1017,,,,,,,,,,,,,416,Social & Preventive Medicine,False,,7,7
+llm,Cross product ratio is determined by which study ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,5419.323846930638,794,220,1014,,,,,,,,,,,,,417,Social & Preventive Medicine,True,,7,7
+llm,Extended sickness benefit for tuberculosis under the ESI Act is:,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7637.735235039145,797,310,1107,,,,,,,,,,,,,418,Social & Preventive Medicine,True,,7,7
+llm,Which does not have Live bihs as denominator?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,18676.585315028206,794,760,1554,,,,,,,,,,,,,419,Social & Preventive Medicine,False,,7,7
+llm,How do I link this new card?,service -1,general,general,qwen3:32b,5854.809411102906,792,229,1021,,,,,,,,,,,,,420,general,True,,7,7
+llm,How can I fix a problem where contactless isn't working?,service -1,general,general,qwen3:32b,6552.3023451678455,797,266,1063,,,,,,,,,,,,,421,general,True,,7,7
+llm,find travel alerts for haiti,service -1,general,general,qwen3:32b,9093.041322892532,792,370,1162,,,,,,,,,,,,,422,general,True,,7,7
+llm,what's on my list of things to remember,service -1,general,general,qwen3:32b,5935.296141076833,794,241,1035,,,,,,,,,,,,,423,general,True,,7,7
+llm,Where do my funds come from?,service -1,general,general,qwen3:32b,5610.480447066948,791,228,1019,,,,,,,,,,,,,424,general,True,,7,7
+llm,what's the minimum payment,service -1,general,general,qwen3:32b,4925.00416492112,790,200,990,,,,,,,,,,,,,425,general,True,,7,7
+llm,how much has microsoft's stock changed over the last year,service -1,general,general,qwen3:32b,5398.0310840997845,796,219,1015,,,,,,,,,,,,,426,general,True,,7,7
+llm,what's the french word you use for potato,service -1,general,general,qwen3:32b,4535.975556820631,794,184,978,,,,,,,,,,,,,427,general,True,,7,7
+llm,How do I get my top-up verification code?,service -1,general,general,qwen3:32b,7966.04868513532,794,324,1118,,,,,,,,,,,,,428,general,True,,7,7
+llm,switch over to low power mode to preserve battery life,service -1,general,general,qwen3:32b,6495.317282155156,795,262,1057,,,,,,,,,,,,,429,general,True,,7,7
+llm,what's the number of vacation days i have left,service -1,general,general,qwen3:32b,3696.6647130902857,795,149,944,,,,,,,,,,,,,430,general,True,,7,7
+llm,what is my card's apr rate,service -1,general,general,qwen3:32b,5496.500800829381,792,223,1015,,,,,,,,,,,,,431,general,True,,7,7
+llm,please let me know the status of my vacation request,service -1,general,general,qwen3:32b,5525.0529770273715,795,224,1019,,,,,,,,,,,,,432,general,True,,7,7
+llm,"I just activated auto top-up, but it is not letting me enable it. Why not?",service -1,general,general,qwen3:32b,4880.85046201013,803,197,1000,,,,,,,,,,,,,433,general,True,,7,7
+llm,what is the weather doing now,service -1,general,general,qwen3:32b,7414.6067660767585,791,301,1092,,,,,,,,,,,,,434,general,True,,7,7
+llm,Is there an age minimum?,service -1,general,general,qwen3:32b,8358.829640084878,790,340,1130,,,,,,,,,,,,,435,general,True,,7,7
+llm,"I see my top-up was canceled, but why?",service -1,general,general,qwen3:32b,7703.912349184975,795,313,1108,,,,,,,,,,,,,436,general,True,,7,7
+llm,I took out a foreign currency and the exchange rate is wrong.,service -1,general,general,qwen3:32b,3935.5664630420506,797,159,956,,,,,,,,,,,,,437,general,True,,7,7
+llm,what name do you have for me,service -1,general,general,qwen3:32b,8375.870466930792,792,340,1132,,,,,,,,,,,,,438,general,True,,7,7
+llm,Why did I have to pay extra because I paid with card?,service -1,general,general,qwen3:32b,4994.258166989312,797,202,999,,,,,,,,,,,,,439,general,True,,7,7
+llm,what do i go by,service -1,general,general,qwen3:32b,5467.177272075787,790,222,1012,,,,,,,,,,,,,440,general,True,,7,7
+llm,I would like to know why I was charged twice for my purchase.,service -1,general,general,qwen3:32b,3688.3842821698636,798,149,947,,,,,,,,,,,,,441,general,True,,7,7
+llm,can you let me know the next open slot for me to get my oil changed,service -1,general,general,qwen3:32b,4228.191911010072,801,171,972,,,,,,,,,,,,,442,general,True,,7,7
+llm,help me to transfer my 401k,service -1,general,general,qwen3:32b,4324.2721820715815,795,175,970,,,,,,,,,,,,,443,general,True,,7,7
+llm,"I sent out money, but was charged extra for transferring. Why?",service -1,general,general,qwen3:32b,2880.5845701135695,798,116,914,,,,,,,,,,,,,444,general,True,,7,7
+llm,create emergency phone numbers list,service -1,general,general,qwen3:32b,3950.0376689247787,790,160,950,,,,,,,,,,,,,445,general,True,,7,7
+llm,"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",service -1,general,general,qwen3:32b,5873.725588899106,804,238,1042,,,,,,,,,,,,,446,general,True,,7,7
+llm,places i can use the card,service -1,general,general,qwen3:32b,7892.62858312577,791,321,1112,,,,,,,,,,,,,447,general,True,,7,7
+llm,I lost my phone!,service -1,general,general,qwen3:32b,8238.095768960193,789,335,1124,,,,,,,,,,,,,448,general,True,,7,7
+llm,disconnect from wifi immediately please,service -1,general,general,qwen3:32b,4146.855220897123,790,168,958,,,,,,,,,,,,,449,general,True,,7,7
+llm,What type of ATMs accept this card?,service -1,general,general,qwen3:32b,5341.895972844213,793,217,1010,,,,,,,,,,,,,450,general,True,,7,7
+llm,What fiat currencies are supported for holding and exchange?,service -1,general,general,qwen3:32b,4049.334561917931,794,163,957,,,,,,,,,,,,,451,general,True,,7,7
+llm,How would I use my money in a different country?,service -1,general,general,qwen3:32b,7463.283887831494,795,303,1098,,,,,,,,,,,,,452,general,True,,7,7
+llm,what's your home country,service -1,general,general,qwen3:32b,3469.7741749696434,790,140,930,,,,,,,,,,,,,453,general,True,,7,7
+llm,"$1 extra has been charged on my statement, why is that?",service -1,general,general,qwen3:32b,4938.7296789791435,797,200,997,,,,,,,,,,,,,454,general,True,,7,7
+llm,please read me the last text message i received,service -1,general,general,qwen3:32b,7168.255545897409,794,291,1085,,,,,,,,,,,,,455,general,True,,7,7
+llm,where were you thought of,service -1,general,general,qwen3:32b,5587.535826023668,790,227,1017,,,,,,,,,,,,,456,general,True,,7,7
+llm,say again please,service -1,general,general,qwen3:32b,7354.6598081011325,788,299,1087,,,,,,,,,,,,,457,general,True,,7,7
+llm,i would like help moving money from one account to another,service -1,general,general,qwen3:32b,3955.9152910951525,796,160,956,,,,,,,,,,,,,458,general,True,,7,7
+llm,I am experiencing difficulty providing my identity.,service -1,general,general,qwen3:32b,9901.997409993783,792,403,1195,,,,,,,,,,,,,459,general,True,,7,7
+llm,can i redeem my points by transferring them to someone as a gift,service -1,general,general,qwen3:32b,4789.607473881915,798,194,992,,,,,,,,,,,,,460,general,True,,7,7
+llm,How do I retrieve my card from the machine?,service -1,general,general,qwen3:32b,8971.174729056656,794,365,1159,,,,,,,,,,,,,461,general,True,,7,7
+llm,What do you charge for physical cards?,service -1,general,general,qwen3:32b,8653.774291975424,792,352,1144,,,,,,,,,,,,,462,general,True,,7,7
+llm,I want to know where the funds come from.,service -1,general,general,qwen3:32b,18309.247290017083,794,745,1539,,,,,,,,,,,,,463,general,True,,7,7
+llm,is the movie avatar culturally insensitive,service -1,general,general,qwen3:32b,5195.1256189495325,791,211,1002,,,,,,,,,,,,,464,general,True,,7,7
+llm,what are some of your hobbies,service -1,general,general,qwen3:32b,6032.203611917794,791,245,1036,,,,,,,,,,,,,465,general,True,,7,7
+llm,find my current location,service -1,general,general,qwen3:32b,4414.496242068708,789,179,968,,,,,,,,,,,,,466,general,True,,7,7
+llm,Help!  I can't find my card.,service -1,general,general,qwen3:32b,6043.545335065573,794,245,1039,,,,,,,,,,,,,467,general,True,,7,7
+llm,where do i report that my card was lost,service -1,general,general,qwen3:32b,7407.843308988959,794,301,1095,,,,,,,,,,,,,468,general,True,,7,7
+llm,Can I add money with Apple Pay?,service -1,general,general,qwen3:32b,7186.312075005844,792,292,1084,,,,,,,,,,,,,469,general,True,,7,7
+llm,Can I change my information?,service -1,general,general,qwen3:32b,9387.072986923158,790,382,1172,,,,,,,,,,,,,470,general,True,,7,7
+llm,"I am traveling to Germany, Will I be able to use my card there?",service -1,general,general,qwen3:32b,6310.291514033452,800,256,1056,,,,,,,,,,,,,471,general,True,,7,7
+llm,what is the cheapest new car for this year,service -1,general,general,qwen3:32b,5051.745526026934,794,205,999,,,,,,,,,,,,,472,general,True,,7,7
+llm,"Hi, I have been overcharged for my payment last Saturday. I guess exchange rate was wrong.",service -1,general,general,qwen3:32b,5952.346173813567,804,241,1045,,,,,,,,,,,,,473,general,True,,7,7
+llm,Will it automatically top-up money if there isn't a lot left?,service -1,general,general,qwen3:32b,6731.344705913216,798,273,1071,,,,,,,,,,,,,474,general,True,,7,7
+llm,when do i get my next paycheck,service -1,general,general,qwen3:32b,7454.562178114429,792,303,1095,,,,,,,,,,,,,475,general,True,,7,7
+llm,How can I fix a problem where my virtual card is rejected?,service -1,general,general,qwen3:32b,7122.1427919808775,797,289,1086,,,,,,,,,,,,,476,general,True,,7,7
+llm,"Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but ""Pending"", and that status has never changed during the last two days.",service -1,general,general,qwen3:32b,4656.705925008282,837,187,1024,,,,,,,,,,,,,477,general,True,,7,7
+llm,is it okay to use butter instead of margarine,service -1,general,general,qwen3:32b,8367.904162965715,795,340,1135,,,,,,,,,,,,,478,general,True,,7,7
+llm,how much vacation time do i have,service -1,general,general,qwen3:32b,5544.599556131288,792,225,1017,,,,,,,,,,,,,479,general,True,,7,7

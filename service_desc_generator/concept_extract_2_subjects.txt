@@ -1,0 +1,28 @@
+[PATH] Validation data: /home/maniles/manile/manile/data/MedMCQA/validation_questions/medmcqa_validation_questions_2.json
+[LOAD] validation data: (33, 4)
+[LOAD] routing services: 2
+[LOAD] specialist subjects: 2
+[GROUP] Number of subject groups: 2
+[GROUP] Psychiatry: 16 questions
+[GROUP] Skin: 17 questions
+
+[1/2] Extracting Psychiatry (16 questions)
+[EXTRACT] Processing Psychiatry: 16 questions
+[EXTRACT] Psychiatry: 15 concepts
+
+[2/2] Extracting Skin (17 questions)
+[EXTRACT] Processing Skin: 17 questions
+[EXTRACT] Skin: 17 concepts
+
+[DONE] Saved results to /home/maniles/manile/manile/data/MedMCQA/descriptions/general_concepts_extraction_2_subjects.json
+[LOAD] Extracted concepts for 2 subjects
+
+[1/2] Selecting core concepts: Skin
+[CORE] Processing Skin: 17 extracted concepts
+[CORE] Skin: 6 core concepts
+
+[2/2] Selecting core concepts: Psychiatry
+[CORE] Processing Psychiatry: 15 extracted concepts
+[CORE] Psychiatry: 7 core concepts
+
+[DONE] Saved core concepts to /home/maniles/manile/manile/data/MedMCQA/descriptions/core_concepts_2_subjects.json

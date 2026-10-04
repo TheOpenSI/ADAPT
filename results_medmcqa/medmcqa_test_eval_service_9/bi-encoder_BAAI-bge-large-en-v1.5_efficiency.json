@@ -1,0 +1,11 @@
+{
+  "routing_method": "bi-encoder",
+  "model_name": "BAAI/bge-large-en-v1.5",
+  "specialist_service_count": 9,
+  "total_service_count": 9,
+  "total_queries": 600,
+  "total_energy_kwh": 0.0005128772857118012,
+  "energy_per_query_kwh": 8.547954761863354e-07,
+  "total_co2_kg": 0.00028141166365177966,
+  "co2_per_query_kg": 4.6901943941963275e-07
+}

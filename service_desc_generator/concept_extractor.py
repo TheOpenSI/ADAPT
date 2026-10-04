@@ -14,7 +14,7 @@ sys.path.insert(0, project_root)
 import ollama
 import pandas as pd
 
-from data.ScienceQA.specialists_dataset.scienceqa_config import SCIENCEQA_SERVICE_SETS
+from data.MedMCQA.specialists_dataset.medmcqa_config import MEDMCQA_SERVICE_SETS
 
 
 class ServiceConceptExtractor:
@@ -367,32 +367,60 @@ Return ONLY valid JSON in this format:
 
 if __name__ == "__main__":
 
+    SERVICE_ID = 1
 
-    output_dir = "data/ScienceQA/descriptions"
-    os.makedirs(output_dir, exist_ok=True)
-    
+    output_dir = os.path.join(
+        project_root,
+        "data",
+        "MedMCQA",
+        "descriptions"
+    )
+
+    os.makedirs(
+        output_dir,
+        exist_ok=True
+    )
 
     validation_path = os.path.join(
         project_root,
         "data",
-        "ScienceQA",
+        "MedMCQA",
         "validation_questions",
-        "scienceqa_validation_questions.json"
+        f"medmcqa_validation_questions_{SERVICE_ID}.json"
     )
+
+    print(f"[PATH] Validation data: {validation_path}")
+
+    if not os.path.exists(validation_path):
+        raise FileNotFoundError(
+            f"Validation data not found: {validation_path}"
+        )
 
     extractor = ServiceConceptExtractor(
         data_path=validation_path,
-        service_set=SCIENCEQA_SERVICE_SETS[10]
-
+        service_set=MEDMCQA_SERVICE_SETS[SERVICE_ID],
+        model="qwen2.5:32b"
     )
 
-    # Stage 1: validation questions -> extracted concepts
+    general_concept_path = os.path.join(
+        output_dir,
+        "general_concepts_extraction_1_subject.json"
+    )
+
+    core_concept_path = os.path.join(
+        output_dir,
+        "core_concepts_1_subject.json"
+    )
+
+    # Stage 1:
+    # validation questions -> extracted concepts
     extractor.extract_all(
-        output_path=f"{output_dir}/general_concepts_extraction.json"
+        output_path=general_concept_path
     )
 
-    # Stage 2: extracted concepts -> specialist core concepts
+    # Stage 2:
+    # extracted concepts -> specialist core concepts
     extractor.extract_all_core_concepts(
-        general_concept_path=f"{output_dir}/general_concepts_extraction.json",
-        output_path=f"{output_dir}/core_concepts.json"
+        general_concept_path=general_concept_path,
+        output_path=core_concept_path
     )

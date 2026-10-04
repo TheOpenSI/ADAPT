@@ -1,0 +1,32 @@
+[LOAD] ../data/MedMCQA/descriptions/general_concepts_extraction.json: 8 subjects
+[LOAD] ../data/MedMCQA/descriptions/core_concepts.json: 7 subjects
+
+[1/7] Generating specialist description: Radiology
+[SPECIALIST] Generating description: Radiology
+[SPECIALIST] Radiology: 59 words
+
+[2/7] Generating specialist description: Social & Preventive Medicine
+[SPECIALIST] Generating description: Social & Preventive Medicine
+[SPECIALIST] Social & Preventive Medicine: 47 words
+
+[3/7] Generating specialist description: Forensic Medicine
+[SPECIALIST] Generating description: Forensic Medicine
+[SPECIALIST] Forensic Medicine: 56 words
+
+[4/7] Generating specialist description: Ophthalmology
+[SPECIALIST] Generating description: Ophthalmology
+[SPECIALIST] Ophthalmology: 41 words
+
+[5/7] Generating specialist description: Microbiology
+[SPECIALIST] Generating description: Microbiology
+[SPECIALIST] Microbiology: 51 words
+
+[6/7] Generating specialist description: Gynaecology & Obstetrics
+[SPECIALIST] Generating description: Gynaecology & Obstetrics
+[SPECIALIST] Gynaecology & Obstetrics: 41 words
+
+[7/7] Generating specialist description: ENT
+[SPECIALIST] Generating description: ENT
+[SPECIALIST] ENT: 42 words
+
+[DONE] Saved specialist descriptions to ../data/MedMCQA/descriptions/service_descriptions_7.json

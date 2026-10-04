@@ -1,0 +1,25 @@
+{
+  "Skin": {
+    "subject": "Skin",
+    "core_concepts": [
+      "Allergic contact dermatitis causes",
+      "Drug-induced skin reactions",
+      "Cutaneous manifestations of infections",
+      "Erythrodermic psoriasis treatment",
+      "Chronic urticaria diagnosis",
+      "Blistering disorders"
+    ]
+  },
+  "Psychiatry": {
+    "subject": "Psychiatry",
+    "core_concepts": [
+      "Delusions",
+      "Antipsychotic administration techniques",
+      "Subcortical dementia causes",
+      "Electroconvulsive therapy complications",
+      "Anorexia nervosa treatment",
+      "SPIKES communication protocol",
+      "Akathisia"
+    ]
+  }
+}

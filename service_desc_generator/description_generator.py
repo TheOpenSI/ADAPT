@@ -13,7 +13,7 @@ sys.path.insert(0, project_root)
 
 import ollama
 
-from data.ScienceQA.specialists_dataset.scienceqa_config import SCIENCEQA_SERVICE_SETS
+from data.MedMCQA.specialists_dataset.medmcqa_config import MEDMCQA_SERVICE_SETS
 
 
 class ServiceDescriptionGenerator:
@@ -173,7 +173,7 @@ Return ONLY valid JSON in this format:
 
     def generate_all_specialist_descriptions(self):
 
-        specialists = SCIENCEQA_SERVICE_SETS[self.service_count]
+        specialists = MEDMCQA_SERVICE_SETS[self.service_count]
 
         results = {}
         total = len(specialists)
@@ -224,20 +224,20 @@ Return ONLY valid JSON in this format:
 
 if __name__ == "__main__":
     generator = ServiceDescriptionGenerator(
-        service_count=8,
+        service_count=1,
         model="qwen3:32b",
 
         general_concept_path=(
-            "data/ScienceQA/descriptions/"
-            "general_concepts_extraction.json"
+            "../data/MedMCQA/descriptions/"
+            "general_concepts_extraction_1_subject.json"
         ),
         core_concept_path=(
-            "data/ScienceQA/descriptions/"
-            "core_concepts.json"
+            "../data/MedMCQA/descriptions/"
+            "core_concepts_1_subject.json"
         ),
         output_path=(
-            "data/ScienceQA/descriptions/"
-            "service_descriptions_8.json"
+           "../data/MedMCQA/descriptions/"
+            "service_descriptions_1.json"
         ),
     )
     # generator.generate_all_specialist_descriptions()

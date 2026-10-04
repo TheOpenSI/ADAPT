@@ -1,0 +1,3 @@
+[LOAD] ../data/MedMCQA/descriptions/general_concepts_extraction_2_subjects.json: 2 subjects
+[LOAD] ../data/MedMCQA/descriptions/core_concepts_2_subjects.json: 2 subjects
+[DONE] Flattened service descriptions in ../data/MedMCQA/descriptions/service_descriptions_2.json

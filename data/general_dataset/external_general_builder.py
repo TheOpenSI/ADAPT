@@ -116,8 +116,8 @@ class ExternalGeneralBuilder:
 
 if __name__ == "__main__":
     builder = ExternalGeneralBuilder(
-        banking_samples=50,
-        clinc_samples=50,
+        banking_samples=30,
+        clinc_samples=30,
         banking_split="test",
         clinc_split="test",
         seed=42

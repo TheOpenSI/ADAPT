@@ -1,0 +1,552 @@
+[
+  {
+    "question":"Crab claw separator is",
+    "subject":"Dental",
+    "choices":[
+      "Farrier separator",
+      "Elliot separator",
+      "Both",
+      "None"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Calcification of roots of deciduous teeth is completed by:",
+    "subject":"Dental",
+    "choices":[
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"The systolic blood pressure in normal healthy males of age group of 40 \u2014 60 has a normal distribution with a mean of 130 in a sample of 100. People with systolic blood pressure more than 130 will be:",
+    "subject":"Dental",
+    "choices":[
+      "100",
+      "75",
+      "50",
+      "25"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Rooting reflex also known as search reflex disappears:",
+    "subject":"Dental",
+    "choices":[
+      "2 month",
+      "3 month",
+      "4 month",
+      "5 month"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Definitive treatment for the condition shown in radiograph below is?",
+    "subject":"Dental",
+    "choices":[
+      "Apexogenesis",
+      "Revascularisation",
+      "Calcium Hydroxide apexification",
+      "MTA barrier formation"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Caries in a 4 year old child is best assessed by:",
+    "subject":"Dental",
+    "choices":[
+      "Previous caries experience",
+      "Maternal caries",
+      "School fluoridation",
+      "Daily fluoride mouthwash"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"The Chamfer finish line is used in",
+    "subject":"Dental",
+    "choices":[
+      "Lingual surface of metal ceramic crown",
+      "Facial surface of metal ceramic crown",
+      "Facial surface of porcelain jacket crown",
+      "Lingual surface of porcelain jacket crown"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Non radiographic method of working length determination:",
+    "subject":"Dental",
+    "choices":[
+      "Digital tactile sense",
+      "Apical periodontal sensitivity",
+      "Electronic apex locator",
+      "All of the above"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Who was associated with second amalgam war?",
+    "subject":"Dental",
+    "choices":[
+      "G V Black",
+      "Charles bell",
+      "Huggins",
+      "Alfred stock"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"The percentage of fluoride used in iontophoresis is:",
+    "subject":"Dental",
+    "choices":[
+      "1%",
+      "2%",
+      "4%",
+      "8%"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Resistance to corrosion in a cobalt-chrome casting is due to presence of:",
+    "subject":"Dental",
+    "choices":[
+      "High quality iron",
+      "Chrome",
+      "Cobalt",
+      "Nickel"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following should be treated by using a \ntissue conditioner material?",
+    "subject":"Dental",
+    "choices":[
+      "Tissue symptoms related to diabetes mellitus",
+      "Generalized ridge hyperplasia",
+      "Traumatized mucosa caused by ill fitting dentures",
+      "Sharp residual ridge in molar area"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Working cusps are also known as:",
+    "subject":"Dental",
+    "choices":[
+      "Guiding cusps.",
+      "Supporting cusps.",
+      "Holding cusps.",
+      "Balancing cusps."
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Most common organism responsible for acute apical abscess:",
+    "subject":"Dental",
+    "choices":[
+      "Trepenoma denticola",
+      "Dilaster invisus",
+      "E. faecalis",
+      "All of the above"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"The classification is given by:",
+    "subject":"Dental",
+    "choices":[
+      "Ackerman",
+      "Proffit",
+      "Dewey",
+      "Both 1 and 2"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following type of flow occurs, when on applying critical shear stress, a material turns to liquid?",
+    "subject":"Dental",
+    "choices":[
+      "Bingham body behaviour",
+      "Newtonian body",
+      "Dilatant",
+      "Pseudoplastic"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Etching time in teeth with fluorosis",
+    "subject":"Dental",
+    "choices":[
+      "10-15 sec",
+      "15-30 sec",
+      "60-90 sec",
+      "Can\u2019t be etched"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Tooth brush abrasions are more common on the",
+    "subject":"Dental",
+    "choices":[
+      "Mandibular teeth, on the right half of the arch",
+      "Mandibular teeth, on the left half of the arch",
+      "Maxillary teeth, on the right half of the arch",
+      "Maxillary teeth, on the left half of the arch"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"If a permanent first molar is lost, the permanent second molar drifts to the:",
+    "subject":"Dental",
+    "choices":[
+      "Buccal side",
+      "Distal side",
+      "Mesial side",
+      "Lingual side"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"The lingual extension of a Lower denture is Limited by all of the following (except)",
+    "subject":"Dental",
+    "choices":[
+      "Modiolus",
+      "Mylohyoid muscle",
+      "Origin of genioglossus",
+      "Sublingual salivary glands"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"In reversible hydrocolloid the property by which the transformation from sol to gel and gel to sol occurs, is a function of the:",
+    "subject":"Dental",
+    "choices":[
+      "Concentration of fillers and plasticizer",
+      "Percentage composition by weight of water",
+      "Concentration of potassium sulphate",
+      "Temperature"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Bar-clasp assembly mostly used is:",
+    "subject":"Dental",
+    "choices":[
+      "Mesio-occlusal rest",
+      "Disto-occlusal rest",
+      "Buccal approach",
+      "None of the above"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Finishing and Polishing of Amalgam make the restoration:",
+    "subject":"Dental",
+    "choices":[
+      "Increase in tarnish and corrosion resistance",
+      "Increase the marginal strength",
+      "Decrease the tarnish and corrosion resistance",
+      "Increased compressive strength"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Chromium is used in stainless steel for which purpose?",
+    "subject":"Dental",
+    "choices":[
+      "Corrosion resistance",
+      "Increases the lustre of stainless steel",
+      "Stabilization of the alloy",
+      "Increases the hardness of steel"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"All of the following are true about polymerization shrinkage of composite resin except:",
+    "subject":"Dental",
+    "choices":[
+      "The more surface area of bonded structure causes LESS shrinkage compare to surface area of unbounded structure restoration.",
+      "Class-V composite restoration causes. Contraction more than gold restoration",
+      "Etching and priming reduces shrinkages",
+      "One third (1\/3rd) of the enamel involves causes more shrinkage"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which\tof the following is\turethane\tdimethacrylate\n(UDMA) resin based endosealer?",
+    "subject":"Dental",
+    "choices":[
+      "Endorez",
+      "Real seal",
+      "Raeko sealer",
+      "Tubli seal"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Arch length analysis of a dentition shows a discrepancy of more than 10 mm. This indicates:",
+    "subject":"Dental",
+    "choices":[
+      "No extraction required if treated at an early age",
+      "No extraction required",
+      "Extraction of posterior teeth",
+      "Proximal stripping"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"The flap technique for pocket elimination and to increase\nin width of attached gingiva is",
+    "subject":"Dental",
+    "choices":[
+      "Coronally repositioned flap",
+      "Apically repositioned flap",
+      "Lateral pedicel flap",
+      "Modified widman flap"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"The function of posterior palatal seal is:",
+    "subject":"Dental",
+    "choices":[
+      "To aid in balanced occlusion",
+      "To aid in insertion and removal of complete denture",
+      "To ensure a complete seal thus helping in retention of a denture",
+      "Retention of mandibular denture by sealing its posterior margin."
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Most suitable pontic for maxillary posterior area",
+    "subject":"Dental",
+    "choices":[
+      "Trupontic or long pin pontic",
+      "Sanitary pontic",
+      "Flat back pontic with porcelain facing",
+      "Pin facing pontic"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"A traumatized tooth nonvital with or without crown\nfracture is classified as",
+    "subject":"Dental",
+    "choices":[
+      "Class-III",
+      "Class-IV",
+      "Class -V",
+      "Class-VII"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Lateral movement of condyle is caused by:",
+    "subject":"Dental",
+    "choices":[
+      "Contralateral lateral pterygoid muscle",
+      "Both lateral and medial pterygoid muscle",
+      "Epsilateral lateal pterygoid muscle",
+      "Bilateral contraction of lateral pterygoid muscle"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Most common complication during ridge split or bone spreading is",
+    "subject":"Dental",
+    "choices":[
+      "Dehiscence",
+      "Facial plate splitting",
+      "Implant micro movement",
+      "Poor position of implant"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"All factors governing dentine permeability EXCEPT",
+    "subject":"Dental",
+    "choices":[
+      "Smear Layer",
+      "Fluid Convection",
+      "Length of dentinal tubules",
+      "Diffusion coefficient"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which ion of hydroxyapatite crystals is substituted by Fluoride imparts more strength?",
+    "subject":"Dental",
+    "choices":[
+      "Hydroxyl ion",
+      "Calcium ion",
+      "Phosphate ion",
+      "None"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following statement is true as far as spring back bending of super-elastic NiTi and non-super elastic NiTI wires is concern?",
+    "subject":"Dental",
+    "choices":[
+      "Spring back in bending is much greater for superelastic NiTi wires than non-superelastic NiTi",
+      "Spring back in bending is much lesser for superelastic NiTi wires than non-superelastic",
+      "Spring back in bending is same for superelastic Nill wires as well as non-superelastic NiTi wires",
+      "No comparison can be made between the spring back in bending of these two wires"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Point used as termination of Root canal procedure is",
+    "subject":"Dental",
+    "choices":[
+      "Apical constriction",
+      "Apical foramen",
+      "Both",
+      "None"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Sterilization of hand piece will cause:",
+    "subject":"Dental",
+    "choices":[
+      "Rust of hand piece",
+      "Turbine wear",
+      "Fibre loss",
+      "Loss of torque"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"According to ISO 6876-2001 ADA specifications 57 Endodontics sealer penetration is upto?",
+    "subject":"Dental",
+    "choices":[
+      "150 \u03bcm",
+      "50 \u03bcm",
+      "300 \u03bcm",
+      "100 \u03bcm"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Heavy and light body impression materials are used with:",
+    "subject":"Dental",
+    "choices":[
+      "Mercaptan",
+      "Silicone",
+      "Reversible hydrocolloid",
+      "1 and 2"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following instruments are more efficient?",
+    "subject":"Dental",
+    "choices":[
+      "Stainless steel",
+      "Carbon steel",
+      "Both have equal efficacy",
+      "None"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following orthodontic wire has least modulus of elasticity?",
+    "subject":"Dental",
+    "choices":[
+      "NiTi",
+      "Beta titanium",
+      "Stainless steel",
+      "Co-Cr-Ni"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which is true about mucogingival flap designs",
+    "subject":"Dental",
+    "choices":[
+      "Flap should be wider at the base",
+      "Flap should be narrower at the base",
+      "Flap margins should not rest on bone",
+      "Mucogingival flaps should be avoided"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Chewing stroke starts from?",
+    "subject":"Dental",
+    "choices":[
+      "CO",
+      "CR",
+      "Maximum intercuspation",
+      "CR or CO depends on patient to patient"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Gutta Percha can effectively be sterilized by?",
+    "subject":"Dental",
+    "choices":[
+      "Hot salt sterilizer",
+      "Chemical solutions",
+      "Autoclaving",
+      "Dry heat"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following is true about Chi-square test?",
+    "subject":"Dental",
+    "choices":[
+      "Measures qualitative data",
+      "Measures both qualitative and quantitative data",
+      "Measures the qualitative data between two proportion",
+      "Measure the quantitative data between two proportion"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Most common extraradicular microorganism is\/ are:",
+    "subject":"Dental",
+    "choices":[
+      "Actinomyces species.",
+      "Propioni bacterium.",
+      "Propionicum.",
+      "All of the above."
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Largest Faciolingual dimension is seen in",
+    "subject":"Dental",
+    "choices":[
+      "Lower 1st molar",
+      "Upper 1st molar",
+      "Lower 2nd molar",
+      "Upper 2nd molar"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following type of tongue thrusting has the worst prognosis?",
+    "subject":"Dental",
+    "choices":[
+      "Simple",
+      "Complex",
+      "Retained infantile swallow",
+      "All of the above"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Multi constricted apical constriction is seen in which type of Dummer\u2019s classification",
+    "subject":"Dental",
+    "choices":[
+      "Type 1",
+      "Type 2",
+      "Type 3",
+      "Type 4"
+    ],
+    "expected_service":"Dental"
+  }
+]

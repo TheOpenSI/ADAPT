@@ -1,0 +1,241 @@
+routing_method,query,raw_response,predicted_label,top_candidate,model_name,latency_ms,prompt_tokens,completion_tokens,total_tokens,max_score,margin,margin_ratio,normalized_margin,mean_score,std_score,top_zscore,second_top_zscore,zscore_margin,scores,zscores,confidence_threshold,query_id,expected_service,is_correct,error,specialist_service_count,total_service_count
+llm,Elderly individual living alone in a temperate zone is found dead one morning. The electric heater is found to be damaged. The rigor mois will set in:NEET 14,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,9915.423311991617,493,327,820,,,,,,,,,,,,,0,Forensic Medicine,True,,3,3
+llm,"Parents of the Child complains of assaulted by one of their relatives and anal pain in a child, On investigation test shows yellow iodine crystals with picric acid - what is the name of the test?",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6534.355818992481,494,268,762,,,,,,,,,,,,,1,Forensic Medicine,True,,3,3
+llm,True about Stab Wounds ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6609.714241931215,462,275,737,,,,,,,,,,,,,2,Forensic Medicine,True,,3,3
+llm,Adultery is described under which section of IPC?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6785.744077991694,465,281,746,,,,,,,,,,,,,3,Forensic Medicine,True,,3,3
+llm,Extra permanent tooth to erupt is -,service -1,general,general,qwen3:32b,12799.877604935318,462,526,988,,,,,,,,,,,,,4,Forensic Medicine,False,,3,3
+llm,Best method for methanol poisoning treatment:March 2007,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8532.513348851353,469,342,811,,,,,,,,,,,,,5,Forensic Medicine,True,,3,3
+llm,Contributory negligence is negligence due to:NEET 13,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5411.434354027733,468,221,689,,,,,,,,,,,,,6,Forensic Medicine,True,,3,3
+llm,Cyanide odour is of ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5532.735022949055,463,226,689,,,,,,,,,,,,,7,Forensic Medicine,True,,3,3
+llm,Sex with cadaver is called -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8760.505845071748,462,358,820,,,,,,,,,,,,,8,Forensic Medicine,True,,3,3
+llm,"Size of the fetus is 20 mm, then by the rule of Hasse's, what is the gestational age of the fetus?",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5664.6470001433045,483,230,713,,,,,,,,,,,,,9,Forensic Medicine,True,,3,3
+llm,First aid should be given in acid contact ?,service -1,general,general,qwen3:32b,11134.047494037077,464,455,919,,,,,,,,,,,,,10,Forensic Medicine,False,,3,3
+llm,First carpal bone to appear is?,service -1,general,general,qwen3:32b,5528.836715966463,462,220,682,,,,,,,,,,,,,11,Forensic Medicine,False,,3,3
+llm,According to section 82 IPC a child's act is not considered as a crime if he is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6998.7724190577865,476,285,761,,,,,,,,,,,,,12,Forensic Medicine,True,,3,3
+llm,"According to Casper's dictum, decomposition is the fastest when the body is in which of the following?",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5974.768745945767,476,243,719,,,,,,,,,,,,,13,Forensic Medicine,True,,3,3
+llm,What acts as both poison & antidote ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6765.666068997234,464,276,740,,,,,,,,,,,,,14,Forensic Medicine,True,,3,3
+llm,"For autopsy, stomach is open through -",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,4865.734759019688,463,198,661,,,,,,,,,,,,,15,Forensic Medicine,True,,3,3
+llm,Most specific sign of Antemoem burns is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6267.132421024144,465,255,720,,,,,,,,,,,,,16,Forensic Medicine,True,,3,3
+llm,Plantiff is a person who ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,4184.72544895485,462,170,632,,,,,,,,,,,,,17,Forensic Medicine,True,,3,3
+llm,Best temperature for putrefaction is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5236.829885980114,463,213,676,,,,,,,,,,,,,18,Forensic Medicine,True,,3,3
+llm,Most common organ injured in penetrating injury of the abdomen:,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8032.322293845937,466,327,793,,,,,,,,,,,,,19,Forensic Medicine,True,,3,3
+llm,DNA finger printing cannot be taken from ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5435.593039961532,463,221,684,,,,,,,,,,,,,20,Forensic Medicine,True,,3,3
+llm,True about hymen in Child rape is-,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6014.834190020338,464,245,709,,,,,,,,,,,,,21,Forensic Medicine,True,,3,3
+llm,Chicken fat appearance is seen in -,service Radiology,Radiology,Radiology,qwen3:32b,6553.812392055988,462,267,729,,,,,,,,,,,,,22,Forensic Medicine,False,,3,3
+llm,Length of the fetus is 40cms. What would be the age of gestation ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,7448.856108123437,474,303,777,,,,,,,,,,,,,23,Forensic Medicine,True,,3,3
+llm,Acid used for forging signature is ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5620.189781067893,463,229,692,,,,,,,,,,,,,24,Forensic Medicine,True,,3,3
+llm,Adulteration of drug is under which section of IPC,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5798.975334037095,467,236,703,,,,,,,,,,,,,25,Forensic Medicine,True,,3,3
+llm,M'naghten rule comes under which section of IPC?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,9514.532481087372,467,388,855,,,,,,,,,,,,,26,Forensic Medicine,True,,3,3
+llm,"Chronic arsenic poisoning does not cause:NEET 13,15",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5895.049450919032,472,240,712,,,,,,,,,,,,,27,Forensic Medicine,True,,3,3
+llm,Following is most suggestive of antemoem hanging:DNB 09,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6726.809744024649,470,274,744,,,,,,,,,,,,,28,Forensic Medicine,True,,3,3
+llm,"In Alleged history of gun shot injury.there is burning, blackening, tattooing around the wound Di collar, the injury is",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5860.076128039509,482,238,720,,,,,,,,,,,,,29,Forensic Medicine,True,,3,3
+llm,Cause of death for drowning in cold water:NEET 13,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6068.437987007201,469,247,716,,,,,,,,,,,,,30,Forensic Medicine,True,,3,3
+llm,True about finger printing is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6035.966509021819,461,246,707,,,,,,,,,,,,,31,Forensic Medicine,True,,3,3
+llm,Time interval between somatic and molecular death is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6484.370170161128,465,264,729,,,,,,,,,,,,,32,Forensic Medicine,True,,3,3
+llm,Which section belongs to marital rape ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5768.438718048856,462,235,697,,,,,,,,,,,,,33,Forensic Medicine,True,,3,3
+llm,Which of the following is true about cocaine metabolite test,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,4117.506942944601,466,167,633,,,,,,,,,,,,,34,Forensic Medicine,True,,3,3
+llm,How many days a person can live without food and water ?,Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,14160.756348166615,467,577,1044,,,,,,,,,,,,,35,Forensic Medicine,True,,3,3
+llm,A bullet packed with jacket and opens at a base is called,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6607.2190350387245,467,263,730,,,,,,,,,,,,,36,Forensic Medicine,True,,3,3
+llm,Enzyme responsible for postmoem hemolysis is,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5770.918981870636,467,235,702,,,,,,,,,,,,,37,Forensic Medicine,True,,3,3
+llm,Sexual gratification by inflicting pain on paner -,service -1,general,general,qwen3:32b,7262.30476796627,467,296,763,,,,,,,,,,,,,38,Forensic Medicine,False,,3,3
+llm,Absorption elution technique is used for -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,10149.159904103726,464,414,878,,,,,,,,,,,,,39,Forensic Medicine,True,,3,3
+llm,Oochronosis is seen in which poisoning ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8998.69235791266,465,367,832,,,,,,,,,,,,,40,Forensic Medicine,True,,3,3
+llm,"In medicolegal autopsy, cavity to be opened first is ?",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6139.645084971562,468,250,718,,,,,,,,,,,,,41,Forensic Medicine,True,,3,3
+llm,Victim was choked with mouth & nose covered with elbow around neck. It is called as ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6002.747934078798,474,244,718,,,,,,,,,,,,,42,Forensic Medicine,True,,3,3
+llm,Which snake bite causes hematologic abnormalities ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6204.5275589916855,463,253,716,,,,,,,,,,,,,43,Forensic Medicine,True,,3,3
+llm,Bullet fixed from a gun is not released. It is ejected out with subsequent shot. Such a bullet is called as,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5851.882628863677,478,238,716,,,,,,,,,,,,,44,Forensic Medicine,True,,3,3
+llm,Base of sphenoid fuses with occipit at the age of -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8362.338540842757,471,341,812,,,,,,,,,,,,,45,Forensic Medicine,True,,3,3
+llm,Homicidal gunshot wound can be differentiated from suicidal gunshot wound by-,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,4773.6908320803195,469,194,663,,,,,,,,,,,,,46,Forensic Medicine,True,,3,3
+llm,Which of the following causes maximum damage?,service -1,general,general,qwen3:32b,6933.980003930628,462,283,745,,,,,,,,,,,,,47,Forensic Medicine,False,,3,3
+llm,Foamy liver is seen in:TN 08; UP 08; NIMS 11; NEET 13,service -1,general,general,qwen3:32b,9597.894221078604,483,391,874,,,,,,,,,,,,,48,Forensic Medicine,False,,3,3
+llm,Highest content of cannabis is found in which pa of the plant?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,3897.2787391394377,467,158,625,,,,,,,,,,,,,49,Forensic Medicine,True,,3,3
+llm,A couple was locked up in a room with fire around. All of the following are the probable immediate causes of death in such circumstance except:-,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5565.3175711631775,483,226,709,,,,,,,,,,,,,50,Forensic Medicine,True,,3,3
+llm,Frotteruism is ?,service -1,general,general,qwen3:32b,7445.8389731589705,462,304,766,,,,,,,,,,,,,51,Forensic Medicine,False,,3,3
+llm,Gigantin is active principle of,service -1,general,general,qwen3:32b,6664.791610091925,463,272,735,,,,,,,,,,,,,52,Forensic Medicine,False,,3,3
+llm,Miscarriage is punishable under which IPC:AIIMS 13; NEET 14,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8515.399804105982,475,347,822,,,,,,,,,,,,,53,Forensic Medicine,True,,3,3
+llm,Toxin responsible for epidemic dropsy:AIIMS 07; UP 09; PGI 11,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6707.421089988202,479,273,752,,,,,,,,,,,,,54,Forensic Medicine,True,,3,3
+llm,Punishment of perjury comes under IPC section?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,5818.787074182183,465,237,702,,,,,,,,,,,,,55,Forensic Medicine,True,,3,3
+llm,Ophitoxemia is ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6547.72353800945,462,267,729,,,,,,,,,,,,,56,Forensic Medicine,True,,3,3
+llm,Patient presented with proximal tubule proteinuria. Which metal is likely to be associated with it?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8688.643052009866,474,354,828,,,,,,,,,,,,,57,Forensic Medicine,True,,3,3
+llm,Marshalls triad is seen in ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,12580.097623867914,463,514,977,,,,,,,,,,,,,58,Forensic Medicine,True,,3,3
+llm,Test to know the species from blood stain is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6311.03453412652,465,251,716,,,,,,,,,,,,,59,Forensic Medicine,True,,3,3
+llm,Colon is identified on X-ray,service Radiology,Radiology,Radiology,qwen3:32b,5811.1957288347185,461,237,698,,,,,,,,,,,,,60,Radiology,True,,3,3
+llm,Investigation with least radiation dose in the diagnosis Meckel's diveiculum is -,service Radiology,Radiology,Radiology,qwen3:32b,6049.902789061889,473,246,719,,,,,,,,,,,,,61,Radiology,True,,3,3
+llm,CT Scan finding in carotid cavernous sinus fistula is -,service Radiology,Radiology,Radiology,qwen3:32b,6067.360839108005,469,247,716,,,,,,,,,,,,,62,Radiology,True,,3,3
+llm,On imagning diffuse axonal injury is characterized by -,service Radiology,Radiology,Radiology,qwen3:32b,7726.677799830213,466,315,781,,,,,,,,,,,,,63,Radiology,True,,3,3
+llm,Calcified pulmonary metastasis is seen in which carcinoma -,service Radiology,Radiology,Radiology,qwen3:32b,6499.125217087567,466,265,731,,,,,,,,,,,,,64,Radiology,True,,3,3
+llm,Which common tracer in PET is usually administered in the form of a glucose sugar,service Radiology,Radiology,Radiology,qwen3:32b,5633.3298701792955,470,229,699,,,,,,,,,,,,,65,Radiology,True,,3,3
+llm,Investigation of choice for multiple sclerosis,service Radiology,Radiology,Radiology,qwen3:32b,6855.900411028415,462,280,742,,,,,,,,,,,,,66,Radiology,True,,3,3
+llm,Radioactive iodine is administered through which route,service Radiology,Radiology,Radiology,qwen3:32b,7176.371779059991,464,293,757,,,,,,,,,,,,,67,Radiology,True,,3,3
+llm,First radiographic sign of osteomyelitis:,service Radiology,Radiology,Radiology,qwen3:32b,7920.594163006172,465,323,788,,,,,,,,,,,,,68,Radiology,True,,3,3
+llm,Radiation used most commonly for pain management due to bone metastasis is -,service Radiology,Radiology,Radiology,qwen3:32b,7434.360689017922,470,303,773,,,,,,,,,,,,,69,Radiology,True,,3,3
+llm,Safe light in radiographic dark room is ideally should be of following color -,service Radiology,Radiology,Radiology,qwen3:32b,3723.524510860443,470,151,621,,,,,,,,,,,,,70,Radiology,True,,3,3
+llm,Radiological features of coarctation of aoa is/ are -,service Radiology,Radiology,Radiology,qwen3:32b,5842.752943048254,470,238,708,,,,,,,,,,,,,71,Radiology,True,,3,3
+llm,Solitary lytic lesions seen in,service Radiology,Radiology,Radiology,qwen3:32b,6396.406827960163,462,261,723,,,,,,,,,,,,,72,Radiology,True,,3,3
+llm,What is the effect on radiograph if there are scratches on intensifying screen,service Radiology,Radiology,Radiology,qwen3:32b,3628.8248980417848,470,147,617,,,,,,,,,,,,,73,Radiology,True,,3,3
+llm,Frequency of ultrasound waves in USG -,service Radiology,Radiology,Radiology,qwen3:32b,6080.382045125589,463,248,711,,,,,,,,,,,,,74,Radiology,True,,3,3
+llm,Following are radiological findings in rheumatoid ahritis except -,service Radiology,Radiology,Radiology,qwen3:32b,5285.940853878856,468,215,683,,,,,,,,,,,,,75,Radiology,True,,3,3
+llm,Amount of radiation exposure in 1 CT-scan of chest is,service Radiology,Radiology,Radiology,qwen3:32b,5479.405673919246,468,223,691,,,,,,,,,,,,,76,Radiology,True,,3,3
+llm,Best view for sphenoid sinus is -,service Radiology,Radiology,Radiology,qwen3:32b,6373.115235008299,464,260,724,,,,,,,,,,,,,77,Radiology,True,,3,3
+llm,Confusion assessment scale used for which of the following?,service -1,general,general,qwen3:32b,9314.405167009681,465,380,845,,,,,,,,,,,,,78,Radiology,False,,3,3
+llm,Which new generation sialagogue has additional M3 action?,service -1,general,general,qwen3:32b,8529.06048600562,466,348,814,,,,,,,,,,,,,79,Radiology,False,,3,3
+llm,Following are suggestive of benign lesion on mammogram -,service Radiology,Radiology,Radiology,qwen3:32b,6573.516533942893,465,268,733,,,,,,,,,,,,,80,Radiology,True,,3,3
+llm,"Cancer patient undergoes radiotherapy, pick the true statement for radiosensitivity of tissues?",service Radiology,Radiology,Radiology,qwen3:32b,5017.807055963203,472,204,676,,,,,,,,,,,,,81,Radiology,True,,3,3
+llm,Not used for internal radiotherapy,service Radiology,Radiology,Radiology,qwen3:32b,4933.159986045212,461,201,662,,,,,,,,,,,,,82,Radiology,True,,3,3
+llm,Anamoly scan done at how many weeks of gestation -,service Radiology,Radiology,Radiology,qwen3:32b,9781.813201028854,468,399,867,,,,,,,,,,,,,83,Radiology,True,,3,3
+llm,Von Rosen's view is for,service Radiology,Radiology,Radiology,qwen3:32b,5860.832605045289,462,239,701,,,,,,,,,,,,,84,Radiology,True,,3,3
+llm,Maximum Permissible Dose for whole body for radiation workers in a year is:,service Radiology,Radiology,Radiology,qwen3:32b,4215.061927912757,471,171,642,,,,,,,,,,,,,85,Radiology,True,,3,3
+llm,The primary diagnostic evaluation for developmental dyslasia of hip is -,service Radiology,Radiology,Radiology,qwen3:32b,6897.357231006026,468,281,749,,,,,,,,,,,,,86,Radiology,True,,3,3
+llm,Nonionic dye is,service Radiology,Radiology,Radiology,qwen3:32b,7278.2342890277505,459,297,756,,,,,,,,,,,,,87,Radiology,True,,3,3
+llm,Which of the following is not particulate radiation?,service Radiology,Radiology,Radiology,qwen3:32b,7227.36758319661,464,295,759,,,,,,,,,,,,,88,Radiology,True,,3,3
+llm,Most sensitive investigation for minimum gas in abdomen is -,service Radiology,Radiology,Radiology,qwen3:32b,6308.1002628896385,465,257,722,,,,,,,,,,,,,89,Radiology,True,,3,3
+llm,Ring enhancing lesion on CT is a feature of,service Radiology,Radiology,Radiology,qwen3:32b,6571.136140963063,464,268,732,,,,,,,,,,,,,90,Radiology,True,,3,3
+llm,Investigation of choice for acute intracerebral hemorrhage is -,service Radiology,Radiology,Radiology,qwen3:32b,6557.600723812357,469,267,736,,,,,,,,,,,,,91,Radiology,True,,3,3
+llm,In a children ectopic kidneys can be diagnosed by -,service Radiology,Radiology,Radiology,qwen3:32b,4896.13486896269,466,199,665,,,,,,,,,,,,,92,Radiology,True,,3,3
+llm,Following are the indications of barium meal X-ray except -,service Radiology,Radiology,Radiology,qwen3:32b,6115.767714800313,467,249,716,,,,,,,,,,,,,93,Radiology,True,,3,3
+llm,Non - ionizing radiation among the following is -,service Radiology,Radiology,Radiology,qwen3:32b,8734.116084873676,465,356,821,,,,,,,,,,,,,94,Radiology,True,,3,3
+llm,Radiographic sign characteristic of pulmonary edema is -,service Radiology,Radiology,Radiology,qwen3:32b,5480.637913104147,465,223,688,,,,,,,,,,,,,95,Radiology,True,,3,3
+llm,Minimum radiation dose which may lead to oligospermia is -,service Radiology,Radiology,Radiology,qwen3:32b,6599.679759005085,468,269,737,,,,,,,,,,,,,96,Radiology,True,,3,3
+llm,Which delivers highest dose of radiation -,service Radiology,Radiology,Radiology,qwen3:32b,5715.2717059943825,462,233,695,,,,,,,,,,,,,97,Radiology,True,,3,3
+llm,Radiographic appearance of Hypophosphatasia:,service Radiology,Radiology,Radiology,qwen3:32b,5257.736654020846,465,214,679,,,,,,,,,,,,,98,Radiology,True,,3,3
+llm,What is not seen on chest X-ray in pulmonary aery hypeension,service Radiology,Radiology,Radiology,qwen3:32b,5671.297651017085,469,231,700,,,,,,,,,,,,,99,Radiology,True,,3,3
+llm,All of the following are true about neutron contrast study except -,service Radiology,Radiology,Radiology,qwen3:32b,6673.001426970586,467,272,739,,,,,,,,,,,,,100,Radiology,True,,3,3
+llm,Differential diagnosis of solitary pulmonary nodule are all except -,service Radiology,Radiology,Radiology,qwen3:32b,5965.942243114114,467,243,710,,,,,,,,,,,,,101,Radiology,True,,3,3
+llm,Barium meal follow through is helpful in diagnosing -,service Radiology,Radiology,Radiology,qwen3:32b,6524.197705090046,466,266,732,,,,,,,,,,,,,102,Radiology,True,,3,3
+llm,Piezoelectric crystal most widely used in ultrasonography probes is -,service Radiology,Radiology,Radiology,qwen3:32b,5432.281129993498,470,221,691,,,,,,,,,,,,,103,Radiology,True,,3,3
+llm,Following are the causes of cavity in lungs except -,service Radiology,Radiology,Radiology,qwen3:32b,6234.581392956898,465,254,719,,,,,,,,,,,,,104,Radiology,True,,3,3
+llm,Investigation of choice for pancoast tumor is -,service Radiology,Radiology,Radiology,qwen3:32b,8953.843832947314,466,365,831,,,,,,,,,,,,,105,Radiology,True,,3,3
+llm,Gamma knife utilizes -,service Radiology,Radiology,Radiology,qwen3:32b,5877.737264148891,459,238,697,,,,,,,,,,,,,106,Radiology,True,,3,3
+llm,"22-year-old women presents to the emergency depament with a chief complaint of severe left upper quadrant pain after being punched by her husband. Her blood pressure is 110/76, her pulse is 80 bpm, and her respiration rate is 24 breaths per minute. The best means to establish a diagnosis is which of the following ?",service Radiology,Radiology,Radiology,qwen3:32b,10953.729727072641,530,443,973,,,,,,,,,,,,,107,Radiology,True,,3,3
+llm,Which of the following is water soluble contrast?,service Radiology,Radiology,Radiology,qwen3:32b,7921.136290067807,463,307,770,,,,,,,,,,,,,108,Radiology,True,,3,3
+llm,Which view is taken for aoic window -,service Radiology,Radiology,Radiology,qwen3:32b,5313.198596006259,464,215,679,,,,,,,,,,,,,109,Radiology,True,,3,3
+llm,Most sensitive investigation for Diffuse axonal injury is -,service Radiology,Radiology,Radiology,qwen3:32b,9710.62007592991,466,395,861,,,,,,,,,,,,,110,Radiology,True,,3,3
+llm,"A 50 year-old chronic alcoholic male patient, after a large binge of alcohol, presented to the emergency depament in subconscious state. He vomited several times, few of them mixed with blood. He had a history of hea burn and dyspeptic symptoms for past few tears. On physical exam, he had a temperature of 102degF, a pulse of 110, respiratory rate of 20 per minute and a blood pressure of 90/60. On physical examination there was abdominal guarding and tenderness. A plane erect chest X-ray reveals air under diaphragm. Probable diagnosis is",service Radiology,Radiology,Radiology,qwen3:32b,8264.435892924666,586,332,918,,,,,,,,,,,,,111,Radiology,True,,3,3
+llm,Rhese view is used for -,service Radiology,Radiology,Radiology,qwen3:32b,9340.014171088114,462,376,838,,,,,,,,,,,,,112,Radiology,True,,3,3
+llm,Following X-ray finding is associated with Chilaiditi syndrome -,service Radiology,Radiology,Radiology,qwen3:32b,4187.292180024087,468,170,638,,,,,,,,,,,,,113,Radiology,True,,3,3
+llm,Best radiograph to view fracture of condyle:,service Radiology,Radiology,Radiology,qwen3:32b,5186.718662967905,465,211,676,,,,,,,,,,,,,114,Radiology,True,,3,3
+llm,Enhancement in CT contrast is due to -,service Radiology,Radiology,Radiology,qwen3:32b,7521.284763934091,464,307,771,,,,,,,,,,,,,115,Radiology,True,,3,3
+llm,Adder head appearance is seen in:March 2011,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,9846.203790977597,469,402,871,,,,,,,,,,,,,116,Radiology,False,,3,3
+llm,SI unit of absorbed dose is -,service Radiology,Radiology,Radiology,qwen3:32b,4984.832966933027,462,203,665,,,,,,,,,,,,,117,Radiology,True,,3,3
+llm,Dye used in diagnosis of esophageal perforation:,service Radiology,Radiology,Radiology,qwen3:32b,8259.918357012793,467,337,804,,,,,,,,,,,,,118,Radiology,True,,3,3
+llm,MRI sequence used to assess soft tissue pathology is,service Radiology,Radiology,Radiology,qwen3:32b,4496.794079896063,464,183,647,,,,,,,,,,,,,119,Radiology,True,,3,3
+llm,"In a town there are 2500 live bih within six month. During same period 5 women died due to peripaum infection, 5 died due to electrocution, 2 died due to obstructed labor and 3 died due to PPH. What is the MMR ?",service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6349.146802909672,518,257,775,,,,,,,,,,,,,120,Social & Preventive Medicine,True,,3,3
+llm,'Secrete of national health lies in the homes of people' statement by ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6063.364192144945,470,247,717,,,,,,,,,,,,,121,Social & Preventive Medicine,True,,3,3
+llm,True about post-exposure prophylaxis in HIV ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,4505.193970864639,466,183,649,,,,,,,,,,,,,122,Social & Preventive Medicine,True,,3,3
+llm,Micropolysopora faeni causes ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,10538.387221982703,464,430,894,,,,,,,,,,,,,123,Social & Preventive Medicine,True,,3,3
+llm,"100 individuals are diagnosed with lung cancer in a population of 100000. Out of 100 patients, 80 were smokers and 20000 were smokers in totals population. What is PAR?",service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6445.709285093471,505,256,761,,,,,,,,,,,,,124,Social & Preventive Medicine,True,,3,3
+llm,Safety officer is recommended where factory has how many workers ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,11388.510999968275,466,465,931,,,,,,,,,,,,,125,Social & Preventive Medicine,True,,3,3
+llm,Amount of proteins in human milk (in gms):September 2007,service -1,general,general,qwen3:32b,9493.813998065889,472,382,854,,,,,,,,,,,,,126,Social & Preventive Medicine,False,,3,3
+llm,Gross reproduction rate is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6226.5805311035365,461,254,715,,,,,,,,,,,,,127,Social & Preventive Medicine,True,,3,3
+llm,Veical transmission of HIV is highest with-,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,5809.972794027999,464,237,701,,,,,,,,,,,,,128,Social & Preventive Medicine,True,,3,3
+llm,WHO VISION 2020 initiative includes ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6744.576846016571,466,275,741,,,,,,,,,,,,,129,Social & Preventive Medicine,True,,3,3
+llm,Best study for definitive cause of disease ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,8155.640948098153,463,333,796,,,,,,,,,,,,,130,Social & Preventive Medicine,True,,3,3
+llm,Observation under nursing care for 24 hours in an hospital is defined as ?,service -1,general,general,qwen3:32b,10753.74759384431,472,439,911,,,,,,,,,,,,,131,Social & Preventive Medicine,False,,3,3
+llm,The difference between the incidence in the exposed and non-exposed group is best given by:,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6048.703229986131,473,241,714,,,,,,,,,,,,,132,Social & Preventive Medicine,True,,3,3
+llm,Which of the following is a stomach poison ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,6081.624815938994,464,248,712,,,,,,,,,,,,,133,Social & Preventive Medicine,False,,3,3
+llm,Rideal-walker coefficient for disinfectant used for cholera stool should be ?,service -1,general,general,qwen3:32b,10027.597622014582,472,409,881,,,,,,,,,,,,,134,Social & Preventive Medicine,False,,3,3
+llm,Results of any study are better defined in ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,5474.437873112038,464,223,687,,,,,,,,,,,,,135,Social & Preventive Medicine,True,,3,3
+llm,Risk among exposed to risk among non exposed is defined to be -,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7262.804446974769,468,296,764,,,,,,,,,,,,,136,Social & Preventive Medicine,True,,3,3
+llm,Women traveling from Bihar to Delhi is suspecting to have Kala-azar. Suitable investigation is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6296.047413023189,475,256,731,,,,,,,,,,,,,137,Social & Preventive Medicine,True,,3,3
+llm,For post exposure prophylaxis for HIV the regimen is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,5558.319645933807,467,226,693,,,,,,,,,,,,,138,Social & Preventive Medicine,True,,3,3
+llm,"Positive predictive value is a function of sensitivity,specificity and",service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,8123.1133479159325,467,331,798,,,,,,,,,,,,,139,Social & Preventive Medicine,True,,3,3
+llm,Green colour of triage is for which patient ?,service -1,general,general,qwen3:32b,9492.612367030233,465,387,852,,,,,,,,,,,,,140,Social & Preventive Medicine,False,,3,3
+llm,Best indicator for spread of TB in a community?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6623.333044117317,464,270,734,,,,,,,,,,,,,141,Social & Preventive Medicine,True,,3,3
+llm,Vaccine derived polio virus outbreaks are due to ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,4167.483061086386,466,169,635,,,,,,,,,,,,,142,Social & Preventive Medicine,True,,3,3
+llm,Source of environmental radiation are all except?,service -1,general,general,qwen3:32b,7842.018758878112,462,320,782,,,,,,,,,,,,,143,Social & Preventive Medicine,False,,3,3
+llm,Village Health and Nutrition Day (VHND) is observed ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,4527.873537968844,469,184,653,,,,,,,,,,,,,144,Social & Preventive Medicine,True,,3,3
+llm,True about Peussis is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7081.205604132265,462,289,751,,,,,,,,,,,,,145,Social & Preventive Medicine,True,,3,3
+llm,A population of 50 children is having 10 immunized against chickenpox. 5 children developed chickenpox on march 2017. Other 28 children developed chickenpox within next 2 week what is the SAR of chickenpox?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6296.548951882869,511,255,766,,,,,,,,,,,,,146,Social & Preventive Medicine,True,,3,3
+llm,DALE is replaced by ?,service -1,general,general,qwen3:32b,9135.717449011281,461,373,834,,,,,,,,,,,,,147,Social & Preventive Medicine,False,,3,3
+llm,Role of magnesium in OPV?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6596.846078988165,461,269,730,,,,,,,,,,,,,148,Social & Preventive Medicine,True,,3,3
+llm,All are included in sleep hygiene except ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7203.446846920997,463,294,757,,,,,,,,,,,,,149,Social & Preventive Medicine,True,,3,3
+llm,Which of the following is the nodal centre for disaster management,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7432.236697990447,467,303,770,,,,,,,,,,,,,150,Social & Preventive Medicine,True,,3,3
+llm,Regular insectisidal spray is done when API is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,8336.108245886862,466,340,806,,,,,,,,,,,,,151,Social & Preventive Medicine,True,,3,3
+llm,Specific content in malaria vaccine is?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,4546.85224709101,461,185,646,,,,,,,,,,,,,152,Social & Preventive Medicine,True,,3,3
+llm,M/C Heavy Metal poisoning in The World?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,8891.386557836086,463,363,826,,,,,,,,,,,,,153,Social & Preventive Medicine,True,,3,3
+llm,Fenthion is ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,4107.5740568339825,460,167,627,,,,,,,,,,,,,154,Social & Preventive Medicine,False,,3,3
+llm,A problem village is defined as if water source is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,5548.421165905893,466,226,692,,,,,,,,,,,,,155,Social & Preventive Medicine,True,,3,3
+llm,Vanaspati Ghee is foified with ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,8019.6070820093155,466,327,793,,,,,,,,,,,,,156,Social & Preventive Medicine,False,,3,3
+llm,Maternal moality rate is defined as ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,5108.196136774495,464,208,672,,,,,,,,,,,,,157,Social & Preventive Medicine,True,,3,3
+llm,HALE is used to measure,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7054.990907898173,461,288,749,,,,,,,,,,,,,158,Social & Preventive Medicine,True,,3,3
+llm,Regarding PPV vaccine following is true ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6109.757184050977,463,249,712,,,,,,,,,,,,,159,Social & Preventive Medicine,True,,3,3
+llm,"According female sterlization 2014 guidelines, eligibility criteria for female sterilization are all except?",service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6559.2751409858465,476,267,743,,,,,,,,,,,,,160,Social & Preventive Medicine,True,,3,3
+llm,ORS contains 75 mEq/l-,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7498.049780027941,464,306,770,,,,,,,,,,,,,161,Social & Preventive Medicine,True,,3,3
+llm,Impoant measure for National health policy?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6369.74550713785,463,259,722,,,,,,,,,,,,,162,Social & Preventive Medicine,True,,3,3
+llm,95% carrier and 5% cases are seen in ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,9460.763867944479,468,386,854,,,,,,,,,,,,,163,Social & Preventive Medicine,True,,3,3
+llm,Recent Influenza Pandemic was due to:,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,4115.210674935952,466,167,633,,,,,,,,,,,,,164,Social & Preventive Medicine,True,,3,3
+llm,True about combined prospective-retrospective study true is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,5331.5301849506795,466,217,683,,,,,,,,,,,,,165,Social & Preventive Medicine,True,,3,3
+llm,Benefit of RCT ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7839.772417908534,461,320,781,,,,,,,,,,,,,166,Social & Preventive Medicine,True,,3,3
+llm,SA-14-14-2 ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,12027.487074024975,465,491,956,,,,,,,,,,,,,167,Social & Preventive Medicine,False,,3,3
+llm,Ideal desk recommended for a school child is –,service -1,general,general,qwen3:32b,5462.948954897001,464,217,681,,,,,,,,,,,,,168,Social & Preventive Medicine,False,,3,3
+llm,Absolute contraindication for inseion of IUD,service -1,general,general,qwen3:32b,6725.079964147881,466,274,740,,,,,,,,,,,,,169,Social & Preventive Medicine,False,,3,3
+llm,"According to immunization schedule, children should receive influenza vaccine ?",service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,4652.835103916004,467,189,656,,,,,,,,,,,,,170,Social & Preventive Medicine,True,,3,3
+llm,Major reservoir of KFD ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,5593.507840996608,461,228,689,,,,,,,,,,,,,171,Social & Preventive Medicine,True,,3,3
+llm,School health checkup comes under -,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,4206.5716029610485,462,171,633,,,,,,,,,,,,,172,Social & Preventive Medicine,True,,3,3
+llm,"According to IMNCI, a baby of 6 month age, criteria for fast breathing is more than _____/min",service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,9209.959662985057,479,375,854,,,,,,,,,,,,,173,Social & Preventive Medicine,True,,3,3
+llm,Best representative of incidence of disease in different timeline-,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7580.6626859121025,465,309,774,,,,,,,,,,,,,174,Social & Preventive Medicine,True,,3,3
+llm,Maximum linolenic acid is present in ?,service -1,general,general,qwen3:32b,4962.496248073876,464,202,666,,,,,,,,,,,,,175,Social & Preventive Medicine,False,,3,3
+llm,NPU for egg is ?,service -1,general,general,qwen3:32b,6595.553203020245,461,269,730,,,,,,,,,,,,,176,Social & Preventive Medicine,False,,3,3
+llm,Relationship between positive predictive value and prevalence ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,8045.351901091635,463,328,791,,,,,,,,,,,,,177,Social & Preventive Medicine,True,,3,3
+llm,A screening test has sensitivity of 90% and specificity of 99%. The prevalence of disease under investigation is 5 per 1000 population. What is the PPV of the given screening test?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,7176.17578106001,499,291,790,,,,,,,,,,,,,178,Social & Preventive Medicine,True,,3,3
+llm,Most common route of nosocomial infection ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,5455.422507133335,464,222,686,,,,,,,,,,,,,179,Social & Preventive Medicine,True,,3,3
+llm,How do I link this new card?,service -1,general,general,qwen3:32b,7922.961063915864,462,323,785,,,,,,,,,,,,,180,general,True,,3,3
+llm,How can I fix a problem where contactless isn't working?,service -1,general,general,qwen3:32b,5293.705546064302,467,215,682,,,,,,,,,,,,,181,general,True,,3,3
+llm,find travel alerts for haiti,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6524.8911660164595,462,266,728,,,,,,,,,,,,,182,general,False,,3,3
+llm,what's on my list of things to remember,service -1,general,general,qwen3:32b,5223.654879955575,464,212,676,,,,,,,,,,,,,183,general,True,,3,3
+llm,Where do my funds come from?,service -1,general,general,qwen3:32b,7704.777498031035,461,314,775,,,,,,,,,,,,,184,general,True,,3,3
+llm,what's the minimum payment,service -1,general,general,qwen3:32b,6665.326999034733,460,272,732,,,,,,,,,,,,,185,general,True,,3,3
+llm,how much has microsoft's stock changed over the last year,service -1,general,general,qwen3:32b,3725.5810061469674,466,151,617,,,,,,,,,,,,,186,general,True,,3,3
+llm,what's the french word you use for potato,service -1,general,general,qwen3:32b,4011.818494880572,464,163,627,,,,,,,,,,,,,187,general,True,,3,3
+llm,How do I get my top-up verification code?,service -1,general,general,qwen3:32b,8037.642925046384,464,328,792,,,,,,,,,,,,,188,general,True,,3,3
+llm,switch over to low power mode to preserve battery life,service -1,general,general,qwen3:32b,7529.547560028732,465,307,772,,,,,,,,,,,,,189,general,True,,3,3
+llm,what's the number of vacation days i have left,service -1,general,general,qwen3:32b,5114.012495148927,465,208,673,,,,,,,,,,,,,190,general,True,,3,3
+llm,what is my card's apr rate,service -1,general,general,qwen3:32b,4303.998298943043,462,175,637,,,,,,,,,,,,,191,general,True,,3,3
+llm,please let me know the status of my vacation request,service -1,general,general,qwen3:32b,4215.921585913748,465,171,636,,,,,,,,,,,,,192,general,True,,3,3
+llm,"I just activated auto top-up, but it is not letting me enable it. Why not?",service -1,general,general,qwen3:32b,5927.76721296832,473,241,714,,,,,,,,,,,,,193,general,True,,3,3
+llm,what is the weather doing now,service -1,general,general,qwen3:32b,4037.090818863362,461,164,625,,,,,,,,,,,,,194,general,True,,3,3
+llm,Is there an age minimum?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen3:32b,9554.82045514509,460,390,850,,,,,,,,,,,,,195,general,False,,3,3
+llm,"I see my top-up was canceled, but why?",service -1,general,general,qwen3:32b,5846.967096906155,465,238,703,,,,,,,,,,,,,196,general,True,,3,3
+llm,I took out a foreign currency and the exchange rate is wrong.,service -1,general,general,qwen3:32b,6626.692805904895,467,270,737,,,,,,,,,,,,,197,general,True,,3,3
+llm,what name do you have for me,service -1,general,general,qwen3:32b,5303.16383112222,462,216,678,,,,,,,,,,,,,198,general,True,,3,3
+llm,Why did I have to pay extra because I paid with card?,service -1,general,general,qwen3:32b,4240.105971926823,467,172,639,,,,,,,,,,,,,199,general,True,,3,3
+llm,what do i go by,service -1,general,general,qwen3:32b,5838.543673977256,460,238,698,,,,,,,,,,,,,200,general,True,,3,3
+llm,I would like to know why I was charged twice for my purchase.,service -1,general,general,qwen3:32b,3774.013831978664,468,153,621,,,,,,,,,,,,,201,general,True,,3,3
+llm,can you let me know the next open slot for me to get my oil changed,service -1,general,general,qwen3:32b,4410.3087820112705,471,179,650,,,,,,,,,,,,,202,general,True,,3,3
+llm,help me to transfer my 401k,service -1,general,general,qwen3:32b,3749.9206359498203,465,152,617,,,,,,,,,,,,,203,general,True,,3,3
+llm,"I sent out money, but was charged extra for transferring. Why?",service -1,general,general,qwen3:32b,3971.2363560684025,468,161,629,,,,,,,,,,,,,204,general,True,,3,3
+llm,create emergency phone numbers list,service -1,general,general,qwen3:32b,5890.77604515478,460,240,700,,,,,,,,,,,,,205,general,True,,3,3
+llm,"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",service -1,general,general,qwen3:32b,5172.382413875312,474,210,684,,,,,,,,,,,,,206,general,True,,3,3
+llm,places i can use the card,service -1,general,general,qwen3:32b,10384.18232393451,461,424,885,,,,,,,,,,,,,207,general,True,,3,3
+llm,I lost my phone!,service -1,general,general,qwen3:32b,5670.351742999628,459,226,685,,,,,,,,,,,,,208,general,True,,3,3
+llm,disconnect from wifi immediately please,service -1,general,general,qwen3:32b,6935.291739879176,460,283,743,,,,,,,,,,,,,209,general,True,,3,3
+llm,What type of ATMs accept this card?,service -1,general,general,qwen3:32b,7207.439448917285,463,294,757,,,,,,,,,,,,,210,general,True,,3,3
+llm,What fiat currencies are supported for holding and exchange?,service -1,general,general,qwen3:32b,3137.189917964861,464,127,591,,,,,,,,,,,,,211,general,True,,3,3
+llm,How would I use my money in a different country?,service -1,general,general,qwen3:32b,7459.208614192903,465,304,769,,,,,,,,,,,,,212,general,True,,3,3
+llm,what's your home country,service -1,general,general,qwen3:32b,5790.9660851582885,460,236,696,,,,,,,,,,,,,213,general,True,,3,3
+llm,"$1 extra has been charged on my statement, why is that?",service -1,general,general,qwen3:32b,5699.538748012856,467,232,699,,,,,,,,,,,,,214,general,True,,3,3
+llm,please read me the last text message i received,service -1,general,general,qwen3:32b,7307.438693009317,464,298,762,,,,,,,,,,,,,215,general,True,,3,3
+llm,where were you thought of,service -1,general,general,qwen3:32b,5007.597727002576,460,204,664,,,,,,,,,,,,,216,general,True,,3,3
+llm,say again please,service -1,general,general,qwen3:32b,8058.350339066237,458,329,787,,,,,,,,,,,,,217,general,True,,3,3
+llm,i would like help moving money from one account to another,service -1,general,general,qwen3:32b,3873.6615190282464,466,157,623,,,,,,,,,,,,,218,general,True,,3,3
+llm,I am experiencing difficulty providing my identity.,service -1,general,general,qwen3:32b,5375.038676895201,462,219,681,,,,,,,,,,,,,219,general,True,,3,3
+llm,can i redeem my points by transferring them to someone as a gift,service -1,general,general,qwen3:32b,5015.79112210311,468,204,672,,,,,,,,,,,,,220,general,True,,3,3
+llm,How do I retrieve my card from the machine?,service -1,general,general,qwen3:32b,7546.73090390861,464,308,772,,,,,,,,,,,,,221,general,True,,3,3
+llm,What do you charge for physical cards?,service -1,general,general,qwen3:32b,5619.321169098839,462,229,691,,,,,,,,,,,,,222,general,True,,3,3
+llm,I want to know where the funds come from.,service -1,general,general,qwen3:32b,7353.253792971373,464,300,764,,,,,,,,,,,,,223,general,True,,3,3
+llm,is the movie avatar culturally insensitive,service -1,general,general,qwen3:32b,5257.947819074616,461,214,675,,,,,,,,,,,,,224,general,True,,3,3
+llm,what are some of your hobbies,service -1,general,general,qwen3:32b,5500.623213825747,461,224,685,,,,,,,,,,,,,225,general,True,,3,3
+llm,find my current location,service -1,general,general,qwen3:32b,3743.9856198616326,459,152,611,,,,,,,,,,,,,226,general,True,,3,3
+llm,Help!  I can't find my card.,service -1,general,general,qwen3:32b,6986.591853899881,464,285,749,,,,,,,,,,,,,227,general,True,,3,3
+llm,where do i report that my card was lost,service -1,general,general,qwen3:32b,9006.843032082543,464,366,830,,,,,,,,,,,,,228,general,True,,3,3
+llm,Can I add money with Apple Pay?,service -1,general,general,qwen3:32b,6836.802259087563,462,279,741,,,,,,,,,,,,,229,general,True,,3,3
+llm,Can I change my information?,service -1,general,general,qwen3:32b,5844.348190817982,460,238,698,,,,,,,,,,,,,230,general,True,,3,3
+llm,"I am traveling to Germany, Will I be able to use my card there?",service -1,general,general,qwen3:32b,5165.810963138938,470,210,680,,,,,,,,,,,,,231,general,True,,3,3
+llm,what is the cheapest new car for this year,service -1,general,general,qwen3:32b,5693.823277018964,464,232,696,,,,,,,,,,,,,232,general,True,,3,3
+llm,"Hi, I have been overcharged for my payment last Saturday. I guess exchange rate was wrong.",service -1,general,general,qwen3:32b,5049.427597085014,474,205,679,,,,,,,,,,,,,233,general,True,,3,3
+llm,Will it automatically top-up money if there isn't a lot left?,service -1,general,general,qwen3:32b,6066.596342017874,468,247,715,,,,,,,,,,,,,234,general,True,,3,3
+llm,when do i get my next paycheck,service -1,general,general,qwen3:32b,5862.377104116604,462,239,701,,,,,,,,,,,,,235,general,True,,3,3
+llm,How can I fix a problem where my virtual card is rejected?,service -1,general,general,qwen3:32b,7381.767357001081,467,301,768,,,,,,,,,,,,,236,general,True,,3,3
+llm,"Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but ""Pending"", and that status has never changed during the last two days.",service -1,general,general,qwen3:32b,5933.846130035818,507,240,747,,,,,,,,,,,,,237,general,True,,3,3
+llm,is it okay to use butter instead of margarine,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen3:32b,6891.844650963321,465,281,746,,,,,,,,,,,,,238,general,False,,3,3
+llm,how much vacation time do i have,service -1,general,general,qwen3:32b,8451.609409879893,462,345,807,,,,,,,,,,,,,239,general,True,,3,3

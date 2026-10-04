@@ -1,101 +1,61 @@
 question,subject,expected_service
-don't call me bill anymore - call me bob,clinc_oos,general
-how much has microsoft's stock changed over the last year,clinc_oos,general
-what is my card's apr rate,clinc_oos,general
-My top-up has been cancelled.,banking77,general
-Can I change the amount I made on a payment that I made to the payment is correct.,banking77,general
-Where are cards delivered to?,banking77,general
-Can I change my information?,banking77,general
-my capital one visa was taken without permission,clinc_oos,general
-Can I add money with Apple Pay?,banking77,general
 How do I link this new card?,banking77,general
-"I am traveling to Germany, Will I be able to use my card there?",banking77,general
-"If I feel someone has my card information, can I get a new card?",banking77,general
-where were you thought of,clinc_oos,general
-Are there any fees for adding money with an international card?,banking77,general
-what is the weather,clinc_oos,general
-Why did I have to pay extra because I paid with card?,banking77,general
-create emergency phone numbers list,clinc_oos,general
-switch over to low power mode to preserve battery life,clinc_oos,general
-How do I get my top-up verification code?,banking77,general
-How long will it take to arrive?,banking77,general
-find my current location,clinc_oos,general
-can i call you arnold instead,clinc_oos,general
-What type of ATMs accept this card?,banking77,general
-The balance on my account wasn't updated after I made a depost.,banking77,general
-where do i report that my card was lost,clinc_oos,general
-"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",banking77,general
-What will I be charged for a physical card?,banking77,general
-tell me what this song is called,clinc_oos,general
-I lost my phone!,banking77,general
-what is the weather doing now,clinc_oos,general
-"$1 extra has been charged on my statement, why is that?",banking77,general
-The exchange rates are?,banking77,general
-play the next song please,clinc_oos,general
-"Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but ""Pending"", and that status has never changed during the last two days.",banking77,general
-what shows are on tonight,clinc_oos,general
 How can I fix a problem where contactless isn't working?,banking77,general
-what's the number of vacation days i have left,clinc_oos,general
-what's on my list of things to remember,clinc_oos,general
-"I want to add money but don't know what currencies you accept, can you tell me?",banking77,general
-What fiat currencies are supported for holding and exchange?,banking77,general
-I'm unable to use contactless payments for purchases.,banking77,general
-I couldn't get cash at the atm,banking77,general
-Will it automatically top-up money if there isn't a lot left?,banking77,general
-i would like to change the name on my first bankcard account,clinc_oos,general
-places i can use the card,banking77,general
-I would like to know why I was charged twice for my purchase.,banking77,general
-what is the expiration month of my card,clinc_oos,general
-"I sent out money, but was charged extra for transferring. Why?",banking77,general
-when do i get my next paycheck,clinc_oos,general
-Where do my funds come from?,banking77,general
-How would I use my money in a different country?,banking77,general
-"I just activated auto top-up, but it is not letting me enable it. Why not?",banking77,general
-Is there an age minimum?,banking77,general
-"My top up hasn't worked, it's been stuck in pending for the last couple hours",banking77,general
-"I see my top-up was canceled, but why?",banking77,general
-help me to transfer my 401k,clinc_oos,general
-I took out a foreign currency and the exchange rate is wrong.,banking77,general
-can i redeem my points by transferring them to someone as a gift,clinc_oos,general
-I understand that this is extremely late. After going over my transactions for the last couple of months I noticed a large charge that I'm sure I did not make. Is there anyway I can still dispute this?,banking77,general
-what is the amount of blood needed to stay alive,clinc_oos,general
 find travel alerts for haiti,clinc_oos,general
-whats the exchange rate for us dollars to british pounds,clinc_oos,general
-can you let me know the next open slot for me to get my oil changed,clinc_oos,general
-Has someone accessed my card there are payments I did not make that are showing up on the app.,banking77,general
-disconnect from wifi immediately please,clinc_oos,general
-is the movie avatar culturally insensitive,clinc_oos,general
-How do I use the app if I don't have my phone with me?,banking77,general
+what's on my list of things to remember,clinc_oos,general
+Where do my funds come from?,banking77,general
+what's the minimum payment,clinc_oos,general
+how much has microsoft's stock changed over the last year,clinc_oos,general
 what's the french word you use for potato,clinc_oos,general
-say again please,clinc_oos,general
-i want to start talking to you in swedish,clinc_oos,general
-what is the cheapest new car for this year,clinc_oos,general
-Which fiat currencies do you support?,banking77,general
-how much vacation time do i have,clinc_oos,general
-HOw do I get my card back after the ATM has pulled it in?,banking77,general
-i would like to make a phone call,clinc_oos,general
-i would like help moving money from one account to another,clinc_oos,general
-what's your home country,clinc_oos,general
-I wasn't applied the correct exchange rate for an item I bought,banking77,general
-restart my newspaper delivery for monday,clinc_oos,general
-what are some of your hobbies,clinc_oos,general
+How do I get my top-up verification code?,banking77,general
+switch over to low power mode to preserve battery life,clinc_oos,general
+what's the number of vacation days i have left,clinc_oos,general
+what is my card's apr rate,clinc_oos,general
+please let me know the status of my vacation request,clinc_oos,general
+"I just activated auto top-up, but it is not letting me enable it. Why not?",banking77,general
+what is the weather doing now,clinc_oos,general
+Is there an age minimum?,banking77,general
+"I see my top-up was canceled, but why?",banking77,general
+I took out a foreign currency and the exchange rate is wrong.,banking77,general
+what name do you have for me,clinc_oos,general
+Why did I have to pay extra because I paid with card?,banking77,general
 what do i go by,clinc_oos,general
-i appeciate it,clinc_oos,general
-I am awaiting my refund,banking77,general
-I am experiencing difficulty providing my identity.,banking77,general
-How do I retrieve my card from the machine?,banking77,general
+I would like to know why I was charged twice for my purchase.,banking77,general
+can you let me know the next open slot for me to get my oil changed,clinc_oos,general
+help me to transfer my 401k,clinc_oos,general
+"I sent out money, but was charged extra for transferring. Why?",banking77,general
+create emergency phone numbers list,clinc_oos,general
+"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",banking77,general
+places i can use the card,banking77,general
+I lost my phone!,banking77,general
+disconnect from wifi immediately please,clinc_oos,general
+What type of ATMs accept this card?,banking77,general
+What fiat currencies are supported for holding and exchange?,banking77,general
+How would I use my money in a different country?,banking77,general
+what's your home country,clinc_oos,general
+"$1 extra has been charged on my statement, why is that?",banking77,general
 please read me the last text message i received,clinc_oos,general
+where were you thought of,clinc_oos,general
+say again please,clinc_oos,general
+i would like help moving money from one account to another,clinc_oos,general
+I am experiencing difficulty providing my identity.,banking77,general
+can i redeem my points by transferring them to someone as a gift,clinc_oos,general
+How do I retrieve my card from the machine?,banking77,general
 What do you charge for physical cards?,banking77,general
 I want to know where the funds come from.,banking77,general
+is the movie avatar culturally insensitive,clinc_oos,general
+what are some of your hobbies,clinc_oos,general
+find my current location,clinc_oos,general
 Help!  I can't find my card.,banking77,general
-what are the reviews like for l'auberge aubergine,clinc_oos,general
-i would like for my phone to be synced with you,clinc_oos,general
-what's the minimum payment,clinc_oos,general
-what time is it in california,clinc_oos,general
-is socket converter required in france,clinc_oos,general
+where do i report that my card was lost,clinc_oos,general
+Can I add money with Apple Pay?,banking77,general
+Can I change my information?,banking77,general
+"I am traveling to Germany, Will I be able to use my card there?",banking77,general
+what is the cheapest new car for this year,clinc_oos,general
 "Hi, I have been overcharged for my payment last Saturday. I guess exchange rate was wrong.",banking77,general
-what name do you have for me,clinc_oos,general
-is it okay to use butter instead of margarine,clinc_oos,general
+Will it automatically top-up money if there isn't a lot left?,banking77,general
+when do i get my next paycheck,clinc_oos,general
 How can I fix a problem where my virtual card is rejected?,banking77,general
-can you help me understand why my card got declined,clinc_oos,general
-please let me know the status of my vacation request,clinc_oos,general
+"Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but ""Pending"", and that status has never changed during the last two days.",banking77,general
+is it okay to use butter instead of margarine,clinc_oos,general
+how much vacation time do i have,clinc_oos,general
