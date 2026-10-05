@@ -1,0 +1,204 @@
+routing_method,query,raw_response,predicted_label,top_candidate,model_name,latency_ms,prompt_tokens,completion_tokens,total_tokens,max_score,margin,margin_ratio,normalized_margin,mean_score,std_score,top_zscore,second_top_zscore,zscore_margin,scores,zscores,confidence_threshold,query_id,expected_service,is_correct,error,specialist_service_count,total_service_count
+llm,siri please turn the lights off in the bathroom,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,290.0932598859072,376,8,384,,,,,,,,,,,,,0,iot_hue_lightoff,True,,3,3
+llm,turn my bedroom lights off,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,107.34991682693362,371,8,379,,,,,,,,,,,,,1,iot_hue_lightoff,True,,3,3
+llm,no lights in the kitchen,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,107.03000915236771,371,8,379,,,,,,,,,,,,,2,iot_hue_lightoff,True,,3,3
+llm,olly turn the light off in the living room,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,107.89209720678627,375,8,383,,,,,,,,,,,,,3,iot_hue_lightoff,True,,3,3
+llm,cease operating lights,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,105.78129510395229,370,8,378,,,,,,,,,,,,,4,iot_hue_lightoff,True,,3,3
+llm,hey olly turn off the light please,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,105.29954917728901,374,8,382,,,,,,,,,,,,,5,iot_hue_lightoff,True,,3,3
+llm,turn off room lights,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,104.88251899369061,370,8,378,,,,,,,,,,,,,6,iot_hue_lightoff,True,,3,3
+llm,turn off the dining room,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,106.99108196422458,371,8,379,,,,,,,,,,,,,7,iot_hue_lightoff,True,,3,3
+llm,could you turn the light off,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,106.13915487192571,372,8,380,,,,,,,,,,,,,8,iot_hue_lightoff,True,,3,3
+llm,turn off the bathroom lights,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,105.76666914857924,371,8,379,,,,,,,,,,,,,9,iot_hue_lightoff,True,,3,3
+llm,please turn lights off,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,105.97030515782535,370,8,378,,,,,,,,,,,,,10,iot_hue_lightoff,True,,3,3
+llm,please turn off the lights in patio,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,105.9638389851898,373,8,381,,,,,,,,,,,,,11,iot_hue_lightoff,True,,3,3
+llm,turn off overhead light,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,105.79899605363607,370,8,378,,,,,,,,,,,,,12,iot_hue_lightoff,True,,3,3
+llm,shut the lights off,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,106.896020937711,371,8,379,,,,,,,,,,,,,13,iot_hue_lightoff,True,,3,3
+llm,turn off the shed light,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,106.03690100833774,371,8,379,,,,,,,,,,,,,14,iot_hue_lightoff,True,,3,3
+llm,switch off the master's bedroom,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,107.36001608893275,372,8,380,,,,,,,,,,,,,15,iot_hue_lightoff,True,,3,3
+llm,did i leave the light on in the garage,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,106.72915610484779,375,8,383,,,,,,,,,,,,,16,iot_hue_lightoff,True,,3,3
+llm,turn off kitchen light,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,105.20422598347068,370,8,378,,,,,,,,,,,,,17,iot_hue_lightoff,True,,3,3
+llm,please turn off the light of my son's room,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,106.50733299553394,376,8,384,,,,,,,,,,,,,18,iot_hue_lightoff,True,,3,3
+llm,put the lights off now,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,106.83199018239975,371,8,379,,,,,,,,,,,,,19,iot_hue_lightoff,True,,3,3
+llm,turn the kitchen lights off,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,105.93278286978602,371,8,379,,,,,,,,,,,,,20,iot_hue_lightoff,True,,3,3
+llm,turn down the lights to medium,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,phi4:14b,105.78247392550111,372,8,380,,,,,,,,,,,,,21,iot_hue_lightoff,True,,3,3
+llm,who is the singer of song,service music_query,music_query,music_query,phi4:14b,64.28263802081347,372,4,376,,,,,,,,,,,,,22,music_query,True,,3,3
+llm,is this song ed sheeran,service music_query,music_query,music_query,phi4:14b,66.06573099270463,372,4,376,,,,,,,,,,,,,23,music_query,True,,3,3
+llm,identify song,service music_query,music_query,music_query,phi4:14b,61.558566987514496,368,4,372,,,,,,,,,,,,,24,music_query,True,,3,3
+llm,what's on the radio right now,service music_query,music_query,music_query,phi4:14b,62.80831107869744,373,4,377,,,,,,,,,,,,,25,music_query,True,,3,3
+llm,who is the music director of this song,service music_query,music_query,music_query,phi4:14b,64.03497303836048,374,4,378,,,,,,,,,,,,,26,music_query,True,,3,3
+llm,which type of music it is,service music_query,music_query,music_query,phi4:14b,62.00302694924176,372,4,376,,,,,,,,,,,,,27,music_query,True,,3,3
+llm,what music is currently playing on,music_query,music_query,music_query,phi4:14b,50.903269089758396,372,3,375,,,,,,,,,,,,,28,music_query,True,,3,3
+llm,what is the music playing right now,service music_query,music_query,music_query,phi4:14b,61.88555806875229,373,4,377,,,,,,,,,,,,,29,music_query,True,,3,3
+llm,what kind of music do you think i like,service music_query,music_query,music_query,phi4:14b,62.14126595295966,375,4,379,,,,,,,,,,,,,30,music_query,True,,3,3
+llm,bring me the title of current music,service music_query,music_query,music_query,phi4:14b,61.79955112747848,373,4,377,,,,,,,,,,,,,31,music_query,True,,3,3
+llm,what would you call this kind of music that we're listening to,service music_query,music_query,music_query,phi4:14b,64.2147590406239,379,4,383,,,,,,,,,,,,,32,music_query,True,,3,3
+llm,hey olly please tell me the name of this song that is currently playing,service music_query,music_query,music_query,phi4:14b,64.68185409903526,381,4,385,,,,,,,,,,,,,33,music_query,True,,3,3
+llm,song info,service music_query,music_query,music_query,phi4:14b,60.594670940190554,368,4,372,,,,,,,,,,,,,34,music_query,True,,3,3
+llm,who is this on the radio,service music_query,music_query,music_query,phi4:14b,62.912436900660396,372,4,376,,,,,,,,,,,,,35,music_query,True,,3,3
+llm,who sings the song that i am listening to right now,service music_query,music_query,music_query,phi4:14b,62.35329806804657,377,4,381,,,,,,,,,,,,,36,music_query,True,,3,3
+llm,is the song by shakira,service music_query,music_query,music_query,phi4:14b,63.26048192568123,373,4,377,,,,,,,,,,,,,37,music_query,True,,3,3
+llm,what are lady gagas most popular songs,service music_query,music_query,music_query,phi4:14b,61.86773697845638,374,4,378,,,,,,,,,,,,,38,music_query,True,,3,3
+llm,who wrote this song,service music_query,music_query,music_query,phi4:14b,61.746167950332165,370,4,374,,,,,,,,,,,,,39,music_query,True,,3,3
+llm,what artist is this,service music_query,music_query,music_query,phi4:14b,62.07461096346378,370,4,374,,,,,,,,,,,,,40,music_query,True,,3,3
+llm,who sings the song about a long black train,service music_query,music_query,music_query,phi4:14b,61.91614200361073,375,4,379,,,,,,,,,,,,,41,music_query,True,,3,3
+llm,find out what song this is and tell me the name,"The query ""find out what song this is and tell me the name"" involves identifying song details, which matches the core intent of the music_query service. This service is specifically designed to identify song information, including the title, artist, and other related details. Therefore, the best-suited service for this query is:
+
+service music_query",UNMATCHED,UNMATCHED,phi4:14b,767.1272919978946,377,68,445,,,,,,,,,,,,,42,music_query,False,,3,3
+llm,title,service music_query,music_query,music_query,phi4:14b,60.06225501187146,367,4,371,,,,,,,,,,,,,43,music_query,True,,3,3
+llm,call taxi,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,69.70127392560244,368,5,373,,,,,,,,,,,,,44,transport_taxi,True,,3,3
+llm,please reserve the next taxi a nine am,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,74.37570998445153,374,5,379,,,,,,,,,,,,,45,transport_taxi,True,,3,3
+llm,can you book an uber tomorrow,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,72.95216689817607,372,5,377,,,,,,,,,,,,,46,transport_taxi,True,,3,3
+llm,get city cab here to airport,"The query ""get city cab here to airport"" is focused on arranging a taxi ride, specifying a pickup location (here) and a destination (airport). This core intent matches the description of the ""transport_taxi"" service, which enables booking and requesting taxis, specifying pickup locations and destinations. Therefore, the best-suited specialist service is:
+
+service transport_taxi",UNMATCHED,UNMATCHED,phi4:14b,835.0673099048436,372,74,446,,,,,,,,,,,,,47,transport_taxi,False,,3,3
+llm,book me a taxi to leith in half an hour,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,78.27057805843651,377,5,382,,,,,,,,,,,,,48,transport_taxi,True,,3,3
+llm,find a taxi to book,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,72.950289119035,371,5,376,,,,,,,,,,,,,49,transport_taxi,True,,3,3
+llm,book a taxi to go to the movies at one,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,73.32748384214938,376,5,381,,,,,,,,,,,,,50,transport_taxi,True,,3,3
+llm,book an uber to pick me up now,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,72.96775304712355,374,5,379,,,,,,,,,,,,,51,transport_taxi,True,,3,3
+llm,get me a uber,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,72.58084509521723,370,5,375,,,,,,,,,,,,,52,transport_taxi,True,,3,3
+llm,call me a taxi olly,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,73.32255295477808,372,5,377,,,,,,,,,,,,,53,transport_taxi,True,,3,3
+llm,call yellow cab,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,69.83636086806655,369,5,374,,,,,,,,,,,,,54,transport_taxi,True,,3,3
+llm,schedule taxi pickup for monday at noon,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,73.82445479743183,373,5,378,,,,,,,,,,,,,55,transport_taxi,True,,3,3
+llm,reserve the closest uber,transport_taxi,transport_taxi,transport_taxi,phi4:14b,63.05507989600301,370,4,374,,,,,,,,,,,,,56,transport_taxi,True,,3,3
+llm,can you book an uber for me,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,73.99329612962902,373,5,378,,,,,,,,,,,,,57,transport_taxi,True,,3,3
+llm,uber me to the airport,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,72.24600692279637,371,5,376,,,,,,,,,,,,,58,transport_taxi,True,,3,3
+llm,call city cab to airport,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,73.80882208235562,371,5,376,,,,,,,,,,,,,59,transport_taxi,True,,3,3
+llm,call an uberpool to get me at long island bar,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,74.76364891044796,377,5,382,,,,,,,,,,,,,60,transport_taxi,True,,3,3
+llm,book a cab to office for me,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,73.04052799008787,373,5,378,,,,,,,,,,,,,61,transport_taxi,True,,3,3
+llm,olly find the nearest uber,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,74.54092218540609,371,5,376,,,,,,,,,,,,,62,transport_taxi,True,,3,3
+llm,book me a cab going to location,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,74.1511310916394,373,5,378,,,,,,,,,,,,,63,transport_taxi,True,,3,3
+llm,please book me a taxi uber,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,72.73356802761555,372,5,377,,,,,,,,,,,,,64,transport_taxi,True,,3,3
+llm,i need a ride home,service transport_taxi,transport_taxi,transport_taxi,phi4:14b,73.80292983725667,371,5,376,,,,,,,,,,,,,65,transport_taxi,True,,3,3
+llm,don't call me bill anymore - call me bob,service -1,general,general,phi4:14b,62.40960001014173,376,4,380,,,,,,,,,,,,,66,general,True,,3,3
+llm,how much has microsoft's stock changed over the last year,service -1,general,general,phi4:14b,64.79581911116838,377,4,381,,,,,,,,,,,,,67,general,True,,3,3
+llm,what is my card's apr rate,service -1,general,general,phi4:14b,62.00274103321135,373,4,377,,,,,,,,,,,,,68,general,True,,3,3
+llm,My top-up has been cancelled.,service -1,general,general,phi4:14b,62.03024601563811,372,4,376,,,,,,,,,,,,,69,general,True,,3,3
+llm,Can I change the amount I made on a payment that I made to the payment is correct.,service -1,general,general,phi4:14b,64.3314269836992,384,4,388,,,,,,,,,,,,,70,general,True,,3,3
+llm,Where are cards delivered to?,service -1,general,general,phi4:14b,61.27581209875643,371,4,375,,,,,,,,,,,,,71,general,True,,3,3
+llm,Can I change my information?,service -1,general,general,phi4:14b,62.31889082118869,371,4,375,,,,,,,,,,,,,72,general,True,,3,3
+llm,my capital one visa was taken without permission,service -1,general,general,phi4:14b,61.33068818598986,374,4,378,,,,,,,,,,,,,73,general,True,,3,3
+llm,Can I add money with Apple Pay?,service -1,general,general,phi4:14b,62.711333855986595,373,4,377,,,,,,,,,,,,,74,general,True,,3,3
+llm,How do I link this new card?,service -1,general,general,phi4:14b,61.2117440905422,373,4,377,,,,,,,,,,,,,75,general,True,,3,3
+llm,"I am traveling to Germany, Will I be able to use my card there?",service -1,general,general,phi4:14b,64.34648297727108,381,4,385,,,,,,,,,,,,,76,general,True,,3,3
+llm,"If I feel someone has my card information, can I get a new card?",service -1,general,general,phi4:14b,65.22851600311697,381,4,385,,,,,,,,,,,,,77,general,True,,3,3
+llm,where were you thought of,service -1,general,general,phi4:14b,62.139951856806874,371,4,375,,,,,,,,,,,,,78,general,True,,3,3
+llm,Are there any fees for adding money with an international card?,service -1,general,general,phi4:14b,64.11945912986994,377,4,381,,,,,,,,,,,,,79,general,True,,3,3
+llm,what is the weather,service -1,general,general,phi4:14b,61.501669930294156,370,4,374,,,,,,,,,,,,,80,general,True,,3,3
+llm,Why did I have to pay extra because I paid with card?,"The user query is about an extra charge incurred when paying with a card, which relates to a financial transaction issue rather than a transportation, smart-home lighting, or music-related query. None of the specialist services described directly match this core intent. Therefore, the query does not match any of the listed specialist services.
+
+service -1",UNMATCHED,UNMATCHED,phi4:14b,747.5280619692057,378,66,444,,,,,,,,,,,,,81,general,False,,3,3
+llm,create emergency phone numbers list,service -1,general,general,phi4:14b,62.852591974660754,371,4,375,,,,,,,,,,,,,82,general,True,,3,3
+llm,switch over to low power mode to preserve battery life,"The query ""switch over to low power mode to preserve battery life"" is focused on managing power usage, which involves adjusting settings for energy conservation. None of the provided specialist services explicitly deal with power modes or battery management.
+
+- transport_taxi: This service is about booking and managing taxi rides.
+- iot_hue_lightoff: This service deals with controlling lighting in a smart home environment.
+- music_query: This service provides information about music and related queries.
+
+The query does not match the core intents of any of the listed specialist services, as they do not involve power management or battery preservation.
+
+Therefore, the appropriate response is:
+
+service -1",UNMATCHED,UNMATCHED,phi4:14b,1470.3386288601905,376,131,507,,,,,,,,,,,,,83,general,False,,3,3
+llm,How do I get my top-up verification code?,service -1,general,general,phi4:14b,71.91776111721992,375,4,379,,,,,,,,,,,,,84,general,True,,3,3
+llm,How long will it take to arrive?,"The query ""How long will it take to arrive?"" is asking about the duration of time it will take for someone or something to reach a destination. This question aligns most closely with transportation-related services, specifically those that involve scheduling and time estimation for arrivals.
+
+Analyzing the specialist services provided:
+- The `transport_taxi` service is focused on taxi transportation, including booking taxis and estimating travel times based on pickup and drop-off locations. It directly deals with questions about arrival times for taxi rides.
+- The `iot_hue_lightoff` service is related to controlling smart-home lighting and does not pertain to transportation or arrival times.
+- The `music_query` service deals with music-related information and does not involve transportation or travel times.
+
+Given that the `transport_taxi` service is the only one that involves transportation and can provide information about travel times and arrivals, it is the most appropriate service for handling the query.
+
+Therefore, the best-suited specialist service for this query is:
+
+service transport_taxi",UNMATCHED,UNMATCHED,phi4:14b,2288.9913639519364,373,204,577,,,,,,,,,,,,,85,general,False,,3,3
+llm,find my current location,service -1,general,general,phi4:14b,63.94584197551012,370,4,374,,,,,,,,,,,,,86,general,True,,3,3
+llm,can i call you arnold instead,service -1,general,general,phi4:14b,63.06114397011697,374,4,378,,,,,,,,,,,,,87,general,True,,3,3
+llm,What type of ATMs accept this card?,service -1,general,general,phi4:14b,65.3472919948399,374,4,378,,,,,,,,,,,,,88,general,True,,3,3
+llm,The balance on my account wasn't updated after I made a depost.,Service -1,general,general,phi4:14b,66.03273493237793,380,4,384,,,,,,,,,,,,,89,general,True,,3,3
+llm,where do i report that my card was lost,service -1,general,general,phi4:14b,62.31384095735848,375,4,379,,,,,,,,,,,,,90,general,True,,3,3
+llm,"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",service -1,general,general,phi4:14b,67.94010801240802,385,4,389,,,,,,,,,,,,,91,general,True,,3,3
+llm,What will I be charged for a physical card?,service -1,general,general,phi4:14b,64.00783103890717,375,4,379,,,,,,,,,,,,,92,general,True,,3,3
+llm,tell me what this song is called,service music_query,music_query,music_query,phi4:14b,63.09265992604196,373,4,377,,,,,,,,,,,,,93,general,False,,3,3
+llm,I lost my phone!,service -1,general,general,phi4:14b,64.98202588409185,370,4,374,,,,,,,,,,,,,94,general,True,,3,3
+llm,what is the weather doing now,service -1,general,general,phi4:14b,62.63600895181298,372,4,376,,,,,,,,,,,,,95,general,True,,3,3
+llm,"$1 extra has been charged on my statement, why is that?",service -1,general,general,phi4:14b,64.78026905097067,378,4,382,,,,,,,,,,,,,96,general,True,,3,3
+llm,The exchange rates are?,service -1,general,general,phi4:14b,62.324153957888484,370,4,374,,,,,,,,,,,,,97,general,True,,3,3
+llm,play the next song please,service music_query,music_query,music_query,phi4:14b,64.5413778256625,371,4,375,,,,,,,,,,,,,98,general,False,,3,3
+llm,"Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but ""Pending"", and that status has never changed during the last two days.",service -1,general,general,phi4:14b,81.00993582047522,418,4,422,,,,,,,,,,,,,99,general,True,,3,3
+llm,what shows are on tonight,service -1,general,general,phi4:14b,63.32184514030814,371,4,375,,,,,,,,,,,,,100,general,True,,3,3
+llm,How can I fix a problem where contactless isn't working?,service -1,general,general,phi4:14b,66.39599101617932,378,4,382,,,,,,,,,,,,,101,general,True,,3,3
+llm,what's the number of vacation days i have left,service -1,general,general,phi4:14b,98.81538106128573,376,4,380,,,,,,,,,,,,,102,general,True,,3,3
+llm,what's on my list of things to remember,service -1,general,general,phi4:14b,62.20984808169305,375,4,379,,,,,,,,,,,,,103,general,True,,3,3
+llm,"I want to add money but don't know what currencies you accept, can you tell me?",service -1,general,general,phi4:14b,64.67730784788728,384,4,388,,,,,,,,,,,,,104,general,True,,3,3
+llm,What fiat currencies are supported for holding and exchange?,service -1,general,general,phi4:14b,62.32552393339574,375,4,379,,,,,,,,,,,,,105,general,True,,3,3
+llm,I'm unable to use contactless payments for purchases.,service -1,general,general,phi4:14b,63.135608099401,376,4,380,,,,,,,,,,,,,106,general,True,,3,3
+llm,I couldn't get cash at the atm,service -1,general,general,phi4:14b,63.101253006607294,374,4,378,,,,,,,,,,,,,107,general,True,,3,3
+llm,Will it automatically top-up money if there isn't a lot left?,"The query ""Will it automatically top-up money if there isn't a lot left?"" is related to financial transactions or account management, potentially involving payment or balance management for services like taxis or IoT devices. 
+
+- **transport_taxi**: Involves booking, calling, and managing taxis, but does not mention automatic financial top-ups.
+- **iot_hue_lightoff**: Involves controlling smart-home lighting without reference to financial transactions or automatic top-ups.
+- **music_query**: Involves music information and management, not related to financial transactions or top-ups.
+
+None of the services directly address automatic financial top-ups. Therefore, the query does not match any of the listed specialist services.
+
+service -1",UNMATCHED,UNMATCHED,phi4:14b,1614.9352539796382,379,143,522,,,,,,,,,,,,,108,general,False,,3,3
+llm,i would like to change the name on my first bankcard account,service -1,general,general,phi4:14b,66.35446194559336,379,4,383,,,,,,,,,,,,,109,general,True,,3,3
+llm,places i can use the card,service -1,general,general,phi4:14b,62.05355911515653,372,4,376,,,,,,,,,,,,,110,general,True,,3,3
+llm,I would like to know why I was charged twice for my purchase.,service -1,general,general,phi4:14b,63.64194909110665,379,4,383,,,,,,,,,,,,,111,general,True,,3,3
+llm,what is the expiration month of my card,service -1,general,general,phi4:14b,63.47687589004636,374,4,378,,,,,,,,,,,,,112,general,True,,3,3
+llm,"I sent out money, but was charged extra for transferring. Why?",service -1,general,general,phi4:14b,66.07013614848256,379,4,383,,,,,,,,,,,,,113,general,True,,3,3
+llm,when do i get my next paycheck,service -1,general,general,phi4:14b,62.02286412008107,373,4,377,,,,,,,,,,,,,114,general,True,,3,3
+llm,Where do my funds come from?,service -1,general,general,phi4:14b,64.0607038512826,372,4,376,,,,,,,,,,,,,115,general,True,,3,3
+llm,How would I use my money in a different country?,service -1,general,general,phi4:14b,62.66670092009008,376,4,380,,,,,,,,,,,,,116,general,True,,3,3
+llm,"I just activated auto top-up, but it is not letting me enable it. Why not?",service -1,general,general,phi4:14b,64.19474398717284,384,4,388,,,,,,,,,,,,,117,general,True,,3,3
+llm,Is there an age minimum?,service -1,general,general,phi4:14b,61.162187019363046,371,4,375,,,,,,,,,,,,,118,general,True,,3,3
+llm,"My top up hasn't worked, it's been stuck in pending for the last couple hours","The query ""My top up hasn't worked, it's been stuck in pending for the last couple hours"" does not match the core intents of any of the provided specialist services. The available services focus on transportation, smart-home lighting control, and music-related queries, none of which are related to financial transactions or mobile top-ups. Therefore, the query should be handled by the fallback service.
+
+service -1",UNMATCHED,UNMATCHED,phi4:14b,936.2008820753545,384,82,466,,,,,,,,,,,,,119,general,False,,3,3
+llm,"I see my top-up was canceled, but why?",service -1,general,general,phi4:14b,68.4542718809098,376,4,380,,,,,,,,,,,,,120,general,True,,3,3
+llm,help me to transfer my 401k,service -1,general,general,phi4:14b,65.17753191292286,374,4,378,,,,,,,,,,,,,121,general,True,,3,3
+llm,I took out a foreign currency and the exchange rate is wrong.,service -1,general,general,phi4:14b,64.58458583801985,378,4,382,,,,,,,,,,,,,122,general,True,,3,3
+llm,can i redeem my points by transferring them to someone as a gift,service -1,general,general,phi4:14b,65.24510704912245,379,4,383,,,,,,,,,,,,,123,general,True,,3,3
+llm,I understand that this is extremely late. After going over my transactions for the last couple of months I noticed a large charge that I'm sure I did not make. Is there anyway I can still dispute this?,service -1,general,general,phi4:14b,76.78822590969503,407,4,411,,,,,,,,,,,,,124,general,True,,3,3
+llm,what is the amount of blood needed to stay alive,service -1,general,general,phi4:14b,64.07800712622702,376,4,380,,,,,,,,,,,,,125,general,True,,3,3
+llm,find travel alerts for haiti,service -1,general,general,phi4:14b,62.786822905763984,373,4,377,,,,,,,,,,,,,126,general,True,,3,3
+llm,whats the exchange rate for us dollars to british pounds,service -1,general,general,phi4:14b,64.72661183215678,377,4,381,,,,,,,,,,,,,127,general,True,,3,3
+llm,can you let me know the next open slot for me to get my oil changed,service -1,general,general,phi4:14b,64.08098200336099,382,4,386,,,,,,,,,,,,,128,general,True,,3,3
+llm,Has someone accessed my card there are payments I did not make that are showing up on the app.,service -1,general,general,phi4:14b,66.52543507516384,385,4,389,,,,,,,,,,,,,129,general,True,,3,3
+llm,disconnect from wifi immediately please,service -1,general,general,phi4:14b,62.67547607421875,371,4,375,,,,,,,,,,,,,130,general,True,,3,3
+llm,is the movie avatar culturally insensitive,service -1,general,general,phi4:14b,62.92932294309139,372,4,376,,,,,,,,,,,,,131,general,True,,3,3
+llm,How do I use the app if I don't have my phone with me?,Service -1,general,general,phi4:14b,64.71351999789476,381,4,385,,,,,,,,,,,,,132,general,True,,3,3
+llm,what's the french word you use for potato,service -1,general,general,phi4:14b,63.312213867902756,375,4,379,,,,,,,,,,,,,133,general,True,,3,3
+llm,say again please,service music_query,music_query,music_query,phi4:14b,61.77526596002281,369,4,373,,,,,,,,,,,,,134,general,False,,3,3
+llm,i want to start talking to you in swedish,service -1,general,general,phi4:14b,64.24247496761382,376,4,380,,,,,,,,,,,,,135,general,True,,3,3
+llm,what is the cheapest new car for this year,service -1,general,general,phi4:14b,61.907478142529726,375,4,379,,,,,,,,,,,,,136,general,True,,3,3
+llm,Which fiat currencies do you support?,service -1,general,general,phi4:14b,61.48791196756065,372,4,376,,,,,,,,,,,,,137,general,True,,3,3
+llm,how much vacation time do i have,service -1,general,general,phi4:14b,62.539970967918634,373,4,377,,,,,,,,,,,,,138,general,True,,3,3
+llm,HOw do I get my card back after the ATM has pulled it in?,service -1,general,general,phi4:14b,65.53925294429064,381,4,385,,,,,,,,,,,,,139,general,True,,3,3
+llm,i would like to make a phone call,service -1,general,general,phi4:14b,62.39624321460724,374,4,378,,,,,,,,,,,,,140,general,True,,3,3
+llm,i would like help moving money from one account to another,service -1,general,general,phi4:14b,63.24695609509945,377,4,381,,,,,,,,,,,,,141,general,True,,3,3
+llm,what's your home country,service -1,general,general,phi4:14b,62.12224601767957,371,4,375,,,,,,,,,,,,,142,general,True,,3,3
+llm,I wasn't applied the correct exchange rate for an item I bought,service -1,general,general,phi4:14b,64.44076495245099,379,4,383,,,,,,,,,,,,,143,general,True,,3,3
+llm,restart my newspaper delivery for monday,service -1,general,general,phi4:14b,61.472837813198566,372,4,376,,,,,,,,,,,,,144,general,True,,3,3
+llm,what are some of your hobbies,service -1,general,general,phi4:14b,61.27598602324724,372,4,376,,,,,,,,,,,,,145,general,True,,3,3
+llm,what do i go by,service -1,general,general,phi4:14b,61.69564207084477,371,4,375,,,,,,,,,,,,,146,general,True,,3,3
+llm,i appeciate it,service -1,general,general,phi4:14b,63.54445801116526,371,4,375,,,,,,,,,,,,,147,general,True,,3,3
+llm,I am awaiting my refund,service -1,general,general,phi4:14b,62.901637982577085,371,4,375,,,,,,,,,,,,,148,general,True,,3,3
+llm,I am experiencing difficulty providing my identity.,service -1,general,general,phi4:14b,62.08754703402519,373,4,377,,,,,,,,,,,,,149,general,True,,3,3
+llm,How do I retrieve my card from the machine?,service -1,general,general,phi4:14b,62.84571602009237,375,4,379,,,,,,,,,,,,,150,general,True,,3,3
+llm,please read me the last text message i received,service -1,general,general,phi4:14b,63.20843496359885,375,4,379,,,,,,,,,,,,,151,general,True,,3,3
+llm,What do you charge for physical cards?,service -1,general,general,phi4:14b,62.077556969597936,373,4,377,,,,,,,,,,,,,152,general,True,,3,3
+llm,I want to know where the funds come from.,service -1,general,general,phi4:14b,61.95889483205974,375,4,379,,,,,,,,,,,,,153,general,True,,3,3
+llm,Help!  I can't find my card.,Service -1,general,general,phi4:14b,61.76870199851692,375,4,379,,,,,,,,,,,,,154,general,True,,3,3
+llm,what are the reviews like for l'auberge aubergine,service -1,general,general,phi4:14b,63.583618961274624,380,4,384,,,,,,,,,,,,,155,general,True,,3,3
+llm,i would like for my phone to be synced with you,service -1,general,general,phi4:14b,64.10799617879093,377,4,381,,,,,,,,,,,,,156,general,True,,3,3
+llm,what's the minimum payment,service -1,general,general,phi4:14b,62.86643515340984,371,4,375,,,,,,,,,,,,,157,general,True,,3,3
+llm,what time is it in california,service -1,general,general,phi4:14b,63.50216316059232,372,4,376,,,,,,,,,,,,,158,general,True,,3,3
+llm,is socket converter required in france,service -1,general,general,phi4:14b,62.2091069817543,372,4,376,,,,,,,,,,,,,159,general,True,,3,3
+llm,"Hi, I have been overcharged for my payment last Saturday. I guess exchange rate was wrong.",service -1,general,general,phi4:14b,67.12731788866222,385,4,389,,,,,,,,,,,,,160,general,True,,3,3
+llm,what name do you have for me,service -1,general,general,phi4:14b,61.4026989787817,373,4,377,,,,,,,,,,,,,161,general,True,,3,3
+llm,is it okay to use butter instead of margarine,service -1,general,general,phi4:14b,61.411227798089385,376,4,380,,,,,,,,,,,,,162,general,True,,3,3
+llm,How can I fix a problem where my virtual card is rejected?,service -1,general,general,phi4:14b,63.85243101976812,378,4,382,,,,,,,,,,,,,163,general,True,,3,3
+llm,can you help me understand why my card got declined,service -1,general,general,phi4:14b,63.24897613376379,376,4,380,,,,,,,,,,,,,164,general,True,,3,3
+llm,please let me know the status of my vacation request,service -1,general,general,phi4:14b,64.90827491506934,376,4,380,,,,,,,,,,,,,165,general,True,,3,3

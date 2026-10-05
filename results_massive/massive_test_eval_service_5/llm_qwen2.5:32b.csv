@@ -1,0 +1,211 @@
+routing_method,query,raw_response,predicted_label,top_candidate,model_name,latency_ms,prompt_tokens,completion_tokens,total_tokens,max_score,margin,margin_ratio,normalized_margin,mean_score,std_score,top_zscore,second_top_zscore,zscore_margin,scores,zscores,confidence_threshold,query_id,expected_service,is_correct,error,specialist_service_count,total_service_count
+llm,dictate email,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,595.0631380546838,503,5,508,,,,,,,,,,,,,0,email_sendemail,True,,5,5
+llm,reply an email to jason that i will not come tonight,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,164.97346316464245,512,5,517,,,,,,,,,,,,,1,email_sendemail,True,,5,5
+llm,please send an email to cassy who is there on my family and friend list,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,164.33441312983632,516,5,521,,,,,,,,,,,,,2,email_sendemail,True,,5,5
+llm,that last email needs to be answer a. s. a. p.,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,163.3752090856433,514,5,519,,,,,,,,,,,,,3,email_sendemail,True,,5,5
+llm,how we can get credit,-1,general,general,qwen2.5:32b,109.05242385342717,505,3,508,,,,,,,,,,,,,4,email_sendemail,False,,5,5
+llm,respond to email,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,144.9336858931929,503,5,508,,,,,,,,,,,,,5,email_sendemail,True,,5,5
+llm,write and send email to my boss,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,157.084769802168,507,5,512,,,,,,,,,,,,,6,email_sendemail,True,,5,5
+llm,send a reply to mike with the answer four hundred and thirty from his email he sent this morning,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,163.4271319489926,519,5,524,,,,,,,,,,,,,7,email_sendemail,True,,5,5
+llm,compose an email to bob,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,157.4239230249077,505,5,510,,,,,,,,,,,,,8,email_sendemail,True,,5,5
+llm,send an email to my boss,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,155.82575602456927,506,5,511,,,,,,,,,,,,,9,email_sendemail,True,,5,5
+llm,please say to the email that sent me george i need the money now it's urgent,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,163.5652941185981,518,5,523,,,,,,,,,,,,,10,email_sendemail,True,,5,5
+llm,please load new email for bruce and send message now,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,159.1481608338654,511,5,516,,,,,,,,,,,,,11,email_sendemail,True,,5,5
+llm,can you send the email to the new email id,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,162.03056694939733,510,5,515,,,,,,,,,,,,,12,email_sendemail,True,,5,5
+llm,alexa reply to the mail with the following content hello you,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,161.62709798663855,512,5,517,,,,,,,,,,,,,13,email_sendemail,True,,5,5
+llm,send an email to john asking him what time works for the meeting,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,162.97571710310876,513,5,518,,,,,,,,,,,,,14,email_sendemail,True,,5,5
+llm,email my appointments to reschedule,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,156.76543209701777,506,5,511,,,,,,,,,,,,,15,email_sendemail,True,,5,5
+llm,send an email to this contact,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,156.75285086035728,506,5,511,,,,,,,,,,,,,16,email_sendemail,True,,5,5
+llm,i want to send an email to my family do you help me,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,163.07164099998772,513,5,518,,,,,,,,,,,,,17,email_sendemail,True,,5,5
+llm,send an email to juanpedro at gmail dot com,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,163.11958199366927,512,5,517,,,,,,,,,,,,,18,email_sendemail,True,,5,5
+llm,alexa start email,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,156.77882195450366,504,5,509,,,,,,,,,,,,,19,email_sendemail,True,,5,5
+llm,reply to last received email,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,158.8843879289925,505,5,510,,,,,,,,,,,,,20,email_sendemail,True,,5,5
+llm,hey reply a mail which i received,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,156.60407301038504,507,5,512,,,,,,,,,,,,,21,email_sendemail,True,,5,5
+llm,hey olly turn off the light please,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,233.85178111493587,508,8,516,,,,,,,,,,,,,22,iot_hue_lightoff,True,,5,5
+llm,put the lights off now,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,230.60814710333943,505,8,513,,,,,,,,,,,,,23,iot_hue_lightoff,True,,5,5
+llm,switch off the lights,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,229.99316500499845,504,8,512,,,,,,,,,,,,,24,iot_hue_lightoff,True,,5,5
+llm,turn the lights off,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,230.7157029863447,504,8,512,,,,,,,,,,,,,25,iot_hue_lightoff,True,,5,5
+llm,turn off the bathroom lights,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,229.15658704005182,505,8,513,,,,,,,,,,,,,26,iot_hue_lightoff,True,,5,5
+llm,turn off the shed light,service -1,general,general,qwen2.5:32b,122.39560205489397,505,4,509,,,,,,,,,,,,,27,iot_hue_lightoff,False,,5,5
+llm,turn down the lights to medium,service -1,general,general,qwen2.5:32b,131.05335202999413,506,4,510,,,,,,,,,,,,,28,iot_hue_lightoff,False,,5,5
+llm,turn off the dining room,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,229.49157818220556,505,8,513,,,,,,,,,,,,,29,iot_hue_lightoff,True,,5,5
+llm,turn off the porch light,service -1,general,general,qwen2.5:32b,124.44195197895169,505,4,509,,,,,,,,,,,,,30,iot_hue_lightoff,False,,5,5
+llm,turn off kitchen light,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,219.56996293738484,504,8,512,,,,,,,,,,,,,31,iot_hue_lightoff,True,,5,5
+llm,siri please turn the lights off in the bathroom,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,234.04271993786097,510,8,518,,,,,,,,,,,,,32,iot_hue_lightoff,True,,5,5
+llm,turn off the lamps,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,229.70527806319296,504,8,512,,,,,,,,,,,,,33,iot_hue_lightoff,True,,5,5
+llm,shut off lights,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,229.49467902071774,504,8,512,,,,,,,,,,,,,34,iot_hue_lightoff,True,,5,5
+llm,shut the lights off,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,218.88869884423912,505,8,513,,,,,,,,,,,,,35,iot_hue_lightoff,True,,5,5
+llm,did i leave the light on in the garage,service -1,general,general,qwen2.5:32b,132.88836902938783,509,4,513,,,,,,,,,,,,,36,iot_hue_lightoff,False,,5,5
+llm,please turn off the light of my son's room,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,234.76840602234006,510,8,518,,,,,,,,,,,,,37,iot_hue_lightoff,True,,5,5
+llm,no lights in the kitchen,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,231.1906930990517,505,8,513,,,,,,,,,,,,,38,iot_hue_lightoff,True,,5,5
+llm,turn the kitchen lights off,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,229.37830002047122,505,8,513,,,,,,,,,,,,,39,iot_hue_lightoff,True,,5,5
+llm,cease operating lights,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,231.39525298029184,504,8,512,,,,,,,,,,,,,40,iot_hue_lightoff,True,,5,5
+llm,switch off the master's bedroom,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,233.09985897503793,506,8,514,,,,,,,,,,,,,41,iot_hue_lightoff,True,,5,5
+llm,i'm going to sleep now,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,233.27672784216702,506,8,514,,,,,,,,,,,,,42,iot_hue_lightoff,True,,5,5
+llm,turn off overhead light,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,qwen2.5:32b,228.19851501844823,504,8,512,,,,,,,,,,,,,43,iot_hue_lightoff,True,,5,5
+llm,what song is playing right now,service music_query,music_query,music_query,qwen2.5:32b,132.9110141377896,506,4,510,,,,,,,,,,,,,44,music_query,True,,5,5
+llm,title of song,service music_query,music_query,music_query,qwen2.5:32b,122.356265084818,503,4,507,,,,,,,,,,,,,45,music_query,True,,5,5
+llm,which film the music comes from what is the name of the music,service music_query,music_query,music_query,qwen2.5:32b,139.0745269600302,513,4,517,,,,,,,,,,,,,46,music_query,True,,5,5
+llm,title,service music_query,music_query,music_query,qwen2.5:32b,122.98354413360357,501,4,505,,,,,,,,,,,,,47,music_query,True,,5,5
+llm,what music is currently playing on,service music_query,music_query,music_query,qwen2.5:32b,132.83736910670996,506,4,510,,,,,,,,,,,,,48,music_query,True,,5,5
+llm,song info,service music_query,music_query,music_query,qwen2.5:32b,122.75660107843578,502,4,506,,,,,,,,,,,,,49,music_query,True,,5,5
+llm,which song is this one,service music_query,music_query,music_query,qwen2.5:32b,134.84438601881266,505,4,509,,,,,,,,,,,,,50,music_query,True,,5,5
+llm,what artist is this,service music_query,music_query,music_query,qwen2.5:32b,132.8895972110331,504,4,508,,,,,,,,,,,,,51,music_query,True,,5,5
+llm,what year did this song come out,service music_query,music_query,music_query,qwen2.5:32b,132.7636840287596,507,4,511,,,,,,,,,,,,,52,music_query,True,,5,5
+llm,who sings the song about a long black train,service music_query,music_query,music_query,qwen2.5:32b,134.228726150468,509,4,513,,,,,,,,,,,,,53,music_query,True,,5,5
+llm,identify song,service music_query,music_query,music_query,qwen2.5:32b,122.28882312774658,502,4,506,,,,,,,,,,,,,54,music_query,True,,5,5
+llm,who is this on the radio,service music_query,music_query,music_query,qwen2.5:32b,132.5763890054077,506,4,510,,,,,,,,,,,,,55,music_query,True,,5,5
+llm,find out what song this is and tell me the name,service music_query,music_query,music_query,qwen2.5:32b,136.27603789791465,511,4,515,,,,,,,,,,,,,56,music_query,True,,5,5
+llm,who is the music director of this song,service music_query,music_query,music_query,qwen2.5:32b,133.09642998501658,508,4,512,,,,,,,,,,,,,57,music_query,True,,5,5
+llm,current song playing what is it,service music_query,music_query,music_query,qwen2.5:32b,131.35990989394486,506,4,510,,,,,,,,,,,,,58,music_query,True,,5,5
+llm,who wrote this song,service music_query,music_query,music_query,qwen2.5:32b,134.26168402656913,504,4,508,,,,,,,,,,,,,59,music_query,True,,5,5
+llm,who is the singer of song,service music_query,music_query,music_query,qwen2.5:32b,141.58294396474957,506,4,510,,,,,,,,,,,,,60,music_query,True,,5,5
+llm,what's on the radio right now,service music_query,music_query,music_query,qwen2.5:32b,132.3752070311457,507,4,511,,,,,,,,,,,,,61,music_query,True,,5,5
+llm,what is the music playing right now,service music_query,music_query,music_query,qwen2.5:32b,133.3242158871144,507,4,511,,,,,,,,,,,,,62,music_query,True,,5,5
+llm,what are lady gagas most popular songs,service music_query,music_query,music_query,qwen2.5:32b,133.44580889679492,508,4,512,,,,,,,,,,,,,63,music_query,True,,5,5
+llm,who is the singer of hotel california,service music_query,music_query,music_query,qwen2.5:32b,132.81571795232594,507,4,511,,,,,,,,,,,,,64,music_query,True,,5,5
+llm,hey olly please tell me the name of this song that is currently playing,service music_query,music_query,music_query,qwen2.5:32b,138.96722602657974,515,4,519,,,,,,,,,,,,,65,music_query,True,,5,5
+llm,can you please order some food for me,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,133.88294400647283,508,4,512,,,,,,,,,,,,,66,takeaway_order,True,,5,5
+llm,order a pizza with sausage from domino's,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,131.64911791682243,509,4,513,,,,,,,,,,,,,67,takeaway_order,True,,5,5
+llm,open the folder app please,service -1,general,general,qwen2.5:32b,132.47918104752898,505,4,509,,,,,,,,,,,,,68,takeaway_order,False,,5,5
+llm,make an order for noodles one pack make it as takeaway order,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,138.5459299199283,512,4,516,,,,,,,,,,,,,69,takeaway_order,True,,5,5
+llm,i want to order chinese take-out,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,134.37015190720558,507,4,511,,,,,,,,,,,,,70,takeaway_order,True,,5,5
+llm,i need to order some food from papa john's,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,136.20324106886983,511,4,515,,,,,,,,,,,,,71,takeaway_order,True,,5,5
+llm,i feel like having soup for lunch order from wangs kitchen restaurant a chicken manchow soup,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,141.8952220119536,519,4,523,,,,,,,,,,,,,72,takeaway_order,True,,5,5
+llm,noodles one pack make it as takeaway,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,134.26326494663954,508,4,512,,,,,,,,,,,,,73,takeaway_order,True,,5,5
+llm,order one pizza from pizza hut,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,132.6008199248463,506,4,510,,,,,,,,,,,,,74,takeaway_order,True,,5,5
+llm,order pizza for delivery,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,122.69677105359733,504,4,508,,,,,,,,,,,,,75,takeaway_order,True,,5,5
+llm,call the nearest thai restaurant with delivery,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,133.59071500599384,507,4,511,,,,,,,,,,,,,76,takeaway_order,True,,5,5
+llm,could you order sushi for tonight dinner,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,133.7338041048497,507,4,511,,,,,,,,,,,,,77,takeaway_order,True,,5,5
+llm,i want two burgers and one coke order it fast,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,136.16768014617264,510,4,514,,,,,,,,,,,,,78,takeaway_order,True,,5,5
+llm,order a takeaway,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,121.7613909393549,503,4,507,,,,,,,,,,,,,79,takeaway_order,True,,5,5
+llm,i want to eat some spicy thing,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,132.40197207778692,507,4,511,,,,,,,,,,,,,80,takeaway_order,True,,5,5
+llm,call for take-out,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,133.57336004264653,504,4,508,,,,,,,,,,,,,81,takeaway_order,True,,5,5
+llm,hey order two wings with french fries from the chinese food store,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,138.6465469840914,512,4,516,,,,,,,,,,,,,82,takeaway_order,True,,5,5
+llm,find food and order,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,133.49459506571293,504,4,508,,,,,,,,,,,,,83,takeaway_order,True,,5,5
+llm,order a twelve piece honey mustard wing combo with seasonimg altnon the fries and a sprite as the drink,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,147.20617095008492,522,4,526,,,,,,,,,,,,,84,takeaway_order,True,,5,5
+llm,can i order take out from licari's,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,137.19140994362533,509,4,513,,,,,,,,,,,,,85,takeaway_order,True,,5,5
+llm,it's time for junk food,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,136.65848108939826,506,4,510,,,,,,,,,,,,,86,takeaway_order,True,,5,5
+llm,i want to order a pizza from michael's pizza,service takeaway_order,takeaway_order,takeaway_order,qwen2.5:32b,139.1396289691329,510,4,514,,,,,,,,,,,,,87,takeaway_order,True,,5,5
+llm,can you book an uber tomorrow,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,158.593466039747,506,5,511,,,,,,,,,,,,,88,transport_taxi,True,,5,5
+llm,call yellow cab,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,146.66183199733496,503,5,508,,,,,,,,,,,,,89,transport_taxi,True,,5,5
+llm,call me a taxi olly,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,157.45469206012785,506,5,511,,,,,,,,,,,,,90,transport_taxi,True,,5,5
+llm,uber me to the airport,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,158.1947209779173,505,5,510,,,,,,,,,,,,,91,transport_taxi,True,,5,5
+llm,book an uber to pick me up now,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,157.12354495190084,508,5,513,,,,,,,,,,,,,92,transport_taxi,True,,5,5
+llm,i need a ride home,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,156.4658780116588,505,5,510,,,,,,,,,,,,,93,transport_taxi,True,,5,5
+llm,please reserve the next taxi a nine am,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,157.66599983908236,508,5,513,,,,,,,,,,,,,94,transport_taxi,True,,5,5
+llm,call taxi,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,145.99551795981824,502,5,507,,,,,,,,,,,,,95,transport_taxi,True,,5,5
+llm,schedule taxi pickup for monday at noon,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,157.36406296491623,507,5,512,,,,,,,,,,,,,96,transport_taxi,True,,5,5
+llm,reserve the closest uber,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,155.5460300296545,504,5,509,,,,,,,,,,,,,97,transport_taxi,True,,5,5
+llm,olly find the nearest uber,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,156.52967896312475,505,5,510,,,,,,,,,,,,,98,transport_taxi,True,,5,5
+llm,get me a uber,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,156.81038913317025,504,5,509,,,,,,,,,,,,,99,transport_taxi,True,,5,5
+llm,book me a cab going to location,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,157.69845200702548,507,5,512,,,,,,,,,,,,,100,transport_taxi,True,,5,5
+llm,can you book an uber after i left for office,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,162.46281890198588,510,5,515,,,,,,,,,,,,,101,transport_taxi,True,,5,5
+llm,book a taxi to go to the movies at one,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,162.8151391632855,510,5,515,,,,,,,,,,,,,102,transport_taxi,True,,5,5
+llm,please book me a taxi uber,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,157.10628009401262,506,5,511,,,,,,,,,,,,,103,transport_taxi,True,,5,5
+llm,get city cab here to airport,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,155.75350099243224,506,5,511,,,,,,,,,,,,,104,transport_taxi,True,,5,5
+llm,find a taxi to book,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,155.92036908492446,505,5,510,,,,,,,,,,,,,105,transport_taxi,True,,5,5
+llm,can you book an uber for me,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,157.8753120265901,507,5,512,,,,,,,,,,,,,106,transport_taxi,True,,5,5
+llm,call an uberpool to get me at long island bar,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,159.67427613213658,511,5,516,,,,,,,,,,,,,107,transport_taxi,True,,5,5
+llm,book a cab to office for me,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,159.83412601053715,507,5,512,,,,,,,,,,,,,108,transport_taxi,True,,5,5
+llm,book me a taxi to leith in half an hour,service transport_taxi,transport_taxi,transport_taxi,qwen2.5:32b,160.18119803629816,511,5,516,,,,,,,,,,,,,109,transport_taxi,True,,5,5
+llm,don't call me bill anymore - call me bob,service -1,general,general,qwen2.5:32b,135.75915386900306,510,4,514,,,,,,,,,,,,,110,general,True,,5,5
+llm,how much has microsoft's stock changed over the last year,service -1,general,general,qwen2.5:32b,134.3635229859501,511,4,515,,,,,,,,,,,,,111,general,True,,5,5
+llm,what is my card's apr rate,-1,general,general,qwen2.5:32b,108.34591300226748,507,3,510,,,,,,,,,,,,,112,general,True,,5,5
+llm,My top-up has been cancelled.,-1,general,general,qwen2.5:32b,106.56543797813356,506,3,509,,,,,,,,,,,,,113,general,True,,5,5
+llm,Can I change the amount I made on a payment that I made to the payment is correct.,service -1,general,general,qwen2.5:32b,138.33504519425333,518,4,522,,,,,,,,,,,,,114,general,True,,5,5
+llm,Where are cards delivered to?,-1,general,general,qwen2.5:32b,106.92431195639074,505,3,508,,,,,,,,,,,,,115,general,True,,5,5
+llm,Can I change my information?,-1,general,general,qwen2.5:32b,108.35668188519776,505,3,508,,,,,,,,,,,,,116,general,True,,5,5
+llm,my capital one visa was taken without permission,service -1,general,general,qwen2.5:32b,132.90933216921985,508,4,512,,,,,,,,,,,,,117,general,True,,5,5
+llm,Can I add money with Apple Pay?,service -1,general,general,qwen2.5:32b,133.94627394154668,507,4,511,,,,,,,,,,,,,118,general,True,,5,5
+llm,How do I link this new card?,service -1,general,general,qwen2.5:32b,131.87521998770535,507,4,511,,,,,,,,,,,,,119,general,True,,5,5
+llm,"I am traveling to Germany, Will I be able to use my card there?",service -1,general,general,qwen2.5:32b,139.6186479832977,515,4,519,,,,,,,,,,,,,120,general,True,,5,5
+llm,"If I feel someone has my card information, can I get a new card?",-1,general,general,qwen2.5:32b,115.51557714119554,515,3,518,,,,,,,,,,,,,121,general,True,,5,5
+llm,where were you thought of,service -1,general,general,qwen2.5:32b,129.777000984177,505,4,509,,,,,,,,,,,,,122,general,True,,5,5
+llm,Are there any fees for adding money with an international card?,-1,general,general,qwen2.5:32b,109.82849611900747,511,3,514,,,,,,,,,,,,,123,general,True,,5,5
+llm,what is the weather,-1,general,general,qwen2.5:32b,106.48251604288816,504,3,507,,,,,,,,,,,,,124,general,True,,5,5
+llm,Why did I have to pay extra because I paid with card?,-1,general,general,qwen2.5:32b,114.54371712170541,512,3,515,,,,,,,,,,,,,125,general,True,,5,5
+llm,create emergency phone numbers list,-1,general,general,qwen2.5:32b,107.24695306271315,505,3,508,,,,,,,,,,,,,126,general,True,,5,5
+llm,switch over to low power mode to preserve battery life,-1,general,general,qwen2.5:32b,107.72662400268018,510,3,513,,,,,,,,,,,,,127,general,True,,5,5
+llm,How do I get my top-up verification code?,-1,general,general,qwen2.5:32b,108.15337509848177,509,3,512,,,,,,,,,,,,,128,general,True,,5,5
+llm,How long will it take to arrive?,service -1,general,general,qwen2.5:32b,130.6969770230353,507,4,511,,,,,,,,,,,,,129,general,True,,5,5
+llm,find my current location,-1,general,general,qwen2.5:32b,109.01214415207505,504,3,507,,,,,,,,,,,,,130,general,True,,5,5
+llm,can i call you arnold instead,service -1,general,general,qwen2.5:32b,132.11433799006045,508,4,512,,,,,,,,,,,,,131,general,True,,5,5
+llm,What type of ATMs accept this card?,-1,general,general,qwen2.5:32b,109.68928900547326,508,3,511,,,,,,,,,,,,,132,general,True,,5,5
+llm,The balance on my account wasn't updated after I made a depost.,-1,general,general,qwen2.5:32b,114.10796991549432,514,3,517,,,,,,,,,,,,,133,general,True,,5,5
+llm,where do i report that my card was lost,service -1,general,general,qwen2.5:32b,136.68500003404915,509,4,513,,,,,,,,,,,,,134,general,True,,5,5
+llm,"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",service -1,general,general,qwen2.5:32b,140.96401585265994,519,4,523,,,,,,,,,,,,,135,general,True,,5,5
+llm,What will I be charged for a physical card?,-1,general,general,qwen2.5:32b,108.03200304508209,509,3,512,,,,,,,,,,,,,136,general,True,,5,5
+llm,tell me what this song is called,service music_query,music_query,music_query,qwen2.5:32b,132.6762509997934,507,4,511,,,,,,,,,,,,,137,general,False,,5,5
+llm,I lost my phone!,service -1,general,general,qwen2.5:32b,131.3503859564662,504,4,508,,,,,,,,,,,,,138,general,True,,5,5
+llm,what is the weather doing now,-1,general,general,qwen2.5:32b,109.39668281935155,506,3,509,,,,,,,,,,,,,139,general,True,,5,5
+llm,"$1 extra has been charged on my statement, why is that?",-1,general,general,qwen2.5:32b,113.7316559907049,512,3,515,,,,,,,,,,,,,140,general,True,,5,5
+llm,The exchange rates are?,-1,general,general,qwen2.5:32b,108.32531098276377,504,3,507,,,,,,,,,,,,,141,general,True,,5,5
+llm,play the next song please,service music_query,music_query,music_query,qwen2.5:32b,131.85712485574186,505,4,509,,,,,,,,,,,,,142,general,False,,5,5
+llm,"Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but ""Pending"", and that status has never changed during the last two days.",-1,general,general,qwen2.5:32b,152.8842740226537,552,3,555,,,,,,,,,,,,,143,general,True,,5,5
+llm,what shows are on tonight,service -1,general,general,qwen2.5:32b,132.55314505659044,505,4,509,,,,,,,,,,,,,144,general,True,,5,5
+llm,How can I fix a problem where contactless isn't working?,-1,general,general,qwen2.5:32b,115.50071509554982,512,3,515,,,,,,,,,,,,,145,general,True,,5,5
+llm,what's the number of vacation days i have left,-1,general,general,qwen2.5:32b,109.48521690443158,510,3,513,,,,,,,,,,,,,146,general,True,,5,5
+llm,what's on my list of things to remember,-1,general,general,qwen2.5:32b,107.3926838580519,509,3,512,,,,,,,,,,,,,147,general,True,,5,5
+llm,"I want to add money but don't know what currencies you accept, can you tell me?",service -1,general,general,qwen2.5:32b,139.90804995410144,518,4,522,,,,,,,,,,,,,148,general,True,,5,5
+llm,What fiat currencies are supported for holding and exchange?,-1,general,general,qwen2.5:32b,109.72029180265963,509,3,512,,,,,,,,,,,,,149,general,True,,5,5
+llm,I'm unable to use contactless payments for purchases.,-1,general,general,qwen2.5:32b,109.34002511203289,510,3,513,,,,,,,,,,,,,150,general,True,,5,5
+llm,I couldn't get cash at the atm,-1,general,general,qwen2.5:32b,108.15159999765456,508,3,511,,,,,,,,,,,,,151,general,True,,5,5
+llm,Will it automatically top-up money if there isn't a lot left?,-1,general,general,qwen2.5:32b,114.6947331726551,513,3,516,,,,,,,,,,,,,152,general,True,,5,5
+llm,i would like to change the name on my first bankcard account,-1,general,general,qwen2.5:32b,113.53220790624619,513,3,516,,,,,,,,,,,,,153,general,True,,5,5
+llm,places i can use the card,-1,general,general,qwen2.5:32b,108.8809110224247,506,3,509,,,,,,,,,,,,,154,general,True,,5,5
+llm,I would like to know why I was charged twice for my purchase.,-1,general,general,qwen2.5:32b,113.63275907933712,513,3,516,,,,,,,,,,,,,155,general,True,,5,5
+llm,what is the expiration month of my card,-1,general,general,qwen2.5:32b,108.55881590396166,508,3,511,,,,,,,,,,,,,156,general,True,,5,5
+llm,"I sent out money, but was charged extra for transferring. Why?",service -1,general,general,qwen2.5:32b,137.61954591609538,513,4,517,,,,,,,,,,,,,157,general,True,,5,5
+llm,when do i get my next paycheck,-1,general,general,qwen2.5:32b,108.2279582042247,507,3,510,,,,,,,,,,,,,158,general,True,,5,5
+llm,Where do my funds come from?,-1,general,general,qwen2.5:32b,106.3821311108768,506,3,509,,,,,,,,,,,,,159,general,True,,5,5
+llm,How would I use my money in a different country?,-1,general,general,qwen2.5:32b,109.94916711933911,510,3,513,,,,,,,,,,,,,160,general,True,,5,5
+llm,"I just activated auto top-up, but it is not letting me enable it. Why not?",-1,general,general,qwen2.5:32b,115.00059207901359,518,3,521,,,,,,,,,,,,,161,general,True,,5,5
+llm,Is there an age minimum?,-1,general,general,qwen2.5:32b,110.70805718190968,505,3,508,,,,,,,,,,,,,162,general,True,,5,5
+llm,"My top up hasn't worked, it's been stuck in pending for the last couple hours",-1,general,general,qwen2.5:32b,114.59270282648504,518,3,521,,,,,,,,,,,,,163,general,True,,5,5
+llm,"I see my top-up was canceled, but why?",-1,general,general,qwen2.5:32b,108.84272516705096,510,3,513,,,,,,,,,,,,,164,general,True,,5,5
+llm,help me to transfer my 401k,-1,general,general,qwen2.5:32b,107.22794686444104,510,3,513,,,,,,,,,,,,,165,general,True,,5,5
+llm,I took out a foreign currency and the exchange rate is wrong.,-1,general,general,qwen2.5:32b,116.02513794787228,512,3,515,,,,,,,,,,,,,166,general,True,,5,5
+llm,can i redeem my points by transferring them to someone as a gift,-1,general,general,qwen2.5:32b,113.57850302010775,513,3,516,,,,,,,,,,,,,167,general,True,,5,5
+llm,I understand that this is extremely late. After going over my transactions for the last couple of months I noticed a large charge that I'm sure I did not make. Is there anyway I can still dispute this?,service -1,general,general,qwen2.5:32b,163.35764015093446,541,4,545,,,,,,,,,,,,,168,general,True,,5,5
+llm,what is the amount of blood needed to stay alive,-1,general,general,qwen2.5:32b,113.01500606350601,510,3,513,,,,,,,,,,,,,169,general,True,,5,5
+llm,find travel alerts for haiti,service -1,general,general,qwen2.5:32b,133.7423538789153,507,4,511,,,,,,,,,,,,,170,general,True,,5,5
+llm,whats the exchange rate for us dollars to british pounds,-1,general,general,qwen2.5:32b,109.11150183528662,511,3,514,,,,,,,,,,,,,171,general,True,,5,5
+llm,can you let me know the next open slot for me to get my oil changed,-1,general,general,qwen2.5:32b,116.54553189873695,516,3,519,,,,,,,,,,,,,172,general,True,,5,5
+llm,Has someone accessed my card there are payments I did not make that are showing up on the app.,-1,general,general,qwen2.5:32b,114.89289090968668,519,3,522,,,,,,,,,,,,,173,general,True,,5,5
+llm,disconnect from wifi immediately please,-1,general,general,qwen2.5:32b,108.21232781745493,505,3,508,,,,,,,,,,,,,174,general,True,,5,5
+llm,is the movie avatar culturally insensitive,service -1,general,general,qwen2.5:32b,131.907322909683,506,4,510,,,,,,,,,,,,,175,general,True,,5,5
+llm,How do I use the app if I don't have my phone with me?,service -1,general,general,qwen2.5:32b,138.98579101078212,515,4,519,,,,,,,,,,,,,176,general,True,,5,5
+llm,what's the french word you use for potato,service -1,general,general,qwen2.5:32b,133.28988594003022,509,4,513,,,,,,,,,,,,,177,general,True,,5,5
+llm,say again please,service -1,general,general,qwen2.5:32b,122.43058392778039,503,4,507,,,,,,,,,,,,,178,general,True,,5,5
+llm,i want to start talking to you in swedish,service -1,general,general,qwen2.5:32b,135.82426006905735,510,4,514,,,,,,,,,,,,,179,general,True,,5,5
+llm,what is the cheapest new car for this year,-1,general,general,qwen2.5:32b,107.146946946159,509,3,512,,,,,,,,,,,,,180,general,True,,5,5
+llm,Which fiat currencies do you support?,-1,general,general,qwen2.5:32b,110.40472495369613,506,3,509,,,,,,,,,,,,,181,general,True,,5,5
+llm,how much vacation time do i have,service -1,general,general,qwen2.5:32b,131.62190397270024,507,4,511,,,,,,,,,,,,,182,general,True,,5,5
+llm,HOw do I get my card back after the ATM has pulled it in?,-1,general,general,qwen2.5:32b,115.59197003953159,515,3,518,,,,,,,,,,,,,183,general,True,,5,5
+llm,i would like to make a phone call,-1,general,general,qwen2.5:32b,106.54740710742772,508,3,511,,,,,,,,,,,,,184,general,True,,5,5
+llm,i would like help moving money from one account to another,-1,general,general,qwen2.5:32b,108.76056086272001,511,3,514,,,,,,,,,,,,,185,general,True,,5,5
+llm,what's your home country,service -1,general,general,qwen2.5:32b,133.9424999896437,505,4,509,,,,,,,,,,,,,186,general,True,,5,5
+llm,I wasn't applied the correct exchange rate for an item I bought,service -1,general,general,qwen2.5:32b,141.61809999495745,513,4,517,,,,,,,,,,,,,187,general,True,,5,5
+llm,restart my newspaper delivery for monday,service -1,general,general,qwen2.5:32b,134.77137591689825,506,4,510,,,,,,,,,,,,,188,general,True,,5,5
+llm,what are some of your hobbies,service -1,general,general,qwen2.5:32b,133.07890598662198,506,4,510,,,,,,,,,,,,,189,general,True,,5,5
+llm,what do i go by,service -1,general,general,qwen2.5:32b,134.44648310542107,505,4,509,,,,,,,,,,,,,190,general,True,,5,5
+llm,i appeciate it,service -1,general,general,qwen2.5:32b,134.61184687912464,505,4,509,,,,,,,,,,,,,191,general,True,,5,5
+llm,I am awaiting my refund,service -1,general,general,qwen2.5:32b,133.25461209751666,505,4,509,,,,,,,,,,,,,192,general,True,,5,5
+llm,I am experiencing difficulty providing my identity.,service -1,general,general,qwen2.5:32b,134.83062200248241,507,4,511,,,,,,,,,,,,,193,general,True,,5,5
+llm,How do I retrieve my card from the machine?,-1,general,general,qwen2.5:32b,109.30508119054139,509,3,512,,,,,,,,,,,,,194,general,True,,5,5
+llm,please read me the last text message i received,service email_sendemail,email_sendemail,email_sendemail,qwen2.5:32b,160.25232197716832,509,5,514,,,,,,,,,,,,,195,general,False,,5,5
+llm,What do you charge for physical cards?,service -1,general,general,qwen2.5:32b,133.70272517204285,507,4,511,,,,,,,,,,,,,196,general,True,,5,5
+llm,I want to know where the funds come from.,service -1,general,general,qwen2.5:32b,132.42134707979858,509,4,513,,,,,,,,,,,,,197,general,True,,5,5
+llm,Help!  I can't find my card.,service -1,general,general,qwen2.5:32b,132.49980588443577,509,4,513,,,,,,,,,,,,,198,general,True,,5,5
+llm,what are the reviews like for l'auberge aubergine,-1,general,general,qwen2.5:32b,117.40811401978135,514,3,517,,,,,,,,,,,,,199,general,True,,5,5
+llm,i would like for my phone to be synced with you,service -1,general,general,qwen2.5:32b,133.92912806011736,511,4,515,,,,,,,,,,,,,200,general,True,,5,5
+llm,what's the minimum payment,-1,general,general,qwen2.5:32b,108.11644094064832,505,3,508,,,,,,,,,,,,,201,general,True,,5,5
+llm,what time is it in california,-1,general,general,qwen2.5:32b,106.5809759311378,506,3,509,,,,,,,,,,,,,202,general,True,,5,5
+llm,is socket converter required in france,service -1,general,general,qwen2.5:32b,133.1884148530662,506,4,510,,,,,,,,,,,,,203,general,True,,5,5
+llm,"Hi, I have been overcharged for my payment last Saturday. I guess exchange rate was wrong.",service -1,general,general,qwen2.5:32b,139.67525004409254,519,4,523,,,,,,,,,,,,,204,general,True,,5,5
+llm,what name do you have for me,service -1,general,general,qwen2.5:32b,132.52720702439547,507,4,511,,,,,,,,,,,,,205,general,True,,5,5
+llm,is it okay to use butter instead of margarine,-1,general,general,qwen2.5:32b,109.59557397291064,510,3,513,,,,,,,,,,,,,206,general,True,,5,5
+llm,How can I fix a problem where my virtual card is rejected?,-1,general,general,qwen2.5:32b,113.45636495389044,512,3,515,,,,,,,,,,,,,207,general,True,,5,5
+llm,can you help me understand why my card got declined,service -1,general,general,qwen2.5:32b,135.64527104608715,510,4,514,,,,,,,,,,,,,208,general,True,,5,5
+llm,please let me know the status of my vacation request,service -1,general,general,qwen2.5:32b,133.89882794581354,510,4,514,,,,,,,,,,,,,209,general,True,,5,5

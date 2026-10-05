@@ -1,0 +1,255 @@
+routing_method,query,raw_response,predicted_label,top_candidate,model_name,latency_ms,prompt_tokens,completion_tokens,total_tokens,max_score,margin,margin_ratio,normalized_margin,mean_score,std_score,top_zscore,second_top_zscore,zscore_margin,scores,zscores,confidence_threshold,query_id,expected_service,is_correct,error,specialist_service_count,total_service_count
+llm,dictate email,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,217.12252194993198,614,5,619,,,,,,,,,,,,,0,email_sendemail,True,,7,7
+llm,reply an email to jason that i will not come tonight,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,87.39354996941984,623,5,628,,,,,,,,,,,,,1,email_sendemail,True,,7,7
+llm,please send an email to cassy who is there on my family and friend list,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,72.74045702069998,627,5,632,,,,,,,,,,,,,2,email_sendemail,True,,7,7
+llm,that last email needs to be answer a. s. a. p.,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,54.209460970014334,625,5,630,,,,,,,,,,,,,3,email_sendemail,True,,7,7
+llm,how we can get credit,service -1,general,general,llama3.1:8b,45.97461596131325,616,4,620,,,,,,,,,,,,,4,email_sendemail,False,,7,7
+llm,respond to email,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,52.251235814765096,614,5,619,,,,,,,,,,,,,5,email_sendemail,True,,7,7
+llm,write and send email to my boss,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,51.62197002209723,618,5,623,,,,,,,,,,,,,6,email_sendemail,True,,7,7
+llm,send a reply to mike with the answer four hundred and thirty from his email he sent this morning,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,52.08691395819187,630,5,635,,,,,,,,,,,,,7,email_sendemail,True,,7,7
+llm,compose an email to bob,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,51.13750207237899,616,5,621,,,,,,,,,,,,,8,email_sendemail,True,,7,7
+llm,send an email to my boss,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,52.71282605826855,617,5,622,,,,,,,,,,,,,9,email_sendemail,True,,7,7
+llm,please say to the email that sent me george i need the money now it's urgent,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,52.97440895810723,629,5,634,,,,,,,,,,,,,10,email_sendemail,True,,7,7
+llm,please load new email for bruce and send message now,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,51.161278039216995,622,5,627,,,,,,,,,,,,,11,email_sendemail,True,,7,7
+llm,can you send the email to the new email id,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,50.21646409295499,621,5,626,,,,,,,,,,,,,12,email_sendemail,True,,7,7
+llm,alexa reply to the mail with the following content hello you,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,52.85774008370936,623,5,628,,,,,,,,,,,,,13,email_sendemail,True,,7,7
+llm,send an email to john asking him what time works for the meeting,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,53.06565295904875,624,5,629,,,,,,,,,,,,,14,email_sendemail,True,,7,7
+llm,email my appointments to reschedule,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,53.06891608051956,617,5,622,,,,,,,,,,,,,15,email_sendemail,True,,7,7
+llm,send an email to this contact,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,51.314724842086434,617,5,622,,,,,,,,,,,,,16,email_sendemail,True,,7,7
+llm,i want to send an email to my family do you help me,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,53.71437803842127,624,5,629,,,,,,,,,,,,,17,email_sendemail,True,,7,7
+llm,send an email to juanpedro at gmail dot com,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,52.094785030931234,623,5,628,,,,,,,,,,,,,18,email_sendemail,True,,7,7
+llm,alexa start email,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,51.75490491092205,615,5,620,,,,,,,,,,,,,19,email_sendemail,True,,7,7
+llm,reply to last received email,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,50.71570910513401,616,5,621,,,,,,,,,,,,,20,email_sendemail,True,,7,7
+llm,hey reply a mail which i received,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,50.488414941355586,618,5,623,,,,,,,,,,,,,21,email_sendemail,True,,7,7
+llm,hey olly turn off the light please,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,70.43217495083809,619,8,627,,,,,,,,,,,,,22,iot_hue_lightoff,True,,7,7
+llm,put the lights off now,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,70.93147491104901,616,8,624,,,,,,,,,,,,,23,iot_hue_lightoff,True,,7,7
+llm,switch off the lights,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,70.1772179454565,615,8,623,,,,,,,,,,,,,24,iot_hue_lightoff,True,,7,7
+llm,turn the lights off,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,71.36707683093846,615,8,623,,,,,,,,,,,,,25,iot_hue_lightoff,True,,7,7
+llm,turn off the bathroom lights,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,70.6588460598141,616,8,624,,,,,,,,,,,,,26,iot_hue_lightoff,True,,7,7
+llm,turn off the shed light,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,70.92781085520983,616,8,624,,,,,,,,,,,,,27,iot_hue_lightoff,True,,7,7
+llm,turn down the lights to medium,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,71.1042732000351,617,8,625,,,,,,,,,,,,,28,iot_hue_lightoff,True,,7,7
+llm,turn off the dining room,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,71.03440701030195,616,8,624,,,,,,,,,,,,,29,iot_hue_lightoff,True,,7,7
+llm,turn off the porch light,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,69.64527908712626,616,8,624,,,,,,,,,,,,,30,iot_hue_lightoff,True,,7,7
+llm,turn off kitchen light,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,69.90936514921486,615,8,623,,,,,,,,,,,,,31,iot_hue_lightoff,True,,7,7
+llm,siri please turn the lights off in the bathroom,iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,57.06109898164868,621,6,627,,,,,,,,,,,,,32,iot_hue_lightoff,True,,7,7
+llm,turn off the lamps,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,71.07837591320276,615,8,623,,,,,,,,,,,,,33,iot_hue_lightoff,True,,7,7
+llm,shut off lights,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,70.6004670355469,615,8,623,,,,,,,,,,,,,34,iot_hue_lightoff,True,,7,7
+llm,shut the lights off,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,70.83715894259512,616,8,624,,,,,,,,,,,,,35,iot_hue_lightoff,True,,7,7
+llm,did i leave the light on in the garage,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,69.87324799410999,620,8,628,,,,,,,,,,,,,36,iot_hue_lightoff,True,,7,7
+llm,please turn off the light of my son's room,iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,57.32916994020343,621,6,627,,,,,,,,,,,,,37,iot_hue_lightoff,True,,7,7
+llm,no lights in the kitchen,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,69.66899707913399,616,8,624,,,,,,,,,,,,,38,iot_hue_lightoff,True,,7,7
+llm,turn the kitchen lights off,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,69.46973013691604,616,8,624,,,,,,,,,,,,,39,iot_hue_lightoff,True,,7,7
+llm,cease operating lights,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,70.61955099925399,615,8,623,,,,,,,,,,,,,40,iot_hue_lightoff,True,,7,7
+llm,switch off the master's bedroom,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,71.27475296147168,617,8,625,,,,,,,,,,,,,41,iot_hue_lightoff,True,,7,7
+llm,i'm going to sleep now,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,70.73198887519538,617,8,625,,,,,,,,,,,,,42,iot_hue_lightoff,True,,7,7
+llm,turn off overhead light,iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,56.49480503052473,615,6,621,,,,,,,,,,,,,43,iot_hue_lightoff,True,,7,7
+llm,what song is playing right now,music_query,music_query,music_query,llama3.1:8b,40.18049594014883,617,3,620,,,,,,,,,,,,,44,music_query,True,,7,7
+llm,title of song,music_query,music_query,music_query,llama3.1:8b,36.63773415610194,614,3,617,,,,,,,,,,,,,45,music_query,True,,7,7
+llm,which film the music comes from what is the name of the music,service music_query,music_query,music_query,llama3.1:8b,47.39567684009671,624,4,628,,,,,,,,,,,,,46,music_query,True,,7,7
+llm,title,music_query,music_query,music_query,llama3.1:8b,36.818471970036626,612,3,615,,,,,,,,,,,,,47,music_query,True,,7,7
+llm,what music is currently playing on,service music_query,music_query,music_query,llama3.1:8b,44.84612797386944,617,4,621,,,,,,,,,,,,,48,music_query,True,,7,7
+llm,song info,service music_query,music_query,music_query,llama3.1:8b,42.11602499708533,613,4,617,,,,,,,,,,,,,49,music_query,True,,7,7
+llm,which song is this one,music_query,music_query,music_query,llama3.1:8b,37.729613948613405,616,3,619,,,,,,,,,,,,,50,music_query,True,,7,7
+llm,what artist is this,music_query,music_query,music_query,llama3.1:8b,36.98038007132709,615,3,618,,,,,,,,,,,,,51,music_query,True,,7,7
+llm,what year did this song come out,service music_query,music_query,music_query,llama3.1:8b,43.47374499775469,618,4,622,,,,,,,,,,,,,52,music_query,True,,7,7
+llm,who sings the song about a long black train,music_query,music_query,music_query,llama3.1:8b,38.85320294648409,620,3,623,,,,,,,,,,,,,53,music_query,True,,7,7
+llm,identify song,music_query,music_query,music_query,llama3.1:8b,35.4680058080703,613,3,616,,,,,,,,,,,,,54,music_query,True,,7,7
+llm,who is this on the radio,music_query,music_query,music_query,llama3.1:8b,37.11583511903882,617,3,620,,,,,,,,,,,,,55,music_query,True,,7,7
+llm,find out what song this is and tell me the name,service music_query,music_query,music_query,llama3.1:8b,43.57309313490987,622,4,626,,,,,,,,,,,,,56,music_query,True,,7,7
+llm,who is the music director of this song,music_query,music_query,music_query,llama3.1:8b,37.09817188791931,619,3,622,,,,,,,,,,,,,57,music_query,True,,7,7
+llm,current song playing what is it,music_query,music_query,music_query,llama3.1:8b,37.063546013087034,617,3,620,,,,,,,,,,,,,58,music_query,True,,7,7
+llm,who wrote this song,music_query,music_query,music_query,llama3.1:8b,36.587391048669815,615,3,618,,,,,,,,,,,,,59,music_query,True,,7,7
+llm,who is the singer of song,music_query,music_query,music_query,llama3.1:8b,36.39411996118724,617,3,620,,,,,,,,,,,,,60,music_query,True,,7,7
+llm,what's on the radio right now,music_query,music_query,music_query,llama3.1:8b,35.05164198577404,618,3,621,,,,,,,,,,,,,61,music_query,True,,7,7
+llm,what is the music playing right now,music_query,music_query,music_query,llama3.1:8b,36.48419305682182,618,3,621,,,,,,,,,,,,,62,music_query,True,,7,7
+llm,what are lady gagas most popular songs,music_query,music_query,music_query,llama3.1:8b,36.18341404944658,619,3,622,,,,,,,,,,,,,63,music_query,True,,7,7
+llm,who is the singer of hotel california,music_query,music_query,music_query,llama3.1:8b,35.37641488946974,618,3,621,,,,,,,,,,,,,64,music_query,True,,7,7
+llm,hey olly please tell me the name of this song that is currently playing,music_query,music_query,music_query,llama3.1:8b,37.06658002920449,626,3,629,,,,,,,,,,,,,65,music_query,True,,7,7
+llm,could you please give me up to date news headlines from my newest provider,news_query,news_query,news_query,llama3.1:8b,37.055434891954064,625,3,628,,,,,,,,,,,,,66,news_query,True,,7,7
+llm,i want to see the news,news_query,news_query,news_query,llama3.1:8b,36.78104002028704,617,3,620,,,,,,,,,,,,,67,news_query,True,,7,7
+llm,keep me informed about bitcoin price,news_query,news_query,news_query,llama3.1:8b,36.618154030293226,617,3,620,,,,,,,,,,,,,68,news_query,True,,7,7
+llm,keep me up to date with today's n. b. a. scores,news_query,news_query,news_query,llama3.1:8b,37.07305295392871,626,3,629,,,,,,,,,,,,,69,news_query,True,,7,7
+llm,get me match highlights,service music_query,music_query,music_query,llama3.1:8b,43.17951109260321,615,4,619,,,,,,,,,,,,,70,news_query,False,,7,7
+llm,set environmental news notification,news_query,news_query,news_query,llama3.1:8b,37.068868055939674,615,3,618,,,,,,,,,,,,,71,news_query,True,,7,7
+llm,b. b. c. world headlines,service news_query,news_query,news_query,llama3.1:8b,44.76543189957738,619,4,623,,,,,,,,,,,,,72,news_query,True,,7,7
+llm,show latest news,service news_query,news_query,news_query,llama3.1:8b,41.67078691534698,614,4,618,,,,,,,,,,,,,73,news_query,True,,7,7
+llm,fast me the news of academy awards,news_query,news_query,news_query,llama3.1:8b,37.044513039290905,618,3,621,,,,,,,,,,,,,74,news_query,True,,7,7
+llm,what's happening around the world,news_query,news_query,news_query,llama3.1:8b,36.397796822711825,617,3,620,,,,,,,,,,,,,75,news_query,True,,7,7
+llm,what do we have on new york time's front page,news_query,news_query,news_query,llama3.1:8b,36.538306856527925,622,3,625,,,,,,,,,,,,,76,news_query,True,,7,7
+llm,give me news from c. n. n.,news_query,news_query,news_query,llama3.1:8b,36.2699250690639,620,3,623,,,,,,,,,,,,,77,news_query,True,,7,7
+llm,latest news from the area,news_query,news_query,news_query,llama3.1:8b,36.174718057736754,616,3,619,,,,,,,,,,,,,78,news_query,True,,7,7
+llm,is there any new information regarding the mexican american border wall,news_query,news_query,news_query,llama3.1:8b,37.44951100088656,623,3,626,,,,,,,,,,,,,79,news_query,True,,7,7
+llm,what are the news stories on the c. n. n. website,service news_query,news_query,news_query,llama3.1:8b,43.40087482705712,625,4,629,,,,,,,,,,,,,80,news_query,True,,7,7
+llm,c. n. n. headlines,service news_query,news_query,news_query,llama3.1:8b,42.783656157553196,618,4,622,,,,,,,,,,,,,81,news_query,True,,7,7
+llm,i want to hear the last news from c. n. n.,service news_query,news_query,news_query,llama3.1:8b,43.89370186254382,624,4,628,,,,,,,,,,,,,82,news_query,True,,7,7
+llm,get hourly notification on sports news,news_query,news_query,news_query,llama3.1:8b,37.18580515123904,617,3,620,,,,,,,,,,,,,83,news_query,True,,7,7
+llm,what's the latest news on c. n. n.,news_query,news_query,news_query,llama3.1:8b,37.53503505140543,622,3,625,,,,,,,,,,,,,84,news_query,True,,7,7
+llm,give me the latest political headlines across the world,news_query,news_query,news_query,llama3.1:8b,37.404787028208375,620,3,623,,,,,,,,,,,,,85,news_query,True,,7,7
+llm,what's the latest news,news_query,news_query,news_query,llama3.1:8b,36.50910290889442,616,3,619,,,,,,,,,,,,,86,news_query,True,,7,7
+llm,what are the trending articles on the new york times,news_query,news_query,news_query,llama3.1:8b,35.84519191645086,621,3,624,,,,,,,,,,,,,87,news_query,True,,7,7
+llm,what are some restaurants near me,service recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,42.69222100265324,617,4,621,,,,,,,,,,,,,88,recommendation_locations,True,,7,7
+llm,where is a theater in my area,service recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,43.88518584892154,618,4,622,,,,,,,,,,,,,89,recommendation_locations,True,,7,7
+llm,where is a walking trail near me,service recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,43.73770207166672,618,4,622,,,,,,,,,,,,,90,recommendation_locations,True,,7,7
+llm,where is a good wine bar near me,recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,44.80703687295318,619,4,623,,,,,,,,,,,,,91,recommendation_locations,True,,7,7
+llm,what shops are round here,service recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,44.39143603667617,616,4,620,,,,,,,,,,,,,92,recommendation_locations,True,,7,7
+llm,i would like to know the best rating pubs in the local area,service recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,44.98900193721056,624,4,628,,,,,,,,,,,,,93,recommendation_locations,True,,7,7
+llm,what shops are near me,service recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,44.11421995609999,616,4,620,,,,,,,,,,,,,94,recommendation_locations,True,,7,7
+llm,what shops are within ten miles,recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,40.8225660212338,617,4,621,,,,,,,,,,,,,95,recommendation_locations,True,,7,7
+llm,olly i'm looking for a bar do you know a good one,recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,44.11220317706466,624,4,628,,,,,,,,,,,,,96,recommendation_locations,True,,7,7
+llm,where is the pharmacy in leavenworth,recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,43.03123406134546,619,4,623,,,,,,,,,,,,,97,recommendation_locations,True,,7,7
+llm,i want to know what supermarket near me has the best price on gluten free bread,recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,44.009699020534754,627,4,631,,,,,,,,,,,,,98,recommendation_locations,True,,7,7
+llm,search for local shops,service recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,44.75377011112869,615,4,619,,,,,,,,,,,,,99,recommendation_locations,True,,7,7
+llm,what is the nearest pizza shop,service recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,43.07878506369889,617,4,621,,,,,,,,,,,,,100,recommendation_locations,True,,7,7
+llm,where's the closest zoo to where i'm at,service recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,42.45642805472016,621,4,625,,,,,,,,,,,,,101,recommendation_locations,True,,7,7
+llm,tell me what clothing stores are within five miles of me,recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,43.10731100849807,622,4,626,,,,,,,,,,,,,102,recommendation_locations,True,,7,7
+llm,olly i'm looking for some dress shows can you find clothing stores within one mile,recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,43.802394066005945,627,4,631,,,,,,,,,,,,,103,recommendation_locations,True,,7,7
+llm,give the list of theaters in the vicinity,recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,42.801884934306145,619,4,623,,,,,,,,,,,,,104,recommendation_locations,True,,7,7
+llm,show me reviews of my nearest location food court,recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,42.50154597684741,620,4,624,,,,,,,,,,,,,105,recommendation_locations,True,,7,7
+llm,are there any good pizza places around here,recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,42.259684996679425,619,4,623,,,,,,,,,,,,,106,recommendation_locations,True,,7,7
+llm,tell me what shops are nearby,service recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,41.98868712410331,617,4,621,,,,,,,,,,,,,107,recommendation_locations,True,,7,7
+llm,locate me the amazon restaurants,service recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,41.81066295132041,616,4,620,,,,,,,,,,,,,108,recommendation_locations,True,,7,7
+llm,look for shopping mall in sacramento for women's clothes,recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,42.02520404942334,622,4,626,,,,,,,,,,,,,109,recommendation_locations,True,,7,7
+llm,order pizza for delivery,takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,42.30078007094562,615,4,619,,,,,,,,,,,,,110,takeaway_order,True,,7,7
+llm,i need to order some food from papa john's,service takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,42.07449499517679,622,4,626,,,,,,,,,,,,,111,takeaway_order,True,,7,7
+llm,order a takeaway,takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,40.50089907832444,614,4,618,,,,,,,,,,,,,112,takeaway_order,True,,7,7
+llm,noodles one pack make it as takeaway,takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,42.12073190137744,619,4,623,,,,,,,,,,,,,113,takeaway_order,True,,7,7
+llm,i want to order a pizza from michael's pizza,service takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,42.071476113051176,621,4,625,,,,,,,,,,,,,114,takeaway_order,True,,7,7
+llm,make an order for noodles one pack make it as takeaway order,takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,43.6621499247849,623,4,627,,,,,,,,,,,,,115,takeaway_order,True,,7,7
+llm,i want to eat some spicy thing,recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,42.44748502969742,618,4,622,,,,,,,,,,,,,116,takeaway_order,False,,7,7
+llm,i want to order chinese take-out,takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,41.629600804299116,618,4,622,,,,,,,,,,,,,117,takeaway_order,True,,7,7
+llm,it's time for junk food,service takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,43.429608223959804,617,4,621,,,,,,,,,,,,,118,takeaway_order,True,,7,7
+llm,open the folder app please,service -1,general,general,llama3.1:8b,42.155588045716286,616,4,620,,,,,,,,,,,,,119,takeaway_order,False,,7,7
+llm,hey order two wings with french fries from the chinese food store,service takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,43.424016097560525,623,4,627,,,,,,,,,,,,,120,takeaway_order,True,,7,7
+llm,find food and order,service takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,41.94133309647441,615,4,619,,,,,,,,,,,,,121,takeaway_order,True,,7,7
+llm,order a twelve piece honey mustard wing combo with seasonimg altnon the fries and a sprite as the drink,takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,45.76374311000109,633,4,637,,,,,,,,,,,,,122,takeaway_order,True,,7,7
+llm,could you order sushi for tonight dinner,takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,42.220707051455975,618,4,622,,,,,,,,,,,,,123,takeaway_order,True,,7,7
+llm,i feel like having soup for lunch order from wangs kitchen restaurant a chicken manchow soup,service takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,44.15788291953504,630,4,634,,,,,,,,,,,,,124,takeaway_order,True,,7,7
+llm,order one pizza from pizza hut,takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,42.07037482410669,617,4,621,,,,,,,,,,,,,125,takeaway_order,True,,7,7
+llm,call the nearest thai restaurant with delivery,takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,41.9103919994086,618,4,622,,,,,,,,,,,,,126,takeaway_order,True,,7,7
+llm,can i order take out from licari's,service takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,43.12236001715064,620,4,624,,,,,,,,,,,,,127,takeaway_order,True,,7,7
+llm,i want two burgers and one coke order it fast,service takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,42.168408865109086,621,4,625,,,,,,,,,,,,,128,takeaway_order,True,,7,7
+llm,order a pizza with sausage from domino's,service takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,42.873917147517204,620,4,624,,,,,,,,,,,,,129,takeaway_order,True,,7,7
+llm,can you please order some food for me,takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,42.37801511771977,619,4,623,,,,,,,,,,,,,130,takeaway_order,True,,7,7
+llm,call for take-out,service takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,42.393676936626434,615,4,619,,,,,,,,,,,,,131,takeaway_order,True,,7,7
+llm,can you book an uber after i left for office,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,48.70516899973154,621,5,626,,,,,,,,,,,,,132,transport_taxi,True,,7,7
+llm,please book me a taxi uber,transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,41.824128944426775,617,4,621,,,,,,,,,,,,,133,transport_taxi,True,,7,7
+llm,call city cab to airport,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,48.26445993967354,616,5,621,,,,,,,,,,,,,134,transport_taxi,True,,7,7
+llm,uber me to the airport,transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,42.68963891081512,616,4,620,,,,,,,,,,,,,135,transport_taxi,True,,7,7
+llm,reserve the closest uber,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,66.10206607729197,615,5,620,,,,,,,,,,,,,136,transport_taxi,True,,7,7
+llm,schedule taxi pickup for monday at noon,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,48.60008298419416,618,5,623,,,,,,,,,,,,,137,transport_taxi,True,,7,7
+llm,call me a taxi olly,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,49.12167880684137,617,5,622,,,,,,,,,,,,,138,transport_taxi,True,,7,7
+llm,book an uber to pick me up now,transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,43.018948985263705,619,4,623,,,,,,,,,,,,,139,transport_taxi,True,,7,7
+llm,book me a taxi to leith in half an hour,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,48.78362803719938,622,5,627,,,,,,,,,,,,,140,transport_taxi,True,,7,7
+llm,find a taxi to book,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,48.72656986117363,616,5,621,,,,,,,,,,,,,141,transport_taxi,True,,7,7
+llm,call an uberpool to get me at long island bar,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,48.854999942705035,622,5,627,,,,,,,,,,,,,142,transport_taxi,True,,7,7
+llm,please reserve the next taxi a nine am,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,48.642353154718876,619,5,624,,,,,,,,,,,,,143,transport_taxi,True,,7,7
+llm,get me a uber,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,49.030565191060305,615,5,620,,,,,,,,,,,,,144,transport_taxi,True,,7,7
+llm,can you book an uber for me,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,49.75445009768009,618,5,623,,,,,,,,,,,,,145,transport_taxi,True,,7,7
+llm,book a taxi to go to the movies at one,transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,42.85319894552231,621,4,625,,,,,,,,,,,,,146,transport_taxi,True,,7,7
+llm,get city cab here to airport,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,48.874749103561044,617,5,622,,,,,,,,,,,,,147,transport_taxi,True,,7,7
+llm,book me a cab going to location,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,49.26191200502217,618,5,623,,,,,,,,,,,,,148,transport_taxi,True,,7,7
+llm,call taxi,transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,40.73319397866726,613,4,617,,,,,,,,,,,,,149,transport_taxi,True,,7,7
+llm,i need a ride home,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,48.60013094730675,616,5,621,,,,,,,,,,,,,150,transport_taxi,True,,7,7
+llm,olly find the nearest uber,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,48.60105598345399,616,5,621,,,,,,,,,,,,,151,transport_taxi,True,,7,7
+llm,can you book an uber tomorrow,transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,42.18061291612685,617,4,621,,,,,,,,,,,,,152,transport_taxi,True,,7,7
+llm,book a cab to office for me,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,48.64604910835624,618,5,623,,,,,,,,,,,,,153,transport_taxi,True,,7,7
+llm,don't call me bill anymore - call me bob,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,49.59279182367027,621,5,626,,,,,,,,,,,,,154,general,False,,7,7
+llm,how much has microsoft's stock changed over the last year,news_query,news_query,news_query,llama3.1:8b,36.65726212784648,622,3,625,,,,,,,,,,,,,155,general,False,,7,7
+llm,what is my card's apr rate,service music_query,music_query,music_query,llama3.1:8b,42.15739597566426,618,4,622,,,,,,,,,,,,,156,general,False,,7,7
+llm,My top-up has been cancelled.,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,48.18620905280113,617,5,622,,,,,,,,,,,,,157,general,False,,7,7
+llm,Can I change the amount I made on a payment that I made to the payment is correct.,service -1,general,general,llama3.1:8b,44.11557409912348,629,4,633,,,,,,,,,,,,,158,general,True,,7,7
+llm,Where are cards delivered to?,service takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,42.77476202696562,616,4,620,,,,,,,,,,,,,159,general,False,,7,7
+llm,Can I change my information?,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,48.50057186558843,616,5,621,,,,,,,,,,,,,160,general,False,,7,7
+llm,my capital one visa was taken without permission,email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,42.03946981579065,619,4,623,,,,,,,,,,,,,161,general,False,,7,7
+llm,Can I add money with Apple Pay?,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,47.95784596353769,618,5,623,,,,,,,,,,,,,162,general,False,,7,7
+llm,How do I link this new card?,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,49.51332486234605,618,5,623,,,,,,,,,,,,,163,general,False,,7,7
+llm,"I am traveling to Germany, Will I be able to use my card there?",service news_query,news_query,news_query,llama3.1:8b,44.17187604121864,626,4,630,,,,,,,,,,,,,164,general,False,,7,7
+llm,"If I feel someone has my card information, can I get a new card?",service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,50.34259194508195,626,5,631,,,,,,,,,,,,,165,general,False,,7,7
+llm,where were you thought of,service music_query,music_query,music_query,llama3.1:8b,41.95007402449846,616,4,620,,,,,,,,,,,,,166,general,False,,7,7
+llm,Are there any fees for adding money with an international card?,transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,42.00921906158328,622,4,626,,,,,,,,,,,,,167,general,False,,7,7
+llm,what is the weather,-1,general,general,llama3.1:8b,35.111141158267856,615,3,618,,,,,,,,,,,,,168,general,True,,7,7
+llm,Why did I have to pay extra because I paid with card?,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,49.601563019678,623,5,628,,,,,,,,,,,,,169,general,False,,7,7
+llm,create emergency phone numbers list,email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,42.077681981027126,616,4,620,,,,,,,,,,,,,170,general,False,,7,7
+llm,switch over to low power mode to preserve battery life,iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,54.895654087886214,621,6,627,,,,,,,,,,,,,171,general,False,,7,7
+llm,How do I get my top-up verification code?,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,49.65871595777571,620,5,625,,,,,,,,,,,,,172,general,False,,7,7
+llm,How long will it take to arrive?,transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,42.771124048158526,618,4,622,,,,,,,,,,,,,173,general,False,,7,7
+llm,find my current location,service recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,42.29768202640116,615,4,619,,,,,,,,,,,,,174,general,False,,7,7
+llm,can i call you arnold instead,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,48.68348594754934,619,5,624,,,,,,,,,,,,,175,general,False,,7,7
+llm,What type of ATMs accept this card?,-1,general,general,llama3.1:8b,35.51370510831475,619,3,622,,,,,,,,,,,,,176,general,True,,7,7
+llm,The balance on my account wasn't updated after I made a depost.,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,49.42189413122833,625,5,630,,,,,,,,,,,,,177,general,False,,7,7
+llm,where do i report that my card was lost,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,49.26163610070944,620,5,625,,,,,,,,,,,,,178,general,False,,7,7
+llm,"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,43.66487287916243,630,4,634,,,,,,,,,,,,,179,general,False,,7,7
+llm,What will I be charged for a physical card?,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,48.847905127331614,620,5,625,,,,,,,,,,,,,180,general,False,,7,7
+llm,tell me what this song is called,music_query,music_query,music_query,llama3.1:8b,36.481337854638696,618,3,621,,,,,,,,,,,,,181,general,False,,7,7
+llm,I lost my phone!,service -1,general,general,llama3.1:8b,43.58870489522815,615,4,619,,,,,,,,,,,,,182,general,True,,7,7
+llm,what is the weather doing now,news_query,news_query,news_query,llama3.1:8b,36.075446056202054,617,3,620,,,,,,,,,,,,,183,general,False,,7,7
+llm,"$1 extra has been charged on my statement, why is that?",service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,50.418409053236246,623,5,628,,,,,,,,,,,,,184,general,False,,7,7
+llm,The exchange rates are?,service news_query,news_query,news_query,llama3.1:8b,42.688018875196576,615,4,619,,,,,,,,,,,,,185,general,False,,7,7
+llm,play the next song please,music_query,music_query,music_query,llama3.1:8b,36.504668183624744,616,3,619,,,,,,,,,,,,,186,general,False,,7,7
+llm,"Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but ""Pending"", and that status has never changed during the last two days.",service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,59.7051209770143,663,5,668,,,,,,,,,,,,,187,general,False,,7,7
+llm,what shows are on tonight,news_query,news_query,news_query,llama3.1:8b,36.11371689476073,616,3,619,,,,,,,,,,,,,188,general,False,,7,7
+llm,How can I fix a problem where contactless isn't working?,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,49.803755013272166,623,5,628,,,,,,,,,,,,,189,general,False,,7,7
+llm,what's the number of vacation days i have left,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,48.640508903190494,621,5,626,,,,,,,,,,,,,190,general,False,,7,7
+llm,what's on my list of things to remember,email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,43.37919410318136,620,4,624,,,,,,,,,,,,,191,general,False,,7,7
+llm,"I want to add money but don't know what currencies you accept, can you tell me?",service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,51.262452034279704,629,5,634,,,,,,,,,,,,,192,general,False,,7,7
+llm,What fiat currencies are supported for holding and exchange?,service music_query,music_query,music_query,llama3.1:8b,42.91372909210622,620,4,624,,,,,,,,,,,,,193,general,False,,7,7
+llm,I'm unable to use contactless payments for purchases.,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,48.41171414591372,621,5,626,,,,,,,,,,,,,194,general,False,,7,7
+llm,I couldn't get cash at the atm,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,49.0326180588454,619,5,624,,,,,,,,,,,,,195,general,False,,7,7
+llm,Will it automatically top-up money if there isn't a lot left?,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,50.73397886008024,624,5,629,,,,,,,,,,,,,196,general,False,,7,7
+llm,i would like to change the name on my first bankcard account,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,50.631708931177855,624,5,629,,,,,,,,,,,,,197,general,False,,7,7
+llm,places i can use the card,service recommendation_locations,recommendation_locations,recommendation_locations,llama3.1:8b,43.24369388632476,617,4,621,,,,,,,,,,,,,198,general,False,,7,7
+llm,I would like to know why I was charged twice for my purchase.,email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,43.58393186703324,624,4,628,,,,,,,,,,,,,199,general,False,,7,7
+llm,what is the expiration month of my card,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,50.56804418563843,619,5,624,,,,,,,,,,,,,200,general,False,,7,7
+llm,"I sent out money, but was charged extra for transferring. Why?",service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,50.29925284907222,624,5,629,,,,,,,,,,,,,201,general,False,,7,7
+llm,when do i get my next paycheck,service -1,general,general,llama3.1:8b,42.79619501903653,618,4,622,,,,,,,,,,,,,202,general,True,,7,7
+llm,Where do my funds come from?,service -1,general,general,llama3.1:8b,42.18677710741758,617,4,621,,,,,,,,,,,,,203,general,True,,7,7
+llm,How would I use my money in a different country?,service news_query,news_query,news_query,llama3.1:8b,42.16512409038842,621,4,625,,,,,,,,,,,,,204,general,False,,7,7
+llm,"I just activated auto top-up, but it is not letting me enable it. Why not?",service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,50.54985708557069,629,5,634,,,,,,,,,,,,,205,general,False,,7,7
+llm,Is there an age minimum?,service music_query,music_query,music_query,llama3.1:8b,42.41275484673679,616,4,620,,,,,,,,,,,,,206,general,False,,7,7
+llm,"My top up hasn't worked, it's been stuck in pending for the last couple hours",email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,43.59991196542978,629,4,633,,,,,,,,,,,,,207,general,False,,7,7
+llm,"I see my top-up was canceled, but why?",email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,42.193894973024726,621,4,625,,,,,,,,,,,,,208,general,False,,7,7
+llm,help me to transfer my 401k,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,49.63385500013828,619,5,624,,,,,,,,,,,,,209,general,False,,7,7
+llm,I took out a foreign currency and the exchange rate is wrong.,service news_query,news_query,news_query,llama3.1:8b,44.124117121100426,623,4,627,,,,,,,,,,,,,210,general,False,,7,7
+llm,can i redeem my points by transferring them to someone as a gift,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,49.73680502735078,624,5,629,,,,,,,,,,,,,211,general,False,,7,7
+llm,I understand that this is extremely late. After going over my transactions for the last couple of months I noticed a large charge that I'm sure I did not make. Is there anyway I can still dispute this?,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,57.31200403533876,652,5,657,,,,,,,,,,,,,212,general,False,,7,7
+llm,what is the amount of blood needed to stay alive,service -1,general,general,llama3.1:8b,42.37408097833395,621,4,625,,,,,,,,,,,,,213,general,True,,7,7
+llm,find travel alerts for haiti,service news_query,news_query,news_query,llama3.1:8b,42.20531997270882,618,4,622,,,,,,,,,,,,,214,general,False,,7,7
+llm,whats the exchange rate for us dollars to british pounds,news_query,news_query,news_query,llama3.1:8b,35.571783082559705,622,3,625,,,,,,,,,,,,,215,general,False,,7,7
+llm,can you let me know the next open slot for me to get my oil changed,service takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,43.17749012261629,627,4,631,,,,,,,,,,,,,216,general,False,,7,7
+llm,Has someone accessed my card there are payments I did not make that are showing up on the app.,email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,44.22715282998979,630,4,634,,,,,,,,,,,,,217,general,False,,7,7
+llm,disconnect from wifi immediately please,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,67.70655093714595,616,8,624,,,,,,,,,,,,,218,general,False,,7,7
+llm,is the movie avatar culturally insensitive,service music_query,music_query,music_query,llama3.1:8b,42.55668306723237,617,4,621,,,,,,,,,,,,,219,general,False,,7,7
+llm,How do I use the app if I don't have my phone with me?,service transport_taxi,transport_taxi,transport_taxi,llama3.1:8b,50.14369008131325,626,5,631,,,,,,,,,,,,,220,general,False,,7,7
+llm,what's the french word you use for potato,music_query,music_query,music_query,llama3.1:8b,35.97153793089092,620,3,623,,,,,,,,,,,,,221,general,False,,7,7
+llm,say again please,-1,general,general,llama3.1:8b,34.18499999679625,614,3,617,,,,,,,,,,,,,222,general,True,,7,7
+llm,i want to start talking to you in swedish,service -1,general,general,llama3.1:8b,42.17901802621782,621,4,625,,,,,,,,,,,,,223,general,True,,7,7
+llm,what is the cheapest new car for this year,news_query,news_query,news_query,llama3.1:8b,35.54824320599437,620,3,623,,,,,,,,,,,,,224,general,False,,7,7
+llm,Which fiat currencies do you support?,service -1,general,general,llama3.1:8b,42.38669387996197,617,4,621,,,,,,,,,,,,,225,general,True,,7,7
+llm,how much vacation time do i have,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,50.21338979713619,618,5,623,,,,,,,,,,,,,226,general,False,,7,7
+llm,HOw do I get my card back after the ATM has pulled it in?,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,50.033247796818614,626,5,631,,,,,,,,,,,,,227,general,False,,7,7
+llm,i would like to make a phone call,service -1,general,general,llama3.1:8b,42.357716942206025,619,4,623,,,,,,,,,,,,,228,general,True,,7,7
+llm,i would like help moving money from one account to another,service -1,general,general,llama3.1:8b,42.85602807067335,622,4,626,,,,,,,,,,,,,229,general,True,,7,7
+llm,what's your home country,service news_query,news_query,news_query,llama3.1:8b,42.39076189696789,616,4,620,,,,,,,,,,,,,230,general,False,,7,7
+llm,I wasn't applied the correct exchange rate for an item I bought,service news_query,news_query,news_query,llama3.1:8b,43.72913111001253,624,4,628,,,,,,,,,,,,,231,general,False,,7,7
+llm,restart my newspaper delivery for monday,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,48.15219598822296,617,5,622,,,,,,,,,,,,,232,general,False,,7,7
+llm,what are some of your hobbies,music_query,music_query,music_query,llama3.1:8b,35.45651491731405,617,3,620,,,,,,,,,,,,,233,general,False,,7,7
+llm,what do i go by,service music_query,music_query,music_query,llama3.1:8b,41.65401915088296,616,4,620,,,,,,,,,,,,,234,general,False,,7,7
+llm,i appeciate it,music_query,music_query,music_query,llama3.1:8b,38.225695956498384,616,3,619,,,,,,,,,,,,,235,general,False,,7,7
+llm,I am awaiting my refund,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,49.70895801670849,616,5,621,,,,,,,,,,,,,236,general,False,,7,7
+llm,I am experiencing difficulty providing my identity.,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,49.65514107607305,618,5,623,,,,,,,,,,,,,237,general,False,,7,7
+llm,How do I retrieve my card from the machine?,service takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,42.51142288558185,620,4,624,,,,,,,,,,,,,238,general,False,,7,7
+llm,please read me the last text message i received,service -1,general,general,llama3.1:8b,42.380463099107146,620,4,624,,,,,,,,,,,,,239,general,True,,7,7
+llm,What do you charge for physical cards?,service takeaway_order,takeaway_order,takeaway_order,llama3.1:8b,41.52747290208936,618,4,622,,,,,,,,,,,,,240,general,False,,7,7
+llm,I want to know where the funds come from.,news_query,news_query,news_query,llama3.1:8b,35.0544978864491,620,3,623,,,,,,,,,,,,,241,general,False,,7,7
+llm,Help!  I can't find my card.,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,48.298284877091646,620,5,625,,,,,,,,,,,,,242,general,False,,7,7
+llm,what are the reviews like for l'auberge aubergine,service music_query,music_query,music_query,llama3.1:8b,46.03624204173684,625,4,629,,,,,,,,,,,,,243,general,False,,7,7
+llm,i would like for my phone to be synced with you,email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,42.23628994077444,622,4,626,,,,,,,,,,,,,244,general,False,,7,7
+llm,what's the minimum payment,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,48.1818129774183,616,5,621,,,,,,,,,,,,,245,general,False,,7,7
+llm,what time is it in california,news_query,news_query,news_query,llama3.1:8b,36.992140812799335,617,3,620,,,,,,,,,,,,,246,general,False,,7,7
+llm,is socket converter required in france,service iot_hue_lightoff,iot_hue_lightoff,iot_hue_lightoff,llama3.1:8b,69.36574704013765,617,8,625,,,,,,,,,,,,,247,general,False,,7,7
+llm,"Hi, I have been overcharged for my payment last Saturday. I guess exchange rate was wrong.",service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,52.461384097114205,630,5,635,,,,,,,,,,,,,248,general,False,,7,7
+llm,what name do you have for me,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,49.41795184276998,618,5,623,,,,,,,,,,,,,249,general,False,,7,7
+llm,is it okay to use butter instead of margarine,music_query,music_query,music_query,llama3.1:8b,36.27924504689872,621,3,624,,,,,,,,,,,,,250,general,False,,7,7
+llm,How can I fix a problem where my virtual card is rejected?,service -1,general,general,llama3.1:8b,44.25279190763831,623,4,627,,,,,,,,,,,,,251,general,True,,7,7
+llm,can you help me understand why my card got declined,email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,42.41159092634916,621,4,625,,,,,,,,,,,,,252,general,False,,7,7
+llm,please let me know the status of my vacation request,service email_sendemail,email_sendemail,email_sendemail,llama3.1:8b,48.69741317816079,621,5,626,,,,,,,,,,,,,253,general,False,,7,7
