@@ -1,0 +1,199 @@
+question,subject,expected_service
+set an alarm for six thirty am,alarm_set,alarm_set
+add an alarm for tomorrow morning at six am,alarm_set,alarm_set
+wake me up at five am,alarm_set,alarm_set
+wake me up in thirty minutes,alarm_set,alarm_set
+set alarm for eight am,alarm_set,alarm_set
+make an alarm for the meeting with bob at seven today,alarm_set,alarm_set
+get me up at eight am,alarm_set,alarm_set
+olly set alarm for reminder,alarm_set,alarm_set
+new alarm for six am,alarm_set,alarm_set
+turn my morning alarm on,alarm_set,alarm_set
+turn on an alarm for three thirty p. m. today,alarm_set,alarm_set
+get me up in half an hour,alarm_set,alarm_set
+i need an alarm set for five hundred and thirty am tomorrow,alarm_set,alarm_set
+set alarm at six thirty am,alarm_set,alarm_set
+set a new alarm for that time,alarm_set,alarm_set
+i need you to get me up at six am,alarm_set,alarm_set
+please set my alarm for five p. m.,alarm_set,alarm_set
+ensure i have to get up at six in morning,alarm_set,alarm_set
+alarm ten am,alarm_set,alarm_set
+wake me up at five am this week,alarm_set,alarm_set
+set my alarm for twelve p. m.,alarm_set,alarm_set
+set my alarm for seven am,alarm_set,alarm_set
+what ingredient can be used instead of saffron,cooking_recipe,cooking_recipe
+how is lasagne made,cooking_recipe,cooking_recipe
+do you know how to cook risotto,cooking_recipe,cooking_recipe
+do you know recipe for risotto,cooking_recipe,cooking_recipe
+tell me the recipe of,cooking_recipe,cooking_recipe
+find a recipe for dinner tonight,cooking_recipe,cooking_recipe
+how is rice prepared,cooking_recipe,cooking_recipe
+instructions to make a meal,cooking_recipe,cooking_recipe
+i need good ideas for cooking,cooking_recipe,cooking_recipe
+i need to know how to make stuffed peppers,cooking_recipe,cooking_recipe
+how long should i cook a steak to be medium,cooking_recipe,cooking_recipe
+how do i make a pizza,cooking_recipe,cooking_recipe
+how long does it take to make vegetable lasagna,cooking_recipe,cooking_recipe
+please search the internet and display the suitable youtube videos for cooking italian foods,cooking_recipe,cooking_recipe
+i need a recipe of veg pulav,cooking_recipe,cooking_recipe
+give me a cooking tutorial,cooking_recipe,cooking_recipe
+list of famous biryani recipes,cooking_recipe,cooking_recipe
+how long do i cook maccoroni,cooking_recipe,cooking_recipe
+how many eggs do i need for an omelet,cooking_recipe,cooking_recipe
+is soft cheese better than hard,cooking_recipe,cooking_recipe
+thanksgiving turkey cooking procedure in five sentences is what,cooking_recipe,cooking_recipe
+can i get a recipe for tuna,cooking_recipe,cooking_recipe
+reply this mail,email_sendemail,email_sendemail
+reply email,email_sendemail,email_sendemail
+send an email to grandma saying we are dropping by on saturday see you then,email_sendemail,email_sendemail
+compose email,email_sendemail,email_sendemail
+send this email to reply to the latest emails,email_sendemail,email_sendemail
+write an email for john at gmail dot com,email_sendemail,email_sendemail
+email alice to let her know we are on the way,email_sendemail,email_sendemail
+send a reply to the last email,email_sendemail,email_sendemail
+write a reply to my mother's email,email_sendemail,email_sendemail
+write an email to my family saying i love you all,email_sendemail,email_sendemail
+can you send an email to,email_sendemail,email_sendemail
+send an email to my brother and say wedding anniversary,email_sendemail,email_sendemail
+please sent this email to my friend,email_sendemail,email_sendemail
+how its come to us,email_sendemail,email_sendemail
+respond to my bosses email with the word that i will be in at four in the evening,email_sendemail,email_sendemail
+add a new email for julie smith,email_sendemail,email_sendemail
+send email to joseph at gmail dot com,email_sendemail,email_sendemail
+send an email to john asking him what time works for the meeting,email_sendemail,email_sendemail
+send mom an email now,email_sendemail,email_sendemail
+send a reply to mike with the answer four hundred and thirty from his email he sent this morning,email_sendemail,email_sendemail
+send an email to rohit saying i am busy tomorrow,email_sendemail,email_sendemail
+send email to new contact,email_sendemail,email_sendemail
+switch off the master's bedroom,iot_hue_lightoff,iot_hue_lightoff
+i'm going to sleep now,iot_hue_lightoff,iot_hue_lightoff
+olly turn the light off in the living room,iot_hue_lightoff,iot_hue_lightoff
+shut off lights,iot_hue_lightoff,iot_hue_lightoff
+turn off room lights,iot_hue_lightoff,iot_hue_lightoff
+can you make the lights go out,iot_hue_lightoff,iot_hue_lightoff
+siri please turn the lights off in the bathroom,iot_hue_lightoff,iot_hue_lightoff
+turn off the dining room,iot_hue_lightoff,iot_hue_lightoff
+switch off the lights,iot_hue_lightoff,iot_hue_lightoff
+turn down the lights to medium,iot_hue_lightoff,iot_hue_lightoff
+turn off the bathroom lights,iot_hue_lightoff,iot_hue_lightoff
+turn off overhead light,iot_hue_lightoff,iot_hue_lightoff
+put the lights off now,iot_hue_lightoff,iot_hue_lightoff
+turn off all lights,iot_hue_lightoff,iot_hue_lightoff
+turn office lights off,iot_hue_lightoff,iot_hue_lightoff
+turn the kitchen lights off,iot_hue_lightoff,iot_hue_lightoff
+please turn off the light of my son's room,iot_hue_lightoff,iot_hue_lightoff
+turn off bedroom light at nine thirty p. m.,iot_hue_lightoff,iot_hue_lightoff
+turn off porch light,iot_hue_lightoff,iot_hue_lightoff
+turn my bedroom lights off,iot_hue_lightoff,iot_hue_lightoff
+make the lights off,iot_hue_lightoff,iot_hue_lightoff
+turn off the shed light,iot_hue_lightoff,iot_hue_lightoff
+find out what song this is and tell me the name,music_query,music_query
+bring me the title of current music,music_query,music_query
+song title,music_query,music_query
+which type of music it is,music_query,music_query
+do you know the name of the song that is playing,music_query,music_query
+is the song by shakira,music_query,music_query
+what music is currently playing on,music_query,music_query
+what would you call this kind of music that we're listening to,music_query,music_query
+which song is this one,music_query,music_query
+title of song,music_query,music_query
+who is the singer of hotel california,music_query,music_query
+i want to know about this song,music_query,music_query
+what song is on the radio,music_query,music_query
+what year did this song come out,music_query,music_query
+what are lady gagas most popular songs,music_query,music_query
+which film the music comes from what is the name of the music,music_query,music_query
+what artist is this,music_query,music_query
+who is this on the radio,music_query,music_query
+is this song ed sheeran,music_query,music_query
+hey olly please tell me the name of this song that is currently playing,music_query,music_query
+explanation of the song,music_query,music_query
+title,music_query,music_query
+anything interesting from bob's news,news_query,news_query
+let me know when you hear about france,news_query,news_query
+hot topic,news_query,news_query
+what is currently breaking news,news_query,news_query
+what is the exchange rate of us dollar to pound sterling,news_query,news_query
+i want to see the news,news_query,news_query
+what's the latest news from xinhua,news_query,news_query
+c. n. n. headlines,news_query,news_query
+find information on today's stocks,news_query,news_query
+what happened on the walking dead,news_query,news_query
+give me the latest political headlines across the world,news_query,news_query
+i want to hear the latest world news from today,news_query,news_query
+what are the latest crime statistics for me area,news_query,news_query
+what are the headlines on c. n. n.,news_query,news_query
+what are the top stories on c. n. n.,news_query,news_query
+what's the latest news from c. n. n. please,news_query,news_query
+what's sensational in time of india,news_query,news_query
+what is new news for today,news_query,news_query
+set notification from world news,news_query,news_query
+is there any news about the presidency,news_query,news_query
+show latest news,news_query,news_query
+will trump visit russia anytime soon,news_query,news_query
+where's the closest zoo to where i'm at,recommendation_locations,recommendation_locations
+where is a walking trail near me,recommendation_locations,recommendation_locations
+olly i'm looking for a bar do you know a good one,recommendation_locations,recommendation_locations
+where is the pharmacy in leavenworth,recommendation_locations,recommendation_locations
+what are some restaurants near me,recommendation_locations,recommendation_locations
+where is a good wine bar near me,recommendation_locations,recommendation_locations
+are there any good pizza places around here,recommendation_locations,recommendation_locations
+i need to find a gift what stores are within a one mile radius,recommendation_locations,recommendation_locations
+i would like to know the best rating pubs in the local area,recommendation_locations,recommendation_locations
+what shops are near me,recommendation_locations,recommendation_locations
+where is the nearest gas station,recommendation_locations,recommendation_locations
+show me reviews of my nearest location food court,recommendation_locations,recommendation_locations
+olly please list the best clothing shops near me,recommendation_locations,recommendation_locations
+locate me the amazon restaurants,recommendation_locations,recommendation_locations
+look for shopping mall in sacramento for women's clothes,recommendation_locations,recommendation_locations
+please look up local restaurants that are open now,recommendation_locations,recommendation_locations
+give the list of theaters in the vicinity,recommendation_locations,recommendation_locations
+search for local shops,recommendation_locations,recommendation_locations
+where is a theater in my area,recommendation_locations,recommendation_locations
+tell me some best tourist places to visit in america,recommendation_locations,recommendation_locations
+which bar has the most affordable drinks near sixth street,recommendation_locations,recommendation_locations
+what shops are round here,recommendation_locations,recommendation_locations
+order a pizza with sausage from domino's,takeaway_order,takeaway_order
+order one pizza from pizza hut,takeaway_order,takeaway_order
+order a takeaway,takeaway_order,takeaway_order
+i want two burgers and one coke order it fast,takeaway_order,takeaway_order
+can i order take out from licari's,takeaway_order,takeaway_order
+hey order two wings with french fries from the chinese food store,takeaway_order,takeaway_order
+i feel like having soup for lunch order from wangs kitchen restaurant a chicken manchow soup,takeaway_order,takeaway_order
+i want to eat some spicy thing,takeaway_order,takeaway_order
+i want to order a pizza from michael's pizza,takeaway_order,takeaway_order
+make an order for noodles one pack make it as takeaway order,takeaway_order,takeaway_order
+noodles one pack make it as takeaway,takeaway_order,takeaway_order
+order pizza for delivery,takeaway_order,takeaway_order
+open the folder app please,takeaway_order,takeaway_order
+order a twelve piece honey mustard wing combo with seasonimg altnon the fries and a sprite as the drink,takeaway_order,takeaway_order
+can you please order some food for me,takeaway_order,takeaway_order
+could you order sushi for tonight dinner,takeaway_order,takeaway_order
+it's time for junk food,takeaway_order,takeaway_order
+i need to order some food from papa john's,takeaway_order,takeaway_order
+call for take-out,takeaway_order,takeaway_order
+call the nearest thai restaurant with delivery,takeaway_order,takeaway_order
+find food and order,takeaway_order,takeaway_order
+i want to order chinese take-out,takeaway_order,takeaway_order
+please book me a taxi uber,transport_taxi,transport_taxi
+get city cab here to airport,transport_taxi,transport_taxi
+schedule taxi pickup for monday at noon,transport_taxi,transport_taxi
+get me a uber,transport_taxi,transport_taxi
+call me a taxi olly,transport_taxi,transport_taxi
+can you book an uber tomorrow,transport_taxi,transport_taxi
+find a taxi to book,transport_taxi,transport_taxi
+call an uberpool to get me at long island bar,transport_taxi,transport_taxi
+i need a ride home,transport_taxi,transport_taxi
+book me a cab going to location,transport_taxi,transport_taxi
+call taxi,transport_taxi,transport_taxi
+book an uber to pick me up now,transport_taxi,transport_taxi
+book a taxi to go to the movies at one,transport_taxi,transport_taxi
+olly find the nearest uber,transport_taxi,transport_taxi
+reserve the closest uber,transport_taxi,transport_taxi
+uber me to the airport,transport_taxi,transport_taxi
+please reserve the next taxi a nine am,transport_taxi,transport_taxi
+book me a taxi to leith in half an hour,transport_taxi,transport_taxi
+call yellow cab,transport_taxi,transport_taxi
+can you book an uber for me,transport_taxi,transport_taxi
+can you book an uber after i left for office,transport_taxi,transport_taxi
+call city cab to airport,transport_taxi,transport_taxi

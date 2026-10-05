@@ -1,0 +1,40 @@
+[LOAD] ../data/MASSIVE/descriptions/general_concepts_extraction.json: 9 subjects
+[LOAD] ../data/MASSIVE/descriptions/core_concepts.json: 9 subjects
+
+[1/9] Generating specialist description: transport_taxi
+[SPECIALIST] Generating description: transport_taxi
+[SPECIALIST] transport_taxi: 34 words
+
+[2/9] Generating specialist description: iot_hue_lightoff
+[SPECIALIST] Generating description: iot_hue_lightoff
+[SPECIALIST] iot_hue_lightoff: 39 words
+
+[3/9] Generating specialist description: music_query
+[SPECIALIST] Generating description: music_query
+[SPECIALIST] music_query: 39 words
+
+[4/9] Generating specialist description: email_sendemail
+[SPECIALIST] Generating description: email_sendemail
+[SPECIALIST] email_sendemail: 38 words
+
+[5/9] Generating specialist description: takeaway_order
+[SPECIALIST] Generating description: takeaway_order
+[SPECIALIST] takeaway_order: 31 words
+
+[6/9] Generating specialist description: news_query
+[SPECIALIST] Generating description: news_query
+[SPECIALIST] news_query: 38 words
+
+[7/9] Generating specialist description: recommendation_locations
+[SPECIALIST] Generating description: recommendation_locations
+[SPECIALIST] recommendation_locations: 44 words
+
+[8/9] Generating specialist description: alarm_set
+[SPECIALIST] Generating description: alarm_set
+[SPECIALIST] alarm_set: 36 words
+
+[9/9] Generating specialist description: cooking_recipe
+[SPECIALIST] Generating description: cooking_recipe
+[SPECIALIST] cooking_recipe: 40 words
+
+[DONE] Saved specialist descriptions to ../data/MASSIVE/descriptions/service_descriptions.json

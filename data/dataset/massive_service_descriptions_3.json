@@ -1,0 +1,5 @@
+{
+  "transport_taxi": "Taxi transportation service enables booking, calling, or requesting taxis, specifying pickup locations and destinations, setting pickup times including future bookings, finding nearest taxis, retrieving taxi numbers, and opening taxi apps for seamless ride arrangements.",
+  "iot_hue_lightoff": "Smart-home lighting control manages turning off, switching off, and powering down lights in rooms and specific areas like bedrooms, closets, bathrooms, and hallways. It handles lamps, overhead fixtures, and adjusts lighting based on ambient brightness thresholds.",
+  "music_query": "Music information service identifies song details (title, artist, producer, release year), provides lyrics and playlists, repeats songs, identifies radio tracks, and traces riff origins. It also covers band names, lead singers, current songs, and new iTunes releases, supporting comprehensive music-related queries."
+}

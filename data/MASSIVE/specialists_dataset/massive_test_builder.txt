@@ -1,0 +1,176 @@
+[1] Full dataset loaded: (2974, 5)
+[1] Number of subjects: 59
+[1] Subjects:
+['alarm_query', 'alarm_remove', 'alarm_set', 'audio_volume_down', 'audio_volume_mute', 'audio_volume_other', 'audio_volume_up', 'calendar_query', 'calendar_remove', 'calendar_set', 'cooking_recipe', 'datetime_convert', 'datetime_query', 'email_addcontact', 'email_query', 'email_querycontact', 'email_sendemail', 'general_greet', 'general_joke', 'general_quirky', 'iot_cleaning', 'iot_coffee', 'iot_hue_lightchange', 'iot_hue_lightdim', 'iot_hue_lightoff', 'iot_hue_lighton', 'iot_hue_lightup', 'iot_wemo_off', 'iot_wemo_on', 'lists_createoradd', 'lists_query', 'lists_remove', 'music_dislikeness', 'music_likeness', 'music_query', 'music_settings', 'news_query', 'play_audiobook', 'play_game', 'play_music', 'play_podcasts', 'play_radio', 'qa_currency', 'qa_definition', 'qa_factoid', 'qa_maths', 'qa_stock', 'recommendation_events', 'recommendation_locations', 'recommendation_movies', 'social_post', 'social_query', 'takeaway_order', 'takeaway_query', 'transport_query', 'transport_taxi', 'transport_ticket', 'transport_traffic', 'weather_query']
+
+============================================================
+BUILDING MEDMCQA TEST DATASET
+SPLIT: test
+============================================================
+[2] Selected subjects:
+['transport_taxi', 'iot_hue_lightoff', 'music_query']
+[2] Filtered dataset shape: (101, 5)
+[2] Subject counts:
+label
+transport_taxi      23
+iot_hue_lightoff    43
+music_query         35
+Name: count, dtype: int64
+[3] Expected service counts:
+expected_service
+iot_hue_lightoff    43
+music_query         35
+transport_taxi      23
+Name: count, dtype: int64
+
+[4] Sampling specialist subjects...
+[4] Sampled specialist subject counts:
+label
+iot_hue_lightoff    22
+music_query         22
+transport_taxi      22
+Name: count, dtype: int64
+
+[5] Saved: ../specialists_dataset/test_service_3.csv
+[5] Saved: ../specialists_dataset/test_service_3.json
+
+[DONE] test_service_3
+[DONE] Total rows: 66
+
+============================================================
+BUILDING MEDMCQA TEST DATASET
+SPLIT: test
+============================================================
+[2] Selected subjects:
+['transport_taxi', 'iot_hue_lightoff', 'music_query', 'email_sendemail', 'takeaway_order']
+[2] Filtered dataset shape: (237, 5)
+[2] Subject counts:
+label
+transport_taxi       23
+iot_hue_lightoff     43
+music_query          35
+email_sendemail     114
+takeaway_order       22
+Name: count, dtype: int64
+[3] Expected service counts:
+expected_service
+email_sendemail     114
+iot_hue_lightoff     43
+music_query          35
+transport_taxi       23
+takeaway_order       22
+Name: count, dtype: int64
+
+[4] Sampling specialist subjects...
+[4] Sampled specialist subject counts:
+label
+email_sendemail     22
+iot_hue_lightoff    22
+music_query         22
+takeaway_order      22
+transport_taxi      22
+Name: count, dtype: int64
+
+[5] Saved: ../specialists_dataset/test_service_5.csv
+[5] Saved: ../specialists_dataset/test_service_5.json
+
+[DONE] test_service_5
+[DONE] Total rows: 110
+
+============================================================
+BUILDING MEDMCQA TEST DATASET
+SPLIT: test
+============================================================
+[2] Selected subjects:
+['transport_taxi', 'iot_hue_lightoff', 'music_query', 'email_sendemail', 'takeaway_order', 'news_query', 'recommendation_locations']
+[2] Filtered dataset shape: (392, 5)
+[2] Subject counts:
+label
+transport_taxi               23
+iot_hue_lightoff             43
+music_query                  35
+email_sendemail             114
+takeaway_order               22
+news_query                  124
+recommendation_locations     31
+Name: count, dtype: int64
+[3] Expected service counts:
+expected_service
+news_query                  124
+email_sendemail             114
+iot_hue_lightoff             43
+music_query                  35
+recommendation_locations     31
+transport_taxi               23
+takeaway_order               22
+Name: count, dtype: int64
+
+[4] Sampling specialist subjects...
+[4] Sampled specialist subject counts:
+label
+email_sendemail             22
+iot_hue_lightoff            22
+music_query                 22
+news_query                  22
+recommendation_locations    22
+takeaway_order              22
+transport_taxi              22
+Name: count, dtype: int64
+
+[5] Saved: ../specialists_dataset/test_service_7.csv
+[5] Saved: ../specialists_dataset/test_service_7.json
+
+[DONE] test_service_7
+[DONE] Total rows: 154
+
+============================================================
+BUILDING MEDMCQA TEST DATASET
+SPLIT: test
+============================================================
+[2] Selected subjects:
+['transport_taxi', 'iot_hue_lightoff', 'music_query', 'email_sendemail', 'takeaway_order', 'news_query', 'recommendation_locations', 'alarm_set', 'cooking_recipe']
+[2] Filtered dataset shape: (505, 5)
+[2] Subject counts:
+label
+transport_taxi               23
+iot_hue_lightoff             43
+music_query                  35
+email_sendemail             114
+takeaway_order               22
+news_query                  124
+recommendation_locations     31
+alarm_set                    41
+cooking_recipe               72
+Name: count, dtype: int64
+[3] Expected service counts:
+expected_service
+news_query                  124
+email_sendemail             114
+cooking_recipe               72
+iot_hue_lightoff             43
+alarm_set                    41
+music_query                  35
+recommendation_locations     31
+transport_taxi               23
+takeaway_order               22
+Name: count, dtype: int64
+
+[4] Sampling specialist subjects...
+[4] Sampled specialist subject counts:
+label
+alarm_set                   22
+cooking_recipe              22
+email_sendemail             22
+iot_hue_lightoff            22
+music_query                 22
+news_query                  22
+recommendation_locations    22
+takeaway_order              22
+transport_taxi              22
+Name: count, dtype: int64
+
+[5] Saved: ../specialists_dataset/test_service_9.csv
+[5] Saved: ../specialists_dataset/test_service_9.json
+
+[DONE] test_service_9
+[DONE] Total rows: 198

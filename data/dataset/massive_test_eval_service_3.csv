@@ -1,0 +1,167 @@
+question,subject,expected_service
+siri please turn the lights off in the bathroom,iot_hue_lightoff,iot_hue_lightoff
+turn my bedroom lights off,iot_hue_lightoff,iot_hue_lightoff
+no lights in the kitchen,iot_hue_lightoff,iot_hue_lightoff
+olly turn the light off in the living room,iot_hue_lightoff,iot_hue_lightoff
+cease operating lights,iot_hue_lightoff,iot_hue_lightoff
+hey olly turn off the light please,iot_hue_lightoff,iot_hue_lightoff
+turn off room lights,iot_hue_lightoff,iot_hue_lightoff
+turn off the dining room,iot_hue_lightoff,iot_hue_lightoff
+could you turn the light off,iot_hue_lightoff,iot_hue_lightoff
+turn off the bathroom lights,iot_hue_lightoff,iot_hue_lightoff
+please turn lights off,iot_hue_lightoff,iot_hue_lightoff
+please turn off the lights in patio,iot_hue_lightoff,iot_hue_lightoff
+turn off overhead light,iot_hue_lightoff,iot_hue_lightoff
+shut the lights off,iot_hue_lightoff,iot_hue_lightoff
+turn off the shed light,iot_hue_lightoff,iot_hue_lightoff
+switch off the master's bedroom,iot_hue_lightoff,iot_hue_lightoff
+did i leave the light on in the garage,iot_hue_lightoff,iot_hue_lightoff
+turn off kitchen light,iot_hue_lightoff,iot_hue_lightoff
+please turn off the light of my son's room,iot_hue_lightoff,iot_hue_lightoff
+put the lights off now,iot_hue_lightoff,iot_hue_lightoff
+turn the kitchen lights off,iot_hue_lightoff,iot_hue_lightoff
+turn down the lights to medium,iot_hue_lightoff,iot_hue_lightoff
+who is the singer of song,music_query,music_query
+is this song ed sheeran,music_query,music_query
+identify song,music_query,music_query
+what's on the radio right now,music_query,music_query
+who is the music director of this song,music_query,music_query
+which type of music it is,music_query,music_query
+what music is currently playing on,music_query,music_query
+what is the music playing right now,music_query,music_query
+what kind of music do you think i like,music_query,music_query
+bring me the title of current music,music_query,music_query
+what would you call this kind of music that we're listening to,music_query,music_query
+hey olly please tell me the name of this song that is currently playing,music_query,music_query
+song info,music_query,music_query
+who is this on the radio,music_query,music_query
+who sings the song that i am listening to right now,music_query,music_query
+is the song by shakira,music_query,music_query
+what are lady gagas most popular songs,music_query,music_query
+who wrote this song,music_query,music_query
+what artist is this,music_query,music_query
+who sings the song about a long black train,music_query,music_query
+find out what song this is and tell me the name,music_query,music_query
+title,music_query,music_query
+call taxi,transport_taxi,transport_taxi
+please reserve the next taxi a nine am,transport_taxi,transport_taxi
+can you book an uber tomorrow,transport_taxi,transport_taxi
+get city cab here to airport,transport_taxi,transport_taxi
+book me a taxi to leith in half an hour,transport_taxi,transport_taxi
+find a taxi to book,transport_taxi,transport_taxi
+book a taxi to go to the movies at one,transport_taxi,transport_taxi
+book an uber to pick me up now,transport_taxi,transport_taxi
+get me a uber,transport_taxi,transport_taxi
+call me a taxi olly,transport_taxi,transport_taxi
+call yellow cab,transport_taxi,transport_taxi
+schedule taxi pickup for monday at noon,transport_taxi,transport_taxi
+reserve the closest uber,transport_taxi,transport_taxi
+can you book an uber for me,transport_taxi,transport_taxi
+uber me to the airport,transport_taxi,transport_taxi
+call city cab to airport,transport_taxi,transport_taxi
+call an uberpool to get me at long island bar,transport_taxi,transport_taxi
+book a cab to office for me,transport_taxi,transport_taxi
+olly find the nearest uber,transport_taxi,transport_taxi
+book me a cab going to location,transport_taxi,transport_taxi
+please book me a taxi uber,transport_taxi,transport_taxi
+i need a ride home,transport_taxi,transport_taxi
+Do you accept other currencies besides US Dollars?,banking77,general
+Do you know the closest ATM?,banking77,general
+"Please, activate my card",banking77,general
+My top-up has been cancelled.,banking77,general
+Can I change the amount I made on a payment that I made to the payment is correct.,banking77,general
+Where are cards delivered to?,banking77,general
+Can I change my information?,banking77,general
+I need my card quickly,banking77,general
+Can I add money with Apple Pay?,banking77,general
+How do I link this new card?,banking77,general
+"I am traveling to Germany, Will I be able to use my card there?",banking77,general
+"If I feel someone has my card information, can I get a new card?",banking77,general
+What is the base amount for cross-currency exchanges?,banking77,general
+Are there any fees for adding money with an international card?,banking77,general
+I tried to withdraw money but I was declined!,banking77,general
+Why did I have to pay extra because I paid with card?,banking77,general
+There's a refund missing from my statement,banking77,general
+Where are the locations of ATMs that accept this card?,banking77,general
+How do I get my top-up verification code?,banking77,general
+How long will it take to arrive?,banking77,general
+What is the limit to disposable cards you can have?,banking77,general
+What is the process for using my credit card to transfer money?,banking77,general
+What type of ATMs accept this card?,banking77,general
+The balance on my account wasn't updated after I made a depost.,banking77,general
+What do I need to do to transfer my paycheck to my account?,banking77,general
+"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",banking77,general
+What will I be charged for a physical card?,banking77,general
+"I noticed an extra $1 charge on my statement, can you tell me why that is?",banking77,general
+I lost my phone!,banking77,general
+How do I link a card that I already have?,banking77,general
+"$1 extra has been charged on my statement, why is that?",banking77,general
+The exchange rates are?,banking77,general
+I want to change my personal details.,banking77,general
+"Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but ""Pending"", and that status has never changed during the last two days.",banking77,general
+Where do you support?,banking77,general
+How can I fix a problem where contactless isn't working?,banking77,general
+can you tell me what cards and currencies you take?,banking77,general
+Why was I charged multiple times for the same thing?,banking77,general
+"I want to add money but don't know what currencies you accept, can you tell me?",banking77,general
+What fiat currencies are supported for holding and exchange?,banking77,general
+I'm unable to use contactless payments for purchases.,banking77,general
+I couldn't get cash at the atm,banking77,general
+Will it automatically top-up money if there isn't a lot left?,banking77,general
+I made a transaction this morning and would like to revert it.,banking77,general
+places i can use the card,banking77,general
+I would like to know why I was charged twice for my purchase.,banking77,general
+How can I speed up a transfer?  Mine is pending.,banking77,general
+"I sent out money, but was charged extra for transferring. Why?",banking77,general
+Are you able to explain the restrictions of the disposable cards?,banking77,general
+Where do my funds come from?,banking77,general
+How would I use my money in a different country?,banking77,general
+"I just activated auto top-up, but it is not letting me enable it. Why not?",banking77,general
+Is there an age minimum?,banking77,general
+"My top up hasn't worked, it's been stuck in pending for the last couple hours",banking77,general
+"I see my top-up was canceled, but why?",banking77,general
+"When considering currency holdings and exchanges, what fiat currencies are supported?",banking77,general
+I took out a foreign currency and the exchange rate is wrong.,banking77,general
+How can I process a refund for something I purchased?,banking77,general
+I understand that this is extremely late. After going over my transactions for the last couple of months I noticed a large charge that I'm sure I did not make. Is there anyway I can still dispute this?,banking77,general
+Why did I only get $20 when I tried to get $100,banking77,general
+Can I link an existing card?,banking77,general
+How do I do an international transfer?,banking77,general
+What kind of currency can I hold money in?,banking77,general
+Has someone accessed my card there are payments I did not make that are showing up on the app.,banking77,general
+I have been charged twice,banking77,general
+"I was out today looking forward to pay with my new card, turns out the payment just kept getting declined. This is really sad, what's going on?",banking77,general
+How do I use the app if I don't have my phone with me?,banking77,general
+I would like to make a transfer. How much does it cost?,banking77,general
+I purchased an item and the exchange rate I was given was incorrect.,banking77,general
+Why was I chaged twice for the same thing?,banking77,general
+Why hasn't my transfer been made?,banking77,general
+Which fiat currencies do you support?,banking77,general
+I bought an item and noticed the exchange rate was not correct.,banking77,general
+HOw do I get my card back after the ATM has pulled it in?,banking77,general
+"When I submit a transfer, it is being declined.  The information I put in has been reviewed.",banking77,general
+What is the activation process on my new card?,banking77,general
+Can you tell me if my pop-up went through?,banking77,general
+I wasn't applied the correct exchange rate for an item I bought,banking77,general
+Is PIN delivered separately?,banking77,general
+Is there a way to transfer funds directly from my card?,banking77,general
+How do I make an exchange from one currency to another?,banking77,general
+I am seeing in the App a some cash withdrawal that its not mine,banking77,general
+I am awaiting my refund,banking77,general
+I am experiencing difficulty providing my identity.,banking77,general
+How do I retrieve my card from the machine?,banking77,general
+What extra charges are there?,banking77,general
+What do you charge for physical cards?,banking77,general
+I want to know where the funds come from.,banking77,general
+Help!  I can't find my card.,banking77,general
+The app reverted what I topped up.,banking77,general
+I have exceeded the number of times I can try my PIN,banking77,general
+They declined my card payment.,banking77,general
+What is the best way to exchange currency between USD and GBP using your app?,banking77,general
+I had a duplicate card and got charged twice. How do I resolve this?,banking77,general
+"Hi, I have been overcharged for my payment last Saturday. I guess exchange rate was wrong.",banking77,general
+How can I top up with Google Pay?,banking77,general
+How many days does it take until funds are in my account?,banking77,general
+How can I fix a problem where my virtual card is rejected?,banking77,general
+"I thought cash withdrawals were free? Why have I been charged a fee? Also, how much is this fee?",banking77,general
+Top up on my Google Pay isn't working.,banking77,general

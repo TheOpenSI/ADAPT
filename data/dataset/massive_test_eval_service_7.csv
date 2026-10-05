@@ -1,0 +1,255 @@
+question,subject,expected_service
+dictate email,email_sendemail,email_sendemail
+reply an email to jason that i will not come tonight,email_sendemail,email_sendemail
+please send an email to cassy who is there on my family and friend list,email_sendemail,email_sendemail
+that last email needs to be answer a. s. a. p.,email_sendemail,email_sendemail
+how we can get credit,email_sendemail,email_sendemail
+respond to email,email_sendemail,email_sendemail
+write and send email to my boss,email_sendemail,email_sendemail
+send a reply to mike with the answer four hundred and thirty from his email he sent this morning,email_sendemail,email_sendemail
+compose an email to bob,email_sendemail,email_sendemail
+send an email to my boss,email_sendemail,email_sendemail
+please say to the email that sent me george i need the money now it's urgent,email_sendemail,email_sendemail
+please load new email for bruce and send message now,email_sendemail,email_sendemail
+can you send the email to the new email id,email_sendemail,email_sendemail
+alexa reply to the mail with the following content hello you,email_sendemail,email_sendemail
+send an email to john asking him what time works for the meeting,email_sendemail,email_sendemail
+email my appointments to reschedule,email_sendemail,email_sendemail
+send an email to this contact,email_sendemail,email_sendemail
+i want to send an email to my family do you help me,email_sendemail,email_sendemail
+send an email to juanpedro at gmail dot com,email_sendemail,email_sendemail
+alexa start email,email_sendemail,email_sendemail
+reply to last received email,email_sendemail,email_sendemail
+hey reply a mail which i received,email_sendemail,email_sendemail
+hey olly turn off the light please,iot_hue_lightoff,iot_hue_lightoff
+put the lights off now,iot_hue_lightoff,iot_hue_lightoff
+switch off the lights,iot_hue_lightoff,iot_hue_lightoff
+turn the lights off,iot_hue_lightoff,iot_hue_lightoff
+turn off the bathroom lights,iot_hue_lightoff,iot_hue_lightoff
+turn off the shed light,iot_hue_lightoff,iot_hue_lightoff
+turn down the lights to medium,iot_hue_lightoff,iot_hue_lightoff
+turn off the dining room,iot_hue_lightoff,iot_hue_lightoff
+turn off the porch light,iot_hue_lightoff,iot_hue_lightoff
+turn off kitchen light,iot_hue_lightoff,iot_hue_lightoff
+siri please turn the lights off in the bathroom,iot_hue_lightoff,iot_hue_lightoff
+turn off the lamps,iot_hue_lightoff,iot_hue_lightoff
+shut off lights,iot_hue_lightoff,iot_hue_lightoff
+shut the lights off,iot_hue_lightoff,iot_hue_lightoff
+did i leave the light on in the garage,iot_hue_lightoff,iot_hue_lightoff
+please turn off the light of my son's room,iot_hue_lightoff,iot_hue_lightoff
+no lights in the kitchen,iot_hue_lightoff,iot_hue_lightoff
+turn the kitchen lights off,iot_hue_lightoff,iot_hue_lightoff
+cease operating lights,iot_hue_lightoff,iot_hue_lightoff
+switch off the master's bedroom,iot_hue_lightoff,iot_hue_lightoff
+i'm going to sleep now,iot_hue_lightoff,iot_hue_lightoff
+turn off overhead light,iot_hue_lightoff,iot_hue_lightoff
+what song is playing right now,music_query,music_query
+title of song,music_query,music_query
+which film the music comes from what is the name of the music,music_query,music_query
+title,music_query,music_query
+what music is currently playing on,music_query,music_query
+song info,music_query,music_query
+which song is this one,music_query,music_query
+what artist is this,music_query,music_query
+what year did this song come out,music_query,music_query
+who sings the song about a long black train,music_query,music_query
+identify song,music_query,music_query
+who is this on the radio,music_query,music_query
+find out what song this is and tell me the name,music_query,music_query
+who is the music director of this song,music_query,music_query
+current song playing what is it,music_query,music_query
+who wrote this song,music_query,music_query
+who is the singer of song,music_query,music_query
+what's on the radio right now,music_query,music_query
+what is the music playing right now,music_query,music_query
+what are lady gagas most popular songs,music_query,music_query
+who is the singer of hotel california,music_query,music_query
+hey olly please tell me the name of this song that is currently playing,music_query,music_query
+could you please give me up to date news headlines from my newest provider,news_query,news_query
+i want to see the news,news_query,news_query
+keep me informed about bitcoin price,news_query,news_query
+keep me up to date with today's n. b. a. scores,news_query,news_query
+get me match highlights,news_query,news_query
+set environmental news notification,news_query,news_query
+b. b. c. world headlines,news_query,news_query
+show latest news,news_query,news_query
+fast me the news of academy awards,news_query,news_query
+what's happening around the world,news_query,news_query
+what do we have on new york time's front page,news_query,news_query
+give me news from c. n. n.,news_query,news_query
+latest news from the area,news_query,news_query
+is there any new information regarding the mexican american border wall,news_query,news_query
+what are the news stories on the c. n. n. website,news_query,news_query
+c. n. n. headlines,news_query,news_query
+i want to hear the last news from c. n. n.,news_query,news_query
+get hourly notification on sports news,news_query,news_query
+what's the latest news on c. n. n.,news_query,news_query
+give me the latest political headlines across the world,news_query,news_query
+what's the latest news,news_query,news_query
+what are the trending articles on the new york times,news_query,news_query
+what are some restaurants near me,recommendation_locations,recommendation_locations
+where is a theater in my area,recommendation_locations,recommendation_locations
+where is a walking trail near me,recommendation_locations,recommendation_locations
+where is a good wine bar near me,recommendation_locations,recommendation_locations
+what shops are round here,recommendation_locations,recommendation_locations
+i would like to know the best rating pubs in the local area,recommendation_locations,recommendation_locations
+what shops are near me,recommendation_locations,recommendation_locations
+what shops are within ten miles,recommendation_locations,recommendation_locations
+olly i'm looking for a bar do you know a good one,recommendation_locations,recommendation_locations
+where is the pharmacy in leavenworth,recommendation_locations,recommendation_locations
+i want to know what supermarket near me has the best price on gluten free bread,recommendation_locations,recommendation_locations
+search for local shops,recommendation_locations,recommendation_locations
+what is the nearest pizza shop,recommendation_locations,recommendation_locations
+where's the closest zoo to where i'm at,recommendation_locations,recommendation_locations
+tell me what clothing stores are within five miles of me,recommendation_locations,recommendation_locations
+olly i'm looking for some dress shows can you find clothing stores within one mile,recommendation_locations,recommendation_locations
+give the list of theaters in the vicinity,recommendation_locations,recommendation_locations
+show me reviews of my nearest location food court,recommendation_locations,recommendation_locations
+are there any good pizza places around here,recommendation_locations,recommendation_locations
+tell me what shops are nearby,recommendation_locations,recommendation_locations
+locate me the amazon restaurants,recommendation_locations,recommendation_locations
+look for shopping mall in sacramento for women's clothes,recommendation_locations,recommendation_locations
+order pizza for delivery,takeaway_order,takeaway_order
+i need to order some food from papa john's,takeaway_order,takeaway_order
+order a takeaway,takeaway_order,takeaway_order
+noodles one pack make it as takeaway,takeaway_order,takeaway_order
+i want to order a pizza from michael's pizza,takeaway_order,takeaway_order
+make an order for noodles one pack make it as takeaway order,takeaway_order,takeaway_order
+i want to eat some spicy thing,takeaway_order,takeaway_order
+i want to order chinese take-out,takeaway_order,takeaway_order
+it's time for junk food,takeaway_order,takeaway_order
+open the folder app please,takeaway_order,takeaway_order
+hey order two wings with french fries from the chinese food store,takeaway_order,takeaway_order
+find food and order,takeaway_order,takeaway_order
+order a twelve piece honey mustard wing combo with seasonimg altnon the fries and a sprite as the drink,takeaway_order,takeaway_order
+could you order sushi for tonight dinner,takeaway_order,takeaway_order
+i feel like having soup for lunch order from wangs kitchen restaurant a chicken manchow soup,takeaway_order,takeaway_order
+order one pizza from pizza hut,takeaway_order,takeaway_order
+call the nearest thai restaurant with delivery,takeaway_order,takeaway_order
+can i order take out from licari's,takeaway_order,takeaway_order
+i want two burgers and one coke order it fast,takeaway_order,takeaway_order
+order a pizza with sausage from domino's,takeaway_order,takeaway_order
+can you please order some food for me,takeaway_order,takeaway_order
+call for take-out,takeaway_order,takeaway_order
+can you book an uber after i left for office,transport_taxi,transport_taxi
+please book me a taxi uber,transport_taxi,transport_taxi
+call city cab to airport,transport_taxi,transport_taxi
+uber me to the airport,transport_taxi,transport_taxi
+reserve the closest uber,transport_taxi,transport_taxi
+schedule taxi pickup for monday at noon,transport_taxi,transport_taxi
+call me a taxi olly,transport_taxi,transport_taxi
+book an uber to pick me up now,transport_taxi,transport_taxi
+book me a taxi to leith in half an hour,transport_taxi,transport_taxi
+find a taxi to book,transport_taxi,transport_taxi
+call an uberpool to get me at long island bar,transport_taxi,transport_taxi
+please reserve the next taxi a nine am,transport_taxi,transport_taxi
+get me a uber,transport_taxi,transport_taxi
+can you book an uber for me,transport_taxi,transport_taxi
+book a taxi to go to the movies at one,transport_taxi,transport_taxi
+get city cab here to airport,transport_taxi,transport_taxi
+book me a cab going to location,transport_taxi,transport_taxi
+call taxi,transport_taxi,transport_taxi
+i need a ride home,transport_taxi,transport_taxi
+olly find the nearest uber,transport_taxi,transport_taxi
+can you book an uber tomorrow,transport_taxi,transport_taxi
+book a cab to office for me,transport_taxi,transport_taxi
+Do you accept other currencies besides US Dollars?,banking77,general
+Do you know the closest ATM?,banking77,general
+"Please, activate my card",banking77,general
+My top-up has been cancelled.,banking77,general
+Can I change the amount I made on a payment that I made to the payment is correct.,banking77,general
+Where are cards delivered to?,banking77,general
+Can I change my information?,banking77,general
+I need my card quickly,banking77,general
+Can I add money with Apple Pay?,banking77,general
+How do I link this new card?,banking77,general
+"I am traveling to Germany, Will I be able to use my card there?",banking77,general
+"If I feel someone has my card information, can I get a new card?",banking77,general
+What is the base amount for cross-currency exchanges?,banking77,general
+Are there any fees for adding money with an international card?,banking77,general
+I tried to withdraw money but I was declined!,banking77,general
+Why did I have to pay extra because I paid with card?,banking77,general
+There's a refund missing from my statement,banking77,general
+Where are the locations of ATMs that accept this card?,banking77,general
+How do I get my top-up verification code?,banking77,general
+How long will it take to arrive?,banking77,general
+What is the limit to disposable cards you can have?,banking77,general
+What is the process for using my credit card to transfer money?,banking77,general
+What type of ATMs accept this card?,banking77,general
+The balance on my account wasn't updated after I made a depost.,banking77,general
+What do I need to do to transfer my paycheck to my account?,banking77,general
+"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",banking77,general
+What will I be charged for a physical card?,banking77,general
+"I noticed an extra $1 charge on my statement, can you tell me why that is?",banking77,general
+I lost my phone!,banking77,general
+How do I link a card that I already have?,banking77,general
+"$1 extra has been charged on my statement, why is that?",banking77,general
+The exchange rates are?,banking77,general
+I want to change my personal details.,banking77,general
+"Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but ""Pending"", and that status has never changed during the last two days.",banking77,general
+Where do you support?,banking77,general
+How can I fix a problem where contactless isn't working?,banking77,general
+can you tell me what cards and currencies you take?,banking77,general
+Why was I charged multiple times for the same thing?,banking77,general
+"I want to add money but don't know what currencies you accept, can you tell me?",banking77,general
+What fiat currencies are supported for holding and exchange?,banking77,general
+I'm unable to use contactless payments for purchases.,banking77,general
+I couldn't get cash at the atm,banking77,general
+Will it automatically top-up money if there isn't a lot left?,banking77,general
+I made a transaction this morning and would like to revert it.,banking77,general
+places i can use the card,banking77,general
+I would like to know why I was charged twice for my purchase.,banking77,general
+How can I speed up a transfer?  Mine is pending.,banking77,general
+"I sent out money, but was charged extra for transferring. Why?",banking77,general
+Are you able to explain the restrictions of the disposable cards?,banking77,general
+Where do my funds come from?,banking77,general
+How would I use my money in a different country?,banking77,general
+"I just activated auto top-up, but it is not letting me enable it. Why not?",banking77,general
+Is there an age minimum?,banking77,general
+"My top up hasn't worked, it's been stuck in pending for the last couple hours",banking77,general
+"I see my top-up was canceled, but why?",banking77,general
+"When considering currency holdings and exchanges, what fiat currencies are supported?",banking77,general
+I took out a foreign currency and the exchange rate is wrong.,banking77,general
+How can I process a refund for something I purchased?,banking77,general
+I understand that this is extremely late. After going over my transactions for the last couple of months I noticed a large charge that I'm sure I did not make. Is there anyway I can still dispute this?,banking77,general
+Why did I only get $20 when I tried to get $100,banking77,general
+Can I link an existing card?,banking77,general
+How do I do an international transfer?,banking77,general
+What kind of currency can I hold money in?,banking77,general
+Has someone accessed my card there are payments I did not make that are showing up on the app.,banking77,general
+I have been charged twice,banking77,general
+"I was out today looking forward to pay with my new card, turns out the payment just kept getting declined. This is really sad, what's going on?",banking77,general
+How do I use the app if I don't have my phone with me?,banking77,general
+I would like to make a transfer. How much does it cost?,banking77,general
+I purchased an item and the exchange rate I was given was incorrect.,banking77,general
+Why was I chaged twice for the same thing?,banking77,general
+Why hasn't my transfer been made?,banking77,general
+Which fiat currencies do you support?,banking77,general
+I bought an item and noticed the exchange rate was not correct.,banking77,general
+HOw do I get my card back after the ATM has pulled it in?,banking77,general
+"When I submit a transfer, it is being declined.  The information I put in has been reviewed.",banking77,general
+What is the activation process on my new card?,banking77,general
+Can you tell me if my pop-up went through?,banking77,general
+I wasn't applied the correct exchange rate for an item I bought,banking77,general
+Is PIN delivered separately?,banking77,general
+Is there a way to transfer funds directly from my card?,banking77,general
+How do I make an exchange from one currency to another?,banking77,general
+I am seeing in the App a some cash withdrawal that its not mine,banking77,general
+I am awaiting my refund,banking77,general
+I am experiencing difficulty providing my identity.,banking77,general
+How do I retrieve my card from the machine?,banking77,general
+What extra charges are there?,banking77,general
+What do you charge for physical cards?,banking77,general
+I want to know where the funds come from.,banking77,general
+Help!  I can't find my card.,banking77,general
+The app reverted what I topped up.,banking77,general
+I have exceeded the number of times I can try my PIN,banking77,general
+They declined my card payment.,banking77,general
+What is the best way to exchange currency between USD and GBP using your app?,banking77,general
+I had a duplicate card and got charged twice. How do I resolve this?,banking77,general
+"Hi, I have been overcharged for my payment last Saturday. I guess exchange rate was wrong.",banking77,general
+How can I top up with Google Pay?,banking77,general
+How many days does it take until funds are in my account?,banking77,general
+How can I fix a problem where my virtual card is rejected?,banking77,general
+"I thought cash withdrawals were free? Why have I been charged a fee? Also, how much is this fee?",banking77,general
+Top up on my Google Pay isn't working.,banking77,general

@@ -13,8 +13,8 @@ sys.path.insert(0, project_root)
 
 import ollama
 
-from data.MedMCQA.specialists_dataset.medmcqa_config import MEDMCQA_SERVICE_SETS
-
+# from data.MedMCQA.specialists_dataset.medmcqa_config import MEDMCQA_SERVICE_SETS
+from data.MASSIVE.specialists.massive_config import MASSIVE_SERVICE_SETS
 
 class ServiceDescriptionGenerator:
 
@@ -80,8 +80,7 @@ class ServiceDescriptionGenerator:
         extracted_text = self._format_concepts(extracted_concepts)
 
         prompt = f"""
-You are constructing a semantic description for an academic specialist
-routing service.
+You are constructing a semantic description for a specialist service.
 
 SUBJECT:
 {subject}
@@ -93,31 +92,28 @@ FULL EXTRACTED CONCEPTS:
 {extracted_text}
 
 TASK:
-Create one concise semantic description of the academic knowledge covered
+Create one concise semantic description of the capabilities covered
 by this specialist service.
 
-The core concepts represent the strongest anchors of the subject.
-The full extracted concepts provide broader coverage of the knowledge
-represented by the subject.
+The core concepts represent the strongest functional capabilities of
+the service.
+The full extracted concepts provide broader coverage of user requests
+handled by the service.
 
 For the description:
-- Use the core concepts as the primary anchors.
-- Use the full extracted concepts to preserve broader subject coverage.
-- Represent multiple important areas of the subject when supported by
-  the concepts.
-- Summarize related concepts into meaningful domain areas rather than
-  listing every concept individually.
-- Begin directly with the subject name or subject-specific knowledge.
-- Avoid generic boilerplate openings such as "This domain encompasses",
-  "This service covers", or "The academic knowledge domain encompasses".
-- Prioritize domain-specific terminology over generic descriptive language.
-- Describe the academic knowledge domain rather than individual questions.
+- Use the core concepts as the primary semantic anchors.
+- Use the full extracted concepts to preserve broader capability coverage.
+- Group related actions into coherent service capabilities.
+- Begin directly with the service name or service capability.
+- Avoid generic boilerplate openings.
+- Describe what information, actions, or requests the service handles.
+- Focus on functional scope rather than implementation details.
 - Use only information supported by the supplied concepts.
-- Do not introduce unsupported topics.
-- Do not mention validation questions, concept extraction, routing
-  experiments, or benchmarking.
-- Do not use procedural wording such as "choose this service when".
-- Use concise, natural academic language.
+- Do not introduce unsupported capabilities.
+- Do not mention users, datasets, training data, routing, validation,
+  benchmarks, or experiments.
+- Avoid procedural wording such as "choose this service when".
+- Use concise, natural language.
 - Write between 40 and 60 words.
 
 Before returning the final description:
@@ -173,7 +169,7 @@ Return ONLY valid JSON in this format:
 
     def generate_all_specialist_descriptions(self):
 
-        specialists = MEDMCQA_SERVICE_SETS[self.service_count]
+        specialists = MASSIVE_SERVICE_SETS[self.service_count]
 
         results = {}
         total = len(specialists)
@@ -224,20 +220,20 @@ Return ONLY valid JSON in this format:
 
 if __name__ == "__main__":
     generator = ServiceDescriptionGenerator(
-        service_count=1,
+        service_count=9,
         model="qwen3:32b",
 
         general_concept_path=(
-            "../data/MedMCQA/descriptions/"
-            "general_concepts_extraction_1_subject.json"
+            "../data/MASSIVE/descriptions/"
+            "general_concepts_extraction.json"
         ),
         core_concept_path=(
-            "../data/MedMCQA/descriptions/"
-            "core_concepts_1_subject.json"
+            "../data/MASSIVE/descriptions/"
+            "core_concepts.json"
         ),
         output_path=(
-           "../data/MedMCQA/descriptions/"
-            "service_descriptions_1.json"
+           "../data/MASSIVE/descriptions/"
+            "service_descriptions.json"
         ),
     )
     # generator.generate_all_specialist_descriptions()

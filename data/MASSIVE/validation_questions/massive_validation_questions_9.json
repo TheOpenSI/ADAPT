@@ -1,0 +1,1712 @@
+[
+  {
+    "question":"turn the lights off please",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"what's the band is playing now",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"which song is that",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"set alarm tomorrow at six am",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"set an alarm at six in the morning",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"what's happening in america",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"tell me today's newspaper's headlines",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"let me know as soon as there is more news on brexit",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"please tell me some international news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"set a wake up call for ten am",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"make an alarm for three p. m.",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"set an alarm for one p. m.",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"email me the lyrics to this song",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"start alarm",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"i want to wake up at six am tomorrow please",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"follow news about hilary email issue in future",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"who is leading the formula one race right now",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"read the headlines from new york times",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"can i know the breaking news from c. n. n.",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"tell me if an earthquake happens in the world",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what is the latest gossip of hollywood going on",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"alarm set eight am",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"current news c. n. n.",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"pull up the headlines please",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what are the headlines from the new york times",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"good assistants",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"send me current news for the day",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what are the lyrics to the song i will always love you by dolly parton",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"can you suggest me a healthy foods for dinner",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"order a meal from a nice restaurant",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"your recipe of steak was superb",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"what's happening in the world today",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"i want the news about academy awards",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"order some takeaway food",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"send me alert on any new topic on politics",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what are the latest articles from yahoo news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"find me any news from so clean the last six hours",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"nine hundred and ninety nine f. m. is currently playing what music",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"who is the artist of the song playing now",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"is it possible for you to provide the likes of my music",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"what is the latest news from syria",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what's going on in new york",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"bring me the latest tech news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"update me with the election results",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what does the analysts say about the new immigration policies",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"alert me at five hours",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"switch off the light",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"what song is currently playing",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"check the current playing music title",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"what is the title of the song that is playing",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"can you please turn off the light of my bed room",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"do you have any news from news provides",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"turn off the closet light",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"what is the name of the music playing now",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"what song is this",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"what news updates are there from news express",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what's new in news express",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what's happening in news express",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"olly turn off the lights",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"is there a way to get the latest breaking news on trump",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"order take-out",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"give me the news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"set an alarm for tomorrow morning at eight",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"tell me the artist name",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"what is the song name",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"what's happening in world news today",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what is the latest international news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"turn off my bedside lamp please",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"did we get any update from the new provider",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what is new about blank",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what is the seattle city council doing about homelessness",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"get news from b. b. c. news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"confirm the order",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"power off the current",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"set an alarm for five thirty",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"what's the news in politics",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"did the yankees win last night",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"listen to this song",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"please pull up the article on dog sitting in the morning news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"order general t'so eggroll to go",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"are there any new videos on the youtube for new york times",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"trending tech news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"recent tech headlines",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what year was the song created",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"olly trending hot news topics",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"i am really craving for chinese food right now please let me order take out",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"what is new in politics today can you filter out trump news though",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"i need two pizzas stat",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"turn off lighting",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"what places can i order take-out from near by",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"what is the name of the lead singer in this band",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"tell me if there's any new news on that topic",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"can you set the alarm for one hundred and thirty",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"how to repeat the song",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"what music is it",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"i would like a wake up alarm at seven am tomorrow",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"get current news on government shutdown",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"get me takeaway food",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"set up an alarm clock at one p. m.",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"what's the latest news about us election",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"order two large pizzas and pieces of hot wings from dominoes",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"what is the latest news on sprint",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"order me chinese food",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"what person produced the song that is on the radio",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"what are the scores for the two ucl games going on right now",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what is the headline from chicago tribune",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"alert me in three hours",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"tell me what's happening in european politics",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"i want to know who is at the top of the english premier league at the moment",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"alexa what is the news in my area",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"please put on an alarm for eight am",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"i want to order some chinese food tonight what's delivering to me",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"i've heard this riff before what song stole this riff it's exactly the same",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"can you turn off my desk lamp",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"desk lamp one off",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"set an alarm for ten o'clock tomorrow morning",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"wake me up at ten",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"show me delivery near me",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"open the internet",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"give me the newest new york times",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"order a double bacon cheeseburger with bacon an white american cheese",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"update on april the giraffe",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"please turn bedroom lights off",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"what is the name of this musical group",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"when is trumps next press conference",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"set an alarm for five am",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"please set an alarm for ten p. m.",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"tell me what the latest news is",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"shut off the lights in the bedroom",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"show me new york times news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"is there any news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"set an alarm for five minutes from now",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"please set my alarm",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"call pf chang's to order me egg foo young",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"do you know about this lyrics",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"who sung this",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"switch the lights to off",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"give me updates on the hurricane news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what were the winning powerball numbers last night",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"please tell me the latest news about the election scenario in our state",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"tell me when there is new news from my local news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"set an alarm for six am",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"d. e. a. guam prescription drug abuse on the rise",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"it's too bright in here can you turn a light off",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"olly give me the news on donald trump",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"olly is there any current news on the presidential election",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"kindly switch off the light in the drawing hall",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"get me the most recent news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"how many runs did cheteshwar pujara scored yesterday",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"please turn the lights off in the bathroom",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"show current news from b. b. c.",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"show b. b. c. news live",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"can you give me local news on wayne county sheriffs",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what's new on itunes",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"how is the news in ireland",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what is the song playing",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"please give me detail of o. zaalima song",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"i want to read yahoo news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"what is the latest poll on the public view of president trump",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"turn the room light off",
+    "subject":"iot_hue_lightoff",
+    "expected_service":"iot_hue_lightoff"
+  },
+  {
+    "question":"read me the news for the day",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"did ben and jen get back together",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"set alarm on twenty fifth may at five p. m.",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"closest chipotle",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"set an alarm for five o'clock this evening labeled taxi",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"international trade and business market",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"i want to order food",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"open clock",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"alarm",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"hey olly order two wings with french fries from the chinese food store",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"hey olly order a pizza pie with extra cheese",
+    "subject":"takeaway_order",
+    "expected_service":"takeaway_order"
+  },
+  {
+    "question":"give me information on the song that's playing",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"tell me important news today",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"anything interesting in the news today",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"entertainment news",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"set an alarm for two hours from now please",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"what happened between the second and the fifteenth",
+    "subject":"news_query",
+    "expected_service":"news_query"
+  },
+  {
+    "question":"olly email my appointments to reschedule",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"set a reminder i need to wake up at five am every morning",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"please set alarm for",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"set an alarm for four p. m. tuesday",
+    "subject":"alarm_set",
+    "expected_service":"alarm_set"
+  },
+  {
+    "question":"tell me how to make garlic bread",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"how much time to cook pasta",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"what can i cook with broccoli and chicken",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"instruct me to cook",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"how can i cook pasta",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"what ingredient can be used to replace white wine",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"could you please display the videos for cooking italian food",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"olly how do i make lobster bisque",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"how is pav bhaji cooked",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"what the sexiest food to cook on a date",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"for how much time should i oven pizza to make it perfect crispy",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"how do you cook black eye pea",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"give me recipes",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"use google to show me how to cook",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"give me best cooking ideas",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"show me the recipe for cookies",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"how do i make cookies",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"how many cups are in a quart",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"how do i bake a potato",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"look for a pizza recipe",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"how do i make meatloaf",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"find me a recipe for chicken noodle soup",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"search for gluten free menus",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"show me how to cook a recipe",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"how long do i chill an icebox pie",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"how do you cook a four cheese omelet",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"get recipe for making a hotdog",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"crockpot recipe for chicken alfredo",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"can you pull up a recipe for spaghetti",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"bring up a recipe for turkey meatballs",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"recipes",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"how long do i roast chicken breasts",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"recipe for crabmeat",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"i need some ideas for dinner that are mexican",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"no more comments",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"what is the cooking time for boiled eggs",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"find easy recipe for almond milk",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"find recipe chicken casserole",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"look up meal recipe",
+    "subject":"cooking_recipe",
+    "expected_service":"cooking_recipe"
+  },
+  {
+    "question":"tell me a play list",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"where is the nearest pub in the city",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"where should i go for mexican food in my area",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"i need some sushi what's closest",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"search for nearby chinese restaurants",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"i'm looking for some dress shows can you find clothing stores within one mile",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"where is the closest restaurant",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"olly pinpoint me the location of the shop",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"show me some food court nearest to my location",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"any good bike shops in oxford",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"best bar in local area",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"near by grocery",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"who sells the cheapest netbooks in south austin",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"what's the best clothes store here",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"find a shop that sells beer",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"what kind of shops are near my locality",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"can you recommend a cheap restaurant in this area",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"olly what are some restaurants near me",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"where can i find the nearest irish pub in my area",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"olly what bars are around me",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"how many grocery stores are located in my neighborhood",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"ask a restaurant in my area",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"i'm starving what's good to eat in cincinnati",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"olly where can i got to grab some drinks in west chester",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"list all the nearby shops",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"can you recommend any pub in milligrams road",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"i need a place that will deliver pizza to me in benton are",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"is there any chinese places in benton are",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"i am going to chinatown in half an hour book an uber for me",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"call me an uber for right now",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"send an uber to me right now",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"could you please have uber be at my house in fifteen minutes",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"i need a taxi to take me to the airport please",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"look for a taxi to go home",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"book uber from my home",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"lets get a taxi",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"reserve a taxi",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"book a taxi to the airport for tomorrow morning",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"book my nearest available taxi",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"get me an uber",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"book a taxi",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"catch a ride",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"need a taxi tomorrow at eight in the morning",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"find an uber driver available for tonight after ten p. m.",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"get me the number for local taxi service",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"i need to get to location call a cab",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"i need a taxi at eight tomorrow morning to take me to work",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"set up uber",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"find me a ride to the mall of america please",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"call a taxi to pick me up right now",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"request a taxi from udrive service",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"book a taxi for pickup at my current location in one hour's time",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"get me a taxi to take me to the airport on friday at five thirty am",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"please book the next taxi",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"open the uber app and get me a car please",
+    "subject":"transport_taxi",
+    "expected_service":"transport_taxi"
+  },
+  {
+    "question":"email friend",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"do you hear songs of arrahman music",
+    "subject":"music_query",
+    "expected_service":"music_query"
+  },
+  {
+    "question":"can you tell me the cheapest place to get ground beef",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"find the exact location of the places",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"where is the nearest italian restaurant",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"where can i get organic wheat",
+    "subject":"recommendation_locations",
+    "expected_service":"recommendation_locations"
+  },
+  {
+    "question":"send email to emilia saying i will be late please don't wait with dinner",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"can you send an email to chelsea please",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"email david about the meeting tomorrow david can we have the meeting in the afternoon",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"open my most recent email and reply",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send this content via email",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send an email to mom subject weather body what is the weather like there this week",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send happy new year to john at gmail dot com",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send a reply to my friend for his question",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"email the following message to this contact please",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send ashmit his latest tech topics available",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"can you send email to my friend rohit which says i am busy tomorrow",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"hey start an email to coworker",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"open new email to this coworker at this email",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send a hi to",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send an email to my manager",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"email george brown",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send an email to my friend say birthday wishes",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"i would like this new email should be added to my contacts",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send email to enalen i'm going to send the files the next day",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"open reply",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"reply back to this email",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send email to gbaby tell her gma loves her and hopes she has a great weekend",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"compose reply",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send this message to the family group starts with a",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"olly please respond to greg's email stating that his idea is fantastic",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send email to boss to meet for performance review",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"email the message hi come down for dinner tonight to bro",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send an email to guy selling the boat telling him that i have the money",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send an email for me",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"reply to all",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"tell bob smith",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"reply with thanks",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send the email to john",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"start email",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send email to robert what time is dinner",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send email to comcast that their service sucks",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send an email to my boss saying i will be late",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"reply to mark's email",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send email to mom want to go shopping tomorrow",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"will you help me write an email to chelsea",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send an email to all my company workers",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"email message to address",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"new address",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"reply",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"i want to send email to jack at gmail dot com",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send email to daughter saying i love you",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send email to mom saying happy birthday",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"open up my sister's email from yesterday click reply and turn on voice activation for my response",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"please send the email to my mom",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"open terry's email",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send a reply to mike",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"email tom",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"i need to email susan and metion",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"reply mail",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send an email to m. s. palmer ask her if dean turned in his last homework assignment",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send a response to my last email",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"reply to jason's email with the response six thirty",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"i want to reply to jean's email",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"publish an email to my company worker with today's scheduled meeting information",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"send email to marissa",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  },
+  {
+    "question":"please respond to the email i just read",
+    "subject":"email_sendemail",
+    "expected_service":"email_sendemail"
+  }
+]

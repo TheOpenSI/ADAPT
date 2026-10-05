@@ -75,7 +75,7 @@ class ExternalGeneralBuilder:
         banking = self._get_banking_data()
         clinc = self._get_clinc_data()
 
-        external_general = pd.concat([banking, clinc], ignore_index= True)
+        external_general = pd.concat([banking], ignore_index= True)
 
         # shuffle the order
         external_general = external_general.sample(
@@ -116,8 +116,8 @@ class ExternalGeneralBuilder:
 
 if __name__ == "__main__":
     builder = ExternalGeneralBuilder(
-        banking_samples=30,
-        clinc_samples=30,
+        banking_samples=100,
+        # clinc_samples=30,
         banking_split="test",
         clinc_split="test",
         seed=42

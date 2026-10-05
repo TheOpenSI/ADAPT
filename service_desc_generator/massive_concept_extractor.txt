@@ -1,0 +1,91 @@
+[PATH] Validation data: /home/maniles/manile/manile/data/MASSIVE/validation_questions/massive_validation_questions_9.json
+[LOAD] validation data: (342, 3)
+[LOAD] routing services: 9
+[LOAD] specialist subjects: 9
+[GROUP] Number of subject groups: 9
+[GROUP] alarm_set: 31 questions
+[GROUP] cooking_recipe: 41 questions
+[GROUP] email_sendemail: 63 questions
+[GROUP] iot_hue_lightoff: 17 questions
+[GROUP] music_query: 30 questions
+[GROUP] news_query: 82 questions
+[GROUP] recommendation_locations: 31 questions
+[GROUP] takeaway_order: 20 questions
+[GROUP] transport_taxi: 27 questions
+
+[1/9] Extracting alarm_set (31 questions)
+[EXTRACT] Processing alarm_set: 31 questions
+[EXTRACT] alarm_set: 8 concepts
+
+[2/9] Extracting cooking_recipe (41 questions)
+[EXTRACT] Processing cooking_recipe: 41 questions
+[EXTRACT] cooking_recipe: 25 concepts
+
+[3/9] Extracting email_sendemail (63 questions)
+[EXTRACT] Processing email_sendemail: 63 questions
+[EXTRACT] email_sendemail: 34 concepts
+
+[4/9] Extracting iot_hue_lightoff (17 questions)
+[EXTRACT] Processing iot_hue_lightoff: 17 questions
+[EXTRACT] iot_hue_lightoff: 13 concepts
+
+[5/9] Extracting music_query (30 questions)
+[EXTRACT] Processing music_query: 30 questions
+[EXTRACT] music_query: 17 concepts
+
+[6/9] Extracting news_query (82 questions)
+[EXTRACT] Processing news_query: 82 questions
+[EXTRACT] news_query: 25 concepts
+
+[7/9] Extracting recommendation_locations (31 questions)
+[EXTRACT] Processing recommendation_locations: 31 questions
+[EXTRACT] recommendation_locations: 21 concepts
+
+[8/9] Extracting takeaway_order (20 questions)
+[EXTRACT] Processing takeaway_order: 20 questions
+[EXTRACT] takeaway_order: 8 concepts
+
+[9/9] Extracting transport_taxi (27 questions)
+[EXTRACT] Processing transport_taxi: 27 questions
+[EXTRACT] transport_taxi: 10 concepts
+
+[DONE] Saved results to /home/maniles/manile/manile/data/MASSIVE/descriptions/extracted_concepts_9_subjects.json
+[LOAD] Extracted concepts for 9 subjects
+
+[1/9] Selecting core concepts: transport_taxi
+[CORE] Processing transport_taxi: 10 extracted concepts
+[CORE] transport_taxi: 7 core concepts
+
+[2/9] Selecting core concepts: iot_hue_lightoff
+[CORE] Processing iot_hue_lightoff: 13 extracted concepts
+[CORE] iot_hue_lightoff: 5 core concepts
+
+[3/9] Selecting core concepts: music_query
+[CORE] Processing music_query: 17 extracted concepts
+[CORE] music_query: 9 core concepts
+
+[4/9] Selecting core concepts: email_sendemail
+[CORE] Processing email_sendemail: 34 extracted concepts
+[CORE] email_sendemail: 7 core concepts
+
+[5/9] Selecting core concepts: takeaway_order
+[CORE] Processing takeaway_order: 8 extracted concepts
+[CORE] takeaway_order: 6 core concepts
+
+[6/9] Selecting core concepts: news_query
+[CORE] Processing news_query: 25 extracted concepts
+[CORE] news_query: 7 core concepts
+
+[7/9] Selecting core concepts: recommendation_locations
+[CORE] Processing recommendation_locations: 21 extracted concepts
+[CORE] recommendation_locations: 6 core concepts
+
+[8/9] Selecting core concepts: alarm_set
+[CORE] Processing alarm_set: 8 extracted concepts
+[CORE] alarm_set: 6 core concepts
+
+[9/9] Selecting core concepts: cooking_recipe
+[CORE] Processing cooking_recipe: 25 extracted concepts
+[CORE] cooking_recipe: 6 core concepts
+
+[DONE] Saved core concepts to /home/maniles/manile/manile/data/MASSIVE/descriptions/core_concepts_9_subjects.json
