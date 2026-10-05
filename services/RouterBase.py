@@ -31,6 +31,9 @@ class RouterBase(ABC):
     @staticmethod
     def _calculate_winner_strength(top_zscore,
                                    service_count,
+                                   fixed_percentage=None,
+                                   a=-46.0546, 
+                                   b=109.5723
                                    ):
             """
             Calculate the automatically fitted K-aware threshold. 
@@ -47,10 +50,13 @@ class RouterBase(ABC):
 
             # Theoretical maximum top z-score.
             z_max = np.sqrt(service_count - 1)
-
+            
+            if fixed_percentage is not None:
+                  required_strength_percentage = float(fixed_percentage)
+            else:
             # Automatically fitted required percentage.
             # p*(K) = a * ln(sqrt(K - 1)) + b
-            required_strength_percentage = (-46.0546 * np.log(np.sqrt(service_count - 1)) + 109.5723)
+                required_strength_percentage = (a * np.log(np.sqrt(service_count - 1)) + b)
 
             # Convert the percentage to the actual z-score threshold.
             automatic_threshold = (required_strength_percentage / 100.0) * z_max

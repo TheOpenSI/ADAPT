@@ -12,6 +12,7 @@ from services.CrossEncoderRouter import (
     CrossEncoderRouter
 )
 from services.SemanticRouter import SemanticRouter
+from services.CrossEncoderRouter import CrossEncoderRouter
 
 
 BASE_DIR = os.path.dirname(
@@ -19,9 +20,9 @@ BASE_DIR = os.path.dirname(
 )
 
 runner = CalibrationRunner(
-    router_cls=SemanticRouter,
+    router_cls=CrossEncoderRouter,
 
-    model_name="BAAI/bge-large-en-v1.5",
+    model_name="Qwen/Qwen3-Reranker-4B",
 
     thresholds = list(range(0, 101, 5)),
 

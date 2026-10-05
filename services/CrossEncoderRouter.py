@@ -19,6 +19,9 @@ class CrossEncoderRouter(RouterBase):
                  
                  fallback_label="general",
                  apply_threshold=True,
+                 required_strength_percentage=None,
+                 a=-36.9964, 
+                 b=111.7766
     ):
 
         super().__init__(service_desc_path, model_name)
@@ -26,6 +29,9 @@ class CrossEncoderRouter(RouterBase):
 
         self.fallback_label = fallback_label
         self.apply_threshold = apply_threshold
+
+        self.required_strength_percentage = required_strength_percentage
+        self.a, self.b = a, b
 
  
         print(f"[CrossEncoderRouter] Loading cross-encoder model '{model_name}'...")
@@ -81,10 +87,18 @@ class CrossEncoderRouter(RouterBase):
         service_count = len(scores_dict)
 
         strength_result = self._calculate_winner_strength(top_zscore=top_zscore,
-                                                          service_count=service_count
-                                                          )
+                                                          service_count=service_count,
+                                                          fixed_percentage=self.required_strength_percentage,
+                                                          a=self.a, 
+                                                          b=self.b)
 
-
+        
+        # Threshold modes:
+        #   apply_threshold | required_strength_percentage | mode
+        #   ----------------+------------------------------+------------------------------------------
+        #   False           | anything                     | off:   always route to the top specialist
+        #   True            | a number, e.g. 70            | fixed: calibration sweep
+        #   True            | None                         | auto:  fitted curve p*(K)
         if self.apply_threshold:
             predicted_label = (
                 top_label

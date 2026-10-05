@@ -62,16 +62,14 @@ class CalibrationRunner:
             general_recall = 0
 
         return {
+            
             "accuracy": round(float(accuracy), 4),
-            "fallback_rate": round(float(fallback_rate), 4), # How often the router chooses General
-            "specialist_recall": round(
-                float(specialist_recall),
-                4
-            ),
-            "general_recall": round(
-                float(general_recall),
-                4
-            ),
+            "fallback_rate": round(float(fallback_rate), 4),
+            "specialist_recall": round(float(specialist_recall), 4),
+            "general_recall": round(float(general_recall), 4),
+            "balanced_accuracy": round(float((specialist_recall + general_recall) / 2), 4),
+            "recall_gap": round(float(abs(specialist_recall - general_recall)), 4),
+        
         }
 
     def run(self):
@@ -93,22 +91,10 @@ class CalibrationRunner:
                 "dataset",
                 f"validation_eval_service_{k}.csv"
             )
-            
-            # dev_path = os.path.join(
-            #     self.data_dir,
-            #     "..",
-            #     "calibration_threshold",
-            #     "dataset",
-            #     f"dev_eval_service_{k}.csv"
-            # )
 
             validation_path = os.path.abspath(
                 validation_path
             )
-
-            # dev_path = os.path.abspath(
-            #     dev_path
-            # )
 
             print("\n" + "=" * 80)
             print(f"CONDITION k={k}")
@@ -129,7 +115,6 @@ class CalibrationRunner:
                     model_name=self.model_name,
                     required_strength_percentage=threshold,
                     apply_threshold=True,
-                    
                     verbose=self.verbose,
                 )
 
@@ -182,12 +167,16 @@ class CalibrationRunner:
             output_path,
             index=False
         )
-
+        
         print("\n" + "=" * 80)
         print("CALIBRATION SUMMARY")
         print("=" * 80)
         print(summary_df)
-
+        
+        best = summary_df.loc[summary_df.groupby("k")["recall_gap"].idxmin()]
+        print("\nBalance point per K:")
+        print(best[["k", "threshold", "specialist_recall", "general_recall", "balanced_accuracy"]])
+        
         print(
             f"\nSaved calibration summary:"
         )
