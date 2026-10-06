@@ -1,0 +1,11 @@
+{
+  "routing_method": "cross-encoder",
+  "model_name": "BAAI/bge-reranker-v2-m3",
+  "specialist_service_count": 8,
+  "total_service_count": 8,
+  "total_queries": 168,
+  "total_energy_kwh": 0.0008720884673619838,
+  "energy_per_query_kwh": 5.19100278191657e-06,
+  "total_co2_kg": 0.00047850796533378164,
+  "co2_per_query_kg": 2.848261698415367e-06
+}

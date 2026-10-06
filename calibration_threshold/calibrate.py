@@ -15,36 +15,44 @@ from services.SemanticRouter import SemanticRouter
 from services.CrossEncoderRouter import CrossEncoderRouter
 
 
-BASE_DIR = os.path.dirname(
-    os.path.abspath(__file__)
-)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-runner = CalibrationRunner(
-    router_cls=CrossEncoderRouter,
+models = [
+"BAAI/bge-reranker-v2-m3",
+"Qwen/Qwen3-Reranker-0.6B",
+"Qwen/Qwen3-Reranker-8B",
+# "mixedbread-ai/mxbai-rerank-large-v2",
+]
 
-    model_name="Qwen/Qwen3-Reranker-4B",
 
-    thresholds = list(range(0, 101, 5)),
+for model_name in models:
+    print(f"\nRunning calibration for {model_name}")
+    
+    runner = CalibrationRunner(
+        router_cls=CrossEncoderRouter,
 
-    conditions=[
-        3,
-        5,
-        8,
-        10,
-    ],
+        model_name=model_name,
+        
+        thresholds = list(range(0, 101, 5)),
+        conditions=[
+            3,
+            5,
+            8,
+            10,
+        ],
+        
+        data_dir=os.path.join(
+            BASE_DIR,
+            "..",
+            "data"
+        ),
+        
+        results_dir=os.path.join(
+            BASE_DIR,
+            "results_auto_threshold"
+        ),
+        
+        verbose=False,
+    )
 
-    data_dir=os.path.join(
-        BASE_DIR,
-        "..",
-        "data"
-    ),
-
-    results_dir=os.path.join(
-        BASE_DIR,
-        "results_auto_threshold"
-    ),
-
-    verbose=False,
-)
-
-runner.run()
+    runner.run()
