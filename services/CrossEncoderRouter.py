@@ -91,14 +91,14 @@ class CrossEncoderRouter(RouterBase):
                                                           fixed_percentage=self.required_strength_percentage,
                                                           a=self.a, 
                                                           b=self.b)
-
-        
         # Threshold modes:
         #   apply_threshold | required_strength_percentage | mode
         #   ----------------+------------------------------+------------------------------------------
         #   False           | anything                     | off:   always route to the top specialist
         #   True            | a number, e.g. 70            | fixed: calibration sweep
         #   True            | None                         | auto:  fitted curve p*(K)
+
+
         if self.apply_threshold:
             predicted_label = (
                 top_label

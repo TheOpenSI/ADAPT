@@ -1,0 +1,11 @@
+{
+  "routing_method": "bi-encoder",
+  "model_name": "Qwen/Qwen3-Embedding-4B",
+  "specialist_service_count": 8,
+  "total_service_count": 8,
+  "total_queries": 168,
+  "total_energy_kwh": 0.0003694686009224357,
+  "energy_per_query_kwh": 2.1992178626335458e-06,
+  "total_co2_kg": 0.0002027244655773331,
+  "co2_per_query_kg": 1.2066932474841257e-06
+}

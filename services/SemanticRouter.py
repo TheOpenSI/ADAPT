@@ -20,6 +20,10 @@ class SemanticRouter(RouterBase):
 
                  fallback_label="general",
                  apply_threshold=True,
+                 
+                 required_strength_percentage=None,
+                 a=-36.9964, 
+                 b=111.7766
 
     ):
         
@@ -29,6 +33,9 @@ class SemanticRouter(RouterBase):
 
         self.fallback_label = fallback_label
         self.apply_threshold = apply_threshold
+
+        self.required_strength_percentage = required_strength_percentage
+        self.a, self.b = a, b
 
         print(f"[SemanticRouter] Loading embedding model '{model_name}'... (this may take a while on first run)")
         load_start = time.perf_counter()
@@ -110,10 +117,13 @@ class SemanticRouter(RouterBase):
         service_count = len(scores_dict)
 
         # Apply the algorithm 
-        strength_result = (self._calculate_winner_strength(top_zscore=top_zscore,
+        strength_result = self._calculate_winner_strength(top_zscore=top_zscore,
                                                            service_count=service_count,
-                                                           )
-        )
+                                                           fixed_percentage=self.required_strength_percentage,
+                                                           a=self.a, 
+                                                           b=self.b)
+                                                           
+        
 
 
         if self.apply_threshold:

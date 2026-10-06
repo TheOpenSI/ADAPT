@@ -15,8 +15,12 @@ class ColBERTRouter(RouterBase):
                  service_desc_path, 
                  model_name, 
                  verbose=False,
+                 
                  fallback_label="general",
                  apply_threshold=True,
+                 required_strength_percentage=None,
+                 a=-36.9964, 
+                 b=111.7766
     ):
         
         super().__init__(service_desc_path, model_name)
@@ -24,6 +28,9 @@ class ColBERTRouter(RouterBase):
 
         self.fallback_label = fallback_label
         self.apply_threshold = apply_threshold
+
+        self.required_strength_percentage = required_strength_percentage
+        self.a, self.b = a, b
     
         print(f"[ColBERTRouter] Loading ColBERT model '{model_name}'...")
         load_start = time.perf_counter()
@@ -91,8 +98,10 @@ class ColBERTRouter(RouterBase):
         service_count = len(scores_dict)
 
         strength_result = self._calculate_winner_strength(top_zscore=top_zscore,
-                                                          service_count=service_count
-                                                          )
+                                                                  service_count=service_count,
+                                                                  fixed_percentage=self.required_strength_percentage,
+                                                                  a=self.a, 
+                                                                  b=self.b)
 
         if self.apply_threshold:
             predicted_label = (
@@ -202,20 +211,20 @@ class ColBERTRouter(RouterBase):
                             }
 
 
-if __name__ == "__main__":
-    router = ColBERTRouter(
-        service_desc_path="../data/dataset/service_descriptions_3.json",
-        model_name="mixedbread-ai/mxbai-colbert-large-v1",
-        verbose=True
-        )
+# if __name__ == "__main__":
+#     router = ColBERTRouter(
+#         service_desc_path="../data/dataset/service_descriptions_3.json",
+#         model_name="mixedbread-ai/mxbai-colbert-large-v1",
+#         verbose=True
+#         )
 
-    test_queries = [
-        "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
-        "Why is the sky blue?",
-        "Which of the following statements is true?",
-    ]
+#     test_queries = [
+#         "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
+#         "Why is the sky blue?",
+#         "Which of the following statements is true?",
+#     ]
 
-    for query in test_queries:
-        print(f"\n--- query: {query[:60]}... ---")
-        result = router.route(query)
-        print(f"result dict: {result}")
+#     for query in test_queries:
+#         print(f"\n--- query: {query[:60]}... ---")
+#         result = router.route(query)
+#         print(f"result dict: {result}")

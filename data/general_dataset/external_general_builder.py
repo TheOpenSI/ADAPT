@@ -118,14 +118,14 @@ if __name__ == "__main__":
     builder = ExternalGeneralBuilder(
         banking_samples=50,
         clinc_samples=50,
-        banking_split="test",
-        clinc_split="test",
+        banking_split="train",
+        clinc_split="train",
         seed=42
 )
     
 
     builder.build_and_save(
-        dataset_name="test_external_general"
+        dataset_name="mmlu_validation_external_general"
 )
 
 

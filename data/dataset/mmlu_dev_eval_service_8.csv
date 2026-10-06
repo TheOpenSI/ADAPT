@@ -1,0 +1,149 @@
+question,subject,expected_service
+Find all c in Z_3 such that Z_3[x]/(x^2 + c) is a field.,abstract_algebra,abstract_algebra
+"Statement 1 | If aH is an element of a factor group, then |aH| divides |a|. Statement 2 | If H and K are subgroups of G then HK is a subgroup of G.",abstract_algebra,abstract_algebra
+Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group S_10 has 10 elements.,abstract_algebra,abstract_algebra
+Statement 1| Every function from a finite set onto itself must be one to one. Statement 2 | Every subgroup of an abelian group is abelian.,abstract_algebra,abstract_algebra
+Find the characteristic of the ring 2Z.,abstract_algebra,abstract_algebra
+What is the embryological origin of the hyoid bone?,anatomy,anatomy
+Which of these branches of the trigeminal nerve contain somatic motor processes?,anatomy,anatomy
+The pleura,anatomy,anatomy
+In Angle's Class II Div 2 occlusion there is,anatomy,anatomy
+Which of the following is the body cavity that contains the pituitary gland?,anatomy,anatomy
+You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction),astronomy,astronomy
+Where do most short-period comets come from and how do we know?,astronomy,astronomy
+Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?,astronomy,astronomy
+Why isn't there a planet where the asteroid belt is located?,astronomy,astronomy
+Why is Mars red?,astronomy,astronomy
+"Beyond the business case for engaging in CSR there are a number of moral arguments relating to: negative _______, the _______that corporations possess and the ________ of business and society.",business_ethics,business_ethics
+"_______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.",business_ethics,business_ethics
+"To ensure the independence of the non-executive board members, they are a number of steps which can be taken, which include non-executives being drawn from _______ the company, being appointed for a _________ time period as well as being appointed _________.",business_ethics,business_ethics
+"Three contrasting tactics that CSO's can engage in to meet their aims are ________ which typically involves research and communication, ________, which may involve physically attacking a company's operations or ________, often involving some form of _______.",business_ethics,business_ethics
+"In contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .",business_ethics,business_ethics
+Which of the following regular expressions is equivalent to (describes the same set of strings as) (a* + b)*(c + d)?,college_computer_science,college_computer_science
+"A certain pipelined RISC machine has 8 general-purpose registers R0, R1, . . . , R7 and supports the following operations.
+ADD Rs1, Rs2, Rd Add Rs1 to Rs2 and put the sum in Rd
+MUL Rs1, Rs2, Rd Multiply Rs1 by Rs2 and put the product in Rd
+An operation normally takes one cycle; however, an operation takes two cycles if it produces a result required by the immediately following operation in an operation sequence. Consider the expression AB + ABC + BC, where variables A, B, C are located in registers R0, R1, R2. If the contents of these three registers must not be modified, what is the minimum number of clock cycles required for an operation sequence that computes the value of AB + ABC + BC?",college_computer_science,college_computer_science
+"The Singleton design pattern is used to guarantee that only a single instance of a class may be instantiated. Which of the following is (are) true of this design pattern?
+I. The Singleton class has a static factory method to provide its instance.
+II. The Singleton class can be a subclass of another class.
+III. The Singleton class has a private constructor.",college_computer_science,college_computer_science
+"A compiler generates code for the following assignment statement.
+G := (A + B) * C - (D + E) * F
+The target machine has a single accumulator and a single-address instruction set consisting of instructions load, store, add, subtract, and multiply. For the arithmetic operations, the left operand is taken from the accumulator and the result appears in the accumulator. The smallest possible number of instructions in the resulting code is",college_computer_science,college_computer_science
+"Consider a computer design in which multiple processors, each with a private cache memory, share global memory using a single bus. This bus is the critical system resource. Each processor can execute one instruction every 500 nanoseconds as long as memory references are satisfied by its local cache. When a cache miss occurs, the processor is delayed for an additional 2,000 nanoseconds. During half of this additional delay, the bus is dedicated to serving the cache miss. During the other half, the processor cannot continue, but the bus is free to service requests from other processors. On average, each instruction requires 2 memory references. On average, cache misses occur on 1 percent of references. What proportion of the capacity of the bus would a single processor consume, ignoring delays due to competition from other processors?",college_computer_science,college_computer_science
+Which of the following is considered an acid anhydride?,high_school_chemistry,high_school_chemistry
+Which of the following is expected to be a polar molecule?,high_school_chemistry,high_school_chemistry
+"From the solubility rules, which of the following is true?",high_school_chemistry,high_school_chemistry
+"A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?",high_school_chemistry,high_school_chemistry
+"A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?",high_school_chemistry,high_school_chemistry
+The rate of natural increase of a population is found by subtracting the,high_school_geography,high_school_geography
+"During the third stage of the demographic transition model, which of the following is true?",high_school_geography,high_school_geography
+Which of the following statements is NOT accurate regarding the services provided by local governments in the United States?,high_school_geography,high_school_geography
+The practice of hiring a foreign third-party service provider to run an operation is called,high_school_geography,high_school_geography
+Which one of the following items is an example of nonmaterial culture?,high_school_geography,high_school_geography
+Which position does Rawls claim is the least likely to be adopted by the POP (people in the original position)?,jurisprudence,jurisprudence
+Functions of the law include all but which of the following?,jurisprudence,jurisprudence
+Which word best summarizes Weber's explanation of the development of formally rational law?,jurisprudence,jurisprudence
+"The ________ School of jurisprudence postulates that the law is based on what is ""correct.""",jurisprudence,jurisprudence
+"Iverson Jewelers wrote a letter to Miller, 'We have received an exceptionally fine self winding Rolox watch which we will sell to you at a very favorable price.'",jurisprudence,jurisprudence
+for how long should i bake the brownies,clinc_oos,general
+i need help paying my rent bill,clinc_oos,general
+who has the most subscribers on youtube,clinc_oos,general
+My card still hasn't been delivered,banking77,general
+Can I choose from either Visa or Mastercard?,banking77,general
+Why is there extra cash in my account?,banking77,general
+Do you charge for sending out more cards?,banking77,general
+let me know my credit score,clinc_oos,general
+After I transferred money the balance remained the same.,banking77,general
+Is it possible for me to change my PIN number?,banking77,general
+Let me know what the steps for the identity checks are,banking77,general
+How is the exchange rate calculated?,banking77,general
+i wanna change my pin number for my credit acount,clinc_oos,general
+"My transfers keep on getting declined. My card was working fine up until now, however it has suddenly stopped working. Why is this?",banking77,general
+please tell me if my vacation has been approved or not,clinc_oos,general
+"How long does a transfer from a UK account take? I just made one and it doesn't seem to be working, wondering if everything is okay",banking77,general
+what is the secret or meaning to life,clinc_oos,general
+tell me five dollars in yen and rubles,clinc_oos,general
+limits on top ups,banking77,general
+"There was an extra fee when I paid with my card, why was i charged this extra fee?",banking77,general
+can you find a recipe on how to make chow mein,clinc_oos,general
+can i maybe apply for a new card,clinc_oos,general
+"My top up hasn't gone through yet, why?",banking77,general
+How do I know what my PIN is?,banking77,general
+how high is my credit limit for my chase card,clinc_oos,general
+Why did my top-up not work?,banking77,general
+Can I get a refund on an item?,banking77,general
+where do i pick up a w2 form,clinc_oos,general
+What if there is an error on the exchange rate?,banking77,general
+please change the credit limit,clinc_oos,general
+How much does top up fees cost?,banking77,general
+after i got married i need to change my name,banking77,general
+i don't understand why there is a hold on my retirement fund account,clinc_oos,general
+The exchange rate was wrong in the foreign country I got cash in.,banking77,general
+is tomato on my shopping list,clinc_oos,general
+Why am I getting declines when trying to make a purchase online?,banking77,general
+are there restrictions for carry-ons on delta,clinc_oos,general
+prove that you're a person,clinc_oos,general
+I need to know why a money transfer is available.,banking77,general
+"I have a strange transaction for £1 on my statement, what is that?",banking77,general
+I didn't get all the cash I asked for,banking77,general
+How long does it take for my physical card to be delivered.,banking77,general
+It looks like my card payment was sent back.,banking77,general
+what items are on my shopping list,clinc_oos,general
+"Hello, I have a question concerning an unfamiliar fee that I notice on my account. I see that you guys charge for ATM withdrawal. Never notice this fee until now. Can you please explain?",banking77,general
+I need my card as quick as possible,banking77,general
+what is my fica score,clinc_oos,general
+I withdrew cash and I think the exchange rate is wrong.,banking77,general
+i need to switch to a new insurance plan,clinc_oos,general
+My card payment was not successful.,banking77,general
+What currencies can I use?,banking77,general
+Can you explain why my payment was charged a fee?,banking77,general
+Why is my money not in my account. I have already sent it out.,banking77,general
+Why is their a charge pending on my card still?,banking77,general
+Why am I unable to transfer money when I was able to before?,banking77,general
+today's date is what exactly,clinc_oos,general
+What is the $1 transaction on my account?,banking77,general
+what timezone is scotland in,clinc_oos,general
+I must make several disposable cards every day.,banking77,general
+how long does oil last in a car,clinc_oos,general
+are there any holiday's comming up,clinc_oos,general
+use the map and pinpoint my position,clinc_oos,general
+how many people fall victim to internet scams per year,clinc_oos,general
+In which countries can I get a card?,banking77,general
+what is the remainder of my starbucks rewards balance,clinc_oos,general
+turn volume to the number 4 setting,clinc_oos,general
+I didn't make the direct debit payment on my account.,banking77,general
+can you please repeat that response,clinc_oos,general
+i need my pin number,clinc_oos,general
+tell me what i had wanted to remember earlier,clinc_oos,general
+how many centimeters are in 4 inches,clinc_oos,general
+Can I get an update on my replacement card?,banking77,general
+what is the arrival time for my flight,clinc_oos,general
+How can I tell the source for my available funds?,banking77,general
+can you help me get a new credit card,clinc_oos,general
+how many day of my vacation are left for the year,clinc_oos,general
+which animals do you have at home,clinc_oos,general
+My credit card seems to have been declined for top up. Why is it not going through? Can you tell me what's going on?,banking77,general
+i wish i knew how to spell mississippi,clinc_oos,general
+help me to understand the conversion between tablespoons and teaspoons,clinc_oos,general
+book an oil change please,clinc_oos,general
+can you transfer money from a to b,clinc_oos,general
+What do I do to link my new card?,banking77,general
+I am still waiting for a transfer to show,banking77,general
+I'm not sure why my card didn't work,banking77,general
+tell your hobbies,clinc_oos,general
+When do i activate auto top-up?,banking77,general
+I don't think my top up worked,banking77,general
+Why am I being asked to verify my identity?,banking77,general
+what's the pizza like around here,clinc_oos,general
+pair with my phone,clinc_oos,general
+what is the surcharge for using my card in italy while i visit,clinc_oos,general
+definition of anachronism,clinc_oos,general
+it was pleasant having a conversation with you,clinc_oos,general
+In what increments can I top-up my card?,banking77,general
+"can you spell ""diatribe"" for me",clinc_oos,general
+how would i walk to the liberty bell from here,clinc_oos,general
+I live in the EU - can I get a card?,banking77,general
+what is my income from work,clinc_oos,general
+how is the traffic typically at noon on the route to hospital,clinc_oos,general

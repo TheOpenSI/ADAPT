@@ -1,0 +1,11 @@
+{
+  "routing_method": "bi-encoder",
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "specialist_service_count": 10,
+  "total_service_count": 10,
+  "total_queries": 201,
+  "total_energy_kwh": 5.162015671589666e-05,
+  "energy_per_query_kwh": 2.568167000790879e-07,
+  "total_co2_kg": 2.832356702875877e-05,
+  "co2_per_query_kg": 1.4091326879979488e-07
+}

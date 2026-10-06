@@ -4,9 +4,9 @@ sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 
 
 import pandas as pd
-# from dataset.config import SERVICE_SETS
+from dataset.config import SERVICE_SETS
 # from MedMCQA.specialists_dataset.medmcqa_config import MEDMCQA_SERVICE_SETS
-from MASSIVE.specialists_dataset.massive_config import MASSIVE_SERVICE_SETS
+# from MASSIVE.specialists_dataset.massive_config import MASSIVE_SERVICE_SETS
 
 
 class EvaluationBuilder:
@@ -17,7 +17,7 @@ class EvaluationBuilder:
     def _load_specialists(self, service_id):
 
         file_path = (
-            f"../MASSIVE/specialists_dataset/"
+            f"../MMLU/specialists_dataset/"
             f"{self.split}_service_{service_id}.csv"
         )
 
@@ -27,7 +27,7 @@ class EvaluationBuilder:
 
         file_path = (
             f"../general_dataset/"
-            f"{self.split}_external_general.csv"
+            f"mmlu_{self.split}_external_general.csv"
         )
 
         return pd.read_csv(file_path)
@@ -51,7 +51,7 @@ class EvaluationBuilder:
 
         file_path = (
             f"../evaluation_dataset/"
-            f"massive_{self.split}_eval_service_{service_id}.csv"
+            f"mmlu_{self.split}_eval_service_{service_id}.csv"
         )
 
         df.to_csv(
@@ -83,10 +83,10 @@ class EvaluationBuilder:
 if __name__ == "__main__":
 
     builder = EvaluationBuilder(
-        split="test"
+        split="dev"
     )
 
-    for service_id in MASSIVE_SERVICE_SETS.keys():
+    for service_id in SERVICE_SETS.keys():
 
         builder.build_and_save(
             service_id

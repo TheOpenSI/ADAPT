@@ -1,0 +1,42 @@
+Saved: ../evaluation_dataset/mmlu_dev_eval_service_3.csv
+expected_service
+general             100
+abstract_algebra      5
+anatomy               5
+astronomy             5
+Name: count, dtype: int64
+Saved: ../evaluation_dataset/mmlu_dev_eval_service_5.csv
+expected_service
+general                     100
+abstract_algebra              5
+anatomy                       5
+astronomy                     5
+business_ethics               5
+college_computer_science      5
+Name: count, dtype: int64
+Saved: ../evaluation_dataset/mmlu_dev_eval_service_8.csv
+expected_service
+general                     100
+abstract_algebra              5
+anatomy                       5
+astronomy                     5
+business_ethics               5
+college_computer_science      5
+high_school_chemistry         5
+high_school_geography         5
+jurisprudence                 5
+Name: count, dtype: int64
+Saved: ../evaluation_dataset/mmlu_dev_eval_service_10.csv
+expected_service
+general                     100
+abstract_algebra              5
+anatomy                       5
+astronomy                     5
+business_ethics               5
+college_computer_science      5
+formal_logic                  5
+high_school_chemistry         5
+high_school_geography         5
+jurisprudence                 5
+world_religions               5
+Name: count, dtype: int64
