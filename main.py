@@ -3,7 +3,7 @@ import sys
 import gc
 import time
 import torch
-
+import pandas as pd
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -11,10 +11,10 @@ sys.path.append(BASE_DIR)
 
 
 from data_collector.BenchmarkRunner import BenchmarkRunner
-from services.SemanticRouter import SemanticRouter
+# from services.SemanticRouter import SemanticRouter
 from services.CrossEncoderRouter import CrossEncoderRouter
-from services.ColBERTRouter import ColBERTRouter
-from services.QueryAnalyser import QueryAnalyser
+# from services.ColBERTRouter import ColBERTRouter
+# from services.QueryAnalyser import QueryAnalyser
 
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -24,13 +24,22 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_medmcqa")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_massive")
-RESULTS_DIR = os.path.join(BASE_DIR, "results_dev_mmlu")
+# RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu_validation_fixed")
+
+RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu_shield_strength")
 
 
-VERBOSE = False
+VERBOSE = True
+
+GATE_MODE = "both"  # "shield", "strength", "both" or "off"
+PERCENTILE = 10
+
+_ref = pd.read_csv(os.path.join(BASE_DIR, "services", "auto_calibration", "reference_queries.csv"))
+REFERENCE_QUERIES = _ref["query" if "query" in _ref.columns else "question"].tolist()
 
 # CONDITIONS = [3,5,7,9]
-CONDITIONS = [3,5,8,10]
+CONDITIONS = [3,5,10,12,14]
+# CONDITIONS = [8]
 
 MODEL_CONFIGS = [
 #     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
@@ -58,39 +67,6 @@ MODEL_CONFIGS = [
     # dict(cls=QueryAnalyser, model_name="qwen3:32b"),
 ]
 
-    # dict(
-    #         cls=QueryAnalyser,
-    #         model_name="qwen3:32b",
-    #         service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
-    # ),
-    # dict(
-    #     cls=QueryAnalyser,
-    #     model_name="qwen2.5:7b",
-    #     service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
-    # ),
-    # dict(
-    #     cls=QueryAnalyser,
-    #     model_name="qwen2.5:14b",
-    #     service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
-    # ),
-    # dict(
-    #     cls=QueryAnalyser,
-    #     model_name="qwen2.5:32b",
-    #     service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
-    # ),
-
-    # dict(
-    #         cls=QueryAnalyser,
-    #         model_name="llama3.1:8b",
-    #         service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
-    # ),
-    # dict(
-    #         cls=QueryAnalyser,
-    #         model_name="phi4:14b",
-    #         service_desc_path=os.path.join(DATA_DIR,"dataset", "service_descriptions_3.json"),
-    # ),
-
-# ]
 
 def cleanup_gpu():
     gc.collect()
@@ -106,13 +82,16 @@ def run_all():
     succeeded = 0
 
     for k in CONDITIONS:
-        # service_desc_path = os.path.join(DATA_DIR, "dataset", f"massive_service_descriptions_{k}.json")
-        # service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
+        # service_desc_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_service_descriptions_{k}.json")
         service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
+        # service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
         # MUST CHANGE DEV to TEST 
-        # dataset_path = os.path.join(DATA_DIR, "dataset", f"massive_test_eval_service_{k}.csv")
-        # dataset_path = os.path.join(DATA_DIR, "dataset", f"test_eval_service_{k}.csv")
-        dataset_path = os.path.join(DATA_DIR, "dataset", f"dev_eval_service_{k}.csv")
+        # dataset_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_test_eval_service_{k}.csv")
+        dataset_path = os.path.join(DATA_DIR, "dataset", f"test_eval_service_{k}.csv")
+        # dataset_path = os.path.join(DATA_DIR, "dataset", f"dev_eval_service_{k}.csv")
+        # dataset_path = os.path.join(DATA_DIR, "dataset", f"mmlu_validation_eval_service_3_fixed.csv")
+        # dataset_path = os.path.join(DATA_DIR, "dataset", f"dummy_general.csv")
+        
 
         print(f"\n{'*' * 70}")
         print(f"* CONDITION k={k}")
@@ -138,7 +117,10 @@ def run_all():
                 router = cfg["cls"](
                     service_desc_path=service_desc_path,
                     model_name=cfg["model_name"],
+                    reference_queries=REFERENCE_QUERIES,
                     verbose=VERBOSE,
+                    percentile=PERCENTILE,
+                    gate_mode=GATE_MODE,
                 )
 
                 # print("\nMODEL LOADED AND READY")

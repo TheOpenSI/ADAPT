@@ -12,14 +12,14 @@ class ExternalGeneralBuilder:
                  banking_samples=25,
                  clinc_samples=25,
                  banking_split="train",
-                 clinc_split="train",
+                #  clinc_split="train",
                  seed=42):
         
         self.banking_samples = banking_samples
         self.clinc_samples = clinc_samples
 
         self.banking_split = banking_split
-        self.clinc_split = clinc_split
+        # self.clinc_split = clinc_split
 
         self.seed = seed
 
@@ -73,9 +73,9 @@ class ExternalGeneralBuilder:
     def _combine_data(self):
 
         banking = self._get_banking_data()
-        clinc = self._get_clinc_data()
+        # clinc = self._get_clinc_data()
 
-        external_general = pd.concat([banking,clinc], ignore_index= True)
+        external_general = pd.concat([banking], ignore_index= True)
 
         # shuffle the order
         external_general = external_general.sample(
@@ -116,16 +116,16 @@ class ExternalGeneralBuilder:
 
 if __name__ == "__main__":
     builder = ExternalGeneralBuilder(
-        banking_samples=50,
-        clinc_samples=50,
+        banking_samples=100,
+        # clinc_samples=50,
         banking_split="train",
-        clinc_split="train",
+        # clinc_split="train",
         seed=42
 )
     
 
     builder.build_and_save(
-        dataset_name="mmlu_validation_external_general"
+        dataset_name="dummy_general"
 )
 
 

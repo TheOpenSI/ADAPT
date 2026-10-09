@@ -8,6 +8,7 @@ from sentence_transformers import CrossEncoder
  
 from services.confidence_checker.metrics import ConfidenceMetrics
 from services.RouterBase import RouterBase
+from services.auto_calibration.zref_gate import ZReferenceGate
  
 class CrossEncoderRouter(RouterBase):
     routing_method = "cross-encoder"
@@ -20,8 +21,12 @@ class CrossEncoderRouter(RouterBase):
                  fallback_label="general",
                  apply_threshold=True,
                  required_strength_percentage=None,
-                 a=-36.9964, 
-                 b=111.7766
+                 a=-39.6013, 
+                 b=93.3028,
+                 
+                 reference_queries=None,
+                 percentile=10,
+                 gate_mode="shield",               # "shield", "strength", "both" or "off"
     ):
 
         super().__init__(service_desc_path, model_name)
@@ -33,12 +38,38 @@ class CrossEncoderRouter(RouterBase):
         self.required_strength_percentage = required_strength_percentage
         self.a, self.b = a, b
 
+        self.gate_mode = gate_mode
+
  
         print(f"[CrossEncoderRouter] Loading cross-encoder model '{model_name}'...")
         load_start = time.perf_counter()
         self.model = CrossEncoder(model_name, device="cuda")
         print(f"[CrossEncoderRouter] Model loaded in {time.perf_counter() - load_start:.2f}s — running on device: {self.model.device}")
         print(f"[CrossEncoderRouter] Loaded {len(self.services)} services.")
+
+        # gate goes here, after the model is loaded
+        if reference_queries is None:
+            raise ValueError("CrossEncoderRouter needs reference_queries to calibrate the gate")
+
+        print(f"[CrossEncoderRouter] Calibrating shield: {len(reference_queries)} reference queries x {len(self.services)} specialists...")
+        gate_start = time.perf_counter()
+
+        cache_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "auto_calibration", "cache")
+
+        self.gate = ZReferenceGate(
+            model_name=model_name,
+            services=self.services,
+            reference_queries=reference_queries,
+            scorer=self.score_queries,
+            percentile=percentile,
+            cache_dir=cache_dir,
+        )
+
+        print(f"[CrossEncoderRouter] Shield ready in {time.perf_counter() - gate_start:.2f}s")
+        print(f"  percentile: {percentile} (about {percentile}% of off-topic queries pass)")
+        print(f"  cutoff:     {self.gate.cutoff:.4f}")
+        print(f"  cache file: {self.gate.cache_file}")
+
  
         if self.verbose:
             print(f"  Services loaded:")
@@ -47,6 +78,12 @@ class CrossEncoderRouter(RouterBase):
                 print(f"    [{name}] ({len(desc)} chars): {preview!r}")
  
         print(f"[CrossEncoderRouter] Ready to route.")
+
+
+    def score_queries(self, model_name, queries, description):
+        """Score many queries against ONE description. Used by the gate to calibrate."""
+        pairs = [(query, description) for query in queries]
+        return [float(s) for s in self.model.predict(pairs)]
  
     def route(self, query):
  
@@ -98,17 +135,29 @@ class CrossEncoderRouter(RouterBase):
         #   True            | a number, e.g. 70            | fixed: calibration sweep
         #   True            | None                         | auto:  fitted curve p*(K)
 
+        decision = self.gate.decide(scores_dict, fallback=self.fallback_label)
+        
+        shield_ok = decision["passed"] 
+        strength_ok = strength_result["strength_passed"] 
 
-        if self.apply_threshold:
-            predicted_label = (
-                top_label
-                if strength_result["strength_passed"]
-                else self.fallback_label
-            )
+
+        if not self.apply_threshold or self.gate_mode == "off":
+            admitted = True # no gate: always the top specialist
+        
+        elif self.gate_mode == "shield":
+            admitted = shield_ok       
+
+        elif self.gate_mode == "strength":
+            admitted = strength_ok           
+
+        elif self.gate_mode == "both":
+            admitted = shield_ok and strength_ok
+
         else:
-            predicted_label = top_label
+            raise ValueError(f"unknown gate_mode: {self.gate_mode}")
 
-
+        predicted_label = top_label if admitted else self.fallback_label
+    
 
         # print("DEBUG ZSCORES")
         # print(confidence_result["zscores"])
@@ -187,7 +236,6 @@ class CrossEncoderRouter(RouterBase):
                         "completion_tokens": 0,
                         "total_tokens": prompt_tokens,
         
-        
                         # Raw score metrics
                         "max_score": confidence_result["max"],
                         "margin": confidence_result["margin"],
@@ -205,10 +253,8 @@ class CrossEncoderRouter(RouterBase):
                         "zscores": confidence_result["zscores"],
         
                         # Automatically fitted winner-strength gate
-                        "service_count": service_count,
                         "z_max": strength_result["z_max"],
                         
-                        "winner_strength_ratio": (strength_result["winner_strength_ratio"]),
                         "winner_strength_percentage": (strength_result["winner_strength_percentage"]),
         
                         "required_strength_percentage": (strength_result["required_strength_percentage"]),
@@ -217,6 +263,13 @@ class CrossEncoderRouter(RouterBase):
                         "strength_passed": (strength_result["strength_passed"]),
         
                         "apply_threshold": self.apply_threshold,
+                        
+                        "gate_mode": self.gate_mode,
+                        "lead": decision["lead"],
+                        "lead_cutoff": decision["cutoff"],
+                        "shield_passed": shield_ok,
+
+
                     }
 
 

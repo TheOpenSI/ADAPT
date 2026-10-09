@@ -83,7 +83,7 @@ class EvaluationBuilder:
 if __name__ == "__main__":
 
     builder = EvaluationBuilder(
-        split="dev"
+        split="validation"
     )
 
     for service_id in SERVICE_SETS.keys():
