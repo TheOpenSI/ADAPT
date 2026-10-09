@@ -15,6 +15,7 @@ class CalibrationRunner:
         data_dir,
         results_dir,
         verbose=False,
+        router_kwargs=None,  
     ):
         self.router_cls = router_cls
         self.model_name = model_name
@@ -23,6 +24,7 @@ class CalibrationRunner:
         self.data_dir = data_dir
         self.results_dir = results_dir
         self.verbose = verbose
+        self.router_kwargs = router_kwargs or {} 
 
         os.makedirs(
             self.results_dir,
@@ -116,6 +118,7 @@ class CalibrationRunner:
                     required_strength_percentage=threshold,
                     apply_threshold=True,
                     verbose=self.verbose,
+                    **self.router_kwargs,   
                 )
 
                 benchmark = BenchmarkRunner(

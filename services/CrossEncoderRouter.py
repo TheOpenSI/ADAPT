@@ -26,7 +26,8 @@ class CrossEncoderRouter(RouterBase):
                  
                  reference_queries=None,
                  percentile=10,
-                 gate_mode="shield",               # "shield", "strength", "both" or "off"
+                 gate_mode="shield",               # "shield", "strength", "both" (AND), "shield_then_review" or "off"
+
     ):
 
         super().__init__(service_desc_path, model_name)
@@ -153,11 +154,24 @@ class CrossEncoderRouter(RouterBase):
         elif self.gate_mode == "both":
             admitted = shield_ok and strength_ok
 
+        # elif self.gate_mode == "shield_then_review":
+        #     admitted = shield_ok   
+
         else:
             raise ValueError(f"unknown gate_mode: {self.gate_mode}")
 
         predicted_label = top_label if admitted else self.fallback_label
     
+    #    # stage 2: a STATUS for every query
+    #     #   general    -> not admitted, goes to the fallback
+    #     #   specialist -> admitted, and the winner is strong (top z-score >= T*(K))
+    #     #   review     -> admitted, but the winner is weak   (top z-score <  T*(K))
+    #     if not admitted:
+    #         route_status = "general"
+    #     elif strength_ok:
+    #         route_status = "specialist"
+    #     else:
+    #         route_status = "review"
 
         # print("DEBUG ZSCORES")
         # print(confidence_result["zscores"])
@@ -224,6 +238,8 @@ class CrossEncoderRouter(RouterBase):
         return {
                         "routing_method": self.routing_method,
                         "query": query,
+                        "a":self.a,
+                        "b":self.b,
             
                         "raw_response": None,
                         "predicted_label": predicted_label,
@@ -267,7 +283,10 @@ class CrossEncoderRouter(RouterBase):
                         "gate_mode": self.gate_mode,
                         "lead": decision["lead"],
                         "lead_cutoff": decision["cutoff"],
+                        
                         "shield_passed": shield_ok,
+                        # "route_status": route_status
+                    
 
 
                     }

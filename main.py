@@ -26,19 +26,18 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_massive")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu_validation_fixed")
 
-RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu_shield_strength")
-
+RESULTS_DIR = os.path.join(BASE_DIR, "results_medmcqa_shield_specialist_focused_Oldgate")
 
 VERBOSE = True
 
-GATE_MODE = "both"  # "shield", "strength", "both" or "off"
+GATE_MODE = "both"   # "shield", "strength", "both" (AND), "shield_then_review" or "off"
 PERCENTILE = 10
 
 _ref = pd.read_csv(os.path.join(BASE_DIR, "services", "auto_calibration", "reference_queries.csv"))
 REFERENCE_QUERIES = _ref["query" if "query" in _ref.columns else "question"].tolist()
 
-# CONDITIONS = [3,5,7,9]
-CONDITIONS = [3,5,10,12,14]
+CONDITIONS = [3,5,7,9]
+# CONDITIONS = [3,5,8,10,12,14]
 # CONDITIONS = [8]
 
 MODEL_CONFIGS = [
@@ -82,12 +81,12 @@ def run_all():
     succeeded = 0
 
     for k in CONDITIONS:
-        # service_desc_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_service_descriptions_{k}.json")
-        service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
+        service_desc_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_service_descriptions_{k}.json")
+        # service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
         # service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
         # MUST CHANGE DEV to TEST 
-        # dataset_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_test_eval_service_{k}.csv")
-        dataset_path = os.path.join(DATA_DIR, "dataset", f"test_eval_service_{k}.csv")
+        dataset_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_test_eval_service_{k}.csv")
+        # dataset_path = os.path.join(DATA_DIR, "dataset", f"test_eval_service_{k}.csv")
         # dataset_path = os.path.join(DATA_DIR, "dataset", f"dev_eval_service_{k}.csv")
         # dataset_path = os.path.join(DATA_DIR, "dataset", f"mmlu_validation_eval_service_3_fixed.csv")
         # dataset_path = os.path.join(DATA_DIR, "dataset", f"dummy_general.csv")
