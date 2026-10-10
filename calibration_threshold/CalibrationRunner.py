@@ -118,7 +118,6 @@ class CalibrationRunner:
                     required_strength_percentage=threshold,
                     apply_threshold=True,
                     verbose=self.verbose,
-                    **self.router_kwargs,   
                 )
 
                 benchmark = BenchmarkRunner(
