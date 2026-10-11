@@ -83,7 +83,7 @@ class CalibrationRunner:
             service_desc_path = os.path.join(
                 self.data_dir,
                 "dataset",
-                f"service_descriptions_{k}.json"
+                f"massive_service_descriptions_{k}.json"
             )
 
             validation_path = os.path.join(
@@ -91,7 +91,8 @@ class CalibrationRunner:
                 "..",
                 "calibration_threshold",
                 "dataset",
-                f"validation_eval_service_{k}.csv"
+                # f"validation_eval_service_{k}.csv"
+                "dummy_general.csv"
             )
 
             validation_path = os.path.abspath(
@@ -108,7 +109,7 @@ class CalibrationRunner:
                 print("\n" + "-" * 80)
                 print(
                     f"MODEL={self.model_name} | "
-                    f"ZSCORE_MARGIN_THRESHOLD={threshold}"
+                    f"THRESHOLD={threshold}"
                 )
                 print("-" * 80)
 

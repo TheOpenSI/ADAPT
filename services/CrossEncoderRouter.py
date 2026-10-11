@@ -24,7 +24,11 @@ class CrossEncoderRouter(RouterBase):
                  a=-39.6013, 
                  b=93.3028,
                  
-                 gate_mode="off",               # "shield", "strength", "both", or "off"
+                 gate_mode="mad",                # "off", "strength" or "mad"
+
+                 mad_tau=0.5656,
+                 c0=0.6417,
+                 c1=1.4424,
 
     ):
 
@@ -38,6 +42,8 @@ class CrossEncoderRouter(RouterBase):
         self.a, self.b = a, b
 
         self.gate_mode = gate_mode
+        
+        self.mad_tau, self.c0, self.c1 = mad_tau, c0, c1
 
  
         print(f"[CrossEncoderRouter] Loading cross-encoder model '{model_name}'...")
@@ -99,6 +105,8 @@ class CrossEncoderRouter(RouterBase):
         
         service_count = len(scores_dict)
 
+        mad_result = self._calculate_mad_strength(scores_dict, self.mad_tau, self.c0, self.c1)
+
         strength_result = self._calculate_winner_strength(top_zscore=top_zscore,
                                                           service_count=service_count,
                                                           fixed_percentage=self.required_strength_percentage,
@@ -112,8 +120,9 @@ class CrossEncoderRouter(RouterBase):
         #   True            | None                         | auto:  fitted curve p*(K)
 
         
-        strength_ok = strength_result["strength_passed"] 
-
+        strength_ok = strength_result["strength_passed"]
+        mad_ok = mad_result["mad_passed"] 
+        
 
         if not self.apply_threshold or self.gate_mode == "off":
             admitted = True
@@ -121,8 +130,8 @@ class CrossEncoderRouter(RouterBase):
         elif self.gate_mode == "strength":
             admitted = strength_ok           
 
-        # elif self.gate_mode == "mad":
-        #     admitted = tau_ok
+        elif self.gate_mode == "mad":
+            admitted = mad_ok
 
         else:
             raise ValueError(f"unknown gate_mode: {self.gate_mode}")
@@ -238,6 +247,13 @@ class CrossEncoderRouter(RouterBase):
         
                         "apply_threshold": self.apply_threshold,
                         "gate_mode": self.gate_mode,
+
+
+                        # MAD gate
+                        "mad_trust": mad_result["mad_trust"],
+                        "mad_cutoff": mad_result["mad_cutoff"],
+                        "mad_tau": mad_result["tau"],
+                        "mad_passed": mad_result["mad_passed"],
                     }
 
 

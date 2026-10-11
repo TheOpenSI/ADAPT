@@ -1,2 +1,0 @@
-router,model_name,k,threshold,accuracy,fallback_rate,specialist_recall,general_recall,balanced_accuracy,recall_gap
-cross-encoder,Qwen/Qwen3-Reranker-4B,10,0,0.6915,0.0,0.9205,0.0,0.4603,0.9205

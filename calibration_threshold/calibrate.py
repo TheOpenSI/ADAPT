@@ -34,9 +34,9 @@ for model_name in models:
     router_cls=CrossEncoderRouter,
     model_name=model_name,
     thresholds=[0],                            
-    conditions=[10],                           
+    conditions=[9],                           
     data_dir=os.path.join(BASE_DIR, "..", "data"),
-    results_dir=os.path.join(BASE_DIR, "results_validation_scores"),
+    results_dir=os.path.join(BASE_DIR, "results_off_topic_cal", "massive"),
     verbose=False,
     )
     runner.run()

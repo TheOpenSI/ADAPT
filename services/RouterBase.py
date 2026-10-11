@@ -79,6 +79,34 @@ class RouterBase(ABC):
                 "strength_passed": bool(strength_passed),
             }
 
+
+    @staticmethod
+    def _calculate_mad_strength(scores_dict, tau=0.8875, c0=0.7419, c1=0.5284):
+        """
+        MAD winner-strength gate (label-free).
+
+        trust     = (max score - mean score) / tau
+        cutoff(K) = c0 + c1 * ln(K)
+
+        The winner passes when trust >= cutoff.
+        """
+        scores = list(scores_dict.values())
+        service_count = len(scores)
+
+        gap = max(scores) - sum(scores) / service_count
+        trust = gap / tau
+        cutoff = c0 + c1 * np.log(service_count)
+        mad_passed = trust >= cutoff
+
+        return {
+            "service_count": int(service_count),
+            "gap": float(gap),
+            "tau": float(tau),
+            "mad_trust": float(trust),
+            "mad_cutoff": float(cutoff),
+            "mad_passed": bool(mad_passed),
+        }
+
     @abstractmethod
     def route(self, query):
         pass
