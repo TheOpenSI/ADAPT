@@ -27,11 +27,11 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_massive")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu_validation_fixed")
 
-RESULTS_DIR = os.path.join(BASE_DIR, "results_mad_main", "mmlu_90p")
+RESULTS_DIR = os.path.join(BASE_DIR, "results_strength_main", "balanced")
 
 VERBOSE = False
 
-GATE_MODE = "mad"   
+GATE_MODE = "strength"   
 
 # CONDITIONS = [3,5,7,9]
 CONDITIONS = [3,5,8,10,12,14]
@@ -39,18 +39,19 @@ CONDITIONS = [3,5,8,10,12,14]
 
 MODEL_CONFIGS = [
 #     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
-#     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-4B"),
-#     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-8B"),
-    dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5",
-         c0=0.6659, c1=0.8367),
+#     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-4B",
+#          a=-26.6946, b=100.7637),
+# #     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-8B"),
+#     dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5",
+#          a=-44.4017, b=110.7866),
     # dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
 #     dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
     dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",
-         c0=-0.2544, c1=1.0414),
+         a=-21.8942, b=103.2798),
 
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
     dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2",
-         c0=-10.042, c1=17.958),
+         a=-14.1738, b=99.7747),
     # dict(cls=CrossEncoderRouter, model_name="BAAI/bge-reranker-v2-m3"),
     
     # dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT"),
@@ -65,6 +66,16 @@ MODEL_CONFIGS = [
     # dict(cls=QueryAnalyser, model_name="qwen2.5:7b"),
     # dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
     # dict(cls=QueryAnalyser, model_name="qwen3:32b"),
+
+
+
+#     # MAD
+#     dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5",
+#              c0=0.6659, c1=0.8367),
+#     dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",
+#              c0=-0.2544, c1=1.0414),
+#     dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2",
+#                       c0=-10.042, c1=17.958),
 ]
 
 
@@ -120,34 +131,35 @@ def run_all():
                     model_name=cfg["model_name"],
                     verbose=VERBOSE,
                     gate_mode=GATE_MODE,
+                    a=cfg["a"],
+                    b=cfg["b"],
                 )
 
                 # print("\nMODEL LOADED AND READY")
                 # input("Start nvidia-smi logging now, then press Enter to begin benchmark...")
 
-                # --- tau from the notebook ---
-                notebook = TauNotebook(
-                    os.path.join(BASE_DIR, "calibration_threshold", "dataset", "dummy_general.csv"),
-                    os.path.join(BASE_DIR, "calibration_threshold", "results_cut_off",
-                                 "mmlu_" + cfg["model_name"].replace("/", "_") + ".csv"),
-                )
+                if GATE_MODE == "mad":
+                    notebook = TauNotebook(
+                        os.path.join(BASE_DIR, "calibration_threshold", "dataset", "dummy_general.csv"),
+                        os.path.join(BASE_DIR, "calibration_threshold", "results_cut_off",
+                                     "mmlu_" + cfg["model_name"].replace("/", "_") + ".csv"),
+                    )
 
-
-                def scorer(questions, name):
-                    description = router.services[name]
-                    if isinstance(router, SemanticRouter):
-                        q_vecs = router.model.encode(questions)
-                        d_vec = router.model.encode(description)
-                        return [router._cosine_similarity(q_vec, d_vec) for q_vec in q_vecs]
-                    return router.score_queries(router.model_name, questions, description)
+                    def scorer(questions, name):
+                        description = router.services[name]
+                        if isinstance(router, SemanticRouter):
+                            q_vecs = router.model.encode(questions)
+                            d_vec = router.model.encode(description)
+                            return [router._cosine_similarity(q_vec, d_vec) for q_vec in q_vecs]
+                        return router.score_queries(router.model_name, questions, description)
 
  
-                names = list(router.services)
-                router.mad_tau = notebook.tau(list(router.services), scorer)
-                router.c0 = cfg["c0"]
-                router.c1 = cfg["c1"]
-                cutoff = router.c0 + router.c1 * math.log(len(names))
-                print(f"[run_benchmark] K={k}  tau={router.mad_tau:.4f} cutoff={cutoff:.4f}")
+                    names = list(router.services)
+                    router.mad_tau = notebook.tau(list(router.services), scorer)
+                    router.c0 = cfg["c0"]
+                    router.c1 = cfg["c1"]
+                    cutoff = router.c0 + router.c1 * math.log(len(names))
+                    print(f"[run_benchmark] K={k}  tau={router.mad_tau:.4f} cutoff={cutoff:.4f}")
 
                 runner = BenchmarkRunner(dataset_path, 
                                          router, 
