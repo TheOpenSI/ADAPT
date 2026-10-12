@@ -83,7 +83,7 @@ class CalibrationRunner:
             service_desc_path = os.path.join(
                 self.data_dir,
                 "dataset",
-                f"massive_service_descriptions_{k}.json"
+                f"service_descriptions_{k}.json"
             )
 
             validation_path = os.path.join(

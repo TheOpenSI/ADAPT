@@ -1,0 +1,5 @@
+model,K,tau,cutoff_p90
+mixedbread-ai/mxbai-rerank-large-v2,3,0.010301040039242556,10.38595383535075
+mixedbread-ai/mxbai-rerank-large-v2,5,0.010476084530819203,17.600801188761114
+mixedbread-ai/mxbai-rerank-large-v2,8,0.010130975882930205,27.436185678177676
+mixedbread-ai/mxbai-rerank-large-v2,10,0.010121726681245483,31.729926491670692

@@ -4,17 +4,18 @@ import gc
 import time
 import torch
 import pandas as pd
-
+import math
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)
 
 
 from data_collector.BenchmarkRunner import BenchmarkRunner
-# from services.SemanticRouter import SemanticRouter
+from services.SemanticRouter import SemanticRouter
 from services.CrossEncoderRouter import CrossEncoderRouter
 # from services.ColBERTRouter import ColBERTRouter
 # from services.QueryAnalyser import QueryAnalyser
+from services.TauNoteBook import TauNotebook
 
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -26,26 +27,30 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_massive")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu_validation_fixed")
 
-RESULTS_DIR = os.path.join(BASE_DIR, "results_mad_medmcqa_borrow_mmlu_tau")
+RESULTS_DIR = os.path.join(BASE_DIR, "results_mad_main", "mmlu_90p")
 
 VERBOSE = False
 
 GATE_MODE = "mad"   
 
-CONDITIONS = [3,5,7,9]
-# CONDITIONS = [3,5,8,10,12,14]
+# CONDITIONS = [3,5,7,9]
+CONDITIONS = [3,5,8,10,12,14]
 # CONDITIONS = [8]
 
 MODEL_CONFIGS = [
 #     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
 #     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-4B"),
 #     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-8B"),
-    # dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5"),
+    dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5",
+         c0=0.6659, c1=0.8367),
     # dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
 #     dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
-    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B"),
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",
+         c0=-0.2544, c1=1.0414),
+
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
-    # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2"),
+    dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2",
+         c0=-10.042, c1=17.958),
     # dict(cls=CrossEncoderRouter, model_name="BAAI/bge-reranker-v2-m3"),
     
     # dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT"),
@@ -77,15 +82,15 @@ def run_all():
     succeeded = 0
 
     for k in CONDITIONS:
-        service_desc_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_service_descriptions_{k}.json")
+        # service_desc_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_service_descriptions_{k}.json")
         # service_desc_path = os.path.join(DATA_DIR, "dataset", f"massive_service_descriptions_{k}.json")
-        # service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
+        service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
 
         # MUST CHANGE DEV to TEST 
-        dataset_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_test_eval_service_{k}.csv")
+        # dataset_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_test_eval_service_{k}.csv")
         # dataset_path = os.path.join(DATA_DIR, "dataset", f"massive_test_eval_service_{k}.csv")
-        # dataset_path = os.path.join(DATA_DIR, "dataset", f"test_eval_service_{k}.csv")
-        # dataset_path = os.path.join(DATA_DIR, "dataset", f"dev_eval_service_{k}.csv")
+        # dataset_path = os.path.join(DATA_DIR, "dataset", f"mmlu_validation_eval_service_{k}.csv")
+        dataset_path = os.path.join(DATA_DIR, "dataset", f"test_eval_service_{k}.csv")
         # dataset_path = os.path.join(DATA_DIR, "dataset", f"mmlu_validation_eval_service_3_fixed.csv")
         
 
@@ -119,6 +124,30 @@ def run_all():
 
                 # print("\nMODEL LOADED AND READY")
                 # input("Start nvidia-smi logging now, then press Enter to begin benchmark...")
+
+                # --- tau from the notebook ---
+                notebook = TauNotebook(
+                    os.path.join(BASE_DIR, "calibration_threshold", "dataset", "dummy_general.csv"),
+                    os.path.join(BASE_DIR, "calibration_threshold", "results_cut_off",
+                                 "mmlu_" + cfg["model_name"].replace("/", "_") + ".csv"),
+                )
+
+
+                def scorer(questions, name):
+                    description = router.services[name]
+                    if isinstance(router, SemanticRouter):
+                        q_vecs = router.model.encode(questions)
+                        d_vec = router.model.encode(description)
+                        return [router._cosine_similarity(q_vec, d_vec) for q_vec in q_vecs]
+                    return router.score_queries(router.model_name, questions, description)
+
+ 
+                names = list(router.services)
+                router.mad_tau = notebook.tau(list(router.services), scorer)
+                router.c0 = cfg["c0"]
+                router.c1 = cfg["c1"]
+                cutoff = router.c0 + router.c1 * math.log(len(names))
+                print(f"[run_benchmark] K={k}  tau={router.mad_tau:.4f} cutoff={cutoff:.4f}")
 
                 runner = BenchmarkRunner(dataset_path, 
                                          router, 

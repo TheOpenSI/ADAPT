@@ -111,11 +111,11 @@ class MADGate:
 
 
 if __name__ == "__main__":
-    dataset = "massive"
-    model   = "Qwen/Qwen3-Reranker-4B"
+    dataset = "mmlu"
+    model   = "BAAI/bge-large-en-v1.5"
 
     gate = MADGate(
-        "../../calibration_threshold/results_off_topic_cal/massive/dummy_general/cross-encoder_Qwen-Qwen3-Reranker-4B.csv",
+        "../../calibration_threshold/results_off_topic_cal/mmlu/dummy_general/bi-encoder_BAAI-bge-large-en-v1.5.csv",
         percentile=90,
         save_dir=os.path.join("calibration_results", dataset, model.replace("/", "_")),
     )

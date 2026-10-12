@@ -1,4 +1,0 @@
-
-Saved: ../general_dataset/test_external_general.csv
-
-[DONE] Total rows: 100
