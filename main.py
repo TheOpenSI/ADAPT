@@ -13,7 +13,7 @@ sys.path.append(BASE_DIR)
 from data_collector.BenchmarkRunner import BenchmarkRunner
 from services.SemanticRouter import SemanticRouter
 from services.CrossEncoderRouter import CrossEncoderRouter
-# from services.ColBERTRouter import ColBERTRouter
+from services.ColBERTRouter import ColBERTRouter
 # from services.QueryAnalyser import QueryAnalyser
 from services.TauNoteBook import TauNotebook
 
@@ -27,38 +27,33 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_massive")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu_validation_fixed")
 
-RESULTS_DIR = os.path.join(BASE_DIR, "results_strength_main", "balanced")
+# RESULTS_DIR = os.path.join(BASE_DIR, "results_strength_main", "balanced")
+RESULTS_DIR = os.path.join(BASE_DIR, "results_raw_scores")  
 
 VERBOSE = False
 
-GATE_MODE = "strength"   
+GATE_MODE = "off"   
 
 # CONDITIONS = [3,5,7,9]
 CONDITIONS = [3,5,8,10,12,14]
 # CONDITIONS = [8]
 
 MODEL_CONFIGS = [
-#     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
-#     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-4B",
-#          a=-26.6946, b=100.7637),
-# #     dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-8B"),
-#     dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5",
-#          a=-44.4017, b=110.7866),
-    # dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
-#     dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
-    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",
-     a=-26.6946, b=105.7637),
-
-    # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
-    # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2",
-    #      a=-14.1738, b=99.7747),
-    # dict(cls=CrossEncoderRouter, model_name="BAAI/bge-reranker-v2-m3"),
-    
-    # dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT"),
-    # dict(cls=ColBERTRouter, model_name="colbert-ir/colbertv2.0"),
-    # dict(cls=ColBERTRouter, model_name="mixedbread-ai/mxbai-colbert-large-v1"),
-    # dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M"),
-
+    dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
+    dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-4B"),
+    dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-8B"),
+    dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5"),
+    dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B"),
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
+    dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2"),
+    dict(cls=CrossEncoderRouter, model_name="BAAI/bge-reranker-v2-m3"),
+    dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT"),
+    dict(cls=ColBERTRouter, model_name="colbert-ir/colbertv2.0"),
+    dict(cls=ColBERTRouter, model_name="mixedbread-ai/mxbai-colbert-large-v1"),
+    dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M"),
+]
 
     # dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
     # dict(cls=QueryAnalyser, model_name="qwen2.5:32b"),
@@ -76,7 +71,6 @@ MODEL_CONFIGS = [
 #              c0=-0.2544, c1=1.0414),
 #     dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2",
 #                       c0=-10.042, c1=17.958),
-]
 
 
 def cleanup_gpu():
@@ -131,8 +125,8 @@ def run_all():
                     model_name=cfg["model_name"],
                     verbose=VERBOSE,
                     gate_mode=GATE_MODE,
-                    a=cfg["a"],
-                    b=cfg["b"],
+                    # a=cfg["a"],
+                    # b=cfg["b"],
                 )
 
                 # print("\nMODEL LOADED AND READY")

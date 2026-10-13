@@ -1,0 +1,11 @@
+{
+  "routing_method": "colbert",
+  "model_name": "colbert-ir/colbertv2.0",
+  "specialist_service_count": 8,
+  "total_service_count": 8,
+  "total_queries": 900,
+  "total_energy_kwh": 0.00046317712366126255,
+  "energy_per_query_kwh": 5.146412485125139e-07,
+  "total_co2_kg": 0.0002541415823359455,
+  "co2_per_query_kg": 2.8237953592882835e-07
+}
