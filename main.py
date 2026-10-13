@@ -47,11 +47,11 @@ MODEL_CONFIGS = [
     # dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
 #     dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
     dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",
-         a=-21.8942, b=103.2798),
+     a=-26.6946, b=105.7637),
 
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
-    dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2",
-         a=-14.1738, b=99.7747),
+    # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2",
+    #      a=-14.1738, b=99.7747),
     # dict(cls=CrossEncoderRouter, model_name="BAAI/bge-reranker-v2-m3"),
     
     # dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT"),
