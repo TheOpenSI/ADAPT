@@ -1,0 +1,11 @@
+{
+  "routing_method": "colbert",
+  "model_name": "LiquidAI/LFM2-ColBERT-350M",
+  "specialist_service_count": 3,
+  "total_service_count": 3,
+  "total_queries": 400,
+  "total_energy_kwh": 0.00035163897546145774,
+  "energy_per_query_kwh": 8.790974386536443e-07,
+  "total_co2_kg": 0.0001929414927238982,
+  "co2_per_query_kg": 4.823537318097455e-07
+}

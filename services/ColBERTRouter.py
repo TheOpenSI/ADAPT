@@ -8,7 +8,7 @@ from sentence_transformers import MultiVectorEncoder
 
 from services.RouterBase import RouterBase
 from services.confidence_checker.metrics import ConfidenceMetrics
-
+import numpy as np
 
 class ColBERTRouter(RouterBase):
     routing_method = "colbert"
@@ -33,6 +33,9 @@ class ColBERTRouter(RouterBase):
                  c0=1.0,
                  c1=1.0,
 
+                 gap_c0=None,
+                 gap_c1=None,
+
     ):
 
         super().__init__(service_desc_path, model_name)
@@ -48,6 +51,12 @@ class ColBERTRouter(RouterBase):
         self.length_normalise = length_normalise
 
         self.mad_tau, self.c0, self.c1 = mad_tau, c0, c1
+        self.gap_c0, self.gap_c1 = gap_c0, gap_c1
+
+        if gate_mode == "gap" and apply_threshold and None in (gap_c0, gap_c1):
+            raise ValueError(
+                "gate_mode='gap' needs gap_c0 and gap_c1 fitted for this ColBERT model."
+            )
 
         print(f"[ColBERTRouter] Loading ColBERT model '{model_name}'...")
         load_start = time.perf_counter()
@@ -103,6 +112,12 @@ class ColBERTRouter(RouterBase):
 
         service_count = len(scores_dict)
 
+        # Gap gate
+        gap = max(scores) - float(np.median(scores))
+        gap_cutoff = (float(self.gap_c0 + self.gap_c1 * np.log(service_count))
+                      if self.gap_c0 is not None else None)
+        gap_ok = bool(gap > gap_cutoff) if gap_cutoff is not None else True
+
         mad_result = self._calculate_mad_strength(scores_dict, self.mad_tau, self.c0, self.c1)
 
         strength_result = self._calculate_winner_strength(top_zscore=top_zscore,
@@ -127,6 +142,9 @@ class ColBERTRouter(RouterBase):
 
         elif self.gate_mode == "mad":
             admitted = mad_ok
+
+        elif self.gate_mode == "gap":
+            admitted = gap_ok
 
         else:
             raise ValueError(f"unknown gate_mode: {self.gate_mode}")
@@ -220,6 +238,11 @@ class ColBERTRouter(RouterBase):
             "mad_cutoff": mad_result["mad_cutoff"],
             "mad_tau": mad_result["tau"],
             "mad_passed": mad_result["mad_passed"],
+
+            # Gap gate
+            "gap": gap,
+            "gap_cutoff": gap_cutoff,
+            "gap_passed": gap_ok,
         }
 
 

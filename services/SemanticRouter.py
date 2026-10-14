@@ -31,7 +31,9 @@ class SemanticRouter(RouterBase):
                  mad_tau=0.02306,
                  c0 = 1.3033,
                  c1 = 0.9852,
-
+                 
+                 gap_c0=None,
+                 gap_c1=None,
     ):
 
         super().__init__(service_desc_path, model_name)
@@ -46,12 +48,17 @@ class SemanticRouter(RouterBase):
         self.gate_mode = gate_mode
 
         self.mad_tau, self.c0, self.c1 = mad_tau, c0, c1
+        self.gap_c0, self.gap_c1 = gap_c0, gap_c1
 
-        # Stop early instead of silently using numbers from another model.
+
         if gate_mode == "mad" and apply_threshold and None in (mad_tau, c0, c1):
             raise ValueError(
                 "gate_mode='mad' needs mad_tau, c0 and c1 for this embedding model. "
                 "Run the off-topic queries with gate_mode='off', then MADGate, and pass the numbers in."
+            )
+        if gate_mode == "gap" and apply_threshold and None in (gap_c0, gap_c1):
+            raise ValueError(
+                "gate_mode='gap' needs gap_c0 and gap_c1 fitted for this embedding model."
             )
 
         print(f"[SemanticRouter] Loading embedding model '{model_name}'... (this may take a while on first run)")
@@ -125,6 +132,13 @@ class SemanticRouter(RouterBase):
 
         service_count = len(scores_dict)
 
+        # Gap gate
+        score_values = list(scores_dict.values())
+        gap = max(score_values) - float(np.median(score_values))
+        gap_cutoff = (self.gap_c0 + self.gap_c1 * np.log(service_count)
+                      if self.gap_c0 is not None else None)
+        gap_ok = bool(gap > gap_cutoff) if gap_cutoff is not None else True
+
      
         mad_result = self._calculate_mad_strength(scores_dict, self.mad_tau, self.c0, self.c1)
         
@@ -151,6 +165,9 @@ class SemanticRouter(RouterBase):
 
         elif self.gate_mode == "mad":
             admitted = mad_ok
+
+        elif self.gate_mode == "gap":
+            admitted = gap_ok
 
         else:
             raise ValueError(f"unknown gate_mode: {self.gate_mode}")
@@ -257,6 +274,11 @@ class SemanticRouter(RouterBase):
             "mad_cutoff": mad_result["mad_cutoff"],
             "mad_tau": mad_result["tau"],
             "mad_passed": mad_result["mad_passed"],
+
+            # Gap gate
+            "gap": gap,
+            "gap_cutoff": gap_cutoff,
+            "gap_passed": gap_ok,
         }
 
 

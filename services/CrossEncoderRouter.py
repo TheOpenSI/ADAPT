@@ -9,7 +9,8 @@ from sentence_transformers import CrossEncoder
 from services.confidence_checker.metrics import ConfidenceMetrics
 from services.RouterBase import RouterBase
 
- 
+import numpy as np
+
 class CrossEncoderRouter(RouterBase):
     routing_method = "cross-encoder"
  
@@ -24,12 +25,14 @@ class CrossEncoderRouter(RouterBase):
                  a=-39.6013, 
                  b=93.3028,
                  
-                 gate_mode="mad",                # "off", "strength" or "mad"
+                 gate_mode="mad",                # "gap", "off", "strength" or "mad"
 
                  mad_tau=0.5656,
                  c0=0.6417,
                  c1=1.4424,
-
+                 
+                 gap_c0=1.0815,
+                 gap_c1=0.4944,
     ):
 
         super().__init__(service_desc_path, model_name)
@@ -44,6 +47,8 @@ class CrossEncoderRouter(RouterBase):
         self.gate_mode = gate_mode
         
         self.mad_tau, self.c0, self.c1 = mad_tau, c0, c1
+
+        self.gap_c0, self.gap_c1 = gap_c0, gap_c1
 
  
         print(f"[CrossEncoderRouter] Loading cross-encoder model '{model_name}'...")
@@ -105,6 +110,11 @@ class CrossEncoderRouter(RouterBase):
         
         service_count = len(scores_dict)
 
+        # Gap gate
+        gap = max(scores) - float(np.median(scores))
+        gap_cutoff = self.gap_c0 + self.gap_c1 * np.log(service_count)
+        gap_ok = gap > gap_cutoff
+
         mad_result = self._calculate_mad_strength(scores_dict, self.mad_tau, self.c0, self.c1)
 
         strength_result = self._calculate_winner_strength(top_zscore=top_zscore,
@@ -132,6 +142,9 @@ class CrossEncoderRouter(RouterBase):
 
         elif self.gate_mode == "mad":
             admitted = mad_ok
+
+        elif self.gate_mode == "gap":
+            admitted = gap_ok
 
         else:
             raise ValueError(f"unknown gate_mode: {self.gate_mode}")
@@ -254,6 +267,11 @@ class CrossEncoderRouter(RouterBase):
                         "mad_cutoff": mad_result["mad_cutoff"],
                         "mad_tau": mad_result["tau"],
                         "mad_passed": mad_result["mad_passed"],
+
+                        # Gap gate
+                        "gap": gap,
+                        "gap_cutoff": gap_cutoff,
+                        "gap_passed": gap_ok,
                     }
 
 
