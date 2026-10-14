@@ -1,0 +1,11 @@
+{
+  "routing_method": "colbert",
+  "model_name": "lightonai/Reason-ModernColBERT",
+  "specialist_service_count": 7,
+  "total_service_count": 7,
+  "total_queries": 480,
+  "total_energy_kwh": 0.00039965902079219524,
+  "energy_per_query_kwh": 8.326229599837401e-07,
+  "total_co2_kg": 0.0002192897074365112,
+  "co2_per_query_kg": 4.5685355715939837e-07
+}

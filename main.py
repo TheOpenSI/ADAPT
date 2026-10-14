@@ -14,7 +14,7 @@ from data_collector.BenchmarkRunner import BenchmarkRunner
 from services.SemanticRouter import SemanticRouter
 from services.CrossEncoderRouter import CrossEncoderRouter
 from services.ColBERTRouter import ColBERTRouter
-# from services.QueryAnalyser import QueryAnalyser
+from services.QueryAnalyser import QueryAnalyser
 from services.TauNoteBook import TauNotebook
 
 
@@ -28,7 +28,8 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu_validation_fixed")
 
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_strength_main", "balanced")
-RESULTS_DIR = os.path.join(BASE_DIR, "results_gap_gate")  
+# RESULTS_DIR = os.path.join(BASE_DIR, "results_gap_medmcqa")  
+RESULTS_DIR = os.path.join(BASE_DIR, "results_llm")  
 
 VERBOSE = False
 
@@ -42,35 +43,35 @@ MODEL_CONFIGS = [
     # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-0.6B"),
     # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-4B"),
     # dict(cls=SemanticRouter, model_name="Qwen/Qwen3-Embedding-8B"),
-    dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5",
-     gap_c0=0.0436, gap_c1=0.0163), 
-    # dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
-    # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
-    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",
-         gap_c0=0.9332, gap_c1=0.3971),
-    # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
-    dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2",
-         gap_c0=-0.0994, gap_c1=0.1976),  
+    # dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5",
+    #  gap_c0=0.0436, gap_c1=0.0163), 
+    # # dict(cls=SemanticRouter, model_name="sentence-transformers/all-MiniLM-L6-v2"),
+    # # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B"),
+    # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",
+    #      gap_c0=0.9332, gap_c1=0.3971),
+    # # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B"),
+    # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2",
+    #      gap_c0=-0.0994, gap_c1=0.1976),  
 
-    dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT",
-     gap_c0=0.009360, gap_c1=0.013386),
+    # dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT",
+    #  gap_c0=0.009360, gap_c1=0.013386),
      
-    dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M",
-     gap_c0=0.000387, gap_c1=0.000536),
+    # dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M",
+    #  gap_c0=0.000387, gap_c1=0.000536),
     # dict(cls=CrossEncoderRouter, model_name="BAAI/bge-reranker-v2-m3"),
     # dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT"),
     # dict(cls=ColBERTRouter, model_name="colbert-ir/colbertv2.0"),
     # dict(cls=ColBERTRouter, model_name="mixedbread-ai/mxbai-colbert-large-v1"),
     # dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M"),
-]
 
-    # dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
+
+    dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
     # dict(cls=QueryAnalyser, model_name="qwen2.5:32b"),
-    # dict(cls=QueryAnalyser, model_name="phi4:14b"),
+    dict(cls=QueryAnalyser, model_name="phi4:14b"),
     # dict(cls=QueryAnalyser, model_name="qwen2.5:7b"),
-    # dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
+    dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
     # dict(cls=QueryAnalyser, model_name="qwen3:32b"),
-
+]
 
 
 #     # MAD
@@ -134,9 +135,9 @@ def run_all():
                     service_desc_path=service_desc_path,
                     model_name=cfg["model_name"],
                     verbose=VERBOSE,
-                    gate_mode=GATE_MODE,
-                    gap_c0=cfg["gap_c0"], 
-                    gap_c1=cfg["gap_c1"], 
+                    # gate_mode=GATE_MODE,
+                    # gap_c0=cfg["gap_c0"], 
+                    # gap_c1=cfg["gap_c1"], 
                     # a=cfg["a"],
                     # b=cfg["b"],
                 )
