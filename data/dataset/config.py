@@ -24,18 +24,18 @@ SERVICE_SETS = {
         "jurisprudence",
     ],
 
-    10: [
-        "abstract_algebra",
-        "anatomy",
-        "astronomy",
-        "business_ethics",
-        "college_computer_science",
-        "high_school_chemistry",
-        "high_school_geography",
-        "jurisprudence",
-        "world_religions",
-        "formal_logic",
-    ],
+    # 10: [
+    #     "abstract_algebra",
+    #     "anatomy",
+    #     "astronomy",
+    #     "business_ethics",
+    #     "college_computer_science",
+    #     "high_school_chemistry",
+    #     "high_school_geography",
+    #     "jurisprudence",
+    #     "world_religions",
+    #     "formal_logic",
+    # ],
 
     # 12: [
     #     "abstract_algebra",

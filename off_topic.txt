@@ -1,0 +1,2050 @@
+
+**********************************************************************
+* CONDITION k=8
+*   service_desc_path: /home/maniles/manile/manile/data/dataset/service_descriptions_8.json
+*   dataset_path:      /home/maniles/manile/manile/data/dataset/dummy_general.csv
+**********************************************************************
+
+######################################################################
+# RUN 1/6: SemanticRouter (BAAI/bge-large-en-v1.5) on /home/maniles/manile/manile/data/dataset/dummy_general.csv
+######################################################################
+
+[SemanticRouter] Loading embedding model 'BAAI/bge-large-en-v1.5'... (this may take a while on first run)
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 4612.30it/s]
+[1mBertModel LOAD REPORT[0m from: BAAI/bge-large-en-v1.5
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+[codecarbon WARNING @ 00:55:30] Multiple instances of codecarbon are allowed to run at the same time.
+[SemanticRouter] Model loaded in 5.86s — running on device: cuda:0
+[SemanticRouter] Loaded 8 services.
+[SemanticRouter] Building service embeddings...
+[SemanticRouter] Ready to route.
+
+============================================================
+Starting benchmark: SemanticRouter on /home/maniles/manile/manile/data/dataset/dummy_general.csv
+Total rows to process: 100
+============================================================
+
+
+[1/100] Question: i'd like to make an appointment to get my oil changed
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 1 | 67.9ms
+
+[2/100] Question: i want you to know it's a true statement
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 2 | 14.6ms
+
+[3/100] Question: how much gas does it take to get to jackson
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 3 | 14.1ms
+
+[4/100] Question: how late is it now in ourense
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 4 | 13.9ms
+
+[5/100] Question: i would like you to suggest a chinese dish
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 5 | 14.0ms
+
+[6/100] Question: can you suggest a mexican dish
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 6 | 17.9ms
+
+[7/100] Question: what is the sum of 3, 7, 9, and 24
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 7 | 13.8ms
+
+[8/100] Question: what’s the name of this song
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 8 | 13.7ms
+
+[9/100] Question: i need to know today's forecast
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 9 | 13.8ms
+
+[10/100] Question: give me location for tourist destination in bangkok
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 10 | 13.7ms
+
+[11/100] Question: what should i do if i lost my luggage
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 11 | 13.8ms
+
+[12/100] Question: what is the total of my repair bill
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 12 | 13.7ms
+
+[13/100] Question: what's the carry on policy for delta
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 13 | 13.8ms
+
+[14/100] Question: what is our purpose
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 14 | 14.0ms
+
+[15/100] Question: pull up my credit card application's current status
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 15 | 14.0ms
+
+[16/100] Question: what is the rate for 500 cad in usd
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 16 | 13.6ms
+
+[17/100] Question: please suggest a chinese meal
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 17 | 13.7ms
+
+[18/100] Question: i want to report fraud on my american express
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 18 | 13.7ms
+
+[19/100] Question: tell me please what paean means
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 19 | 13.9ms
+
+[20/100] Question: tell me something interesting about dogs
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 20 | 13.5ms
+
+[21/100] Question: my card is messed up from carding my door
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 21 | 13.7ms
+
+[22/100] Question: when did i change my oil
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 22 | 13.5ms
+
+[23/100] Question: what day do i need to pay my internet and phone bill by
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 23 | 13.7ms
+
+[24/100] Question: do you work for another individual
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 24 | 13.5ms
+
+[25/100] Question: how would i apply for an american express
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 25 | 13.7ms
+
+[26/100] Question: are there any necessary shots required before travel to thailand
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 26 | 13.7ms
+
+[27/100] Question: report a card lost for me
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 27 | 13.5ms
+
+[28/100] Question: do i need shots before traveling to mexico
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 28 | 13.7ms
+
+[29/100] Question: is there lettuce on my shopping list
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 29 | 13.7ms
+
+[30/100] Question: which kinds of info are you familiar with
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 30 | 13.7ms
+
+[31/100] Question: add song to my hype playlist
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 31 | 13.8ms
+
+[32/100] Question: how can i build up my credit score
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 32 | 13.9ms
+
+[33/100] Question: at what point will the review of my credit card application be completed
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 33 | 13.8ms
+
+[34/100] Question: needing you to play the next song
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 34 | 13.7ms
+
+[35/100] Question: what am i allowed to ask you
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 35 | 13.6ms
+
+[36/100] Question: find list of ingredients i would need to bake a funnel cake
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 36 | 13.8ms
+
+[37/100] Question: what kind of interest can i expect with my chase account
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 37 | 13.8ms
+
+[38/100] Question: what benefits do i have for insurance
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 38 | 13.7ms
+
+[39/100] Question: tell me where i left my phone
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 39 | 13.7ms
+
+[40/100] Question: please tell me how to spell umbrella
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 40 | 13.7ms
+
+[41/100] Question: what is walker bank paying me in interest on my account
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 41 | 13.7ms
+
+[42/100] Question: how many points on my chase unlimited card
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 42 | 13.7ms
+
+[43/100] Question: i have credit card points, how do i redeem them
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 43 | 13.9ms
+
+[44/100] Question: possibly either one
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 44 | 13.6ms
+
+[45/100] Question: i prefer to be called jason
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 45 | 13.5ms
+
+[46/100] Question: how much have i recently spent
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 46 | 13.5ms
+
+[47/100] Question: your name please
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 47 | 13.5ms
+
+[48/100] Question: how many ounces in a liter
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 48 | 13.6ms
+
+[49/100] Question: how do i set up direct deposit for my cefcu account
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 49 | 13.6ms
+
+[50/100] Question: i am looking for good southeast asian restaurants in philadelphia
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 50 | 14.0ms
+
+[51/100] Question: what time is it in france
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 51 | 13.7ms
+
+[52/100] Question: is it true that nicotine is harder to kick than heroin
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 52 | 13.7ms
+
+[53/100] Question: who is your manufacturer
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 53 | 13.5ms
+
+[54/100] Question: my card isn't working because its destroyed
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 54 | 13.7ms
+
+[55/100] Question: what are the things that i wanted to keep in mind
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 55 | 15.0ms
+
+[56/100] Question: please help me find my lost phone
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 56 | 14.9ms
+
+[57/100] Question: what do you do in your spare time siri
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 57 | 14.8ms
+
+[58/100] Question: will my 401k carryover
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 58 | 14.6ms
+
+[59/100] Question: i need to know when's the next holiday
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 59 | 14.7ms
+
+[60/100] Question: can you tell me how much i spent on grocery shopping recently
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 60 | 14.8ms
+
+[61/100] Question: yup, that's true
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 61 | 14.8ms
+
+[62/100] Question: what is the purpose or benefit of a cash advance
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 62 | 14.7ms
+
+[63/100] Question: i need to reserve a large room or suite for 2 couples for august 15th through august 18th in seattle
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 63 | 15.0ms
+
+[64/100] Question: spirit mastercard card was taken
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 64 | 14.5ms
+
+[65/100] Question: tell me how i can apply for a chase credit card
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 65 | 14.8ms
+
+[66/100] Question: i need quiet; use whisper
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 66 | 15.7ms
+
+[67/100] Question: send mike my exact location
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 67 | 15.1ms
+
+[68/100] Question: i would like to try and confirm that i have a reservation at longhorn for justin
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 68 | 15.2ms
+
+[69/100] Question: how many paypal transactions did i have last week
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 69 | 15.1ms
+
+[70/100] Question: is there a minimum amount accepted
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 70 | 15.1ms
+
+[71/100] Question: please let me review all items on my mastercard from this billing period
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 71 | 15.3ms
+
+[72/100] Question: submit full payment to chase for my visa bill
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 72 | 15.2ms
+
+[73/100] Question: what is your date of birth
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 73 | 16.6ms
+
+[74/100] Question: reset to factory settings
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 74 | 18.2ms
+
+[75/100] Question: i'd like you to add oranges to my shopping list
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 75 | 15.0ms
+
+[76/100] Question: can i rent a car from dfw airport from march 1st to march 8th
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 76 | 14.5ms
+
+[77/100] Question: remind me of how days i had off so far for the year
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 77 | 14.0ms
+
+[78/100] Question: can you tell me how long approximate wait times are at cheesecake factory
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 78 | 13.7ms
+
+[79/100] Question: are more than one carry on allowed at klm
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 79 | 14.1ms
+
+[80/100] Question: pull up the nutrional info of a 12 oz coke
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 80 | 14.6ms
+
+[81/100] Question: i am needing the next song to be played
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 81 | 19.0ms
+
+[82/100] Question: read my shopping list
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 82 | 15.1ms
+
+[83/100] Question: who should i call for a w2
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 83 | 15.1ms
+
+[84/100] Question: how you are
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 84 | 14.7ms
+
+[85/100] Question: how little can i pay on my phone bill
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 85 | 15.0ms
+
+[86/100] Question: find a recipe for hamburgers
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 86 | 14.1ms
+
+[87/100] Question: are shots required before traveling to brazil
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 87 | 13.9ms
+
+[88/100] Question: i need to be out of whisper mode
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 88 | 13.8ms
+
+[89/100] Question: british columbia can be found in what timezone
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 89 | 13.7ms
+
+[90/100] Question: how much is my bill for capital one
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 90 | 13.7ms
+
+[91/100] Question: i want the volume at level 4
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 91 | 13.7ms
+
+[92/100] Question: i need 2000 to go to my chase checking from my mellon bank savings account
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 92 | 13.8ms
+
+[93/100] Question: what is the wait time for torris
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 93 | 13.8ms
+
+[94/100] Question: what is the best way to keep my credit score from going down
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 94 | 14.1ms
+
+[95/100] Question: don't know
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 95 | 13.6ms
+
+[96/100] Question: can you tell me some fake news
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 96 | 13.8ms
+
+[97/100] Question: how do i report fraud on my chase bank card
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 97 | 13.7ms
+
+[98/100] Question: negatory
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 98 | 13.5ms
+
+[99/100] Question: i was wondering about the vacation time you said you'll approve
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 99 | 13.7ms
+
+[100/100] Question: contact the bank about fraud activity on my card
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 100 | 13.8ms
+
+=== ROUTING RESULTS ===
+Correct: 0
+Wrong:   100
+Errors:  0
+Total:   100
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/bi-encoder_BAAI-bge-large-en-v1.5.json
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/bi-encoder_BAAI-bge-large-en-v1.5.csv
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/bi-encoder_BAAI-bge-large-en-v1.5_efficiency.json
+
+=== ENERGY / CARBON ===
+Total CO2 (kg): 4.5752815154079855e-05
+Total energy (kWh): 8.33852419099966e-05
+DONE
+============================================================
+
+
+BENCHMARK FINISHED
+
+[run_benchmark] SemanticRouter finished in 12.1s (0.2 min)
+
+######################################################################
+# RUN 2/6: SemanticRouter (sentence-transformers/all-MiniLM-L6-v2) on /home/maniles/manile/manile/data/dataset/dummy_general.csv
+######################################################################
+
+[SemanticRouter] Loading embedding model 'sentence-transformers/all-MiniLM-L6-v2'... (this may take a while on first run)
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4679.72it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+[SemanticRouter] Model loaded in 5.06s — running on device: cuda:0
+[SemanticRouter] Loaded 8 services.
+[SemanticRouter] Building service embeddings...
+[SemanticRouter] Ready to route.
+
+============================================================
+Starting benchmark: SemanticRouter on /home/maniles/manile/manile/data/dataset/dummy_general.csv
+Total rows to process: 100
+============================================================
+
+
+[1/100] Question: i'd like to make an appointment to get my oil changed
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 1 | 10.8ms
+
+[2/100] Question: i want you to know it's a true statement
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 2 | 5.2ms
+
+[3/100] Question: how much gas does it take to get to jackson
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 3 | 4.9ms
+
+[4/100] Question: how late is it now in ourense
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 4 | 5.0ms
+
+[5/100] Question: i would like you to suggest a chinese dish
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 5 | 4.9ms
+
+[6/100] Question: can you suggest a mexican dish
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 6 | 4.9ms
+
+[7/100] Question: what is the sum of 3, 7, 9, and 24
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 7 | 5.0ms
+
+[8/100] Question: what’s the name of this song
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 8 | 4.7ms
+
+[9/100] Question: i need to know today's forecast
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 9 | 4.7ms
+
+[10/100] Question: give me location for tourist destination in bangkok
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 10 | 4.7ms
+
+[11/100] Question: what should i do if i lost my luggage
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 11 | 5.2ms
+
+[12/100] Question: what is the total of my repair bill
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 12 | 4.7ms
+
+[13/100] Question: what's the carry on policy for delta
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 13 | 4.8ms
+
+[14/100] Question: what is our purpose
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 14 | 4.9ms
+
+[15/100] Question: pull up my credit card application's current status
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 15 | 4.8ms
+
+[16/100] Question: what is the rate for 500 cad in usd
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 16 | 4.7ms
+
+[17/100] Question: please suggest a chinese meal
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 17 | 4.9ms
+
+[18/100] Question: i want to report fraud on my american express
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 18 | 4.8ms
+
+[19/100] Question: tell me please what paean means
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 19 | 4.9ms
+
+[20/100] Question: tell me something interesting about dogs
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 20 | 4.7ms
+
+[21/100] Question: my card is messed up from carding my door
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 21 | 4.7ms
+
+[22/100] Question: when did i change my oil
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 22 | 4.7ms
+
+[23/100] Question: what day do i need to pay my internet and phone bill by
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 23 | 4.8ms
+
+[24/100] Question: do you work for another individual
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 24 | 4.7ms
+
+[25/100] Question: how would i apply for an american express
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 25 | 4.7ms
+
+[26/100] Question: are there any necessary shots required before travel to thailand
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 26 | 4.8ms
+
+[27/100] Question: report a card lost for me
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 27 | 4.8ms
+
+[28/100] Question: do i need shots before traveling to mexico
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 28 | 4.7ms
+
+[29/100] Question: is there lettuce on my shopping list
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 29 | 4.8ms
+
+[30/100] Question: which kinds of info are you familiar with
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 30 | 4.7ms
+
+[31/100] Question: add song to my hype playlist
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 31 | 4.7ms
+
+[32/100] Question: how can i build up my credit score
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 32 | 4.7ms
+
+[33/100] Question: at what point will the review of my credit card application be completed
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 33 | 4.8ms
+
+[34/100] Question: needing you to play the next song
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 34 | 4.7ms
+
+[35/100] Question: what am i allowed to ask you
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 35 | 4.8ms
+
+[36/100] Question: find list of ingredients i would need to bake a funnel cake
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 36 | 4.8ms
+
+[37/100] Question: what kind of interest can i expect with my chase account
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 37 | 4.8ms
+
+[38/100] Question: what benefits do i have for insurance
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 38 | 4.7ms
+
+[39/100] Question: tell me where i left my phone
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 39 | 4.8ms
+
+[40/100] Question: please tell me how to spell umbrella
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 40 | 4.7ms
+
+[41/100] Question: what is walker bank paying me in interest on my account
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 41 | 4.8ms
+
+[42/100] Question: how many points on my chase unlimited card
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 42 | 4.8ms
+
+[43/100] Question: i have credit card points, how do i redeem them
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 43 | 4.9ms
+
+[44/100] Question: possibly either one
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 44 | 4.8ms
+
+[45/100] Question: i prefer to be called jason
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 45 | 4.7ms
+
+[46/100] Question: how much have i recently spent
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 46 | 4.8ms
+
+[47/100] Question: your name please
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 47 | 4.8ms
+
+[48/100] Question: how many ounces in a liter
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 48 | 4.7ms
+
+[49/100] Question: how do i set up direct deposit for my cefcu account
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 49 | 4.9ms
+
+[50/100] Question: i am looking for good southeast asian restaurants in philadelphia
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 50 | 4.8ms
+
+[51/100] Question: what time is it in france
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 51 | 4.9ms
+
+[52/100] Question: is it true that nicotine is harder to kick than heroin
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 52 | 4.9ms
+
+[53/100] Question: who is your manufacturer
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 53 | 4.8ms
+
+[54/100] Question: my card isn't working because its destroyed
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 54 | 4.8ms
+
+[55/100] Question: what are the things that i wanted to keep in mind
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 55 | 4.8ms
+
+[56/100] Question: please help me find my lost phone
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 56 | 4.9ms
+
+[57/100] Question: what do you do in your spare time siri
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 57 | 5.0ms
+
+[58/100] Question: will my 401k carryover
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 58 | 4.8ms
+
+[59/100] Question: i need to know when's the next holiday
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 59 | 4.8ms
+
+[60/100] Question: can you tell me how much i spent on grocery shopping recently
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 60 | 4.8ms
+
+[61/100] Question: yup, that's true
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 61 | 4.8ms
+
+[62/100] Question: what is the purpose or benefit of a cash advance
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 62 | 4.7ms
+
+[63/100] Question: i need to reserve a large room or suite for 2 couples for august 15th through august 18th in seattle
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 63 | 5.1ms
+
+[64/100] Question: spirit mastercard card was taken
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 64 | 4.7ms
+
+[65/100] Question: tell me how i can apply for a chase credit card
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 65 | 4.7ms
+
+[66/100] Question: i need quiet; use whisper
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 66 | 4.8ms
+
+[67/100] Question: send mike my exact location
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 67 | 4.9ms
+
+[68/100] Question: i would like to try and confirm that i have a reservation at longhorn for justin
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 68 | 5.1ms
+
+[69/100] Question: how many paypal transactions did i have last week
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 69 | 4.8ms
+
+[70/100] Question: is there a minimum amount accepted
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 70 | 4.7ms
+
+[71/100] Question: please let me review all items on my mastercard from this billing period
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 71 | 5.1ms
+
+[72/100] Question: submit full payment to chase for my visa bill
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 72 | 4.8ms
+
+[73/100] Question: what is your date of birth
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 73 | 4.7ms
+
+[74/100] Question: reset to factory settings
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 74 | 4.7ms
+
+[75/100] Question: i'd like you to add oranges to my shopping list
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 75 | 4.8ms
+
+[76/100] Question: can i rent a car from dfw airport from march 1st to march 8th
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 76 | 5.1ms
+
+[77/100] Question: remind me of how days i had off so far for the year
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 77 | 4.8ms
+
+[78/100] Question: can you tell me how long approximate wait times are at cheesecake factory
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 78 | 4.9ms
+
+[79/100] Question: are more than one carry on allowed at klm
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 79 | 4.8ms
+
+[80/100] Question: pull up the nutrional info of a 12 oz coke
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 80 | 4.8ms
+
+[81/100] Question: i am needing the next song to be played
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 81 | 4.7ms
+
+[82/100] Question: read my shopping list
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 82 | 4.8ms
+
+[83/100] Question: who should i call for a w2
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 83 | 4.7ms
+
+[84/100] Question: how you are
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 84 | 4.7ms
+
+[85/100] Question: how little can i pay on my phone bill
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 85 | 4.7ms
+
+[86/100] Question: find a recipe for hamburgers
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 86 | 4.7ms
+
+[87/100] Question: are shots required before traveling to brazil
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 87 | 4.7ms
+
+[88/100] Question: i need to be out of whisper mode
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 88 | 4.7ms
+
+[89/100] Question: british columbia can be found in what timezone
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 89 | 4.7ms
+
+[90/100] Question: how much is my bill for capital one
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 90 | 4.7ms
+
+[91/100] Question: i want the volume at level 4
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 91 | 4.8ms
+
+[92/100] Question: i need 2000 to go to my chase checking from my mellon bank savings account
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 92 | 5.0ms
+
+[93/100] Question: what is the wait time for torris
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 93 | 4.7ms
+
+[94/100] Question: what is the best way to keep my credit score from going down
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 94 | 4.9ms
+
+[95/100] Question: don't know
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 95 | 4.7ms
+
+[96/100] Question: can you tell me some fake news
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 96 | 4.8ms
+
+[97/100] Question: how do i report fraud on my chase bank card
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 97 | 4.7ms
+
+[98/100] Question: negatory
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 98 | 4.7ms
+
+[99/100] Question: i was wondering about the vacation time you said you'll approve
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 99 | 4.9ms
+
+[100/100] Question: contact the bank about fraud activity on my card
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 100 | 4.7ms
+
+=== ROUTING RESULTS ===
+Correct: 0
+Wrong:   100
+Errors:  0
+Total:   100
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/bi-encoder_sentence-transformers-all-MiniLM-L6-v2.json
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/bi-encoder_sentence-transformers-all-MiniLM-L6-v2.csv
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/bi-encoder_sentence-transformers-all-MiniLM-L6-v2_efficiency.json
+
+=== ENERGY / CARBON ===
+Total CO2 (kg): 1.2798895581703134e-05
+Total energy (kWh): 2.332619316793963e-05
+DONE
+============================================================
+
+
+BENCHMARK FINISHED
+
+[run_benchmark] SemanticRouter finished in 8.9s (0.1 min)
+
+######################################################################
+# RUN 3/6: CrossEncoderRouter (Qwen/Qwen3-Reranker-4B) on /home/maniles/manile/manile/data/dataset/dummy_general.csv
+######################################################################
+
+[CrossEncoderRouter] Loading cross-encoder model 'Qwen/Qwen3-Reranker-4B'...
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 4899.27it/s]
+Default prompt name is set to 'query'. This prompt will be applied to all inference calls, except if a `prompt` or `prompt_name` parameter is provided.
+[CrossEncoderRouter] Model loaded in 7.46s — running on device: cuda:0
+[CrossEncoderRouter] Loaded 8 services.
+[CrossEncoderRouter] Ready to route.
+
+============================================================
+Starting benchmark: CrossEncoderRouter on /home/maniles/manile/manile/data/dataset/dummy_general.csv
+Total rows to process: 100
+============================================================
+
+
+[1/100] Question: i'd like to make an appointment to get my oil changed
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 1 | 270.1ms
+
+[2/100] Question: i want you to know it's a true statement
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 2 | 81.6ms
+
+[3/100] Question: how much gas does it take to get to jackson
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 3 | 81.1ms
+
+[4/100] Question: how late is it now in ourense
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 4 | 80.6ms
+
+[5/100] Question: i would like you to suggest a chinese dish
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 5 | 80.4ms
+
+[6/100] Question: can you suggest a mexican dish
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 6 | 80.2ms
+
+[7/100] Question: what is the sum of 3, 7, 9, and 24
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 7 | 82.0ms
+
+[8/100] Question: what’s the name of this song
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 8 | 80.1ms
+
+[9/100] Question: i need to know today's forecast
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 9 | 79.9ms
+
+[10/100] Question: give me location for tourist destination in bangkok
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 10 | 81.9ms
+
+[11/100] Question: what should i do if i lost my luggage
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 11 | 80.4ms
+
+[12/100] Question: what is the total of my repair bill
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 12 | 80.8ms
+
+[13/100] Question: what's the carry on policy for delta
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 13 | 80.6ms
+
+[14/100] Question: what is our purpose
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 14 | 79.9ms
+
+[15/100] Question: pull up my credit card application's current status
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 15 | 81.3ms
+
+[16/100] Question: what is the rate for 500 cad in usd
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 16 | 81.6ms
+
+[17/100] Question: please suggest a chinese meal
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 17 | 79.7ms
+
+[18/100] Question: i want to report fraud on my american express
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 18 | 80.9ms
+
+[19/100] Question: tell me please what paean means
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 19 | 80.1ms
+
+[20/100] Question: tell me something interesting about dogs
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 20 | 80.3ms
+
+[21/100] Question: my card is messed up from carding my door
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 21 | 80.6ms
+
+[22/100] Question: when did i change my oil
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 22 | 79.9ms
+
+[23/100] Question: what day do i need to pay my internet and phone bill by
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 23 | 80.8ms
+
+[24/100] Question: do you work for another individual
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 24 | 80.0ms
+
+[25/100] Question: how would i apply for an american express
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 25 | 80.3ms
+
+[26/100] Question: are there any necessary shots required before travel to thailand
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 26 | 80.5ms
+
+[27/100] Question: report a card lost for me
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 27 | 80.4ms
+
+[28/100] Question: do i need shots before traveling to mexico
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 28 | 80.8ms
+
+[29/100] Question: is there lettuce on my shopping list
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 29 | 81.6ms
+
+[30/100] Question: which kinds of info are you familiar with
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 30 | 81.7ms
+
+[31/100] Question: add song to my hype playlist
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 31 | 80.5ms
+
+[32/100] Question: how can i build up my credit score
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 32 | 80.7ms
+
+[33/100] Question: at what point will the review of my credit card application be completed
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 33 | 81.4ms
+
+[34/100] Question: needing you to play the next song
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 34 | 80.1ms
+
+[35/100] Question: what am i allowed to ask you
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 35 | 80.2ms
+
+[36/100] Question: find list of ingredients i would need to bake a funnel cake
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 36 | 81.3ms
+
+[37/100] Question: what kind of interest can i expect with my chase account
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 37 | 81.7ms
+
+[38/100] Question: what benefits do i have for insurance
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 38 | 80.3ms
+
+[39/100] Question: tell me where i left my phone
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 39 | 80.1ms
+
+[40/100] Question: please tell me how to spell umbrella
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 40 | 80.6ms
+
+[41/100] Question: what is walker bank paying me in interest on my account
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 41 | 81.0ms
+
+[42/100] Question: how many points on my chase unlimited card
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 42 | 80.9ms
+
+[43/100] Question: i have credit card points, how do i redeem them
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 43 | 81.1ms
+
+[44/100] Question: possibly either one
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 44 | 79.1ms
+
+[45/100] Question: i prefer to be called jason
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 45 | 80.3ms
+
+[46/100] Question: how much have i recently spent
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 46 | 80.3ms
+
+[47/100] Question: your name please
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 47 | 79.0ms
+
+[48/100] Question: how many ounces in a liter
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 48 | 79.7ms
+
+[49/100] Question: how do i set up direct deposit for my cefcu account
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 49 | 81.5ms
+
+[50/100] Question: i am looking for good southeast asian restaurants in philadelphia
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 50 | 80.9ms
+
+[51/100] Question: what time is it in france
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 51 | 80.0ms
+
+[52/100] Question: is it true that nicotine is harder to kick than heroin
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 52 | 80.7ms
+
+[53/100] Question: who is your manufacturer
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 53 | 79.6ms
+
+[54/100] Question: my card isn't working because its destroyed
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 54 | 80.5ms
+
+[55/100] Question: what are the things that i wanted to keep in mind
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 55 | 80.5ms
+
+[56/100] Question: please help me find my lost phone
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 56 | 80.0ms
+
+[57/100] Question: what do you do in your spare time siri
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 57 | 80.7ms
+
+[58/100] Question: will my 401k carryover
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 58 | 80.9ms
+
+[59/100] Question: i need to know when's the next holiday
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 59 | 80.9ms
+
+[60/100] Question: can you tell me how much i spent on grocery shopping recently
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 60 | 81.8ms
+
+[61/100] Question: yup, that's true
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 61 | 80.0ms
+
+[62/100] Question: what is the purpose or benefit of a cash advance
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 62 | 81.0ms
+
+[63/100] Question: i need to reserve a large room or suite for 2 couples for august 15th through august 18th in seattle
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 63 | 92.6ms
+
+[64/100] Question: spirit mastercard card was taken
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 64 | 80.2ms
+
+[65/100] Question: tell me how i can apply for a chase credit card
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 65 | 81.1ms
+
+[66/100] Question: i need quiet; use whisper
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 66 | 80.5ms
+
+[67/100] Question: send mike my exact location
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 67 | 80.3ms
+
+[68/100] Question: i would like to try and confirm that i have a reservation at longhorn for justin
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 68 | 82.6ms
+
+[69/100] Question: how many paypal transactions did i have last week
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 69 | 80.9ms
+
+[70/100] Question: is there a minimum amount accepted
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 70 | 80.0ms
+
+[71/100] Question: please let me review all items on my mastercard from this billing period
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 71 | 81.8ms
+
+[72/100] Question: submit full payment to chase for my visa bill
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 72 | 80.7ms
+
+[73/100] Question: what is your date of birth
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 73 | 80.1ms
+
+[74/100] Question: reset to factory settings
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 74 | 79.7ms
+
+[75/100] Question: i'd like you to add oranges to my shopping list
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 75 | 80.7ms
+
+[76/100] Question: can i rent a car from dfw airport from march 1st to march 8th
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 76 | 82.5ms
+
+[77/100] Question: remind me of how days i had off so far for the year
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 77 | 81.7ms
+
+[78/100] Question: can you tell me how long approximate wait times are at cheesecake factory
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 78 | 82.0ms
+
+[79/100] Question: are more than one carry on allowed at klm
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 79 | 81.0ms
+
+[80/100] Question: pull up the nutrional info of a 12 oz coke
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 80 | 81.9ms
+
+[81/100] Question: i am needing the next song to be played
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 81 | 80.6ms
+
+[82/100] Question: read my shopping list
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 82 | 79.7ms
+
+[83/100] Question: who should i call for a w2
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 83 | 80.4ms
+
+[84/100] Question: how you are
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 84 | 79.3ms
+
+[85/100] Question: how little can i pay on my phone bill
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 85 | 80.2ms
+
+[86/100] Question: find a recipe for hamburgers
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 86 | 80.1ms
+
+[87/100] Question: are shots required before traveling to brazil
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 87 | 80.7ms
+
+[88/100] Question: i need to be out of whisper mode
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 88 | 80.6ms
+
+[89/100] Question: british columbia can be found in what timezone
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 89 | 80.5ms
+
+[90/100] Question: how much is my bill for capital one
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 90 | 80.6ms
+
+[91/100] Question: i want the volume at level 4
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 91 | 81.6ms
+
+[92/100] Question: i need 2000 to go to my chase checking from my mellon bank savings account
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 92 | 90.8ms
+
+[93/100] Question: what is the wait time for torris
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 93 | 80.1ms
+
+[94/100] Question: what is the best way to keep my credit score from going down
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 94 | 81.7ms
+
+[95/100] Question: don't know
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 95 | 79.1ms
+
+[96/100] Question: can you tell me some fake news
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 96 | 79.9ms
+
+[97/100] Question: how do i report fraud on my chase bank card
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 97 | 80.8ms
+
+[98/100] Question: negatory
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 98 | 78.9ms
+
+[99/100] Question: i was wondering about the vacation time you said you'll approve
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 99 | 80.8ms
+
+[100/100] Question: contact the bank about fraud activity on my card
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 100 | 80.9ms
+
+=== ROUTING RESULTS ===
+Correct: 0
+Wrong:   100
+Errors:  0
+Total:   100
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/cross-encoder_Qwen-Qwen3-Reranker-4B.json
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/cross-encoder_Qwen-Qwen3-Reranker-4B.csv
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/cross-encoder_Qwen-Qwen3-Reranker-4B_efficiency.json
+
+=== ENERGY / CARBON ===
+Total CO2 (kg): 0.0004678140611648236
+Total energy (kWh): 0.0008525986549190138
+DONE
+============================================================
+
+
+BENCHMARK FINISHED
+
+[run_benchmark] CrossEncoderRouter finished in 19.2s (0.3 min)
+
+######################################################################
+# RUN 4/6: CrossEncoderRouter (mixedbread-ai/mxbai-rerank-large-v2) on /home/maniles/manile/manile/data/dataset/dummy_general.csv
+######################################################################
+
+[CrossEncoderRouter] Loading cross-encoder model 'mixedbread-ai/mxbai-rerank-large-v2'...
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<00:36,  9.31it/s]Loading weights:  51%|█████     | 172/338 [00:00<00:00, 966.39it/s]Loading weights:  80%|████████  | 271/338 [00:00<00:00, 967.30it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 924.76it/s]
+[CrossEncoderRouter] Model loaded in 6.97s — running on device: cuda:0
+[CrossEncoderRouter] Loaded 8 services.
+[CrossEncoderRouter] Ready to route.
+
+============================================================
+Starting benchmark: CrossEncoderRouter on /home/maniles/manile/manile/data/dataset/dummy_general.csv
+Total rows to process: 100
+============================================================
+
+
+[1/100] Question: i'd like to make an appointment to get my oil changed
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 1 | 41.1ms
+
+[2/100] Question: i want you to know it's a true statement
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 2 | 36.9ms
+
+[3/100] Question: how much gas does it take to get to jackson
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 3 | 37.0ms
+
+[4/100] Question: how late is it now in ourense
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 4 | 37.2ms
+
+[5/100] Question: i would like you to suggest a chinese dish
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 5 | 36.9ms
+
+[6/100] Question: can you suggest a mexican dish
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 6 | 37.2ms
+
+[7/100] Question: what is the sum of 3, 7, 9, and 24
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 7 | 37.4ms
+
+[8/100] Question: what’s the name of this song
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 8 | 36.8ms
+
+[9/100] Question: i need to know today's forecast
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 9 | 36.4ms
+
+[10/100] Question: give me location for tourist destination in bangkok
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 10 | 36.5ms
+
+[11/100] Question: what should i do if i lost my luggage
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 11 | 36.5ms
+
+[12/100] Question: what is the total of my repair bill
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 12 | 36.7ms
+
+[13/100] Question: what's the carry on policy for delta
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 13 | 36.4ms
+
+[14/100] Question: what is our purpose
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 14 | 36.6ms
+
+[15/100] Question: pull up my credit card application's current status
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 15 | 36.7ms
+
+[16/100] Question: what is the rate for 500 cad in usd
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 16 | 37.4ms
+
+[17/100] Question: please suggest a chinese meal
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 17 | 37.0ms
+
+[18/100] Question: i want to report fraud on my american express
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 18 | 36.9ms
+
+[19/100] Question: tell me please what paean means
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 19 | 36.3ms
+
+[20/100] Question: tell me something interesting about dogs
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 20 | 36.8ms
+
+[21/100] Question: my card is messed up from carding my door
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 21 | 36.6ms
+
+[22/100] Question: when did i change my oil
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 22 | 36.6ms
+
+[23/100] Question: what day do i need to pay my internet and phone bill by
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 23 | 36.7ms
+
+[24/100] Question: do you work for another individual
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 24 | 36.7ms
+
+[25/100] Question: how would i apply for an american express
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 25 | 36.3ms
+
+[26/100] Question: are there any necessary shots required before travel to thailand
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 26 | 36.6ms
+
+[27/100] Question: report a card lost for me
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 27 | 36.3ms
+
+[28/100] Question: do i need shots before traveling to mexico
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 28 | 36.0ms
+
+[29/100] Question: is there lettuce on my shopping list
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 29 | 36.3ms
+
+[30/100] Question: which kinds of info are you familiar with
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 30 | 36.2ms
+
+[31/100] Question: add song to my hype playlist
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 31 | 36.4ms
+
+[32/100] Question: how can i build up my credit score
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 32 | 36.3ms
+
+[33/100] Question: at what point will the review of my credit card application be completed
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 33 | 37.2ms
+
+[34/100] Question: needing you to play the next song
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 34 | 36.8ms
+
+[35/100] Question: what am i allowed to ask you
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 35 | 36.4ms
+
+[36/100] Question: find list of ingredients i would need to bake a funnel cake
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 36 | 36.8ms
+
+[37/100] Question: what kind of interest can i expect with my chase account
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 37 | 36.8ms
+
+[38/100] Question: what benefits do i have for insurance
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 38 | 36.5ms
+
+[39/100] Question: tell me where i left my phone
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 39 | 36.4ms
+
+[40/100] Question: please tell me how to spell umbrella
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 40 | 36.4ms
+
+[41/100] Question: what is walker bank paying me in interest on my account
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 41 | 36.7ms
+
+[42/100] Question: how many points on my chase unlimited card
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 42 | 36.6ms
+
+[43/100] Question: i have credit card points, how do i redeem them
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 43 | 37.4ms
+
+[44/100] Question: possibly either one
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 44 | 36.9ms
+
+[45/100] Question: i prefer to be called jason
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 45 | 36.4ms
+
+[46/100] Question: how much have i recently spent
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 46 | 36.4ms
+
+[47/100] Question: your name please
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 47 | 36.4ms
+
+[48/100] Question: how many ounces in a liter
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 48 | 36.2ms
+
+[49/100] Question: how do i set up direct deposit for my cefcu account
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 49 | 37.1ms
+
+[50/100] Question: i am looking for good southeast asian restaurants in philadelphia
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 50 | 37.0ms
+
+[51/100] Question: what time is it in france
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 51 | 36.9ms
+
+[52/100] Question: is it true that nicotine is harder to kick than heroin
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 52 | 36.7ms
+
+[53/100] Question: who is your manufacturer
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 53 | 37.6ms
+
+[54/100] Question: my card isn't working because its destroyed
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 54 | 36.3ms
+
+[55/100] Question: what are the things that i wanted to keep in mind
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 55 | 36.4ms
+
+[56/100] Question: please help me find my lost phone
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 56 | 36.6ms
+
+[57/100] Question: what do you do in your spare time siri
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 57 | 36.5ms
+
+[58/100] Question: will my 401k carryover
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 58 | 36.7ms
+
+[59/100] Question: i need to know when's the next holiday
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 59 | 36.9ms
+
+[60/100] Question: can you tell me how much i spent on grocery shopping recently
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 60 | 37.1ms
+
+[61/100] Question: yup, that's true
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 61 | 36.8ms
+
+[62/100] Question: what is the purpose or benefit of a cash advance
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 62 | 36.4ms
+
+[63/100] Question: i need to reserve a large room or suite for 2 couples for august 15th through august 18th in seattle
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 63 | 38.3ms
+
+[64/100] Question: spirit mastercard card was taken
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 64 | 36.3ms
+
+[65/100] Question: tell me how i can apply for a chase credit card
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 65 | 36.5ms
+
+[66/100] Question: i need quiet; use whisper
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 66 | 36.4ms
+
+[67/100] Question: send mike my exact location
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 67 | 36.6ms
+
+[68/100] Question: i would like to try and confirm that i have a reservation at longhorn for justin
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 68 | 37.1ms
+
+[69/100] Question: how many paypal transactions did i have last week
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 69 | 36.6ms
+
+[70/100] Question: is there a minimum amount accepted
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 70 | 37.2ms
+
+[71/100] Question: please let me review all items on my mastercard from this billing period
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 71 | 37.2ms
+
+[72/100] Question: submit full payment to chase for my visa bill
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 72 | 36.5ms
+
+[73/100] Question: what is your date of birth
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 73 | 36.3ms
+
+[74/100] Question: reset to factory settings
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 74 | 36.1ms
+
+[75/100] Question: i'd like you to add oranges to my shopping list
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 75 | 36.7ms
+
+[76/100] Question: can i rent a car from dfw airport from march 1st to march 8th
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 76 | 37.8ms
+
+[77/100] Question: remind me of how days i had off so far for the year
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 77 | 37.2ms
+
+[78/100] Question: can you tell me how long approximate wait times are at cheesecake factory
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 78 | 37.3ms
+
+[79/100] Question: are more than one carry on allowed at klm
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 79 | 37.3ms
+
+[80/100] Question: pull up the nutrional info of a 12 oz coke
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 80 | 37.1ms
+
+[81/100] Question: i am needing the next song to be played
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 81 | 37.1ms
+
+[82/100] Question: read my shopping list
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 82 | 36.7ms
+
+[83/100] Question: who should i call for a w2
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 83 | 36.2ms
+
+[84/100] Question: how you are
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 84 | 36.1ms
+
+[85/100] Question: how little can i pay on my phone bill
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 85 | 36.6ms
+
+[86/100] Question: find a recipe for hamburgers
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 86 | 36.7ms
+
+[87/100] Question: are shots required before traveling to brazil
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 87 | 36.4ms
+
+[88/100] Question: i need to be out of whisper mode
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 88 | 36.6ms
+
+[89/100] Question: british columbia can be found in what timezone
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 89 | 37.3ms
+
+[90/100] Question: how much is my bill for capital one
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 90 | 36.9ms
+
+[91/100] Question: i want the volume at level 4
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 91 | 36.3ms
+
+[92/100] Question: i need 2000 to go to my chase checking from my mellon bank savings account
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 92 | 37.5ms
+
+[93/100] Question: what is the wait time for torris
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 93 | 36.3ms
+
+[94/100] Question: what is the best way to keep my credit score from going down
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 94 | 36.9ms
+
+[95/100] Question: don't know
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 95 | 36.6ms
+
+[96/100] Question: can you tell me some fake news
+→ predicted=abstract_algebra | expected=general | ✗ WRONG | Correct: 0 | Wrong: 96 | 37.2ms
+
+[97/100] Question: how do i report fraud on my chase bank card
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 97 | 36.7ms
+
+[98/100] Question: negatory
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 98 | 36.8ms
+
+[99/100] Question: i was wondering about the vacation time you said you'll approve
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 99 | 36.8ms
+
+[100/100] Question: contact the bank about fraud activity on my card
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 100 | 36.8ms
+
+=== ROUTING RESULTS ===
+Correct: 0
+Wrong:   100
+Errors:  0
+Total:   100
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/cross-encoder_mixedbread-ai-mxbai-rerank-large-v2.json
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/cross-encoder_mixedbread-ai-mxbai-rerank-large-v2.csv
+Converting SentenceTransformer model lightonai/Reason-ModernColBERT to MultiVectorEncoder.
+The `reference_compile` argument is deprecated and will be removed in `transformers v5.2.0`Use `torch.compile()` directly on the model instead.
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/cross-encoder_mixedbread-ai-mxbai-rerank-large-v2_efficiency.json
+
+=== ENERGY / CARBON ===
+Total CO2 (kg): 0.00020199210777739285
+Total energy (kWh): 0.0003681338670463444
+DONE
+============================================================
+
+
+BENCHMARK FINISHED
+
+[run_benchmark] CrossEncoderRouter finished in 14.1s (0.2 min)
+
+######################################################################
+# RUN 5/6: ColBERTRouter (lightonai/Reason-ModernColBERT) on /home/maniles/manile/manile/data/dataset/dummy_general.csv
+######################################################################
+
+[ColBERTRouter] Loading ColBERT model 'lightonai/Reason-ModernColBERT'...
+Loading weights:   0%|          | 0/134 [00:00<?, ?it/s]Loading weights: 100%|██████████| 134/134 [00:00<00:00, 5007.32it/s]
+[ColBERTRouter] Model loaded in 5.94s — running on device: cuda:0
+[ColBERTRouter] Loaded 8 services.
+[ColBERTRouter] Encoding service descriptions...
+[ColBERTRouter] Ready to route.
+
+============================================================
+Starting benchmark: ColBERTRouter on /home/maniles/manile/manile/data/dataset/dummy_general.csv
+Total rows to process: 100
+============================================================
+
+
+[1/100] Question: i'd like to make an appointment to get my oil changed
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 1 | 26.6ms
+
+[2/100] Question: i want you to know it's a true statement
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 2 | 16.1ms
+
+[3/100] Question: how much gas does it take to get to jackson
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 3 | 15.8ms
+
+[4/100] Question: how late is it now in ourense
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 4 | 15.6ms
+
+[5/100] Question: i would like you to suggest a chinese dish
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 5 | 15.3ms
+
+[6/100] Question: can you suggest a mexican dish
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 6 | 15.5ms
+
+[7/100] Question: what is the sum of 3, 7, 9, and 24
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 7 | 15.5ms
+
+[8/100] Question: what’s the name of this song
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 8 | 15.4ms
+
+[9/100] Question: i need to know today's forecast
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 9 | 15.5ms
+
+[10/100] Question: give me location for tourist destination in bangkok
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 10 | 15.3ms
+
+[11/100] Question: what should i do if i lost my luggage
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 11 | 15.4ms
+
+[12/100] Question: what is the total of my repair bill
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 12 | 15.3ms
+
+[13/100] Question: what's the carry on policy for delta
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 13 | 15.3ms
+
+[14/100] Question: what is our purpose
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 14 | 15.8ms
+
+[15/100] Question: pull up my credit card application's current status
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 15 | 15.7ms
+
+[16/100] Question: what is the rate for 500 cad in usd
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 16 | 15.3ms
+
+[17/100] Question: please suggest a chinese meal
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 17 | 15.5ms
+
+[18/100] Question: i want to report fraud on my american express
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 18 | 15.3ms
+
+[19/100] Question: tell me please what paean means
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 19 | 15.3ms
+
+[20/100] Question: tell me something interesting about dogs
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 20 | 15.2ms
+
+[21/100] Question: my card is messed up from carding my door
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 21 | 15.4ms
+
+[22/100] Question: when did i change my oil
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 22 | 15.3ms
+
+[23/100] Question: what day do i need to pay my internet and phone bill by
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 23 | 15.4ms
+
+[24/100] Question: do you work for another individual
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 24 | 15.3ms
+
+[25/100] Question: how would i apply for an american express
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 25 | 15.3ms
+
+[26/100] Question: are there any necessary shots required before travel to thailand
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 26 | 15.3ms
+
+[27/100] Question: report a card lost for me
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 27 | 15.3ms
+
+[28/100] Question: do i need shots before traveling to mexico
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 28 | 15.5ms
+
+[29/100] Question: is there lettuce on my shopping list
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 29 | 15.3ms
+
+[30/100] Question: which kinds of info are you familiar with
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 30 | 15.5ms
+
+[31/100] Question: add song to my hype playlist
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 31 | 15.6ms
+
+[32/100] Question: how can i build up my credit score
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 32 | 15.3ms
+
+[33/100] Question: at what point will the review of my credit card application be completed
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 33 | 15.4ms
+
+[34/100] Question: needing you to play the next song
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 34 | 15.7ms
+
+[35/100] Question: what am i allowed to ask you
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 35 | 15.3ms
+
+[36/100] Question: find list of ingredients i would need to bake a funnel cake
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 36 | 15.3ms
+
+[37/100] Question: what kind of interest can i expect with my chase account
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 37 | 15.3ms
+
+[38/100] Question: what benefits do i have for insurance
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 38 | 15.3ms
+
+[39/100] Question: tell me where i left my phone
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 39 | 15.3ms
+
+[40/100] Question: please tell me how to spell umbrella
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 40 | 15.3ms
+
+[41/100] Question: what is walker bank paying me in interest on my account
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 41 | 15.3ms
+
+[42/100] Question: how many points on my chase unlimited card
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 42 | 15.3ms
+
+[43/100] Question: i have credit card points, how do i redeem them
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 43 | 15.2ms
+
+[44/100] Question: possibly either one
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 44 | 15.8ms
+
+[45/100] Question: i prefer to be called jason
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 45 | 15.3ms
+
+[46/100] Question: how much have i recently spent
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 46 | 15.4ms
+
+[47/100] Question: your name please
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 47 | 15.3ms
+
+[48/100] Question: how many ounces in a liter
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 48 | 15.3ms
+
+[49/100] Question: how do i set up direct deposit for my cefcu account
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 49 | 15.4ms
+
+[50/100] Question: i am looking for good southeast asian restaurants in philadelphia
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 50 | 15.2ms
+
+[51/100] Question: what time is it in france
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 51 | 15.2ms
+
+[52/100] Question: is it true that nicotine is harder to kick than heroin
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 52 | 15.6ms
+
+[53/100] Question: who is your manufacturer
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 53 | 15.3ms
+
+[54/100] Question: my card isn't working because its destroyed
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 54 | 15.3ms
+
+[55/100] Question: what are the things that i wanted to keep in mind
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 55 | 15.3ms
+
+[56/100] Question: please help me find my lost phone
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 56 | 15.3ms
+
+[57/100] Question: what do you do in your spare time siri
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 57 | 15.4ms
+
+[58/100] Question: will my 401k carryover
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 58 | 15.3ms
+
+[59/100] Question: i need to know when's the next holiday
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 59 | 15.3ms
+
+[60/100] Question: can you tell me how much i spent on grocery shopping recently
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 60 | 15.4ms
+
+[61/100] Question: yup, that's true
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 61 | 15.2ms
+
+[62/100] Question: what is the purpose or benefit of a cash advance
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 62 | 15.3ms
+
+[63/100] Question: i need to reserve a large room or suite for 2 couples for august 15th through august 18th in seattle
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 63 | 15.6ms
+
+[64/100] Question: spirit mastercard card was taken
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 64 | 16.1ms
+
+[65/100] Question: tell me how i can apply for a chase credit card
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 65 | 15.3ms
+
+[66/100] Question: i need quiet; use whisper
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 66 | 15.3ms
+
+[67/100] Question: send mike my exact location
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 67 | 15.3ms
+
+[68/100] Question: i would like to try and confirm that i have a reservation at longhorn for justin
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 68 | 15.5ms
+
+[69/100] Question: how many paypal transactions did i have last week
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 69 | 15.3ms
+
+[70/100] Question: is there a minimum amount accepted
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 70 | 15.3ms
+
+[71/100] Question: please let me review all items on my mastercard from this billing period
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 71 | 15.5ms
+
+[72/100] Question: submit full payment to chase for my visa bill
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 72 | 15.4ms
+
+[73/100] Question: what is your date of birth
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 73 | 15.3ms
+
+[74/100] Question: reset to factory settings
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 74 | 15.3ms
+
+[75/100] Question: i'd like you to add oranges to my shopping list
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 75 | 15.4ms
+
+[76/100] Question: can i rent a car from dfw airport from march 1st to march 8th
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 76 | 15.6ms
+
+[77/100] Question: remind me of how days i had off so far for the year
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 77 | 15.3ms
+
+[78/100] Question: can you tell me how long approximate wait times are at cheesecake factory
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 78 | 15.6ms
+
+[79/100] Question: are more than one carry on allowed at klm
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 79 | 15.4ms
+
+[80/100] Question: pull up the nutrional info of a 12 oz coke
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 80 | 15.4ms
+
+[81/100] Question: i am needing the next song to be played
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 81 | 15.4ms
+
+[82/100] Question: read my shopping list
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 82 | 15.4ms
+
+[83/100] Question: who should i call for a w2
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 83 | 15.4ms
+
+[84/100] Question: how you are
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 84 | 15.5ms
+
+[85/100] Question: how little can i pay on my phone bill
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 85 | 15.3ms
+
+[86/100] Question: find a recipe for hamburgers
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 86 | 15.2ms
+
+[87/100] Question: are shots required before traveling to brazil
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 87 | 15.6ms
+
+[88/100] Question: i need to be out of whisper mode
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 88 | 15.9ms
+
+[89/100] Question: british columbia can be found in what timezone
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 89 | 16.2ms
+
+[90/100] Question: how much is my bill for capital one
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 90 | 16.5ms
+
+[91/100] Question: i want the volume at level 4
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 91 | 17.0ms
+
+[92/100] Question: i need 2000 to go to my chase checking from my mellon bank savings account
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 92 | 16.6ms
+
+[93/100] Question: what is the wait time for torris
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 93 | 15.9ms
+
+[94/100] Question: what is the best way to keep my credit score from going down
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 94 | 15.8ms
+
+[95/100] Question: don't know
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 95 | 15.5ms
+
+[96/100] Question: can you tell me some fake news
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 96 | 15.3ms
+
+[97/100] Question: how do i report fraud on my chase bank card
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 97 | 15.6ms
+
+[98/100] Question: negatory
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 98 | 15.6ms
+
+[99/100] Question: i was wondering about the vacation time you said you'll approve
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 99 | 15.3ms
+
+[100/100] Question: contact the bank about fraud activity on my card
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 100 | 15.3ms
+
+=== ROUTING RESULTS ===
+Correct: 0
+Wrong:   100
+Errors:  0
+Total:   100
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/colbert_lightonai-Reason-ModernColBERT.json
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/colbert_lightonai-Reason-ModernColBERT.csv
+Converting SentenceTransformer model LiquidAI/LFM2-ColBERT-350M to MultiVectorEncoder.
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/colbert_lightonai-Reason-ModernColBERT_efficiency.json
+
+=== ENERGY / CARBON ===
+Total CO2 (kg): 4.239280743707157e-05
+Total energy (kWh): 7.726157377375936e-05
+DONE
+============================================================
+
+
+BENCHMARK FINISHED
+
+[run_benchmark] ColBERTRouter finished in 10.8s (0.2 min)
+
+######################################################################
+# RUN 6/6: ColBERTRouter (LiquidAI/LFM2-ColBERT-350M) on /home/maniles/manile/manile/data/dataset/dummy_general.csv
+######################################################################
+
+[ColBERTRouter] Loading ColBERT model 'LiquidAI/LFM2-ColBERT-350M'...
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 4785.77it/s]
+[ColBERTRouter] Model loaded in 6.57s — running on device: cuda:0
+[ColBERTRouter] Loaded 8 services.
+[ColBERTRouter] Encoding service descriptions...
+[ColBERTRouter] Ready to route.
+
+============================================================
+Starting benchmark: ColBERTRouter on /home/maniles/manile/manile/data/dataset/dummy_general.csv
+Total rows to process: 100
+============================================================
+
+
+[1/100] Question: i'd like to make an appointment to get my oil changed
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 1 | 17.1ms
+
+[2/100] Question: i want you to know it's a true statement
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 2 | 14.9ms
+
+[3/100] Question: how much gas does it take to get to jackson
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 3 | 14.3ms
+
+[4/100] Question: how late is it now in ourense
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 4 | 14.1ms
+
+[5/100] Question: i would like you to suggest a chinese dish
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 5 | 15.0ms
+
+[6/100] Question: can you suggest a mexican dish
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 6 | 14.0ms
+
+[7/100] Question: what is the sum of 3, 7, 9, and 24
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 7 | 13.8ms
+
+[8/100] Question: what’s the name of this song
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 8 | 13.8ms
+
+[9/100] Question: i need to know today's forecast
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 9 | 13.8ms
+
+[10/100] Question: give me location for tourist destination in bangkok
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 10 | 13.9ms
+
+[11/100] Question: what should i do if i lost my luggage
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 11 | 13.8ms
+
+[12/100] Question: what is the total of my repair bill
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 12 | 13.8ms
+
+[13/100] Question: what's the carry on policy for delta
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 13 | 13.8ms
+
+[14/100] Question: what is our purpose
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 14 | 13.8ms
+
+[15/100] Question: pull up my credit card application's current status
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 15 | 13.8ms
+
+[16/100] Question: what is the rate for 500 cad in usd
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 16 | 13.8ms
+
+[17/100] Question: please suggest a chinese meal
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 17 | 13.7ms
+
+[18/100] Question: i want to report fraud on my american express
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 18 | 13.8ms
+
+[19/100] Question: tell me please what paean means
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 19 | 13.8ms
+
+[20/100] Question: tell me something interesting about dogs
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 20 | 14.9ms
+
+[21/100] Question: my card is messed up from carding my door
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 21 | 14.1ms
+
+[22/100] Question: when did i change my oil
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 22 | 14.1ms
+
+[23/100] Question: what day do i need to pay my internet and phone bill by
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 23 | 13.9ms
+
+[24/100] Question: do you work for another individual
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 24 | 13.8ms
+
+[25/100] Question: how would i apply for an american express
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 25 | 13.9ms
+
+[26/100] Question: are there any necessary shots required before travel to thailand
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 26 | 13.8ms
+
+[27/100] Question: report a card lost for me
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 27 | 13.8ms
+
+[28/100] Question: do i need shots before traveling to mexico
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 28 | 13.8ms
+
+[29/100] Question: is there lettuce on my shopping list
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 29 | 13.9ms
+
+[30/100] Question: which kinds of info are you familiar with
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 30 | 13.8ms
+
+[31/100] Question: add song to my hype playlist
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 31 | 13.9ms
+
+[32/100] Question: how can i build up my credit score
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 32 | 14.0ms
+
+[33/100] Question: at what point will the review of my credit card application be completed
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 33 | 13.9ms
+
+[34/100] Question: needing you to play the next song
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 34 | 13.9ms
+
+[35/100] Question: what am i allowed to ask you
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 35 | 13.8ms
+
+[36/100] Question: find list of ingredients i would need to bake a funnel cake
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 36 | 13.9ms
+
+[37/100] Question: what kind of interest can i expect with my chase account
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 37 | 13.9ms
+
+[38/100] Question: what benefits do i have for insurance
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 38 | 13.8ms
+
+[39/100] Question: tell me where i left my phone
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 39 | 13.9ms
+
+[40/100] Question: please tell me how to spell umbrella
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 40 | 14.2ms
+
+[41/100] Question: what is walker bank paying me in interest on my account
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 41 | 13.9ms
+
+[42/100] Question: how many points on my chase unlimited card
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 42 | 13.8ms
+
+[43/100] Question: i have credit card points, how do i redeem them
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 43 | 13.9ms
+
+[44/100] Question: possibly either one
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 44 | 13.8ms
+
+[45/100] Question: i prefer to be called jason
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 45 | 13.9ms
+
+[46/100] Question: how much have i recently spent
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 46 | 13.8ms
+
+[47/100] Question: your name please
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 47 | 13.9ms
+
+[48/100] Question: how many ounces in a liter
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 48 | 13.8ms
+
+[49/100] Question: how do i set up direct deposit for my cefcu account
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 49 | 13.9ms
+
+[50/100] Question: i am looking for good southeast asian restaurants in philadelphia
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 50 | 14.4ms
+
+[51/100] Question: what time is it in france
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 51 | 13.8ms
+
+[52/100] Question: is it true that nicotine is harder to kick than heroin
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 52 | 13.8ms
+
+[53/100] Question: who is your manufacturer
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 53 | 13.8ms
+
+[54/100] Question: my card isn't working because its destroyed
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 54 | 13.8ms
+
+[55/100] Question: what are the things that i wanted to keep in mind
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 55 | 13.9ms
+
+[56/100] Question: please help me find my lost phone
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 56 | 13.8ms
+
+[57/100] Question: what do you do in your spare time siri
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 57 | 13.9ms
+
+[58/100] Question: will my 401k carryover
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 58 | 14.1ms
+
+[59/100] Question: i need to know when's the next holiday
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 59 | 13.8ms
+
+[60/100] Question: can you tell me how much i spent on grocery shopping recently
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 60 | 13.8ms
+
+[61/100] Question: yup, that's true
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 61 | 13.8ms
+
+[62/100] Question: what is the purpose or benefit of a cash advance
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 62 | 13.8ms
+
+[63/100] Question: i need to reserve a large room or suite for 2 couples for august 15th through august 18th in seattle
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 63 | 14.0ms
+
+[64/100] Question: spirit mastercard card was taken
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 64 | 13.8ms
+
+[65/100] Question: tell me how i can apply for a chase credit card
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 65 | 13.9ms
+
+[66/100] Question: i need quiet; use whisper
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 66 | 13.8ms
+
+[67/100] Question: send mike my exact location
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 67 | 13.8ms
+
+[68/100] Question: i would like to try and confirm that i have a reservation at longhorn for justin
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 68 | 13.9ms
+
+[69/100] Question: how many paypal transactions did i have last week
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 69 | 13.9ms
+
+[70/100] Question: is there a minimum amount accepted
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 70 | 13.8ms
+
+[71/100] Question: please let me review all items on my mastercard from this billing period
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 71 | 14.9ms
+
+[72/100] Question: submit full payment to chase for my visa bill
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 72 | 13.9ms
+
+[73/100] Question: what is your date of birth
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 73 | 13.8ms
+
+[74/100] Question: reset to factory settings
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 74 | 13.9ms
+
+[75/100] Question: i'd like you to add oranges to my shopping list
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 75 | 14.5ms
+
+[76/100] Question: can i rent a car from dfw airport from march 1st to march 8th
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 76 | 14.2ms
+
+[77/100] Question: remind me of how days i had off so far for the year
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 77 | 13.9ms
+
+[78/100] Question: can you tell me how long approximate wait times are at cheesecake factory
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 78 | 13.9ms
+
+[79/100] Question: are more than one carry on allowed at klm
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 79 | 13.8ms
+
+[80/100] Question: pull up the nutrional info of a 12 oz coke
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 80 | 13.9ms
+
+[81/100] Question: i am needing the next song to be played
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 81 | 13.8ms
+
+[82/100] Question: read my shopping list
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 82 | 13.9ms
+
+[83/100] Question: who should i call for a w2
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 83 | 13.8ms
+
+[84/100] Question: how you are
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 84 | 13.9ms
+
+[85/100] Question: how little can i pay on my phone bill
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 85 | 13.8ms
+
+[86/100] Question: find a recipe for hamburgers
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 86 | 13.9ms
+
+[87/100] Question: are shots required before traveling to brazil
+→ predicted=anatomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 87 | 13.9ms
+
+[88/100] Question: i need to be out of whisper mode
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 88 | 13.8ms
+
+[89/100] Question: british columbia can be found in what timezone
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 89 | 13.8ms
+
+[90/100] Question: how much is my bill for capital one
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 90 | 14.2ms
+
+[91/100] Question: i want the volume at level 4
+→ predicted=high_school_chemistry | expected=general | ✗ WRONG | Correct: 0 | Wrong: 91 | 13.9ms
+
+[92/100] Question: i need 2000 to go to my chase checking from my mellon bank savings account
+→ predicted=college_computer_science | expected=general | ✗ WRONG | Correct: 0 | Wrong: 92 | 14.0ms
+
+[93/100] Question: what is the wait time for torris
+→ predicted=astronomy | expected=general | ✗ WRONG | Correct: 0 | Wrong: 93 | 13.8ms
+
+[94/100] Question: what is the best way to keep my credit score from going down
+→ predicted=high_school_geography | expected=general | ✗ WRONG | Correct: 0 | Wrong: 94 | 13.9ms
+
+[95/100] Question: don't know
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 95 | 13.8ms
+
+[96/100] Question: can you tell me some fake news
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 96 | 13.8ms
+
+[97/100] Question: how do i report fraud on my chase bank card
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 97 | 13.8ms
+
+[98/100] Question: negatory
+→ predicted=jurisprudence | expected=general | ✗ WRONG | Correct: 0 | Wrong: 98 | 13.8ms
+
+[99/100] Question: i was wondering about the vacation time you said you'll approve
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 99 | 13.9ms
+
+[100/100] Question: contact the bank about fraud activity on my card
+→ predicted=business_ethics | expected=general | ✗ WRONG | Correct: 0 | Wrong: 100 | 13.9ms
+
+=== ROUTING RESULTS ===
+Correct: 0
+Wrong:   100
+Errors:  0
+Total:   100
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/colbert_LiquidAI-LFM2-ColBERT-350M.json
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/colbert_LiquidAI-LFM2-ColBERT-350M.csv
+saved: /home/maniles/manile/manile/results_off_topics/dummy_general/colbert_LiquidAI-LFM2-ColBERT-350M_efficiency.json
+
+=== ENERGY / CARBON ===
+Total CO2 (kg): 4.392819465806219e-05
+Total energy (kWh): 8.005984169272047e-05
+DONE
+============================================================
+
+
+BENCHMARK FINISHED
+
+[run_benchmark] ColBERTRouter finished in 11.3s (0.2 min)
+
+======================================================================
+BENCHMARK COMPLETE — 6/6 runs succeeded
+======================================================================
+
