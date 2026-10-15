@@ -9,41 +9,41 @@ from datasets import load_dataset
 
 class ExternalGeneralBuilder:
     def __init__(self, 
-                #  banking_samples=0,
+                 banking_samples=100,
                  clinc_samples=100,
-                #  banking_split="train",
+                 banking_split="train",
                  clinc_split="train",
                  seed=42):
         
-        # self.banking_samples = banking_samples
+        self.banking_samples = banking_samples
         self.clinc_samples = clinc_samples
 
-        # self.banking_split = banking_split
+        self.banking_split = banking_split
         self.clinc_split = clinc_split
 
         self.seed = seed
 
-    # def _get_banking_data(self):
+    def _get_banking_data(self):
 
-    #     banking_dataset = load_dataset(
-    #         "gtfintechlab/banking77",
-    #         split= self.banking_split
-    #     )
+        banking_dataset = load_dataset(
+            "gtfintechlab/banking77",
+            split= self.banking_split
+        )
 
-    #     banking_df = pd.DataFrame(banking_dataset)
+        banking_df = pd.DataFrame(banking_dataset)
 
-    #     banking_df = banking_df.sample(
-    #         n=self.banking_samples,
-    #         random_state=self.seed
-    #     ).reset_index(drop=True)
+        banking_df = banking_df.sample(
+            n=self.banking_samples,
+            random_state=self.seed
+        ).reset_index(drop=True)
 
-    #     banking = pd.DataFrame()
+        banking = pd.DataFrame()
 
-    #     banking["question"] = banking_df["text"]
-    #     banking["subject"] = "banking77"
-    #     banking["expected_service"] = "general"
+        banking["question"] = banking_df["text"]
+        banking["subject"] = "banking77"
+        banking["expected_service"] = "general"
 
-    #     return banking
+        return banking
 
 
     def _get_clinc_data(self):
@@ -72,11 +72,10 @@ class ExternalGeneralBuilder:
 
     def _combine_data(self):
 
-        # banking = self._get_banking_data()
+        banking = self._get_banking_data()
         clinc = self._get_clinc_data()
 
-        external_general = pd.concat([clinc], ignore_index= True)
-
+        external_general = pd.concat([clinc, banking], ignore_index=True)
         # shuffle the order
         external_general = external_general.sample(
             frac=1,
@@ -116,16 +115,16 @@ class ExternalGeneralBuilder:
 
 if __name__ == "__main__":
     builder = ExternalGeneralBuilder(
-        # banking_samples=100,
-        clinc_samples=100,
-        # banking_split="train",
-        clinc_split="validation",
-        seed=7
+        banking_samples=150,
+        clinc_samples=150,
+        banking_split="test",
+        clinc_split="test",
+        seed=42
 )
     
 
     builder.build_and_save(
-        dataset_name="dummy_general"
+        dataset_name="300_general_test"
 )
 
 

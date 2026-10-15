@@ -28,7 +28,7 @@ class EvaluationBuilder:
         file_path = (
             f"../general_dataset/"
             # f"mmlu_{self.split}_external_general.csv"
-            f"200_general.csv"
+            f"300_general_test.csv"
         )
 
         return pd.read_csv(file_path)
@@ -52,7 +52,7 @@ class EvaluationBuilder:
 
         file_path = (
             f"../evaluation_dataset/"
-            f"mmlu_{self.split}_eval_service_{service_id}_.csv"
+            f"mmlu_{self.split}_eval_service_{service_id}_300.csv"
         )
 
         df.to_csv(
@@ -84,7 +84,7 @@ class EvaluationBuilder:
 if __name__ == "__main__":
 
     builder = EvaluationBuilder(
-        split="validation"
+        split="test"
     )
 
     for service_id in SERVICE_SETS.keys():
