@@ -29,7 +29,7 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_strength_main", "balanced")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_gap_medmcqa")  
-RESULTS_DIR = os.path.join(BASE_DIR, "results_off_topics")  
+# RESULTS_DIR = os.path.join(BASE_DIR, "results_off_topics")  
 
 VERBOSE = False
 
@@ -103,10 +103,10 @@ def run_all():
         # MUST CHANGE DEV to TEST 
         # dataset_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_test_eval_service_{k}.csv")
         # dataset_path = os.path.join(DATA_DIR, "dataset", f"massive_test_eval_service_{k}.csv")
-        # dataset_path = os.path.join(DATA_DIR, "dataset", f"mmlu_test_eval_service_{k}_300.csv")
+        dataset_path = os.path.join(DATA_DIR, "dataset", f"mmlu_test_eval_service_{k}_300.csv")
         # dataset_path = os.path.join(DATA_DIR, "dataset", f"test_eval_service_{k}.csv")
         # dataset_path = os.path.join(DATA_DIR, "dataset", f"mmlu_validation_eval_service_3_fixed.csv")
-        dataset_path = os.path.join(DATA_DIR, "dataset", f"dummy_general.csv")
+        # dataset_path = os.path.join(DATA_DIR, "dataset", f"dummy_general.csv")
         
 
         print(f"\n{'*' * 70}")
