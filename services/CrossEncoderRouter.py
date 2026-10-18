@@ -98,6 +98,17 @@ class CrossEncoderRouter(RouterBase):
         scores = [float(s) for s in raw_scores]
         scores_dict = dict(zip(names, scores))
 
+        # Gap gate
+        gap = max(scores) - float(np.median(scores))
+        gap_cutoff = float(self.gap_c0 + self.gap_c1 * np.log(len(scores)))
+        gap_ok = bool(gap > gap_cutoff)
+
+
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
+        latency_ms = (time.perf_counter() - start) * 1000
+
+
         confidence = ConfidenceMetrics(scores_dict)
         confidence_result = confidence.calculate()
 
@@ -110,10 +121,6 @@ class CrossEncoderRouter(RouterBase):
         
         service_count = len(scores_dict)
 
-        # Gap gate
-        gap = max(scores) - float(np.median(scores))
-        gap_cutoff = self.gap_c0 + self.gap_c1 * np.log(service_count)
-        gap_ok = gap > gap_cutoff
 
         mad_result = self._calculate_mad_strength(scores_dict, self.mad_tau, self.c0, self.c1)
 
@@ -155,12 +162,6 @@ class CrossEncoderRouter(RouterBase):
 
         # print("DEBUG ZSCORES")
         # print(confidence_result["zscores"])
-
-        # wait for GPU to stop properly first before stopping timer
-        if torch.cuda.is_available():
-            torch.cuda.synchronize()
- 
-        latency_ms = (time.perf_counter() - start) * 1000
  
         prompt_tokens = 0
  

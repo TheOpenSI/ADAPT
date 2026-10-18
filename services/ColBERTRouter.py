@@ -103,6 +103,17 @@ class ColBERTRouter(RouterBase):
             scores = [s / n_query_tokens for s in scores]
         scores_dict = dict(zip(self.names, scores))
 
+        # Gap gate 
+        gap = max(scores) - float(np.median(scores))
+        gap_cutoff = (float(self.gap_c0 + self.gap_c1 * np.log(len(scores)))
+                      if self.gap_c0 is not None else None)
+        gap_ok = bool(gap > gap_cutoff) if gap_cutoff is not None else True
+
+        # ---- timed region ends here: scoring + gap decision only ----
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
+        latency_ms = (time.perf_counter() - start) * 1000
+
         confidence = ConfidenceMetrics(scores_dict)
         confidence_result = confidence.calculate()
 
@@ -111,12 +122,6 @@ class ColBERTRouter(RouterBase):
         zscore_margin = float(confidence_result["zscore_margin"])
 
         service_count = len(scores_dict)
-
-        # Gap gate
-        gap = max(scores) - float(np.median(scores))
-        gap_cutoff = (float(self.gap_c0 + self.gap_c1 * np.log(service_count))
-                      if self.gap_c0 is not None else None)
-        gap_ok = bool(gap > gap_cutoff) if gap_cutoff is not None else True
 
         mad_result = self._calculate_mad_strength(scores_dict, self.mad_tau, self.c0, self.c1)
 
@@ -151,11 +156,6 @@ class ColBERTRouter(RouterBase):
 
         predicted_label = top_label if admitted else self.fallback_label
 
-        # Wait until all GPU operations are finished
-        if torch.cuda.is_available():
-            torch.cuda.synchronize()
-
-        latency_ms = (time.perf_counter() - start) * 1000
 
         prompt_tokens = n_query_tokens
 

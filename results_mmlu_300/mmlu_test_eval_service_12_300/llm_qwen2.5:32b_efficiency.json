@@ -1,0 +1,11 @@
+{
+  "routing_method": "llm",
+  "model_name": "qwen2.5:32b",
+  "specialist_service_count": 12,
+  "total_service_count": 12,
+  "total_queries": 1500,
+  "total_energy_kwh": 0.024998928822361956,
+  "energy_per_query_kwh": 1.6665952548241304e-05,
+  "total_co2_kg": 0.013716712253399429,
+  "co2_per_query_kg": 9.14447483559962e-06
+}

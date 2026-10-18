@@ -123,6 +123,20 @@ class SemanticRouter(RouterBase):
         # plain floats, not np.float32
         scores_dict = {name: float(score) for name, score in scores.items()}
 
+
+        # Gap gate
+        score_values = list(scores_dict.values())
+        gap = max(score_values) - float(np.median(score_values))
+        gap_cutoff = (self.gap_c0 + self.gap_c1 * np.log(len(score_values))
+                      if self.gap_c0 is not None else None)
+        gap_ok = bool(gap > gap_cutoff) if gap_cutoff is not None else True
+        
+        # wait for GPU to stop properly first before stopping timer
+        if torch.cuda.is_available():
+            torch.cuda.synchronize()
+                
+        latency_ms = (time.perf_counter() - start) * 1000
+
         confidence = ConfidenceMetrics(scores_dict)
         confidence_result = confidence.calculate()
 
@@ -131,14 +145,6 @@ class SemanticRouter(RouterBase):
         zscore_margin = float(confidence_result["zscore_margin"])
 
         service_count = len(scores_dict)
-
-        # Gap gate
-        score_values = list(scores_dict.values())
-        gap = max(score_values) - float(np.median(score_values))
-        gap_cutoff = (self.gap_c0 + self.gap_c1 * np.log(service_count)
-                      if self.gap_c0 is not None else None)
-        gap_ok = bool(gap > gap_cutoff) if gap_cutoff is not None else True
-
      
         mad_result = self._calculate_mad_strength(scores_dict, self.mad_tau, self.c0, self.c1)
         
@@ -174,11 +180,6 @@ class SemanticRouter(RouterBase):
 
         predicted_label = top_label if admitted else self.fallback_label
 
-        # wait for GPU to stop properly first before stopping timer
-        if torch.cuda.is_available():
-            torch.cuda.synchronize()
-
-        latency_ms = (time.perf_counter() - start) * 1000
 
         encoded = self.model.tokenizer.encode(
             query,
