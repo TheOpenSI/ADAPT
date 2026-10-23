@@ -13,9 +13,6 @@ sys.path.insert(0, project_root)
 
 import ollama
 
-# from data.MedMCQA.specialists_dataset.medmcqa_config import MEDMCQA_SERVICE_SETS
-from data.MASSIVE.specialists.massive_config import MASSIVE_SERVICE_SETS
-
 class ServiceDescriptionGenerator:
 
     def __init__(
@@ -80,7 +77,7 @@ class ServiceDescriptionGenerator:
         extracted_text = self._format_concepts(extracted_concepts)
 
         prompt = f"""
-You are constructing a semantic description for a specialist service.
+You are constructing a semantic description for a general-purpose assistant service that handles everyday requests outside the specialist services.
 
 SUBJECT:
 {subject}
@@ -96,7 +93,7 @@ Create one concise semantic description of the capabilities covered
 by this specialist service.
 
 The core concepts represent the strongest functional capabilities of
-the service.
+this general-purpose service.
 The full extracted concepts provide broader coverage of user requests
 handled by the service.
 
@@ -169,7 +166,7 @@ Return ONLY valid JSON in this format:
 
     def generate_all_specialist_descriptions(self):
 
-        specialists = MASSIVE_SERVICE_SETS[self.service_count]
+        specialists = ["general"]
 
         results = {}
         total = len(specialists)
@@ -217,30 +214,40 @@ Return ONLY valid JSON in this format:
         return routing_descriptions
 
 
-
 if __name__ == "__main__":
     generator = ServiceDescriptionGenerator(
-        service_count=9,
+        service_count=None,
         model="qwen3:32b",
-
-        general_concept_path=(
-            "../data/MASSIVE/descriptions/"
-            "general_concepts_extraction.json"
-        ),
-        core_concept_path=(
-            "../data/MASSIVE/descriptions/"
-            "core_concepts.json"
-        ),
-        output_path=(
-           "../data/MASSIVE/descriptions/"
-            "service_descriptions.json"
-        ),
+        general_concept_path="general_concepts.json",
+        core_concept_path="general_core_concepts.json",
+        output_path="general_description.json",
     )
-    # generator.generate_all_specialist_descriptions()
-
-
-    # must do otherwise services structure wont match
+    generator.generate_all_specialist_descriptions()
     generator.flatten_service_descriptions()
+
+# if __name__ == "__main__":
+#     generator = ServiceDescriptionGenerator(
+#         service_count=9,
+#         model="qwen3:32b",
+
+#         general_concept_path=(
+#             "../data/MASSIVE/descriptions/"
+#             "general_concepts_extraction.json"
+#         ),
+#         core_concept_path=(
+#             "../data/MASSIVE/descriptions/"
+#             "core_concepts.json"
+#         ),
+#         output_path=(
+#            "../data/MASSIVE/descriptions/"
+#             "service_descriptions.json"
+#         ),
+#     )
+#     # generator.generate_all_specialist_descriptions()
+
+
+#     # must do otherwise services structure wont match
+#     generator.flatten_service_descriptions()
     
 
 

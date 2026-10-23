@@ -17,11 +17,11 @@ from services.QueryAnalyser import QueryAnalyser
 
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
-RESULTS_DIR = os.path.join(BASE_DIR, "results_ablation")  
+RESULTS_DIR = os.path.join(BASE_DIR, "results_ablation_desc")  
 
 VERBOSE = False
 
-APPLY_GATE = True 
+APPLY_GATE = False 
 
 CONDITIONS = [3,5,8,10,12,14]
 # CONDITIONS = [3]

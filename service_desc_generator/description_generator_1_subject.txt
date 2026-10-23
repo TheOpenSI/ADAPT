@@ -1,8 +1,0 @@
-[LOAD] ../data/MedMCQA/descriptions/general_concepts_extraction_1_subject.json: 1 subjects
-[LOAD] ../data/MedMCQA/descriptions/core_concepts_1_subject.json: 1 subjects
-
-[1/1] Generating specialist description: Dental
-[SPECIALIST] Generating description: Dental
-[SPECIALIST] Dental: 50 words
-
-[DONE] Saved specialist descriptions to ../data/MedMCQA/descriptions/service_descriptions_1.json

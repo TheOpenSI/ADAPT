@@ -1,3 +1,0 @@
-[LOAD] concept_extraction.json: 14 subjects
-[LOAD] core_concepts.json: 14 subjects
-[DONE] Flattened service descriptions in service_descriptions_14.json

@@ -115,16 +115,16 @@ class ExternalGeneralBuilder:
 
 if __name__ == "__main__":
     builder = ExternalGeneralBuilder(
-        banking_samples=150,
-        clinc_samples=150,
-        banking_split="test",
-        clinc_split="test",
+        banking_samples=25,
+        clinc_samples=25,
+        banking_split="train",
+        clinc_split="train",
         seed=42
 )
     
 
     builder.build_and_save(
-        dataset_name="300_general_test"
+        dataset_name="50_general_desc_train"
 )
 
 
