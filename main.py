@@ -17,31 +17,20 @@ from services.ColBERTRouter import ColBERTRouter
 from services.QueryAnalyser import QueryAnalyser
 
 
-
 DATA_DIR = os.path.join(BASE_DIR, "data")
-# RESULTS_DIR = os.path.join(BASE_DIR, "results_vram")
-# RESULTS_DIR = os.path.join(BASE_DIR, "results_per_K_threshold")
-# RESULTS_DIR = os.path.join(BASE_DIR, "results_global_threshold")
-# RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu")
-# RESULTS_DIR = os.path.join(BASE_DIR, "results_medmcqa")
-# RESULTS_DIR = os.path.join(BASE_DIR, "results_massive")
-# RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu_validation_fixed")
-
-# RESULTS_DIR = os.path.join(BASE_DIR, "results_strength_main", "balanced")
-# RESULTS_DIR = os.path.join(BASE_DIR, "results_gap_medmcqa")  
-RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu")  
-# RESULTS_DIR = os.path.join(BASE_DIR, "results_off_topics")  
+RESULTS_DIR = os.path.join(BASE_DIR, "results_test_only")  
 
 VERBOSE = False
 
-APPLY_GATE = True
+APPLY_GATE = True 
 
-CONDITIONS = [3,5,8,10,12,14]
+# CONDITIONS = [3,5,8,10,12,14]
+CONDITIONS = [3]
 
 
 MODEL_CONFIGS = [
     
-    # dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-0.6B", gap_c0=0.0760, gap_c1=0.0264),
+    dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-0.6B", gap_c0=0.0760, gap_c1=0.0264),
     # dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-4B",   gap_c0=0.0512, gap_c1=0.0385),
     # dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-8B",   gap_c0=0.0537, gap_c1=0.0325),
     # dict(cls=SemanticRouter,     model_name="sentence-transformers/all-MiniLM-L6-v2", gap_c0=0.0580, gap_c1=0.0333),
@@ -82,17 +71,8 @@ def run_all():
     succeeded = 0
 
     for k in CONDITIONS:
-        # service_desc_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_service_descriptions_{k}.json")
-        # service_desc_path = os.path.join(DATA_DIR, "dataset", f"massive_service_descriptions_{k}.json")
         service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
-
-        # MUST CHANGE DEV to TEST 
-        # dataset_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_test_eval_service_{k}.csv")
-        # dataset_path = os.path.join(DATA_DIR, "dataset", f"massive_test_eval_service_{k}.csv")
         dataset_path = os.path.join(DATA_DIR, "dataset", f"mmlu_test_eval_service_{k}_300.csv")
-        # dataset_path = os.path.join(DATA_DIR, "dataset", f"test_eval_service_{k}.csv")
-        # dataset_path = os.path.join(DATA_DIR, "dataset", f"mmlu_validation_eval_service_3_fixed.csv")
-        # dataset_path = os.path.join(DATA_DIR, "dataset", f"dummy_general.csv")
         
 
         print(f"\n{'*' * 70}")

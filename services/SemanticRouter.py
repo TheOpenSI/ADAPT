@@ -90,8 +90,7 @@ class SemanticRouter(RouterBase):
         start = time.perf_counter()
 
         q_vec = self.model.encode(query)
-
-        # plain floats, not np.float32
+        
         scores_dict = {name: self._cosine_similarity(q_vec, vec)
                        for name, vec in self.service_embeddings.items()}
 
@@ -137,6 +136,7 @@ class SemanticRouter(RouterBase):
             "latency_ms": latency_ms,
 
             "max_score": max(scores),
+            "median_score": float(np.median(scores)),
 
             # one column per specialist, e.g. "anatomy_score"
             **{f"{name}_score": score for name, score in scores_dict.items()},

@@ -124,6 +124,7 @@ class ColBERTRouter(RouterBase):
             "latency_ms": latency_ms,
 
             "max_score": max(scores),
+            "median_score": float(np.median(scores)),
             # one column per specialist, e.g. "anatomy_score"
             **{f"{name}_score": score for name, score in scores_dict.items()},
 
