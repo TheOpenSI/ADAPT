@@ -3,8 +3,7 @@ import sys
 import gc
 import time
 import torch
-import pandas as pd
-import math
+
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)
@@ -18,19 +17,19 @@ from services.QueryAnalyser import QueryAnalyser
 
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
-RESULTS_DIR = os.path.join(BASE_DIR, "results_test_only")  
+RESULTS_DIR = os.path.join(BASE_DIR, "results_ablation")  
 
 VERBOSE = False
 
 APPLY_GATE = True 
 
-# CONDITIONS = [3,5,8,10,12,14]
-CONDITIONS = [3]
+CONDITIONS = [3,5,8,10,12,14]
+# CONDITIONS = [3]
 
 
 MODEL_CONFIGS = [
     
-    dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-0.6B", gap_c0=0.0760, gap_c1=0.0264),
+    # dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-0.6B", gap_c0=0.0760, gap_c1=0.0264),
     # dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-4B",   gap_c0=0.0512, gap_c1=0.0385),
     # dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-8B",   gap_c0=0.0537, gap_c1=0.0325),
     # dict(cls=SemanticRouter,     model_name="sentence-transformers/all-MiniLM-L6-v2", gap_c0=0.0580, gap_c1=0.0333),
@@ -40,13 +39,13 @@ MODEL_CONFIGS = [
     # dict(cls=ColBERTRouter,      model_name="colbert-ir/colbertv2.0",    gap_c0=0.0369, gap_c1=0.0236),
     # dict(cls=ColBERTRouter,      model_name="mixedbread-ai/mxbai-colbert-large-v1", gap_c0=0.0771, gap_c1=0.0215),
     
-    # dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5", gap_c0=0.0436, gap_c1=0.0163), 
-    # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B", gap_c0=0.9332, gap_c1=0.3971),
+    dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5", gap_c0=0.0436, gap_c1=0.0163, fixed_threshold = 0.061609), 
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B", gap_c0=0.9332, gap_c1=0.3971,fixed_threshold=1.379185),
     # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2", gap_c0=-0.0994, gap_c1=0.1976),  
-    # dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT", gap_c0=0.009360, gap_c1=0.0134), 
+    dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT", gap_c0=0.009360, gap_c1=0.0134, fixed_threshold=0.024361), 
     # dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M", gap_c0=0.0003873, gap_c1=0.0005357),
     
-
+    
     # dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
     # dict(cls=QueryAnalyser, model_name="qwen2.5:32b"),
     # dict(cls=QueryAnalyser, model_name="phi4:14b"),
@@ -111,6 +110,7 @@ def run_all():
                         apply_threshold=APPLY_GATE,
                         gap_c0=cfg["gap_c0"],
                         gap_c1=cfg["gap_c1"],
+                        fixed_threshold=cfg.get("fixed_threshold"),
                     )
 
                 runner = BenchmarkRunner(dataset_path, 

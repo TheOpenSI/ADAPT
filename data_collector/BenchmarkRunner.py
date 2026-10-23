@@ -1,5 +1,4 @@
 from pathlib import Path
-import json
 import pandas as pd
 import os
 import sys 
@@ -26,7 +25,7 @@ class BenchmarkRunner:
         return f"{routing_method}_{model_name}"
 
 
-    def _get_result(self):
+    def _get_result(self, run_name):
 
         total = len(self.df)
 
@@ -36,22 +35,28 @@ class BenchmarkRunner:
 
         result = []
 
+        # One tracker for the whole run, one task per query
+        tracker = EmissionsTracker(
+            project_name=run_name,
+            save_to_file=False,
+            allow_multiple_runs=True,
+            tracking_mode="process",
+            log_level="error",
+            measure_power_secs=1,
+        )
+        tracker.start()
+
         for i in range(total):
 
             prompt = self.df.iloc[i]["question"]
             expected_service = self.df.iloc[i]["expected_service"]
-            query_id = (
-                self.df.iloc[i]["query_id"]
-                if "query_id" in self.df.columns
-                else i
-            )
 
             print(f"\n[{i+1}/{total}] Question: {prompt}")
 
+            tracker.start_task(f"query_{i}")
             try:
                 route = self.router.route(prompt)
 
-                route["query_id"] = query_id
                 route["expected_service"] = expected_service
                 route["is_correct"] = (route["predicted_label"] == route["expected_service"])
                 route["error"] = None
@@ -74,31 +79,26 @@ class BenchmarkRunner:
                 )
 
             except Exception as e:
-                    error_count += 1
-                    route = {
-                        "query_id" : query_id,
-                        "routing_method": getattr(self.router, "routing_method", None),
-                        "query": prompt,
-                        "predicted_label": None,
-                        "model_name": getattr(self.router, "model_name", None),
-                        "latency_ms": None,
-                        "prompt_tokens": None,
-                        "completion_tokens": None,
-                        "total_tokens": None,
-                        "raw_response": None,
-                        "expected_service": expected_service,
-                        "is_correct": False,
-                        "error": str(e),
-                    }
-                    print(
-                        f"→ ERROR | "
-                        f"Correct: {correct_count} | "
-                        f"Wrong: {wrong_count} | "
-                        f"Errors: {error_count} | "
-                        f"{e}"
-                    )
+                error_count += 1
+                route = {
+                    "routing_method": getattr(self.router, "routing_method", None),
+                    "query": prompt,
+                    "predicted_label": None,
+                    "model_name": getattr(self.router, "model_name", None),
+                    "latency_ms": None,
+                    "expected_service": expected_service,
+                    "is_correct": False,
+                    "error": str(e),
+                }
+                print(f"→ ERROR | Errors: {error_count} | {e}")
+
+            emissions_data = tracker.stop_task()
+            route["energy_kwh"] = emissions_data.energy_consumed if emissions_data else None
+            route["co2_kg"] = emissions_data.emissions if emissions_data else None
 
             result.append(route)
+
+        tracker.stop()
 
         print("\n=== ROUTING RESULTS ===")
         print(f"Correct: {correct_count}")
@@ -119,14 +119,6 @@ class BenchmarkRunner:
         print(f"saved: {csv_path}")
 
 
-    def _save_efficiency(self, efficiency_result, run_name):
-        path = (self.results_dir/ f"{run_name}_efficiency.json")
-
-        with open(path, "w") as f:
-            json.dump(efficiency_result, f, indent=2)
-        print(f"saved: {path}")
-
-
     def run_test(self):
         print(f"\n{'='*60}")
         print(f"Starting benchmark: {self.router.__class__.__name__} on {self.dataset_path}")
@@ -134,55 +126,15 @@ class BenchmarkRunner:
         print(f"{'='*60}\n")
 
         run_name = self._build_run_name()
-        
-        tracker = EmissionsTracker(project_name=run_name, output_dir=str(self.results_dir),tracking_mode="process")
 
-        tracker.start()
+        result = self._get_result(run_name)
 
-        result = self._get_result()
-        
-        tracker.stop()
-
-        specialist_service_count = len([
-             service
-             for service in self.router.services
-             if service != "general"
-            ])
         total_service_count = len(self.router.services)
 
-        # Query-level results
         result_df = pd.DataFrame(result)
-        result_df["specialist_service_count"] = specialist_service_count
         result_df["total_service_count"] = total_service_count
 
         self._save_result(result_df,run_name)
-
-        # Run-level CodeCarbon results
-        total_queries = len(result)
-
-        total_co2_kg = (tracker.final_emissions_data.emissions)
-        total_energy_kwh = (tracker.final_emissions_data.energy_consumed)
-
-        co2_per_query_kg = (total_co2_kg / total_queries if total_queries > 0 else None)
-        energy_per_query_kwh = (total_energy_kwh / total_queries if total_queries > 0 else None)
-
-        efficiency_result = {
-            "routing_method" : self.router.routing_method,
-            "model_name" : self.router.model_name,
-            "specialist_service_count" : specialist_service_count,
-            "total_service_count": total_service_count,
-            "total_queries" : total_queries,
-            "total_energy_kwh" : total_energy_kwh,
-            "energy_per_query_kwh" : energy_per_query_kwh,
-            "total_co2_kg" : total_co2_kg,
-            "co2_per_query_kg": co2_per_query_kg  
-        }
-
-        self._save_efficiency(efficiency_result,run_name)
-
-        print("\n=== ENERGY / CARBON ===")
-        print("Total CO2 (kg):", total_co2_kg)
-        print("Total energy (kWh):", total_energy_kwh)
 
         print(f"DONE")
         print(f"{'='*60}\n")

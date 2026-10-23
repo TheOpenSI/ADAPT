@@ -126,53 +126,37 @@ class QueryAnalyser(RouterBase):
             ],
         )
         
-
         raw_label = response["message"]["content"]
         predicted_label = self._match_service(raw_label)
 
         latency_ms = (time.perf_counter() - start) * 1000
 
-        prompt_tokens = response.get("prompt_eval_count", 0)
-        completion_tokens = response.get("eval_count", 0)
-        total_tokens = prompt_tokens + completion_tokens
-
 
         if self.verbose:
             print(f"  raw model output: {raw_label!r}")
-            print(f"  -> {predicted_label} | {latency_ms:.1f}ms | "
-                  f"{prompt_tokens} prompt tok + {completion_tokens} completion tok = {total_tokens} total tok")
+            print(f"  -> {predicted_label} | {latency_ms:.1f}ms")
 
         return {
             "routing_method": self.routing_method,
             "query": query,
             "raw_response": raw_label,
-
+ 
             "predicted_label": predicted_label,
             "top_candidate": predicted_label,
-
+ 
             "model_name": self.model_name,
-
+ 
             "latency_ms": latency_ms,
-            "prompt_tokens": prompt_tokens,
-            "completion_tokens": completion_tokens,
-            "total_tokens": total_tokens,
-
+ 
             "max_score": None,
-            "margin": None,
-            "margin_ratio": None,
-            "normalized_margin": None,
-
-            "mean_score": None,
-            "std_score": None,
-
-            "top_zscore": None,
-            "second_top_zscore": None,
-            "zscore_margin": None,
-
-            "scores": None,
-            "zscores": None,
-
-            "confidence_threshold": None,
+            "median_score": None,
+            **{f"{name}_score": None for name in self.services},
+ 
+            "apply_threshold": None,
+ 
+            "gap": None,
+            "gap_cutoff": None,
+            "gap_passed": None,
         }
 
 

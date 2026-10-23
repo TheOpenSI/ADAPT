@@ -23,6 +23,8 @@ class SemanticRouter(RouterBase):
 
                  gap_c0=None,                # gap threshold T(k) = gap_c0 + gap_c1 * ln(k)
                  gap_c1=None,
+                 fixed_threshold=None,       # ablation
+
     ):
 
         super().__init__(service_desc_path, model_name)
@@ -32,11 +34,21 @@ class SemanticRouter(RouterBase):
         self.apply_threshold = apply_threshold
 
         self.gap_c0, self.gap_c1 = gap_c0, gap_c1
+        self.fixed_threshold = fixed_threshold
 
-        if apply_threshold and None in (gap_c0, gap_c1):
+        if apply_threshold and fixed_threshold is None and None in (gap_c0, gap_c1):
             raise ValueError(
-                "apply_threshold=True needs gap_c0 and gap_c1 fitted for this embedding model."
+                "apply_threshold=True needs gap_c0 and gap_c1 (or fixed_threshold) for this embedding model."
             )
+
+        # Which gate is active
+        if not apply_threshold:
+            gate_mode = "OFF (always route to the top specialist)"
+        elif fixed_threshold is not None:
+            gate_mode = f"ABLATION, fixed threshold = {fixed_threshold}"
+        else:
+            gate_mode = f"T(k) = {gap_c0} + {gap_c1} * ln(k)"
+        print(f"[SemanticRouter] Gate: {gate_mode}")
 
         print(f"[SemanticRouter] Loading embedding model '{model_name}'... (this may take a while on first run)")
         load_start = time.perf_counter()
@@ -101,7 +113,10 @@ class SemanticRouter(RouterBase):
         gap = max(scores) - float(np.median(scores))
 
         if self.apply_threshold:
-            gap_cutoff = float(self.gap_c0 + self.gap_c1 * np.log(len(scores)))
+            if self.fixed_threshold is not None:  
+                gap_cutoff = float(self.fixed_threshold)
+            else:
+                gap_cutoff = float(self.gap_c0 + self.gap_c1 * np.log(len(scores)))
             admitted = gap > gap_cutoff
         else:                           
             gap_cutoff = None
