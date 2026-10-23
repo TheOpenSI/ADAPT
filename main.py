@@ -15,7 +15,7 @@ from services.SemanticRouter import SemanticRouter
 from services.CrossEncoderRouter import CrossEncoderRouter
 from services.ColBERTRouter import ColBERTRouter
 from services.QueryAnalyser import QueryAnalyser
-from services.TauNoteBook import TauNotebook
+
 
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -29,16 +29,15 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_strength_main", "balanced")
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_gap_medmcqa")  
-RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu_300")  
+RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu")  
 # RESULTS_DIR = os.path.join(BASE_DIR, "results_off_topics")  
 
 VERBOSE = False
 
-GATE_MODE = "gap"   
+APPLY_GATE = True
 
-# CONDITIONS = [3,5,7,9]
 CONDITIONS = [3,5,8,10,12,14]
-# CONDITIONS = [8]
+
 
 MODEL_CONFIGS = [
     
@@ -59,13 +58,12 @@ MODEL_CONFIGS = [
     # dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M", gap_c0=0.0003873, gap_c1=0.0005357),
     
 
-
     # dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
     # dict(cls=QueryAnalyser, model_name="qwen2.5:32b"),
     # dict(cls=QueryAnalyser, model_name="phi4:14b"),
     # dict(cls=QueryAnalyser, model_name="qwen2.5:7b"),
     # dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
-    dict(cls=QueryAnalyser, model_name="qwen3:32b"),
+    # dict(cls=QueryAnalyser, model_name="qwen3:32b"),
 ]
 
 
@@ -118,42 +116,22 @@ def run_all():
             runner = None
 
             try:
-                router = cfg["cls"](
-                    service_desc_path=service_desc_path,
-                    model_name=cfg["model_name"],
-                    verbose=VERBOSE,
-                    # gate_mode=GATE_MODE,
-                    # gap_c0=cfg["gap_c0"], 
-                    # gap_c1=cfg["gap_c1"], 
-                    # a=cfg["a"],
-                    # b=cfg["b"],
-                )
-
-                # print("\nMODEL LOADED AND READY")
-                # input("Start nvidia-smi logging now, then press Enter to begin benchmark...")
-
-                if GATE_MODE == "mad":
-                    notebook = TauNotebook(
-                        os.path.join(BASE_DIR, "calibration_threshold", "dataset", "dummy_general.csv"),
-                        os.path.join(BASE_DIR, "calibration_threshold", "results_cut_off",
-                                     "mmlu_" + cfg["model_name"].replace("/", "_") + ".csv"),
+                if cfg["cls"] is QueryAnalyser:
+                    # LLM router: no gate
+                    router = QueryAnalyser(
+                        service_desc_path=service_desc_path,
+                        model_name=cfg["model_name"],
+                        verbose=VERBOSE,
                     )
-
-                    def scorer(questions, name):
-                        description = router.services[name]
-                        if isinstance(router, SemanticRouter):
-                            q_vecs = router.model.encode(questions)
-                            d_vec = router.model.encode(description)
-                            return [router._cosine_similarity(q_vec, d_vec) for q_vec in q_vecs]
-                        return router.score_queries(router.model_name, questions, description)
-
- 
-                    names = list(router.services)
-                    router.mad_tau = notebook.tau(list(router.services), scorer)
-                    router.c0 = cfg["c0"]
-                    router.c1 = cfg["c1"]
-                    cutoff = router.c0 + router.c1 * math.log(len(names))
-                    print(f"[run_benchmark] K={k}  tau={router.mad_tau:.4f} cutoff={cutoff:.4f}")
+                else:
+                    router = cfg["cls"](
+                        service_desc_path=service_desc_path,
+                        model_name=cfg["model_name"],
+                        verbose=VERBOSE,
+                        apply_threshold=APPLY_GATE,
+                        gap_c0=cfg["gap_c0"],
+                        gap_c1=cfg["gap_c1"],
+                    )
 
                 runner = BenchmarkRunner(dataset_path, 
                                          router, 
@@ -161,11 +139,6 @@ def run_all():
                 
                 runner.run_test()
                 print("\nBENCHMARK FINISHED")
-
-                # input(
-                #     "Stop the nvidia-smi logger now, "
-                #     "then press Enter to unload the model..."
-                # )
 
                 succeeded += 1
 

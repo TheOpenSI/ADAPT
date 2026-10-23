@@ -135,7 +135,7 @@ class BenchmarkRunner:
 
         run_name = self._build_run_name()
         
-        tracker = EmissionsTracker(project_name=run_name, output_dir=str(self.results_dir))
+        tracker = EmissionsTracker(project_name=run_name, output_dir=str(self.results_dir),tracking_mode="process")
 
         tracker.start()
 
