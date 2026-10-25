@@ -1,0 +1,44 @@
+{
+  "Psychiatry": {
+    "subject": "Psychiatry",
+    "extracted_concepts": [
+      "Delusions",
+      "Antipsychotic administration techniques",
+      "WHO mental health action plan",
+      "Subcortical dementia causes",
+      "Escitalopram adverse effects",
+      "Depersonalization characteristics",
+      "Electroconvulsive therapy complications",
+      "Personality disorder clusters",
+      "Head injury diagnosis",
+      "Anorexia nervosa treatment",
+      "SPIKES communication protocol",
+      "Advance directives in mental health",
+      "Paradoxical suicide",
+      "Tourette syndrome treatment",
+      "Akathisia"
+    ]
+  },
+  "Skin": {
+    "subject": "Skin",
+    "extracted_concepts": [
+      "Oral candidiasis types",
+      "Vaginal discharge and its causes",
+      "Allergic contact dermatitis causes",
+      "Drug-induced skin reactions",
+      "Neurocysticercosis and its dermatological manifestations",
+      "Cutaneous manifestations of infections",
+      "Postherpetic neuralgia definition",
+      "Alopecia areata diagnosis",
+      "Alopecia areata associations",
+      "Erythrodermic psoriasis treatment",
+      "Chronic urticaria diagnosis",
+      "Rash characteristics in infectious diseases",
+      "Alopecia areata diagnosis",
+      "Scabies diagnosis",
+      "Neurofibromatosis-1 diagnosis",
+      "Leprosy treatment",
+      "Blistering disorders"
+    ]
+  }
+}
