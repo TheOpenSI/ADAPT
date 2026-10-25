@@ -17,7 +17,7 @@ from services.QueryAnalyser import QueryAnalyser
 
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
-RESULTS_DIR = os.path.join(BASE_DIR, "results_ablation_desc")  
+RESULTS_DIR = os.path.join(BASE_DIR, "results_mmlu_main")  
 
 VERBOSE = False
 
@@ -39,19 +39,19 @@ MODEL_CONFIGS = [
     # dict(cls=ColBERTRouter,      model_name="colbert-ir/colbertv2.0",    gap_c0=0.0369, gap_c1=0.0236),
     # dict(cls=ColBERTRouter,      model_name="mixedbread-ai/mxbai-colbert-large-v1", gap_c0=0.0771, gap_c1=0.0215),
     
-    dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5", gap_c0=0.0436, gap_c1=0.0163, fixed_threshold = 0.061609), 
-    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B", gap_c0=0.9332, gap_c1=0.3971,fixed_threshold=1.379185),
+    # dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5", gap_c0=0.0436, gap_c1=0.0163), 
+    # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B", gap_c0=0.9332, gap_c1=0.3971),
     # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2", gap_c0=-0.0994, gap_c1=0.1976),  
-    dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT", gap_c0=0.009360, gap_c1=0.0134, fixed_threshold=0.024361), 
+    # dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT", gap_c0=0.009360, gap_c1=0.0134), 
     # dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M", gap_c0=0.0003873, gap_c1=0.0005357),
     
     
-    # dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
-    # dict(cls=QueryAnalyser, model_name="qwen2.5:32b"),
-    # dict(cls=QueryAnalyser, model_name="phi4:14b"),
-    # dict(cls=QueryAnalyser, model_name="qwen2.5:7b"),
-    # dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
-    # dict(cls=QueryAnalyser, model_name="qwen3:32b"),
+    dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
+    dict(cls=QueryAnalyser, model_name="qwen2.5:32b"),
+    dict(cls=QueryAnalyser, model_name="phi4:14b"),
+    dict(cls=QueryAnalyser, model_name="qwen2.5:7b"),
+    dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
+    dict(cls=QueryAnalyser, model_name="qwen3:32b"),
 ]
 
 
