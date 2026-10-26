@@ -1,0 +1,481 @@
+routing_method,query,raw_response,predicted_label,top_candidate,model_name,latency_ms,max_score,median_score,Radiology_score,Social & Preventive Medicine_score,Forensic Medicine_score,apply_threshold,gap,gap_cutoff,gap_passed,expected_service,is_correct,error,energy_kwh,co2_kg,total_service_count
+llm,Elderly individual living alone in a temperate zone is found dead one morning. The electric heater is found to be damaged. The rigor mois will set in:NEET 14,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,308.35177283734083,,,,,,,,,,Forensic Medicine,True,,0.00015592071305478697,8.555244788745718e-05,3
+llm,"Parents of the Child complains of assaulted by one of their relatives and anal pain in a child, On investigation test shows yellow iodine crystals with picric acid - what is the name of the test?",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,62.292535090819,,,,,,,,,,Forensic Medicine,True,,7.244768238930045e-06,3.975146374555002e-06,3
+llm,True about Stab Wounds ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,53.166798083111644,,,,,,,,,,Forensic Medicine,True,,5.96156770219712e-06,3.271064505653941e-06,3
+llm,Adultery is described under which section of IPC?,service -1,general,general,qwen2.5:7b,44.34777703136206,,,,,,,,,,Forensic Medicine,False,,1.381721366972889e-07,7.58139460287023e-08,3
+llm,Extra permanent tooth to erupt is -,service -1,general,general,qwen2.5:7b,47.67857608385384,,,,,,,,,,Forensic Medicine,False,,6.42490318595733e-06,3.525292978909299e-06,3
+llm,Best method for methanol poisoning treatment:March 2007,service -1,general,general,qwen2.5:7b,46.82851885445416,,,,,,,,,,Forensic Medicine,False,,7.334033083118474e-06,4.024125280442447e-06,3
+llm,Contributory negligence is negligence due to:NEET 13,service -1,general,general,qwen2.5:7b,46.19153309613466,,,,,,,,,,Forensic Medicine,False,,1.434219056843818e-07,7.869445227377076e-08,3
+llm,Cyanide odour is of ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,51.93500919267535,,,,,,,,,,Forensic Medicine,True,,7.069880364019812e-06,3.879186796694765e-06,3
+llm,Sex with cadaver is called -,service -1,general,general,qwen2.5:7b,44.32319803163409,,,,,,,,,,Forensic Medicine,False,,7.163758239593372e-06,3.930696835998963e-06,3
+llm,"Size of the fetus is 20 mm, then by the rule of Hasse's, what is the gestational age of the fetus?",service -1,general,general,qwen2.5:7b,49.28641999140382,,,,,,,,,,Forensic Medicine,False,,1.5195198615805517e-07,8.33748391890313e-08,3
+llm,First aid should be given in acid contact ?,service -1,general,general,qwen2.5:7b,45.54732493124902,,,,,,,,,,Forensic Medicine,False,,1.7216405369512987e-06,9.446503895008785e-07,3
+llm,First carpal bone to appear is?,service -1,general,general,qwen2.5:7b,44.118426041677594,,,,,,,,,,Forensic Medicine,False,,6.410531327821897e-06,3.517407255325248e-06,3
+llm,According to section 82 IPC a child's act is not considered as a crime if he is -,service -1,general,general,qwen2.5:7b,48.890640027821064,,,,,,,,,,Forensic Medicine,False,,7.252813464887401e-06,3.979560725675998e-06,3
+llm,"According to Casper's dictum, decomposition is the fastest when the body is in which of the following?",service -1,general,general,qwen2.5:7b,47.242137836292386,,,,,,,,,,Forensic Medicine,False,,1.4688726643927e-07,8.059586799710099e-08,3
+llm,What acts as both poison & antidote ?,service -1,general,general,qwen2.5:7b,44.498292030766606,,,,,,,,,,Forensic Medicine,False,,7.088319594177197e-06,3.889304254768274e-06,3
+llm,"For autopsy, stomach is open through -",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,50.83106900565326,,,,,,,,,,Forensic Medicine,True,,7.01594771709767e-06,3.849594384789756e-06,3
+llm,Most specific sign of Antemoem burns is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,52.64115193858743,,,,,,,,,,Forensic Medicine,True,,6.0418461719273725e-06,3.315112659767167e-06,3
+llm,Plantiff is a person who ?,service -1,general,general,qwen2.5:7b,46.620266046375036,,,,,,,,,,Forensic Medicine,False,,1.516208000894954e-07,8.319312004269547e-08,3
+llm,Best temperature for putrefaction is -,service -1,general,general,qwen2.5:7b,45.53998680785298,,,,,,,,,,Forensic Medicine,False,,6.3201317991696485e-06,3.467805757149993e-06,3
+llm,Most common organ injured in penetrating injury of the abdomen:,service Radiology,Radiology,Radiology,qwen2.5:7b,44.54905493184924,,,,,,,,,,Forensic Medicine,False,,6.0630135847077125e-06,3.326727049820442e-06,3
+llm,DNA finger printing cannot be taken from ?,service -1,general,general,qwen2.5:7b,44.791609048843384,,,,,,,,,,Forensic Medicine,False,,1.3975130859760366e-07,7.668042501703391e-08,3
+llm,True about hymen in Child rape is-,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,50.682426895946264,,,,,,,,,,Forensic Medicine,True,,6.6375767406845454e-06,3.641985256999685e-06,3
+llm,Chicken fat appearance is seen in -,service -1,general,general,qwen2.5:7b,43.64422196522355,,,,,,,,,,Forensic Medicine,False,,7.176665887405722e-06,3.937779159092416e-06,3
+llm,Length of the fetus is 40cms. What would be the age of gestation ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,65.00435410998762,,,,,,,,,,Forensic Medicine,False,,6.577076978231855e-06,3.608789521339985e-06,3
+llm,Acid used for forging signature is ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,50.390481017529964,,,,,,,,,,Forensic Medicine,True,,1.5530423649277045e-07,8.521419212970051e-08,3
+llm,Adulteration of drug is under which section of IPC,service -1,general,general,qwen2.5:7b,44.824191834777594,,,,,,,,,,Forensic Medicine,False,,7.331769641157515e-06,4.022883347945988e-06,3
+llm,M'naghten rule comes under which section of IPC?,service -1,general,general,qwen2.5:7b,44.71081681549549,,,,,,,,,,Forensic Medicine,False,,7.2754705932823334e-06,3.991992510769273e-06,3
+llm,"Chronic arsenic poisoning does not cause:NEET 13,15",service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,65.50977984443307,,,,,,,,,,Forensic Medicine,False,,6.5654215402225304e-06,3.602394275747776e-06,3
+llm,Following is most suggestive of antemoem hanging:DNB 09,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,52.172044990584254,,,,,,,,,,Forensic Medicine,True,,1.6073568646484413e-07,8.819438527776129e-08,3
+llm,"In Alleged history of gun shot injury.there is burning, blackening, tattooing around the wound Di collar, the injury is",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,53.91635815612972,,,,,,,,,,Forensic Medicine,True,,7.164850561030612e-06,3.931296184033015e-06,3
+llm,Cause of death for drowning in cold water:NEET 13,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,54.98919007368386,,,,,,,,,,Forensic Medicine,True,,7.387831803226967e-06,4.053644207776218e-06,3
+llm,True about finger printing is -,service -1,general,general,qwen2.5:7b,43.85701101273298,,,,,,,,,,Forensic Medicine,False,,6.137033917949313e-06,3.3673414145074477e-06,3
+llm,Time interval between somatic and molecular death is -,service -1,general,general,qwen2.5:7b,44.54436409287155,,,,,,,,,,Forensic Medicine,False,,1.396103335233787e-07,7.660307312161007e-08,3
+llm,Which section belongs to marital rape ?,service -1,general,general,qwen2.5:7b,44.62043894454837,,,,,,,,,,Forensic Medicine,False,,6.3532478063260895e-06,3.485976245348678e-06,3
+llm,Which of the following is true about cocaine metabolite test,service -1,general,general,qwen2.5:7b,44.30150706321001,,,,,,,,,,Forensic Medicine,False,,6.160612217931633e-06,3.3802786390813564e-06,3
+llm,How many days a person can live without food and water ?,service -1,general,general,qwen2.5:7b,45.19747011363506,,,,,,,,,,Forensic Medicine,False,,1.4112104157297523e-07,7.74319865427483e-08,3
+llm,A bullet packed with jacket and opens at a base is called,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,51.694042049348354,,,,,,,,,,Forensic Medicine,True,,6.606084659296105e-06,3.624705803878509e-06,3
+llm,Enzyme responsible for postmoem hemolysis is,service -1,general,general,qwen2.5:7b,46.79644689895213,,,,,,,,,,Forensic Medicine,False,,7.245857090810504e-06,3.975743818871e-06,3
+llm,Sexual gratification by inflicting pain on paner -,service -1,general,general,qwen2.5:7b,45.436694053933024,,,,,,,,,,Forensic Medicine,False,,1.412655724885312e-07,7.751128949988017e-08,3
+llm,Absorption elution technique is used for -,service -1,general,general,qwen2.5:7b,44.138091150671244,,,,,,,,,,Forensic Medicine,False,,1.7266042310034647e-06,9.473739287177451e-07,3
+llm,Oochronosis is seen in which poisoning ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,52.8666980098933,,,,,,,,,,Forensic Medicine,True,,6.789663348312524e-06,3.725433961912299e-06,3
+llm,"In medicolegal autopsy, cavity to be opened first is ?",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,51.71128595247865,,,,,,,,,,Forensic Medicine,True,,6.335325370034517e-06,3.4761423479349855e-06,3
+llm,Victim was choked with mouth & nose covered with elbow around neck. It is called as ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,52.50696884468198,,,,,,,,,,Forensic Medicine,True,,1.6347806409207528e-07,8.96991059428059e-08,3
+llm,Which snake bite causes hematologic abnormalities ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,51.121783908456564,,,,,,,,,,Forensic Medicine,True,,7.162184024752424e-06,3.929833076909468e-06,3
+llm,Bullet fixed from a gun is not released. It is ejected out with subsequent shot. Such a bullet is called as,service -1,general,general,qwen2.5:7b,48.142550978809595,,,,,,,,,,Forensic Medicine,False,,7.006745033285384e-06,3.844544945803434e-06,3
+llm,Base of sphenoid fuses with occipit at the age of -,service -1,general,general,qwen2.5:7b,46.24286782927811,,,,,,,,,,Forensic Medicine,False,,5.871273312040655e-06,3.2215206961302035e-06,3
+llm,Homicidal gunshot wound can be differentiated from suicidal gunshot wound by-,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,53.82824898697436,,,,,,,,,,Forensic Medicine,True,,1.6595388038293446e-07,9.105756653508541e-08,3
+llm,Which of the following causes maximum damage?,service -1,general,general,qwen2.5:7b,44.09668920561671,,,,,,,,,,Forensic Medicine,False,,7.227780881906829e-06,3.965825547655227e-06,3
+llm,Foamy liver is seen in:TN 08; UP 08; NIMS 11; NEET 13,-1,general,general,qwen2.5:7b,42.13370196521282,,,,,,,,,,Forensic Medicine,False,,6.832937382017675e-06,3.749178078014053e-06,3
+llm,Highest content of cannabis is found in which pa of the plant?,service -1,general,general,qwen2.5:7b,47.56607208400965,,,,,,,,,,Forensic Medicine,False,,1.4856446392107897e-07,8.15161328377779e-08,3
+llm,A couple was locked up in a room with fire around. All of the following are the probable immediate causes of death in such circumstance except:-,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,54.54916111193597,,,,,,,,,,Forensic Medicine,True,,1.7378269574824996e-06,9.535317489549973e-07,3
+llm,Frotteruism is ?,service -1,general,general,qwen2.5:7b,44.1203850787133,,,,,,,,,,Forensic Medicine,False,,7.141568913356046e-06,3.9185217302071585e-06,3
+llm,Gigantin is active principle of,service -1,general,general,qwen2.5:7b,45.005019987002015,,,,,,,,,,Forensic Medicine,False,,5.8295678471368805e-06,3.1986372411812287e-06,3
+llm,Miscarriage is punishable under which IPC:AIIMS 13; NEET 14,service -1,general,general,qwen2.5:7b,46.974541852250695,,,,,,,,,,Forensic Medicine,False,,1.4797096632213937e-07,8.119048545323151e-08,3
+llm,Toxin responsible for epidemic dropsy:AIIMS 07; UP 09; PGI 11,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,66.6765091009438,,,,,,,,,,Forensic Medicine,False,,6.588772242168458e-06,3.6152066190998932e-06,3
+llm,Punishment of perjury comes under IPC section?,service -1,general,general,qwen2.5:7b,44.773029163479805,,,,,,,,,,Forensic Medicine,False,,7.844295542150175e-06,4.304102209613472e-06,3
+llm,Ophitoxemia is ?,service -1,general,general,qwen2.5:7b,44.270399026572704,,,,,,,,,,Forensic Medicine,False,,5.611459255520533e-06,3.07896280183007e-06,3
+llm,Patient presented with proximal tubule proteinuria. Which metal is likely to be associated with it?,service -1,general,general,qwen2.5:7b,47.68448509275913,,,,,,,,,,Forensic Medicine,False,,1.4793802531333196e-07,8.117241098522959e-08,3
+llm,Marshalls triad is seen in ?,service -1,general,general,qwen2.5:7b,44.87210186198354,,,,,,,,,,Forensic Medicine,False,,6.39487152324453e-06,3.508814845832079e-06,3
+llm,Test to know the species from blood stain is -,service -1,general,general,qwen2.5:7b,45.79724185168743,,,,,,,,,,Forensic Medicine,False,,7.06032656978676e-06,3.873944706229445e-06,3
+llm,Colon is identified on X-ray,service Radiology,Radiology,Radiology,qwen2.5:7b,44.630897929891944,,,,,,,,,,Radiology,True,,1.388339416330932e-07,7.617707310254981e-08,3
+llm,Investigation with least radiation dose in the diagnosis Meckel's diveiculum is -,Radiology,Radiology,Radiology,qwen2.5:7b,41.18028003722429,,,,,,,,,,Radiology,True,,7.125106977801804e-06,3.909489197864041e-06,3
+llm,CT Scan finding in carotid cavernous sinus fistula is -,service Radiology,Radiology,Radiology,qwen2.5:7b,45.80406891182065,,,,,,,,,,Radiology,True,,6.758053455515939e-06,3.7080898666139595e-06,3
+llm,On imagning diffuse axonal injury is characterized by -,service Radiology,Radiology,Radiology,qwen2.5:7b,44.31831021793187,,,,,,,,,,Radiology,True,,1.380166523934443e-07,7.572863303508068e-08,3
+llm,Calcified pulmonary metastasis is seen in which carcinoma -,service Radiology,Radiology,Radiology,qwen2.5:7b,45.61531683430076,,,,,,,,,,Radiology,True,,7.21026743600976e-06,3.9562160599990485e-06,3
+llm,Which common tracer in PET is usually administered in the form of a glucose sugar,service -1,general,general,qwen2.5:7b,45.79189489595592,,,,,,,,,,Radiology,False,,6.729166808545678e-06,3.6922399945145683e-06,3
+llm,Investigation of choice for multiple sclerosis,service -1,general,general,qwen2.5:7b,44.93576684035361,,,,,,,,,,Radiology,False,,1.4007188858360933e-07,7.685632469073972e-08,3
+llm,Radioactive iodine is administered through which route,service Radiology,Radiology,Radiology,qwen2.5:7b,46.24093300662935,,,,,,,,,,Radiology,True,,1.7318940488400482e-06,9.502764094461631e-07,3
+llm,First radiographic sign of osteomyelitis:,Radiology,Radiology,Radiology,qwen2.5:7b,37.931103026494384,,,,,,,,,,Radiology,True,,6.5011212650024994e-06,3.5671132291367346e-06,3
+llm,Radiation used most commonly for pain management due to bone metastasis is -,service Radiology,Radiology,Radiology,qwen2.5:7b,46.17256508208811,,,,,,,,,,Radiology,True,,1.433948585245954e-07,7.867961171356642e-08,3
+llm,Safe light in radiographic dark room is ideally should be of following color -,service Radiology,Radiology,Radiology,qwen2.5:7b,47.602432081475854,,,,,,,,,,Radiology,True,,1.7448996296075465e-06,9.574124675686157e-07,3
+llm,Radiological features of coarctation of aoa is/ are -,service Radiology,Radiology,Radiology,qwen2.5:7b,45.96623592078686,,,,,,,,,,Radiology,True,,6.605104993226646e-06,3.6241682689435156e-06,3
+llm,Solitary lytic lesions seen in,Radiology,Radiology,Radiology,qwen2.5:7b,37.26830403320491,,,,,,,,,,Radiology,True,,1.1840983319820909e-07,6.497052819717406e-08,3
+llm,What is the effect on radiograph if there are scratches on intensifying screen,Radiology,Radiology,Radiology,qwen2.5:7b,40.228544967249036,,,,,,,,,,Radiology,True,,1.731408382017372e-06,9.500099279458854e-07,3
+llm,Frequency of ultrasound waves in USG -,service -1,general,general,qwen2.5:7b,44.724454870447516,,,,,,,,,,Radiology,False,,6.366683332496219e-06,3.4933482110739906e-06,3
+llm,Following are radiological findings in rheumatoid ahritis except -,Radiology,Radiology,Radiology,qwen2.5:7b,40.317696053534746,,,,,,,,,,Radiology,True,,1.2713387194607456e-07,6.975733846581369e-08,3
+llm,Amount of radiation exposure in 1 CT-scan of chest is,Radiology,Radiology,Radiology,qwen2.5:7b,39.18928583152592,,,,,,,,,,Radiology,True,,1.7236040309538052e-06,9.457277429520804e-07,3
+llm,Best view for sphenoid sinus is -,service Radiology,Radiology,Radiology,qwen2.5:7b,45.5622379668057,,,,,,,,,,Radiology,True,,6.303502396125119e-06,3.4586813367346644e-06,3
+llm,Confusion assessment scale used for which of the following?,service -1,general,general,qwen2.5:7b,44.74510787986219,,,,,,,,,,Radiology,False,,1.394757166660581e-07,7.652920992892113e-08,3
+llm,Which new generation sialagogue has additional M3 action?,service -1,general,general,qwen2.5:7b,46.138902893289924,,,,,,,,,,Radiology,False,,1.7326975554447788e-06,9.507172870921315e-07,3
+llm,Following are suggestive of benign lesion on mammogram -,Radiology,Radiology,Radiology,qwen2.5:7b,39.0386488288641,,,,,,,,,,Radiology,True,,6.660367610284248e-06,3.6544904248220797e-06,3
+llm,"Cancer patient undergoes radiotherapy, pick the true statement for radiosensitivity of tissues?",Radiology,Radiology,Radiology,qwen2.5:7b,39.1201670281589,,,,,,,,,,Radiology,True,,1.2377546712138282e-07,6.79146086057813e-08,3
+llm,Not used for internal radiotherapy,service Radiology,Radiology,Radiology,qwen2.5:7b,44.31836097501218,,,,,,,,,,Radiology,True,,7.055893756670296e-06,3.8715124571349585e-06,3
+llm,Anamoly scan done at how many weeks of gestation -,service -1,general,general,qwen2.5:7b,46.80121084675193,,,,,,,,,,Radiology,False,,6.659907040502391e-06,3.654237713867324e-06,3
+llm,Von Rosen's view is for,service -1,general,general,qwen2.5:7b,44.552900828421116,,,,,,,,,,Radiology,False,,1.389792777545945e-07,7.625681786970883e-08,3
+llm,Maximum Permissible Dose for whole body for radiation workers in a year is:,service Radiology,Radiology,Radiology,qwen2.5:7b,45.263153966516256,,,,,,,,,,Radiology,True,,1.7393046067739996e-06,9.543425233000382e-07,3
+llm,The primary diagnostic evaluation for developmental dyslasia of hip is -,service -1,general,general,qwen2.5:7b,45.68641190417111,,,,,,,,,,Radiology,False,,6.888959159714902e-06,3.779916779262293e-06,3
+llm,Nonionic dye is,service -1,general,general,qwen2.5:7b,45.368095859885216,,,,,,,,,,Radiology,False,,5.757664405859979e-06,3.1591843981801306e-06,3
+llm,Which of the following is not particulate radiation?,service -1,general,general,qwen2.5:7b,44.80446898378432,,,,,,,,,,Radiology,False,,1.4155285510549735e-07,7.766891917354406e-08,3
+llm,Most sensitive investigation for minimum gas in abdomen is -,service Radiology,Radiology,Radiology,qwen2.5:7b,45.86980491876602,,,,,,,,,,Radiology,True,,6.4817360858885524e-06,3.556476736438349e-06,3
+llm,Ring enhancing lesion on CT is a feature of,service Radiology,Radiology,Radiology,qwen2.5:7b,44.6957228705287,,,,,,,,,,Radiology,True,,6.033993706484517e-06,3.3108040747984097e-06,3
+llm,Investigation of choice for acute intracerebral hemorrhage is -,service -1,general,general,qwen2.5:7b,62.11790814995766,,,,,,,,,,Radiology,False,,1.8751948567422103e-07,1.0289044163354745e-07,3
+llm,In a children ectopic kidneys can be diagnosed by -,service -1,general,general,qwen2.5:7b,45.13215203769505,,,,,,,,,,Radiology,False,,1.6999138165235076e-06,9.327291118159365e-07,3
+llm,Following are the indications of barium meal X-ray except -,service Radiology,Radiology,Radiology,qwen2.5:7b,48.71094785630703,,,,,,,,,,Radiology,True,,6.728546706745637e-06,3.6918997496176954e-06,3
+llm,Non - ionizing radiation among the following is -,service -1,general,general,qwen2.5:7b,45.77887011691928,,,,,,,,,,Radiology,False,,5.683965888417567e-06,3.118746611247632e-06,3
+llm,Radiographic sign characteristic of pulmonary edema is -,Radiology,Radiology,Radiology,qwen2.5:7b,37.485176930204034,,,,,,,,,,Radiology,True,,1.2189381393709706e-07,6.688216055679777e-08,3
+llm,Minimum radiation dose which may lead to oligospermia is -,Radiology,Radiology,Radiology,qwen2.5:7b,40.82558606751263,,,,,,,,,,Radiology,True,,6.480501559313835e-06,3.555799361583032e-06,3
+llm,Which delivers highest dose of radiation -,Radiology,Radiology,Radiology,qwen2.5:7b,40.620134910568595,,,,,,,,,,Radiology,True,,1.2800551097216784e-07,7.023559982634146e-08,3
+llm,Radiographic appearance of Hypophosphatasia:,service Radiology,Radiology,Radiology,qwen2.5:7b,44.41251396201551,,,,,,,,,,Radiology,True,,1.7154091243102828e-06,9.41231263236063e-07,3
+llm,What is not seen on chest X-ray in pulmonary aery hypeension,Radiology,Radiology,Radiology,qwen2.5:7b,40.77857593074441,,,,,,,,,,Radiology,True,,6.771145918843232e-06,3.7152735965019544e-06,3
+llm,All of the following are true about neutron contrast study except -,service -1,general,general,qwen2.5:7b,45.90920312330127,,,,,,,,,,Radiology,False,,1.4512575257361656e-07,7.962933943109728e-08,3
+llm,Differential diagnosis of solitary pulmonary nodule are all except -,service -1,general,general,qwen2.5:7b,45.62323307618499,,,,,,,,,,Radiology,False,,1.7210906875088187e-06,9.443486915105713e-07,3
+llm,Barium meal follow through is helpful in diagnosing -,service Radiology,Radiology,Radiology,qwen2.5:7b,45.567178167402744,,,,,,,,,,Radiology,True,,6.795632065208961e-06,3.728708949123625e-06,3
+llm,Piezoelectric crystal most widely used in ultrasonography probes is -,service Radiology,Radiology,Radiology,qwen2.5:7b,46.89025483094156,,,,,,,,,,Radiology,True,,5.702579773087402e-06,3.1289599008548484e-06,3
+llm,Following are the causes of cavity in lungs except -,service Radiology,Radiology,Radiology,qwen2.5:7b,46.85076605528593,,,,,,,,,,Radiology,True,,1.493224253257654e-07,8.193202019683406e-08,3
+llm,Investigation of choice for pancoast tumor is -,Radiology,Radiology,Radiology,qwen2.5:7b,39.34247582219541,,,,,,,,,,Radiology,True,,6.281142611660128e-06,3.446412701877007e-06,3
+llm,Gamma knife utilizes -,service -1,general,general,qwen2.5:7b,44.61146215908229,,,,,,,,,,Radiology,False,,5.632679479336718e-06,3.090606168876242e-06,3
+llm,"22-year-old women presents to the emergency depament with a chief complaint of severe left upper quadrant pain after being punched by her husband. Her blood pressure is 110/76, her pulse is 80 bpm, and her respiration rate is 24 breaths per minute. The best means to establish a diagnosis is which of the following ?",service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,66.96496717631817,,,,,,,,,,Radiology,False,,2.0091580809093387e-07,1.1024089657303169e-07,3
+llm,Which of the following is water soluble contrast?,service -1,general,general,qwen2.5:7b,44.85094896517694,,,,,,,,,,Radiology,False,,1.7384294274045949e-06,9.538623193814711e-07,3
+llm,Which view is taken for aoic window -,service Radiology,Radiology,Radiology,qwen2.5:7b,43.93193102441728,,,,,,,,,,Radiology,True,,6.973314463745153e-06,3.82620185974123e-06,3
+llm,Most sensitive investigation for Diffuse axonal injury is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,52.61091701686382,,,,,,,,,,Radiology,False,,6.0130008026090895e-06,3.2992854363852043e-06,3
+llm,"A 50 year-old chronic alcoholic male patient, after a large binge of alcohol, presented to the emergency depament in subconscious state. He vomited several times, few of them mixed with blood. He had a history of hea burn and dyspeptic symptoms for past few tears. On physical exam, he had a temperature of 102degF, a pulse of 110, respiratory rate of 20 per minute and a blood pressure of 90/60. On physical examination there was abdominal guarding and tenderness. A plane erect chest X-ray reveals air under diaphragm. Probable diagnosis is",Radiology,Radiology,Radiology,qwen2.5:7b,63.64121683873236,,,,,,,,,,Radiology,True,,1.9162758900265631e-07,1.0514452506506537e-07,3
+llm,Rhese view is used for -,service -1,general,general,qwen2.5:7b,44.50565599836409,,,,,,,,,,Radiology,False,,1.737462211107415e-06,9.5333161553694e-07,3
+llm,Following X-ray finding is associated with Chilaiditi syndrome -,Radiology,Radiology,Radiology,qwen2.5:7b,40.096143959090114,,,,,,,,,,Radiology,True,,6.719380888414966e-06,3.686870538426208e-06,3
+llm,Best radiograph to view fracture of condyle:,service Radiology,Radiology,Radiology,qwen2.5:7b,44.69882999546826,,,,,,,,,,Radiology,True,,1.397970863359745e-07,7.670554289586655e-08,3
+llm,Enhancement in CT contrast is due to -,service Radiology,Radiology,Radiology,qwen2.5:7b,44.22812513075769,,,,,,,,,,Radiology,True,,1.7255027036722562e-06,9.467695294833626e-07,3
+llm,Adder head appearance is seen in:March 2011,service -1,general,general,qwen2.5:7b,45.354004949331284,,,,,,,,,,Radiology,False,,6.821764772428174e-06,3.743047756513162e-06,3
+llm,SI unit of absorbed dose is -,service -1,general,general,qwen2.5:7b,45.13288591988385,,,,,,,,,,Radiology,False,,5.725480907544734e-06,3.141525570122541e-06,3
+llm,Dye used in diagnosis of esophageal perforation:,service -1,general,general,qwen2.5:7b,45.58030003681779,,,,,,,,,,Radiology,False,,1.4506307197733465e-07,7.959494708936667e-08,3
+llm,MRI sequence used to assess soft tissue pathology is,service Radiology,Radiology,Radiology,qwen2.5:7b,43.91180584207177,,,,,,,,,,Radiology,True,,6.510557093941443e-06,3.572290592988934e-06,3
+llm,"In a town there are 2500 live bih within six month. During same period 5 women died due to peripaum infection, 5 died due to electrocution, 2 died due to obstructed labor and 3 died due to PPH. What is the MMR ?",service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,75.28433110564947,,,,,,,,,,Social & Preventive Medicine,True,,7.615257531464023e-06,4.17843088545408e-06,3
+llm,'Secrete of national health lies in the homes of people' statement by ?,service -1,general,general,qwen2.5:7b,45.04522308707237,,,,,,,,,,Social & Preventive Medicine,False,,6.541807332555074e-06,3.5894373489143224e-06,3
+llm,True about post-exposure prophylaxis in HIV ?,service -1,general,general,qwen2.5:7b,44.93492981418967,,,,,,,,,,Social & Preventive Medicine,False,,1.4249991121080205e-07,7.818856128207537e-08,3
+llm,Micropolysopora faeni causes ?,service -1,general,general,qwen2.5:7b,44.26922695711255,,,,,,,,,,Social & Preventive Medicine,False,,6.612767735360769e-06,3.628372754250575e-06,3
+llm,"100 individuals are diagnosed with lung cancer in a population of 100000. Out of 100 patients, 80 were smokers and 20000 were smokers in totals population. What is PAR?",service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,71.37186615727842,,,,,,,,,,Social & Preventive Medicine,True,,7.618609536220685e-06,4.180270103648002e-06,3
+llm,Safety officer is recommended where factory has how many workers ?,service -1,general,general,qwen2.5:7b,44.36702001839876,,,,,,,,,,Social & Preventive Medicine,False,,6.096284177787453e-06,3.3449823580785775e-06,3
+llm,Amount of proteins in human milk (in gms):September 2007,service -1,general,general,qwen2.5:7b,46.024882001802325,,,,,,,,,,Social & Preventive Medicine,False,,1.4986138622695606e-07,8.222774373163252e-08,3
+llm,Gross reproduction rate is ?,service -1,general,general,qwen2.5:7b,45.1534129679203,,,,,,,,,,Social & Preventive Medicine,False,,6.507808774066813e-06,3.5707826118602944e-06,3
+llm,Veical transmission of HIV is highest with-,service -1,general,general,qwen2.5:7b,44.06024096533656,,,,,,,,,,Social & Preventive Medicine,False,,6.109219060411106e-06,3.352079624695107e-06,3
+llm,WHO VISION 2020 initiative includes ?,service -1,general,general,qwen2.5:7b,44.23571890220046,,,,,,,,,,Social & Preventive Medicine,False,,1.378413613161095e-07,7.563245222328482e-08,3
+llm,Best study for definitive cause of disease ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,64.92799683474004,,,,,,,,,,Social & Preventive Medicine,True,,6.599173753460874e-06,3.620913845133974e-06,3
+llm,Observation under nursing care for 24 hours in an hospital is defined as ?,service -1,general,general,qwen2.5:7b,46.50148702785373,,,,,,,,,,Social & Preventive Medicine,False,,7.814357014086673e-06,4.2876751787732504e-06,3
+llm,The difference between the incidence in the exposed and non-exposed group is best given by:,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,65.14023314230144,,,,,,,,,,Social & Preventive Medicine,True,,7.789606059865613e-06,4.2740945281997955e-06,3
+llm,Which of the following is a stomach poison ?,service -1,general,general,qwen2.5:7b,45.27457896620035,,,,,,,,,,Social & Preventive Medicine,False,,1.438362582120668e-07,7.89218041909027e-08,3
+llm,Rideal-walker coefficient for disinfectant used for cholera stool should be ?,service -1,general,general,qwen2.5:7b,45.87503592483699,,,,,,,,,,Social & Preventive Medicine,False,,1.7230173791789576e-06,9.454058518164809e-07,3
+llm,Results of any study are better defined in ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,63.46551491878927,,,,,,,,,,Social & Preventive Medicine,True,,6.916561674370899e-06,3.795062058233891e-06,3
+llm,Risk among exposed to risk among non exposed is defined to be -,service -1,general,general,qwen2.5:7b,45.56043609045446,,,,,,,,,,Social & Preventive Medicine,False,,8.052372242561465e-06,4.418272230515539e-06,3
+llm,Women traveling from Bihar to Delhi is suspecting to have Kala-azar. Suitable investigation is ?,service -1,general,general,qwen2.5:7b,46.830973122268915,,,,,,,,,,Social & Preventive Medicine,False,,1.463689026422882e-07,8.031144592857576e-08,3
+llm,For post exposure prophylaxis for HIV the regimen is ?,service -1,general,general,qwen2.5:7b,44.962025014683604,,,,,,,,,,Social & Preventive Medicine,False,,7.000753855486343e-06,3.841257634474497e-06,3
+llm,"Positive predictive value is a function of sensitivity,specificity and",service -1,general,general,qwen2.5:7b,45.287401881068945,,,,,,,,,,Social & Preventive Medicine,False,,7.150695838571263e-06,3.923529601057368e-06,3
+llm,Green colour of triage is for which patient ?,service -1,general,general,qwen2.5:7b,45.684547163546085,,,,,,,,,,Social & Preventive Medicine,False,,1.46622899531673e-07,8.045081198985614e-08,3
+llm,Best indicator for spread of TB in a community?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,63.2906008977443,,,,,,,,,,Social & Preventive Medicine,True,,1.7726561119433496e-06,9.72642227374434e-07,3
+llm,Vaccine derived polio virus outbreaks are due to ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,64.00982802733779,,,,,,,,,,Social & Preventive Medicine,True,,7.448601642360891e-06,4.086988132350291e-06,3
+llm,Source of environmental radiation are all except?,service -1,general,general,qwen2.5:7b,45.92622094787657,,,,,,,,,,Social & Preventive Medicine,False,,7.806659910397011e-06,4.283451839555571e-06,3
+llm,Village Health and Nutrition Day (VHND) is observed ?,service -1,general,general,qwen2.5:7b,45.7494689617306,,,,,,,,,,Social & Preventive Medicine,False,,5.8765952960938145e-06,3.2244408262042837e-06,3
+llm,True about Peussis is ?,service -1,general,general,qwen2.5:7b,45.78047804534435,,,,,,,,,,Social & Preventive Medicine,False,,1.4325211393755727e-07,7.860128890065012e-08,3
+llm,A population of 50 children is having 10 immunized against chickenpox. 5 children developed chickenpox on march 2017. Other 28 children developed chickenpox within next 2 week what is the SAR of chickenpox?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,74.74742806516588,,,,,,,,,,Social & Preventive Medicine,True,,6.682327124908909e-06,3.666539434820531e-06,3
+llm,DALE is replaced by ?,service -1,general,general,qwen2.5:7b,47.62229905463755,,,,,,,,,,Social & Preventive Medicine,False,,7.794577832764696e-06,4.2768225002153405e-06,3
+llm,Role of magnesium in OPV?,service -1,general,general,qwen2.5:7b,45.36239500157535,,,,,,,,,,Social & Preventive Medicine,False,,7.4412419942860046e-06,4.082949952328801e-06,3
+llm,All are included in sleep hygiene except ?,service -1,general,general,qwen2.5:7b,46.14241607487202,,,,,,,,,,Social & Preventive Medicine,False,,1.4323573624202505e-07,7.859230259009376e-08,3
+llm,Which of the following is the nodal centre for disaster management,service -1,general,general,qwen2.5:7b,48.45641111023724,,,,,,,,,,Social & Preventive Medicine,False,,6.753003956654524e-06,3.7053192469847025e-06,3
+llm,Regular insectisidal spray is done when API is ?,service -1,general,general,qwen2.5:7b,47.36609780229628,,,,,,,,,,Social & Preventive Medicine,False,,6.7230163276494476e-06,3.68886527485064e-06,3
+llm,Specific content in malaria vaccine is?,service -1,general,general,qwen2.5:7b,45.483672991395,,,,,,,,,,Social & Preventive Medicine,False,,1.4133922781591965e-07,7.755170358875792e-08,3
+llm,M/C Heavy Metal poisoning in The World?,service -1,general,general,qwen2.5:7b,45.93059397302568,,,,,,,,,,Social & Preventive Medicine,False,,1.717240004510119e-06,9.422358525546415e-07,3
+llm,Fenthion is ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,qwen2.5:7b,51.4867240563035,,,,,,,,,,Social & Preventive Medicine,False,,6.93144496602318e-06,3.8032284012972013e-06,3
+llm,A problem village is defined as if water source is ?,service -1,general,general,qwen2.5:7b,44.71475607715547,,,,,,,,,,Social & Preventive Medicine,False,,5.92996820476257e-06,3.253726114207597e-06,3
+llm,Vanaspati Ghee is foified with ?,service -1,general,general,qwen2.5:7b,44.831700855866075,,,,,,,,,,Social & Preventive Medicine,False,,1.465980138164397e-07,8.043715739699175e-08,3
+llm,Maternal moality rate is defined as ?,service -1,general,general,qwen2.5:7b,46.30189505405724,,,,,,,,,,Social & Preventive Medicine,False,,6.626745834902004e-06,3.6360424256440564e-06,3
+llm,HALE is used to measure,service -1,general,general,qwen2.5:7b,46.15539312362671,,,,,,,,,,Social & Preventive Medicine,False,,7.5158189678644835e-06,4.123869741115473e-06,3
+llm,Regarding PPV vaccine following is true ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,64.9796281941235,,,,,,,,,,Social & Preventive Medicine,True,,6.21740601125108e-06,3.4114409391253664e-06,3
+llm,"According female sterlization 2014 guidelines, eligibility criteria for female sterilization are all except?",service -1,general,general,qwen2.5:7b,47.39735019393265,,,,,,,,,,Social & Preventive Medicine,False,,1.5238940832200225e-07,8.361484923099637e-08,3
+llm,ORS contains 75 mEq/l-,service -1,general,general,qwen2.5:7b,45.603864826262,,,,,,,,,,Social & Preventive Medicine,False,,6.819978804998021e-06,3.742067810471965e-06,3
+llm,Impoant measure for National health policy?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,65.38329389877617,,,,,,,,,,Social & Preventive Medicine,True,,7.5764583571816604e-06,4.157142088918723e-06,3
+llm,95% carrier and 5% cases are seen in ?,service -1,general,general,qwen2.5:7b,46.241366071626544,,,,,,,,,,Social & Preventive Medicine,False,,5.971097369278887e-06,3.276293357744374e-06,3
+llm,Recent Influenza Pandemic was due to:,service -1,general,general,qwen2.5:7b,45.04907294176519,,,,,,,,,,Social & Preventive Medicine,False,,1.457583948245942e-07,7.997646517309345e-08,3
+llm,True about combined prospective-retrospective study true is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,63.49619897082448,,,,,,,,,,Social & Preventive Medicine,True,,6.753779488849411e-06,3.7057447752957494e-06,3
+llm,Benefit of RCT ?,service -1,general,general,qwen2.5:7b,43.954309076070786,,,,,,,,,,Social & Preventive Medicine,False,,7.829434102759702e-06,4.29594785671144e-06,3
+llm,SA-14-14-2 ?,service -1,general,general,qwen2.5:7b,44.48595107533038,,,,,,,,,,Social & Preventive Medicine,False,,1.3862911922232508e-07,7.606468868431773e-08,3
+llm,Ideal desk recommended for a school child is –,service -1,general,general,qwen2.5:7b,44.57465698942542,,,,,,,,,,Social & Preventive Medicine,False,,1.727461899532273e-06,9.47844524578148e-07,3
+llm,Absolute contraindication for inseion of IUD,service -1,general,general,qwen2.5:7b,44.396334793418646,,,,,,,,,,Social & Preventive Medicine,False,,6.847586350482962e-06,3.757215849819204e-06,3
+llm,"According to immunization schedule, children should receive influenza vaccine ?",service -1,general,general,qwen2.5:7b,46.7617018148303,,,,,,,,,,Social & Preventive Medicine,False,,5.707901601733245e-06,3.1318799456582437e-06,3
+llm,Major reservoir of KFD ?,service -1,general,general,qwen2.5:7b,43.84823702275753,,,,,,,,,,Social & Preventive Medicine,False,,1.3754345256733295e-07,7.54689920760658e-08,3
+llm,School health checkup comes under -,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,64.27209894172847,,,,,,,,,,Social & Preventive Medicine,True,,6.985848286253349e-06,3.8330790678809475e-06,3
+llm,"According to IMNCI, a baby of 6 month age, criteria for fast breathing is more than _____/min",service -1,general,general,qwen2.5:7b,47.46103496290743,,,,,,,,,,Social & Preventive Medicine,False,,7.809141880041033e-06,4.2848136764435125e-06,3
+llm,Best representative of incidence of disease in different timeline-,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,63.40610608458519,,,,,,,,,,Social & Preventive Medicine,True,,8.567925140893161e-06,4.701151981406919e-06,3
+llm,Maximum linolenic acid is present in ?,service -1,general,general,qwen2.5:7b,45.824908185750246,,,,,,,,,,Social & Preventive Medicine,False,,1.4273733637919488e-07,7.831883457260283e-08,3
+llm,NPU for egg is ?,service -1,general,general,qwen2.5:7b,44.012557016685605,,,,,,,,,,Social & Preventive Medicine,False,,6.41961459586283e-06,3.52239117183315e-06,3
+llm,Relationship between positive predictive value and prevalence ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,63.52896778844297,,,,,,,,,,Social & Preventive Medicine,True,,7.455920333068072e-06,4.091003839391816e-06,3
+llm,A screening test has sensitivity of 90% and specificity of 99%. The prevalence of disease under investigation is 5 per 1000 population. What is the PPV of the given screening test?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,71.41044409945607,,,,,,,,,,Social & Preventive Medicine,True,,7.93311633332796e-06,4.352837467166363e-06,3
+llm,Most common route of nosocomial infection ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,qwen2.5:7b,64.33434505015612,,,,,,,,,,Social & Preventive Medicine,True,,8.154193684331177e-06,4.474140841043009e-06,3
+llm,Do you know the closest ATM?,service -1,general,general,qwen2.5:7b,43.99229190312326,,,,,,,,,,general,True,,1.4766290551047022e-07,8.102145495031236e-08,3
+llm,What are the rules for transferring to a beneficiary?,service -1,general,general,qwen2.5:7b,44.22387504018843,,,,,,,,,,general,True,,1.7176449249423726e-06,9.424580291564648e-07,3
+llm,I want to know where the funds come from.,service -1,general,general,qwen2.5:7b,46.0071018896997,,,,,,,,,,general,True,,6.806164132305229e-06,3.7344878100828297e-06,3
+llm,what are some of your hobbies,service -1,general,general,qwen2.5:7b,45.64795806072652,,,,,,,,,,general,True,,1.43961794027642e-07,7.89906846886167e-08,3
+llm,Do you accept other currencies besides US Dollars?,service -1,general,general,qwen2.5:7b,45.28136504814029,,,,,,,,,,general,True,,1.7493151489759258e-06,9.598352277218666e-07,3
+llm,There's a refund missing from my statement,service -1,general,general,qwen2.5:7b,46.14919307641685,,,,,,,,,,general,True,,6.841626419656541e-06,3.753945683454183e-06,3
+llm,How do I use the app if I don't have my phone with me?,service -1,general,general,qwen2.5:7b,45.624130172654986,,,,,,,,,,general,True,,5.736894050352849e-06,3.1477878702761836e-06,3
+llm,i need to update my address,service -1,general,general,qwen2.5:7b,43.870430905371904,,,,,,,,,,general,True,,1.4361306093630104e-07,7.879933763127716e-08,3
+llm,find my current location,service -1,general,general,qwen2.5:7b,44.46215997450054,,,,,,,,,,general,True,,6.52926132245729e-06,3.5825534535416977e-06,3
+llm,"I sent out money, but was charged extra for transferring. Why?",service -1,general,general,qwen2.5:7b,46.672502998262644,,,,,,,,,,general,True,,7.5269078207076e-06,4.1299541059596715e-06,3
+llm,The app reverted what I topped up.,service -1,general,general,qwen2.5:7b,44.198050862178206,,,,,,,,,,general,True,,1.3799499979033972e-07,7.57167524249782e-08,3
+llm,do i have a meeting with paul today,service -1,general,general,qwen2.5:7b,44.0904030110687,,,,,,,,,,general,True,,6.862427764736017e-06,3.7653592150885306e-06,3
+llm,I would like to make a transfer. How much does it cost?,service -1,general,general,qwen2.5:7b,45.46671803109348,,,,,,,,,,general,True,,7.1253912422681535e-06,3.909645171502559e-06,3
+llm,i would like to change the name on my first bankcard account,service -1,general,general,qwen2.5:7b,46.71801906079054,,,,,,,,,,general,True,,1.454512608082409e-07,7.98079431953624e-08,3
+llm,I wasn't applied the correct exchange rate for an item I bought,service -1,general,general,qwen2.5:7b,44.884996954351664,,,,,,,,,,general,True,,1.7212514768921456e-06,9.44436915358937e-07,3
+llm,How many days does it take until funds are in my account?,service -1,general,general,qwen2.5:7b,45.16743100248277,,,,,,,,,,general,True,,6.829949969211447e-06,3.7475389085065954e-06,3
+llm,what is the top up limit,service -1,general,general,qwen2.5:7b,45.74206913821399,,,,,,,,,,general,True,,5.5827535265008145e-06,3.063212197962741e-06,3
+llm,I purchased an item and the exchange rate I was given was incorrect.,service -1,general,general,qwen2.5:7b,45.581988990306854,,,,,,,,,,general,True,,1.7602373788400648e-06,9.658281678705596e-07,3
+llm,tell me my car's tire pressure,service -1,general,general,qwen2.5:7b,44.23725884407759,,,,,,,,,,general,True,,6.745519414959019e-06,3.701212538832722e-06,3
+llm,"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",service -1,general,general,qwen2.5:7b,47.0071688760072,,,,,,,,,,general,True,,5.97230156740053e-06,3.2769540916201354e-06,3
+llm,do they serve good tacos at the buffet,service -1,general,general,qwen2.5:7b,44.157358817756176,,,,,,,,,,general,True,,1.3758053084723249e-07,7.54893366316416e-08,3
+llm,how can i get a visa card,service -1,general,general,qwen2.5:7b,43.928857892751694,,,,,,,,,,general,True,,6.565074295967208e-06,3.602203745602865e-06,3
+llm,How do I do an international transfer?,service -1,general,general,qwen2.5:7b,44.10310788080096,,,,,,,,,,general,True,,6.006762038672205e-06,3.2958622765231343e-06,3
+llm,How long will it take for the card to arrive?,service -1,general,general,qwen2.5:7b,43.630025116726756,,,,,,,,,,general,True,,1.362376050868374e-07,7.475248401029623e-08,3
+llm,how many ppm of particulate is in my local water,service -1,general,general,qwen2.5:7b,43.59625396318734,,,,,,,,,,general,True,,6.431374554239939e-06,3.528843766914991e-06,3
+llm,can you help me understand why my card got declined,service -1,general,general,qwen2.5:7b,44.13561103865504,,,,,,,,,,general,True,,7.548434811961843e-06,4.1417657938449355e-06,3
+llm,How do I unblock my PIN?,service -1,general,general,qwen2.5:7b,46.00400314666331,,,,,,,,,,general,True,,1.4282702468339584e-07,7.836804582757404e-08,3
+llm,Why is my transfer not done yet?,service -1,general,general,qwen2.5:7b,44.95858121663332,,,,,,,,,,general,True,,6.791646522006202e-06,3.7265221134526356e-06,3
+llm,Will it automatically top-up money if there isn't a lot left?,service -1,general,general,qwen2.5:7b,46.336370985955,,,,,,,,,,general,True,,6.925426640902368e-06,3.7999261944499877e-06,3
+llm,What is the process for using my credit card to transfer money?,service -1,general,general,qwen2.5:7b,47.70994791761041,,,,,,,,,,general,True,,1.5263104449119227e-07,8.374743306401467e-08,3
+llm,is the movie avatar culturally insensitive,service -1,general,general,qwen2.5:7b,43.759749038144946,,,,,,,,,,general,True,,1.7227577179717082e-06,9.452633777893302e-07,3
+llm,How can I fix a problem where my virtual card is rejected?,service -1,general,general,qwen2.5:7b,45.28332594782114,,,,,,,,,,general,True,,6.8279210017415e-06,3.7464256302875264e-06,3
+llm,don't call me bill anymore - call me bob,service -1,general,general,qwen2.5:7b,45.20565504208207,,,,,,,,,,general,True,,5.791662300744845e-06,3.1778387711203088e-06,3
+llm,what's the minimum payment,service -1,general,general,qwen2.5:7b,45.88227695785463,,,,,,,,,,general,True,,1.4731218042369348e-07,8.08290149010649e-08,3
+llm,Why was I charged multiple times for the same thing?,service -1,general,general,qwen2.5:7b,45.54595798254013,,,,,,,,,,general,True,,6.464004587622895e-06,3.546747605191942e-06,3
+llm,i want to hear cool bee facts,service -1,general,general,qwen2.5:7b,44.33856997638941,,,,,,,,,,general,True,,7.455786955110413e-06,4.0909306559733976e-06,3
+llm,i would like help moving money from one account to another,service -1,general,general,qwen2.5:7b,45.551363844424486,,,,,,,,,,general,True,,1.4448959716694375e-07,7.928028604876208e-08,3
+llm,what time do i need to arrive to make it on time,service -1,general,general,qwen2.5:7b,45.377341099083424,,,,,,,,,,general,True,,6.959506924009021e-06,3.818625773148411e-06,3
+llm,tell me what this song is called,service -1,general,general,qwen2.5:7b,44.83840800821781,,,,,,,,,,general,True,,6.7947427266474e-06,3.7282209761695887e-06,3
+llm,what are people saying about chick-fil-a's chicken nuggets,service -1,general,general,qwen2.5:7b,45.56345916353166,,,,,,,,,,general,True,,1.415978114688906e-07,7.769358637054e-08,3
+llm,are you computer or human,service -1,general,general,qwen2.5:7b,46.37122782878578,,,,,,,,,,general,True,,1.721053081106018e-06,9.443280571782208e-07,3
+llm,is laundry on my todo list,service -1,general,general,qwen2.5:7b,44.01561105623841,,,,,,,,,,general,True,,6.893952817741376e-06,3.782656759472136e-06,3
+llm,I am still waiting for my card after 1 week.  Is this ok?,service -1,general,general,qwen2.5:7b,45.640880009159446,,,,,,,,,,general,True,,5.814458815787049e-06,3.190347036551868e-06,3
+llm,what transactions did i make on electronics this morning after 6am,service -1,general,general,qwen2.5:7b,46.26485821790993,,,,,,,,,,general,True,,1.5464596670226004e-07,8.48530047617901e-08,3
+llm,why does us bank have a hold on my account,service -1,general,general,qwen2.5:7b,45.393147971481085,,,,,,,,,,general,True,,6.410901147569422e-06,3.5176101724621175e-06,3
+llm,how old are you turning,service -1,general,general,qwen2.5:7b,43.91311691142619,,,,,,,,,,general,True,,7.437247782641739e-06,4.080758360353303e-06,3
+llm,I am seeing in the App a some cash withdrawal that its not mine,service -1,general,general,qwen2.5:7b,45.3070302028209,,,,,,,,,,general,True,,1.408061497689371e-07,7.725920792901221e-08,3
+llm,Why hasn't my transfer been made?,service -1,general,general,qwen2.5:7b,43.924577068537474,,,,,,,,,,general,True,,6.929144191176713e-06,3.8019659845451746e-06,3
+llm,diy oil change and oil type,service -1,general,general,qwen2.5:7b,44.63406093418598,,,,,,,,,,general,True,,6.879283223241734e-06,3.7746076703269347e-06,3
+llm,How can I speed up a transfer?  Mine is pending.,service -1,general,general,qwen2.5:7b,45.490724965929985,,,,,,,,,,general,True,,1.4486113601979572e-07,7.948414644499101e-08,3
+llm,"If I feel someone has my card information, can I get a new card?",service -1,general,general,qwen2.5:7b,47.38929099403322,,,,,,,,,,general,True,,1.7277880254892419e-06,9.480234672817932e-07,3
+llm,please verify my reservation for john at bardenay,service -1,general,general,qwen2.5:7b,44.38804811798036,,,,,,,,,,general,True,,6.729534755421174e-06,3.6924418840215793e-06,3
+llm,Why did I only get $20 when I tried to get $100,service -1,general,general,qwen2.5:7b,45.51771911792457,,,,,,,,,,general,True,,5.932297388513497e-06,3.2550041186982974e-06,3
+llm,how long should an essay be,service -1,general,general,qwen2.5:7b,45.43309682048857,,,,,,,,,,general,True,,1.4570906447857954e-07,7.994939800687675e-08,3
+llm,How long does a UK transfer take?,service -1,general,general,qwen2.5:7b,44.06554996967316,,,,,,,,,,general,True,,6.3582935473397925e-06,3.488744803077019e-06,3
+llm,How do I locate my card?,service -1,general,general,qwen2.5:7b,43.719992972910404,,,,,,,,,,general,True,,7.680274498444084e-06,4.2141051751002885e-06,3
+llm,i need to know the the carry-on restrictions for american airlines,service -1,general,general,qwen2.5:7b,46.63472902029753,,,,,,,,,,general,True,,1.4423742541102777e-07,7.914192142366612e-08,3
+llm,"my check engine light is on, i need someone to look at it",service -1,general,general,qwen2.5:7b,45.97615101374686,,,,,,,,,,general,True,,1.724437128387997e-06,9.461848568494873e-07,3
+llm,The balance on my account wasn't updated after I made a depost.,service -1,general,general,qwen2.5:7b,45.28308007866144,,,,,,,,,,general,True,,7.077464894882004e-06,3.883348368102584e-06,3
+llm,what's your home country,service -1,general,general,qwen2.5:7b,45.40202999487519,,,,,,,,,,general,True,,1.4461643360044393e-07,7.934988018509694e-08,3
+llm,I had a duplicate card and got charged twice. How do I resolve this?,service -1,general,general,qwen2.5:7b,46.10271588899195,,,,,,,,,,general,True,,1.720582077652114e-06,9.440696213511204e-07,3
+llm,set a timer for 10 minutes,service -1,general,general,qwen2.5:7b,44.345653150230646,,,,,,,,,,general,True,,6.805951411971911e-06,3.7343710921377334e-06,3
+llm,find travel alerts for haiti,service -1,general,general,qwen2.5:7b,45.59094598516822,,,,,,,,,,general,True,,5.917844245295232e-06,3.247073794639512e-06,3
+llm,"I want to add money but don't know what currencies you accept, can you tell me?",service -1,general,general,qwen2.5:7b,46.03698221035302,,,,,,,,,,general,True,,1.4282959422823316e-07,7.836945571627289e-08,3
+llm,Help!  I can't find my card.,service -1,general,general,qwen2.5:7b,44.2014648579061,,,,,,,,,,general,True,,6.468948251534077e-06,3.5494601540306996e-06,3
+llm,my capital one visa was taken without permission,service -1,general,general,qwen2.5:7b,45.21377803757787,,,,,,,,,,general,True,,7.61168843533438e-06,4.1764725509605425e-06,3
+llm,what is the weather doing now,service -1,general,general,qwen2.5:7b,44.708776054903865,,,,,,,,,,general,True,,1.391724301761689e-07,7.636279905826916e-08,3
+llm,"When I tried to pay for my bus ride, the contactless payment wouldn't work. How can I prevent this in the future?",service -1,general,general,qwen2.5:7b,47.601860016584396,,,,,,,,,,general,True,,6.7692131986776816e-06,3.714213128408841e-06,3
+llm,is my visa bill over my limit this month,service -1,general,general,qwen2.5:7b,44.60328305140138,,,,,,,,,,general,True,,7.220571438096334e-06,3.9618697835119496e-06,3
+llm,I understand that this is extremely late. After going over my transactions for the last couple of months I noticed a large charge that I'm sure I did not make. Is there anyway I can still dispute this?,service -1,general,general,qwen2.5:7b,55.16242794692516,,,,,,,,,,general,True,,6.030218298728671e-06,3.308732538766018e-06,3
+llm,can you text mary and tell her she is amazing,service -1,general,general,qwen2.5:7b,45.61710893176496,,,,,,,,,,general,True,,1.4988109146027787e-07,8.223855583555737e-08,3
+llm,i need to understand how many points have i earned with my credit card,service -1,general,general,qwen2.5:7b,46.80045507848263,,,,,,,,,,general,True,,6.301613661342884e-06,3.457645003069514e-06,3
+llm,I need my card quickly,service -1,general,general,qwen2.5:7b,45.90426618233323,,,,,,,,,,general,True,,7.68592397349787e-06,4.217204996866532e-06,3
+llm,Has someone accessed my card there are payments I did not make that are showing up on the app.,service -1,general,general,qwen2.5:7b,45.54500710219145,,,,,,,,,,general,True,,1.4122044667604777e-07,7.748652932758771e-08,3
+llm,i need to confirm my reservation for red lobster for frank,service -1,general,general,qwen2.5:7b,44.41266902722418,,,,,,,,,,general,True,,6.963939904113762e-06,3.821058113867982e-06,3
+llm,"Hi, I'm buying a flat and I'm trying to get my mortgage to go though. Every time I check I simply get an error message. Is there any way you can help me get this money transferred over. Thanks!",service -1,general,general,qwen2.5:7b,52.26309807039797,,,,,,,,,,general,True,,7.0969304961435165e-06,3.894028987789979e-06,3
+llm,read my todo list,service -1,general,general,qwen2.5:7b,46.27968603745103,,,,,,,,,,general,True,,5.880174285897554e-06,3.2264045892777156e-06,3
+llm,what ingredients are needed to make lasgana,service -1,general,general,qwen2.5:7b,45.7308788318187,,,,,,,,,,general,True,,1.5105234213268204e-07,8.288121170949535e-08,3
+llm,give me the date that i last got my car checked,service -1,general,general,qwen2.5:7b,44.15175109170377,,,,,,,,,,general,True,,6.277653200554472e-06,3.4444980899186106e-06,3
+llm,Tell me how to go about activating my new card?,service -1,general,general,qwen2.5:7b,53.704926976934075,,,,,,,,,,general,True,,7.150286143153481e-06,3.923304804459202e-06,3
+llm,Where do my funds come from?,service -1,general,general,qwen2.5:7b,44.75527093745768,,,,,,,,,,general,True,,1.5047771093025172e-07,8.256591616569858e-08,3
+llm,Why did I have to pay extra because I paid with card?,service -1,general,general,qwen2.5:7b,45.722943963482976,,,,,,,,,,general,True,,1.7248696696336562e-06,9.464221887706386e-07,3
+llm,where do i report that my card was lost,service -1,general,general,qwen2.5:7b,44.04090205207467,,,,,,,,,,general,True,,6.725810349399739e-06,3.6903983322328533e-06,3
+llm,what do i do if my car battery died,service -1,general,general,qwen2.5:7b,45.26831395924091,,,,,,,,,,general,True,,5.83847198030985e-06,3.2035228678201294e-06,3
+llm,how do i get that tax form from my employer,service -1,general,general,qwen2.5:7b,45.8362081553787,,,,,,,,,,general,True,,1.4503416152561108e-07,7.957908415578713e-08,3
+llm,in 15 minutes the timer should go off,service -1,general,general,qwen2.5:7b,43.97394391708076,,,,,,,,,,general,True,,6.6063327259452496e-06,3.6248419160643487e-06,3
+llm,when will i get to orlando,service -1,general,general,qwen2.5:7b,45.434530125930905,,,,,,,,,,general,True,,6.049134401974517e-06,3.3191116532881775e-06,3
+llm,"""which is the best way to improve the credit score",service -1,general,general,qwen2.5:7b,44.11948588676751,,,,,,,,,,general,True,,1.4089517191883186e-07,7.730805367048288e-08,3
+llm,what's on my list of things to remember,service -1,general,general,qwen2.5:7b,44.00431294925511,,,,,,,,,,general,True,,6.51783734689315e-06,3.5762852095414573e-06,3
+llm,what name do you have for me,service -1,general,general,qwen2.5:7b,46.05194414034486,,,,,,,,,,general,True,,7.256980092325413e-06,3.981846920818213e-06,3
+llm,Can I change the amount I made on a payment that I made to the payment is correct.,service -1,general,general,qwen2.5:7b,46.0107340477407,,,,,,,,,,general,True,,1.428808273178355e-07,7.83975669027201e-08,3
+llm,wake me up with an alarm at 6am,service -1,general,general,qwen2.5:7b,44.23997993580997,,,,,,,,,,general,True,,1.7219643632345513e-06,9.448280703918885e-07,3
+llm,where should i go for food tonight,service -1,general,general,qwen2.5:7b,44.675926910713315,,,,,,,,,,general,True,,6.880756935500731e-06,3.7754162844537637e-06,3
+llm,They declined my card payment.,service -1,general,general,qwen2.5:7b,44.18205516412854,,,,,,,,,,general,True,,1.405135974185366e-07,7.709868679475849e-08,3
+llm,what are the reviews like for l'auberge aubergine,service -1,general,general,qwen2.5:7b,46.29312106408179,,,,,,,,,,general,True,,1.724018458527498e-06,9.459551360463435e-07,3
+llm,what's the number of vacation days i have left,service -1,general,general,qwen2.5:7b,43.810180854052305,,,,,,,,,,general,True,,7.02009232485235e-06,3.851868497907842e-06,3
+llm,I am experiencing difficulty providing my identity.,service -1,general,general,qwen2.5:7b,45.50936887972057,,,,,,,,,,general,True,,1.4141816128462187e-07,7.759501375161418e-08,3
+llm,save my text on my laptop hard drive,service -1,general,general,qwen2.5:7b,44.51968614012003,,,,,,,,,,general,True,,1.7161926233863391e-06,9.416611629110578e-07,3
+llm,"Something went wrong, I was charged an extra pound?",service -1,general,general,qwen2.5:7b,43.988402001559734,,,,,,,,,,general,True,,6.7626462292467646e-06,3.710609884817863e-06,3
+llm,the car you are driving uses what kind of gas,service -1,general,general,qwen2.5:7b,43.73118793591857,,,,,,,,,,general,True,,5.844735725745809e-06,3.206959734830951e-06,3
+llm,"When considering currency holdings and exchanges, what fiat currencies are supported?",service -1,general,general,qwen2.5:7b,46.60353600047529,,,,,,,,,,general,True,,1.724413377445378e-06,9.461718248972338e-07,3
+llm,can you let me know what company were you designed by,service -1,general,general,qwen2.5:7b,45.043015852570534,,,,,,,,,,general,True,,6.948341698987141e-06,3.812499503500692e-06,3
+llm,what is the expiration month of my card,service -1,general,general,qwen2.5:7b,44.03278208337724,,,,,,,,,,general,True,,5.939832197587912e-06,3.25913840815888e-06,3
+llm,Are there any fees for adding money with an international card?,service -1,general,general,qwen2.5:7b,45.926497085019946,,,,,,,,,,general,True,,1.4980056116148562e-07,8.219436950485624e-08,3
+llm,Will I get charged for topping off my card?,service -1,general,general,qwen2.5:7b,44.25124800764024,,,,,,,,,,general,True,,6.3671234366894335e-06,3.4935896927240423e-06,3
+llm,Can you tell me if my pop-up went through?,service -1,general,general,qwen2.5:7b,44.989199144765735,,,,,,,,,,general,True,,7.609553653490243e-06,4.175301213240907e-06,3
+llm,"going to work, will there be traffic",service -1,general,general,qwen2.5:7b,45.46622699126601,,,,,,,,,,general,True,,1.411553026021018e-07,7.745078529539616e-08,3
+llm,what's the french word you use for potato,service -1,general,general,qwen2.5:7b,45.093826949596405,,,,,,,,,,general,True,,1.735744122042084e-06,9.523889138115561e-07,3
+llm,How long will it take to arrive?,service -1,general,general,qwen2.5:7b,43.84314711205661,,,,,,,,,,general,True,,6.970395476966736e-06,3.824600235047791e-06,3
+llm,can you please revert to factory settings at this time,service -1,general,general,qwen2.5:7b,45.44860892929137,,,,,,,,,,general,True,,5.669154060047518e-06,3.1106194795156063e-06,3
+llm,slow down your voice,service -1,general,general,qwen2.5:7b,44.850865146145225,,,,,,,,,,general,True,,1.7240996703195635e-06,9.459996963069898e-07,3
+llm,How do I link one your card if I have one already?,service -1,general,general,qwen2.5:7b,45.31905800104141,,,,,,,,,,general,True,,6.835429011798266e-06,3.7505452153415797e-06,3
+llm,can you teach me how to change my oil in my car,service -1,general,general,qwen2.5:7b,47.705610981211066,,,,,,,,,,general,True,,6.011272579711834e-06,3.2983371743072407e-06,3
+llm,"When I submit a transfer, it is being declined.  The information I put in has been reviewed.",service -1,general,general,qwen2.5:7b,48.29483898356557,,,,,,,,,,general,True,,1.492647583492112e-07,8.190037878810265e-08,3
+llm,I made a transaction this morning and would like to revert it.,service -1,general,general,qwen2.5:7b,46.7697789426893,,,,,,,,,,general,True,,6.5866107115584126e-06,3.614020604546372e-06,3
+llm,how's my credit score,service -1,general,general,qwen2.5:7b,46.08159093186259,,,,,,,,,,general,True,,7.428291578044123e-06,4.075844162540194e-06,3
+llm,find directions to the sunshine car wash from my house,service -1,general,general,qwen2.5:7b,45.25728686712682,,,,,,,,,,general,True,,1.4043906444889676e-07,7.705779115057404e-08,3
+llm,I don't recognise a cash withdrawal,service -1,general,general,qwen2.5:7b,46.71436105854809,,,,,,,,,,general,True,,1.72474650923511e-06,9.46354611645211e-07,3
+llm,The exchange rates are?,service -1,general,general,qwen2.5:7b,44.95976702310145,,,,,,,,,,general,True,,6.775183288790492e-06,3.71748886909308e-06,3
+llm,Can I link an existing card?,service -1,general,general,qwen2.5:7b,45.95094593241811,,,,,,,,,,general,True,,5.669854006646897e-06,3.1110035346150694e-06,3
+llm,what's the weather like today,service -1,general,general,qwen2.5:7b,44.640305917710066,,,,,,,,,,general,True,,1.7302744081109517e-06,9.49387725535252e-07,3
+llm,Can I change my information?,service -1,general,general,qwen2.5:7b,44.353812001645565,,,,,,,,,,general,True,,6.8651554903579985e-06,3.766855896315509e-06,3
+llm,I couldn't get cash at the atm,service -1,general,general,qwen2.5:7b,45.901135075837374,,,,,,,,,,general,True,,5.922624450994387e-06,3.249696655265033e-06,3
+llm,Is there an age minimum?,service -1,general,general,qwen2.5:7b,44.13438402116299,,,,,,,,,,general,True,,1.388702864965185e-07,7.61970152383289e-08,3
+llm,how to get the right medicine,service -1,general,general,qwen2.5:7b,44.439241057261825,,,,,,,,,,general,True,,6.5740897807263325e-06,3.607150469966329e-06,3
+llm,"There are transactions I didn't make, someone else must have used my card.",service -1,general,general,qwen2.5:7b,46.68367002159357,,,,,,,,,,general,True,,6.064231785495597e-06,3.3273954668471125e-06,3
+llm,can i call you arnold instead,service -1,general,general,qwen2.5:7b,44.05695293098688,,,,,,,,,,general,True,,1.3807836932947654e-07,7.576249662409693e-08,3
+llm,when should you use a dry cleaner,service -1,general,general,qwen2.5:7b,44.098460115492344,,,,,,,,,,general,True,,6.44832008834563e-06,3.5381416459145942e-06,3
+llm,My top-up has been cancelled.,service -1,general,general,qwen2.5:7b,45.51322688348591,,,,,,,,,,general,True,,7.5420530528309306e-06,4.138264173663949e-06,3
+llm,I transferred money but the recipient says it has not arrived. Why would this be?,service -1,general,general,qwen2.5:7b,45.73154007084668,,,,,,,,,,general,True,,1.4185382234349966e-07,7.783405748932638e-08,3
+llm,can you help me pick some fun things to do in london during my trip,service -1,general,general,qwen2.5:7b,44.70105213113129,,,,,,,,,,general,True,,1.7331717724667663e-06,9.509774861783671e-07,3
+llm,what are the nutrition facts for peanut butter,service -1,general,general,qwen2.5:7b,44.80143007822335,,,,,,,,,,general,True,,6.936915450962786e-06,3.8062300126197064e-06,3
+llm,"I am traveling to Germany, Will I be able to use my card there?",service -1,general,general,qwen2.5:7b,46.06566112488508,,,,,,,,,,general,True,,5.79595829304177e-06,3.18019594772569e-06,3
+llm,please give me my current credit score,service -1,general,general,qwen2.5:7b,43.423243099823594,,,,,,,,,,general,True,,1.7313913392108613e-06,9.500005766942873e-07,3
+llm,I topped up but the app reverted it,service -1,general,general,qwen2.5:7b,43.31020102836192,,,,,,,,,,general,True,,6.933502257423785e-06,3.8043572206304015e-06,3
+llm,I attempted to top up but the app denied it.,service -1,general,general,qwen2.5:7b,44.81100500561297,,,,,,,,,,general,True,,5.806968803509331e-06,3.1862373267351612e-06,3
+llm,How can I fix a problem where contactless isn't working?,service -1,general,general,qwen2.5:7b,45.64262996427715,,,,,,,,,,general,True,,1.734451121179455e-06,9.51679454582236e-07,3
+llm,What type of ATMs accept this card?,service -1,general,general,qwen2.5:7b,43.4777750633657,,,,,,,,,,general,True,,6.968621365576388e-06,3.823626794320894e-06,3
+llm,"Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but ""Pending"", and that status has never changed during the last two days.",service -1,general,general,qwen2.5:7b,54.00190316140652,,,,,,,,,,general,True,,6.2068105975115594e-06,3.405627320369857e-06,3
+llm,please read me the last text message i received,service -1,general,general,qwen2.5:7b,44.78989285416901,,,,,,,,,,general,True,,1.397286082565393e-07,7.666796952149595e-08,3
+llm,how much of a refund will i get this year,service -1,general,general,qwen2.5:7b,44.56323408521712,,,,,,,,,,general,True,,6.4850063891293275e-06,3.558271125664097e-06,3
+llm,what films are in the running for best song at this year's oscars,service -1,general,general,qwen2.5:7b,46.22483905404806,,,,,,,,,,general,True,,7.685845346420798e-06,4.2171618548183295e-06,3
+llm,places i can use the card,service -1,general,general,qwen2.5:7b,45.51728582009673,,,,,,,,,,general,True,,1.4111476355342135e-07,7.742854184363251e-08,3
+llm,what day did i last take my car in,service -1,general,general,qwen2.5:7b,44.17825001291931,,,,,,,,,,general,True,,1.7291229797997479e-06,9.487559460322984e-07,3
+llm,How can I top up with Google Pay?,service -1,general,general,qwen2.5:7b,44.14486698806286,,,,,,,,,,general,True,,6.853864248328526e-06,3.7606604821439167e-06,3
+llm,When will a transfer reach my account?,service -1,general,general,qwen2.5:7b,45.5952740740031,,,,,,,,,,general,True,,5.673024458339093e-06,3.1127431360949715e-06,3
+llm,i need to know when i get paid next,service -1,general,general,qwen2.5:7b,44.199139811098576,,,,,,,,,,general,True,,1.7367017697527808e-06,9.529143674491883e-07,3
+llm,how soon should i get my tires changed,service -1,general,general,qwen2.5:7b,44.0547289326787,,,,,,,,,,general,True,,6.854390711744356e-06,3.760949348408484e-06,3
+llm,what is the cheapest new car for this year,service -1,general,general,qwen2.5:7b,44.8855459690094,,,,,,,,,,general,True,,5.977167404185892e-06,3.2796239373375806e-06,3
+llm,there is no way in heck that is true,service -1,general,general,qwen2.5:7b,45.539343962445855,,,,,,,,,,general,True,,1.443100640446341e-07,7.918177766079188e-08,3
+llm,Why is it important to verify a top-up card?,service -1,general,general,qwen2.5:7b,43.91333321109414,,,,,,,,,,general,True,,6.392766101793578e-06,3.507659617925309e-06,3
+llm,tell me my apr rate,service -1,general,general,qwen2.5:7b,43.20413200184703,,,,,,,,,,general,True,,7.754276748623157e-06,4.254709617755592e-06,3
+llm,What is the base amount for cross-currency exchanges?,service -1,general,general,qwen2.5:7b,46.45707714371383,,,,,,,,,,general,True,,1.4414485259399423e-07,7.909112745947081e-08,3
+llm,"I see my top-up was canceled, but why?",service -1,general,general,qwen2.5:7b,44.71960198134184,,,,,,,,,,general,True,,6.730372594245101e-06,3.6929015994815063e-06,3
+llm,I checked my account today and it said I was out of money. How do I transfer money into my account?,service -1,general,general,qwen2.5:7b,46.853478997945786,,,,,,,,,,general,True,,7.399672180437343e-06,4.060140928028536e-06,3
+llm,"I noticed an extra $1 charge on my statement, can you tell me why that is?",service -1,general,general,qwen2.5:7b,46.77591985091567,,,,,,,,,,general,True,,1.4489511700557269e-07,7.950279154000754e-08,3
+llm,How do I link a card that I already have?,service -1,general,general,qwen2.5:7b,44.16664410382509,,,,,,,,,,general,True,,1.7285352765553878e-06,9.484334779637747e-07,3
+llm,how much farther is orlando from my location,service -1,general,general,qwen2.5:7b,44.407812878489494,,,,,,,,,,general,True,,6.7183496524289305e-06,3.6863047074905e-06,3
+llm,HOw do I get my card back after the ATM has pulled it in?,service -1,general,general,qwen2.5:7b,45.2082899864763,,,,,,,,,,general,True,,1.4531399420867827e-07,7.973262611032841e-08,3
+llm,can you tell me the current time in jamaica,service -1,general,general,qwen2.5:7b,45.44018814340234,,,,,,,,,,general,True,,1.7313250488427013e-06,9.499642036996103e-07,3
+llm,How do I make an exchange from one currency to another?,service -1,general,general,qwen2.5:7b,44.58064190112054,,,,,,,,,,general,True,,6.7415956916578885e-06,3.6990596232471147e-06,3
+llm,I lost my phone!,service -1,general,general,qwen2.5:7b,43.83848002180457,,,,,,,,,,general,True,,5.797245920734174e-06,3.180902458739445e-06,3
+llm,when do i get my next paycheck,service -1,general,general,qwen2.5:7b,45.09993689134717,,,,,,,,,,general,True,,1.7485881562758366e-06,9.594363326433314e-07,3
+llm,play the next song please,service -1,general,general,qwen2.5:7b,44.30365399457514,,,,,,,,,,general,True,,6.826172099169258e-06,3.745466021437354e-06,3
+llm,help me to transfer my 401k,service -1,general,general,qwen2.5:7b,44.32586603797972,,,,,,,,,,general,True,,5.913717487413201e-06,3.244809475603746e-06,3
+llm,does tofu last long in the freezer before it goes bad,service -1,general,general,qwen2.5:7b,44.35182502493262,,,,,,,,,,general,True,,1.4262940320713784e-07,7.825961250448963e-08,3
+llm,How do I know when my card will arrive?,service -1,general,general,qwen2.5:7b,44.854603009298444,,,,,,,,,,general,True,,6.7660069357955346e-06,3.7124538776155125e-06,3
+llm,How do I get my salary through this account?,service -1,general,general,qwen2.5:7b,43.60025399364531,,,,,,,,,,general,True,,6.122241056319335e-06,3.359224689673964e-06,3
+llm,"Hi, I have been overcharged for my payment last Saturday. I guess exchange rate was wrong.",service -1,general,general,qwen2.5:7b,45.49663886427879,,,,,,,,,,general,True,,1.534789554878159e-07,8.421267504448056e-08,3
+llm,how do i find the interest rate for my checking account,service -1,general,general,qwen2.5:7b,44.69300480559468,,,,,,,,,,general,True,,6.369477703781689e-06,3.4948814602433825e-06,3
+llm,what is the name of this song that's on right now,service -1,general,general,qwen2.5:7b,47.56211303174496,,,,,,,,,,general,True,,7.402281563362355e-06,4.061572675564387e-06,3
+llm,I bought an item and noticed the exchange rate was not correct.,service -1,general,general,qwen2.5:7b,46.540620969608426,,,,,,,,,,general,True,,1.4764234721148344e-07,8.10101747761435e-08,3
+llm,Why was I chaged twice for the same thing?,service -1,general,general,qwen2.5:7b,44.683346059173346,,,,,,,,,,general,True,,1.7226489950252638e-06,9.452037223784023e-07,3
+llm,i would like for my phone to be synced with you,service -1,general,general,qwen2.5:7b,45.67421902902424,,,,,,,,,,general,True,,6.692922281179145e-06,3.6723529123047684e-06,3
+llm,is a travel visa needed for thailand,service -1,general,general,qwen2.5:7b,43.97827899083495,,,,,,,,,,general,True,,5.814153031027773e-06,3.1901792549006653e-06,3
+llm,Is PIN delivered separately?,service -1,general,general,qwen2.5:7b,44.3044591229409,,,,,,,,,,general,True,,1.4074704700350361e-07,7.722677871442509e-08,3
+llm,was there any progress on my vacation request,service -1,general,general,qwen2.5:7b,45.694107888266444,,,,,,,,,,general,True,,6.545677807051533e-06,3.5915610473067575e-06,3
+llm,create emergency phone numbers list,service -1,general,general,qwen2.5:7b,45.00837693922222,,,,,,,,,,general,True,,6.186161580351785e-06,3.3942973698464e-06,3
+llm,I can't find the top-up verification code.,service -1,general,general,qwen2.5:7b,44.088288908824325,,,,,,,,,,general,True,,1.4236393617466682e-07,7.811395286757682e-08,3
+llm,"tell me the time in san francisco, please",service -1,general,general,qwen2.5:7b,46.668350929394364,,,,,,,,,,general,True,,6.559413437488837e-06,3.5990976778426656e-06,3
+llm,I have been charged twice,service -1,general,general,qwen2.5:7b,44.00277603417635,,,,,,,,,,general,True,,6.164190605901848e-06,3.382242071933478e-06,3
+llm,disconnect from wifi immediately please,service -1,general,general,qwen2.5:7b,44.401194201782346,,,,,,,,,,general,True,,1.3846336644049093e-07,7.597374145898103e-08,3
+llm,"If I have more than one disposable card, can I make five payments on each of them?",service -1,general,general,qwen2.5:7b,47.223170986399055,,,,,,,,,,general,True,,6.6237331329526555e-06,3.634389380186053e-06,3
+llm,Why would I have a pending payment?,service -1,general,general,qwen2.5:7b,44.395389035344124,,,,,,,,,,general,True,,7.506589101769325e-06,4.1188053874279765e-06,3
+llm,how would i say what is your name if i were french,service -1,general,general,qwen2.5:7b,45.80473294481635,,,,,,,,,,general,True,,1.4299858917691047e-07,7.846218189261952e-08,3
+llm,How can I get my physical card to work?,service -1,general,general,qwen2.5:7b,44.70089799724519,,,,,,,,,,general,True,,1.7279684521491825e-06,9.481224659466363e-07,3
+llm,Why is my money gone right when I attempted to top up,service -1,general,general,qwen2.5:7b,47.33102908357978,,,,,,,,,,general,True,,6.692541226179741e-06,3.672143830475011e-06,3
+llm,What do you charge for physical cards?,service -1,general,general,qwen2.5:7b,44.25609903410077,,,,,,,,,,general,True,,5.953107324922985e-06,3.2664223643265973e-06,3
+llm,do i need a converter for my electronics when i go to that coutntry,service -1,general,general,qwen2.5:7b,45.02167203463614,,,,,,,,,,general,True,,1.7436943060178574e-06,9.567511161575346e-07,3
+llm,what time is it in california,service -1,general,general,qwen2.5:7b,43.67370600812137,,,,,,,,,,general,True,,6.8338029022571925e-06,3.749652982045328e-06,3
+llm,can i have more information about this car's highway mpg,service -1,general,general,qwen2.5:7b,45.49319390207529,,,,,,,,,,general,True,,6.0189674667184955e-06,3.3025592972486546e-06,3
+llm,How do I link this new card?,service -1,general,general,qwen2.5:7b,43.93738601356745,,,,,,,,,,general,True,,1.3860189161879824e-07,7.604974911607203e-08,3
+llm,What is the best way to exchange currency between USD and GBP using your app?,service -1,general,general,qwen2.5:7b,44.40617305226624,,,,,,,,,,general,True,,6.956954943372661e-06,3.817225521788995e-06,3
+llm,What extra charges are there?,service -1,general,general,qwen2.5:7b,43.28490607440472,,,,,,,,,,general,True,,5.964982853410867e-06,3.2729383718036733e-06,3
+llm,"I thought cash withdrawals were free? Why have I been charged a fee? Also, how much is this fee?",service -1,general,general,qwen2.5:7b,47.79115994460881,,,,,,,,,,general,True,,1.749072765925121e-06,9.59702234081027e-07,3
+llm,say again please,service -1,general,general,qwen2.5:7b,43.09855308383703,,,,,,,,,,general,True,,6.823506451551472e-06,3.7440034019146787e-06,3
+llm,The ATM keeps declining my card. I tried at a couple different ATMs. Can you tell me if there's a problem with my account?,service -1,general,general,qwen2.5:7b,48.69877314195037,,,,,,,,,,general,True,,6.009415796573133e-06,3.297318372253344e-06,3
+llm,What would lead to my top up still pending?,service -1,general,general,qwen2.5:7b,44.94447493925691,,,,,,,,,,general,True,,1.4460429212902193e-07,7.934321825681795e-08,3
+llm,switch over to low power mode to preserve battery life,service -1,general,general,qwen2.5:7b,43.8108139205724,,,,,,,,,,general,True,,6.682778647967109e-06,3.6667871819103014e-06,3
+llm,What do I need to do to transfer my paycheck to my account?,service -1,general,general,qwen2.5:7b,46.223383164033294,,,,,,,,,,general,True,,7.36653773281983e-06,4.04196032169628e-06,3
+llm,can you let me know the next open slot for me to get my oil changed,service -1,general,general,qwen2.5:7b,46.302889008075,,,,,,,,,,general,True,,1.4416613396150448e-07,7.910280437552382e-08,3
+llm,"i need to buy something, please",service -1,general,general,qwen2.5:7b,44.15275785140693,,,,,,,,,,general,True,,1.7186456814290586e-06,9.430071362347397e-07,3
+llm,is socket converter required in france,service -1,general,general,qwen2.5:7b,44.086114037781954,,,,,,,,,,general,True,,6.648061299489513e-06,3.647738050539589e-06,3
+llm,What kind of currency can I hold money in?,service -1,general,general,qwen2.5:7b,45.984363881871104,,,,,,,,,,general,True,,6.01146051948582e-06,3.298440295357785e-06,3
+llm,How do I get my top-up verification code?,service -1,general,general,qwen2.5:7b,44.306926894932985,,,,,,,,,,general,True,,1.422653446853106e-07,7.805985650618033e-08,3
+llm,Is there a way to transfer funds directly from my card?,service -1,general,general,qwen2.5:7b,45.361889991909266,,,,,,,,,,general,True,,6.828387679656996e-06,3.746681692726357e-06,3
+llm,Do you charge for physical cards,service -1,general,general,qwen2.5:7b,44.273799983784556,,,,,,,,,,general,True,,5.982716719443639e-06,3.2826688022250406e-06,3
+llm,what do you think about changing your name to heath,service -1,general,general,qwen2.5:7b,44.2415620200336,,,,,,,,,,general,True,,1.4444384141814454e-07,7.925518023550043e-08,3
+llm,what is my payment going to be,service -1,general,general,qwen2.5:7b,44.52725010924041,,,,,,,,,,general,True,,6.688558498070844e-06,3.66995853942338e-06,3
+llm,what's the best golf club to use on the lower nine,service -1,general,general,qwen2.5:7b,44.93957199156284,,,,,,,,,,general,True,,6.1350849925587755e-06,3.3662720547371176e-06,3
+llm,what's my credit card's annual percentage rate,service -1,general,general,qwen2.5:7b,43.806448113173246,,,,,,,,,,general,True,,1.3675145002912774e-07,7.503442661931266e-08,3
+llm,Will you deal with SWIFT transfers?,service -1,general,general,qwen2.5:7b,43.682418996468186,,,,,,,,,,general,True,,6.767772590975758e-06,3.71342267848772e-06,3
+llm,how much vacation time do i have,service -1,general,general,qwen2.5:7b,44.98077603057027,,,,,,,,,,general,True,,6.057027595285933e-06,3.3234425853125374e-06,3
+llm,what's wells fargo's routing number,service -1,general,general,qwen2.5:7b,44.246388133615255,,,,,,,,,,general,True,,1.4315586110264476e-07,7.854847574022966e-08,3
+llm,"My card's frozen, what can I do?",service -1,general,general,qwen2.5:7b,44.31065497919917,,,,,,,,,,general,True,,6.65806829236882e-06,3.653228807476384e-06,3
+llm,what are some fun local experiences in canada,service -1,general,general,qwen2.5:7b,44.625969836488366,,,,,,,,,,general,True,,6.128325495471064e-06,3.362563172761056e-06,3
+llm,restart my newspaper delivery for monday,service -1,general,general,qwen2.5:7b,44.221420073881745,,,,,,,,,,general,True,,1.3807041104874074e-07,7.575812997913899e-08,3
+llm,Do you offer additional currency options?,service -1,general,general,qwen2.5:7b,44.2127101123333,,,,,,,,,,general,True,,6.754326595566004e-06,3.706044968374315e-06,3
+llm,I took out a foreign currency and the exchange rate is wrong.,service -1,general,general,qwen2.5:7b,45.42770306579769,,,,,,,,,,general,True,,6.160915687109317e-06,3.380445150191324e-06,3
+llm,what is the weather,service -1,general,general,qwen2.5:7b,45.56935094296932,,,,,,,,,,general,True,,1.41566852754349e-07,7.767659957152832e-08,3
+llm,make a roll of the dice,service -1,general,general,qwen2.5:7b,44.14298897609115,,,,,,,,,,general,True,,6.71287628821785e-06,3.683301516334888e-06,3
+llm,I need it delivered by Saturday.,service -1,general,general,qwen2.5:7b,44.420632999390364,,,,,,,,,,general,True,,7.479591984629408e-06,4.103992285230205e-06,3
+llm,can you tell me what cards and currencies you take?,service -1,general,general,qwen2.5:7b,44.29640294983983,,,,,,,,,,general,True,,1.3919508071711696e-07,7.637522722874109e-08,3
+llm,"I just activated auto top-up, but it is not letting me enable it. Why not?",service -1,general,general,qwen2.5:7b,69.32358886115253,,,,,,,,,,general,True,,1.7994799703931023e-06,9.87360263914874e-07,3
+llm,where were you thought of,service -1,general,general,qwen2.5:7b,43.68143808096647,,,,,,,,,,general,True,,6.222129936033025e-06,3.4140329188618417e-06,3
+llm,What is this €1 fee in my statement?,service -1,general,general,qwen2.5:7b,44.671416049823165,,,,,,,,,,general,True,,7.405631693964323e-06,4.063410865424695e-06,3
+llm,you have what types or kinds of pets,service -1,general,general,qwen2.5:7b,45.72405107319355,,,,,,,,,,general,True,,1.42550463917571e-07,7.821629914779062e-08,3
+llm,what ingredients are in beef jerkey,service -1,general,general,qwen2.5:7b,44.23977807164192,,,,,,,,,,general,True,,1.7222978795498108e-06,9.450110681260421e-07,3
+llm,What is the activation process on my new card?,service -1,general,general,qwen2.5:7b,43.67376398295164,,,,,,,,,,general,True,,6.676363744705094e-06,3.6632673758097475e-06,3
+llm,Are you able to explain the restrictions of the disposable cards?,service -1,general,general,qwen2.5:7b,44.08788005821407,,,,,,,,,,general,True,,1.3874766688478854e-07,7.612973483843606e-08,3
+llm,what is the amount of blood needed to stay alive,service -1,general,general,qwen2.5:7b,45.73601600714028,,,,,,,,,,general,True,,1.7227860555331723e-06,9.452789263826675e-07,3
+llm,I tried to withdraw money but I was declined!,service -1,general,general,qwen2.5:7b,44.741249876096845,,,,,,,,,,general,True,,6.741967009658107e-06,3.699263362463368e-06,3
+llm,How do I unblock my card using the app?,service -1,general,general,qwen2.5:7b,44.429717818275094,,,,,,,,,,general,True,,6.022124967735871e-06,3.3042917927969366e-06,3
+llm,I paid for something in foreign currency but noticed the exchange rate is incorrect.,service -1,general,general,qwen2.5:7b,47.12502611801028,,,,,,,,,,general,True,,1.457938717472091e-07,7.999593107680877e-08,3
+llm,I'm unable to use contactless payments for purchases.,service -1,general,general,qwen2.5:7b,44.28208782337606,,,,,,,,,,general,True,,6.869740374791482e-06,3.7693715857251182e-06,3
+llm,can i redeem my points by transferring them to someone as a gift,service -1,general,general,qwen2.5:7b,46.17395787499845,,,,,,,,,,general,True,,5.961086945420555e-06,3.270800718256769e-06,3
+llm,i want to start talking to you in swedish,service -1,general,general,qwen2.5:7b,45.04770995117724,,,,,,,,,,general,True,,1.4770725004675973e-07,8.104578644264546e-08,3
+llm,will you be sure to add this current song to my sleep playlist,service -1,general,general,qwen2.5:7b,45.992538100108504,,,,,,,,,,general,True,,6.6812073150799515e-06,3.6659250041259483e-06,3
+llm,I have never been charged a fee for cash withdrawal before. When did that change?,service -1,general,general,qwen2.5:7b,46.275123953819275,,,,,,,,,,general,True,,7.516911468983135e-06,4.124469187739323e-06,3
+llm,Where are the locations of ATMs that accept this card?,service -1,general,general,qwen2.5:7b,45.75524013489485,,,,,,,,,,general,True,,1.4274108883294626e-07,7.83208935139449e-08,3
+llm,There's a recent charge on my card that I know I didn't make because I've never seen the name before. Can we investigate this?,service -1,general,general,qwen2.5:7b,48.44528902322054,,,,,,,,,,general,True,,1.735144046255497e-06,9.52059657028043e-07,3
+llm,Top up on my Google Pay isn't working.,service -1,general,general,qwen2.5:7b,44.13253883831203,,,,,,,,,,general,True,,6.9338051743932875e-06,3.8045234287483083e-06,3
+llm,"$1 extra has been charged on my statement, why is that?",service -1,general,general,qwen2.5:7b,46.4520831592381,,,,,,,,,,general,True,,6.019024222905702e-06,3.3025904389145065e-06,3
+llm,what shows are on tonight,service -1,general,general,qwen2.5:7b,44.24628987908363,,,,,,,,,,general,True,,1.4405863605357686e-07,7.904382113340519e-08,3
+llm,"I was out today looking forward to pay with my new card, turns out the payment just kept getting declined. This is really sad, what's going on?",service -1,general,general,qwen2.5:7b,48.593766056001186,,,,,,,,,,general,True,,6.9342225711265665e-06,3.804752450996523e-06,3
+llm,tell david where i am,service -1,general,general,qwen2.5:7b,43.87567099183798,,,,,,,,,,general,True,,6.086350504968564e-06,3.3395318312721533e-06,3
+llm,What will I be charged for a physical card?,service -1,general,general,qwen2.5:7b,45.184233924373984,,,,,,,,,,general,True,,1.507857969652339e-07,8.273496050845847e-08,3
+llm,"Please, activate my card",service -1,general,general,qwen2.5:7b,44.577037915587425,,,,,,,,,,general,True,,6.627314046645395e-06,3.6363541988820337e-06,3
+llm,"If I request that my funds be held, what currencies do you use?",service -1,general,general,qwen2.5:7b,45.302342157810926,,,,,,,,,,general,True,,7.327678928433119e-06,4.020638806599827e-06,3
+llm,how much has microsoft's stock changed over the last year,service -1,general,general,qwen2.5:7b,45.72222591377795,,,,,,,,,,general,True,,1.4212368340755024e-07,7.798212809631729e-08,3
+llm,will you tell me my bank balance,service -1,general,general,qwen2.5:7b,45.91756802983582,,,,,,,,,,general,True,,1.7257503162637113e-06,9.469053925312797e-07,3
+llm,"add mary to my phone plan, please",service -1,general,general,qwen2.5:7b,44.341841945424676,,,,,,,,,,general,True,,6.636810089364915e-06,3.6415646015538518e-06,3
+llm,is there a long wait at chili's around 5:00,service -1,general,general,qwen2.5:7b,45.99382495507598,,,,,,,,,,general,True,,5.9559863258692655e-06,3.268002049113764e-06,3
+llm,please let me know the status of my vacation request,service -1,general,general,qwen2.5:7b,45.027226908132434,,,,,,,,,,general,True,,1.4961415048054053e-07,8.209208745548965e-08,3
+llm,what are cars like mine selling for online,service -1,general,general,qwen2.5:7b,43.326527113094926,,,,,,,,,,general,True,,6.904289409350069e-06,3.788328364595075e-06,3
+llm,which kinds of pets do you have,service -1,general,general,qwen2.5:7b,43.38566982187331,,,,,,,,,,general,True,,5.854678626618023e-06,3.2124153249962328e-06,3
+llm,whats the exchange rate for us dollars to british pounds,service -1,general,general,qwen2.5:7b,43.923086021095514,,,,,,,,,,general,True,,1.4522860551039601e-07,7.968577401466607e-08,3
+llm,when will the next boston marathon be,service -1,general,general,qwen2.5:7b,45.79367698170245,,,,,,,,,,general,True,,6.718569144965707e-06,3.686425141289501e-06,3
+llm,What is the limit to disposable cards you can have?,service -1,general,general,qwen2.5:7b,44.28461310453713,,,,,,,,,,general,True,,5.939110502127792e-06,3.2587424196334897e-06,3
+llm,i appeciate it,service -1,general,general,qwen2.5:7b,43.56856900267303,,,,,,,,,,general,True,,1.379233248170915e-07,7.56774249405668e-08,3
+llm,you got that wrong,service -1,general,general,qwen2.5:7b,43.343275086954236,,,,,,,,,,general,True,,6.7784038287198485e-06,3.7192559535878696e-06,3
+llm,please tell me what the date is tomorrow,service -1,general,general,qwen2.5:7b,44.61218789219856,,,,,,,,,,general,True,,7.301862636358968e-06,4.006473613669091e-06,3
+llm,I have exceeded the number of times I can try my PIN,service -1,general,general,qwen2.5:7b,48.55568497441709,,,,,,,,,,general,True,,1.4973266127850382e-07,8.215711338219016e-08,3
+llm,what do i go by,service -1,general,general,qwen2.5:7b,44.552798150107265,,,,,,,,,,general,True,,1.7263092073481652e-06,9.47212051598343e-07,3
+llm,my check engine light is on and i need someone to look at it,service -1,general,general,qwen2.5:7b,45.58017197996378,,,,,,,,,,general,True,,6.687327010705419e-06,3.669282832158066e-06,3
+llm,What fiat currencies are supported for holding and exchange?,service -1,general,general,qwen2.5:7b,45.52358598448336,,,,,,,,,,general,True,,5.9668232536762116e-06,3.273948184706133e-06,3
+llm,How many times can I use a disposable card?,service -1,general,general,qwen2.5:7b,44.713268987834454,,,,,,,,,,general,True,,1.446521000212156e-07,7.936945006477639e-08,3
+llm,i need to get to the staples center; can you call me an uber,service -1,general,general,qwen2.5:7b,45.74811505153775,,,,,,,,,,general,True,,6.906790582383512e-06,3.7897007382290803e-06,3
+llm,Is it a good time to exchange?,service -1,general,general,qwen2.5:7b,45.36238708533347,,,,,,,,,,general,True,,5.807613265125348e-06,3.186590937668231e-06,3
+llm,Where do you support?,service -1,general,general,qwen2.5:7b,43.89426996931434,,,,,,,,,,general,True,,1.4119230585911413e-07,7.747108868652597e-08,3
+llm,how many years do you need to be in the army to get a college tuition,service -1,general,general,qwen2.5:7b,45.53039791062474,,,,,,,,,,general,True,,6.848704429275598e-06,3.757829330708123e-06,3
+llm,how long do i need to cook chicken,service -1,general,general,qwen2.5:7b,50.51144398748875,,,,,,,,,,general,True,,7.248134706811741e-06,3.9769935285499484e-06,3
+llm,How would I use my money in a different country?,service -1,general,general,qwen2.5:7b,44.010400073602796,,,,,,,,,,general,True,,1.3708496440388226e-07,7.521742328877971e-08,3
+llm,Where are cards delivered to?,service -1,general,general,qwen2.5:7b,43.889839900657535,,,,,,,,,,general,True,,1.7113254921013142e-06,9.389906069120612e-07,3
+llm,I submitted my transfer but it has been pending for quite a while and I was wondering what takes so long? why hasn't it completed,service -1,general,general,qwen2.5:7b,47.61547991074622,,,,,,,,,,general,True,,6.822698624752745e-06,3.7435601538129363e-06,3
+llm,I am awaiting my refund,service -1,general,general,qwen2.5:7b,46.01669800467789,,,,,,,,,,general,True,,5.834235092963894e-06,3.201198121628463e-06,3
+llm,I would like to know why I was charged twice for my purchase.,service -1,general,general,qwen2.5:7b,46.660367865115404,,,,,,,,,,general,True,,1.4805118941398077e-07,8.123450322182826e-08,3
+llm,are we allowed to wash our cars during the drought,service -1,general,general,qwen2.5:7b,44.522954849526286,,,,,,,,,,general,True,,6.966039247088829e-06,3.822210006563685e-06,3
+llm,i would like to make a phone call,service -1,general,general,qwen2.5:7b,44.91792316548526,,,,,,,,,,general,True,,5.806432414739993e-06,3.185943014508445e-06,3
+llm,I want to change my personal details.,service -1,general,general,qwen2.5:7b,46.346707036718726,,,,,,,,,,general,True,,1.4418057786916294e-07,7.911072963211196e-08,3
+llm,Where can I find the verification code on a top-up card?,service -1,general,general,qwen2.5:7b,45.43871199712157,,,,,,,,,,general,True,,6.671543210680624e-06,3.6606223873547096e-06,3
+llm,is it okay to use butter instead of margarine,service -1,general,general,qwen2.5:7b,43.8251260202378,,,,,,,,,,general,True,,7.415912859335631e-06,4.069052058614572e-06,3
+llm,Can I add money with Apple Pay?,service -1,general,general,qwen2.5:7b,46.0154889151454,,,,,,,,,,general,True,,1.42785411379881e-07,7.834521294084254e-08,3
+llm,Can I exchange between GBP and USD on the app?,service -1,general,general,qwen2.5:7b,43.96000993438065,,,,,,,,,,general,True,,1.7240428939473314e-06,9.459685435656874e-07,3
+llm,Which fiat currencies do you support?,service -1,general,general,qwen2.5:7b,44.28599402308464,,,,,,,,,,general,True,,7.035705249183559e-06,3.860435184585044e-06,3
+llm,Will it automatically top-up or do I need to do that manually if there isn't much cash left?,service -1,general,general,qwen2.5:7b,47.30373085476458,,,,,,,,,,general,True,,1.4636575296125137e-07,8.030971772386535e-08,3
+llm,can i redeem my points on gas,service -1,general,general,qwen2.5:7b,46.31959507241845,,,,,,,,,,general,True,,1.7290098361065487e-06,9.486938649929874e-07,3
+llm,how do you describe yourself: as a computer or a human,service -1,general,general,qwen2.5:7b,45.714372070506215,,,,,,,,,,general,True,,6.707653008519981e-06,3.6804355445507753e-06,3
+llm,How do I retrieve my card from the machine?,service -1,general,general,qwen2.5:7b,44.09870691597462,,,,,,,,,,general,True,,5.990630361981785e-06,3.287010954576477e-06,3
+llm,give me some ideas for boosting my credit score,service -1,general,general,qwen2.5:7b,44.39569194801152,,,,,,,,,,general,True,,1.4013143308060083e-07,7.688899627991512e-08,3
+llm,tell me who makes the best dvd's for movie storage,service -1,general,general,qwen2.5:7b,46.76346806809306,,,,,,,,,,general,True,,6.765150575347486e-06,3.7119839994886536e-06,3
+llm,How can I process a refund for something I purchased?,service -1,general,general,qwen2.5:7b,44.732816983014345,,,,,,,,,,general,True,,5.830402215545229e-06,3.199095052451974e-06,3
+llm,when is the next day we have off,service -1,general,general,qwen2.5:7b,44.23596290871501,,,,,,,,,,general,True,,1.4220865236390032e-07,7.802874988282679e-08,3
+llm,"I would like to know why my payment is still pending, can you help?",service -1,general,general,qwen2.5:7b,57.7511009760201,,,,,,,,,,general,True,,6.820540936914015e-06,3.7423762477572804e-06,3
+llm,what is my card's apr rate,service -1,general,general,qwen2.5:7b,43.981109047308564,,,,,,,,,,general,True,,6.728134243813664e-06,3.691673434506621e-06,3
+llm,"My top up hasn't worked, it's been stuck in pending for the last couple hours",service -1,general,general,qwen2.5:7b,45.70452310144901,,,,,,,,,,general,True,,5.970431472807677e-06,3.2759279856777335e-06,3
+llm,can you recommend thai food,service -1,general,general,qwen2.5:7b,45.11724505573511,,,,,,,,,,general,True,,1.4166041122131226e-07,7.772793435387344e-08,3
+llm,i need to know when i should change my tires,service -1,general,general,qwen2.5:7b,44.4957260042429,,,,,,,,,,general,True,,6.938996010746271e-06,3.807371599128407e-06,3
+llm,Why is it asking me to verify my identity,service -1,general,general,qwen2.5:7b,43.81699301302433,,,,,,,,,,general,True,,5.87230119604475e-06,3.2220846878602306e-06,3
+llm,my check engine light is on so is anyone available to check it out for me,service -1,general,general,qwen2.5:7b,46.98998085223138,,,,,,,,,,general,True,,1.5254413657283042e-07,8.369974738449935e-08,3

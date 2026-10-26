@@ -1,0 +1,607 @@
+routing_method,query,raw_response,predicted_label,top_candidate,model_name,latency_ms,max_score,median_score,Radiology_score,Social & Preventive Medicine_score,Forensic Medicine_score,Ophthalmology_score,Microbiology_score,apply_threshold,gap,gap_cutoff,gap_passed,expected_service,is_correct,error,energy_kwh,co2_kg,total_service_count
+llm,Elderly individual living alone in a temperate zone is found dead one morning. The electric heater is found to be damaged. The rigor mois will set in:NEET 14,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,537.4878088477999,,,,,,,,,,,,Forensic Medicine,True,,0.00021074500812310462,0.00011563409999708254,5
+llm,"Parents of the Child complains of assaulted by one of their relatives and anal pain in a child, On investigation test shows yellow iodine crystals with picric acid - what is the name of the test?",service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,94.2028141580522,,,,,,,,,,,,Forensic Medicine,True,,8.543155678339404e-06,4.6875611754594045e-06,5
+llm,True about Stab Wounds ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,79.88721807487309,,,,,,,,,,,,Forensic Medicine,True,,8.527403121213529e-06,4.6789178733848945e-06,5
+llm,Adultery is described under which section of IPC?,service -1,general,general,phi4:14b,68.9421019051224,,,,,,,,,,,,Forensic Medicine,False,,8.199085768602446e-06,4.498772768546009e-06,5
+llm,Extra permanent tooth to erupt is -,service -1,general,general,phi4:14b,71.84822694398463,,,,,,,,,,,,Forensic Medicine,False,,8.198899180726139e-06,4.498670389270975e-06,5
+llm,Best method for methanol poisoning treatment:March 2007,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,85.3006059769541,,,,,,,,,,,,Forensic Medicine,True,,7.790491268324067e-06,4.274580234999283e-06,5
+llm,Contributory negligence is negligence due to:NEET 13,service -1,general,general,phi4:14b,71.22507295571268,,,,,,,,,,,,Forensic Medicine,False,,8.55459840583484e-06,4.693839708494338e-06,5
+llm,Cyanide odour is of ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,80.77967306599021,,,,,,,,,,,,Forensic Medicine,True,,7.495038931086323e-06,4.112467901175613e-06,5
+llm,Sex with cadaver is called -,service -1,general,general,phi4:14b,67.77544203214347,,,,,,,,,,,,Forensic Medicine,False,,8.583813524501882e-06,4.709869810386001e-06,5
+llm,"Size of the fetus is 20 mm, then by the rule of Hasse's, what is the gestational age of the fetus?",service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,84.83128109946847,,,,,,,,,,,,Forensic Medicine,True,,8.075789529286533e-06,4.43112110840328e-06,5
+llm,First aid should be given in acid contact ?,service -1,general,general,phi4:14b,68.49593087099493,,,,,,,,,,,,Forensic Medicine,False,,8.733026518163776e-06,4.791741786304313e-06,5
+llm,First carpal bone to appear is?,service -1,general,general,phi4:14b,66.67883205227554,,,,,,,,,,,,Forensic Medicine,False,,6.093271991889878e-06,3.3433295957740387e-06,5
+llm,According to section 82 IPC a child's act is not considered as a crime if he is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,82.49756204895675,,,,,,,,,,,,Forensic Medicine,True,,9.55050977835423e-06,5.240288311304732e-06,5
+llm,"According to Casper's dictum, decomposition is the fastest when the body is in which of the following?",service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,82.41988415829837,,,,,,,,,,,,Forensic Medicine,True,,8.657655444282368e-06,4.7503862810341845e-06,5
+llm,What acts as both poison & antidote ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,81.9975109770894,,,,,,,,,,,,Forensic Medicine,True,,8.61438263001507e-06,4.7266428340282315e-06,5
+llm,"For autopsy, stomach is open through -",service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,79.1685578878969,,,,,,,,,,,,Forensic Medicine,True,,8.914716574090812e-06,4.891433666471038e-06,5
+llm,Most specific sign of Antemoem burns is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,78.36434408091009,,,,,,,,,,,,Forensic Medicine,True,,9.087754440520273e-06,4.986378159477944e-06,5
+llm,Plantiff is a person who ?,service -1,general,general,phi4:14b,67.43828998878598,,,,,,,,,,,,Forensic Medicine,False,,9.052704305740798e-06,4.967146430925526e-06,5
+llm,Best temperature for putrefaction is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,78.01109692081809,,,,,,,,,,,,Forensic Medicine,True,,9.344164852816074e-06,5.127068501421366e-06,5
+llm,Most common organ injured in penetrating injury of the abdomen:,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,80.7205718010664,,,,,,,,,,,,Forensic Medicine,True,,9.079972531081165e-06,4.982108288023975e-06,5
+llm,DNA finger printing cannot be taken from ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,78.06978304870427,,,,,,,,,,,,Forensic Medicine,True,,8.898301226786213e-06,4.882426696727781e-06,5
+llm,True about hymen in Child rape is-,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,79.33610398322344,,,,,,,,,,,,Forensic Medicine,True,,8.683398758012122e-06,4.764511431331188e-06,5
+llm,Chicken fat appearance is seen in -,service Radiology,Radiology,Radiology,phi4:14b,67.60979420505464,,,,,,,,,,,,Forensic Medicine,False,,8.001621236957757e-06,4.390425559748821e-06,5
+llm,Length of the fetus is 40cms. What would be the age of gestation ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,80.61725995503366,,,,,,,,,,,,Forensic Medicine,True,,8.143355895338e-06,4.4681942329247864e-06,5
+llm,Acid used for forging signature is ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,78.87454889714718,,,,,,,,,,,,Forensic Medicine,True,,8.073274110051269e-06,4.429740917992264e-06,5
+llm,Adulteration of drug is under which section of IPC,service -1,general,general,phi4:14b,71.07836590148509,,,,,,,,,,,,Forensic Medicine,False,,8.11580476405932e-06,4.453077147601234e-06,5
+llm,M'naghten rule comes under which section of IPC?,service -1,general,general,phi4:14b,69.73029812797904,,,,,,,,,,,,Forensic Medicine,False,,8.376607712950264e-06,4.5961776392341004e-06,5
+llm,"Chronic arsenic poisoning does not cause:NEET 13,15",service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,80.78692015260458,,,,,,,,,,,,Forensic Medicine,True,,8.854807285974377e-06,4.858561919355854e-06,5
+llm,Following is most suggestive of antemoem hanging:DNB 09,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,81.4417318906635,,,,,,,,,,,,Forensic Medicine,True,,8.167124949626551e-06,4.481236122860468e-06,5
+llm,"In Alleged history of gun shot injury.there is burning, blackening, tattooing around the wound Di collar, the injury is",service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,85.99818986840546,,,,,,,,,,,,Forensic Medicine,True,,8.224228754210759e-06,4.512568523605391e-06,5
+llm,Cause of death for drowning in cold water:NEET 13,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,80.36523801274598,,,,,,,,,,,,Forensic Medicine,True,,8.658031183281581e-06,4.750592446017138e-06,5
+llm,True about finger printing is -,service -1,general,general,phi4:14b,67.06625199876726,,,,,,,,,,,,Forensic Medicine,False,,8.362721454183977e-06,4.588558360139135e-06,5
+llm,Time interval between somatic and molecular death is -,service -1,general,general,phi4:14b,67.10153096355498,,,,,,,,,,,,Forensic Medicine,False,,8.489742833835926e-06,4.658253974983075e-06,5
+llm,Which section belongs to marital rape ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,78.69248208589852,,,,,,,,,,,,Forensic Medicine,True,,8.759127898952065e-06,4.806063405131834e-06,5
+llm,Which of the following is true about cocaine metabolite test,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,78.63168697804213,,,,,,,,,,,,Forensic Medicine,True,,8.555459026429323e-06,4.694311924129558e-06,5
+llm,How many days a person can live without food and water ?,service -1,general,general,phi4:14b,69.49595198966563,,,,,,,,,,,,Forensic Medicine,False,,8.170806491001638e-06,4.483256155160672e-06,5
+llm,A bullet packed with jacket and opens at a base is called,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,80.95010207034647,,,,,,,,,,,,Forensic Medicine,True,,8.752290948279358e-06,4.802312024993285e-06,5
+llm,Enzyme responsible for postmoem hemolysis is,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,81.00767200812697,,,,,,,,,,,,Forensic Medicine,True,,8.482553086020645e-06,4.65430901787486e-06,5
+llm,Sexual gratification by inflicting pain on paner -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,80.21047594957054,,,,,,,,,,,,Forensic Medicine,True,,8.122017361793265e-06,4.456485950277047e-06,5
+llm,Absorption elution technique is used for -,service Microbiology,Microbiology,Microbiology,phi4:14b,67.53058498725295,,,,,,,,,,,,Forensic Medicine,False,,8.249601345613057e-06,4.526490261527098e-06,5
+llm,Oochronosis is seen in which poisoning ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,77.8498980216682,,,,,,,,,,,,Forensic Medicine,True,,7.667549960611603e-06,4.207123322987885e-06,5
+llm,"In medicolegal autopsy, cavity to be opened first is ?",service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,80.75082395225763,,,,,,,,,,,,Forensic Medicine,True,,8.729135152428058e-06,4.7896066250560664e-06,5
+llm,Victim was choked with mouth & nose covered with elbow around neck. It is called as ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,84.24742403440177,,,,,,,,,,,,Forensic Medicine,True,,8.49660463380557e-06,4.6620189897320454e-06,5
+llm,Which snake bite causes hematologic abnormalities ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,79.05593002215028,,,,,,,,,,,,Forensic Medicine,True,,8.23295678755657e-06,4.517357525678006e-06,5
+llm,Bullet fixed from a gun is not released. It is ejected out with subsequent shot. Such a bullet is called as,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,83.29010009765625,,,,,,,,,,,,Forensic Medicine,True,,8.596933945798557e-06,4.717068880588085e-06,5
+llm,Base of sphenoid fuses with occipit at the age of -,service -1,general,general,phi4:14b,69.96456603519619,,,,,,,,,,,,Forensic Medicine,False,,8.806257934951267e-06,4.831923278844283e-06,5
+llm,Homicidal gunshot wound can be differentiated from suicidal gunshot wound by-,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,82.54322409629822,,,,,,,,,,,,Forensic Medicine,True,,8.503241754664881e-06,4.665660724850588e-06,5
+llm,Which of the following causes maximum damage?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,77.8904368635267,,,,,,,,,,,,Forensic Medicine,True,,8.790743850006603e-06,4.82341082454782e-06,5
+llm,Foamy liver is seen in:TN 08; UP 08; NIMS 11; NEET 13,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,84.6753348596394,,,,,,,,,,,,Forensic Medicine,True,,8.955957277061708e-06,4.914062110265567e-06,5
+llm,Highest content of cannabis is found in which pa of the plant?,service -1,general,general,phi4:14b,70.52890211343765,,,,,,,,,,,,Forensic Medicine,False,,1.7813414008748711e-06,9.77407775928842e-07,5
+llm,A couple was locked up in a room with fire around. All of the following are the probable immediate causes of death in such circumstance except:-,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,85.1807170547545,,,,,,,,,,,,Forensic Medicine,True,,8.38973646374115e-06,4.603381279763075e-06,5
+llm,Frotteruism is ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,78.48461414687335,,,,,,,,,,,,Forensic Medicine,True,,8.769277543216759e-06,4.81163243374271e-06,5
+llm,Gigantin is active principle of,service -1,general,general,phi4:14b,67.20420904457569,,,,,,,,,,,,Forensic Medicine,False,,7.948282948885051e-06,4.361159267789638e-06,5
+llm,Miscarriage is punishable under which IPC:AIIMS 13; NEET 14,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,81.63256896659732,,,,,,,,,,,,Forensic Medicine,True,,8.603192236910891e-06,4.720502754855104e-06,5
+llm,Toxin responsible for epidemic dropsy:AIIMS 07; UP 09; PGI 11,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,82.62953395023942,,,,,,,,,,,,Forensic Medicine,True,,8.866057740512627e-06,4.864734953757344e-06,5
+llm,Punishment of perjury comes under IPC section?,service -1,general,general,phi4:14b,68.12250707298517,,,,,,,,,,,,Forensic Medicine,False,,7.900400688299627e-06,4.3348866544645195e-06,5
+llm,Ophitoxemia is ?,service Microbiology,Microbiology,Microbiology,phi4:14b,70.8729438483715,,,,,,,,,,,,Forensic Medicine,False,,8.593065839862524e-06,4.714946481805863e-06,5
+llm,Patient presented with proximal tubule proteinuria. Which metal is likely to be associated with it?,service -1,general,general,phi4:14b,73.51691601797938,,,,,,,,,,,,Forensic Medicine,False,,7.925260566455988e-06,4.348527070729882e-06,5
+llm,Marshalls triad is seen in ?,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,77.98122405074537,,,,,,,,,,,,Forensic Medicine,True,,8.625257901486035e-06,4.732610008482171e-06,5
+llm,Test to know the species from blood stain is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,77.85446499474347,,,,,,,,,,,,Forensic Medicine,True,,8.356095192112926e-06,4.584922583150848e-06,5
+llm,Most common site for hydatid cyst,service Microbiology,Microbiology,Microbiology,phi4:14b,68.75944905914366,,,,,,,,,,,,Microbiology,True,,8.585520551637684e-06,4.710806442519209e-06,5
+llm,Diagnostic test for neurosyphilis,service Microbiology,Microbiology,Microbiology,phi4:14b,67.17677507549524,,,,,,,,,,,,Microbiology,True,,8.490912117506844e-06,4.65889555157907e-06,5
+llm,Thumb print appearance in culture film smear is seen -,service Microbiology,Microbiology,Microbiology,phi4:14b,67.55424407310784,,,,,,,,,,,,Microbiology,True,,8.591340632305416e-06,4.713999874220902e-06,5
+llm,Zika virus causes ?,service Microbiology,Microbiology,Microbiology,phi4:14b,67.78863491490483,,,,,,,,,,,,Microbiology,True,,8.239151686893786e-06,4.520756617385109e-06,5
+llm,Core antigen [HBO in HBV is encloded by which gene ?,service Microbiology,Microbiology,Microbiology,phi4:14b,71.33847381919622,,,,,,,,,,,,Microbiology,True,,8.225836205175141e-06,4.513450519089959e-06,5
+llm,Disc diffusion method is also known as,service Microbiology,Microbiology,Microbiology,phi4:14b,67.3874409403652,,,,,,,,,,,,Microbiology,True,,7.992826253784319e-06,4.38559982284144e-06,5
+llm,Cellulitis surrounding diabetic ulcer is mostly caused by ?,service Microbiology,Microbiology,Microbiology,phi4:14b,70.09738893248141,,,,,,,,,,,,Microbiology,True,,8.081059837624933e-06,4.4340128844261024e-06,5
+llm,Which Passive immunity is also provided through colostrum and breast milk?,service Microbiology,Microbiology,Microbiology,phi4:14b,69.65200998820364,,,,,,,,,,,,Microbiology,True,,8.02981215225658e-06,4.405893689445983e-06,5
+llm,Molecular mass of IgG,service -1,general,general,phi4:14b,68.72618198394775,,,,,,,,,,,,Microbiology,False,,8.10952420856291e-06,4.449631057044793e-06,5
+llm,Organism Causing LGV,service Microbiology,Microbiology,Microbiology,phi4:14b,67.309940000996,,,,,,,,,,,,Microbiology,True,,7.907973874159732e-06,4.339042000960449e-06,5
+llm,Not true about sporothrix Schenckii ?,service Microbiology,Microbiology,Microbiology,phi4:14b,69.86703583970666,,,,,,,,,,,,Microbiology,True,,8.035261756536897e-06,4.4088838437177395e-06,5
+llm,Similarity between chlamydia and virus is,service Microbiology,Microbiology,Microbiology,phi4:14b,67.75512313470244,,,,,,,,,,,,Microbiology,True,,7.931613579741136e-06,4.352012918295341e-06,5
+llm,HSV-2 causes latent infection in which nerve plexus/ ganglia ?,service Microbiology,Microbiology,Microbiology,phi4:14b,70.26455597952008,,,,,,,,,,,,Microbiology,True,,7.950094823212382e-06,4.362153428738027e-06,5
+llm,Candidias of penis is ?,service Microbiology,Microbiology,Microbiology,phi4:14b,68.52123606950045,,,,,,,,,,,,Microbiology,True,,8.031558699753485e-06,4.406852006085134e-06,5
+llm,Rhaditiform larvae is seen in ?,service Microbiology,Microbiology,Microbiology,phi4:14b,66.69491878710687,,,,,,,,,,,,Microbiology,True,,1.7803011228554374e-06,9.768369837017733e-07,5
+llm,Culture media containing potassium tellurite,service Microbiology,Microbiology,Microbiology,phi4:14b,67.59349000640213,,,,,,,,,,,,Microbiology,True,,1.7819722281552574e-06,9.777539058109766e-07,5
+llm,Which of the following microbial cell is most resistant to antiseptics & disinfectants?,service Microbiology,Microbiology,Microbiology,phi4:14b,70.43595192953944,,,,,,,,,,,,Microbiology,True,,1.7822947917706155e-06,9.779308938862139e-07,5
+llm,"All viruses are associated with specific inclusion body, except ?",service Microbiology,Microbiology,Microbiology,phi4:14b,69.74978907965124,,,,,,,,,,,,Microbiology,True,,8.35165386300343e-06,4.582485661399054e-06,5
+llm,Which fungus is most commonly associated with orbital cellulitis in patients with diabetic ketoacidosis.,service Microbiology,Microbiology,Microbiology,phi4:14b,68.91658785752952,,,,,,,,,,,,Microbiology,True,,7.859381721911167e-06,4.31237987575891e-06,5
+llm,Which of the following organism releases histamine and cause scombroid fish poisoning -,service Microbiology,Microbiology,Microbiology,phi4:14b,69.61911590769887,,,,,,,,,,,,Microbiology,True,,8.231287291535108e-06,4.5164414865669585e-06,5
+llm,Shingles Is caused by which of the following ?,service Microbiology,Microbiology,Microbiology,phi4:14b,66.41811993904412,,,,,,,,,,,,Microbiology,True,,8.347047152139743e-06,4.579957996001861e-06,5
+llm,E. coli is differentiated by E histolytica by presence of,service Microbiology,Microbiology,Microbiology,phi4:14b,70.69718814454973,,,,,,,,,,,,Microbiology,True,,6.956860063668416e-06,3.8171734620543255e-06,5
+llm,Example of transfer of drug resistance by conjugation -,service Microbiology,Microbiology,Microbiology,phi4:14b,66.30532303825021,,,,,,,,,,,,Microbiology,True,,6.6065114500721105e-06,3.6249399805629817e-06,5
+llm,All are true about congenital Toxoplasmosis EXCEPT,service Microbiology,Microbiology,Microbiology,phi4:14b,69.5541431196034,,,,,,,,,,,,Microbiology,True,,7.235474649225056e-06,3.970047056232613e-06,5
+llm,"In poorly controlled Type I diabetes, most common infection is:",service Microbiology,Microbiology,Microbiology,phi4:14b,73.0079640634358,,,,,,,,,,,,Microbiology,True,,7.211705732325141e-06,3.9570052416809665e-06,5
+llm,A 60 years old farmer has developed swelling on the sole of foot with discharging yellow granules. The diagnosis is -,service Microbiology,Microbiology,Microbiology,phi4:14b,74.86682711169124,,,,,,,,,,,,Microbiology,True,,8.420399137310094e-06,4.620205643448931e-06,5
+llm,Paial acid fast organism is,service Microbiology,Microbiology,Microbiology,phi4:14b,67.4128020182252,,,,,,,,,,,,Microbiology,True,,9.030091846203643e-06,4.9547391552771805e-06,5
+llm,Lipophilic fungus is ?,service Microbiology,Microbiology,Microbiology,phi4:14b,66.44240207970142,,,,,,,,,,,,Microbiology,True,,8.98696879365272e-06,4.931077881326941e-06,5
+llm,Fishy odour is found on growth of which organism,service Microbiology,Microbiology,Microbiology,phi4:14b,69.50251595117152,,,,,,,,,,,,Microbiology,True,,8.53173562165039e-06,4.681295081714575e-06,5
+llm,Which of these is true about antibodies:,service Microbiology,Microbiology,Microbiology,phi4:14b,66.76687183789909,,,,,,,,,,,,Microbiology,True,,8.096108284789526e-06,4.442269846997729e-06,5
+llm,D.O.C for isospora,service Microbiology,Microbiology,Microbiology,phi4:14b,66.44934811629355,,,,,,,,,,,,Microbiology,True,,7.960618136393632e-06,4.367927486494095e-06,5
+llm,HTLV-1 can be transmitted by -,service Microbiology,Microbiology,Microbiology,phi4:14b,66.92257104441524,,,,,,,,,,,,Microbiology,True,,7.966652559796114e-06,4.371238526339606e-06,5
+llm,Precipitation in comparison to agglutination requires -,service Microbiology,Microbiology,Microbiology,phi4:14b,69.41656791605055,,,,,,,,,,,,Microbiology,True,,8.15088475049873e-06,4.4723252555206984e-06,5
+llm,Pulmonary eosinophilia is found in infection with ?,service Microbiology,Microbiology,Microbiology,phi4:14b,69.62722004391253,,,,,,,,,,,,Microbiology,True,,1.7586237044844681e-06,9.649427576609998e-07,5
+llm,A child is suffering from recurrent chronic infections with encapsulated bacteria is due to deficiency of subclass .,service Microbiology,Microbiology,Microbiology,phi4:14b,72.8979769628495,,,,,,,,,,,,Microbiology,True,,1.7848399743804243e-06,9.79327415222774e-07,5
+llm,Which test cannot differentiate endemic and epidemic typhus,service Microbiology,Microbiology,Microbiology,phi4:14b,66.98543904349208,,,,,,,,,,,,Microbiology,True,,1.7725719315504415e-06,9.72596038266286e-07,5
+llm,Ehrlichia phagocytophila mainly affects -,service Microbiology,Microbiology,Microbiology,phi4:14b,70.41945401579142,,,,,,,,,,,,Microbiology,True,,7.915643782887942e-06,4.343250418520307e-06,5
+llm,Rota-teq oral vaccine for rotavirus contains ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,103.89053891412914,,,,,,,,,,,,Microbiology,False,,1.6190242576709065e-05,8.88345657989965e-06,5
+llm,Lattice phenomenon is seen in -,service -1,general,general,phi4:14b,68.3165539521724,,,,,,,,,,,,Microbiology,False,,8.007694363866297e-06,4.393757835898524e-06,5
+llm,Brill-Zinsser disease is:,service Microbiology,Microbiology,Microbiology,phi4:14b,66.96455995552242,,,,,,,,,,,,Microbiology,True,,8.142782323319669e-06,4.467879518546937e-06,5
+llm,All culture media are used for antibiotic susceptibility except -,service Microbiology,Microbiology,Microbiology,phi4:14b,67.17310706153512,,,,,,,,,,,,Microbiology,True,,7.985947053358112e-06,4.3818252606012e-06,5
+llm,Maurer's dots are seen in which species of plasmodium?,service Microbiology,Microbiology,Microbiology,phi4:14b,69.90924593992531,,,,,,,,,,,,Microbiology,True,,8.260628859604966e-06,4.532540970234337e-06,5
+llm,What is similar between rotavirus and Norwalk virus ?,service Microbiology,Microbiology,Microbiology,phi4:14b,69.67518501915038,,,,,,,,,,,,Microbiology,True,,8.219474775444935e-06,4.5099600534884024e-06,5
+llm,Causative agent for melioidosis is ?,service Microbiology,Microbiology,Microbiology,phi4:14b,69.41404100507498,,,,,,,,,,,,Microbiology,True,,8.215299089243174e-06,4.50766888787505e-06,5
+llm,In nutrient agar concentration of agar is -,service Microbiology,Microbiology,Microbiology,phi4:14b,67.15667783282697,,,,,,,,,,,,Microbiology,True,,8.092722840291871e-06,4.44041228068548e-06,5
+llm,Cylindrical helminths are -,service Microbiology,Microbiology,Microbiology,phi4:14b,68.04980104789138,,,,,,,,,,,,Microbiology,True,,8.014018709746407e-06,4.397227953888139e-06,5
+llm,What type of culture media is used for Ligionella?,service Microbiology,Microbiology,Microbiology,phi4:14b,69.50456812046468,,,,,,,,,,,,Microbiology,True,,8.167401443597662e-06,4.48138783289045e-06,5
+llm,Species of shigella causing ahritis,service Microbiology,Microbiology,Microbiology,phi4:14b,66.88978406600654,,,,,,,,,,,,Microbiology,True,,8.146223800298497e-06,4.46976782943339e-06,5
+llm,Which of the following infection resembles erythroblastosis?,service Microbiology,Microbiology,Microbiology,phi4:14b,67.12981918826699,,,,,,,,,,,,Microbiology,True,,7.920302635910275e-06,4.345806693902866e-06,5
+llm,ELISA test for virulence antigen is used for which type of E coli,service Microbiology,Microbiology,Microbiology,phi4:14b,69.73097799345851,,,,,,,,,,,,Microbiology,True,,8.233091007036827e-06,4.517431170833084e-06,5
+llm,Fungus affecting reticulo-endothelial system,service Microbiology,Microbiology,Microbiology,phi4:14b,69.38021001406014,,,,,,,,,,,,Microbiology,True,,8.0841185394003e-06,4.435691169620676e-06,5
+llm,Gene responsible for mutation of HBV is ?,service Microbiology,Microbiology,Microbiology,phi4:14b,67.02324212528765,,,,,,,,,,,,Microbiology,True,,1.7739553256779922e-06,9.733550955569412e-07,5
+llm,Involutional form are seen in which phase of bacterial growth,service Microbiology,Microbiology,Microbiology,phi4:14b,69.9703621212393,,,,,,,,,,,,Microbiology,True,,1.780851551203954e-06,9.771389993331898e-07,5
+llm,Primory T-cell deficiency is -,service Microbiology,Microbiology,Microbiology,phi4:14b,67.73572997190058,,,,,,,,,,,,Microbiology,True,,1.7751879644195036e-06,9.74031434573309e-07,5
+llm,Steam Sterilisation cycle uses:,service Microbiology,Microbiology,Microbiology,phi4:14b,67.46479403227568,,,,,,,,,,,,Microbiology,True,,8.076657854125431e-06,4.431597551295824e-06,5
+llm,True regarding Malaria:,service Microbiology,Microbiology,Microbiology,phi4:14b,67.02983705326915,,,,,,,,,,,,Microbiology,True,,7.961404193361629e-06,4.368358789664031e-06,5
+llm,Complement factor through which common pathway begins:,service Microbiology,Microbiology,Microbiology,phi4:14b,67.5963289104402,,,,,,,,,,,,Microbiology,True,,8.216659357034592e-06,4.508415255929975e-06,5
+llm,Which of the following is not used on skin due to its  irritation potential?,service Microbiology,Microbiology,Microbiology,phi4:14b,70.92287507839501,,,,,,,,,,,,Microbiology,True,,8.192875113952622e-06,4.495365032024874e-06,5
+llm,Most common route of infection in pasteurella cellulitis -,service Microbiology,Microbiology,Microbiology,phi4:14b,70.05759095773101,,,,,,,,,,,,Microbiology,True,,8.276291112616638e-06,4.541134723163882e-06,5
+llm,Haptens are immunogenic when they covalently bind to -,service Microbiology,Microbiology,Microbiology,phi4:14b,69.26007685251534,,,,,,,,,,,,Microbiology,True,,8.235384605909503e-06,4.518689650185714e-06,5
+llm,Most common malignant tumour of eyelid is ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.60760088078678,,,,,,,,,,,,Ophthalmology,True,,8.52380306576566e-06,4.67694255176104e-06,5
+llm,Ankyloblepheron is defined as,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,79.04883497394621,,,,,,,,,,,,Ophthalmology,True,,8.347238353534087e-06,4.580062906677277e-06,5
+llm,1mm change axial length of the eyeball would change the refracting power of the eye by ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,82.95030007138848,,,,,,,,,,,,Ophthalmology,True,,8.556278461843269e-06,4.694761541785761e-06,5
+llm,Blow out fracture of orbit leads to fracture in,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,78.57081014662981,,,,,,,,,,,,Ophthalmology,False,,8.83391758626042e-06,4.847099908240416e-06,5
+llm,Which of the following is not a pa of uveal,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.6372391525656,,,,,,,,,,,,Ophthalmology,True,,8.111239013988605e-06,4.450571957063444e-06,5
+llm,Most common type of congenital cataract is ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,81.95594209246337,,,,,,,,,,,,Ophthalmology,True,,8.661814835387617e-06,4.752668505658502e-06,5
+llm,Swinging light test is positive in ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.04763596504927,,,,,,,,,,,,Ophthalmology,True,,8.407303363353958e-06,4.613020097045438e-06,5
+llm,Metamorphopsia is seen in ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,77.66981096938252,,,,,,,,,,,,Ophthalmology,True,,8.80506462818233e-06,4.8312685209665925e-06,5
+llm,Pupillary reflex pathway- All of the following are a pa except ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,81.39001787640154,,,,,,,,,,,,Ophthalmology,True,,8.851750484935956e-06,4.85688467708053e-06,5
+llm,D Shaped pupil is seen in ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.04162590764463,,,,,,,,,,,,Ophthalmology,True,,1.812757490656262e-06,9.946455330631316e-07,5
+llm,Bilateral ptosis is seen in all except ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,77.79200398363173,,,,,,,,,,,,Ophthalmology,True,,1.7838917677536013e-06,9.788071418322152e-07,5
+llm,"""Bread-crumb"" appearance is seen in ?",service Microbiology,Microbiology,Microbiology,phi4:14b,73.12343502417207,,,,,,,,,,,,Ophthalmology,False,,6.745872164388295e-06,3.7014060896225923e-06,5
+llm,Ocular findings in diabetes are all except -,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.62898195162416,,,,,,,,,,,,Ophthalmology,True,,7.214120345015599e-06,3.958330120347269e-06,5
+llm,A 44 year old woman presents Sudden painless loss of vision with history of previous similar episode fundoscopy shows no glow. What could be the possible diagnosis?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,85.86729899980128,,,,,,,,,,,,Ophthalmology,True,,8.834588226128278e-06,4.847467882970746e-06,5
+llm,Refractory error measured by all except ?,service -1,general,general,phi4:14b,66.99886289425194,,,,,,,,,,,,Ophthalmology,False,,7.902600537305383e-06,4.3360936940151865e-06,5
+llm,Downward and outward moment of eye is effected in injury of?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.15415398404002,,,,,,,,,,,,Ophthalmology,True,,8.118318943488474e-06,4.4544566577405745e-06,5
+llm,"Coloboma, most common site ?",service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.42335407622159,,,,,,,,,,,,Ophthalmology,True,,8.62751141981707e-06,4.73384649596223e-06,5
+llm,Mioitcs are treatment of choice for ?,service Microbiology,Microbiology,Microbiology,phi4:14b,68.01346782594919,,,,,,,,,,,,Ophthalmology,False,,7.5511014883740835e-06,4.14322897785899e-06,5
+llm,Salt & pepper fundus ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,77.57547800429165,,,,,,,,,,,,Ophthalmology,True,,8.769520566840336e-06,4.811765778860752e-06,5
+llm,Sudden painless loss of vision- All are causes except?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.23485098965466,,,,,,,,,,,,Ophthalmology,True,,8.21333699736011e-06,4.506592303755563e-06,5
+llm,Eales disease is ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.06826299242675,,,,,,,,,,,,Ophthalmology,True,,8.52216187437302e-06,4.676042043173529e-06,5
+llm,False about treatment of cataract in children is,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.23825906962156,,,,,,,,,,,,Ophthalmology,True,,8.402645528697355e-06,4.6104643804320555e-06,5
+llm,Blue dot cataract is caused by,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.66146299056709,,,,,,,,,,,,Ophthalmology,True,,8.808718033153891e-06,4.833273115047274e-06,5
+llm,Iritis in young patient with joint pain -,"The query ""Iritis in young patient with joint pain"" suggests a potential systemic or autoimmune issue, often related to ophthalmology and possibly rheumatology, due to the involvement of iritis (an inflammation of the iris) and joint pain. However, none of the provided specialist services directly cover rheumatology or systemic autoimmune conditions.
+
+Among the listed services, Ophthalmology is the most relevant since iritis is an eye condition. The query does not directly address the other specific ophthalmologic issues listed (like diabetic retinopathy or glaucoma), but iritis falls under the broader scope of ophthalmological concerns.
+
+Therefore, the best-matched specialist service for this query is:
+
+service Ophthalmology",UNMATCHED,UNMATCHED,phi4:14b,1688.3386049885303,,,,,,,,,,,,Ophthalmology,False,,0.000172780248077215,9.48031398779833e-05,5
+llm,Pseudogerontoxon is seen in,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.47972107306123,,,,,,,,,,,,Ophthalmology,True,,7.1611078534526175e-06,3.92924259032658e-06,5
+llm,In Retinitis pigmentosa decreased level of?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.55628710240126,,,,,,,,,,,,Ophthalmology,True,,8.647868336500008e-06,4.745016173290906e-06,5
+llm,Abnormally eccentric placed pupil is called ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,79.10133898258209,,,,,,,,,,,,Ophthalmology,True,,8.812642159340862e-06,4.8354262516930304e-06,5
+llm,MC orbital tumor ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.51569610647857,,,,,,,,,,,,Ophthalmology,True,,8.520782008827844e-06,4.675284921987796e-06,5
+llm,Most common carcinoma of conjunctiva ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,79.44541308097541,,,,,,,,,,,,Ophthalmology,True,,8.651513047806857e-06,4.7470159972272385e-06,5
+llm,Best drug for open angle glaucoma ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.56500498019159,,,,,,,,,,,,Ophthalmology,True,,8.503958398717358e-06,4.666053941709022e-06,5
+llm,Retinoblastomas show all of the following except,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.36849508062005,,,,,,,,,,,,Ophthalmology,True,,7.021399871162725e-06,3.852585938107973e-06,5
+llm,Investigation of choice for optic neuritis is ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.2944350503385,,,,,,,,,,,,Ophthalmology,True,,1.8308828020508362e-06,1.0045907464228954e-06,5
+llm,Subretinal haemorrhage at the macula in myopia is known as?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,81.11259690485895,,,,,,,,,,,,Ophthalmology,True,,8.554771525728531e-06,4.69393469799506e-06,5
+llm,Expulsive hemorrhage in cataract surgery is from?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,92.70922490395606,,,,,,,,,,,,Ophthalmology,True,,7.614533222704244e-06,4.178033463032014e-06,5
+llm,Corneal ulcer resembling fungal ulcer is seen in infection with which of the agents?,service Microbiology,Microbiology,Microbiology,phi4:14b,71.85546890832484,,,,,,,,,,,,Ophthalmology,False,,8.203963276990755e-06,4.501449018378648e-06,5
+llm,Which of the following is longest extraocular muscle?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.93823110498488,,,,,,,,,,,,Ophthalmology,True,,8.419409806179404e-06,4.619662805372196e-06,5
+llm,Pain is out of propoion to signs in which corneal ulcer?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.93629614450037,,,,,,,,,,,,Ophthalmology,True,,7.454471180989896e-06,4.090208701239663e-06,5
+llm,The most common type of strabismus seen in myopes is?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,81.28271484747529,,,,,,,,,,,,Ophthalmology,True,,8.690080887564441e-06,4.768177862359544e-06,5
+llm,Vitreous hemorrhage in diabetic retinopathy ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,81.70833601616323,,,,,,,,,,,,Ophthalmology,True,,8.827107712564442e-06,4.843363385022411e-06,5
+llm,Feature (s) of Infantile glaucoma is/are except:,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.30754001811147,,,,,,,,,,,,Ophthalmology,True,,8.648745272404976e-06,4.745497341006387e-06,5
+llm,All of the following drugs increase the risk of postoperative nausea and vomiting after squint surgery in children except ?,service -1,general,general,phi4:14b,72.79586000367999,,,,,,,,,,,,Ophthalmology,False,,7.1152875904039944e-06,3.904101378553984e-06,5
+llm,Anisocoria in Horner's syndrome is due to,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.83358989097178,,,,,,,,,,,,Ophthalmology,True,,8.44808962230121e-06,4.63539919103972e-06,5
+llm,A child has ptosis and poor levator function. What surgery will you do?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.211176071316,,,,,,,,,,,,Ophthalmology,True,,7.18070848395886e-06,3.9399972994803075e-06,5
+llm,Most common age related change in vitreous ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,79.12643207237124,,,,,,,,,,,,Ophthalmology,True,,7.150767648829524e-06,3.923569002771518e-06,5
+llm,Which of the following is true about signs of angle in closure glaucoma except,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.7468059938401,,,,,,,,,,,,Ophthalmology,True,,8.71147239519328e-06,4.779915211463367e-06,5
+llm,The globe is displaced to which side in lacrimal gland tumour?,service -1,general,general,phi4:14b,70.44063182547688,,,,,,,,,,,,Ophthalmology,False,,1.8033311201318385e-06,9.894733589673257e-07,5
+llm,Subhyaloid hemorrhage is ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,82.0909661706537,,,,,,,,,,,,Ophthalmology,True,,8.547953716521364e-06,4.690193820625576e-06,5
+llm,An extra row of cilia posterior to the grey line,service -1,general,general,phi4:14b,70.60633110813797,,,,,,,,,,,,Ophthalmology,False,,1.7658012838391197e-06,9.68881038032306e-07,5
+llm,Laser iridotomy is done in ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,79.82472889125347,,,,,,,,,,,,Ophthalmology,True,,1.8131654717832256e-06,9.948693890436504e-07,5
+llm,Which is the Most common ocular finding in myasthenia gravis?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.78063698485494,,,,,,,,,,,,Ophthalmology,True,,8.598891821962919e-06,4.71814315157644e-06,5
+llm,Pseudopapilitis with silk shot appearance is seen in?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,81.23939507640898,,,,,,,,,,,,Ophthalmology,True,,8.851127066674281e-06,4.856542612467676e-06,5
+llm,Dispersive prism functions for,service -1,general,general,phi4:14b,69.20912908390164,,,,,,,,,,,,Ophthalmology,False,,8.21661717043099e-06,4.508392108478138e-06,5
+llm,"Which eye muscle has radial, longitudinal and circular fibres?",service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.28869307599962,,,,,,,,,,,,Ophthalmology,True,,8.665038050546369e-06,4.754437058030435e-06,5
+llm,Unilateral frontal blisters with upper lid edema with conjunctivitis is seen in ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,82.66870793886483,,,,,,,,,,,,Ophthalmology,True,,8.499954632607259e-06,4.663857107274497e-06,5
+llm,Pilocarpine is used in all of the following except:September 2006,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,81.17327280342579,,,,,,,,,,,,Ophthalmology,True,,8.683631276102787e-06,4.7646390121474334e-06,5
+llm,Commonest complication of pars planitis ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.30281495302916,,,,,,,,,,,,Ophthalmology,True,,8.3590182768465e-06,4.586526456359409e-06,5
+llm,Which of the following is a long term side effect of phakic 10Ls,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.76567482203245,,,,,,,,,,,,Ophthalmology,True,,8.726341311046399e-06,4.788073666640641e-06,5
+llm,All of the following are treatments of myopia except?,service -1,general,general,phi4:14b,67.80390604399145,,,,,,,,,,,,Ophthalmology,False,,8.716817724127319e-06,4.782848150686886e-06,5
+llm,All are seen in 3' nerve palsy ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.31675792112947,,,,,,,,,,,,Ophthalmology,True,,8.85467796543117e-06,4.858490962208334e-06,5
+llm,Enucleation is indicated in ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.38497799821198,,,,,,,,,,,,Ophthalmology,True,,8.911670792210525e-06,4.889762470319629e-06,5
+llm,Best radiograph to view fracture of condyle:,service Radiology,Radiology,Radiology,phi4:14b,69.20812302269042,,,,,,,,,,,,Radiology,True,,8.751577875079804e-06,4.801920767433243e-06,5
+llm,Investigation of choice for lung abscess is,service Radiology,Radiology,Radiology,phi4:14b,67.58973211981356,,,,,,,,,,,,Radiology,True,,8.606159416997376e-06,4.722130822831165e-06,5
+llm,First line investigation for deep venous thrombosis is -,service -1,general,general,phi4:14b,69.82293887995183,,,,,,,,,,,,Radiology,False,,8.061564807603427e-06,4.42331611741364e-06,5
+llm,"""Tree in bud appearance"" on CT is seen in",service Radiology,Radiology,Radiology,phi4:14b,70.96115406602621,,,,,,,,,,,,Radiology,True,,8.326783134677673e-06,4.568839291732617e-06,5
+llm,Keyhole sign on ultrasound is seen in -,service -1,general,general,phi4:14b,68.29215493053198,,,,,,,,,,,,Radiology,False,,8.07476272103591e-06,4.430557706930696e-06,5
+llm,Which common tracer in PET is usually administered in the form of a glucose sugar,service -1,general,general,phi4:14b,73.18655285052955,,,,,,,,,,,,Radiology,False,,8.676244166921053e-06,4.760585764436226e-06,5
+llm,"Cancer patient undergoes radiotherapy, pick the true statement for radiosensitivity of tissues?",service Radiology,Radiology,Radiology,phi4:14b,71.20992499403656,,,,,,,,,,,,Radiology,True,,8.604468392705861e-06,4.721202971330564e-06,5
+llm,"""Droop lily sign"" is seen in -",service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,82.30867609381676,,,,,,,,,,,,Radiology,False,,7.706536756256098e-06,4.228515065863659e-06,5
+llm,The sign with patch of dullness beneath the angle of left scapula in a patient with pericardial effusion is named as -,service -1,general,general,phi4:14b,74.54176293686032,,,,,,,,,,,,Radiology,False,,7.63754060315665e-06,4.190657428627216e-06,5
+llm,Radiographic appearance of Hypophosphatasia:,service Radiology,Radiology,Radiology,phi4:14b,68.89169593341649,,,,,,,,,,,,Radiology,True,,8.433645146108809e-06,4.62747362250872e-06,5
+llm,Radiological features of coarctation of aoa is/ are -,service Radiology,Radiology,Radiology,phi4:14b,70.05334598943591,,,,,,,,,,,,Radiology,True,,8.627383009023135e-06,4.733776037986947e-06,5
+llm,Gamma knife utilizes -,service -1,general,general,phi4:14b,66.9300330337137,,,,,,,,,,,,Radiology,False,,8.264310583450682e-06,4.534561102654622e-06,5
+llm,Investigation with least radiation dose in the diagnosis Meckel's diveiculum is -,service Radiology,Radiology,Radiology,phi4:14b,69.39329393208027,,,,,,,,,,,,Radiology,True,,8.60675242882582e-06,4.722456203677238e-06,5
+llm,The primary diagnostic evaluation for developmental dyslasia of hip is -,service -1,general,general,phi4:14b,71.08268095180392,,,,,,,,,,,,Radiology,False,,8.137155671569894e-06,4.4647922197451305e-06,5
+llm,Following are suggestive of benign lesion on mammogram -,service -1,general,general,phi4:14b,67.24311783909798,,,,,,,,,,,,Radiology,False,,8.712678842135845e-06,4.780577179249292e-06,5
+llm,Solitary lytic lesions seen in,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,78.23415892198682,,,,,,,,,,,,Radiology,False,,8.91826270981561e-06,4.893379402774126e-06,5
+llm,What is the effect on radiograph if there are scratches on intensifying screen,service Radiology,Radiology,Radiology,phi4:14b,70.85354416631162,,,,,,,,,,,,Radiology,True,,8.870280971783398e-06,4.867052206969846e-06,5
+llm,Radiological signs of acute pancreatitis on plain radiography are -,service Radiology,Radiology,Radiology,phi4:14b,69.59516811184585,,,,,,,,,,,,Radiology,True,,8.846856545864689e-06,4.8541994118636404e-06,5
+llm,Investigation of choice for pancoast tumor is -,service Radiology,Radiology,Radiology,phi4:14b,71.81373005732894,,,,,,,,,,,,Radiology,True,,8.586078850969904e-06,4.711112776896453e-06,5
+llm,Digital. radiography differs from conventional in,service Radiology,Radiology,Radiology,phi4:14b,67.51214805990458,,,,,,,,,,,,Radiology,True,,8.362762004353319e-06,4.588580609692734e-06,5
+llm,Half life of Ra-226 -,service -1,general,general,phi4:14b,67.0524078886956,,,,,,,,,,,,Radiology,False,,8.347704236830221e-06,4.5803185331149375e-06,5
+llm,Snow storm appearance on chest X-ray is seen in -,service Radiology,Radiology,Radiology,phi4:14b,72.13682308793068,,,,,,,,,,,,Radiology,True,,8.296277123140058e-06,4.552100887250058e-06,5
+llm,Stenver's view is used for -,service -1,general,general,phi4:14b,67.7712569013238,,,,,,,,,,,,Radiology,False,,8.5182752953977e-06,4.673909508382413e-06,5
+llm,Most sensitive investigation for Diffuse axonal injury is -,service Forensic Medicine,Forensic Medicine,Forensic Medicine,phi4:14b,80.63167706131935,,,,,,,,,,,,Radiology,False,,9.136431708782304e-06,5.013086987155219e-06,5
+llm,Which of the following is a late severe adverse effect of radiation therapy,service Radiology,Radiology,Radiology,phi4:14b,69.71845403313637,,,,,,,,,,,,Radiology,True,,8.503098451063257e-06,4.665582095310806e-06,5
+llm,Depth of gastric carcinomas is assessed by -,service -1,general,general,phi4:14b,68.50505620241165,,,,,,,,,,,,Radiology,False,,8.565487271913232e-06,4.699814342200596e-06,5
+llm,Which of these structures hinders in imaging the roots of maxillary molars:,service Radiology,Radiology,Radiology,phi4:14b,70.91800007037818,,,,,,,,,,,,Radiology,True,,8.790250681241663e-06,4.82314022679192e-06,5
+llm,Which of the following is not particulate radiation?,service Radiology,Radiology,Radiology,phi4:14b,66.9171679764986,,,,,,,,,,,,Radiology,True,,1.76338259571477e-06,9.675539232080217e-07,5
+llm,Least penetrating power among following mentioned rays is in -,service Radiology,Radiology,Radiology,phi4:14b,67.05538788810372,,,,,,,,,,,,Radiology,True,,1.7711883975391265e-06,9.718369042225738e-07,5
+llm,Which of the following is not a fibrotic effect,service -1,general,general,phi4:14b,70.17262605950236,,,,,,,,,,,,Radiology,False,,1.7724659704420644e-06,9.725378982538418e-07,5
+llm,Non - ionizing radiation among the following is -,service Radiology,Radiology,Radiology,phi4:14b,66.81561609730124,,,,,,,,,,,,Radiology,True,,8.289286678959517e-06,4.548265286451712e-06,5
+llm,Precisely directed high dose radiation is used in,service Radiology,Radiology,Radiology,phi4:14b,66.7498221155256,,,,,,,,,,,,Radiology,True,,8.36038522545289e-06,4.587276490124106e-06,5
+llm,Which view is taken for aoic window -,service Radiology,Radiology,Radiology,phi4:14b,66.25534710474312,,,,,,,,,,,,Radiology,True,,6.560769819368047e-06,3.5998419137288004e-06,5
+llm,MRI sequence used to assess soft tissue pathology in:,service -1,general,general,phi4:14b,67.72503396496177,,,,,,,,,,,,Radiology,False,,6.9630250531058785e-06,3.820556142438824e-06,5
+llm,Colon is identified on X-ray,service Radiology,Radiology,Radiology,phi4:14b,66.8083829805255,,,,,,,,,,,,Radiology,True,,6.915180276483111e-06,3.7943040962641183e-06,5
+llm,Cotton wool skull is a radiological feature of -,service Radiology,Radiology,Radiology,phi4:14b,69.25812386907637,,,,,,,,,,,,Radiology,True,,8.647621337148047e-06,4.744880646722531e-06,5
+llm,What is the role of potassium bromide and benzotriazole in developer?,service Radiology,Radiology,Radiology,phi4:14b,101.16595192812383,,,,,,,,,,,,Radiology,True,,7.827686027874446e-06,4.294988702006506e-06,5
+llm,Frequency of ultrasound waves in USG -,service -1,general,general,phi4:14b,72.48883205465972,,,,,,,,,,,,Radiology,False,,5.785923404490363e-06,3.1746898846566653e-06,5
+llm,Which property of X-ray is utilized in intensifying screen?,service Radiology,Radiology,Radiology,phi4:14b,70.72128495201468,,,,,,,,,,,,Radiology,True,,7.1490513881338966e-06,3.922627304257971e-06,5
+llm,Amount of radiation exposure in 1 CT-scan of chest is,service Radiology,Radiology,Radiology,phi4:14b,70.1962870080024,,,,,,,,,,,,Radiology,True,,6.685312700518888e-06,3.668177596273048e-06,5
+llm,Which delivers highest dose of radiation -,service Radiology,Radiology,Radiology,phi4:14b,66.81400281377137,,,,,,,,,,,,Radiology,True,,8.46231425030708e-06,4.643204130629422e-06,5
+llm,Substance used for PET scan is,service Radiology,Radiology,Radiology,phi4:14b,68.28809482976794,,,,,,,,,,,,Radiology,True,,8.878526660158117e-06,4.871576550215381e-06,5
+llm,"About lipoma, radiologically true is -",service Radiology,Radiology,Radiology,phi4:14b,66.9574299827218,,,,,,,,,,,,Radiology,True,,8.547618604100912e-06,4.690009947121371e-06,5
+llm,Acute myocarditis schintigraphy is done with -,service -1,general,general,phi4:14b,69.28145792335272,,,,,,,,,,,,Radiology,False,,8.632544107561261e-06,4.7366078914660905e-06,5
+llm,Which new generation sialagogue has additional M3 action?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,81.10227296128869,,,,,,,,,,,,Radiology,False,,8.831731969764257e-06,4.845900677953943e-06,5
+llm,Following X-ray finding is associated with Chilaiditi syndrome -,service Radiology,Radiology,Radiology,phi4:14b,70.56614081375301,,,,,,,,,,,,Radiology,True,,8.441643402037902e-06,4.63186220155099e-06,5
+llm,What is the effect on radiograph if there are scratches on intensifying screen?,service Radiology,Radiology,Radiology,phi4:14b,70.34221501089633,,,,,,,,,,,,Radiology,True,,8.387563939502626e-06,4.6021892330936395e-06,5
+llm,Hyperanslucent chest X-ray is seen in all except,service Radiology,Radiology,Radiology,phi4:14b,69.6522300131619,,,,,,,,,,,,Radiology,True,,8.352848642311471e-06,4.583141227247189e-06,5
+llm,Investigation of choice for multiple sclerosis,service -1,general,general,phi4:14b,67.07436288706958,,,,,,,,,,,,Radiology,False,,7.792612079101334e-06,4.275743906906326e-06,5
+llm,Ring enhancing lesion on CT is a feature of,service -1,general,general,phi4:14b,67.02492712065578,,,,,,,,,,,,Radiology,False,,8.053438473941237e-06,4.418857263143675e-06,5
+llm,Treatment of unilocular ameloblastoma is,service -1,general,general,phi4:14b,70.21331507712603,,,,,,,,,,,,Radiology,False,,8.337903085485054e-06,4.5749407197809636e-06,5
+llm,Eye of tiger appearance is seen in -,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,80.18518006429076,,,,,,,,,,,,Radiology,False,,9.021380234882324e-06,4.9499591638379505e-06,5
+llm,MIBG dose is -,service -1,general,general,phi4:14b,68.23941483162344,,,,,,,,,,,,Radiology,False,,8.190374592188365e-06,4.493993015737075e-06,5
+llm,Dye used in diagnosis of esophageal perforation:,service -1,general,general,phi4:14b,70.7210258115083,,,,,,,,,,,,Radiology,False,,8.301644754137721e-06,4.5550460634374065e-06,5
+llm,What is not seen on chest X-ray in pulmonary aery hypeension,service Radiology,Radiology,Radiology,phi4:14b,70.8759690169245,,,,,,,,,,,,Radiology,True,,8.268057153684207e-06,4.536616815769331e-06,5
+llm,CT Scan finding in carotid cavernous sinus fistula is -,service -1,general,general,phi4:14b,70.89893310330808,,,,,,,,,,,,Radiology,False,,8.322152188302602e-06,4.566298328504163e-06,5
+llm,The most sensitive imaging modality for diagnosis of ureteric stone in patient with acute renal colic is -,service Radiology,Radiology,Radiology,phi4:14b,76.05406222864985,,,,,,,,,,,,Radiology,True,,8.428548404880963e-06,4.624677081370952e-06,5
+llm,Safe light in radiographic dark room is ideally should be of following color -,service Radiology,Radiology,Radiology,phi4:14b,71.09274296090007,,,,,,,,,,,,Radiology,True,,1.7891443238877806e-06,9.816891773626896e-07,5
+llm,Most sensitive test to detect early renal TB is -,service Microbiology,Microbiology,Microbiology,phi4:14b,68.35597404278815,,,,,,,,,,,,Radiology,False,,1.7814620157045186e-06,9.774739563209005e-07,5
+llm,Following are the causes of cavity in lungs except -,service Radiology,Radiology,Radiology,phi4:14b,68.28841497190297,,,,,,,,,,,,Radiology,True,,1.7742892328025985e-06,9.735383077248173e-07,5
+llm,The best method for routine monitoring of air pollution,service -1,general,general,phi4:14b,67.6619908772409,,,,,,,,,,,,Social & Preventive Medicine,False,,8.648357357350731e-06,4.745284495119529e-06,5
+llm,Major reservoir of KFD ?,service Microbiology,Microbiology,Microbiology,phi4:14b,67.32522882521152,,,,,,,,,,,,Social & Preventive Medicine,False,,8.398221961428576e-06,4.608037204460128e-06,5
+llm,Which of the following larvicide is used under urban Malaria Scheme ?,service Microbiology,Microbiology,Microbiology,phi4:14b,69.90992301143706,,,,,,,,,,,,Social & Preventive Medicine,False,,8.444878408760039e-06,4.63363722385938e-06,5
+llm,Which is best to represent the data of following table -Year1991199219931994Number of LBW bodies751255025,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,108.24195388704538,,,,,,,,,,,,Social & Preventive Medicine,True,,8.398682850695866e-06,4.6082900907139495e-06,5
+llm,"According female sterlization 2014 guidelines, eligibility criteria for female sterilization are all except?",service -1,general,general,phi4:14b,73.28874291852117,,,,,,,,,,,,Social & Preventive Medicine,False,,1.7864255220023315e-06,9.801973925185978e-07,5
+llm,Biological value of protein is,service -1,general,general,phi4:14b,66.89665396697819,,,,,,,,,,,,Social & Preventive Medicine,False,,1.7692902129821074e-06,9.707953855415952e-07,5
+llm,DALE is replaced by ?,service -1,general,general,phi4:14b,102.81507717445493,,,,,,,,,,,,Social & Preventive Medicine,False,,1.4490137290355549e-05,7.950622410119812e-06,5
+llm,Risk of genetic diseases in consanguineous marriage between first cousins?,service -1,general,general,phi4:14b,74.30756115354598,,,,,,,,,,,,Social & Preventive Medicine,False,,8.558216601048385e-06,4.6958249832623495e-06,5
+llm,Antiboiotic of choice for severe pneumonia in 1 year all child?,service Microbiology,Microbiology,Microbiology,phi4:14b,69.71933809109032,,,,,,,,,,,,Social & Preventive Medicine,False,,8.611106646376574e-06,4.724845328013755e-06,5
+llm,Color of box containing drugs for treatment of category I of TB -,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,103.08122308924794,,,,,,,,,,,,Social & Preventive Medicine,True,,9.106744725334397e-06,4.996797976833216e-06,5
+llm,Safety officer is recommended where factory has how many workers ?,service -1,general,general,phi4:14b,71.14280294626951,,,,,,,,,,,,Social & Preventive Medicine,False,,8.346894803185761e-06,4.579874403349638e-06,5
+llm,"It waste contain toxic substances, organic load is measured by ?",service -1,general,general,phi4:14b,69.59840701892972,,,,,,,,,,,,Social & Preventive Medicine,False,,8.144172960095324e-06,4.468642549820519e-06,5
+llm,Sensitivity of a screening test tells about,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,100.95247183926404,,,,,,,,,,,,Social & Preventive Medicine,True,,9.99356862899526e-06,5.483391158180636e-06,5
+llm,Women traveling from Bihar to Delhi is suspecting to have Kala-azar. Suitable investigation is ?,service Microbiology,Microbiology,Microbiology,phi4:14b,72.25948409177363,,,,,,,,,,,,Social & Preventive Medicine,False,,8.28359392013138e-06,4.545141715224738e-06,5
+llm,Not a personal protective equipment,service -1,general,general,phi4:14b,67.93080503121018,,,,,,,,,,,,Social & Preventive Medicine,False,,6.783838382160793e-06,3.722237849584486e-06,5
+llm,Colored kit for STD treatment is which type of approach?,service Microbiology,Microbiology,Microbiology,phi4:14b,69.37006395310163,,,,,,,,,,,,Social & Preventive Medicine,False,,6.901916413965675e-06,3.787026321011664e-06,5
+llm,Absolute contraindication for inseion of IUD,service -1,general,general,phi4:14b,69.61823883466423,,,,,,,,,,,,Social & Preventive Medicine,False,,7.0205553384830414e-06,3.852122549782974e-06,5
+llm,Smoking is preventive for ?,service -1,general,general,phi4:14b,66.49453286081553,,,,,,,,,,,,Social & Preventive Medicine,False,,8.891150684940674e-06,4.878503251621409e-06,5
+llm,For post exposure prophylaxis for HIV the regimen is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,104.69878208823502,,,,,,,,,,,,Social & Preventive Medicine,True,,1.0198849490254073e-05,5.59602712450649e-06,5
+llm,Virus not sensitive to disinfection by chlorination,service Microbiology,Microbiology,Microbiology,phi4:14b,67.63490894809365,,,,,,,,,,,,Social & Preventive Medicine,False,,6.657158421532593e-06,3.652729568627555e-06,5
+llm,Nicotine responsible for oral cancer is ?,service Radiology,Radiology,Radiology,phi4:14b,67.42597697302699,,,,,,,,,,,,Social & Preventive Medicine,False,,6.8077218546422e-06,3.73534251986744e-06,5
+llm,Vital statistics in a population are ?,service -1,general,general,phi4:14b,66.92416802980006,,,,,,,,,,,,Social & Preventive Medicine,False,,6.859178986247383e-06,3.7635766363219685e-06,5
+llm,Denominator in under -5 propoional moality rate?,service -1,general,general,phi4:14b,72.5958519615233,,,,,,,,,,,,Social & Preventive Medicine,False,,8.264305262060435e-06,4.534558182850467e-06,5
+llm,Diagnosis of filariasis is confirmed most commonly?,service Microbiology,Microbiology,Microbiology,phi4:14b,67.07392306998372,,,,,,,,,,,,Social & Preventive Medicine,False,,8.311657739648766e-06,4.560540108483353e-06,5
+llm,A screening test has sensitivity of 90% and specificity of 99%. The prevalence of disease under investigation is 5 per 1000 population. What is the PPV of the given screening test?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,114.32190798223019,,,,,,,,,,,,Social & Preventive Medicine,True,,1.0030431154333871e-05,5.503617330933786e-06,5
+llm,Maximum spread of malaria occurs in which month?,Service Microbiology,Microbiology,Microbiology,phi4:14b,68.6895209364593,,,,,,,,,,,,Social & Preventive Medicine,False,,8.599895879749919e-06,4.718694070051776e-06,5
+llm,How many doses of monovalent meningococcal 'C' vaccine is given in Infants ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,107.95750096440315,,,,,,,,,,,,Social & Preventive Medicine,True,,8.009734581934571e-06,4.394877287230937e-06,5
+llm,CAD primodial prevention is by?,service -1,general,general,phi4:14b,67.4280570819974,,,,,,,,,,,,Social & Preventive Medicine,False,,1.7764247802415714e-06,9.74710065520211e-07,5
+llm,Daylight factor in the kitchen should be ?,service -1,general,general,phi4:14b,67.44881393387914,,,,,,,,,,,,Social & Preventive Medicine,False,,8.238440377422284e-06,4.520366327568585e-06,5
+llm,"In water testing from a well by Horrock's apparatus, there is blue colour from 4th cup onwards. What is the amount of bleaching powder required to disinfect the water ?",service -1,general,general,phi4:14b,79.59399605169892,,,,,,,,,,,,Social & Preventive Medicine,False,,8.32063630475154e-06,4.565466575326763e-06,5
+llm,Drug of choice for Mass therapy under filaria control Programme ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,104.55442196689546,,,,,,,,,,,,Social & Preventive Medicine,True,,8.687723045593728e-06,4.766884133332967e-06,5
+llm,Amount of diphtheria toxoid in DT is ?,service Microbiology,Microbiology,Microbiology,phi4:14b,69.74089308641851,,,,,,,,,,,,Social & Preventive Medicine,False,,1.7881891559712315e-06,9.811650843682095e-07,5
+llm,Extended sickness benefit for tuberculosis under the ESI Act is:,service -1,general,general,phi4:14b,69.53777698799968,,,,,,,,,,,,Social & Preventive Medicine,False,,1.7836283042142048e-06,9.78662581495966e-07,5
+llm,Regarding PPV vaccine following is true ?,service Microbiology,Microbiology,Microbiology,phi4:14b,66.95584394037724,,,,,,,,,,,,Social & Preventive Medicine,False,,1.773994261113597e-06,9.733764591189024e-07,5
+llm,Most common cause of pollution of drinking water,service -1,general,general,phi4:14b,69.54342196695507,,,,,,,,,,,,Social & Preventive Medicine,False,,8.27323562331084e-06,4.539458200625681e-06,5
+llm,Gross reproduction rate is ?,service -1,general,general,phi4:14b,66.40455801971257,,,,,,,,,,,,Social & Preventive Medicine,False,,8.119301313035295e-06,4.4549956760518965e-06,5
+llm,BEINGS Model of disease causation does not include,service -1,general,general,phi4:14b,66.5674249175936,,,,,,,,,,,,Social & Preventive Medicine,False,,8.084699791754708e-06,4.43601009813741e-06,5
+llm,True about combined prospective-retrospective study true is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,103.03252702578902,,,,,,,,,,,,Social & Preventive Medicine,True,,8.553879038404686e-06,4.69344499734025e-06,5
+llm,Relationship between positive predictive value and prevalence ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,104.53642881475389,,,,,,,,,,,,Social & Preventive Medicine,True,,9.225763251607174e-06,5.062102490050856e-06,5
+llm,Preobesity is defined as a BMI of:,service -1,general,general,phi4:14b,83.95455684512854,,,,,,,,,,,,Social & Preventive Medicine,False,,6.4125029290494455e-06,3.5184890571460063e-06,5
+llm,A researcher wanted to prove the relation between COPD and smoking. He collected patients records from government hospitals and records of cigarette sales from the finance and taxation depament. This is an example of which study design:,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,113.33606205880642,,,,,,,,,,,,Social & Preventive Medicine,True,,8.705194017798266e-06,4.776470316013737e-06,5
+llm,Chickenpox rash does not involve ?,service Microbiology,Microbiology,Microbiology,phi4:14b,66.83455384336412,,,,,,,,,,,,Social & Preventive Medicine,False,,1.7639355678073648e-06,9.678573345713298e-07,5
+llm,Rideal-walker coefficient for disinfectant used for cholera stool should be ?,service Microbiology,Microbiology,Microbiology,phi4:14b,69.40300087444484,,,,,,,,,,,,Social & Preventive Medicine,False,,8.088673153865827e-06,4.438190250141e-06,5
+llm,Which of the following is water-related disease,service Microbiology,Microbiology,Microbiology,phi4:14b,66.719776019454,,,,,,,,,,,,Social & Preventive Medicine,False,,8.409390994985541e-06,4.61416556382069e-06,5
+llm,Most effective blinding technique ?,service Ophthalmology,Ophthalmology,Ophthalmology,phi4:14b,78.73430894687772,,,,,,,,,,,,Social & Preventive Medicine,False,,8.307155300469032e-06,4.558069656125045e-06,5
+llm,Infectivity of convalescent carrier of cholera lasts for?,service Microbiology,Microbiology,Microbiology,phi4:14b,69.3971780128777,,,,,,,,,,,,Social & Preventive Medicine,False,,8.594771274395268e-06,4.715882240090416e-06,5
+llm,Influenza pandemic is,service -1,general,general,phi4:14b,67.37156002782285,,,,,,,,,,,,Social & Preventive Medicine,False,,8.41765891979214e-06,4.618702108018496e-06,5
+llm,Best study technique to study the occurence of rare adverse effects of drug ?,service -1,general,general,phi4:14b,69.78022097609937,,,,,,,,,,,,Social & Preventive Medicine,False,,8.616911873453835e-06,4.7280306096691635e-06,5
+llm,Median incubation period is ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,102.15138294734061,,,,,,,,,,,,Social & Preventive Medicine,True,,8.944032976768764e-06,4.907519342089257e-06,5
+llm,Which does not have Live bihs as denominator?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,101.19099309667945,,,,,,,,,,,,Social & Preventive Medicine,True,,8.825425399104896e-06,4.842440313085599e-06,5
+llm,The difference between descriptive and analytic studies?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,100.99895903840661,,,,,,,,,,,,Social & Preventive Medicine,True,,9.18355100650893e-06,5.0389409688633355e-06,5
+llm,Pulses are deficient in ?,service -1,general,general,phi4:14b,68.0521558970213,,,,,,,,,,,,Social & Preventive Medicine,False,,6.630657652954321e-06,3.6381888089147187e-06,5
+llm,Capsular polysaccharide derived vaccine is available for all meningocci except ?,service Microbiology,Microbiology,Microbiology,phi4:14b,70.66100207157433,,,,,,,,,,,,Social & Preventive Medicine,False,,6.978365866566142e-06,3.828973524058017e-06,5
+llm,"Most widely used vaccine, beside OPV ?",service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,101.12418909557164,,,,,,,,,,,,Social & Preventive Medicine,True,,1.0914015958752438e-05,5.9884332444398464e-06,5
+llm,Out of 100 women who were offered ocp for contraception 10 women got pregnant when followed for 24 months. What is Pearl's index?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,108.27970807440579,,,,,,,,,,,,Social & Preventive Medicine,True,,8.401225090627889e-06,4.609684997426873e-06,5
+llm,Behavioral surveillance survey is done in ?,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,101.10071511007845,,,,,,,,,,,,Social & Preventive Medicine,True,,1.6543980404221288e-05,9.077549695952949e-06,5
+llm,Which category waste is disposed in red bags ?,service -1,general,general,phi4:14b,69.36192302964628,,,,,,,,,,,,Social & Preventive Medicine,False,,1.7612638184834155e-06,9.663913670913266e-07,5
+llm,Limiting amino acid in cereals ?,service -1,general,general,phi4:14b,69.01954091154039,,,,,,,,,,,,Social & Preventive Medicine,False,,1.7659787061624806e-06,9.68978388241797e-07,5
+llm,Mid year population is estimated on ?,service -1,general,general,phi4:14b,67.30087986215949,,,,,,,,,,,,Social & Preventive Medicine,False,,8.009973135822586e-06,4.395008179840839e-06,5
+llm,Last point where reproductive and child health programme are include :,service Social & Preventive Medicine,Social & Preventive Medicine,Social & Preventive Medicine,phi4:14b,103.35573507472873,,,,,,,,,,,,Social & Preventive Medicine,True,,1.631745352011476e-05,8.95325620685881e-06,5
+llm,Do you know the closest ATM?,service -1,general,general,phi4:14b,68.49260907620192,,,,,,,,,,,,general,True,,1.7874652886561843e-06,9.807679041632517e-07,5
+llm,What are the rules for transferring to a beneficiary?,service -1,general,general,phi4:14b,74.72135685384274,,,,,,,,,,,,general,True,,1.8006408836600957e-06,9.879972477373333e-07,5
+llm,I want to know where the funds come from.,service -1,general,general,phi4:14b,91.78954712115228,,,,,,,,,,,,general,True,,7.626704676323964e-06,4.184711842261527e-06,5
+llm,what are some of your hobbies,service -1,general,general,phi4:14b,67.41282483562827,,,,,,,,,,,,general,True,,7.013217452285069e-06,3.848096310329159e-06,5
+llm,Do you accept other currencies besides US Dollars?,service -1,general,general,phi4:14b,69.22270287759602,,,,,,,,,,,,general,True,,7.049533534895808e-06,3.868022654329121e-06,5
+llm,There's a refund missing from my statement,service -1,general,general,phi4:14b,67.67526688054204,,,,,,,,,,,,general,True,,1.7593687292559446e-06,9.65351546792885e-07,5
+llm,How do I use the app if I don't have my phone with me?,service -1,general,general,phi4:14b,70.29219903051853,,,,,,,,,,,,general,True,,1.7927506427289908e-06,9.836679356603137e-07,5
+llm,i need to update my address,service -1,general,general,phi4:14b,67.28359102271497,,,,,,,,,,,,general,True,,1.7760271854880098e-06,9.74491908459869e-07,5
+llm,find my current location,service -1,general,general,phi4:14b,67.36154202371836,,,,,,,,,,,,general,True,,1.7741876547614811e-06,9.734825726663218e-07,5
+llm,"I sent out money, but was charged extra for transferring. Why?",service -1,general,general,phi4:14b,70.22497709840536,,,,,,,,,,,,general,True,,8.199960044988786e-06,4.499252477005054e-06,5
+llm,The app reverted what I topped up.,service -1,general,general,phi4:14b,66.82244106195867,,,,,,,,,,,,general,True,,8.176107183720163e-06,4.48616460284974e-06,5
+llm,do i have a meeting with paul today,service -1,general,general,phi4:14b,67.97551200725138,,,,,,,,,,,,general,True,,8.023228024693976e-06,4.402281031325303e-06,5
+llm,I would like to make a transfer. How much does it cost?,service -1,general,general,phi4:14b,71.82496786117554,,,,,,,,,,,,general,True,,8.318107848344185e-06,4.564079231523773e-06,5
+llm,i would like to change the name on my first bankcard account,service -1,general,general,phi4:14b,70.21576608531177,,,,,,,,,,,,general,True,,8.226591863072941e-06,4.513865142533177e-06,5
+llm,I wasn't applied the correct exchange rate for an item I bought,service -1,general,general,phi4:14b,70.38328400813043,,,,,,,,,,,,general,True,,8.566235711287944e-06,4.70022500489802e-06,5
+llm,How many days does it take until funds are in my account?,service -1,general,general,phi4:14b,72.03466701321304,,,,,,,,,,,,general,True,,8.005852536480812e-06,4.392747239946766e-06,5
+llm,what is the top up limit,service -1,general,general,phi4:14b,132.14272703044116,,,,,,,,,,,,general,True,,1.4525083515044748e-05,7.969797124036948e-06,5
+llm,I purchased an item and the exchange rate I was given was incorrect.,service -1,general,general,phi4:14b,70.21383382380009,,,,,,,,,,,,general,True,,7.396471207810843e-06,4.058384579956132e-06,5
+llm,tell me my car's tire pressure,service -1,general,general,phi4:14b,67.80749303288758,,,,,,,,,,,,general,True,,6.9963450677864095e-06,3.838838567933774e-06,5
+llm,"There is an incoming payment into my account, but it is deactivated. Will they still be processed?",service -1,general,general,phi4:14b,72.22402491606772,,,,,,,,,,,,general,True,,6.910273334121125e-06,3.79161169624569e-06,5
+llm,do they serve good tacos at the buffet,service -1,general,general,phi4:14b,70.45640517026186,,,,,,,,,,,,general,True,,6.872432309826607e-06,3.7708486289433213e-06,5
+llm,how can i get a visa card,service -1,general,general,phi4:14b,68.66050092503428,,,,,,,,,,,,general,True,,6.949472961350223e-06,3.8131202181092023e-06,5
+llm,How do I do an international transfer?,service -1,general,general,phi4:14b,69.59060789085925,,,,,,,,,,,,general,True,,2.1346126385544603e-07,1.1712448778726514e-07,5
+llm,How long will it take for the card to arrive?,service -1,general,general,phi4:14b,68.71327199041843,,,,,,,,,,,,general,True,,2.1208233342293395e-07,1.1636787969056088e-07,5
+llm,how many ppm of particulate is in my local water,service -1,general,general,phi4:14b,72.36415287479758,,,,,,,,,,,,general,True,,1.779679365526872e-06,9.764958304296373e-07,5
+llm,can you help me understand why my card got declined,service -1,general,general,phi4:14b,67.41070910356939,,,,,,,,,,,,general,True,,1.7565095580505952e-06,9.637827424258723e-07,5
+llm,How do I unblock my PIN?,service -1,general,general,phi4:14b,68.04150203242898,,,,,,,,,,,,general,True,,8.352471736249121e-06,4.582934421906108e-06,5
+llm,Why is my transfer not done yet?,service -1,general,general,phi4:14b,66.91717216745019,,,,,,,,,,,,general,True,,8.156620082738677e-06,4.4754721864380485e-06,5
+llm,Will it automatically top-up money if there isn't a lot left?,service -1,general,general,phi4:14b,70.39872487075627,,,,,,,,,,,,general,True,,8.357841943306375e-06,4.585881011556769e-06,5
+llm,What is the process for using my credit card to transfer money?,service -1,general,general,phi4:14b,69.26797609776258,,,,,,,,,,,,general,True,,8.378426570198726e-06,4.597175631655551e-06,5
+llm,is the movie avatar culturally insensitive,service -1,general,general,phi4:14b,67.86900386214256,,,,,,,,,,,,general,True,,8.55542524891631e-06,4.694293390678471e-06,5
+llm,How can I fix a problem where my virtual card is rejected?,service -1,general,general,phi4:14b,70.76453394256532,,,,,,,,,,,,general,True,,8.502463927746121e-06,4.665233937442819e-06,5
+llm,don't call me bill anymore - call me bob,service -1,general,general,phi4:14b,68.81376495584846,,,,,,,,,,,,general,True,,8.330295889388915e-06,4.570766712140573e-06,5
+llm,what's the minimum payment,service -1,general,general,phi4:14b,68.03015503101051,,,,,,,,,,,,general,True,,8.823333449273218e-06,4.841292476948696e-06,5
+llm,Why was I charged multiple times for the same thing?,service -1,general,general,phi4:14b,69.2749919835478,,,,,,,,,,,,general,True,,8.184645411401896e-06,4.490849460073035e-06,5
+llm,i want to hear cool bee facts,service -1,general,general,phi4:14b,68.02039686590433,,,,,,,,,,,,general,True,,8.673917002768698e-06,4.75930886808325e-06,5
+llm,i would like help moving money from one account to another,service -1,general,general,phi4:14b,68.25544987805188,,,,,,,,,,,,general,True,,9.015929167609845e-06,4.946968206834181e-06,5
+llm,what time do i need to arrive to make it on time,service -1,general,general,phi4:14b,69.82289906591177,,,,,,,,,,,,general,True,,2.0963372533320743e-07,1.1502434802052909e-07,5
+llm,tell me what this song is called,service -1,general,general,phi4:14b,66.96859397925436,,,,,,,,,,,,general,True,,2.161916914499712e-07,1.1862265156497957e-07,5
+llm,what are people saying about chick-fil-a's chicken nuggets,service -1,general,general,phi4:14b,68.81291209720075,,,,,,,,,,,,general,True,,2.060121171072217e-07,1.130372005598429e-07,5
+llm,are you computer or human,service -1,general,general,phi4:14b,67.23450915887952,,,,,,,,,,,,general,True,,8.54102353486496e-06,4.686391285392165e-06,5
+llm,is laundry on my todo list,service -1,general,general,phi4:14b,67.08128890022635,,,,,,,,,,,,general,True,,8.279634265755727e-06,4.542969084546074e-06,5
+llm,I am still waiting for my card after 1 week.  Is this ok?,service -1,general,general,phi4:14b,69.04454901814461,,,,,,,,,,,,general,True,,8.03428185151226e-06,4.408346177669879e-06,5
+llm,what transactions did i make on electronics this morning after 6am,service -1,general,general,phi4:14b,69.41251293756068,,,,,,,,,,,,general,True,,8.434085783267948e-06,4.627715396592763e-06,5
+llm,why does us bank have a hold on my account,service -1,general,general,phi4:14b,67.92451301589608,,,,,,,,,,,,general,True,,8.489432373806442e-06,4.658083628048546e-06,5
+llm,how old are you turning,service -1,general,general,phi4:14b,66.78553111851215,,,,,,,,,,,,general,True,,8.427862230550066e-06,4.624300583005048e-06,5
+llm,I am seeing in the App a some cash withdrawal that its not mine,service -1,general,general,phi4:14b,68.77680588513613,,,,,,,,,,,,general,True,,8.836311836870909e-06,4.848413614396427e-06,5
+llm,Why hasn't my transfer been made?,service -1,general,general,phi4:14b,67.72959604859352,,,,,,,,,,,,general,True,,8.640869462475404e-06,4.741175947104489e-06,5
+llm,diy oil change and oil type,service -1,general,general,phi4:14b,66.77719298750162,,,,,,,,,,,,general,True,,8.581406658758443e-06,4.708549182407418e-06,5
+llm,How can I speed up a transfer?  Mine is pending.,service -1,general,general,phi4:14b,69.2621641792357,,,,,,,,,,,,general,True,,8.545997172518163e-06,4.689120280583232e-06,5
+llm,"If I feel someone has my card information, can I get a new card?",service -1,general,general,phi4:14b,69.26073995418847,,,,,,,,,,,,general,True,,1.7783614183340853e-06,9.757726833485754e-07,5
+llm,please verify my reservation for john at bardenay,service -1,general,general,phi4:14b,107.87487402558327,,,,,,,,,,,,general,True,,6.577161642101845e-06,3.6088359757280915e-06,5
+llm,Why did I only get $20 when I tried to get $100,service -1,general,general,phi4:14b,70.0726171489805,,,,,,,,,,,,general,True,,8.32477812128191e-06,4.567739156922327e-06,5
+llm,how long should an essay be,service -1,general,general,phi4:14b,69.32625896297395,,,,,,,,,,,,general,True,,8.430690739541762e-06,4.6258525632607295e-06,5
+llm,How long does a UK transfer take?,service -1,general,general,phi4:14b,70.11001883074641,,,,,,,,,,,,general,True,,8.42536019898029e-06,4.62292773829886e-06,5
+llm,How do I locate my card?,service -1,general,general,phi4:14b,68.26274399645627,,,,,,,,,,,,general,True,,8.814242559644463e-06,4.836304378536514e-06,5
+llm,i need to know the the carry-on restrictions for american airlines,service -1,general,general,phi4:14b,69.57224593497813,,,,,,,,,,,,general,True,,1.7854815182196358e-06,9.796794251950517e-07,5
+llm,"my check engine light is on, i need someone to look at it",service -1,general,general,phi4:14b,69.52890008687973,,,,,,,,,,,,general,True,,2.082822805581086e-07,1.1428282108388692e-07,5
+llm,The balance on my account wasn't updated after I made a depost.,service -1,general,general,phi4:14b,69.89356596022844,,,,,,,,,,,,general,True,,6.828079616175587e-06,3.746512660758681e-06,5
+llm,what's your home country,service -1,general,general,phi4:14b,66.5177539922297,,,,,,,,,,,,general,True,,6.83292533334599e-06,3.7491714670043804e-06,5
+llm,I had a duplicate card and got charged twice. How do I resolve this?,service -1,general,general,phi4:14b,69.2161051556468,,,,,,,,,,,,general,True,,8.366644898479339e-06,4.590711122636534e-06,5
+llm,set a timer for 10 minutes,service -1,general,general,phi4:14b,67.4145941156894,,,,,,,,,,,,general,True,,8.490547835871172e-06,4.658695673159753e-06,5
+llm,find travel alerts for haiti,service -1,general,general,phi4:14b,66.72770692966878,,,,,,,,,,,,general,True,,8.731155391155342e-06,4.790715113883867e-06,5
+llm,"I want to add money but don't know what currencies you accept, can you tell me?",service -1,general,general,phi4:14b,70.00569486990571,,,,,,,,,,,,general,True,,8.526832154560123e-06,4.678604588549944e-06,5
+llm,Help!  I can't find my card.,service -1,general,general,phi4:14b,67.06057791598141,,,,,,,,,,,,general,True,,8.434853215413124e-06,4.628136480471466e-06,5
+llm,my capital one visa was taken without permission,service -1,general,general,phi4:14b,72.13978306390345,,,,,,,,,,,,general,True,,7.97815538226658e-06,4.377550033006624e-06,5
+llm,what is the weather doing now,service -1,general,general,phi4:14b,68.07963782921433,,,,,,,,,,,,general,True,,8.155435670552727e-06,4.474822308946818e-06,5
+llm,"When I tried to pay for my bus ride, the contactless payment wouldn't work. How can I prevent this in the future?",service -1,general,general,phi4:14b,72.34040787443519,,,,,,,,,,,,general,True,,8.430798795942395e-06,4.625911852943268e-06,5
+llm,is my visa bill over my limit this month,service -1,general,general,phi4:14b,67.19064805656672,,,,,,,,,,,,general,True,,8.525726409457004e-06,4.677997875057781e-06,5
+llm,I understand that this is extremely late. After going over my transactions for the last couple of months I noticed a large charge that I'm sure I did not make. Is there anyway I can still dispute this?,service -1,general,general,phi4:14b,81.57613105140626,,,,,,,,,,,,general,True,,8.085939675999462e-06,4.436690412703594e-06,5
+llm,can you text mary and tell her she is amazing,service -1,general,general,phi4:14b,68.1134620681405,,,,,,,,,,,,general,True,,8.230775091562243e-06,4.5161604465395e-06,5
+llm,i need to understand how many points have i earned with my credit card,service -1,general,general,phi4:14b,71.35751307941973,,,,,,,,,,,,general,True,,8.451281229958623e-06,4.63715040062841e-06,5
+llm,I need my card quickly,service -1,general,general,phi4:14b,67.83305993303657,,,,,,,,,,,,general,True,,8.519057801414064e-06,4.6743388631735e-06,5
+llm,Has someone accessed my card there are payments I did not make that are showing up on the app.,service -1,general,general,phi4:14b,73.45443801023066,,,,,,,,,,,,general,True,,8.760327787367145e-06,4.806721774306116e-06,5
+llm,i need to confirm my reservation for red lobster for frank,service -1,general,general,phi4:14b,69.83347097411752,,,,,,,,,,,,general,True,,8.625369822958667e-06,4.732671418898908e-06,5
+llm,"Hi, I'm buying a flat and I'm trying to get my mortgage to go though. Every time I check I simply get an error message. Is there any way you can help me get this money transferred over. Thanks!",service -1,general,general,phi4:14b,82.87940314039588,,,,,,,,,,,,general,True,,8.810374248024652e-06,4.8341818668971945e-06,5
+llm,read my todo list,service -1,general,general,phi4:14b,68.73458996415138,,,,,,,,,,,,general,True,,8.580319864911687e-06,4.707952867318097e-06,5
+llm,what ingredients are needed to make lasgana,service -1,general,general,phi4:14b,67.69294198602438,,,,,,,,,,,,general,True,,1.7810794630057983e-06,9.772640527155527e-07,5
+llm,give me the date that i last got my car checked,service -1,general,general,phi4:14b,69.29026916623116,,,,,,,,,,,,general,True,,1.767810440168275e-06,9.699834460368158e-07,5
+llm,Tell me how to go about activating my new card?,service -1,general,general,phi4:14b,68.06759000755847,,,,,,,,,,,,general,True,,6.595027480970923e-06,3.6186388185888933e-06,5
+llm,Where do my funds come from?,service -1,general,general,phi4:14b,66.75187195651233,,,,,,,,,,,,general,True,,6.7902925160378755e-06,3.7257791812097835e-06,5
+llm,Why did I have to pay extra because I paid with card?,service -1,general,general,phi4:14b,69.11433697678149,,,,,,,,,,,,general,True,,6.347353011134076e-06,3.4827418183851124e-06,5
+llm,where do i report that my card was lost,service -1,general,general,phi4:14b,69.6715097874403,,,,,,,,,,,,general,True,,8.269883260958715e-06,4.537618786221902e-06,5
+llm,what do i do if my car battery died,service -1,general,general,phi4:14b,67.26442812941968,,,,,,,,,,,,general,True,,8.442062656468553e-06,4.6320922431029865e-06,5
+llm,how do i get that tax form from my employer,service -1,general,general,phi4:14b,67.45620397850871,,,,,,,,,,,,general,True,,8.61597547148615e-06,4.727516813400612e-06,5
+llm,in 15 minutes the timer should go off,service -1,general,general,phi4:14b,68.44247598201036,,,,,,,,,,,,general,True,,8.77728596721623e-06,4.81602659192391e-06,5
+llm,when will i get to orlando,service -1,general,general,phi4:14b,115.49627687782049,,,,,,,,,,,,general,True,,9.423036590742746e-06,5.170344793047716e-06,5
+llm,"""which is the best way to improve the credit score",service -1,general,general,phi4:14b,73.32872389815748,,,,,,,,,,,,general,True,,6.9143465032148015e-06,3.7938466115419213e-06,5
+llm,what's on my list of things to remember,service -1,general,general,phi4:14b,68.7201819382608,,,,,,,,,,,,general,True,,6.8958267924069255e-06,3.7836849943794024e-06,5
+llm,what name do you have for me,service -1,general,general,phi4:14b,67.68052000552416,,,,,,,,,,,,general,True,,6.417981271707434e-06,3.5214949799357645e-06,5
+llm,Can I change the amount I made on a payment that I made to the payment is correct.,service -1,general,general,phi4:14b,69.69159003347158,,,,,,,,,,,,general,True,,8.355831909888888e-06,4.584778122300719e-06,5
+llm,wake me up with an alarm at 6am,service -1,general,general,phi4:14b,67.10346508771181,,,,,,,,,,,,general,True,,8.330938996874582e-06,4.571119580073146e-06,5
+llm,where should i go for food tonight,service -1,general,general,phi4:14b,66.84639817103744,,,,,,,,,,,,general,True,,8.147030962938392e-06,4.470210713116568e-06,5
+llm,They declined my card payment.,service -1,general,general,phi4:14b,67.31860293075442,,,,,,,,,,,,general,True,,8.077478457624212e-06,4.432047809870823e-06,5
+llm,what are the reviews like for l'auberge aubergine,service -1,general,general,phi4:14b,70.52580802701414,,,,,,,,,,,,general,True,,8.509170419614045e-06,4.668913735878834e-06,5
+llm,what's the number of vacation days i have left,service -1,general,general,phi4:14b,67.71049788221717,,,,,,,,,,,,general,True,,8.32343955308552e-06,4.567004695261567e-06,5
+llm,I am experiencing difficulty providing my identity.,service -1,general,general,phi4:14b,69.26713301800191,,,,,,,,,,,,general,True,,8.386800325568822e-06,4.601770244237009e-06,5
+llm,save my text on my laptop hard drive,service -1,general,general,phi4:14b,68.02052701823413,,,,,,,,,,,,general,True,,8.519259146595477e-06,4.674449339663869e-06,5
+llm,"Something went wrong, I was charged an extra pound?",service -1,general,general,phi4:14b,67.14736693538725,,,,,,,,,,,,general,True,,8.982356942879594e-06,4.928547395702514e-06,5
+llm,the car you are driving uses what kind of gas,service -1,general,general,phi4:14b,110.47363700345159,,,,,,,,,,,,general,True,,7.176804042636521e-06,3.937854963762411e-06,5
+llm,"When considering currency holdings and exchanges, what fiat currencies are supported?",service -1,general,general,phi4:14b,89.33578198775649,,,,,,,,,,,,general,True,,6.91423344800551e-06,3.7937845790529667e-06,5
+llm,can you let me know what company were you designed by,service -1,general,general,phi4:14b,70.13318594545126,,,,,,,,,,,,general,True,,8.101201418335945e-06,4.445064408629528e-06,5
+llm,what is the expiration month of my card,service -1,general,general,phi4:14b,68.26510303653777,,,,,,,,,,,,general,True,,6.590148344222651e-06,3.615961675288229e-06,5
+llm,Are there any fees for adding money with an international card?,service -1,general,general,phi4:14b,73.73501197434962,,,,,,,,,,,,general,True,,6.519082047951735e-06,3.5769681670546997e-06,5
+llm,Will I get charged for topping off my card?,service -1,general,general,phi4:14b,67.87107698619366,,,,,,,,,,,,general,True,,6.710763153061194e-06,3.6821420559794704e-06,5
+llm,Can you tell me if my pop-up went through?,service -1,general,general,phi4:14b,67.02039809897542,,,,,,,,,,,,general,True,,8.459108442237552e-06,4.6414451293881e-06,5
+llm,"going to work, will there be traffic",service -1,general,general,phi4:14b,67.3228669911623,,,,,,,,,,,,general,True,,8.60131660913475e-06,4.719473612899367e-06,5
+llm,what's the french word you use for potato,service -1,general,general,phi4:14b,68.87774099595845,,,,,,,,,,,,general,True,,8.756746161325824e-06,4.804756564750264e-06,5
+llm,How long will it take to arrive?,service -1,general,general,phi4:14b,68.88367794454098,,,,,,,,,,,,general,True,,8.643527832378518e-06,4.7426345734034436e-06,5
+llm,can you please revert to factory settings at this time,service -1,general,general,phi4:14b,67.88560701534152,,,,,,,,,,,,general,True,,8.646897170885067e-06,4.744483302487326e-06,5
+llm,slow down your voice,service -1,general,general,phi4:14b,67.83049507066607,,,,,,,,,,,,general,True,,8.498691160875507e-06,4.663163850442999e-06,5
+llm,How do I link one your card if I have one already?,service -1,general,general,phi4:14b,70.63667918555439,,,,,,,,,,,,general,True,,8.285088110178678e-06,4.5459615653502435e-06,5
+llm,can you teach me how to change my oil in my car,service -1,general,general,phi4:14b,69.8477360419929,,,,,,,,,,,,general,True,,8.433572112577763e-06,4.627433549594549e-06,5
+llm,"When I submit a transfer, it is being declined.  The information I put in has been reviewed.",service -1,general,general,phi4:14b,72.58270215243101,,,,,,,,,,,,general,True,,8.445166641397016e-06,4.633795374801375e-06,5
+llm,I made a transaction this morning and would like to revert it.,service -1,general,general,phi4:14b,69.4415548350662,,,,,,,,,,,,general,True,,9.223337968364276e-06,5.060771756537673e-06,5
+llm,how's my credit score,service -1,general,general,phi4:14b,67.57753412239254,,,,,,,,,,,,general,True,,8.805117581739234e-06,4.83129757615974e-06,5
+llm,find directions to the sunshine car wash from my house,service -1,general,general,phi4:14b,66.74177595414221,,,,,,,,,,,,general,True,,1.778760889633007e-06,9.759918700544701e-07,5
+llm,I don't recognise a cash withdrawal,service -1,general,general,phi4:14b,67.71065620705485,,,,,,,,,,,,general,True,,1.8000277628850252e-06,9.876608332729051e-07,5
+llm,The exchange rates are?,service -1,general,general,phi4:14b,66.49866211228073,,,,,,,,,,,,general,True,,1.7879087212948827e-06,9.810112121047543e-07,5
+llm,Can I link an existing card?,service -1,general,general,phi4:14b,66.71724002808332,,,,,,,,,,,,general,True,,1.7684444825680212e-06,9.703313400292925e-07,5
+llm,what's the weather like today,service -1,general,general,phi4:14b,66.94500800222158,,,,,,,,,,,,general,True,,8.372960977815532e-06,4.594176704839472e-06,5
+llm,Can I change my information?,service -1,general,general,phi4:14b,65.98182301968336,,,,,,,,,,,,general,True,,8.084396777592769e-06,4.43584383669096e-06,5
+llm,I couldn't get cash at the atm,service -1,general,general,phi4:14b,66.75109802745283,,,,,,,,,,,,general,True,,6.989304439190217e-06,3.834975431348192e-06,5
+llm,Is there an age minimum?,service -1,general,general,phi4:14b,66.91246782429516,,,,,,,,,,,,general,True,,6.740757543811406e-06,3.698599738229027e-06,5
+llm,how to get the right medicine,service -1,general,general,phi4:14b,67.12772394530475,,,,,,,,,,,,general,True,,8.743295299587592e-06,4.7973761845212116e-06,5
+llm,"There are transactions I didn't make, someone else must have used my card.",service -1,general,general,phi4:14b,69.23680799081922,,,,,,,,,,,,general,True,,8.53685843008262e-06,4.684105925718959e-06,5
+llm,can i call you arnold instead,service -1,general,general,phi4:14b,68.87598382309079,,,,,,,,,,,,general,True,,8.576274514476411e-06,4.705733215897099e-06,5
+llm,when should you use a dry cleaner,service -1,general,general,phi4:14b,67.79830204322934,,,,,,,,,,,,general,True,,8.8423557225107e-06,4.8517298460960465e-06,5
+llm,My top-up has been cancelled.,service -1,general,general,phi4:14b,69.25254710949957,,,,,,,,,,,,general,True,,8.772665415438669e-06,4.813491332127974e-06,5
+llm,I transferred money but the recipient says it has not arrived. Why would this be?,service -1,general,general,phi4:14b,71.8415598385036,,,,,,,,,,,,general,True,,8.68673035575888e-06,4.766339452361851e-06,5
+llm,can you help me pick some fun things to do in london during my trip,service -1,general,general,phi4:14b,69.96044889092445,,,,,,,,,,,,general,True,,1.7808882900832539e-06,9.771591576624057e-07,5
+llm,what are the nutrition facts for peanut butter,service -1,general,general,phi4:14b,68.37319303303957,,,,,,,,,,,,general,True,,1.8003522443028885e-06,9.87838873631186e-07,5
+llm,"I am traveling to Germany, Will I be able to use my card there?",service -1,general,general,phi4:14b,69.14108898490667,,,,,,,,,,,,general,True,,1.7826788706923856e-06,9.78141634917773e-07,5
+llm,please give me my current credit score,service -1,general,general,phi4:14b,66.21950282715261,,,,,,,,,,,,general,True,,1.7802733630650942e-06,9.76821752127037e-07,5
+llm,I topped up but the app reverted it,service -1,general,general,phi4:14b,67.52119003795087,,,,,,,,,,,,general,True,,1.7925129475620562e-06,9.835375142236424e-07,5
+llm,I attempted to top up but the app denied it.,service -1,general,general,phi4:14b,66.60740403458476,,,,,,,,,,,,general,True,,1.7834943281981597e-06,9.785890699278224e-07,5
+llm,How can I fix a problem where contactless isn't working?,service -1,general,general,phi4:14b,69.05056117102504,,,,,,,,,,,,general,True,,1.770197796757602e-06,9.712933694986173e-07,5
+llm,What type of ATMs accept this card?,service -1,general,general,phi4:14b,67.4056438729167,,,,,,,,,,,,general,True,,8.484381642892211e-06,4.655312332401806e-06,5
+llm,"Can you help me with a weird charge?  It's a pound charge that never goes away from the statement view on the app I'm using.  It's not described as anything but ""Pending"", and that status has never changed during the last two days.",service -1,general,general,phi4:14b,93.94995006732643,,,,,,,,,,,,general,True,,8.277789763971345e-06,4.54195702117308e-06,5
+llm,please read me the last text message i received,service -1,general,general,phi4:14b,67.22078309394419,,,,,,,,,,,,general,True,,1.7871961280205642e-06,9.80620217876007e-07,5
+llm,how much of a refund will i get this year,service -1,general,general,phi4:14b,67.76196206919849,,,,,,,,,,,,general,True,,1.768089556394934e-06,9.70136594877647e-07,5
+llm,what films are in the running for best song at this year's oscars,service -1,general,general,phi4:14b,70.08577301166952,,,,,,,,,,,,general,True,,8.601801552200923e-06,4.719739697280241e-06,5
+llm,places i can use the card,service -1,general,general,phi4:14b,68.1731179356575,,,,,,,,,,,,general,True,,8.41168845946462e-06,4.615426164200631e-06,5
+llm,what day did i last take my car in,service -1,general,general,phi4:14b,66.4576890412718,,,,,,,,,,,,general,True,,8.064664931149972e-06,4.4250171304027405e-06,5
+llm,How can I top up with Google Pay?,service -1,general,general,phi4:14b,67.79951299540699,,,,,,,,,,,,general,True,,8.491264370645828e-06,4.6590888300585e-06,5
+llm,When will a transfer reach my account?,service -1,general,general,phi4:14b,66.42895308323205,,,,,,,,,,,,general,True,,6.666968618967376e-06,3.6581123454785397e-06,5
+llm,i need to know when i get paid next,service -1,general,general,phi4:14b,66.97568902745843,,,,,,,,,,,,general,True,,7.066138474490571e-06,3.87713365184502e-06,5
+llm,how soon should i get my tires changed,service -1,general,general,phi4:14b,67.79764802195132,,,,,,,,,,,,general,True,,7.001454375407494e-06,3.841642004150884e-06,5
+llm,what is the cheapest new car for this year,service -1,general,general,phi4:14b,67.51750991679728,,,,,,,,,,,,general,True,,8.257030948669204e-06,4.530566825287213e-06,5
+llm,there is no way in heck that is true,service -1,general,general,phi4:14b,66.89493800513446,,,,,,,,,,,,general,True,,8.533782415671987e-06,4.682418141219776e-06,5
+llm,Why is it important to verify a top-up card?,service -1,general,general,phi4:14b,66.56756694428623,,,,,,,,,,,,general,True,,8.87689338177058e-06,4.870680383430286e-06,5
+llm,tell me my apr rate,service -1,general,general,phi4:14b,67.50361202284694,,,,,,,,,,,,general,True,,8.356696866952326e-06,4.585252717321988e-06,5
+llm,What is the base amount for cross-currency exchanges?,service -1,general,general,phi4:14b,67.2566699795425,,,,,,,,,,,,general,True,,1.7834816878020514e-06,9.785821342435906e-07,5
+llm,"I see my top-up was canceled, but why?",service -1,general,general,phi4:14b,66.65681721642613,,,,,,,,,,,,general,True,,1.7770327252067744e-06,9.750436400592956e-07,5
+llm,I checked my account today and it said I was out of money. How do I transfer money into my account?,service -1,general,general,phi4:14b,70.99146582186222,,,,,,,,,,,,general,True,,1.7703240250215545e-06,9.713626299371475e-07,5
+llm,"I noticed an extra $1 charge on my statement, can you tell me why that is?",service -1,general,general,phi4:14b,71.16345106624067,,,,,,,,,,,,general,True,,1.7900388755215033e-06,9.821800106878456e-07,5
+llm,How do I link a card that I already have?,service -1,general,general,phi4:14b,66.91197608597577,,,,,,,,,,,,general,True,,8.429819334721499e-06,4.625374430407107e-06,5
+llm,how much farther is orlando from my location,service -1,general,general,phi4:14b,66.771917976439,,,,,,,,,,,,general,True,,8.191881794778096e-06,4.494820005740245e-06,5
+llm,HOw do I get my card back after the ATM has pulled it in?,service -1,general,general,phi4:14b,71.14968216046691,,,,,,,,,,,,general,True,,8.386850096177897e-06,4.601797552971926e-06,5
+llm,can you tell me the current time in jamaica,service -1,general,general,phi4:14b,69.92796901613474,,,,,,,,,,,,general,True,,8.49450368175294e-06,4.6608662141482335e-06,5
+llm,How do I make an exchange from one currency to another?,service -1,general,general,phi4:14b,68.51820694282651,,,,,,,,,,,,general,True,,8.702382551599094e-06,4.774927687002228e-06,5
+llm,I lost my phone!,service -1,general,general,phi4:14b,66.72000186517835,,,,,,,,,,,,general,True,,7.073483971823356e-06,3.881164067467795e-06,5
+llm,when do i get my next paycheck,service -1,general,general,phi4:14b,66.44077505916357,,,,,,,,,,,,general,True,,7.068707190352984e-06,3.878543085688961e-06,5
+llm,play the next song please,service -1,general,general,phi4:14b,66.64646090939641,,,,,,,,,,,,general,True,,8.748057057049886e-06,4.799988922746853e-06,5
+llm,help me to transfer my 401k,service -1,general,general,phi4:14b,66.26951694488525,,,,,,,,,,,,general,True,,8.753471662026075e-06,4.802959873180437e-06,5
+llm,does tofu last long in the freezer before it goes bad,service -1,general,general,phi4:14b,69.35686990618706,,,,,,,,,,,,general,True,,1.775878927700019e-06,9.74410560597612e-07,5
+llm,How do I know when my card will arrive?,service -1,general,general,phi4:14b,66.42602803185582,,,,,,,,,,,,general,True,,1.7851458372921368e-06,9.794952397553652e-07,5
+llm,How do I get my salary through this account?,service -1,general,general,phi4:14b,67.52690603025258,,,,,,,,,,,,general,True,,1.7668025467875402e-06,9.694304230018977e-07,5
+llm,"Hi, I have been overcharged for my payment last Saturday. I guess exchange rate was wrong.",service -1,general,general,phi4:14b,71.28374022431672,,,,,,,,,,,,general,True,,8.315758139898141e-06,4.5627899652967915e-06,5
+llm,how do i find the interest rate for my checking account,service -1,general,general,phi4:14b,71.9371831510216,,,,,,,,,,,,general,True,,8.461932134695791e-06,4.642994466850462e-06,5
+llm,what is the name of this song that's on right now,service -1,general,general,phi4:14b,69.71417600288987,,,,,,,,,,,,general,True,,8.365732943836027e-06,4.590210740419102e-06,5
+llm,I bought an item and noticed the exchange rate was not correct.,service -1,general,general,phi4:14b,69.86531312577426,,,,,,,,,,,,general,True,,8.259036657876431e-06,4.531667341883469e-06,5
+llm,Why was I chaged twice for the same thing?,service -1,general,general,phi4:14b,67.14895996265113,,,,,,,,,,,,general,True,,8.24583045129024e-06,4.524421201979219e-06,5
+llm,i would like for my phone to be synced with you,service -1,general,general,phi4:14b,68.63747606985271,,,,,,,,,,,,general,True,,7.966644322475892e-06,4.371234006587954e-06,5
+llm,is a travel visa needed for thailand,service -1,general,general,phi4:14b,67.13238009251654,,,,,,,,,,,,general,True,,7.991879093947104e-06,4.385080123815981e-06,5
+llm,Is PIN delivered separately?,service -1,general,general,phi4:14b,66.52279896661639,,,,,,,,,,,,general,True,,8.285677133857902e-06,4.5462847579305805e-06,5
+llm,was there any progress on my vacation request,service -1,general,general,phi4:14b,66.07849895954132,,,,,,,,,,,,general,True,,8.782772294884875e-06,4.819036896024954e-06,5
+llm,create emergency phone numbers list,service -1,general,general,phi4:14b,66.92284415476024,,,,,,,,,,,,general,True,,8.569381005076385e-06,4.701950802437401e-06,5
+llm,I can't find the top-up verification code.,service -1,general,general,phi4:14b,66.75691902637482,,,,,,,,,,,,general,True,,7.3469811203538855e-06,4.0312297648892326e-06,5
+llm,"tell me the time in san francisco, please",service -1,general,general,phi4:14b,67.34128599055111,,,,,,,,,,,,general,True,,7.062346832858394e-06,3.875053208414643e-06,5
+llm,I have been charged twice,service -1,general,general,phi4:14b,67.80831213109195,,,,,,,,,,,,general,True,,8.757464968181874e-06,4.805150968321698e-06,5
+llm,disconnect from wifi immediately please,service -1,general,general,phi4:14b,69.06660087406635,,,,,,,,,,,,general,True,,8.242596292195627e-06,4.522646644757565e-06,5
+llm,"If I have more than one disposable card, can I make five payments on each of them?",service -1,general,general,phi4:14b,69.86534409224987,,,,,,,,,,,,general,True,,1.7800708502820756e-06,9.767106349829052e-07,5
+llm,Why would I have a pending payment?,service -1,general,general,phi4:14b,67.8112159948796,,,,,,,,,,,,general,True,,1.755274325147653e-06,9.631049800139235e-07,5
+llm,how would i say what is your name if i were french,service -1,general,general,phi4:14b,69.9904109351337,,,,,,,,,,,,general,True,,8.318877807512656e-06,4.5645017019597944e-06,5
+llm,How can I get my physical card to work?,service -1,general,general,phi4:14b,67.41608306765556,,,,,,,,,,,,general,True,,8.289182614441663e-06,4.548208187083076e-06,5
+llm,Why is my money gone right when I attempted to top up,service -1,general,general,phi4:14b,70.08979399688542,,,,,,,,,,,,general,True,,7.847248639068598e-06,4.305722550267902e-06,5
+llm,What do you charge for physical cards?,service -1,general,general,phi4:14b,69.2489231005311,,,,,,,,,,,,general,True,,7.986614075836812e-06,4.382191250499202e-06,5
+llm,do i need a converter for my electronics when i go to that coutntry,service -1,general,general,phi4:14b,72.44015298783779,,,,,,,,,,,,general,True,,8.020994239781726e-06,4.401055371414282e-06,5
+llm,what time is it in california,service -1,general,general,phi4:14b,68.36737389676273,,,,,,,,,,,,general,True,,8.268754913592219e-06,4.536999671048928e-06,5
+llm,can i have more information about this car's highway mpg,service -1,general,general,phi4:14b,70.83031302317977,,,,,,,,,,,,general,True,,8.584455546656669e-06,4.7102220828063555e-06,5
+llm,How do I link this new card?,service -1,general,general,phi4:14b,68.31786781549454,,,,,,,,,,,,general,True,,8.492398571588629e-06,4.659711157042282e-06,5
+llm,What is the best way to exchange currency between USD and GBP using your app?,service -1,general,general,phi4:14b,70.58262010104954,,,,,,,,,,,,general,True,,8.853845147923506e-06,4.858034001904536e-06,5
+llm,What extra charges are there?,service -1,general,general,phi4:14b,67.595578962937,,,,,,,,,,,,general,True,,8.655158896447857e-06,4.74901644520985e-06,5
+llm,"I thought cash withdrawals were free? Why have I been charged a fee? Also, how much is this fee?",service -1,general,general,phi4:14b,72.31638208031654,,,,,,,,,,,,general,True,,8.423871653000237e-06,4.6221109850281585e-06,5
+llm,say again please,service -1,general,general,phi4:14b,67.98596912994981,,,,,,,,,,,,general,True,,8.478312930646804e-06,4.6519824785425795e-06,5
+llm,The ATM keeps declining my card. I tried at a couple different ATMs. Can you tell me if there's a problem with my account?,service -1,general,general,phi4:14b,74.77778499014676,,,,,,,,,,,,general,True,,8.623269126538033e-06,4.731518783578602e-06,5
+llm,What would lead to my top up still pending?,service -1,general,general,phi4:14b,69.0821569878608,,,,,,,,,,,,general,True,,7.0391117818237314e-06,3.862304321792468e-06,5
+llm,switch over to low power mode to preserve battery life,service -1,general,general,phi4:14b,68.79312102682889,,,,,,,,,,,,general,True,,7.068245750852659e-06,3.878289897526685e-06,5
+llm,What do I need to do to transfer my paycheck to my account?,service -1,general,general,phi4:14b,71.70864590443671,,,,,,,,,,,,general,True,,6.510550132961257e-06,3.572286773554853e-06,5
+llm,can you let me know the next open slot for me to get my oil changed,service -1,general,general,phi4:14b,71.0640239994973,,,,,,,,,,,,general,True,,7.627647045318001e-06,4.185228912589704e-06,5
+llm,"i need to buy something, please",service -1,general,general,phi4:14b,67.7552530542016,,,,,,,,,,,,general,True,,7.15513816278851e-06,3.9259670688166284e-06,5
+llm,is socket converter required in france,service -1,general,general,phi4:14b,67.87166092544794,,,,,,,,,,,,general,True,,6.8344423559876105e-06,3.7500038451913735e-06,5
+llm,What kind of currency can I hold money in?,service -1,general,general,phi4:14b,67.93849705718458,,,,,,,,,,,,general,True,,1.8003333252672796e-06,9.878284929075616e-07,5
+llm,How do I get my top-up verification code?,service -1,general,general,phi4:14b,68.7845719512552,,,,,,,,,,,,general,True,,1.766732313345648e-06,9.693918864741961e-07,5
+llm,Is there a way to transfer funds directly from my card?,service -1,general,general,phi4:14b,70.40770584717393,,,,,,,,,,,,general,True,,8.302701969060099e-06,4.555626148807553e-06,5
+llm,Do you charge for physical cards,service -1,general,general,phi4:14b,68.1180979590863,,,,,,,,,,,,general,True,,8.139430622991148e-06,4.4660404673901345e-06,5
+llm,what do you think about changing your name to heath,service -1,general,general,phi4:14b,70.61762013472617,,,,,,,,,,,,general,True,,7.870926446565396e-06,4.318714373818897e-06,5
+llm,what is my payment going to be,service -1,general,general,phi4:14b,67.61635793372989,,,,,,,,,,,,general,True,,8.149921331761581e-06,4.471796635366863e-06,5
+llm,what's the best golf club to use on the lower nine,service -1,general,general,phi4:14b,70.7964941393584,,,,,,,,,,,,general,True,,8.280520759205122e-06,4.543455496409769e-06,5
+llm,what's my credit card's annual percentage rate,service -1,general,general,phi4:14b,68.4324880130589,,,,,,,,,,,,general,True,,8.5296901978461e-06,4.680172774036359e-06,5
+llm,Will you deal with SWIFT transfers?,service -1,general,general,phi4:14b,68.07075580582023,,,,,,,,,,,,general,True,,8.295373920408702e-06,4.551605307137087e-06,5
+llm,how much vacation time do i have,service -1,general,general,phi4:14b,67.654550075531,,,,,,,,,,,,general,True,,8.379278666895314e-06,4.5976431702959494e-06,5
+llm,what's wells fargo's routing number,service -1,general,general,phi4:14b,68.29514494165778,,,,,,,,,,,,general,True,,8.907552572283775e-06,4.887502835991455e-06,5
+llm,"My card's frozen, what can I do?",service -1,general,general,phi4:14b,67.41690705530345,,,,,,,,,,,,general,True,,9.043618759262823e-06,4.9621612642574385e-06,5
+llm,what are some fun local experiences in canada,service -1,general,general,phi4:14b,67.64516816474497,,,,,,,,,,,,general,True,,8.378073855403421e-06,4.5969820998688175e-06,5
+llm,restart my newspaper delivery for monday,service -1,general,general,phi4:14b,67.8899809718132,,,,,,,,,,,,general,True,,8.190070516543926e-06,4.4938261718635054e-06,5
+llm,Do you offer additional currency options?,service -1,general,general,phi4:14b,68.78326903097332,,,,,,,,,,,,general,True,,7.268813551858204e-06,3.98833984539609e-06,5
+llm,I took out a foreign currency and the exchange rate is wrong.,service -1,general,general,phi4:14b,69.76320291869342,,,,,,,,,,,,general,True,,7.178561949902455e-06,3.938819513415667e-06,5
+llm,what is the weather,service -1,general,general,phi4:14b,67.91788106784225,,,,,,,,,,,,general,True,,2.1632692466175274e-07,1.1869685294634696e-07,5
+llm,make a roll of the dice,service -1,general,general,phi4:14b,67.47070699930191,,,,,,,,,,,,general,True,,1.7593168871099171e-06,9.6532310142226e-07,5
+llm,I need it delivered by Saturday.,service -1,general,general,phi4:14b,67.34815589152277,,,,,,,,,,,,general,True,,8.473060582943337e-06,4.649100557376461e-06,5
+llm,can you tell me what cards and currencies you take?,service -1,general,general,phi4:14b,67.87413312122226,,,,,,,,,,,,general,True,,8.003834433401198e-06,4.391639922931775e-06,5
+llm,"I just activated auto top-up, but it is not letting me enable it. Why not?",service -1,general,general,phi4:14b,70.03962085582316,,,,,,,,,,,,general,True,,8.232130523914104e-06,4.516904161427568e-06,5
+llm,where were you thought of,service -1,general,general,phi4:14b,67.39006098359823,,,,,,,,,,,,general,True,,8.36381298054828e-06,4.589157271923071e-06,5
+llm,What is this €1 fee in my statement?,service -1,general,general,phi4:14b,66.40446884557605,,,,,,,,,,,,general,True,,8.470102528443206e-06,4.647477496536653e-06,5
+llm,you have what types or kinds of pets,service -1,general,general,phi4:14b,66.58604787662625,,,,,,,,,,,,general,True,,8.49026223896654e-06,4.658538968423109e-06,5
+llm,what ingredients are in beef jerkey,service -1,general,general,phi4:14b,66.77868799306452,,,,,,,,,,,,general,True,,8.675487049489804e-06,4.760170340158566e-06,5
+llm,What is the activation process on my new card?,service -1,general,general,phi4:14b,67.87174707278609,,,,,,,,,,,,general,True,,8.538585976610759e-06,4.685053816678476e-06,5
+llm,Are you able to explain the restrictions of the disposable cards?,service -1,general,general,phi4:14b,68.84498614817858,,,,,,,,,,,,general,True,,9.262643719505116e-06,5.082338507742673e-06,5
+llm,what is the amount of blood needed to stay alive,service -1,general,general,phi4:14b,66.78086705505848,,,,,,,,,,,,general,True,,6.807782055643502e-06,3.7353755516751977e-06,5
+llm,I tried to withdraw money but I was declined!,service -1,general,general,phi4:14b,68.33530683070421,,,,,,,,,,,,general,True,,6.532380634981065e-06,3.5842649953690166e-06,5
+llm,How do I unblock my card using the app?,service -1,general,general,phi4:14b,69.00115590542555,,,,,,,,,,,,general,True,,6.5057133084569715e-06,3.56963284664372e-06,5
+llm,I paid for something in foreign currency but noticed the exchange rate is incorrect.,service -1,general,general,phi4:14b,70.38051006384194,,,,,,,,,,,,general,True,,2.1896734186954703e-07,1.20145628744895e-07,5
+llm,I'm unable to use contactless payments for purchases.,service -1,general,general,phi4:14b,67.36473389901221,,,,,,,,,,,,general,True,,2.019711893000084e-07,1.1081997579927977e-07,5
+llm,can i redeem my points by transferring them to someone as a gift,service -1,general,general,phi4:14b,69.72559681162238,,,,,,,,,,,,general,True,,1.7986643111424575e-06,9.869127182093006e-07,5
+llm,i want to start talking to you in swedish,service -1,general,general,phi4:14b,70.30899403616786,,,,,,,,,,,,general,True,,8.499166584164351e-06,4.663424711398231e-06,5
+llm,will you be sure to add this current song to my sleep playlist,service -1,general,general,phi4:14b,69.8703161906451,,,,,,,,,,,,general,True,,8.181977133948741e-06,4.489385397580484e-06,5
+llm,I have never been charged a fee for cash withdrawal before. When did that change?,service -1,general,general,phi4:14b,69.99811809509993,,,,,,,,,,,,general,True,,8.17952577149457e-06,4.488040354612855e-06,5
+llm,Where are the locations of ATMs that accept this card?,service -1,general,general,phi4:14b,69.78416698984802,,,,,,,,,,,,general,True,,8.055477096965101e-06,4.4199758392881455e-06,5
+llm,There's a recent charge on my card that I know I didn't make because I've never seen the name before. Can we investigate this?,service -1,general,general,phi4:14b,76.18446508422494,,,,,,,,,,,,general,True,,8.215186149128882e-06,4.5076069185379444e-06,5
+llm,Top up on my Google Pay isn't working.,service -1,general,general,phi4:14b,67.5135760102421,,,,,,,,,,,,general,True,,8.439366679492168e-06,4.630612982103703e-06,5
+llm,"$1 extra has been charged on my statement, why is that?",service -1,general,general,phi4:14b,71.41752797178924,,,,,,,,,,,,general,True,,8.023385822815768e-06,4.40236761389259e-06,5
+llm,what shows are on tonight,service -1,general,general,phi4:14b,69.09479107707739,,,,,,,,,,,,general,True,,8.168232477856648e-06,4.481843814740059e-06,5
+llm,"I was out today looking forward to pay with my new card, turns out the payment just kept getting declined. This is really sad, what's going on?",service -1,general,general,phi4:14b,78.49114900454879,,,,,,,,,,,,general,True,,8.28675403106733e-06,4.546875642814571e-06,5
+llm,tell david where i am,service -1,general,general,phi4:14b,68.48804792389274,,,,,,,,,,,,general,True,,8.03734656620609e-06,4.4100277621049455e-06,5
+llm,What will I be charged for a physical card?,service -1,general,general,phi4:14b,67.25570512935519,,,,,,,,,,,,general,True,,8.170158428419741e-06,4.482900568406403e-06,5
+llm,"Please, activate my card",service -1,general,general,phi4:14b,66.84479094110429,,,,,,,,,,,,general,True,,8.220323762644921e-06,4.510425885973293e-06,5
+llm,"If I request that my funds be held, what currencies do you use?",service -1,general,general,phi4:14b,71.89069408923388,,,,,,,,,,,,general,True,,8.367333264006245e-06,4.591088823294176e-06,5
+llm,how much has microsoft's stock changed over the last year,service -1,general,general,phi4:14b,69.63385897688568,,,,,,,,,,,,general,True,,8.192214340676032e-06,4.495002471014038e-06,5
+llm,will you tell me my bank balance,service -1,general,general,phi4:14b,67.52174510620534,,,,,,,,,,,,general,True,,8.524548832454515e-06,4.6773517479773395e-06,5
+llm,"add mary to my phone plan, please",service -1,general,general,phi4:14b,69.18867584317923,,,,,,,,,,,,general,True,,9.02380300993929e-06,4.951288521129731e-06,5
+llm,is there a long wait at chili's around 5:00,service -1,general,general,phi4:14b,70.09919988922775,,,,,,,,,,,,general,True,,8.623892669284983e-06,4.7318609164952175e-06,5
+llm,please let me know the status of my vacation request,service -1,general,general,phi4:14b,67.46260193176568,,,,,,,,,,,,general,True,,1.7819565317290023e-06,9.777452933076337e-07,5
+llm,what are cars like mine selling for online,service -1,general,general,phi4:14b,66.92647701129317,,,,,,,,,,,,general,True,,2.009418495520221e-07,1.1025518531449993e-07,5
+llm,which kinds of pets do you have,service -1,general,general,phi4:14b,68.40182491578162,,,,,,,,,,,,general,True,,7.231674426474641e-06,3.9679619044112775e-06,5
+llm,whats the exchange rate for us dollars to british pounds,service -1,general,general,phi4:14b,69.59600909613073,,,,,,,,,,,,general,True,,8.170007537107275e-06,4.482817775550499e-06,5
+llm,when will the next boston marathon be,service -1,general,general,phi4:14b,66.87876186333597,,,,,,,,,,,,general,True,,8.405161498100007e-06,4.611844872715477e-06,5
+llm,What is the limit to disposable cards you can have?,service -1,general,general,phi4:14b,67.75157409720123,,,,,,,,,,,,general,True,,8.17938233717546e-06,4.487961653349467e-06,5
+llm,i appeciate it,service -1,general,general,phi4:14b,67.47525604441762,,,,,,,,,,,,general,True,,8.250690140316e-06,4.527087674470378e-06,5
+llm,you got that wrong,service -1,general,general,phi4:14b,66.47765380330384,,,,,,,,,,,,general,True,,8.37350725205882e-06,4.594476441146644e-06,5
+llm,please tell me what the date is tomorrow,service -1,general,general,phi4:14b,66.42059609293938,,,,,,,,,,,,general,True,,8.30993653089078e-06,4.559595695007544e-06,5
+llm,I have exceeded the number of times I can try my PIN,service -1,general,general,phi4:14b,69.15931403636932,,,,,,,,,,,,general,True,,8.512525651120303e-06,4.67075472456455e-06,5
+llm,what do i go by,service -1,general,general,phi4:14b,67.28632794693112,,,,,,,,,,,,general,True,,8.69803572046881e-06,4.772542615535513e-06,5
+llm,my check engine light is on and i need someone to look at it,service -1,general,general,phi4:14b,69.08871489576995,,,,,,,,,,,,general,True,,8.43703363278929e-06,4.629332858042262e-06,5
+llm,What fiat currencies are supported for holding and exchange?,service -1,general,general,phi4:14b,66.52424298226833,,,,,,,,,,,,general,True,,9.153943934475314e-06,5.022695805295251e-06,5
+llm,How many times can I use a disposable card?,service -1,general,general,phi4:14b,66.78752205334604,,,,,,,,,,,,general,True,,1.7719977693491512e-06,9.72281000059718e-07,5
+llm,i need to get to the staples center; can you call me an uber,service -1,general,general,phi4:14b,70.05306798964739,,,,,,,,,,,,general,True,,1.7791317946146482e-06,9.761953826507852e-07,5
+llm,Is it a good time to exchange?,service -1,general,general,phi4:14b,66.66159210726619,,,,,,,,,,,,general,True,,2.0103441396128463e-07,1.1030597466508973e-07,5
+llm,Where do you support?,service -1,general,general,phi4:14b,66.58647884614766,,,,,,,,,,,,general,True,,6.653092461212859e-06,3.650498608727664e-06,5
+llm,how many years do you need to be in the army to get a college tuition,service -1,general,general,phi4:14b,69.47851506993175,,,,,,,,,,,,general,True,,8.692882053111355e-06,4.769714839485736e-06,5
+llm,how long do i need to cook chicken,service -1,general,general,phi4:14b,67.41380016319454,,,,,,,,,,,,general,True,,8.302232257839659e-06,4.555368422018424e-06,5
+llm,How would I use my money in a different country?,service -1,general,general,phi4:14b,67.18690507113934,,,,,,,,,,,,general,True,,8.021479137816645e-06,4.4013214310868395e-06,5
+llm,Where are cards delivered to?,service -1,general,general,phi4:14b,66.67696801014245,,,,,,,,,,,,general,True,,7.971989219185578e-06,4.3741667086535235e-06,5
+llm,I submitted my transfer but it has been pending for quite a while and I was wondering what takes so long? why hasn't it completed,service -1,general,general,phi4:14b,74.26663395017385,,,,,,,,,,,,general,True,,8.31786425843032e-06,4.563945575686724e-06,5
+llm,I am awaiting my refund,service -1,general,general,phi4:14b,70.89196005836129,,,,,,,,,,,,general,True,,8.452833931322373e-06,4.638002355445217e-06,5
+llm,I would like to know why I was charged twice for my purchase.,service -1,general,general,phi4:14b,78.70276691392064,,,,,,,,,,,,general,True,,7.866727307155076e-06,4.316410339617622e-06,5
+llm,are we allowed to wash our cars during the drought,service -1,general,general,phi4:14b,67.34706880524755,,,,,,,,,,,,general,True,,8.42240427264846e-06,4.621305845167994e-06,5
+llm,i would like to make a phone call,service -1,general,general,phi4:14b,67.39837699569762,,,,,,,,,,,,general,True,,8.687555828518038e-06,4.76679238266102e-06,5
+llm,I want to change my personal details.,service -1,general,general,phi4:14b,67.43796798400581,,,,,,,,,,,,general,True,,8.58412806922261e-06,4.7100423985579724e-06,5
+llm,Where can I find the verification code on a top-up card?,service -1,general,general,phi4:14b,69.55992197617888,,,,,,,,,,,,general,True,,8.352232482002064e-06,4.58280314501484e-06,5
+llm,is it okay to use butter instead of margarine,service -1,general,general,phi4:14b,68.32956988364458,,,,,,,,,,,,general,True,,8.149378471588968e-06,4.471498772333146e-06,5
+llm,Can I add money with Apple Pay?,service -1,general,general,phi4:14b,67.83944717608392,,,,,,,,,,,,general,True,,8.518584414475908e-06,4.674079119547803e-06,5
+llm,Can I exchange between GBP and USD on the app?,service -1,general,general,phi4:14b,67.24270014092326,,,,,,,,,,,,general,True,,8.473157348059222e-06,4.649153651621173e-06,5
+llm,Which fiat currencies do you support?,service -1,general,general,phi4:14b,67.68695404753089,,,,,,,,,,,,general,True,,8.673514625999641e-06,4.7590880871690826e-06,5
+llm,Will it automatically top-up or do I need to do that manually if there isn't much cash left?,service -1,general,general,phi4:14b,71.36399578303099,,,,,,,,,,,,general,True,,8.889218715561059e-06,4.8774431954785e-06,5
+llm,can i redeem my points on gas,service -1,general,general,phi4:14b,67.75455991737545,,,,,,,,,,,,general,True,,8.408305168753662e-06,4.61356977965368e-06,5
+llm,how do you describe yourself: as a computer or a human,service -1,general,general,phi4:14b,69.64478688314557,,,,,,,,,,,,general,True,,8.186294825181933e-06,4.491754480218883e-06,5
+llm,How do I retrieve my card from the machine?,service -1,general,general,phi4:14b,67.1582908835262,,,,,,,,,,,,general,True,,1.8168344639224107e-06,9.968825356787211e-07,5
+llm,give me some ideas for boosting my credit score,service -1,general,general,phi4:14b,66.80614501237869,,,,,,,,,,,,general,True,,1.7743342821787203e-06,9.735630259570527e-07,5
+llm,tell me who makes the best dvd's for movie storage,service -1,general,general,phi4:14b,70.63484704121947,,,,,,,,,,,,general,True,,1.762531368901775e-06,9.67086861865512e-07,5
+llm,How can I process a refund for something I purchased?,service -1,general,general,phi4:14b,73.54306895285845,,,,,,,,,,,,general,True,,8.444219756894786e-06,4.633275826850056e-06,5
+llm,when is the next day we have off,service -1,general,general,phi4:14b,75.0845680013299,,,,,,,,,,,,general,True,,7.754390093534305e-06,4.2547718092015956e-06,5
+llm,"I would like to know why my payment is still pending, can you help?",service -1,general,general,phi4:14b,69.91060287691653,,,,,,,,,,,,general,True,,8.297962545996893e-06,4.5530256652880595e-06,5
+llm,what is my card's apr rate,service -1,general,general,phi4:14b,67.60375620797276,,,,,,,,,,,,general,True,,8.002921313404916e-06,4.391138901294837e-06,5
+llm,"My top up hasn't worked, it's been stuck in pending for the last couple hours",service -1,general,general,phi4:14b,69.52198501676321,,,,,,,,,,,,general,True,,7.94009429088121e-06,4.3566662166522226e-06,5
+llm,can you recommend thai food,service -1,general,general,phi4:14b,66.69416092336178,,,,,,,,,,,,general,True,,7.976691123574853e-06,4.376746605976641e-06,5
+llm,i need to know when i should change my tires,service -1,general,general,phi4:14b,66.93273293785751,,,,,,,,,,,,general,True,,6.245682973374245e-06,3.4269562820266053e-06,5
+llm,Why is it asking me to verify my identity,service -1,general,general,phi4:14b,68.32919805310667,,,,,,,,,,,,general,True,,6.269002472584356e-06,3.439751504687085e-06,5
+llm,my check engine light is on so is anyone available to check it out for me,service -1,general,general,phi4:14b,69.98446979559958,,,,,,,,,,,,general,True,,6.4622954365854e-06,3.5458098076907203e-06,5
