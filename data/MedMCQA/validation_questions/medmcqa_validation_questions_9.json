@@ -1,0 +1,4589 @@
+[
+  {
+    "question":"Crab claw separator is",
+    "subject":"Dental",
+    "choices":[
+      "Farrier separator",
+      "Elliot separator",
+      "Both",
+      "None"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Calcification of roots of deciduous teeth is completed by:",
+    "subject":"Dental",
+    "choices":[
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"The systolic blood pressure in normal healthy males of age group of 40 \u2014 60 has a normal distribution with a mean of 130 in a sample of 100. People with systolic blood pressure more than 130 will be:",
+    "subject":"Dental",
+    "choices":[
+      "100",
+      "75",
+      "50",
+      "25"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Rooting reflex also known as search reflex disappears:",
+    "subject":"Dental",
+    "choices":[
+      "2 month",
+      "3 month",
+      "4 month",
+      "5 month"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Definitive treatment for the condition shown in radiograph below is?",
+    "subject":"Dental",
+    "choices":[
+      "Apexogenesis",
+      "Revascularisation",
+      "Calcium Hydroxide apexification",
+      "MTA barrier formation"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Caries in a 4 year old child is best assessed by:",
+    "subject":"Dental",
+    "choices":[
+      "Previous caries experience",
+      "Maternal caries",
+      "School fluoridation",
+      "Daily fluoride mouthwash"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"The Chamfer finish line is used in",
+    "subject":"Dental",
+    "choices":[
+      "Lingual surface of metal ceramic crown",
+      "Facial surface of metal ceramic crown",
+      "Facial surface of porcelain jacket crown",
+      "Lingual surface of porcelain jacket crown"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Non radiographic method of working length determination:",
+    "subject":"Dental",
+    "choices":[
+      "Digital tactile sense",
+      "Apical periodontal sensitivity",
+      "Electronic apex locator",
+      "All of the above"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Who was associated with second amalgam war?",
+    "subject":"Dental",
+    "choices":[
+      "G V Black",
+      "Charles bell",
+      "Huggins",
+      "Alfred stock"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"The percentage of fluoride used in iontophoresis is:",
+    "subject":"Dental",
+    "choices":[
+      "1%",
+      "2%",
+      "4%",
+      "8%"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Resistance to corrosion in a cobalt-chrome casting is due to presence of:",
+    "subject":"Dental",
+    "choices":[
+      "High quality iron",
+      "Chrome",
+      "Cobalt",
+      "Nickel"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following should be treated by using a \ntissue conditioner material?",
+    "subject":"Dental",
+    "choices":[
+      "Tissue symptoms related to diabetes mellitus",
+      "Generalized ridge hyperplasia",
+      "Traumatized mucosa caused by ill fitting dentures",
+      "Sharp residual ridge in molar area"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Working cusps are also known as:",
+    "subject":"Dental",
+    "choices":[
+      "Guiding cusps.",
+      "Supporting cusps.",
+      "Holding cusps.",
+      "Balancing cusps."
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Most common organism responsible for acute apical abscess:",
+    "subject":"Dental",
+    "choices":[
+      "Trepenoma denticola",
+      "Dilaster invisus",
+      "E. faecalis",
+      "All of the above"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"The classification is given by:",
+    "subject":"Dental",
+    "choices":[
+      "Ackerman",
+      "Proffit",
+      "Dewey",
+      "Both 1 and 2"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following type of flow occurs, when on applying critical shear stress, a material turns to liquid?",
+    "subject":"Dental",
+    "choices":[
+      "Bingham body behaviour",
+      "Newtonian body",
+      "Dilatant",
+      "Pseudoplastic"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Etching time in teeth with fluorosis",
+    "subject":"Dental",
+    "choices":[
+      "10-15 sec",
+      "15-30 sec",
+      "60-90 sec",
+      "Can\u2019t be etched"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Tooth brush abrasions are more common on the",
+    "subject":"Dental",
+    "choices":[
+      "Mandibular teeth, on the right half of the arch",
+      "Mandibular teeth, on the left half of the arch",
+      "Maxillary teeth, on the right half of the arch",
+      "Maxillary teeth, on the left half of the arch"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"If a permanent first molar is lost, the permanent second molar drifts to the:",
+    "subject":"Dental",
+    "choices":[
+      "Buccal side",
+      "Distal side",
+      "Mesial side",
+      "Lingual side"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"The lingual extension of a Lower denture is Limited by all of the following (except)",
+    "subject":"Dental",
+    "choices":[
+      "Modiolus",
+      "Mylohyoid muscle",
+      "Origin of genioglossus",
+      "Sublingual salivary glands"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"In reversible hydrocolloid the property by which the transformation from sol to gel and gel to sol occurs, is a function of the:",
+    "subject":"Dental",
+    "choices":[
+      "Concentration of fillers and plasticizer",
+      "Percentage composition by weight of water",
+      "Concentration of potassium sulphate",
+      "Temperature"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Bar-clasp assembly mostly used is:",
+    "subject":"Dental",
+    "choices":[
+      "Mesio-occlusal rest",
+      "Disto-occlusal rest",
+      "Buccal approach",
+      "None of the above"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Finishing and Polishing of Amalgam make the restoration:",
+    "subject":"Dental",
+    "choices":[
+      "Increase in tarnish and corrosion resistance",
+      "Increase the marginal strength",
+      "Decrease the tarnish and corrosion resistance",
+      "Increased compressive strength"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Chromium is used in stainless steel for which purpose?",
+    "subject":"Dental",
+    "choices":[
+      "Corrosion resistance",
+      "Increases the lustre of stainless steel",
+      "Stabilization of the alloy",
+      "Increases the hardness of steel"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"All of the following are true about polymerization shrinkage of composite resin except:",
+    "subject":"Dental",
+    "choices":[
+      "The more surface area of bonded structure causes LESS shrinkage compare to surface area of unbounded structure restoration.",
+      "Class-V composite restoration causes. Contraction more than gold restoration",
+      "Etching and priming reduces shrinkages",
+      "One third (1\/3rd) of the enamel involves causes more shrinkage"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which\tof the following is\turethane\tdimethacrylate\n(UDMA) resin based endosealer?",
+    "subject":"Dental",
+    "choices":[
+      "Endorez",
+      "Real seal",
+      "Raeko sealer",
+      "Tubli seal"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Arch length analysis of a dentition shows a discrepancy of more than 10 mm. This indicates:",
+    "subject":"Dental",
+    "choices":[
+      "No extraction required if treated at an early age",
+      "No extraction required",
+      "Extraction of posterior teeth",
+      "Proximal stripping"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"The flap technique for pocket elimination and to increase\nin width of attached gingiva is",
+    "subject":"Dental",
+    "choices":[
+      "Coronally repositioned flap",
+      "Apically repositioned flap",
+      "Lateral pedicel flap",
+      "Modified widman flap"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"The function of posterior palatal seal is:",
+    "subject":"Dental",
+    "choices":[
+      "To aid in balanced occlusion",
+      "To aid in insertion and removal of complete denture",
+      "To ensure a complete seal thus helping in retention of a denture",
+      "Retention of mandibular denture by sealing its posterior margin."
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Most suitable pontic for maxillary posterior area",
+    "subject":"Dental",
+    "choices":[
+      "Trupontic or long pin pontic",
+      "Sanitary pontic",
+      "Flat back pontic with porcelain facing",
+      "Pin facing pontic"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"A traumatized tooth nonvital with or without crown\nfracture is classified as",
+    "subject":"Dental",
+    "choices":[
+      "Class-III",
+      "Class-IV",
+      "Class -V",
+      "Class-VII"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Lateral movement of condyle is caused by:",
+    "subject":"Dental",
+    "choices":[
+      "Contralateral lateral pterygoid muscle",
+      "Both lateral and medial pterygoid muscle",
+      "Epsilateral lateal pterygoid muscle",
+      "Bilateral contraction of lateral pterygoid muscle"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Most common complication during ridge split or bone spreading is",
+    "subject":"Dental",
+    "choices":[
+      "Dehiscence",
+      "Facial plate splitting",
+      "Implant micro movement",
+      "Poor position of implant"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"All factors governing dentine permeability EXCEPT",
+    "subject":"Dental",
+    "choices":[
+      "Smear Layer",
+      "Fluid Convection",
+      "Length of dentinal tubules",
+      "Diffusion coefficient"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which ion of hydroxyapatite crystals is substituted by Fluoride imparts more strength?",
+    "subject":"Dental",
+    "choices":[
+      "Hydroxyl ion",
+      "Calcium ion",
+      "Phosphate ion",
+      "None"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following statement is true as far as spring back bending of super-elastic NiTi and non-super elastic NiTI wires is concern?",
+    "subject":"Dental",
+    "choices":[
+      "Spring back in bending is much greater for superelastic NiTi wires than non-superelastic NiTi",
+      "Spring back in bending is much lesser for superelastic NiTi wires than non-superelastic",
+      "Spring back in bending is same for superelastic Nill wires as well as non-superelastic NiTi wires",
+      "No comparison can be made between the spring back in bending of these two wires"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Point used as termination of Root canal procedure is",
+    "subject":"Dental",
+    "choices":[
+      "Apical constriction",
+      "Apical foramen",
+      "Both",
+      "None"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Sterilization of hand piece will cause:",
+    "subject":"Dental",
+    "choices":[
+      "Rust of hand piece",
+      "Turbine wear",
+      "Fibre loss",
+      "Loss of torque"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"According to ISO 6876-2001 ADA specifications 57 Endodontics sealer penetration is upto?",
+    "subject":"Dental",
+    "choices":[
+      "150 \u03bcm",
+      "50 \u03bcm",
+      "300 \u03bcm",
+      "100 \u03bcm"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Heavy and light body impression materials are used with:",
+    "subject":"Dental",
+    "choices":[
+      "Mercaptan",
+      "Silicone",
+      "Reversible hydrocolloid",
+      "1 and 2"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following instruments are more efficient?",
+    "subject":"Dental",
+    "choices":[
+      "Stainless steel",
+      "Carbon steel",
+      "Both have equal efficacy",
+      "None"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following orthodontic wire has least modulus of elasticity?",
+    "subject":"Dental",
+    "choices":[
+      "NiTi",
+      "Beta titanium",
+      "Stainless steel",
+      "Co-Cr-Ni"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which is true about mucogingival flap designs",
+    "subject":"Dental",
+    "choices":[
+      "Flap should be wider at the base",
+      "Flap should be narrower at the base",
+      "Flap margins should not rest on bone",
+      "Mucogingival flaps should be avoided"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Chewing stroke starts from?",
+    "subject":"Dental",
+    "choices":[
+      "CO",
+      "CR",
+      "Maximum intercuspation",
+      "CR or CO depends on patient to patient"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Gutta Percha can effectively be sterilized by?",
+    "subject":"Dental",
+    "choices":[
+      "Hot salt sterilizer",
+      "Chemical solutions",
+      "Autoclaving",
+      "Dry heat"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following is true about Chi-square test?",
+    "subject":"Dental",
+    "choices":[
+      "Measures qualitative data",
+      "Measures both qualitative and quantitative data",
+      "Measures the qualitative data between two proportion",
+      "Measure the quantitative data between two proportion"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Most common extraradicular microorganism is\/ are:",
+    "subject":"Dental",
+    "choices":[
+      "Actinomyces species.",
+      "Propioni bacterium.",
+      "Propionicum.",
+      "All of the above."
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Largest Faciolingual dimension is seen in",
+    "subject":"Dental",
+    "choices":[
+      "Lower 1st molar",
+      "Upper 1st molar",
+      "Lower 2nd molar",
+      "Upper 2nd molar"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following type of tongue thrusting has the worst prognosis?",
+    "subject":"Dental",
+    "choices":[
+      "Simple",
+      "Complex",
+      "Retained infantile swallow",
+      "All of the above"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Multi constricted apical constriction is seen in which type of Dummer\u2019s classification",
+    "subject":"Dental",
+    "choices":[
+      "Type 1",
+      "Type 2",
+      "Type 3",
+      "Type 4"
+    ],
+    "expected_service":"Dental"
+  },
+  {
+    "question":"Which of the following sinus grows till early adulthood:-",
+    "subject":"ENT",
+    "choices":[
+      "Maxillary",
+      "Ethmoidal",
+      "Frontal",
+      "Sphenoid"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Best surgery to relieve intractable veigo in a menieres disease patient is?",
+    "subject":"ENT",
+    "choices":[
+      "Surgical Labyinthectomy",
+      "Vestibular neurectomy",
+      "Endolymphatic sac decompression",
+      "Cochleosacculotomy"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"All are characteristic features of superior semicircular canal dehiscence except?",
+    "subject":"ENT",
+    "choices":[
+      "Third window phenomenon",
+      "SNHL",
+      "Tullio's phenomenon",
+      "Vestibular evoked myogenic potential is useful investigation."
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"A child presents with high grade fever, inspiratory stridor and develops swallowing difficulty with drooling of saliva since last 4-6 hours. Which of the following treatment is recommended apa from general airway management?",
+    "subject":"ENT",
+    "choices":[
+      "Nebulized racemic epinephrine",
+      "Anti-diphtheria toxin",
+      "Coicosteroids",
+      "IV ceftriaxone"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Kamla 4 yrs of age presented in emergency with mild respiratory \"stress. On laryngoscopy she was diagnosed to have multiple juvenile papilomatosis of the larynx. Next line of management is -",
+    "subject":"ENT",
+    "choices":[
+      "Tracheostomy",
+      "Microlaryngoscopy",
+      "Steroid",
+      "Antibiotics"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"A 60-year old male presents with painful, 141 oupet. vesicles over erythematous plaques in T3 dermatome region of trunk. Which of the following would be the most likely causative organism?",
+    "subject":"ENT",
+    "choices":[
+      "Varicella zoster",
+      "Herpes simplex",
+      "Pox virus",
+      "Papilloma virus"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"A patient has bilateral conductive deafness, tinnitus with positive family history. The diagnosis is -",
+    "subject":"ENT",
+    "choices":[
+      "Otospongiosis",
+      "Tympanosclerosis",
+      "Meniere's disease",
+      "B\/L otitis media"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"An elderly male presents with T3NO laryngeal carcinoma. What would be the management?",
+    "subject":"ENT",
+    "choices":[
+      "Neoadjuvant chemotherapy followed by radiotherapy",
+      "Concurrent chemoradiotherapy",
+      "Radical radiotherapy followed by chemotherapy",
+      "Radical radiotherapy without chemotherapy"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"All are the branches of ECA that supply nasal septum except:",
+    "subject":"ENT",
+    "choices":[
+      "Anterior ethmoidal aery",
+      "Sphenopalatine aery",
+      "Facial aery",
+      "Superior labial aery"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"A 16-year-old male complains of nasal obstruction and recurrent epistaxis for several months. On CT scan of Nose and Paranasal Sinuses, an enhancing mass is seen in the nasopharynx with minimal extension into sphenoid sinus and no lateral extension. What is the stage of this lesion?",
+    "subject":"ENT",
+    "choices":[
+      "IA",
+      "IB",
+      "IIA",
+      "IIB"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"A patient presents to your clinic for evaluation of defective hearing. Rinne's test shows air conduction greater than the bone conduction on both sides with Weber test lateralized to right ear. What is the next logical step?",
+    "subject":"ENT",
+    "choices":[
+      "Normal test",
+      "Schwabach's test",
+      "Repeat Rinne's test on right side",
+      "Wax removal"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"All the following instruments are required for tonsillectomy except:",
+    "subject":"ENT",
+    "choices":[
+      "Coblation wand",
+      "Bipolar cautery",
+      "Microdebrider",
+      "Harmonic scalpel"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Which is the most common type of congenital ossicular dysfunction?",
+    "subject":"ENT",
+    "choices":[
+      "Isolated stapes defect",
+      "Stapes defect with fixation of footplate and lenticular process involvement.",
+      "Defective lenticular process of incus",
+      "None of the above."
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"First paranasal sinus to develop at bih is:",
+    "subject":"ENT",
+    "choices":[
+      "Maxillary",
+      "Ethmoidal",
+      "Frontal",
+      "Sphenoidal"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"In Dysphonia plica ventricularis, sound is produced by -",
+    "subject":"ENT",
+    "choices":[
+      "False vocal cords",
+      "True vocal cords",
+      "Ventricle of larynx",
+      "Tongue"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"According to the WHO definition of hearing loss, what is the value to classify as profound hearing loss?",
+    "subject":"ENT",
+    "choices":[
+      "61-71 dB",
+      ">81 dB",
+      ">91 dB",
+      ">101 dB"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"female patient came with right side hearing loss, better heard in a noisy environment,Audiogram shown with about 30-40 dB gap between AC-BC of right & left ear. Rinne's test negative, Weber's test centralised. Which of the following condition shown?",
+    "subject":"ENT",
+    "choices":[
+      "Meniere's disease",
+      "stapedial otosclerosis",
+      "Presbycusis",
+      "Vestibular schwannoma"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Onodi cells and Haller cells are seen in relation to following respectively -",
+    "subject":"ENT",
+    "choices":[
+      "Optic nerve and floor of the orbit",
+      "Optic nerve and internal carotid artery",
+      "Optic nerve and nasolacrimal duct",
+      "Orbital floor and nasolacrimal duct"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Patient underwent surgery at the lateral pa of the skull. Postoperatively patient had aspirations without voice change",
+    "subject":"ENT",
+    "choices":[
+      "Vagus",
+      "RLN",
+      "Glossopharyngeal",
+      "SLN"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"A case of carcinoma larynx with the involvement of anterior commissure and right vocal cord, developed perichondritis of thyroid cartilage. Which of the following statements is true for the management of this case -",
+    "subject":"ENT",
+    "choices":[
+      "He should be given radical radiotherapy as this can cure early tumors",
+      "He should be treated with combination of chemotherapy and radiotherapy",
+      "He should first receive radiotherapy and if residual tumor is present then should undergo laryngectomy",
+      "He should first undergo laryngectomy and then post-operative radiotherapy"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Which of the following marked arrow represent lateral semicircular canal during coical mastoidectomy:",
+    "subject":"ENT",
+    "choices":[
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"The wave ' V ' in BERA represents activity in which of the following ?",
+    "subject":"ENT",
+    "choices":[
+      "Lateral lemniscus",
+      "Superior olivary complex",
+      "Cochlear nerve",
+      "Cochlear nucleus"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Topical treatment for recurrent respiratory papillomatosis includes:",
+    "subject":"ENT",
+    "choices":[
+      "Acyclovir",
+      "Cidofovir",
+      "Ranitidine",
+      "Zinc"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Which focal length in the objective piece of microscope is commonly used for ear surgery?",
+    "subject":"ENT",
+    "choices":[
+      "100mm",
+      "250 mm",
+      "450mm",
+      "950 mm"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"CA maxillary sinus stage III (T3 No Mo), treatment of choice is \/ Ca maxillary sinus is treated by -",
+    "subject":"ENT",
+    "choices":[
+      "Radiotherapy",
+      "Surgery + Radiotherapy",
+      "Chemotherapy",
+      "Chemotherapy + Surgery"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"A 35 years old female patient present with hearing loss with improvement in hearing in noisy environment. On examination Rinne's is negative and weber's is centralized. Following is the audiometry repo. What is the most likely diagnosis:",
+    "subject":"ENT",
+    "choices":[
+      "Meniere's disease",
+      "Perilymph fistula",
+      "Stapedial Otosclerosis",
+      "Vestibular Schwannoma"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"In complete bilateral palsy of recurrent laryngeal nerves, there is -",
+    "subject":"ENT",
+    "choices":[
+      "Complete loss of speech with stridor and dyspnea",
+      "Complete loss of speech but not difficulty in breathing",
+      "Preservation of speech with severe stridor and dyspnea",
+      "Preservation of speech and not difficulty in breathing"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"All of the following are true regarding tonsillectomy in children except:",
+    "subject":"ENT",
+    "choices":[
+      "Extracapsular approach is best for cold approach",
+      "Sleep apnea is an indication",
+      "Adenoids should also be removed if significantly involved",
+      "Cricothyroid region is high and anterior in children than adults"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"A patient presented with flat topped violaceous papules, thinning of nails and onycholysis. What is the microscopic finding observed in this patient?",
+    "subject":"ENT",
+    "choices":[
+      "Prominent necrotic cell",
+      "Suprabasal split",
+      "Basal cell degeneration",
+      "Acantholysis"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Angio fibroma is classified as what stage if it extends to one or more paranasal sinuses",
+    "subject":"ENT",
+    "choices":[
+      "Stage I",
+      "Stage II",
+      "Stage III",
+      "Stage IV"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Pharyngeal Pseudosulcus is seen secondary to-",
+    "subject":"ENT",
+    "choices":[
+      "Vocal Abuse",
+      "Laryngopharyngeal Reflux",
+      "Tuberculosis",
+      "Corticosteroid usage"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"A 55 year old male presents with a lesion of 2.5*3.5 cm on lateral border of tongue with induration. There is no associated lymphadenopathy. What is the staging according to the 8th AJCC guidelines?",
+    "subject":"ENT",
+    "choices":[
+      "T2N0M0",
+      "T3N2M0",
+      "T4N3M0",
+      "T3N2M0"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Which is the most common site for congenital cholesteatoma",
+    "subject":"ENT",
+    "choices":[
+      "Anterior superior quadrant of tympanic membrane",
+      "Posterior superior quadrant of tympanic membrane",
+      "Anterior inferior quadrant of tympanic membrane.",
+      "posterior inferior quadrant of tympanic membrane"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Arrange the sequence of auditory pathway from peripheral to central: Inferior colliculus Cochlear nucleus Auditory coex Medial geniculate body",
+    "subject":"ENT",
+    "choices":[
+      "B>A>D>C",
+      "B>D>C>A",
+      "A>D>B>C",
+      "C>A>B>D"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Eustachian tube function is best assessed by:",
+    "subject":"ENT",
+    "choices":[
+      "Tympanometry",
+      "VEMP",
+      "Rhinomanometry",
+      "Politzer test"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"A patient presents with carcinoma of the larynx involving the left false cords, left arytenoid and the left aryepiglottic folds with bilateral mobile true cords. Treatment of choice is -",
+    "subject":"ENT",
+    "choices":[
+      "Vertical hemilaryngectomy",
+      "Horizontal partial hemilaryngectomy",
+      "Total laryngectomy",
+      "Radiotherapy followed by chemotherapy"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Cranial nerve that is not involved in olfaction:-",
+    "subject":"ENT",
+    "choices":[
+      "Glossopharyngeal",
+      "Vagus",
+      "Hypoglossal",
+      "Trigeminal"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Noise induced hearing toss inosto affects:",
+    "subject":"ENT",
+    "choices":[
+      "Inner hair cell",
+      "Outer hair cell",
+      "Macula",
+      "Cupula"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Most common cause for nose bleeding is-",
+    "subject":"ENT",
+    "choices":[
+      "Trauma to little's area",
+      "A.V. aneurysm",
+      "Postero superior part of nasal septum",
+      "Hiatus - semilunaris"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"A person presented to OPD with complaints of rotatory veigo and nausea in the morning on change in position of the head. WHat is your diagnosis?",
+    "subject":"ENT",
+    "choices":[
+      "Labyrinthitis",
+      "BPPV",
+      "Vestibular neuronitis",
+      "Meniere's disease"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"A patient of carcinoma larynx with stridor presents in casualty, immediate management is -",
+    "subject":"ENT",
+    "choices":[
+      "Planned tracheostomy",
+      "Immediate tracheostomy",
+      "High dose steroid",
+      "Intubate, give bronchodilator and wait for 12 hours, if no response, proceed to tracheostomy"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Which of the following is premalignant -",
+    "subject":"ENT",
+    "choices":[
+      "Chronic glossitis",
+      "Submucous fibrosis",
+      "Hypertrophic glossitis",
+      "Aphthous stomatitis"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Which of the following is characteristic of T.B. otitis media -",
+    "subject":"ENT",
+    "choices":[
+      "Marginal perforation",
+      "Attic perforation",
+      "Large central perforation",
+      "Multiple perforation"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Which of the following technique is used to move tongue away from post pharyngeal wall",
+    "subject":"ENT",
+    "choices":[
+      "Jaw thrust maneuver",
+      "Triple maneuver",
+      "Head maneuver",
+      "Neck maneuver"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"The treatment of choice for stage I cancer larynx is-",
+    "subject":"ENT",
+    "choices":[
+      "Radical surgery",
+      "Chemotherapy",
+      "Radiotherapy",
+      "Surgery followed by radiotherapy"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Which of the following vessel is not ligated in case of epistaxis control?",
+    "subject":"ENT",
+    "choices":[
+      "Maxillary aery",
+      "Anterior ethmoidal aery",
+      "Internal carotid aery",
+      "External carotid aery"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"The main vessel involved in bleeding from Juvenile nasopharyngeal angiofibroma:",
+    "subject":"ENT",
+    "choices":[
+      "Facial aery",
+      "Ascending pharyngeal aery",
+      "Internal maxillary aery",
+      "Anterior ethmoidal aery"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Tuberculous otitis media is characterized by all except -",
+    "subject":"ENT",
+    "choices":[
+      "Multiple perforations",
+      "Pale granulations",
+      "Pain",
+      "Thin odourless fluid"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Olympian brown and rhagdes are seen in-",
+    "subject":"ENT",
+    "choices":[
+      "CMV inclusion disease",
+      "Ectodermal dysplasia",
+      "Congenital syphilis",
+      "Hyper IgE syndrome"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Target sign is seen in?",
+    "subject":"ENT",
+    "choices":[
+      "Spontaneous CSF Rhinorrhea",
+      "Traumatic CSF Rhinorrhea",
+      "Both",
+      "None"
+    ],
+    "expected_service":"ENT"
+  },
+  {
+    "question":"Ewing's postulates concerns with which of the following:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Growth at the site following trauma",
+      "Growth after a neurological injury",
+      "Age related changes in the teeth",
+      "Old seminal stains"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Boiled lobster syndrome is seen in poisoning of:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Boric acid",
+      "HNO,",
+      "H,SO4",
+      "Phenol"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Concentric teeth bite mark on forearm, what to do next?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "2 swab technique for saliva collection",
+      "Keep scale for measuring below the mark and take photo in the plane of bite",
+      "Complete description of injury as seen",
+      "Prepare cast using vinyl polysiloxane"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Which acid does not show coagulation necrosis on contact?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "HC1",
+      "H,SO4",
+      "HF",
+      "HNO3"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Which of the following principles governs biomedical research in human subjects?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Geneva declaration",
+      "Helsinki declaration",
+      "Hippocratic oath",
+      "International code of medical ethics"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"An autopsy was performed on a case of accidental death. It showed two linear fractures on petrous pa of temporal bone. Which of the following rules gives the sequence of fractures?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "McNaughton's rule",
+      "Puppe's rule",
+      "Young's rule",
+      "Dunlop's rule"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"20-year-old female had abdominal pain previous week, USG and clinically normal. Again she presented with loss of vision, examination is normal. Diagnosis is:AIIMS 13",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Malingering",
+      "Masochist",
+      "Hypochondriac",
+      "Anxiety disorder"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Keeping in Jack-knife position for long leads to death by:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Wedging",
+      "Burking",
+      "Positional asphyxia",
+      "Traumatic asphyxia"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Two bodies are found outside the car following an accident. The doctor conducting the autopsy was able to decide who was driver based on all of these features except:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Whiplash injury",
+      "Steering wheel imprint",
+      "Sparrow foot marks",
+      "Seat belt abrasion over left shoulder"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"The high cou has the power to stay the execution of a pregnant woman according to which section of Criminal Procedure Code?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "416 CrPC",
+      "417 CrPC",
+      "418 CrPC",
+      "419 CrPC"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"According to 'DELHI ANATOMY ACT 1957', a person died in road traffic accident, the dead body is said to be unclaimed after.",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "24 hours",
+      "48 hours",
+      "72 hours",
+      "96 hours"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"A person of eonism derives pleasure from.",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Wearing clothes of opposite sex",
+      "Fondling female body pas",
+      "Rubbing genitalia against body of other person",
+      "Seeing the opposite paner nude"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"A middle aged lady was found in a robbed room lying in a pool of blood on forensic examination there was an entry wound of size around 2 x 2 cm on the left temporal region with tattooing and blackening around the wound. There was also an exit wound with beveling at the right temporal region. On fuher examination two bullet fragments were found inside the brain parenchyma. Which of the following could be used to determine the distance from which the weapon was fired?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Hair",
+      "Clothes",
+      "Bullet fragments",
+      "Blood"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Which of the following statement is false statement about snake-bites?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Anti-venom is not effective in humpnosed pit viper bite",
+      "Cobra venom is neurotoxic",
+      "Atropine premedication should be used before administering Neostigmine",
+      "Neostigmine has a role in krait bite."
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Embalming without issuing death ceificate is punishable under section:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "IPC 201",
+      "IPC 297",
+      "IPC 299",
+      "IPC 498"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"As per mental health care act, an individual with a known psychotic disorder on treatment and is not a minor, can choose to decide the caretaker and the course of treatment. This is called as:-",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Advance directive",
+      "Treatment directive",
+      "Mental will",
+      "Future directive"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"After a building collapse, among remnants, a person's length of humerus is 24.5 cm. What is the predicted height of this person?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "90 cm",
+      "110 cm",
+      "130 cm",
+      "146 cm"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"A 38 years old female presented to the emergency with extensive burns. The patient had grade 3 burns on the face, back, upper arms and forearms along with singeing of hairs. Which of the following is not a proof of inhalation burns?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Yellow colored sputum",
+      "Blackish soot deposit on posterior pa of tongue",
+      "Hoarseness & stridor of voice",
+      "Singeing of eyebrows and facial hair"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Poisoning by which of these elements causes blind staggers alkali disease in livestock?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Magnesium",
+      "Manganese",
+      "Selenium",
+      "Molybdenum"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"A man throws sulphuric acid on the face of his wife after a fight following which she comes to the emergency for suppoive management. All of these statements are true about chemical burns except:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Blisters are present",
+      "Ulcerated patches are present",
+      "Absence of singeing of hairs",
+      "Coagulation necrosis occurs at the site of burn"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"An adult came to casualty with complaints of rapid hea rate. On examination everything else was normal except for episodic tachycardia and occasional extra-systole and amblyopia. Which of the following is the cause of it?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Nicotine",
+      "Cannabis",
+      "Atropine",
+      "Cocaine"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"A 70 years old male patient presents with amblyopia, exeional chest pain, episodic tachycardia and extra systoles on FCC. What is the probable cause?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Cocaine poisoning",
+      "Chronic nicotine poisoning",
+      "Arsenophagia",
+      "Cannabis ingestion"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"A 14 years old rape victim with 22 weeks of gestation coming to hospital. All of the following can be done except:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Male doctor can examine her with female attendant",
+      "Gynecologist can abo the fetus upon the patient request",
+      "No need to collect vaginal swab",
+      "UPT not required"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"A person was advised by his ohopedic surgeon to get regular dressing of his wound done. But the patient did not give much care. During follow-up, patient was repeatedly told to get the dressing done timely but patient didn't do the dressing himself, saying that he was busy. Finally the wound enlarged and the underlying bone developed osteomyelitis. Which of the following statement is true regarding above-mentioned situation?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Doctor is guilty under \"Last clear chance\" doctrine",
+      "Doctor is not guilty under \"Contributory negligence\"",
+      "Doctor is punishable under avoidable negligence",
+      "Doctor is guilty as he prescribed wrong medicines"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"In case of professional misconduct Patients records on demand should be provided within?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "36 hours",
+      "36 hours",
+      "72 hours",
+      "7 days"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"According to POCSO, all of the following are aggravated sexual offence except:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Gang Rape",
+      "Rape by threatening",
+      "Rape by police officer",
+      "Rape during communal violence"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"All are true about Doctrine ofborrowed servant except?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Hospital administration is responsible for the actions of interns and trainees",
+      "A nurse assisting a surgery is a borrowed servant ofthe hospital",
+      "Doctor assisting a surgeon for fee in OT",
+      "Physician is responsible for the acts ofthe orderlies and nursing staff done by his orders"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Which of the following is not true regarding teeth features and ethnicity?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Upper third molar is most commonly absent in Mongolians",
+      "Carabelli cusps are seen in Caucasians",
+      "Negros have wide molar cusps and deep, shovel shaped cusps in incisors",
+      "Prominent lingual ridge and labial ridge is seen in Mongolians"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"In assessing infant deaths, Ploucquet's test involves:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Change in specific gravity of lungs",
+      "Presence of air in stomach and duodenum",
+      "Change in paial weight of lungs",
+      "Air in middle ear"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"A doctor who performed the autopsy on a 26-year-old married woman, committing suicide found the cause of death to be aluminium phosphide poisoning. She was summoned in a cou of law where he willingly hides this information. This is punishable under which section?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "IPC 193",
+      "CrPC 175",
+      "CrPC 69",
+      "IPC 189"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Atropine is not an antidote in:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Tik 20",
+      "Endrin",
+      "Baygon",
+      "Parathion"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"In judicial hanging, the knot is placed at:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Below the chin",
+      "Angle of the jaw",
+      "The back of the neck",
+      "Choice of hangman"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"IPC section dealing with illegal aboion with woman consent?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "310",
+      "312",
+      "313",
+      "314"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"The active principle of white oleander is:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Nicotine",
+      "Nerin",
+      "Abrine",
+      "Pilocarpine"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Aggravated penetrative sexual assault under POCSO 2012 are all except:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Threatening",
+      "Gang",
+      "During communal or secular violence",
+      "By police officer"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"\"First hand knowledge\" refers to",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Opinion of a doctor in cou",
+      "Handwriting expe",
+      "Common witness",
+      "Fingerprint expe"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"The following system of depiction of 32 teeth is in accordance with which system?Permanent TeethUpper RightUpper Left1234567891011121314151632313029282726252423222120191817Lower RightLower Left",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Universal system",
+      "Palmer's system",
+      "Haderup system",
+      "Diagrammatic depiction"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"A bomb blast took place in Delhi following which 2 persons died. All of the following are true about their injuries except:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Injuries occurred due to burns air blast",
+      "Force of explosion decreases rapidly",
+      "Force of explosion is directional",
+      "Bruise, laceration, fractures are triad of main explosive injuries seen"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"All are true for the following about methanol poisoning EXCEPT:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Fomepizole is a competitive inhibitor of aldehyde dehydrogenase",
+      "Minimum lethal dose of methanol is 1.25 ml\/kg body weight",
+      "Formic acid is mainly responsible for toxicity",
+      "Methanol causes snow field vision"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Under section 304A of IPC, for a proved case of medical negligence, The maximum punishment of imprisonment is up to:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "1 year",
+      "2 years",
+      "3 years",
+      "5 years"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"A 16-year-old girl comes to a doctor with fractured forearm. She told she tripped and fell but cigarette burns were observed on her forearm. What will be your Next step?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "To inform higher authorities",
+      "To do a complete physical examination",
+      "To tell or discuss with colleagues that she is a case of abuse",
+      "To call local social worker for help"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"All of the following are suggestive of domestic violence in a child except:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Wormian bones",
+      "Microfractures in the sub-ep physeal region",
+      "Corner fractures",
+      "Bucket handle fractures of metaphyses"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"All of these stains are used in tattooing except:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Osmium blue",
+      "Prussian blue",
+      "Vermillion",
+      "India ink"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Lateral traction test is done in unnatural sexual offences in:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Habitual active agent",
+      "Pedophilia active agent",
+      "Bestiality active agent",
+      "Habitual passive agent"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"This specific sign is seen in:",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Lead poisoning",
+      "Organophosphorus poisoning",
+      "Arsenic poisoning",
+      "Zinc poisoning"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"In post moem body traumatic injury of face with one eye missing and some injury on mouth and nose ( right eye ball was missing , blood in socket area ) Cause of injury",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Blunt rupture to eyeball",
+      "Evisceration by sharp weapon",
+      "Post moem aefact",
+      "None of the Above"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"A 16-year-old female with normal pubic hair and breast development, presented with complaints of primary amenorrhea. Investigation shows normal karyotype. Most likely diagnosis is:AFMC 12; JIPMER 12; AIIMS 12, 13",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Mullerian agenesis",
+      "Turner syndrome",
+      "Testicular feminization",
+      "Kallmann syndrome"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Which of these findings is not specific of blast injury?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Abrasion",
+      "Bruise",
+      "Puncture laceration",
+      "Fracture"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"A patient with Suspected Poisoning with meiosis, Increased Bronchial Secretions & salivation from Angle of mouth. What type of Antidote is to be Given.",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "Atropine",
+      "EDTA",
+      "Neostigmine",
+      "Belladonna"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"According to Transplantation of Human Organs Act, which of the following doctors is\/are not authorized to declare brainstem death?",
+    "subject":"Forensic Medicine",
+    "choices":[
+      "RMP incharge of the hospital",
+      "Treating physician",
+      "Neurosurgeon",
+      "Surgeon doing liver transplant"
+    ],
+    "expected_service":"Forensic Medicine"
+  },
+  {
+    "question":"Best parameter for ultrasound evaluation of IUGR is:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Placental membrane",
+      "Length of femur",
+      "Abdominal circumference",
+      "BPD"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"A female of 36 weeks gestation presents with hypertension, blurring of vision and headache. Her blood pressure reading was 180\/120 mm Hg and 174\/110 mm Hg after 20 minutes. How will you manage the patient?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Admit the patient and observe",
+      "Admit the patient, start antihypertensives and continue pregnancy till term.",
+      "Admit the patient, start antihypertensives, MgSO4 and terminate the pregnancy",
+      "Admit oral antihypertensives and follow up in out-patient department"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Most common cause of post neonatal mortality is:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Genetic cause",
+      "Maternal health during pregnancy",
+      "Environmental causes",
+      "Conditions effecting in early neonatal period"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Which of the following antihypertensives is not safe in pregnancy:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Clonidine",
+      "ACE inhibitors \/ Enalapril",
+      "\u03b1 \u2212 Methyldopa",
+      "Amlodipine"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"In endometriotic lesions, histology represents its:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "High estrogen",
+      "Low insulin",
+      "High levels of prolactin",
+      "High cholesterol"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"A 20 year young female presented for antenatal checkup. She was in 1st trimester and was diagnosed to have ovarian cyst. Treatment of choice:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Surgical removal in IInd trimester",
+      "Removal after delivery",
+      "Termination of pregnancy and cyst removal",
+      "Observation"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"A pregnant lady acquires chickenpox 3 days prior to delivery. She delivers by normal vaginal route which of the following statement is true?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Both mother and baby are safe",
+      "Give antiviral treatment to mother before delivery",
+      "Give antiviral treatment to baby",
+      "Baby will develop neoatal varicella syndrome"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Sudden hyperflexion of thigh over abdomen (Mc Roberts manoeuvre) with of the following nerve is commonly involved?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Common peroneal nerve",
+      "Obturator nerve",
+      "Lumbosacral trunk",
+      "Lateral cutaneous Nerve of thigh"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"All of these can be used for post-coital contraception except:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Desogestrel",
+      "Copper-T",
+      "Levonorgestrel",
+      "OCP"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Exact number of weeks between last menstrual period and expected date of delivery :March 2005",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "38 weeks",
+      "39 weeks",
+      "40 weeks",
+      "41 weeks"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Which of these is not a non-contraceptive use of levonorgestrel?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Endometriosis",
+      "Premenstrual tension",
+      "Complex endometrial hJperplasia",
+      "Emergencycontraception"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Which of the following will not decrease mother to child transmission of HIV?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Avoid breastfeeding",
+      "Vaginal delivery",
+      "Zidovudine given to mother antenataly and to neonate after bih",
+      "Vitamin A supplementation given to mother"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Renal agenesis is associated with:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Hydramnios",
+      "Anencephaly",
+      "Tracheo-oesophageal fistula",
+      "Oligohydramnios"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Hematuria during labour in previous LSCS is sign",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Impending rupture of scar",
+      "Urethral trauma",
+      "Prolong labour",
+      "Sepsis"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"P3L3 came to opd with postcoital bleeding and pap positive p\/v cervix hyperophied bleed on touch diagnosis -",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "CA cervix",
+      "Fibroid",
+      "Cervicitis",
+      "Cervical polyp"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Which of these is seen in Asherman syndrome?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Oligomenorrhea",
+      "Hypomenorrhea",
+      "Metromenorrhagia",
+      "Polymenorrhea"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"G3 with previous second trimester abortion presents with 22 week of gestation, abdominal pain, USG shows funneling of internal os. What is the ideal management?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Dinoprost and bed rest",
+      "Misoprost and bed rest",
+      "Fothergills stitch",
+      "Mc Donald stitch"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"All are true about polycystic ovarian disease except:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Persistently elevated LH",
+      "Increased LH\/FSH ratio",
+      "Increased Dheas",
+      "Increased prolactin"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"A 22 years old gravida 3 para 2 lady delivers a normal child followed by delivery of an intact placenta. Following delivery, the lady develops severe per vaginal bleeding after 30 minutes. On table sonogram revealed retained placental tissue. What is the suspected type of placenta?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Membranous placenta",
+      "Placenta fenestrae",
+      "Placenta accreta",
+      "Placenta succenturiata"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Drugs preventing PPH, all except:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Misoprostol",
+      "Dinoprostone",
+      "PGF-2 alpha",
+      "Oxytocin"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"All of the following are used for screening cancers in females except",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "CA-125: Ovarian cancer",
+      "Office endometrial aspirate: Endometrial carcinoma",
+      "Pap smear: Cervical cancer",
+      "Mammography: Breast cancer"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"A 32 years old female came for routine PAP smear testing. The repo came as carcinoma in situ. What is the next step?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "HPV-DNA testing",
+      "Hysterectomy",
+      "Conization",
+      "Colposcopy and biopsy"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Which of the following is the impoant marker of male infeility in semen analysis?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Motility",
+      "Concentration",
+      "Volume",
+      "Sperm Count"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Premature baby of 34 weeks was delivered. Baby had bullous lesion on the body. X ray shows periosistis what is the next investigation:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "VDRL for mother and baby",
+      "ELISA for HIV",
+      "PCR for T.B.",
+      "Hepatitis surface antigen for mother"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"What should be the time of termination of pregnancy of a female with insulin dependent diabetes?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "40 weeks",
+      "38 weeks",
+      "37 weeks",
+      "34 weeks"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Which of the following is not done for antenatal diagnosis of Down's syndrome:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Amniotic fluid volume estimation",
+      "Alpha-fetoprotein estimation",
+      "Cordocentesis",
+      "Chorionic villous biopsy"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"A pregnant lady with persistent late, variable deceleration with cervical dilatation of 6 cm shifted to OT for surgery. Which of the following is not done in Mmn:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Supine position",
+      "O2 inhalation",
+      "I.V. fluid",
+      "Subcutaneous terbutaline"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"All of the following indicate Fetal lung maturity except?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "LecithiniSphingomyelin ratio >2",
+      "Positive shake test",
+      "Increased phosphatidyl glycerol",
+      "Blue cells in Nile Blue Test"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"A 45 years old patient presented with complaints of pain in abdomen and menorrhagia. Endometrial biopsy was normal and sonogram of uterus showed diffusely enlarged uterus with no adnexal mass. What is the diagnosis?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Fibroid uterus",
+      "Endometritis",
+      "Endometriosis",
+      "Adenomyosis"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"A pregnant female delivered a baby with normal expulsion of an intact placenta. After half hour she staed bleeding per vaginaly. On examination she was hypotensive and boggy mass is palpated per abdomen. USG showed retained placental tissues. what is the likely diagnosis?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Placenta succenturiata",
+      "Adenomyosis",
+      "Placenta accreta",
+      "Membranous placenta"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"IV loading dose of MgSo4 prophylaxis in pre-eclampsia?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "8ml MgSo4+10ml of NS",
+      "10ml MgSo4+10ml of NS",
+      "8ml MgSo4+12ml of NS",
+      "12ml MgSo4+8 ml of NS"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"In which part of fallopian tube ectopic pregnancy will have longest survival:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Isthmus",
+      "Ampulla",
+      "Cornua",
+      "Interstitium"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Which of the following conditions is associated with polyhy dramnios?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Posterior urethral valve",
+      "Cleft palate",
+      "Congenital diaphragmatic hernia",
+      "Bladder exostrophy"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Transmission of HIV from mother to child is prevented by all the following except:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Oral zidovudine to mother at 3rd trimester along with oral zidovudine to infant for 6 weeks",
+      "Vitamin A prophylaxis to mother",
+      "Vaginal delivery",
+      "Stopping breast feed"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"A primigravida came to the labor room at 40 weeks + 5 days gestation for induction of labor. On per vaginal examination, the cervix is 1 cm dilated and 30% effaced. The veex is at --1 station and the cervix is soft and posterior. What will be the modified bishop score for this lady?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "0",
+      "3",
+      "5",
+      "8"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"All of the following indicate superimposed pre-eclampsia in a pregnant female of chronic hypeension except: (Asked twice)",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "New onset proteinuria",
+      "Platelet count < 75,000",
+      "Increase in systolic BP by 30 mm Hg and diastolic by 15 mm Hg",
+      "Fresh retinal hypeensive changes"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Increased calories required during pregnancy:September 2012",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "300",
+      "400",
+      "550",
+      "800"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"A 32-year-old woman is 9 weeks pregnant and has a 10 year old Down's syndrome child. What test would you recommend for the mother so that she can know about her chances of getting a Down's syndrome baby is this present pregnancy. How will you assure the mother about the chances of Down's syndrome in the present pregnancy?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Blood test",
+      "USG",
+      "Chorionic villus sampling",
+      "Assure her there is no chance since she is less than 35 years of age"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Ergometrine is contraindicated in:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Eclampsia",
+      "Abortion",
+      "Induction of labour",
+      "Post partum hemorrhage"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"A G3P2, pregnant comes to your clinic at 18 weeks of gestation for genetic counselling. She has a history of two kids born with thalassemia major. Which test would you recommend now?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Amniocentesis",
+      "Chorionic villus sampling",
+      "Cordocentesis",
+      "Non-invasive prenatal testing"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"According to WHO, anemia in pregnancy is diagnosed, when hemoglobin is less than:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "10.0 gm%",
+      "11.0 gm%",
+      "12.0 gm%",
+      "9.0 gm%"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Which of the following abnormalities is commonly seen in a fetus with congenital CMV infection:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Colitis",
+      "Myocarditis",
+      "Blood dyscrasias",
+      "Pulmonary cyst"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"A 2s-year-old women underwent induced ovulation.on uSG, ovary showed 8 follicles. Serum estradol level was 800 pg\/ml.what is the next step in the management of this patient?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Retrieve follicles",
+      "Give cabergoline",
+      "cancel cycle",
+      "withhold HCG"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"What is the first sign of pubey in a girl?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Thelarche",
+      "Menarche",
+      "Adrenarche",
+      "Pubarche"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Comprehensive emergency obstetric care does not include:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Manual removal of placenta",
+      "Hysterectomy",
+      "Blood transfusion",
+      "Cesarean section"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Foltowing are the features of the color of normal amniotic fluid during delivery?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Milky to yellowish green with mucus flakes",
+      "Amber colored",
+      "Clear colorless to Pale Yellow",
+      "Golden color"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"A woman with 20 weeks pregnancy presents with bleeding per vaginum. On speculum examination, the os is open but no products have comes t. The most likely diagnosis is:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Incomplete aboion",
+      "Complete aboion",
+      "Inevitable aboion",
+      "Missed aboion"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"A 23-year-old lady taking antiepileptics for a seizure disorder gets married. When should folic acid supplementation advised to the patient?",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Any time as soon as she presents to the clinic irrespective of pregnancy",
+      "Three months before becoming pregnant",
+      "1st trimester",
+      "As soon as pregnancy is confirmed"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"DOC for bacterial vaginosis in pregnancy",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Clindamycin",
+      "Erythromycin",
+      "Rovamycin",
+      "Metronidazole"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Maximum risk of ureter injury is seen after:",
+    "subject":"Gynaecology & Obstetrics",
+    "choices":[
+      "Vaginal hysterectomy",
+      "Weheim's hysterectomy",
+      "Laparoscopic abdominal hysterectomy",
+      "Anterior colporrhaphy"
+    ],
+    "expected_service":"Gynaecology & Obstetrics"
+  },
+  {
+    "question":"Chemotactic cytokine is",
+    "subject":"Microbiology",
+    "choices":[
+      "IL-1",
+      "IL-6",
+      "IL-8",
+      "TNF"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Helminth implicated in causing pernicious anemia is:",
+    "subject":"Microbiology",
+    "choices":[
+      "Diphyllobothrium latum",
+      "Ascaris",
+      "Taenia solium",
+      "Hymenolepis nana"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Which of the following is microaerophilic -",
+    "subject":"Microbiology",
+    "choices":[
+      "Campylobacter",
+      "Vibrio",
+      "Bacteroides",
+      "Pseudomonas"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"A 30 year old female is on antibiotics with prolonged IV cannulation, has spike of fever, the likely cause is :",
+    "subject":"Microbiology",
+    "choices":[
+      "Pseudomonas aerugenosa",
+      "Coagulase negative staphylococcus",
+      "Streptococcus agalactiae",
+      "E. coli"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Malaria relapse common with which type plasmodium species?",
+    "subject":"Microbiology",
+    "choices":[
+      "Plasmodium malariae and vivax",
+      "Plasmodium falciparum and vivax",
+      "Plasmodium vivax and ovale",
+      "Plasmodium ovale and malariae"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Rabies vaccine not to be given in case of?",
+    "subject":"Microbiology",
+    "choices":[
+      "Rat bite",
+      "Cat bite",
+      "Dog bite",
+      "Monkey bite"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Episodes of repeated thin stools with mucus, subjective feeling of fever and lower abdominal pain, with leukocytes in stool. Which of the following is likely?",
+    "subject":"Microbiology",
+    "choices":[
+      "Giardia",
+      "Entamoeba",
+      "Staph",
+      "Clostridium perfringens"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Which of the following malignancy is not caused by Human Papilloma Virus (HPV) infection?",
+    "subject":"Microbiology",
+    "choices":[
+      "Carcinoma base of tongue",
+      "Cervical carcinoma",
+      "Tonsillar carcinoma",
+      "Nasopharyngeal carcinoma"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Transfusion-associated malaria has a shoer incubation period because of the presence in blood of:",
+    "subject":"Microbiology",
+    "choices":[
+      "Trophozoites",
+      "Sporozoites",
+      "Female gametocyte",
+      "Merozoites"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Resistance of Staphylococcus aureus is due to:",
+    "subject":"Microbiology",
+    "choices":[
+      "Pleomorphism",
+      "Elaboration of an enzyme that destroy penicillin",
+      "Penicillin analogue production",
+      "Lack of nucleic acid in the cell wall"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"All are true about legionella pneumophilia except",
+    "subject":"Microbiology",
+    "choices":[
+      "a)\tquatic bodies are main habitat",
+      "It can replicate in amoeba",
+      "Urine test is a reliable method",
+      "Person to person transmission"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"A patient presented to the hospital with severe hydrophobia. You suspect rabies, obtained corneal scrapings from the patient. What test should be done on this specimen for a diagnosis of rabies?",
+    "subject":"Microbiology",
+    "choices":[
+      "Negri bodies",
+      "Antibodies to rabies virus",
+      "-PCR for rabies virus",
+      "Indirect immunofluorescence"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"A young male present with loose motions and intermittent abdominal pain over the past 1 year. Wet mount stool specimen showed the presence of multiple ova which are more than 100u in diameter. The causative organisms for the disease shall not include?",
+    "subject":"Microbiology",
+    "choices":[
+      "Fasciola gigantica",
+      "Gastrodiscoides hominis",
+      "Echinostoma ilocanum",
+      "Opisthorchis viverrini"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Malignant pustule is referred to:",
+    "subject":"Microbiology",
+    "choices":[
+      "Facio-cervical actinomycosis",
+      "Cutaneous anthrax",
+      "Infected squamous cell carcinoma",
+      "None of the above"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"In which of the following ways is CLED medium better than MacConkey agar?",
+    "subject":"Microbiology",
+    "choices":[
+      "It prevents proteus swarming",
+      "Inhibits growth of other commensals",
+      "It allows Staphylococcus and Candida to grow",
+      "It differentiates lactose fermenters from non-fermenters"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Postrenal transplant patient presents with diarrhoea after 3 months; it was showing organism measuring 2-6 micron meter and kinoyn stain positive. Most likely it is caused by:",
+    "subject":"Microbiology",
+    "choices":[
+      "Balantidium coli",
+      "Clostridium difficile",
+      "Cystoisospora belli",
+      "Cryptosporidium hominis"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Anaphylaxis is mediated by",
+    "subject":"Microbiology",
+    "choices":[
+      "5-hydroxytryptamine",
+      "Heparin",
+      "ProstaglandinImmunology",
+      "All of these"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Following hepatitis B infection through blood transfusion, disease manifests in:",
+    "subject":"Microbiology",
+    "choices":[
+      "1 week",
+      "6 weeks",
+      "3 months",
+      "1 year"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"A patient comes to your clinic with a complaint of multiple episodes of loose watery stool for 3 days. On probing, you discover that these episodes sta after he had ingested shellfish at a local restaurant 3 days back and other people who had food from that restaurant had similar symptoms. What is the most common cause of viral diarrhoea in adults?",
+    "subject":"Microbiology",
+    "choices":[
+      "Calicivirus",
+      "Rotavirus",
+      "Adenovirus",
+      "Norovirus"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"About N. gonorrhoea, all are true except",
+    "subject":"Microbiology",
+    "choices":[
+      "Most common cause of urethritis in male",
+      "All stains are highly susceptible to penicillin",
+      "Wide spread axoregnic stains cause disseminated gonococcal infection",
+      "Found exclusively in human beings"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Beta 3 glucan assay testing not done for",
+    "subject":"Microbiology",
+    "choices":[
+      "Invasive candidiasis",
+      "Aspergillosis",
+      "Pneumocystis carnii",
+      "Mucormycosis"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"What is not true regarding Zika Virus:",
+    "subject":"Microbiology",
+    "choices":[
+      "Belong to family flaviviridae",
+      "Transmission happens by Mosquitoes",
+      "Not transmitted from mother to newborn",
+      "Possibly can cause microcephaly"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"CLED media better than Macconkey media",
+    "subject":"Microbiology",
+    "choices":[
+      "It stimulates growth of Staph and Candida as it is non selective",
+      "Inhibits swarming of proteus",
+      "Differentiates between Lactose fermenter and non-lactose fermenters",
+      "Sodium taurocholate is used as selective agent."
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Hydatid cyst is:",
+    "subject":"Microbiology",
+    "choices":[
+      "Parasitic in nature",
+      "Fungal",
+      "Congenital",
+      "Viral"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"MHC Class II proteins are expressed by:",
+    "subject":"Microbiology",
+    "choices":[
+      "B-cells, dendritic cells and macrophages",
+      "Platelets",
+      "T-cells",
+      "All nucleated cells"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"\"Grape bunch\" shaped colonies are seen in:",
+    "subject":"Microbiology",
+    "choices":[
+      "Streptococcus",
+      "Staphylococcus",
+      "E.coli",
+      "Gonococci"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Autoinfection can be caused by all the following helminths except:",
+    "subject":"Microbiology",
+    "choices":[
+      "Enterobius vermicularis",
+      "Hymenolepis nana",
+      "Taenia solium",
+      "Ascaris lumbricoides"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"A newly introduced vaccines include all, except:",
+    "subject":"Microbiology",
+    "choices":[
+      "Rota virus",
+      "Influenza",
+      "Dengue",
+      "Malaria vaccine"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"The incubation period of LGV is?",
+    "subject":"Microbiology",
+    "choices":[
+      "3-7 days",
+      "7-10 days",
+      "10-30 days",
+      "30-90 days"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Hydrolysis of IgG with papain will lead to formation of following fragments:",
+    "subject":"Microbiology",
+    "choices":[
+      "1 Fc and 2 Fab fragments",
+      "2 Fc and 1 Fab fragment",
+      "1 variable chain and 1 constant chain",
+      "1 Fab and 1 hypervariable region"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"An elderly male patient presented with fever, chest pain, and dry coughp; sputum culture showed growth on Charcoal Yeast Extract Medium, the organism is",
+    "subject":"Microbiology",
+    "choices":[
+      "H. influenza",
+      "Moraxella catarrhalis",
+      "Legionella",
+      "Burkholderia cepacia"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"A person working in an abattoir presented with a papule on hand, which turned in to an ulcer. Which will best help in diagnosis",
+    "subject":"Microbiology",
+    "choices":[
+      "Polychrome Methylene blue",
+      "Carbol Fuschin",
+      "Acid Fast Stain",
+      "Calcoflour White"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Which of the following toxin is causing this:",
+    "subject":"Microbiology",
+    "choices":[
+      "Botulism",
+      "Tetanus",
+      "Diphtheria",
+      "Cholera"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Isolation period of measles:-",
+    "subject":"Microbiology",
+    "choices":[
+      "Onset of prodromal stage until 7th day of rash",
+      "Eruptive stage until 2 days of rash",
+      "Onset of prodromal phase until 3rd day of rash",
+      "Eruptive stage until 7th day of rash"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"The following is the ovum of a helminth. What is true about the helminth?",
+    "subject":"Microbiology",
+    "choices":[
+      "Transmission is through ingestion of infected pork",
+      "Both adult and larval stages are seen in humans",
+      "The helminth causes a transient self-resolving infection in humans",
+      "Drug of choice for this condition is albendazole"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Cyst of parasite seen in stool microscopy. What is the organism?",
+    "subject":"Microbiology",
+    "choices":[
+      "Entamoeba dyspar",
+      "Balantidium coli",
+      "Giardia lambia",
+      "Taenia solium"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Diagnosis of CI. Difficile infection is made by which of the following methods?",
+    "subject":"Microbiology",
+    "choices":[
+      "Toxin gene detection by polymerase chain reaction (PCR)",
+      "Culture",
+      "Enzyme - linked immunosorbent assay (ELISA)",
+      "Nagler's reaction"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"A child with 10 days abdominal pain presented to OPD. Stool microscopy was done which showed the given findings. What is the DOC for the disease caused by the given organism?",
+    "subject":"Microbiology",
+    "choices":[
+      "Albendazole",
+      "Mebandazole",
+      "Praziquintal",
+      "Pyrantelpamoate"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Dry heat destroys microorganisms by",
+    "subject":"Microbiology",
+    "choices":[
+      "Lysis",
+      "Oxidation",
+      "Hydrolysis of DNA",
+      "Coagulation of proteins"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"A 2 weeks old infant has conjunctivitis, which later developed into respiratory distress and pneumonia. Chest X-ray showed bilateral lung infiltrates. WBC count was 14,300\/dL. Which of the following is the most likely organism?",
+    "subject":"Microbiology",
+    "choices":[
+      "Chlamydia trachomatis",
+      "Streptococcus agalactiae",
+      "Gonococcus",
+      "Haemophilus influenzae"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"CLED is better medium than MacConkey medium for processing of urine samples",
+    "subject":"Microbiology",
+    "choices":[
+      "It differentiate LF from NLF Bacteria",
+      "Prevents swarming of proteus",
+      "Identifies pseudomonas",
+      "Allows staphylococcus,Streptococcus and candida to grow"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Which of the following is not true about H. influenza?",
+    "subject":"Microbiology",
+    "choices":[
+      "Rarely presents as meningitis in children less than 2 months of age",
+      "Capsular polypeptide protein is responsible for virulence",
+      "Requires factor V and X for growth",
+      "Most common invasive disease of H. influenza is meningitis"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Which is not true about vibrio cholera",
+    "subject":"Microbiology",
+    "choices":[
+      "It is non-halophilic",
+      "Grows on simple media",
+      "Man is the only natural host",
+      "Cannot survive in extracellular environment"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Giemsa stained smear cannot detect",
+    "subject":"Microbiology",
+    "choices":[
+      "Coxiella burnetti",
+      "Baonella",
+      "Toxoplasmosis",
+      "E. Chaffnessis"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"A 6-month child presented with diarrhea and vomiting for three days. Which of the following enterotoxin is most likely responsible for the condition?",
+    "subject":"Microbiology",
+    "choices":[
+      "NSP4",
+      "NSP6",
+      "VP3",
+      "VP7"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Slow growing alveolar like tumor in liver",
+    "subject":"Microbiology",
+    "choices":[
+      "E. granulosus",
+      "E. multilocularis",
+      "Cysticercus cellulosae",
+      "Amoebic liver abscess"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Toxic shock syndrome is due to the following virulence factor:",
+    "subject":"Microbiology",
+    "choices":[
+      "M protein",
+      "Pyrogenic exotoxin",
+      "Streptolysin 0",
+      "Carbohydrate cell wall"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Which of the following exists as yeast at 37deg and hyphae at 25deg?",
+    "subject":"Microbiology",
+    "choices":[
+      "Histoplasma capsulatum",
+      "Sporothrix globosa",
+      "Candida albicans",
+      "Cryptococcus neoformans"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"(gd) T cell is associated with?",
+    "subject":"Microbiology",
+    "choices":[
+      "CD4",
+      "CD5",
+      "Cd8",
+      "First line defense against bacterial peptides"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"In a suspected patient of dengue, all of these are acceptable investigations at day 3 of presentation except:",
+    "subject":"Microbiology",
+    "choices":[
+      "Viral culture and isolation in C6\/36 cell line",
+      "ELISA for antibody against dengue virus",
+      "NS I antigen detection",
+      "#NAME?"
+    ],
+    "expected_service":"Microbiology"
+  },
+  {
+    "question":"Concentration of tropicamide:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "0.01",
+      "0.02",
+      "0.03",
+      "0.04"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Cherry red spot and Hollenhorst plaque are seen in:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "CRAO",
+      "CRVO",
+      "Branch RAO",
+      "Branch RVO"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"A patient with hypeension and diabetes presents with blurred vision. Fluorescein angiography shows",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Macular edema",
+      "Sub macular edema",
+      "Papilledema",
+      "Pre macular hemorrhage"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Which of the following is true?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Latanoprost is used with caution in patients of bronchial asthma",
+      "Topiramate can cause bilateral angle closure glaucoma",
+      "Methazolamide causes decrease in ocular blood flow",
+      "Central scotoma is seen in open angle glaucoma"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"IOL placed in the young male., After 10 year what should be done..?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "IOL should be removed in case of Posterior Capsule ossification",
+      "Never be removed",
+      "Remove when presbyopia sets in",
+      "Should be changed after 10 year"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"A patient gives a history of chuna falling into his eyes. All of the following would be a pa of his immediate management except:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Irritation of both eyes with copious amounts of normal saline",
+      "Frequent sodium citrate drops",
+      "Thorough slit-lamp examination on presentation",
+      "Removal of chuna paicles by double eversion of upper eyelids"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Stenopic slit'is used for all except-",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Fincham's test",
+      "Determine the axis of cylinder",
+      "Corneal tattooing",
+      "lridectomy"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"%lost radio-resistant cells in retina",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Retinal pigment epithelium",
+      "Ganglion cell layer",
+      "Rods and cones",
+      "Bipolar cells"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"In which of the following, long spaced collagen present?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Diaphragm",
+      "Cornea",
+      "Basement membrane",
+      "Tympanic membrane"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Interruption of the optic chiasm will lead to:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Bitemporal hemianopia",
+      "Binasal hemianopia",
+      "Homonymous hemianopia",
+      "Normal vision"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Changes seen in conjunctiva after vitamti. A deficiency:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Actinic degeneration",
+      "Hyperplasia of goblet cells",
+      "Hyperkeratosis of squamous epithelium",
+      "Stromal infiltration"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Topical administration of I% Pilocarpine failed to produce pupillary constriction in a patient who had a large, dilated pupil What should be the most probable reason?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Adie's tonic pupil",
+      "Diabetic III nerve palsy",
+      "Pharmacological blockade",
+      "Uncal herniation"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"What is the angle subtended by the largest letter in the Snellen cha on a person's eye who is reading it from a distance of 6 meters?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "1 minute",
+      "10 minutes",
+      "50 minutes",
+      "60 minutes"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"14 year old child with blindness, sensorineural hearing loss, progressive hematuria, hypeension with similar family history in father",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Alpo syndrome",
+      "Goldenhar syndrome",
+      "Goodpasture syndrome",
+      "Nager syndrome"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Gene commonly indicated in congenital cataract:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "PAX-6",
+      "CRYGS-3",
+      "LMX- IB",
+      "PITX-3"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"The ETDRS cha is used for visual evaluation in diabetic patients. What does ETDRS stand for",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Extended treatment for diabetic retinopathy study",
+      "Early treatment for diabetic retinopathy study",
+      "Emergency treatment for diabetic retinopathy study",
+      "Emerging treatment for diabetic retinopathy study"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"A 25-year-old lady presents with sudden severe bilateral loss of vision, more so on the right side, with no perception of light. Rest of the examination including pupillary reflexes, fundus and optokinetic nystagmus are normal. She was able to touch the tips of her fingers with her right eye closed but not with her left eye closed. The most like1 tgnosis is:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Optic neuritis",
+      "Anterior ischemic optic neuropathy",
+      "CMV retinitis",
+      "Functional vision loss"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Keyhole-shaped visual field defect is seen in lesion involving which of the following regions?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Optic disk",
+      "Optic chiasma",
+      "Lateral geniculate body",
+      "Occipital lobe"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"The spectacles are used in:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Progressive glasses for presbyopia",
+      "Bifocal glasses for presbyopia",
+      "Bifocals for pediatric pseudophakia",
+      "Bifocals for adult aphakia"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"on examination 18 month old child has inward detion of both eyes, which of the following test should be done?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Forced duction test",
+      "Cover Uncover Test",
+      "Fundus Examination",
+      "All of the above"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Which of the following stain is used for diagnosis of Granular dystrophy of cornea?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Colloidal iron",
+      "Congo red",
+      "PAS",
+      "Masson trichrome"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Optic atrophy is not seen in:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Retinitis pigmentosa",
+      "Methanol poisoning",
+      "Central retinal aerial occlusion (CRAO)",
+      "Polypoidal choroidal vasculopathy"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Universal marker of limbal epithelial stem cells:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Elastin",
+      "Keratin",
+      "Collagen",
+      "ABCG2"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"A patient is taking drugs for rheumatoid ahritis and has a history of cataract surgery 1 year back, the patient presented with sudden painless loss of vision, probable diagnosis is?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "CME",
+      "Macularhole",
+      "Chloroquine toxicity",
+      "Chronic choroiditis"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Ex-Press glaucoma implant is made up of?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Silicone",
+      "Titanium",
+      "Gold",
+      "Stainless steel"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"A patient with a history of diabetes for one year with no other complications should have an ophthalmic examination?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "As early as feasible",
+      "After 5 years",
+      "After 10 years",
+      "Only after visual symptoms level"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"A 15-year-oldboy presented with headache and blurring of vision. On examination there was diptopia on looking towards left in the right eye.What is your diagnosis?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Tb meningitis",
+      "Internuclear ophthalmoplegia",
+      "Cranial neuritis",
+      "Demyelination"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"As compared to blood, vitreous humor has high concentration of:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Sodium",
+      "Potassium",
+      "Glucose",
+      "Ascorbate"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Phenol red thread test is used for dry eye:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "In the test, volume of tears is measured as it changes color on contact with tears",
+      "If the color changes to blue, it depicts surface mucin deficiency",
+      "Requires pH meter for reading the result",
+      "Requires topical anesthetic agent"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"ETDRS grading of vision is done for",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Endothelial count",
+      "Corneal topography",
+      "Primary open angle glaucoma",
+      "Classification of diabetic retinopathy"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Capillary microaneurysms is an earliest sign of:March 2013",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Vitreous hemorrhage",
+      "Non-proliferative diabetic retinopathy",
+      "Trauma",
+      "Hypeensive retinopathy"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"All are drugs which lower IOP except",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Clonidine",
+      "Mannitol",
+      "Dexamethasone",
+      "Acetazolamide"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"All of the following can be used to decrease IOP in glaucoma except",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Mannitol",
+      "Carbonic anhydrase inhibitor",
+      "Apraclonidine",
+      "Dexamethasone"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"High molecular weight proteins in cataractous lens seen only in humans:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "HM 1 and 2",
+      "HM 2 and 3",
+      "HM 2 and 4",
+      "HM 3 and 4"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Which of the following is true about degenerative myopia?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "More common in males as compared to females",
+      "Myopic degeneration can lead to retinal detachment",
+      "It is seen in less than 6 dioptres of myopia.",
+      "The condition has no racial prediliction."
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"A young adult presents 2 days after trauma to the eye with proptosis and pain in the right eye. On examination, hi is found to have a bruise on the right eye and forehead. The most likely diagnosis is:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Fracture sphenoid bone",
+      "Cavernous sinus thrombosis",
+      "Internal carotid aery aneurysm",
+      "Carotico-cavernous fistula"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Which of the following drug should not be given in a patient of narrow angle glaucoma?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Phenylephrine",
+      "Timolol",
+      "Acetazolamide",
+      "Homatropine"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Which of the following is false about indirect opthalmoscopy?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Convex lens is used",
+      "Image is viual and erect",
+      "Magnification is 4-5 times",
+      "It is so bright that regular haziness is penetrated"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Maximum contribution to the refractive power of the eye is by which pa of the eye?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Anterior surface of cornea",
+      "Posterior surface of cornea",
+      "Anterior surface of lens",
+      "Posterior surface of lens"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"What is the usual weight of rabbit used in ophthalmological experiments?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "0.5-1 kg",
+      "1.5-2.5 kg",
+      "5-7 kg",
+      "10-12 kg"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Cells affected in glaucomatous optic neuropathy are:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Amacrine cells",
+      "Bipolar cells",
+      "Ganglion cells",
+      "Rods and cones"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Most common tumor of lacrimal gland:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Trans-scaphoid perilunate fracture",
+      "Scaphoid fracture",
+      "Distal radius fracture",
+      "Hamate fracture"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"The most common mode of spread of retinoblastoma:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Optic nerve invasion",
+      "Lymphatics",
+      "Vascular",
+      "Direct invasion"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"A 33 years old male came with pain and watering in the right eye for 36 hours. On examination, a 3 x 2 cm corneal ulcer is seen with elevated margins, feathery hyphae, finger like projections and minimal hypopyon in cornea. What is the likely causative organism?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Aspergillosis",
+      "Pseudomonas",
+      "Acanthamoeba",
+      "HSV-1"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Cells most commonly affected in glaucomatous optic atrophy?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Amacrine cells",
+      "Bipolar cells",
+      "Ganglion cells",
+      "Rods and cones"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"First order neuron of visual pathway -",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Photoreceptor",
+      "bipolar neuron",
+      "lateral geniculate body",
+      "all of the above"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"All are manifestation of dengue virus infection in eye except?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Cataract",
+      "Maculopathy",
+      "Vitreous hemorrhage",
+      "Optic neuritis"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Which of the following is not an indication for evisceration?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Malignancy",
+      "Panophthalmitis",
+      "Severe globe trauma",
+      "Expulsive hemorrhage"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Which of the following is the most common funga. infection of the eye seen in an HIV positive patient?",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Aspergillus",
+      "Candida",
+      "Toxoplasma",
+      "Rhinosporidium"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Right trochlear nerve palsy can lead to all except:",
+    "subject":"Ophthalmology",
+    "choices":[
+      "Diplopia on upward gaze and adduction",
+      "Right head tilt",
+      "Exotropia",
+      "Hyperopia"
+    ],
+    "expected_service":"Ophthalmology"
+  },
+  {
+    "question":"Cementosis are commonly seen in:",
+    "subject":"Radiology",
+    "choices":[
+      "Females in maxilla",
+      "Females in mandible",
+      "Males in maxilla",
+      "Males in mandible"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Characteristic of venous blood flow of lower limb in duplex Doppler is?",
+    "subject":"Radiology",
+    "choices":[
+      "Monophasic",
+      "Biphasic",
+      "Triphasic",
+      "Non phasic"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Radio density can be increased by",
+    "subject":"Radiology",
+    "choices":[
+      "Decreasing MA",
+      "Decreasing kVp",
+      "Decreasing target film distance",
+      "Increasing target film distance"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Consistent radiographs require:",
+    "subject":"Radiology",
+    "choices":[
+      "Long cone technique",
+      "Fixed kvp & mA",
+      "Automatic processing",
+      "Proper developing"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Occluded submandibular salivary duct can be best observed by",
+    "subject":"Radiology",
+    "choices":[
+      "Palpation",
+      "Sialography",
+      "Occlusal X-ray",
+      "Thermography"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"If multiple myeloma is suspected in a patient's history and intraoral radiograph, which of the following radiographs should be taken to confirm the diagnosis?",
+    "subject":"Radiology",
+    "choices":[
+      "Lateral skull",
+      "Anterior posterior view",
+      "Lateral oblique",
+      "Posterior anterior view"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Which of these is not a pa of catatonia?",
+    "subject":"Radiology",
+    "choices":[
+      "Akathisia",
+      "Ambivalence",
+      "Ambitendency",
+      "Akinesia"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Radiation effect blood supply because of",
+    "subject":"Radiology",
+    "choices":[
+      "Anemia",
+      "Endarteritis of small blood vessels",
+      "Infection",
+      "All of the above"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"The best radiographic view of temporomandibular joint\nis given by:",
+    "subject":"Radiology",
+    "choices":[
+      "Transorbital view",
+      "Reverse Towne's view",
+      "Transpharyngeal",
+      "Panorex"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"The principal reason for placing an aluminium filter in\nthe primary beam of radiation is to:",
+    "subject":"Radiology",
+    "choices":[
+      "Reduce exposure time",
+      "Decrease development time of the films",
+      "Reduce radiation to the skin of the patient",
+      "Obtain greater definition of the images of teeth"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"The radiopacity that frequently obliterate the root apices of maxillary molars is",
+    "subject":"Radiology",
+    "choices":[
+      "Maxillary sinus",
+      "Palatine bone",
+      "Zygoma and Zygomatic process of Maxilla",
+      "Orbital process of Zygomatic bone"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"The skin of a patient undergoing radiotherapy will show\nafter 2 weeks?",
+    "subject":"Radiology",
+    "choices":[
+      "Erythema",
+      "Depigmentation",
+      "Radiation induced carcinomas",
+      "No change"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"All of the following statements about an intraoral dental\nX-ray film are true except:",
+    "subject":"Radiology",
+    "choices":[
+      "It is composed of a cellulose acetate base coated with a silver bromide emulsion",
+      "It has a thin sheet of lead foil that lies in front of the film to prevent overexposure",
+      "It has an embossed dot on it which should be orientated towards the source of X-rays",
+      "It is exposed by the direct action of X-rays on the emulsion"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Patient's cross-infection with sensor, in digital radiography\/RVG is prevented by",
+    "subject":"Radiology",
+    "choices":[
+      "Cover with autoclaved cloth with each use",
+      "Wipe with ethyl alcohol in each patient",
+      "Clean with 5.25% sodium hypochlorite in each patient",
+      "Cover with impervious barrier"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"All of the following form radiolucent stones except:",
+    "subject":"Radiology",
+    "choices":[
+      "Xanthine",
+      "Cysteine",
+      "Allopurinol",
+      "Orotic acid"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"In leukemia patient, post extraction bleeding doesn't stop because of:",
+    "subject":"Radiology",
+    "choices":[
+      "Increased leukocyte count",
+      "Increased Ca+ level in blood",
+      "Platelet disorder",
+      "Deficiency of clotting factors"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Which type of radiation effect results in radiation induced thyroid cancer?",
+    "subject":"Radiology",
+    "choices":[
+      "Somatic",
+      "Genetic",
+      "Teratogenic",
+      "Autosomal"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Which of the following resembles caries in radiographs?",
+    "subject":"Radiology",
+    "choices":[
+      "Zinc oxide eugenol",
+      "Zinc phosphate",
+      "GIC",
+      "Polymethyl methacnilate"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Which among the following is not a risk factor for contrast-induced nephropathy?",
+    "subject":"Radiology",
+    "choices":[
+      "Diabetic nephropathy",
+      "High osmolar agent",
+      "Obesity",
+      "Dehydration"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Patient's cross infection with bite block of orthopantamograph machine is prevented by",
+    "subject":"Radiology",
+    "choices":[
+      "Cover with autoclaved cloth with each use",
+      "Using disposable bite blocks",
+      "Clean with 5.25% sodium hypochlorite in each patient",
+      "Cover with impervious barrier"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Patient with history of tachyarrhythmias is on implantable cardioveer defibrillator. He develops shock. Best method to know the position and integrity of ICD is:",
+    "subject":"Radiology",
+    "choices":[
+      "CECT",
+      "MRI",
+      "USG",
+      "Plain radiograph"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Dead bone appears on a radiograph as:",
+    "subject":"Radiology",
+    "choices":[
+      "Radiolucent",
+      "Radio-opaque",
+      "Cotton wool appearance",
+      "Salt and pepper appearance"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"In cephalometric radiography, the distance between the subject and the source of X-ray is",
+    "subject":"Radiology",
+    "choices":[
+      "2 feet",
+      "48 inches",
+      "4.8 metres",
+      "5 feet"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"The darkening of radiograph X-ray depends on all except:",
+    "subject":"Radiology",
+    "choices":[
+      "Thickness of object",
+      "Quality and quantity of X-rays",
+      "Angulation cone",
+      "Velocity of electron emitted from cathode"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"26 year old, 6 feet 4 inch male presented to the emergency depament with complaints of acute onset dysnea. On examination, he was tachypneic, other vitals were stable. A chest xray was done which shown the following pathology:",
+    "subject":"Radiology",
+    "choices":[
+      "Pneumothorax",
+      "Hydropnemo thorax",
+      "Massive pleural effusion",
+      "Pulmonary embolism"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"In an internal derangement of TMJ fracture, panoramic view has been taken for the patient. To confirm our diagnosis, we may take the help of",
+    "subject":"Radiology",
+    "choices":[
+      "MRI",
+      "CT scan",
+      "Arthroscopy",
+      "Bone scan"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"For maintaining parallelism between object the and\nfilm, film is placed at a distance to avoid distortion what should be done:",
+    "subject":"Radiology",
+    "choices":[
+      "Increase target to object distance",
+      "Decrease target to object distance",
+      "Both of the above",
+      "None of the above"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Maximum recommended dose for dental X-ray operator in a week is",
+    "subject":"Radiology",
+    "choices":[
+      "100 milliroentgen",
+      "10 roentgen",
+      "100 roentgen",
+      "300 roentgen"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"To localize a supernumerary or an impacted tooth and\ndetermine its exact relationship to the other teeth, which of the following radiographs would be most effective?",
+    "subject":"Radiology",
+    "choices":[
+      "A periapical and an occlusal view",
+      "An occlusal view using a high angle",
+      "A panoramic radiograph",
+      "Two or more periapical views at different angles and an occlusal view"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Campbell's lines are seen in:",
+    "subject":"Radiology",
+    "choices":[
+      "Transorbital",
+      "Transpharyngeal",
+      "Occipitomental",
+      "Transcranial"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"The speed with which the electrons travel from the\nfilament of cathode to the anode depends upon",
+    "subject":"Radiology",
+    "choices":[
+      "Potential difference between the two electrodes",
+      "Number of milliamperes in the tube circuit",
+      "Angle between the filament and target",
+      "Voltage of the filament"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"In intraoral radiograph, patient radiation is decreased by\nall except:",
+    "subject":"Radiology",
+    "choices":[
+      "High speed film",
+      "Intensifying screens",
+      "Lead apron",
+      "Decreasing kVp"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"A patient with pain abdomen for 2 hours presents to the casualty and the following X-ray was obtained. What is the most likely diagnosis?",
+    "subject":"Radiology",
+    "choices":[
+      "Pneumoperitoneum",
+      "Subphrenic abscess",
+      "Pneumomediastinum",
+      "Amebic liver abscess"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Radiolucencies of the jaw may be seen in:",
+    "subject":"Radiology",
+    "choices":[
+      "Multiple myeloma",
+      "Giant cell tumours",
+      "Hyperparathyroidism",
+      "All of the above"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Disadvantages of grids are:",
+    "subject":"Radiology",
+    "choices":[
+      "Skin exposure of patient",
+      "Increase exposure time",
+      "Doesn't improve image",
+      "Overall density of radiograph is increased"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Which type of laser is used in waterlase system?",
+    "subject":"Radiology",
+    "choices":[
+      "Argon laser",
+      "Diode Laser",
+      "Nd:YAG laser",
+      "YSGG Laser"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Yellowish-brown staining of the IOPA dental X-ray film is due to:",
+    "subject":"Radiology",
+    "choices":[
+      "Immersion in fixer without washing",
+      "Increased temperature of developer",
+      "Increased exposure time",
+      "Drying away of the developer solution"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"The single most effective method of reducing patient\nsomatic exposure when taking radiograph is to use:",
+    "subject":"Radiology",
+    "choices":[
+      "A lead apron",
+      "Speed E film",
+      "Added filtration",
+      "An open ended, shielded cone"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Which of the following is the least useful for diagnosis of Spondylolisthesis?",
+    "subject":"Radiology",
+    "choices":[
+      "CT",
+      "MR",
+      "X-ray lumbar spine- AP view",
+      "X-ray lumbar spine- Lateral view"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Expansion of the contrast filled space in myelography is seen in:",
+    "subject":"Radiology",
+    "choices":[
+      "Intramedullary tumor",
+      "Intradural extramedullary tumor",
+      "Spinal dysraphism",
+      "Extradural tumor"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"A 8 year old child presented with cough and fever since 15 days. On auscultation, decreased air entry was found on right side. A CXR was done and shown below. What is the most likely diagnosis?",
+    "subject":"Radiology",
+    "choices":[
+      "Consolidation",
+      "Abscess",
+      "Hydatid Cyst",
+      "Congenital. AV Malformation"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Decay of enamel following radiotherapy is initiated due to:",
+    "subject":"Radiology",
+    "choices":[
+      "Decrease in salivary flow",
+      "Direct radiations contacting the enamel",
+      "Dessication of tooth structure",
+      "Hypocalcification and pitting of enamel"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Which of the following are most sensitive to X-ray?",
+    "subject":"Radiology",
+    "choices":[
+      "Tooth buds and salivary glands",
+      "Nerve and muscle tissue",
+      "Hair and nails",
+      "Cartilage"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"The usual radiographic appearance of an osteosarcoma is:",
+    "subject":"Radiology",
+    "choices":[
+      "Discrete radiolucency with regular borders",
+      "Multicystic radiolucency with a soap bubble appearance with an irregular peripheral border",
+      "Sunburst pattern with radiopaque strands extending from the cortical plates",
+      "Cotton wool appearance with an irregular peripheral border"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"The base of an X-ray film is composed of:",
+    "subject":"Radiology",
+    "choices":[
+      "Polyester",
+      "Gelatin",
+      "Nylon",
+      "Bromide"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Reversal lines are characteristic on the radiograph of:",
+    "subject":"Radiology",
+    "choices":[
+      "Osteoma",
+      "Osteosarcoma",
+      "Epidermoid cyst",
+      "Paget's disease of bone"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"What is the function of filtration process while taking radiographs?",
+    "subject":"Radiology",
+    "choices":[
+      "Remove the short wavelength photons",
+      "Remove the portion of long wavelength photons",
+      "To increase the radiation dose to patient",
+      "To increase scatter of secondary radiation"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Which of the following statements about developing a dental radiograph is false?",
+    "subject":"Radiology",
+    "choices":[
+      "It involves chemically precipitating metallic silver",
+      "If it is too long, it results in an over dark radiograph",
+      "If high temperatures are used, it results in a fogged, over dark radiograph",
+      "It typically involves a developer containing sodium thiosulphate"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"The maximum penetration among the following is seen with which ray:",
+    "subject":"Radiology",
+    "choices":[
+      "Alpha",
+      "Beta",
+      "Gamma",
+      "Electron Beam"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"A patient who has been given tumoricidal dose of radiotherapy recently reports to dental clinic with painful carious exposed mandibular first molar with periapical abscess. The treatment of choice should be:",
+    "subject":"Radiology",
+    "choices":[
+      "Extraction of the offending tooth",
+      "Root canal treatment if possible",
+      "No treatment should be given",
+      "Incision and drainage of abscess"
+    ],
+    "expected_service":"Radiology"
+  },
+  {
+    "question":"Which type of oral candidiasis does not presents with white patch?",
+    "subject":"Skin",
+    "choices":[
+      "Chronic atrophic candidiasis",
+      "Chronic hyperplastic candidiasis",
+      "Chronic mucocutaneous candidiasis",
+      "Pseudomembranous candidiasis"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"A young female presented with vaginal itching and green frothy genital discharge. Strawberry vagina is seen on examination. What w ill be the drug of choice?",
+    "subject":"Skin",
+    "choices":[
+      "Doxycycline",
+      "Oral fluconazole",
+      "Metronidazole",
+      "Amoxicillin"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"An 8-year-old boy presents with well defined annular lesion over the buttock with central scarring that is gradually progressive over the last 8 months. The diagnosis is",
+    "subject":"Skin",
+    "choices":[
+      "Annular psoriasis",
+      "Lupus Vulgaris",
+      "Tinea Corporis",
+      "Chronic granulomatous disease"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"A 12 years old boy came with complaints of 4 hypopigmented patches on back and on left arm. The patches had loss of sensation. Which of the following is the treatment for this case?",
+    "subject":"Skin",
+    "choices":[
+      "Rifampicin (450 mg) + Dapsone (50 mg) + Clofazimine (150 mg) monthly and 50 mg daily",
+      "Rifampicin (600 mg) + Dapsone (150 mg) only",
+      "Rifampicin (450 mg) + Dapsone (50 mg) + Clofazimine (150 mg) monthly and 50 mg alternate days",
+      "Rifampicin (600 mg) + Dapsone (150 mg) + Clofazimine (300 mg) monthly and 50 mg daily"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"Maculopapular rash is not seen in ?",
+    "subject":"Skin",
+    "choices":[
+      "Dengue",
+      "Rubella",
+      "measles",
+      "Zoster"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"A man presents it n rashes on face and also complains of decreased mental function. He is also having few macular lesions on his skin. On CT scan, intracranial calcification was seen. His wife is normal. His 10-year old daughter is also normal but his 6-year old son is also having similar skin lesions. What would be the most likely diagnosis?",
+    "subject":"Skin",
+    "choices":[
+      "Neurofibrornatosis-1",
+      "Neurofibromatosis-2",
+      "Xeroderma pigmentosum",
+      "Autosomal dominant inheritance"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"A patient presents with focal alopecia areata. All of the following are associations of alopecia areata except:",
+    "subject":"Skin",
+    "choices":[
+      "Nail pitting",
+      "Atopy",
+      "Geographic tongue",
+      "Exclamatory mark"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"A child presented with complaint of severe itching over the web of fingers, more at night. Examination revealed burrows. Most probable diagnosis is:September 2009",
+    "subject":"Skin",
+    "choices":[
+      "Tinea cruris",
+      "Scabies",
+      "Infantile eczema",
+      "Papular uicaria"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"Which component of cement causes allergic contact dermatitis??",
+    "subject":"Skin",
+    "choices":[
+      "Cobalt",
+      "Nickel",
+      "Iron",
+      "Chromium"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"Treatment of choice for erythrodermic psoriasis:",
+    "subject":"Skin",
+    "choices":[
+      "Methotrexate",
+      "Coicosteroids",
+      "Coal tar topical",
+      "Topical steroids"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"After sequential arrangement of blistering disorder staing from superficial to deep blisters, which is the deepest among these?",
+    "subject":"Skin",
+    "choices":[
+      "IgA pemphigus",
+      "EBD",
+      "PV",
+      "Bullous pemphigoid+"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"A 28-year-old patient of neurocysticercosis develops generalized peeling of skin all over except palms and soles staing one month after taking anti-epileptics. What is the most probable diagnosis?",
+    "subject":"Skin",
+    "choices":[
+      "Fixed drug eruption",
+      "Pemphigus",
+      "Steven Johnson syndrome",
+      "TEN"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"A 24 years old female presented with patchy hair loss in the right temporal and occipital region. Examination revealed non- scarring alopecia with multiple small broken hairs. Scrapings from scalp showed mild inflammation, peri-follicular hemorrhage and surrounding mild lymphocytic infiltration. What is the most likely diagnosis?",
+    "subject":"Skin",
+    "choices":[
+      "Alopecia areata",
+      "Androgenic alopecia",
+      "Loose anagen hair",
+      "Trichotillomania"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"A 45 years old male presents with itchy papules over face, neck and V area of chest for the last three years, which are exacerbated in summers and improved in winters. What test will you do to confirm diagnosis?",
+    "subject":"Skin",
+    "choices":[
+      "Patch test",
+      "Prick test",
+      "IgE levels",
+      "Skin biopsy"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"A 35 years old male comes with complain of baldness. On examination, well-defined bald patches were seen with no scarring. Small broken hairs were seen in the surrounding area. What is the likely diagnosis?",
+    "subject":"Skin",
+    "choices":[
+      "Androgenetic alopecia",
+      "Alopecia areata",
+      "Anagen effluvium",
+      "Telogen Effluvium"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"A patient came with history of joint pain and fever for one week. For which the patient took NSAIDS foilowing which he developed rash and hyperpigmentation on nose. What is the most likelv diagnosis?",
+    "subject":"Skin",
+    "choices":[
+      "Dengue",
+      "fixed Drug eruption",
+      "Chikungunya",
+      "melasma"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"Postherpetic neuralgia is defined as pain lasting beyond how many weeks?",
+    "subject":"Skin",
+    "choices":[
+      "1 week",
+      "2 weeks",
+      "3 weeks",
+      "4 weeks"
+    ],
+    "expected_service":"Skin"
+  },
+  {
+    "question":"Recommnended daily intake of iodine in pregnancy-",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "90 microgram",
+      "120 microgram",
+      "150 microgram",
+      "250 microgram"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"A researcher said he has discovers a new drug which is effective in chronic hypeensives with a p value of < 0.10. Which of the following is true regarding the same?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "The test is 90% reproducible",
+      "90% of test results could have occurred by chance",
+      "Not more than 10% of the people benefitted by the drug could he due to chance",
+      "90% of patients will be benefitted by giving the drug"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"The prevalence of disease in a population is expected to be 50%. An investigator is interested in the range of 45 to 55% with 95% confidence. The minimum sample size required for the study is:",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "100",
+      "200",
+      "300",
+      "400"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"You have been asked to design a study for a disease whose prevalence in the community is 10%. The alpha error has to be kept at 5% with a relative precision of 20% and a power of 20%. What will be the accurate sample size for this study?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "400",
+      "900",
+      "1800",
+      "3600"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"According to WHO definition, what is the criteria for considering a high endemic area for meningococcal meningitis?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "<2 per 1,00,000 population",
+      "2-10 per 1,00,000 population",
+      ">10 per 1,00,000 population",
+      ">100 per 1,00,000 population"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"True statements regarding the calculation of HDI are all of the following except",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "In gross enrolment, only secondary education is considered, not primary education",
+      "1\/3rd weightage is given to adult literacy",
+      "2\/3`dweightage is given to gross enrolmen",
+      "Country's achievement is computed on the basis of adult literacy"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Statistical `Q' test is used for:",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Comparing the propoion of means of 2 groups",
+      "To determine outliars",
+      "To determine normality distribution",
+      "Comparing the propoion of means of more than 2 groups"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Numerator in Perinatal moality is",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Post neonate death with weight 2.5 kg",
+      "Early neonatal with weight 1000 grams",
+      "Aboion of < 500 gram foetus",
+      "Still bih of fetus > 500 grams"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Immune thrombocytopenic purpura (ITP) is a complication observed with which of the following vaccines? (Asked twice)",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "MMR",
+      "HIV conjugate polysaccharide vaccine",
+      "Typhoid Vi polysaccharide vaccine",
+      "Influenza vaccine"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Natural disaster causing maximum deaths",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Hydrological",
+      "Meterological",
+      "Geological",
+      "Fires"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"To evaluate post-operative vision effects after cataract extraction surgery under PCB, which of the following is used?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Active surveillance",
+      "Sentinel surveillance",
+      "Passive surveillance",
+      "Routine checkup of all operated cases"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Central value of a set of 180 values can be obtained by",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "2nd tertile",
+      "90th percentile",
+      "2nd quartile",
+      "9th decile"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Under National Health Mission which committee makes plan for village health?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Panchayat health committee (PHC)",
+      "Village health planning and management committee (VHPMC)",
+      "Village health sanitation and nutrition committee (VHSNC)",
+      "RogiKalyan Samiti"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Denominator in perinatal moality rate",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Total bihs",
+      "Total live bihs",
+      "Live bihs + Still bih",
+      "Total number of newborns"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"A patient of diabetes and hypeension comes to your clinic. As a doctor, you explain to him the risks of various complications. Which of these is the best tool to demonstrate the complications?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Pie cha",
+      "Histogram",
+      "Scatter plot",
+      "Venn diagram"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Child has received full rabies vaccination in December 2018 and now presented with oozing wound on great toe and the pet had vaccination also, what would you do now?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "No vaccine",
+      "2 doses of vaccine on day 0 and 3",
+      "Full 5 doses of vaccines",
+      "Rabies Ig and full vaccination"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"A 42 years old woman from a dry state who ingested rye for long time presented with complaints of weakness in both lower limbs, nausea and fatigue. Over due course of time, she is completely unable to walk. What is the most likely cause?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Argemone mexicana",
+      "Amanita",
+      "Ergot alkaloids",
+      "Lathyrus sativus"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Mass Drug Administration is not helpful for",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Lymphatic Filariasis",
+      "Vitamin A Deficiency",
+      "Worm infestation",
+      "Scabies"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Which of these is the best study to evaluate effect and outcome?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Clinical trial",
+      "Coho",
+      "Case control study",
+      "Cross sectional study"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Not included in the human poverty index is:",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "% of population not surviving up to 40 yrs age",
+      "Occupation",
+      "Underweight for age",
+      "% population not using safe water supply"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"In a JubLeitter arca pith crude bih rate of 211, what would be the expected number of ANC registrations?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "60",
+      "80",
+      "100",
+      "120"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"ICD-10 stands for",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "International Classification of Drugs, 10th revision",
+      "International Classification of Disabilities, 10th revision",
+      "International Classification of Diseases, 10th revision",
+      "International Classification of Disasters, 10th revision"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Calculate the neonatal moality rate for a population according to the data of 2012. Number of neonatal deaths- 450, number of stillbihs-212, total number of live bihs-12,450.",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "36",
+      "15",
+      "90",
+      "56"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Data about recent trends of immunization in the community can be found by:",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Sample registration system",
+      "District level health survey",
+      "Rural survey",
+      "Census data"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Haddon matrix is related to:",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Injury prevention",
+      "Communicable diseases",
+      "Maternal and child moality",
+      "Hypeensive disorders"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"In a village of 20,000 population 456 bihs occurred in april, 56 showed no signs of life at bih, 56 died before 28 days of life, 34 died between 28 days- 1 year, 500 was total number of deaths in that year. Infant moality rate?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "197.4",
+      "320",
+      "225",
+      "125"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"How much population falls between median and median plus one standard deviation in a normal distribution ?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "0.34",
+      "0.68",
+      "0.17",
+      "0.47"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"In a survey of sleep apnea scores among 10 people, the highest sample of 58 was entered by mistake as 85. This will affect the result as:",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Increased mean, decreased median",
+      "Increased mean, increased median",
+      "Increased mean. no change in median",
+      "No change in mean, increased median."
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Which of the following is not true about screw feed technology",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Reduces weight by 30%",
+      "Reduces volume by 80%",
+      "Ideal for pathological waste",
+      "Non-burn heat sterilization technique"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"In a study, two groups of newborns are checked for their weights based on whether their mothers received food supplements or not. The appropriate test which can be used for comparing the data is:",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Chi square test",
+      "Paired T-test",
+      "Student's T-test",
+      "Fischer exact test"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Case control study was done regarding breast cancer & risk factors & odds ratio was obtained. Which of the following are causative factors ?ParameterCaseControlORAge at menarche>12171423291.04Menopause177124081.53OCP use93511051.02Smoking932140.97Family history5135021.10BMI>27.51654930.53Breastfeeding94225140.56Multiparity(2)277833661.05",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "6",
+      "5",
+      "3",
+      "2"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"A researcher selected all possible samples from a population and plotted their means on a line graph. This distribution is called as:",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Sample distribution",
+      "Sampling distribution",
+      "Population distribution",
+      "Parametric distribution"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"'There has been a gradual increase in number of non-communicable disease cases as compared to previous years. This trend is called:",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Seasonal",
+      "Cyclical",
+      "Periodical",
+      "Secular"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"If the distribution of intra-ocular pressure (IOP) seen in 100 glaucoma patients has an average 30 mm with a SD of 1.0, what is the lower limit of the average IOP that can be expected 95% of times?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "26",
+      "28",
+      "32",
+      "259"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"The mean systolic blood pressure was measured in a sample population of elderly females and came out to be 125 mm Hg with a standard detion of 10. 95 percent of people would have blood pressure above:",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "105 mm Hg",
+      "110 mm Hg",
+      "115 mm Hg",
+      "140 mm Hg"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"The number of patients required in a clinical trial to treat a specify disease increases as",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "The drop-out rate increases",
+      "The significance level increases",
+      "The size of the expected treatment effect increased",
+      "The incidence of the disease decreases"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Which one of the following is NOT a socio-economic indicator?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Literacy rate",
+      "Life expectancy at birth",
+      "Housing",
+      "Family size"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Tuberculin test is a cheap and easily available test. In which of the following situations there is high failure in the interpretation of the test?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "High percentage of immunized people",
+      "HIV cases are less",
+      "High prevalence of disease",
+      "Environmental mycobacterium infections are less"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"A Study conducted in a population. Diastolic Blood Pressure mean 110 mm Hg with SD of 11 mm Hg, Vitamin D mean 18 ng\/ml with SD of 3 ng\/ml. what is the relation between the two variance",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Variance of Vitamin D > DBP",
+      "Variance of DBP > 4 times Vitamin D",
+      "Data insufficient to comment upon",
+      "None"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"A girl is has white hair. 40% of her classmates are also suffering from the same problem. None of the other people from the same village have white hair. Her brother who is staying with an aunt in the neighbouring village is also normal and does not have white hair. Which of the following explains the probable cause of her white hair?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Environmental",
+      "Genetic",
+      "Nutritional",
+      "Infection"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Pneumococcal vaccine PCV 23 polysaccharide has shown the best results in the following people",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Sickle cell anemia",
+      "Cystic fibrosis",
+      "Child less than 2 year age",
+      "Recurrent otitis media and sinusitis"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Regarding Influenza, not true statement is",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Secondary attack rate 5-15%",
+      "Virus shedding present before the patient presents with symptoms",
+      "1-5 years age is not a high risk age group",
+      "Aquatic birds are reservoir"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Transmission assessment survey (TAS) is done in the following?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "To determine when infections have been reduced below these target thresholds",
+      "For assessing primary immunization coverage",
+      "To provide reliable estimates of bih rate, death rate and infant moality rate",
+      "All"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Key indicator for AFP surveillance ?.",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "At least one case of non-polio AFP per year per 1000 population of under 5 years",
+      "At least one case of non-polio AFP per year per 100000 population of under 5 year",
+      "At least one case of non-polio AFP per year per 1000 population of under 15 years",
+      "At least one case of non-polio AFP per year per 100000 population of under 15 years"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Which of these statements is true about Rashtriya Swasthya Bima Yojana?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Cashless benefit on presenting smacard and fingerprints",
+      "Valid for up to 4 family members",
+      "Can be used only in 1 district",
+      "Treatment only in government hospitals"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"In a group of 100 people, the average GFR is 85 ml\/ min with a standard detion of 25. What is the range for 90% confidence interval?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "81-89",
+      "80-90",
+      "75-95",
+      "70-100"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Child Pugh score put patients into three categories of Score A (<7), Score B (7-9) and Score C (10-15). The following is a type of which scale?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Nominal",
+      "Ordinal",
+      "Quantitative",
+      "Continuous"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Which of the following is the best for determining the threshold for diagnosis of a positive test?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Analysis of variance",
+      "Pearson coefficient",
+      "Receiver-operating characteristic curve",
+      "Pre-test probability"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"A healthy center repos 40 to 50 cases in a week in the community. This week there are 48 cases normally. This is called:",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "Epidemic",
+      "Sporadic",
+      "Endemic",
+      "Outbreak"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  },
+  {
+    "question":"Which or tile following is true about antigenic drift?",
+    "subject":"Social & Preventive Medicine",
+    "choices":[
+      "It is seen only in influenza virus type A",
+      "It is a result of framesshift mutation",
+      "It mostly affects the matrix protein",
+      "It mostly affects the matrix protein"
+    ],
+    "expected_service":"Social & Preventive Medicine"
+  }
+]

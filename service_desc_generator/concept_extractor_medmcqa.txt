@@ -1,0 +1,89 @@
+[LOAD] validation data: (417, 4)
+[LOAD] routing services: 9
+[LOAD] original subjects: 9
+[GROUP] Number of subject groups: 9
+[GROUP] Dental: 50 questions
+[GROUP] ENT: 50 questions
+[GROUP] Forensic Medicine: 50 questions
+[GROUP] Gynaecology & Obstetrics: 50 questions
+[GROUP] Microbiology: 50 questions
+[GROUP] Ophthalmology: 50 questions
+[GROUP] Radiology: 50 questions
+[GROUP] Skin: 17 questions
+[GROUP] Social & Preventive Medicine: 50 questions
+
+[1/9] Extracting Dental (50 questions)
+[EXTRACT] Processing Dental: 50 questions
+[EXTRACT] Dental: 50 concepts
+
+[2/9] Extracting ENT (50 questions)
+[EXTRACT] Processing ENT: 50 questions
+[EXTRACT] ENT: 50 concepts
+
+[3/9] Extracting Forensic Medicine (50 questions)
+[EXTRACT] Processing Forensic Medicine: 50 questions
+[EXTRACT] Forensic Medicine: 48 concepts
+
+[4/9] Extracting Gynaecology & Obstetrics (50 questions)
+[EXTRACT] Processing Gynaecology & Obstetrics: 50 questions
+[EXTRACT] Gynaecology & Obstetrics: 50 concepts
+
+[5/9] Extracting Microbiology (50 questions)
+[EXTRACT] Processing Microbiology: 50 questions
+[EXTRACT] Microbiology: 48 concepts
+
+[6/9] Extracting Ophthalmology (50 questions)
+[EXTRACT] Processing Ophthalmology: 50 questions
+[EXTRACT] Ophthalmology: 51 concepts
+
+[7/9] Extracting Radiology (50 questions)
+[EXTRACT] Processing Radiology: 50 questions
+[ERROR] Radiology: Unterminated string starting at: line 29798 column 9 (char 2141638)
+
+[8/9] Extracting Skin (17 questions)
+[EXTRACT] Processing Skin: 17 questions
+[EXTRACT] Skin: 17 concepts
+
+[9/9] Extracting Social & Preventive Medicine (50 questions)
+[EXTRACT] Processing Social & Preventive Medicine: 50 questions
+[EXTRACT] Social & Preventive Medicine: 47 concepts
+
+[DONE] Saved results to concept_extraction_medmcqa_9.json
+[LOAD] Extracted concepts for 9 subjects
+
+[1/9] Selecting core concepts: Radiology
+[ERROR] Radiology: 'extracted_concepts'
+
+[2/9] Selecting core concepts: Social & Preventive Medicine
+[CORE] Processing Social & Preventive Medicine: 47 extracted concepts
+[CORE] Social & Preventive Medicine: 7 core concepts
+
+[3/9] Selecting core concepts: Forensic Medicine
+[CORE] Processing Forensic Medicine: 48 extracted concepts
+[CORE] Forensic Medicine: 6 core concepts
+
+[4/9] Selecting core concepts: Ophthalmology
+[CORE] Processing Ophthalmology: 51 extracted concepts
+[CORE] Ophthalmology: 7 core concepts
+
+[5/9] Selecting core concepts: Microbiology
+[CORE] Processing Microbiology: 48 extracted concepts
+[CORE] Microbiology: 7 core concepts
+
+[6/9] Selecting core concepts: Gynaecology & Obstetrics
+[CORE] Processing Gynaecology & Obstetrics: 50 extracted concepts
+[CORE] Gynaecology & Obstetrics: 7 core concepts
+
+[7/9] Selecting core concepts: ENT
+[CORE] Processing ENT: 50 extracted concepts
+[CORE] ENT: 7 core concepts
+
+[8/9] Selecting core concepts: Skin
+[CORE] Processing Skin: 17 extracted concepts
+[CORE] Skin: 6 core concepts
+
+[9/9] Selecting core concepts: Dental
+[CORE] Processing Dental: 50 extracted concepts
+[CORE] Dental: 7 core concepts
+
+[DONE] Saved core concepts to core_concepts_medmcqa_9.json

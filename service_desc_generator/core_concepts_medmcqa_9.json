@@ -1,0 +1,100 @@
+{
+  "Radiology": {
+    "subject": "Radiology",
+    "error": "'extracted_concepts'"
+  },
+  "Social & Preventive Medicine": {
+    "subject": "Social & Preventive Medicine",
+    "core_concepts": [
+      "Disease prevalence and endemicity",
+      "Clinical trial design",
+      "Perinatal mortality rate calculation",
+      "Immunization trend data sources",
+      "Case-control study analysis",
+      "Tuberculin test interpretation",
+      "Acute Flaccid Paralysis (AFP) surveillance"
+    ]
+  },
+  "Forensic Medicine": {
+    "subject": "Forensic Medicine",
+    "core_concepts": [
+      "Bite mark analysis",
+      "Gunshot wound analysis",
+      "Forensic anthropology",
+      "Medical negligence punishment",
+      "Post-mortem injuries",
+      "Toxicology signs"
+    ]
+  },
+  "Ophthalmology": {
+    "subject": "Ophthalmology",
+    "core_concepts": [
+      "Fluorescein angiography findings in hypertension and diabetes",
+      "Central scotoma in open angle glaucoma",
+      "PAX-6 gene in congenital cataract",
+      "ETDRS study",
+      "Glaucomatous optic neuropathy",
+      "Corneal ulcer causative organisms",
+      "Indirect ophthalmoscopy"
+    ]
+  },
+  "Microbiology": {
+    "subject": "Microbiology",
+    "core_concepts": [
+      "Helminths and their effects",
+      "Microaerophilic bacteria",
+      "Staphylococcus aureus antibiotic resistance",
+      "Legionella pneumophilia characteristics",
+      "Gastrointestinal infections and symptoms",
+      "Candida albicans morphology",
+      "T-cell receptors"
+    ]
+  },
+  "Gynaecology & Obstetrics": {
+    "subject": "Gynaecology & Obstetrics",
+    "core_concepts": [
+      "Ultrasound evaluation of fetal growth",
+      "Management of severe hypertension in pregnancy",
+      "Safety of antihypertensive drugs in pregnancy",
+      "Management of cervical insufficiency",
+      "Postpartum hemorrhage and placental conditions",
+      "Antenatal diagnosis of Down's syndrome",
+      "Management of fetal distress during labor"
+    ]
+  },
+  "ENT": {
+    "subject": "ENT",
+    "core_concepts": [
+      "Sinus growth and development",
+      "Surgical treatments for Meniere's disease",
+      "Superior semicircular canal dehiscence characteristics",
+      "Laryngeal carcinoma treatment",
+      "Rinne's and Weber's tests interpretation",
+      "Stapedial otosclerosis diagnosis",
+      "Congenital ossicular dysfunction"
+    ]
+  },
+  "Skin": {
+    "subject": "Skin",
+    "core_concepts": [
+      "Skin lesions and their diagnosis",
+      "Hypopigmented patches and their treatment",
+      "Rash characteristics in infectious diseases",
+      "Genetic skin disorders and their inheritance patterns",
+      "Alopecia areata and its associations",
+      "Drug-induced skin reactions"
+    ]
+  },
+  "Dental": {
+    "subject": "Dental",
+    "core_concepts": [
+      "Tooth development and calcification",
+      "Endodontic treatment methods",
+      "Caries risk assessment",
+      "Working length determination methods",
+      "Orthodontic classification systems",
+      "Dentine permeability factors",
+      "Endodontic sealers"
+    ]
+  }
+}
