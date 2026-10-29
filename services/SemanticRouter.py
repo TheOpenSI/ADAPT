@@ -27,6 +27,10 @@ class SemanticRouter(RouterBase):
                  gap_c1=None,
                  margin_c0=None,
                  margin_c1=None,
+                 max_c0=None,                # max threshold    T(k) = max_c0 + max_c1 * ln(k)
+                 max_c1=None,
+                 zscore_c0=None,             # z-score threshold T(k) = zscore_c0 + zscore_c1 * ln(k)
+                 zscore_c1=None,
 
                  fixed_threshold=None,       # ablation
 
@@ -41,13 +45,17 @@ class SemanticRouter(RouterBase):
         self.gap_c0, self.gap_c1 = gap_c0, gap_c1
         self.fixed_threshold = fixed_threshold
 
-        if gate not in ("gap", "margin"):
-            raise ValueError("gate must be 'gap' or 'margin'.")
+        if gate not in ("gap", "margin", "max", "zscore"):
+            raise ValueError("gate must be 'gap', 'margin', 'max' or 'zscore'.")
 
         self.gate = gate
         self.margin_c0, self.margin_c1 = margin_c0, margin_c1
 
-        self.c0, self.c1 = (gap_c0, gap_c1) if gate == "gap" else (margin_c0, margin_c1)
+        self.max_c0, self.max_c1 = max_c0, max_c1
+        self.zscore_c0, self.zscore_c1 = zscore_c0, zscore_c1
+        # constants of the active gate
+        self.c0, self.c1 = {"gap": (gap_c0, gap_c1), "margin": (margin_c0, margin_c1),
+                            "max": (max_c0, max_c1), "zscore": (zscore_c0, zscore_c1)}[gate]
 
 
         if apply_threshold and fixed_threshold is None and None in (self.c0, self.c1):
@@ -59,7 +67,7 @@ class SemanticRouter(RouterBase):
         if not apply_threshold:
             gate_mode = "OFF (always route to the top specialist)"
         elif fixed_threshold is not None:
-            gate_mode = f"ABLATION, fixed threshold = {fixed_threshold}"
+            gate_mode = f"ABLATION, {gate} gate, fixed threshold = {fixed_threshold}"
         else:
             gate_mode = f"{gate} gate, T(k) = {self.c0} + {self.c1} * ln(k)"
         print(f"[SemanticRouter] Gate: {gate_mode}")
@@ -127,7 +135,8 @@ class SemanticRouter(RouterBase):
         gap = max(scores) - float(np.median(scores))
         ranked_scores = sorted(scores, reverse=True)
         margin = ranked_scores[0] - ranked_scores[1]
-        gate_value = gap if self.gate == "gap" else margin
+        zscore = (ranked_scores[0] - float(np.mean(scores))) / (float(np.std(scores)) + 1e-9)   # population std
+        gate_value = {"gap": gap, "margin": margin, "max": ranked_scores[0], "zscore": zscore}[self.gate]
 
         if self.apply_threshold:
             if self.fixed_threshold is not None:
@@ -187,4 +196,10 @@ class SemanticRouter(RouterBase):
             "margin": margin,
             "margin_cutoff": gate_cutoff if self.gate == "margin" else None,
             "margin_passed": admitted if self.gate == "margin" else None,
+
+            # z-score value, and the active gate whatever it is (max is in "max_score")
+            "zscore": zscore,
+            "gate_value": gate_value,
+            "gate_cutoff": gate_cutoff,
+            "gate_passed": admitted,
         }
