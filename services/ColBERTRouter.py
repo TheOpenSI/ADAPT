@@ -22,8 +22,13 @@ class ColBERTRouter(RouterBase):
                  apply_threshold=True,       # False -> always route to the top specialist
                  length_normalise=True,
 
+                 gate="gap",
+
                  gap_c0=None,                # gap threshold T(k) = gap_c0 + gap_c1 * ln(k)
                  gap_c1=None,
+                 
+                 margin_c0=None,
+                 margin_c1=None,
 
                  fixed_threshold=None,       # ablation
     ):
@@ -38,10 +43,17 @@ class ColBERTRouter(RouterBase):
         self.gap_c0, self.gap_c1 = gap_c0, gap_c1
         self.fixed_threshold = fixed_threshold
 
-        if apply_threshold and fixed_threshold is None and None in (gap_c0, gap_c1):
+        if gate not in ("gap", "margin"):
+            raise ValueError("gate must be 'gap' or 'margin'.")
+        
+        self.gate = gate
+        self.margin_c0, self.margin_c1 = margin_c0, margin_c1
+        self.c0, self.c1 = (gap_c0, gap_c1) if gate == "gap" else (margin_c0, margin_c1)
+
+        if apply_threshold and fixed_threshold is None and None in (self.c0, self.c1):
             raise ValueError(
-                "apply_threshold=True needs gap_c0 and gap_c1 (or fixed_threshold) for this ColBERT model."
-            )
+                f"apply_threshold=True with gate='{gate}' needs {gate}_c0 and {gate}_c1 (or fixed_threshold) for this cross-encoder model."
+                )
 
         # Which gate is active
         if not apply_threshold:
@@ -99,16 +111,20 @@ class ColBERTRouter(RouterBase):
 
         # Gap gate: accept the top specialist if max - median > T(k)
         gap = max(scores) - float(np.median(scores))
+        ranked_scores = sorted(scores, reverse=True)
+        margin = ranked_scores[0] - ranked_scores[1]
+        gate_value = gap if self.gate == "gap" else margin
 
         if self.apply_threshold:
-            if self.fixed_threshold is not None:        # ablation
-                gap_cutoff = float(self.fixed_threshold)
-            else:                                       # T(k)
-                gap_cutoff = float(self.gap_c0 + self.gap_c1 * np.log(len(scores)))
-            admitted = gap > gap_cutoff
-        else:                            # gate off
-            gap_cutoff = None
+            if self.fixed_threshold is not None:
+                gate_cutoff = float(self.fixed_threshold)
+            else:
+                gate_cutoff = float(self.c0 + self.c1 * np.log(len(scores)))
+            admitted = gate_value > gate_cutoff
+        else:
+            gate_cutoff = None
             admitted = True
+
 
         predicted_label = top_label if admitted else self.fallback_label
 
@@ -124,7 +140,7 @@ class ColBERTRouter(RouterBase):
                 marker = " <-- top" if name == top_label else ""
                 print(f"    {name}: {score:.4f}{marker}")
             print(f"  -> routed to: {predicted_label} | {latency_ms:.1f}ms")
-            print(f"  gap={gap:.4f} | cutoff={gap_cutoff} | admitted={admitted}")
+            print(f"  {self.gate}={gate_value:.4f} | cutoff={gate_cutoff} | admitted={admitted}")
 
         return {
             "routing_method": self.routing_method,
@@ -145,8 +161,15 @@ class ColBERTRouter(RouterBase):
 
             "apply_threshold": self.apply_threshold,
 
-            # Gap gate
+            "gate": self.gate,
+            
+            # Gap gate (filled only when gate="gap")
             "gap": gap,
-            "gap_cutoff": gap_cutoff,
-            "gap_passed": admitted,
+            "gap_cutoff": gate_cutoff if self.gate == "gap" else None,
+            "gap_passed": admitted if self.gate == "gap" else None,
+
+            # Margin gate (filled only when gate="margin")
+            "margin": margin,
+            "margin_cutoff": gate_cutoff if self.gate == "margin" else None,
+            "margin_passed": admitted if self.gate == "margin" else None,
         }

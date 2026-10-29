@@ -17,14 +17,15 @@ from services.QueryAnalyser import QueryAnalyser
 
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
-RESULTS_DIR = os.path.join(BASE_DIR, "results_medmcqa_main")  
+RESULTS_DIR = os.path.join(BASE_DIR, "results_ablation_margin")  
 
 VERBOSE = False
 
-APPLY_GATE = False 
+APPLY_GATE = True 
+GATE = "margin"    # "gap" or "margin"
 
-# CONDITIONS = [3,5,8,10,12,14]
-CONDITIONS = [3,5,7,9]
+CONDITIONS = [3,5,8,10,12,14]
+# CONDITIONS = [3,5,7,9]
 
 
 MODEL_CONFIGS = [
@@ -66,13 +67,17 @@ MODEL_CONFIGS = [
     # dict(cls=ColBERTRouter,      model_name="LiquidAI/LFM2-ColBERT-350M", gap_c0=0.000571, gap_c1=0.000518),
 
 
+    dict(cls=SemanticRouter,     model_name="BAAI/bge-large-en-v1.5",         margin_c0=0.08763, margin_c1=-0.02419),
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",         margin_c0=1.83264, margin_c1=-0.44286),
+    dict(cls=ColBERTRouter,      model_name="lightonai/Reason-ModernColBERT", margin_c0=0.02531, margin_c1=-0.00174),
+
 
     # dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
     # dict(cls=QueryAnalyser, model_name="qwen2.5:32b"),
     # dict(cls=QueryAnalyser, model_name="phi4:14b"),
     # dict(cls=QueryAnalyser, model_name="qwen2.5:7b"),
     # dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
-    dict(cls=QueryAnalyser, model_name="qwen3:32b"),
+    # dict(cls=QueryAnalyser, model_name="qwen3:32b"),
 ]
 
 
@@ -91,8 +96,8 @@ def run_all():
     succeeded = 0
 
     for k in CONDITIONS:
-        service_desc_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_service_descriptions_{k}.json")
-        dataset_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_test_eval_service_{k}_300.csv")
+        service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
+        dataset_path = os.path.join(DATA_DIR, "dataset", f"mmlu_test_eval_service_{k}_300.csv")
         # dataset_path = os.path.join(DATA_DIR, "dataset", f"dummy_general.csv")
         
 
@@ -130,10 +135,13 @@ def run_all():
                         model_name=cfg["model_name"],
                         verbose=VERBOSE,
                         apply_threshold=APPLY_GATE,
-                        gap_c0=cfg["gap_c0"],
-                        gap_c1=cfg["gap_c1"],
+                        gate=GATE,
+                        gap_c0=cfg.get("gap_c0"),
+                        gap_c1=cfg.get("gap_c1"),
+                        margin_c0=cfg.get("margin_c0"),
+                        margin_c1=cfg.get("margin_c1"),
                         fixed_threshold=cfg.get("fixed_threshold"),
-                    )
+                )
 
                 runner = BenchmarkRunner(dataset_path, 
                                          router, 
