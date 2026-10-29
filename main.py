@@ -17,12 +17,12 @@ from services.QueryAnalyser import QueryAnalyser
 
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
-RESULTS_DIR = os.path.join(BASE_DIR, "results_ablation_max")  
+RESULTS_DIR = os.path.join(BASE_DIR, "results_ablation_zscore") 
 
 VERBOSE = False
 
 APPLY_GATE = True 
-GATE = "max"    # "gap" or "margin" or "max"
+GATE = "zscore"    # "gap" or "margin" or "max"
 
 CONDITIONS = [3,5,8,10,12,14]
 # CONDITIONS = [3,5,7,9]
@@ -71,10 +71,13 @@ MODEL_CONFIGS = [
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",         margin_c0=1.83264, margin_c1=-0.44286),
     # dict(cls=ColBERTRouter,      model_name="lightonai/Reason-ModernColBERT", margin_c0=0.02531, margin_c1=-0.00174),
 
-    dict(cls=SemanticRouter,     model_name="BAAI/bge-large-en-v1.5",         max_c0=0.40949,   max_c1=0.01799),
-    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",         max_c0=-10.03722, max_c1=0.87981),
-    dict(cls=ColBERTRouter,      model_name="lightonai/Reason-ModernColBERT", max_c0=0.58796,   max_c1=0.00308),
+    # dict(cls=SemanticRouter,     model_name="BAAI/bge-large-en-v1.5",         max_c0=0.40949,   max_c1=0.01799),
+    # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",         max_c0=-10.03722, max_c1=0.87981),
+    # dict(cls=ColBERTRouter,      model_name="lightonai/Reason-ModernColBERT", max_c0=0.58796,   max_c1=0.00308),
 
+    dict(cls=SemanticRouter,     model_name="BAAI/bge-large-en-v1.5",         zscore_c0=0.81821, zscore_c1=0.55536),
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",         zscore_c0=0.65949, zscore_c1=0.66648),
+    dict(cls=ColBERTRouter,      model_name="lightonai/Reason-ModernColBERT", zscore_c0=0.48782, zscore_c1=0.83210),
 
     # dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
     # dict(cls=QueryAnalyser, model_name="qwen2.5:32b"),
