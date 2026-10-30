@@ -2,11 +2,11 @@ import os
 import sys
 sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 
-
 import pandas as pd
-# from dataset.config import SERVICE_SETS
-from MedMCQA.specialists_dataset.medmcqa_config import MEDMCQA_SERVICE_SETS
+from dataset.config import SERVICE_SETS
+# from MedMCQA.specialists_dataset.medmcqa_config import MEDMCQA_SERVICE_SETS
 # from MASSIVE.specialists_dataset.massive_config import MASSIVE_SERVICE_SETS
+
 
 
 class EvaluationBuilder:
@@ -17,19 +17,20 @@ class EvaluationBuilder:
     def _load_specialists(self, service_id):
 
         file_path = (
-            f"../MedMCQA/specialists_dataset/"
+            f"../MMLU/specialists_dataset/"
             f"{self.split}_service_{service_id}.csv"
         )
 
         return pd.read_csv(file_path)
 
-    def _load_general(self):
+    def _load_general(self, k):
 
-        file_path = (
-            f"../general_dataset/"
-            # f"mmlu_{self.split}_external_general.csv"
-            f"300_general_test.csv"
-        )
+        # file_path = (
+        #     f"../general_dataset/"
+        #     # f"mmlu_{self.split}_external_general.csv"
+        #     f"300_general_test.csv"
+        # )
+        file_path = f"../general_dataset/general_only_{k}.csv"
 
         return pd.read_csv(file_path)
 
@@ -39,7 +40,8 @@ class EvaluationBuilder:
             service_id
         )
 
-        general = self._load_general()
+        k = specialists["expected_service"].nunique()  
+        general = self._load_general(k)
 
         evaluation = pd.concat(
             [specialists, general],
@@ -52,7 +54,7 @@ class EvaluationBuilder:
 
         file_path = (
             f"../evaluation_dataset/"
-            f"medmcqa_{self.split}_eval_service_{service_id}_300.csv"
+            f"mmlu_{self.split}_eval_service_{service_id}_prop.csv"
         )
 
         df.to_csv(
@@ -87,7 +89,7 @@ if __name__ == "__main__":
         split="test"
     )
 
-    for service_id in MEDMCQA_SERVICE_SETS.keys():
+    for service_id in SERVICE_SETS.keys():
 
         builder.build_and_save(
             service_id

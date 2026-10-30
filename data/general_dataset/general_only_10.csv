@@ -1,0 +1,501 @@
+question,subject,expected_service
+"whisper mode, stop",clinc_oos,general
+Is Apple Pay a possible top up option?,banking77,general
+There's a recent charge on my card that I know I didn't make because I've never seen the name before. Can we investigate this?,banking77,general
+is vaccination necessary for travel to asia,clinc_oos,general
+any clue as to if taco bell takes reservations,clinc_oos,general
+Why do I have to verify the top-up?,banking77,general
+Can I use Apple Pay to top up?,banking77,general
+i need a hand getting this gas bill paid,clinc_oos,general
+who do you report to for your work,clinc_oos,general
+your speech slower it,clinc_oos,general
+go to whisper mode until my morning alarm goes off,clinc_oos,general
+At which ATMs can I use this card?,banking77,general
+How do I update the PIN on my account?,banking77,general
+talk faster,clinc_oos,general
+how many kilowatts have i used this month,clinc_oos,general
+Cash I didn't get shows in my app.,banking77,general
+Are SWIFT transfers accepted?,banking77,general
+do i have a meeting with paul today,clinc_oos,general
+Can you tell me what countries you operate in?,banking77,general
+check battery health on this device,clinc_oos,general
+Why don't I see my top up in my wallet?,banking77,general
+where do i see what interest my mortgage has,clinc_oos,general
+Can i get a throw away card,banking77,general
+change speaking speed to 50 percent faster,clinc_oos,general
+The app doesn't know it's me.,banking77,general
+"I asked for a refund last week but nothing has happened yet, can you help me please?",banking77,general
+From where can I withdraw?,banking77,general
+set a reminder for when the turkey is finished cooking,clinc_oos,general
+how do i cash in my amex reward points,clinc_oos,general
+i want to pay my bill,clinc_oos,general
+"My disposable virtual card was rejected by the merchant, please help?",banking77,general
+what type of gas should i use,clinc_oos,general
+my phone isn't where i left it,clinc_oos,general
+someone used my chase card without my authorization,clinc_oos,general
+will you let me know my bank balance,clinc_oos,general
+how does the weather feel,clinc_oos,general
+can you let me know what company were you designed by,clinc_oos,general
+I'm looking for the option to top up by cheque.,banking77,general
+My disposable virtual card has been rejected by the merchant earlier today. What should I do?,banking77,general
+"I've now been trying to do a really standard transfer 5 times already. What's going on, is your system broken or something?!",banking77,general
+What will happen if I want to add money using an international card? Will I run into any fees?,banking77,general
+What kind of fiat currency can I used for holding and exchange?,banking77,general
+The stupid machine just swallowed my card!! I need a new one ASAP,banking77,general
+"in china, need new card",banking77,general
+does sweden use the same kind of socket or do i need a converter,clinc_oos,general
+is milk one of the things i need to buy,clinc_oos,general
+How long does a transfer take from china?,banking77,general
+what is the time for a tire change,clinc_oos,general
+im not sure what this charge is for,banking77,general
+list my to-do list,clinc_oos,general
+How can I fix a problem where contactless isn't working?,banking77,general
+There's a refund missing from my statement,banking77,general
+What cards to do you support to top up.,banking77,general
+Where is my transfer from [country]?,banking77,general
+i need to find a new babysitter,clinc_oos,general
+when does tiger woods play next,clinc_oos,general
+this song i'm listening to would be great on my commute playlist,clinc_oos,general
+"I just activated auto top-up, but it is not letting me enable it. Why not?",banking77,general
+Can I get a card outside the UK?,banking77,general
+I am not able to do contactless.,banking77,general
+I think my card is broken,banking77,general
+when did i last take my car to the shop,clinc_oos,general
+do i have overdraft protection,clinc_oos,general
+where can i go to eat,clinc_oos,general
+how much does a nintendo switch cost,clinc_oos,general
+"I've already topped up, but I cannot see the funds being available. What happened?",banking77,general
+can i use lettuce instead of rice,clinc_oos,general
+"Hi! I was wondering if you can help me. I used the city centre ATM to get some cash, but the machine declined my card. My account shows that transaction is still pending. I didn't receive the money, so please cancel that transaction.",banking77,general
+How do I go forth on transferring money into my account?,banking77,general
+I'd like more information about choosing a Visa or Mastercard.,banking77,general
+google the price of skydiving in florida,clinc_oos,general
+how many people were killed in the boston marathon by bombers,clinc_oos,general
+is laundry on my todo list,clinc_oos,general
+Is there a reason I was charged a fee for using my card as payment? I've never had an extra fee before.,banking77,general
+did the stock market finish up for the day,clinc_oos,general
+phone number to state farm to change insurance,clinc_oos,general
+what shall i do now that my battery is dead,clinc_oos,general
+My cash in the ATM is still pending,banking77,general
+i need a table for 3 at olive garden for 7,clinc_oos,general
+turn to the voice of the woman,clinc_oos,general
+How much will I get with the exchange rate?,banking77,general
+"My top up hasn't worked, it's been stuck in pending for the last couple hours",banking77,general
+what's my bank of america account getting in interest,clinc_oos,general
+I am trying to exchange crypto and it's not working. Tell me how to fix this.,banking77,general
+do you think being alive has any meaning,clinc_oos,general
+"I need your help to check my account, please! My card keeps being declined at the ATM, and I've already tried two different ones!",banking77,general
+Will it automatically top-up money if there isn't a lot left?,banking77,general
+The account transfer I was trying to do failed.,banking77,general
+set alarm for noon,clinc_oos,general
+How do I select a Mastercard instead of a Visa?,banking77,general
+what are some cool tourist attractions in england,clinc_oos,general
+I don't think my card payment exchange rate is correct.,banking77,general
+what specific health plan do i have,clinc_oos,general
+i wanna know how busy denny's is at 5 am,clinc_oos,general
+Why is a transaction showing as pending when I recieved cash from an ATM?,banking77,general
+What can I do about some payments on my card I didn't make.  Please put a freeze on my card till we can figure this out.,banking77,general
+could you help me locate my phone,clinc_oos,general
+What's the deal with no cryptocurrency on your app?,banking77,general
+i want to know how many vacation days i have used,clinc_oos,general
+set a timer for 10 minutes,clinc_oos,general
+what exactly is my pin,clinc_oos,general
+tell me the status of my american airlines flight,clinc_oos,general
+What are the rules to where I can use my card?,banking77,general
+whats the exchange rate for us dollars to british pounds,clinc_oos,general
+How do I link my card,banking77,general
+when is next month's cable bill due,clinc_oos,general
+can i purchase a vacation using this,clinc_oos,general
+what is the usd mxn exchange rate,clinc_oos,general
+i would like to make a phone call,clinc_oos,general
+can you share a humorous joke with me,clinc_oos,general
+I am extremely unhappy with this app and want to get rid of my account?,banking77,general
+How long does shipping take to get to a US destination?,banking77,general
+Can I hold money in other currencies?,banking77,general
+what is the definiton of auspicious,clinc_oos,general
+find me an uber to the liberty bell,clinc_oos,general
+where is the nearest fry's,clinc_oos,general
+Can I be topped up once I hit a certain balance?,banking77,general
+"The service of this company sucks, I need to terminate my account.",banking77,general
+who is jane goodall,clinc_oos,general
+what's your home country,clinc_oos,general
+I need help resetting my passcode to access my app.,banking77,general
+list meetings on calendar for today,clinc_oos,general
+They charged me wrong for a currency exchange on a purchase.,banking77,general
+what are the different types of tvs,clinc_oos,general
+Do you guys accept Visa or Mastercard?,banking77,general
+who do you take your orders from,clinc_oos,general
+can you tell me my vehicles mpg,clinc_oos,general
+Where do you support?,banking77,general
+how can i get my rewards for my master card,clinc_oos,general
+My card won't work.,banking77,general
+whats the name of the person who made you,clinc_oos,general
+what's a good gift to get for your grandparents,clinc_oos,general
+Where is my refund? I have been checking my account all day.,banking77,general
+Please give me both a visa and a master card.,banking77,general
+What cards and currencies do you support?,banking77,general
+ATM still has my card,banking77,general
+"If I am overseas, how do I change my pin?",banking77,general
+call my name,clinc_oos,general
+Do I have to pay any fees in order to receive money?,banking77,general
+do you have time today for someone to look at my car because the check engine light is on,clinc_oos,general
+I've tried my card a bunch of times and it never worked.,banking77,general
+can i just use oil instead of vinegar,clinc_oos,general
+it it possible to take pto from the 8th to the 11th,clinc_oos,general
+remove milk and add eggs to my shopping list,clinc_oos,general
+i want to freeze my bank account,clinc_oos,general
+whats the mpg of this car,clinc_oos,general
+do i need a states visa to get to cuba,clinc_oos,general
+"I recently got a new place while I'm staying abroad and have been using this account to manage payments, but suddenly I am seeing fees increase. Where are these additional fees coming from?",banking77,general
+I have a top up that didn't go through.  Why?,banking77,general
+i can't say for certain either way,clinc_oos,general
+Is there a fee for exchanging foreign currencies?,banking77,general
+How can I find the top-up verification code?,banking77,general
+where did you grow up,clinc_oos,general
+I would like to change my PIN but I am not currently in the country.,banking77,general
+do vegans really want to blame cows for climate change,clinc_oos,general
+lasagna takes how long to cook,clinc_oos,general
+"I am traveling to Germany, Will I be able to use my card there?",banking77,general
+A fee was charged for my recent withdrawal.,banking77,general
+how long does the average set of tire last before needing replacement,clinc_oos,general
+"I didn't get cash from an ATM, but the app says I did",banking77,general
+is there an uber that drives to the bank on 5th that can hold 3 people,clinc_oos,general
+could you tell me what the weather is in austin,clinc_oos,general
+what does assiduous mean,clinc_oos,general
+I receive my salary in GBP. Do I need to configure this somehwere?,banking77,general
+"I see random purchases to my account, was it hacked?",banking77,general
+remind me of the last date that i got my car checked,clinc_oos,general
+My account has a weird withdrawal.,banking77,general
+thanks a million,clinc_oos,general
+is my car due for it's next oil change,clinc_oos,general
+what do you like to do besides work,clinc_oos,general
+Will you accept my other card from the U.S.?,banking77,general
+"I tried topping up but my funds seem to be pending. I want to buy something right now, what do I do?",banking77,general
+what to use to design my business cards,clinc_oos,general
+which type of pets do you have,clinc_oos,general
+Some cash is showing up in my app that I did not get.,banking77,general
+Can you look at my account ans see why my card was declined,banking77,general
+I still don't have my card after 2 weeks.  What should I do?,banking77,general
+What's the U.S. Delivery time?,banking77,general
+I just got my new card but am not sure how to check its PIN.,banking77,general
+does village inn let you make reservations,clinc_oos,general
+is my meeting with frank on my list of reminders,clinc_oos,general
+I don't think I made this charge on my debit statement.,banking77,general
+I can't get my card to work.,banking77,general
+"no, you are wrong",clinc_oos,general
+I need you to cancel a transfer that I made.  It is the wrong account number and the app won't let me stop the transaction.  Please stop it!,banking77,general
+I don't live in the UK.  Can I still get a card?,banking77,general
+I lost my phone and need help securing it.,banking77,general
+please move $100 from my checking to saving account,clinc_oos,general
+what is my car's gas mileage,clinc_oos,general
+I sent a cheque  a few days ago and nothing has happened to my account yet. Can you please check on this for me?,banking77,general
+How long will it take for my ID to verify?,banking77,general
+make a roll of the dice,clinc_oos,general
+Is the PIN delivered separately?,banking77,general
+Send me a physical card,banking77,general
+Can I exchange currencies with this app?,banking77,general
+can you tell me when my item will get here,clinc_oos,general
+do i have transaction fees if i use my american card internationally,clinc_oos,general
+my account needs to be frozen,clinc_oos,general
+what's the preparation time for this dish,clinc_oos,general
+from where did you originate,clinc_oos,general
+"I did not get my card yet, is it lost?",banking77,general
+how much money would my house sell for,clinc_oos,general
+tell me in how many different colors i can get dinner plates from pier one imports,clinc_oos,general
+"flip a coin, i'm heads",clinc_oos,general
+can you freeze my bank account,clinc_oos,general
+What's the limit on automatic top-up?,banking77,general
+Help me.  There is a Direct Debit that I didn't make.,banking77,general
+did carrots get on my shopping list,clinc_oos,general
+How can I get a physical card,banking77,general
+please assist me in looking for my phone,clinc_oos,general
+what is the distance between the goal posts in football,clinc_oos,general
+Is there a limit on top-ups?,banking77,general
+how long will it take me to get to walmart,clinc_oos,general
+i have to cancel my reservation,clinc_oos,general
+How do I update my current residence details?,banking77,general
+WHERE IS MY MONEY I WAS USING MY CARD AND IT DISAPPEARED,banking77,general
+why is my luggage not here,clinc_oos,general
+Will there be any extra fees for European bank card for top up?,banking77,general
+let me know when the replacement card will arrive,clinc_oos,general
+Can I exchange between GBP and USD on the app?,banking77,general
+can you tell me about that tornado that just tore up alabama,clinc_oos,general
+when's the next time i ought to change my oil,clinc_oos,general
+could you tell me my name,clinc_oos,general
+Is there a fee for sending out more than one card?,banking77,general
+How do I freeze my card using the app?,banking77,general
+what ingredients are needed to make lasgana,clinc_oos,general
+"do you think my shots would be needed, before traveling to columbia",clinc_oos,general
+help me convert kilos to pounds,clinc_oos,general
+make me a map of all earthquake hotspots in the continental us,clinc_oos,general
+walk me through the process of scheduling a meeting,clinc_oos,general
+Can I see that history on my funds and where they came from?,banking77,general
+Where can I receive my card?,banking77,general
+tell me what tomorrow's date is,clinc_oos,general
+repeat that,clinc_oos,general
+My card has been swallowed by an ATM,banking77,general
+What kind of currency can I hold money in?,banking77,general
+who is the singer on the speaker now,clinc_oos,general
+Can I top up using an international card,banking77,general
+can my grace period be extended any possible way,clinc_oos,general
+What is the purpose for the identity check,banking77,general
+What is the base of the exchange rates?,banking77,general
+It seems my top up is reverted?,banking77,general
+"My card payment didn't work, can you help?",banking77,general
+please play music by acdc,clinc_oos,general
+What countries can I travel to and have access to their currencies?,banking77,general
+name the leader from tibet that stands firm for world peace,clinc_oos,general
+My card is being declined for a purchase. I bought items before and the card worked. Do you know what the problem is?,banking77,general
+what's the french word you use for potato,clinc_oos,general
+How can I tell if there is a top-up limit?,banking77,general
+can you look and see how many days off i have taken so far since january,clinc_oos,general
+Why were there additional charges when transferring?,banking77,general
+Is there a fee to exchange foreign money?,banking77,general
+"How long does it take for transfers to finish?  I sent funds to my pal, and she says that she has not gotten anything.",banking77,general
+what are the top rated universities within my state,clinc_oos,general
+is apple pay costly?,banking77,general
+I didn't receive the right amount of cash back,banking77,general
+how many days of vacation are left now,clinc_oos,general
+"I have received my card, can you help me put it in the app?",banking77,general
+"could you call me by a different name, please",clinc_oos,general
+Can I use my account if the identity verification is not complete?,banking77,general
+Why did I get blocked?,banking77,general
+How can I process a refund for something I purchased?,banking77,general
+how long does chicken curry last in the freezer before it's spoiled,clinc_oos,general
+freeze my account for me,clinc_oos,general
+let me know the nearest gas station to glendale,clinc_oos,general
+Is there an auto top-up option?,banking77,general
+Which ATM's accept my card?,banking77,general
+There appears to have been a reversion in my top up,banking77,general
+How old does one have to be to have an account with the bank?,banking77,general
+Can you tell me if my pop-up went through?,banking77,general
+can you tell me the current time in jamaica,clinc_oos,general
+My transfer did not go through.,banking77,general
+tell me the current balance of my bank accounts,clinc_oos,general
+has my mastercard application been processed,clinc_oos,general
+what's my credit card's annual percentage rate,clinc_oos,general
+how does a virtual card work,banking77,general
+what is needed to cook lasagna,clinc_oos,general
+can i increase the credit limit on my travel rewards card,clinc_oos,general
+I took cash and got charged a fee,banking77,general
+i'd love to set an alarm,clinc_oos,general
+tell me how long until the nascar race begins,clinc_oos,general
+Why is there an extra 1 pound charge on my card?,banking77,general
+text laura i'll be late for dinner,clinc_oos,general
+find out what type of wax is needed for a late model ford sedan,clinc_oos,general
+what is the current weather like,clinc_oos,general
+Why was I charged multiple times for the same thing?,banking77,general
+Why didn`t my topup go through?,banking77,general
+What steps do I need to take to change my card PIN?,banking77,general
+how healthy is a cheeseburger,clinc_oos,general
+how can i rehabilitate my poor credit score,clinc_oos,general
+is it after noon,clinc_oos,general
+do you have any ideas for a mexican meal,clinc_oos,general
+I want to use bank transfer for topping up my account. How is it handled?,banking77,general
+how do you fix a leaking sink,clinc_oos,general
+There is a fraudulent charge on my statement.,banking77,general
+The exchange rate was wrong when I bought something outside the country.,banking77,general
+when's the next time i have to get an oil change,clinc_oos,general
+when does the rate get determined,banking77,general
+I am having issues with identity verification,banking77,general
+are shots required before traveling to china,clinc_oos,general
+when will i get to orlando,clinc_oos,general
+And what about the Card's PIN?,banking77,general
+I used the ATM machine to get money out for Holiday shopping and saw the outrageous charges. Why is that? I would not have used the ATM if I had known!,banking77,general
+can you notify me when my vacation days have approved,clinc_oos,general
+How do I reset my PIN?,banking77,general
+I would like to verify the source of my money,banking77,general
+How do I use the top up app with my apple watch?,banking77,general
+Send my card as soon as you are able to.,banking77,general
+chase account direct deposit options,clinc_oos,general
+Where can I find the verification code on a top-up card?,banking77,general
+I would like to create a disposable virtual card. How do I go about doing that?,banking77,general
+what are some natural remedies to help ease stress,clinc_oos,general
+When I top up what are the amoutn limits.,banking77,general
+when does the honey expire,clinc_oos,general
+"In receiving cash, the wrong exchange rate was used for my transaction.",banking77,general
+how come my credit card isn't working,clinc_oos,general
+My passcode doesn't work,banking77,general
+"I went to withdraw some cash earlier today, but seems the ATM gave me the wrong amount of cash! The amount showing up in the app is a lot more",banking77,general
+I know that I am able to make transfers for free.  That was something that I valued.  After I bought something online from abroad I noticed that I got charged a fee?  What is this and can it be removed?,banking77,general
+how do i use my card reward points for my next flight,clinc_oos,general
+I know I have enough funds in my account but my card payment hasn't worked for some reason. What do I do?,banking77,general
+what items did i want to remember,clinc_oos,general
+The ATM didn't let me get any cash,banking77,general
+can you see how many calories are in cream of mushroom soup,clinc_oos,general
+check on my health care plan,clinc_oos,general
+call me an uber please,clinc_oos,general
+if i lose my job will my credit score go down,clinc_oos,general
+I was wondering whether exchanging currencies can be done on this app.,banking77,general
+how long would it take you to die of thirst in the sahara desert,clinc_oos,general
+Can I add money with Apple Pay?,banking77,general
+I moved.  I need to update my details.,banking77,general
+how much farther is orlando from my location,clinc_oos,general
+how soon will I see the transfer in my account?,banking77,general
+how do i go about cooking a 10lb turkey,clinc_oos,general
+I got less cash than the one I specified in the ATM,banking77,general
+How long does a transfer take to be confirmed?,banking77,general
+let me know how long until the next day off,clinc_oos,general
+what are popular sports magazines,clinc_oos,general
+what kind of glue is used for gluing pipes together,clinc_oos,general
+What are the charges for receiving money?,banking77,general
+i'd like you to text marie and let her know to meet me at the hospital,clinc_oos,general
+how much money did i spend this weekend,clinc_oos,general
+"If my card is about to expire, do I need to order a new one?",banking77,general
+20 yen is how many dollars,clinc_oos,general
+what's the mileage to get the the taj mahal in atlantic city,clinc_oos,general
+What is the process for using my credit card to transfer money?,banking77,general
+what are the ai's hobbies,clinc_oos,general
+"ai, please flip a simulated coin",clinc_oos,general
+What do I need to do to change the address on my account?,banking77,general
+My phone was stolen yesterday.  What should I do?,banking77,general
+"I would like to use the bank transfer feature, but I can't find it. Can you please give me the details?",banking77,general
+Where can I get a second card?,banking77,general
+what can i do to jump start my car,clinc_oos,general
+give me some ideas for boosting my credit score,clinc_oos,general
+How did my top-up fail?,banking77,general
+tell me how to refinish a wooden desk,clinc_oos,general
+would i be safe if i traveled to japan,clinc_oos,general
+Why was my transfer charged fees?,banking77,general
+who is the hardest working man in hollywood,clinc_oos,general
+what movies are playing at my local cinemax,clinc_oos,general
+can i use skim milk instead of 2% in the recipe,clinc_oos,general
+what kinds of things are you familiar with,clinc_oos,general
+What should I do to verify my identity?,banking77,general
+look up articles on squealing brakes for ford f-150's,clinc_oos,general
+let me know which company were you designed by,clinc_oos,general
+When my card expires what happens to my account?,banking77,general
+What currencies do you do exchanges for?,banking77,general
+I lost my card,banking77,general
+I'm not familiar with a card payment.,banking77,general
+tell me the next holiday,clinc_oos,general
+I took out money from a transaction machine and it exchanged the wrong dollar value amount from another currency!,banking77,general
+do employers have to honor freedom of speech,clinc_oos,general
+is the wait at pizza hut long,clinc_oos,general
+The ATM keeps declining my card. I tried at two different ATMs. Can you tell me if there's an issue with my account?,banking77,general
+what does confrontation mean,clinc_oos,general
+is there a way to order checkbooks for a chase account,clinc_oos,general
+"When I submit a transfer, it is being declined.  The information I put in has been reviewed.",banking77,general
+Can I use my American Express to add money to my account?,banking77,general
+where were you thought of,clinc_oos,general
+I need your help in deleting my account.,banking77,general
+let me know the process for new insurance,clinc_oos,general
+what things are on my todo list,clinc_oos,general
+look up the top 3 selling post modern artists in the united states,clinc_oos,general
+Why is there a random withdrawal in my app?,banking77,general
+why do i not have a virtual card,banking77,general
+i need to confirm the reservation for frank at chili's,clinc_oos,general
+I'm really stuck. I don't know why but my card payment has not gone through.,banking77,general
+put words on the paper about what you want,clinc_oos,general
+decrease your decibel level,clinc_oos,general
+What places will accept my card?,banking77,general
+How long is it going to take for my funds to show in my account?,banking77,general
+share location with john,clinc_oos,general
+how can i contribute to my credit score,clinc_oos,general
+Where can I find my PIN?,banking77,general
+how many milliliters are in 2 gallons,clinc_oos,general
+how long does it take to cook meal of tuscan,clinc_oos,general
+i am flying to finland and wanna know the carry-on rules,clinc_oos,general
+fill out the paperwork for tonys new daycare center,clinc_oos,general
+how much sugar was in my urine this morning,clinc_oos,general
+"If I want to exchange currency, will there be extras?",banking77,general
+what can you do to make yourself useful,clinc_oos,general
+I used an ATM in a foreign currency but the rate applied is wrong!,banking77,general
+can you find me the apr listed on the statement for my citi mastercard,clinc_oos,general
+is the resataurant busy at 5:00 pm,clinc_oos,general
+"My top-up showed as complete, but it's no longer there! What's going on here?",banking77,general
+The money would not transfer to a beneficiary.,banking77,general
+"on my way to work, is there traffic",clinc_oos,general
+My address has changed.,banking77,general
+tell me what some of your hobbies are,clinc_oos,general
+what do i go by,clinc_oos,general
+what do you like to be called,clinc_oos,general
+please go though the bullet points on my reminder list,clinc_oos,general
+Please stop my purchase.,banking77,general
+park the car,clinc_oos,general
+Hello I made a bank transfer couple hours ago from my UK account but it doesn't show up yet. Can you please check if everything is alright with it?,banking77,general
+please rely on your original settings,clinc_oos,general
+My disposable virtual card is not working,banking77,general
+I think I lost my card . I dont know how long it has been missing. Can you see if maybe someone else has been using it?,banking77,general
+Can I find the origination of my funds?,banking77,general
+google find out what health plan i am under,clinc_oos,general
+app doesnt think its me,banking77,general
+When will a transfer reach my account?,banking77,general
+tell my bank's fraud department i'm going to mexico,clinc_oos,general
+can you check why I wasn't able to top up?,banking77,general
+I would appreciate it if I could get an item refunded,banking77,general
+I attempted to top up but the app denied it.,banking77,general
+"When getting my ID checked, what are the steps involved?",banking77,general
+tell me what the gas mileage is on my car,clinc_oos,general
+did i put grocery shopping on my todo list,clinc_oos,general
+what is 48 multiplied by 4 divided by 2,clinc_oos,general
+Any hidden fees associated with the international card if money is added?,banking77,general
+how much vacation time do i have,clinc_oos,general
+i have to pay my water bill but need help doing it,clinc_oos,general
+any fantastic restaurants to get shrimp at in atlanta,clinc_oos,general
+can i put in a pto request for august 1st to august 10th,clinc_oos,general
+"I'm not sure why my card payment was cancelled, can you find out why?",banking77,general
+will you tell me my bank balance,clinc_oos,general
+Why was my card payment cancelled?,banking77,general
+does tofu last long in the freezer before it goes bad,clinc_oos,general
+when is the next day we have off,clinc_oos,general
+Would I be charged for exchanging currencies?,banking77,general
+"Fix your system. I can't make transfers, I've tried like 5 times already.",banking77,general
+i would like you to cancel the dinner reservation for williams at the palace tonight,clinc_oos,general
+What cards and currencies will suffice?,banking77,general
+"Hey I want to buy some crypto but the app doesn't allow me to! What's the issue, I really want to exchange this",banking77,general
+I purchased something in a foreign currency but the rate applied is wrong,banking77,general
+how much of a refund will i get this year,clinc_oos,general
+what are popular lifestyle magazines,clinc_oos,general
+"$1 extra has been charged on my statement, why is that?",banking77,general
+Will you reinstate my PIN?,banking77,general
+How many virtual cards do I get?,banking77,general
+Please help me make a transfer. I keep receiving an error and I'm trying to make the initial mortgage payment for a flat I'm buying. What is the deal here?,banking77,general
+"I noticed an extra $1 charge on my statement, can you tell me why that is?",banking77,general
+What currencies will this app exchange?,banking77,general
+show me all biographies on teddy kennedy,clinc_oos,general
+what kind of camera should i buy,clinc_oos,general
+What ATMs can I withdraw money from?,banking77,general
+tell me my hsbc card credit limit,clinc_oos,general
+how is the status of my credit card application coming along,clinc_oos,general
+"what's the right way to spell ""emolument",clinc_oos,general
+When will my transfer go through?,banking77,general
+in what movie did mrs congeniality feature a contestant championing for world peace,clinc_oos,general
+I topped up but the app did not accept it.,banking77,general
+what's your date of birth,clinc_oos,general
+Is it possible to also get a disposable virtual card?,banking77,general
+"what is source of my funds, need to verify",banking77,general
+i seem to have a purchase that i didn't make from olive garden on my account,clinc_oos,general
+Will I be charged if I use European bank card for top up?,banking77,general
+Can I unblock my card using the app?,banking77,general
+I want to order another crad,banking77,general
+I made a transfer 12 hours ago. Why is it still listed as pending?,banking77,general
+Transferring money in 2018 to another country shouldn't take this long. My transfer has been pending for too long. I verified my account details are correct.,banking77,general
+plant all your flowers just after easter in early april,clinc_oos,general
+can you recommend thai food,clinc_oos,general
+May I choose between Visa and Mastercard?,banking77,general
+could you please put a stop on my bank account,clinc_oos,general
+does iron maiden have any new releases,clinc_oos,general
+tell me who aphrodite is,clinc_oos,general
+How do people send me money?,banking77,general
+Can you tell me how to link one of your cards that I already have?,banking77,general
+what oil do i use when changing oil and how do i do it,clinc_oos,general
+How do I exchange currency?,banking77,general
+Do I need to make a regular payment before a contactless one?,banking77,general
+going to need a new card what are the fees and time it takes,banking77,general
+Why did I not get a virtual card yet?,banking77,general
+Where can I go to get a virtual card?,banking77,general
+is there enough in my wells fargo account to buy some nike's,clinc_oos,general
+When will I see the cash I deposited this morning as available?,banking77,general
+are you a pet owner what kind,clinc_oos,general
+"could you help me locate my phone, please",clinc_oos,general
+I can't transfer money from my account.,banking77,general
+where should i eat,clinc_oos,general
+i'm out of all my checks can i get some new ones,clinc_oos,general
+"next song, please!",clinc_oos,general
+remove wrestlemania from my calendar for may 7th,clinc_oos,general
+Help me find my card pin!,banking77,general
+The app said I withdrew cash at an ATM and I didn't,banking77,general
+I have paid by my card but payment is still its coming as pending. I think there is some issue please check and let me know when the status will complete.,banking77,general
+clear my calendar for november 11th,clinc_oos,general
+"flip a coin, i call heads!",clinc_oos,general
