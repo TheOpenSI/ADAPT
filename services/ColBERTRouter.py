@@ -35,6 +35,7 @@ class ColBERTRouter(RouterBase):
                  zscore_c1=None,
 
                  fixed_threshold=None,       # ablation
+                 form="log",                 # shape of T(k): "log", "linear" or "sqrt"
     ):
 
         super().__init__(service_desc_path, model_name)
@@ -51,6 +52,10 @@ class ColBERTRouter(RouterBase):
             raise ValueError("gate must be 'gap', 'margin', 'max' or 'zscore'.")
         
         self.gate = gate
+
+        if form not in ("log", "linear", "sqrt"):
+            raise ValueError("form must be 'log', 'linear' or 'sqrt'.")
+        self.form = form
         self.margin_c0, self.margin_c1 = margin_c0, margin_c1
         self.max_c0, self.max_c1 = max_c0, max_c1
         self.zscore_c0, self.zscore_c1 = zscore_c0, zscore_c1
@@ -69,7 +74,7 @@ class ColBERTRouter(RouterBase):
         elif fixed_threshold is not None:
             gate_mode = f"ABLATION, {gate} gate, fixed threshold = {fixed_threshold}"
         else:
-            gate_mode = f"{gate} gate, T(k) = {self.c0} + {self.c1} * ln(k)"
+            gate_mode = f"{gate} gate, form={form}, T(k) = {self.c0} + {self.c1} * f(k)"
         print(f"[ColBERTRouter] Gate: {gate_mode}")
 
         print(f"[ColBERTRouter] Loading ColBERT model '{model_name}'...")
@@ -128,7 +133,9 @@ class ColBERTRouter(RouterBase):
             if self.fixed_threshold is not None:
                 gate_cutoff = float(self.fixed_threshold)
             else:
-                gate_cutoff = float(self.c0 + self.c1 * np.log(len(scores)))
+                k = len(scores)
+                x = {"log": np.log(k), "linear": k, "sqrt": np.sqrt(k)}[self.form]
+                gate_cutoff = float(self.c0 + self.c1 * x)
             admitted = gate_value > gate_cutoff
         else:
             gate_cutoff = None
@@ -171,6 +178,7 @@ class ColBERTRouter(RouterBase):
             "apply_threshold": self.apply_threshold,
 
             "gate": self.gate,
+            "form": self.form,
             
             # Gap gate (filled only when gate="gap")
             "gap": gap,
