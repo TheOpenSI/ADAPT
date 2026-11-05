@@ -17,11 +17,11 @@ from services.QueryAnalyser import QueryAnalyser
 
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
-RESULTS_DIR = os.path.join(BASE_DIR, "medmcqa_mmlu_as_general") 
+RESULTS_DIR = os.path.join(BASE_DIR, "medmcqa_mmlu_as_general_mmlu_constant") 
 
 VERBOSE = False
 
-APPLY_GATE = False 
+APPLY_GATE = True 
 GATE = "gap"    # "gap" or "margin" or "max"
 FORM = "log" 
 
@@ -30,6 +30,15 @@ CONDITIONS = [3,5,7,9]
 
 
 MODEL_CONFIGS = [
+
+    # MMLU constants on medmcqa 
+    dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-8B",   gap_c0=0.04501, gap_c1=0.03210),
+    dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5", gap_c0=0.04144, gap_c1=0.02586), 
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B", gap_c0=0.76192, gap_c1=0.57645),
+    dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2", gap_c0=-0.06597, gap_c1=0.18150), 
+    dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT", gap_c0=0.00940, gap_c1=0.01436), 
+    dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M", gap_c0=0.00042, gap_c1=0.00068), 
+
 
     # MMLU 
 
@@ -93,11 +102,11 @@ MODEL_CONFIGS = [
     # dict(cls=ColBERTRouter,      model_name="lightonai/Reason-ModernColBERT", gap_c0=0.00380, gap_c1=0.01195),
 
 
-    dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
-    dict(cls=QueryAnalyser, model_name="qwen2.5:32b"),
-    dict(cls=QueryAnalyser, model_name="phi4:14b"),
+    # dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
+    # dict(cls=QueryAnalyser, model_name="qwen2.5:32b"),
+    # dict(cls=QueryAnalyser, model_name="phi4:14b"),
     # dict(cls=QueryAnalyser, model_name="qwen2.5:7b"),
-    dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
+    # dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
     # dict(cls=QueryAnalyser, model_name="qwen3:32b"),
 ]
 
