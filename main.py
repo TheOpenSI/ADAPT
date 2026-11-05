@@ -21,7 +21,7 @@ RESULTS_DIR = os.path.join(BASE_DIR, "medmcqa_mmlu_as_general")
 
 VERBOSE = False
 
-APPLY_GATE = True 
+APPLY_GATE = False 
 GATE = "gap"    # "gap" or "margin" or "max"
 FORM = "log" 
 
@@ -53,19 +53,19 @@ MODEL_CONFIGS = [
     # MEDMCQA
     # dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-0.6B", gap_c0=0.057401, gap_c1=0.032875),
     # dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-4B",   gap_c0=0.053238, gap_c1=0.019881),
-    dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-8B",   gap_c0=0.032083, gap_c1=0.043901),
+    # dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-8B",   gap_c0=0.032083, gap_c1=0.043901),
     # dict(cls=SemanticRouter,     model_name="sentence-transformers/all-MiniLM-L6-v2", gap_c0=0.058811, gap_c1=0.032671),
     # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-0.6B",  gap_c0=0.291404, gap_c1=0.703123),
-    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B",    gap_c0=0.932232, gap_c1=0.277994),
+    # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-8B",    gap_c0=0.932232, gap_c1=0.277994),
     # dict(cls=CrossEncoderRouter, model_name="BAAI/bge-reranker-v2-m3",   gap_c0=-0.000038, gap_c1=0.000095),
     # dict(cls=ColBERTRouter,      model_name="colbert-ir/colbertv2.0",    gap_c0=0.043856, gap_c1=0.024976),
     # dict(cls=ColBERTRouter,      model_name="mixedbread-ai/mxbai-colbert-large-v1", gap_c0=0.063783, gap_c1=0.026992),
 
-    dict(cls=SemanticRouter,     model_name="BAAI/bge-large-en-v1.5",    gap_c0=0.030415, gap_c1=0.020155),
-    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",    gap_c0=0.890826, gap_c1=0.616486),
-    dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2", gap_c0=0.050393, gap_c1=0.074527),
-    dict(cls=ColBERTRouter,      model_name="lightonai/Reason-ModernColBERT", gap_c0=0.003726, gap_c1=0.018837),
-    dict(cls=ColBERTRouter,      model_name="LiquidAI/LFM2-ColBERT-350M", gap_c0=0.000571, gap_c1=0.000518),
+    # dict(cls=SemanticRouter,     model_name="BAAI/bge-large-en-v1.5",    gap_c0=0.030415, gap_c1=0.020155),
+    # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B",    gap_c0=0.890826, gap_c1=0.616486),
+    # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2", gap_c0=0.050393, gap_c1=0.074527),
+    # dict(cls=ColBERTRouter,      model_name="lightonai/Reason-ModernColBERT", gap_c0=0.003726, gap_c1=0.018837),
+    # dict(cls=ColBERTRouter,      model_name="LiquidAI/LFM2-ColBERT-350M", gap_c0=0.000571, gap_c1=0.000518),
 
 
     # dict(cls=SemanticRouter,     model_name="BAAI/bge-large-en-v1.5",         margin_c0=0.08763, margin_c1=-0.02419),
@@ -93,11 +93,11 @@ MODEL_CONFIGS = [
     # dict(cls=ColBERTRouter,      model_name="lightonai/Reason-ModernColBERT", gap_c0=0.00380, gap_c1=0.01195),
 
 
-    # dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
-    # dict(cls=QueryAnalyser, model_name="qwen2.5:32b"),
-    # dict(cls=QueryAnalyser, model_name="phi4:14b"),
+    dict(cls=QueryAnalyser, model_name="qwen2.5:14b"),
+    dict(cls=QueryAnalyser, model_name="qwen2.5:32b"),
+    dict(cls=QueryAnalyser, model_name="phi4:14b"),
     # dict(cls=QueryAnalyser, model_name="qwen2.5:7b"),
-    # dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
+    dict(cls=QueryAnalyser, model_name="llama3.1:8b"),
     # dict(cls=QueryAnalyser, model_name="qwen3:32b"),
 ]
 
