@@ -3,8 +3,8 @@ import sys
 sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 
 import pandas as pd
-from dataset.config import SERVICE_SETS
-# from MedMCQA.specialists_dataset.medmcqa_config import MEDMCQA_SERVICE_SETS
+# from dataset.config import SERVICE_SETS
+from MedMCQA.specialists_dataset.medmcqa_config import MEDMCQA_SERVICE_SETS
 # from MASSIVE.specialists_dataset.massive_config import MASSIVE_SERVICE_SETS
 
 
@@ -16,10 +16,14 @@ class EvaluationBuilder:
 
     def _load_specialists(self, service_id):
 
+        # file_path = (
+        #     f"../MMLU/specialists_dataset/"
+        #     f"{self.split}_service_{service_id}.csv"
+        # )
         file_path = (
-            f"../MMLU/specialists_dataset/"
-            f"{self.split}_service_{service_id}.csv"
-        )
+                    f"../MedMCQA/specialists_dataset/"
+                    f"{self.split}_service_{service_id}.csv"
+                )
 
         return pd.read_csv(file_path)
 
@@ -30,7 +34,7 @@ class EvaluationBuilder:
         #     # f"mmlu_{self.split}_external_general.csv"
         #     f"300_general_test.csv"
         # )
-        file_path = f"../general_dataset/general_only_{k}.csv"
+        file_path = f"../general_dataset/general_4.csv"
 
         return pd.read_csv(file_path)
 
@@ -54,7 +58,7 @@ class EvaluationBuilder:
 
         file_path = (
             f"../evaluation_dataset/"
-            f"mmlu_{self.split}_eval_service_{service_id}_prop.csv"
+            f"medmcqa_{self.split}_eval_service_{service_id}_mmlu_general.csv"
         )
 
         df.to_csv(
@@ -89,7 +93,7 @@ if __name__ == "__main__":
         split="test"
     )
 
-    for service_id in SERVICE_SETS.keys():
+    for service_id in MEDMCQA_SERVICE_SETS.keys():
 
         builder.build_and_save(
             service_id

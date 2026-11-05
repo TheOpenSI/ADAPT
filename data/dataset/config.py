@@ -68,6 +68,12 @@ SERVICE_SETS = {
             "high_school_psychology",
             "prehistory", 
         ],
+    # 4:[
+    #     "high_school_us_history",
+    #     "abstract_algebra",
+    #      "business_ethics",
+    #      "marketing"
+    # ]
 
 }
 

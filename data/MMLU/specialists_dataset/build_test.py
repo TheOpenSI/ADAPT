@@ -11,7 +11,7 @@ class MMLUTestBuilder(MMLUBenchmarkBuilderBase):
     def __init__(
         self,
         split="test",
-        per_specialist_subject_cap=100,
+        per_specialist_subject_cap=75,
         # per_general_subject_cap=20,
         random_state=42
     ):
@@ -95,7 +95,8 @@ class MMLUTestBuilder(MMLUBenchmarkBuilderBase):
         Save the final test dataset as CSV and JSON.
         """
 
-        base_path = f"../specialists_dataset/test_service_{service_id}"
+        # base_path = f"../specialists_dataset/test_service_{service_id}"
+        base_path = f"../specialists_dataset/general_{service_id}"
 
         df.to_csv(
             f"{base_path}.csv",

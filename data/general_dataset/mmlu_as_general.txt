@@ -1,0 +1,48 @@
+[1] Full dataset loaded: (14042, 4)
+[1] Number of subjects: 57
+
+============================================================
+BUILDING TEST DATASET
+============================================================
+
+[2] Filtering subjects...
+[2] Specialist subjects:
+['high_school_us_history', 'abstract_algebra', 'business_ethics', 'marketing']
+[2] Filtered dataset shape: (638, 4)
+[2] Original subject counts:
+subject
+marketing                 234
+high_school_us_history    204
+abstract_algebra          100
+business_ethics           100
+Name: count, dtype: int64
+
+[3] Converting subjects to routing labels...
+[3] Expected service counts:
+expected_service
+marketing                 234
+high_school_us_history    204
+abstract_algebra          100
+business_ethics           100
+Name: count, dtype: int64
+
+[4] Sampling specialist services...
+[4] Sampled specialist subject counts:
+subject
+abstract_algebra          75
+business_ethics           75
+high_school_us_history    75
+marketing                 75
+Name: count, dtype: int64
+
+[7] Saved: ../specialists_dataset/general_4.csv
+[7] Saved: ../specialists_dataset/general_4.json
+
+[DONE] test_service_4
+[DONE] Total rows: 300
+expected_service
+abstract_algebra          75
+business_ethics           75
+high_school_us_history    75
+marketing                 75
+Name: count, dtype: int64
