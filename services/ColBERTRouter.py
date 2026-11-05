@@ -91,8 +91,9 @@ class ColBERTRouter(RouterBase):
 
         print("[ColBERTRouter] Encoding service descriptions...")
         self.names = list(self.services.keys())
-        descriptions = list(self.services.values())
-        self.document_embeddings = self.model.encode_document(descriptions)
+        # descriptions = list(self.services.values())
+        # self.document_embeddings = self.model.encode_document(descriptions)
+        self.document_embeddings = None  
 
         print("[ColBERTRouter] Ready to route.")
 
@@ -107,6 +108,9 @@ class ColBERTRouter(RouterBase):
             torch.cuda.synchronize()
 
         start = time.perf_counter()
+
+        if self.document_embeddings is None:          
+            self.document_embeddings = self.model.encode_document(list(self.services.values()))
 
         query_embeddings = self.model.encode_query(query)
         n_query_tokens = query_embeddings.shape[0]

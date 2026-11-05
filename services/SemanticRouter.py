@@ -34,6 +34,8 @@ class SemanticRouter(RouterBase):
 
                  fixed_threshold=None,       # ablation
                  form="log",                 # shape of T(k): "log", "linear" or "sqrt"
+                 
+
 
     ):
 
@@ -84,7 +86,8 @@ class SemanticRouter(RouterBase):
         print(f"[SemanticRouter] Loaded {len(self.services)} services.")
 
         print("[SemanticRouter] Building service embeddings...")
-        self.service_embeddings = self._build_service_embeddings()
+        # self.service_embeddings = self._build_service_embeddings()
+        self.service_embeddings = None 
 
         print("[SemanticRouter] Ready to route.")
 
@@ -127,6 +130,9 @@ class SemanticRouter(RouterBase):
             torch.cuda.synchronize()
 
         start = time.perf_counter()
+
+        if self.service_embeddings is None:                        
+            self.service_embeddings = self._build_service_embeddings()
 
         q_vec = self.model.encode(query)
         
