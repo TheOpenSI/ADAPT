@@ -17,7 +17,7 @@ from services.QueryAnalyser import QueryAnalyser
 
 
 DATA_DIR = os.path.join(BASE_DIR, "data")
-RESULTS_DIR = os.path.join(BASE_DIR, "medmcqa_mmlu_as_general_mmlu_constant") 
+RESULTS_DIR = os.path.join(BASE_DIR, "ablation_run_2nd_time") 
 
 VERBOSE = False
 
@@ -25,19 +25,19 @@ APPLY_GATE = True
 GATE = "gap"    # "gap" or "margin" or "max"
 FORM = "log" 
 
-# CONDITIONS = [3,5,8,10,12,14]
-CONDITIONS = [3,5,7,9]
+CONDITIONS = [3,5,8,10,12,14]
+# CONDITIONS = [3,5,7,9]
 
 
 MODEL_CONFIGS = [
 
     # MMLU constants on medmcqa 
-    dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-8B",   gap_c0=0.04501, gap_c1=0.03210),
-    dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5", gap_c0=0.04144, gap_c1=0.02586), 
-    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B", gap_c0=0.76192, gap_c1=0.57645),
-    dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2", gap_c0=-0.06597, gap_c1=0.18150), 
-    dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT", gap_c0=0.00940, gap_c1=0.01436), 
-    dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M", gap_c0=0.00042, gap_c1=0.00068), 
+    # dict(cls=SemanticRouter,     model_name="Qwen/Qwen3-Embedding-8B",   gap_c0=0.04501, gap_c1=0.03210),
+    # dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5", gap_c0=0.04144, gap_c1=0.02586), 
+    # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B", gap_c0=0.76192, gap_c1=0.57645),
+    # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2", gap_c0=-0.06597, gap_c1=0.18150), 
+    # dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT", gap_c0=0.00940, gap_c1=0.01436), 
+    # dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M", gap_c0=0.00042, gap_c1=0.00068), 
 
 
     # MMLU 
@@ -52,10 +52,10 @@ MODEL_CONFIGS = [
     # dict(cls=ColBERTRouter,      model_name="colbert-ir/colbertv2.0",    gap_c0=0.0369, gap_c1=0.0236),
     # dict(cls=ColBERTRouter,      model_name="mixedbread-ai/mxbai-colbert-large-v1", gap_c0=0.0771, gap_c1=0.0215),
     
-    # dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5", gap_c0=0.0436, gap_c1=0.0163), 
-    # # dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B", gap_c0=0.9332, gap_c1=0.3971),
+    dict(cls=SemanticRouter, model_name="BAAI/bge-large-en-v1.5", gap_c0=0.0436, gap_c1=0.0163), 
+    dict(cls=CrossEncoderRouter, model_name="Qwen/Qwen3-Reranker-4B", gap_c0=0.9332, gap_c1=0.3971),
     # # dict(cls=CrossEncoderRouter, model_name="mixedbread-ai/mxbai-rerank-large-v2", gap_c0=-0.0994, gap_c1=0.1976),  
-    # dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT", gap_c0=0.009360, gap_c1=0.0134), 
+    dict(cls=ColBERTRouter, model_name="lightonai/Reason-ModernColBERT", gap_c0=0.009360, gap_c1=0.0134), 
     # dict(cls=ColBERTRouter, model_name="LiquidAI/LFM2-ColBERT-350M", gap_c0=0.0003873, gap_c1=0.0005357),
     
     
@@ -126,9 +126,10 @@ def run_all():
     succeeded = 0
 
     for k in CONDITIONS:
-        service_desc_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_service_descriptions_{k}.json")
-        dataset_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_test_eval_service_{k}_mmlu_general.csv")
-        # dataset_path = os.path.join(DATA_DIR, "dataset", f"mmlu_test_eval_service_{k}_300.csv")
+        service_desc_path = os.path.join(DATA_DIR, "dataset", f"service_descriptions_{k}.json")
+        # service_desc_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_service_descriptions_{k}.json")
+        # dataset_path = os.path.join(DATA_DIR, "dataset", f"medmcqa_test_eval_service_{k}_mmlu_general.csv")
+        dataset_path = os.path.join(DATA_DIR, "dataset", f"mmlu_test_eval_service_{k}_300.csv")
         # dataset_path = os.path.join(DATA_DIR, "dataset", f"mmlu_test_eval_service_{k}_prop.csv")
         # dataset_path = os.path.join(DATA_DIR, "dataset", f"dummy_general.csv")
         
