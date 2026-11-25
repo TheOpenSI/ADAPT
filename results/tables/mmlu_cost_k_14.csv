@@ -1,0 +1,21 @@
+routing_method,model_name,Acc. K=14 (%),Lat. K=14 (ms),Energy K=14 (mWh)
+bi-encoder,BAAI/bge-large-en-v1.5,69.0,14.38,1.36
+bi-encoder,Qwen/Qwen3-Embedding-0.6B,62.18,29.33,1.91
+bi-encoder,Qwen/Qwen3-Embedding-4B,54.76,37.58,2.51
+bi-encoder,Qwen/Qwen3-Embedding-8B,63.06,37.43,2.91
+bi-encoder,sentence-transformers/all-MiniLM-L6-v2,66.82,4.94,0.8
+colbert,LiquidAI/LFM2-ColBERT-350M,69.59,14.77,1.27
+colbert,colbert-ir/colbertv2.0,50.47,9.56,0.91
+colbert,lightonai/Reason-ModernColBERT,72.35,16.3,1.46
+colbert,mixedbread-ai/mxbai-colbert-large-v1,56.94,16.35,1.45
+cross-encoder,BAAI/bge-reranker-v2-m3,59.71,75.32,8.77
+cross-encoder,Qwen/Qwen3-Reranker-0.6B,70.35,40.96,4.43
+cross-encoder,Qwen/Qwen3-Reranker-4B,81.35,142.35,15.12
+cross-encoder,Qwen/Qwen3-Reranker-8B,82.47,219.22,23.82
+cross-encoder,mixedbread-ai/mxbai-rerank-large-v2,74.71,59.53,6.37
+llm,llama3.1:8b,66.18,54.32,5.15
+llm,phi4:14b,79.47,78.75,11.44
+llm,qwen2.5:14b,77.47,93.84,9.6
+llm,qwen2.5:32b,79.76,150.95,16.21
+llm,qwen2.5:7b,54.88,51.52,4.86
+llm,qwen3:32b,86.88,6512.12,754.64
