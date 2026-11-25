@@ -1,0 +1,9 @@
+,,K=3,K=3,K=3,K=9,K=9,K=9
+,,Acc.,Spec.,Gen.,Acc.,Spec.,Gen.
+routing_method,model_name,,,,,,
+bi-encoder,BAAI/bge-large-en-v1.5,72.71,33.89,96.0,58.57,35.93,99.33
+bi-encoder,Qwen/Qwen3-Embedding-8B,65.83,47.22,77.0,61.43,42.78,95.0
+colbert,LiquidAI/LFM2-ColBERT-350M,72.92,58.33,81.67,62.5,54.26,77.33
+colbert,lightonai/Reason-ModernColBERT,63.33,52.22,70.0,62.5,55.93,74.33
+cross-encoder,Qwen/Qwen3-Reranker-4B,62.29,66.67,59.67,70.36,65.56,79.0
+cross-encoder,mixedbread-ai/mxbai-rerank-large-v2,80.42,65.56,89.33,73.33,62.78,92.33

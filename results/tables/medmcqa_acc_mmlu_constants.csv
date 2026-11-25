@@ -1,0 +1,7 @@
+routing_method,model_name,3,5,7,9
+bi-encoder,Qwen/Qwen3-Embedding-8B,65.83,65.17,61.81,61.43
+bi-encoder,BAAI/bge-large-en-v1.5,72.71,67.5,61.39,58.57
+colbert,LiquidAI/LFM2-ColBERT-350M,72.92,70.67,63.33,62.5
+colbert,lightonai/Reason-ModernColBERT,63.33,64.33,61.67,62.5
+cross-encoder,mixedbread-ai/mxbai-rerank-large-v2,80.42,80.0,74.17,73.33
+cross-encoder,Qwen/Qwen3-Reranker-4B,62.29,69.83,68.89,70.36
